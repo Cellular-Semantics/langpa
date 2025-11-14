@@ -10,6 +10,8 @@ load_dotenv()
 
 # Import will be mocked in unit tests
 from deep_research_client import DeepResearchClient  # type: ignore
+from langpa.schemas import load_schema
+import json
 
 
 class DeepSearchService:
@@ -52,39 +54,38 @@ class DeepSearchService:
     def _construct_prompt(self, genes: List[str], context: str) -> str:
         """Construct the research prompt for gene list analysis.
 
-        Based on the prompt template from cellsem-agent for contextual gene analysis.
+        Uses exact cellsem-agent template with embedded schema for JSON output.
 
         Args:
             genes: List of gene symbols to analyze
             context: Biological context for the analysis
 
         Returns:
-            Formatted prompt for DeepSearch API
+            Formatted prompt for DeepSearch API with embedded schema
         """
         genes_str = ", ".join(genes)
 
-        prompt = f"""Perform a comprehensive literature-based functional analysis of the gene list: {genes_str}
+        prompt = f"""Perform comprehensive literature analysis for the following gene list in the specified biological context.
 
-Biological Context: {context}
+**Gene List**: {genes_str}
 
-Analysis Requirements:
-1. Search scientific literature for each gene's functional roles and interactions
-2. Identify gene clusters or programs - groups of genes acting together in pathways, processes, or cellular states
-3. For each program identified, predict functional implications in the specified biological context
-4. Prioritize well-established functions with strong literature support
-5. Highlight emerging evidence if contextually relevant
-6. Rank predictions higher when:
-   - Multiple genes from the input list act in the same process
-   - Most/all required pathway components are present
+**Biological Context**: {context}
 
-Analysis Strategy:
-- Anchor predictions in normal physiology or disease-specific alterations as appropriate for the context
-- Connect gene-level roles to program-level implications
-- Consider gene interactions and regulatory networks
-- Highlight collective evidence that supports coordinated gene function
-- Ensure all claims are backed by experimental evidence
+**Analysis Strategy**:
+1. Search current scientific literature for functional roles of each gene in the input list
+2. Identify clusters of genes that act together in pathways, processes, or cellular states
+3. Treat each cluster as a potential gene program within the list
+4. Interpret findings in light of both normal physiological roles and disease-specific alterations
+5. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant
 
-Please provide a systematic analysis that identifies biological programs and their predicted cellular impacts within the given context. Focus on evidence-based interpretation of how these genes work together to influence cellular behavior."""
+**Guidelines**:
+* Anchor all predictions in either the normal physiology and development of the cell type and tissue specified in the context OR the alterations and dysregulations characteristic of the specified disease
+* Connect gene-level roles to program-level implications
+* Consider gene interactions, regulatory networks, and pathway dynamics
+* Highlight cases where multiple genes collectively strengthen evidence
+* Ensure all claims are backed by experimental evidence with proper attribution
+
+Provide a structured analysis identifying biological programs and their predicted cellular impacts within the given context."""
 
         return prompt
 
@@ -92,7 +93,8 @@ Please provide a systematic analysis that identifies biological programs and the
         self,
         genes: List[str],
         context: str,
-        provider: Optional[str] = None
+        provider: Optional[str] = None,
+        timeout: int = 180
     ) -> Any:
         """Perform contextual research analysis of a gene list.
 
@@ -100,6 +102,7 @@ Please provide a systematic analysis that identifies biological programs and the
             genes: List of gene symbols to analyze (e.g., ["TP53", "BRCA1"])
             context: Biological context for analysis (e.g., "cancer", "tumor suppressor genes")
             provider: Optional override for research provider
+            timeout: Timeout in seconds for the API call (default 180s)
 
         Returns:
             ResearchResult object with content and citations
@@ -122,10 +125,35 @@ Please provide a systematic analysis that identifies biological programs and the
         research_provider = provider or self._get_provider()
 
         try:
-            # Perform research
+            # Load schema for response_format
+            schema = load_schema("deepsearch_results_schema.json")
+
+            # Try Option 2: Use sonar-reasoning-pro with enhanced parameters
             result = self.client.research(
                 query=prompt,
-                provider=research_provider
+                provider=research_provider,
+                model="sonar-reasoning-pro",  # Different model for better JSON compliance
+                provider_params={
+                    "return_citations": True,
+                    "search_domain_filter": [
+                        "pubmed.ncbi.nlm.nih.gov",
+                        "ncbi.nlm.nih.gov/pmc/",
+                        "www.ncbi.nlm.nih.gov",
+                        "europepmc.org",
+                        "biorxiv.org",
+                        "nature.com",
+                        "cell.com",
+                        "science.org"
+                    ],
+                    "reasoning_effort": "high",  # Increase reasoning depth
+                    "search_recency_filter": "month",  # Focus on recent research
+                    "system_prompt": f"""You are an expert biologist. Analyze the provided genes in the given biological context.
+
+CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
+{json.dumps(schema, indent=2)}
+
+Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure."""
+                }
             )
             return result
 
