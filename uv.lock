@@ -1679,6 +1679,14 @@ dev = [
     { name = "sphinx-autodoc-typehints" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "mypy" },
+    { name = "pytest" },
+    { name = "pytest-cov" },
+    { name = "ruff" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "cellsem-llm-client", git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=main" },
@@ -1697,6 +1705,14 @@ requires-dist = [
     { name = "sphinx-autodoc-typehints", marker = "extra == 'dev'", specifier = ">=1.25.0" },
 ]
 provides-extras = ["dev"]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "mypy", specifier = ">=1.10.0" },
+    { name = "pytest", specifier = ">=9.0.1" },
+    { name = "pytest-cov", specifier = ">=4.1.0" },
+    { name = "ruff", specifier = ">=0.5.0" },
+]
 
 [[package]]
 name = "ldp"

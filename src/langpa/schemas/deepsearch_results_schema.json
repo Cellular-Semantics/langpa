@@ -42,12 +42,11 @@
         "citation": {
             "type": "object",
             "required": [
-                "url"
+                "source_id"
             ],
             "properties": {
-                "url": {
-                    "type": "string",
-                    "description": "PMID, DOI, or URL that supports the claim"
+                "source_id": {
+                    "type": "string"
                 },
                 "notes": {
                     "type": "string",

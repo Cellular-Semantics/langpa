@@ -12,7 +12,7 @@ def main() -> None:
     build_dir = docs_dir / "_build"
     build_dir.mkdir(parents=True, exist_ok=True)
 
-    cmd = ["sphinx-build", str(docs_dir), str(build_dir), "-W"]
+    cmd = ["uv", "run", "sphinx-build", str(docs_dir), str(build_dir), "-W"]
     subprocess.run(cmd, check=True)
 
 

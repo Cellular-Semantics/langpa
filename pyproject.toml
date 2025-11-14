@@ -64,3 +64,11 @@ source = ["src/langpa"]
 
 [tool.uv]
 managed = true
+
+[dependency-groups]
+dev = [
+    "mypy>=1.10.0",
+    "pytest>=9.0.1",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.5.0",
+]
