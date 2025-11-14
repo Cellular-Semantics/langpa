@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+
 import pytest
 from dotenv import load_dotenv
 
@@ -51,13 +52,12 @@ def test_deepsearch_basic_connectivity() -> None:
 
     # This should return a ResearchResult object
     response = client.research(
-        query=f"What is the {test_genes[0]} gene role in {test_context}?",
-        provider=provider
+        query=f"What is the {test_genes[0]} gene role in {test_context}?", provider=provider
     )
 
     assert response is not None
     # Check if response has expected attributes (ResearchResult object)
-    assert hasattr(response, 'content'), "Response should have content attribute"
+    assert hasattr(response, "content"), "Response should have content attribute"
     assert isinstance(response.content, str), "Response content should be string"
     assert len(response.content) > 0, "Response content should not be empty"
 
@@ -72,10 +72,7 @@ def test_deepsearch_response_format() -> None:
     provider = "perplexity" if "perplexity" in providers else providers[0]
 
     # Test with a simple gene that should have good literature coverage
-    response = client.research(
-        query="What is the TP53 gene function in cancer?",
-        provider=provider
-    )
+    response = client.research(query="What is the TP53 gene function in cancer?", provider=provider)
 
     # Verify response structure
     content = response.content
@@ -83,17 +80,17 @@ def test_deepsearch_response_format() -> None:
     assert len(content) > 100, "Response should be substantial"
 
     # Check if response has citations (ResearchResult should have citations)
-    if hasattr(response, 'citations'):
+    if hasattr(response, "citations"):
         assert response.citations is not None, "Response should have citations"
         assert len(response.citations) > 0, "Should have at least some citations"
 
     # Look for common patterns that indicate research content
     content_lower = content.lower()
-    research_indicators = [
-        "gene", "protein", "function", "cancer", "tumor", "suppressor"
-    ]
+    research_indicators = ["gene", "protein", "function", "cancer", "tumor", "suppressor"]
     found_indicators = sum(1 for indicator in research_indicators if indicator in content_lower)
-    assert found_indicators >= 2, f"Response should contain research content about genes. Found: {found_indicators}"
+    assert found_indicators >= 2, (
+        f"Response should contain research content about genes. Found: {found_indicators}"
+    )
 
 
 @pytest.mark.integration
@@ -112,7 +109,9 @@ def test_deepsearch_error_handling() -> None:
         if response and response.content:
             content = response.content.lower()
             # Some APIs might return content explaining the issue
-            assert len(content) == 0 or any(term in content for term in ["error", "invalid", "empty"])
+            assert len(content) == 0 or any(
+                term in content for term in ["error", "invalid", "empty"]
+            )
     except Exception as e:
         # API client should raise appropriate exceptions for invalid input
         error_msg = str(e).lower()

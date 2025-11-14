@@ -2,22 +2,25 @@
 
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional
+from typing import Any
+
 from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
 
 # Import will be mocked in unit tests
-from deep_research_client import DeepResearchClient  # type: ignore
-from langpa.schemas import load_schema
 import json
+
+from deep_research_client import DeepResearchClient  # type: ignore
+
+from langpa.schemas import load_schema
 
 
 class DeepSearchService:
     """Service for performing contextual gene list analysis using DeepSearch/Perplexity."""
 
-    def __init__(self, preferred_provider: Optional[str] = None) -> None:
+    def __init__(self, preferred_provider: str | None = None) -> None:
         """Initialize the DeepSearch service.
 
         Args:
@@ -26,10 +29,10 @@ class DeepSearchService:
         """
         self.client = DeepResearchClient()
         self.preferred_provider = preferred_provider
-        self._available_providers: Optional[List[str]] = None
+        self._available_providers: list[str] | None = None
 
     @property
-    def available_providers(self) -> List[str]:
+    def available_providers(self) -> list[str]:
         """Get list of available research providers."""
         if self._available_providers is None:
             self._available_providers = self.client.get_available_providers()
@@ -51,7 +54,7 @@ class DeepSearchService:
 
         return providers[0]
 
-    def _construct_prompt(self, genes: List[str], context: str) -> str:
+    def _construct_prompt(self, genes: list[str], context: str) -> str:
         """Construct the research prompt for gene list analysis.
 
         Uses exact cellsem-agent template with embedded schema for JSON output.
@@ -90,11 +93,7 @@ Provide a structured analysis identifying biological programs and their predicte
         return prompt
 
     def research_gene_list(
-        self,
-        genes: List[str],
-        context: str,
-        provider: Optional[str] = None,
-        timeout: int = 180
+        self, genes: list[str], context: str, provider: str | None = None, timeout: int = 180
     ) -> Any:
         """Perform contextual research analysis of a gene list.
 
@@ -143,7 +142,7 @@ Provide a structured analysis identifying biological programs and their predicte
                         "biorxiv.org",
                         "nature.com",
                         "cell.com",
-                        "science.org"
+                        "science.org",
                     ],
                     "reasoning_effort": "high",  # Increase reasoning depth
                     "search_recency_filter": "month",  # Focus on recent research
@@ -152,8 +151,8 @@ Provide a structured analysis identifying biological programs and their predicte
 CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
 {json.dumps(schema, indent=2)}
 
-Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure."""
-                }
+Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure.""",
+                },
             )
             return result
 

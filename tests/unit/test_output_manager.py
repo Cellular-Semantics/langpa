@@ -3,18 +3,18 @@
 from __future__ import annotations
 
 import json
-import os
 import sys
 import tempfile
-from datetime import datetime
 from pathlib import Path
-from unittest.mock import Mock, patch, MagicMock
+from unittest.mock import MagicMock, Mock
+
 import pytest
 
 # Mock deep_research_client for import issues
 mock_deep_research_client = MagicMock()
 mock_deep_research_client.DeepResearchClient = Mock
-sys.modules['deep_research_client'] = mock_deep_research_client
+sys.modules["deep_research_client"] = mock_deep_research_client
+
 
 # Mock ResearchResult for testing
 class MockResearchResult:
@@ -30,6 +30,7 @@ def test_output_manager_import() -> None:
     """Test that output manager can be imported."""
     try:
         from langpa.services.output_manager import OutputManager
+
         assert OutputManager is not None
     except ImportError as e:
         pytest.fail(f"OutputManager should be importable: {e}")
@@ -70,7 +71,7 @@ def test_save_raw_response() -> None:
         # Mock research result
         result = MockResearchResult(
             markdown="# Test Analysis\n\nSome analysis content",
-            citations=["https://pubmed.ncbi.nlm.nih.gov/123456"]
+            citations=["https://pubmed.ncbi.nlm.nih.gov/123456"],
         )
 
         genes = ["TP53", "BRCA1"]
@@ -104,7 +105,7 @@ def test_extract_json_from_markdown() -> None:
         manager = OutputManager(output_dir=temp_dir)
 
         # Test markdown with embedded JSON
-        markdown_with_json = '''
+        markdown_with_json = """
 # Analysis
 
 Some text before JSON
@@ -121,7 +122,7 @@ Some text before JSON
 ```
 
 Some text after JSON
-        '''
+        """
 
         extracted_json = manager.extract_json_from_markdown(markdown_with_json)
 
@@ -139,14 +140,14 @@ def test_extract_json_handles_malformed() -> None:
         manager = OutputManager(output_dir=temp_dir)
 
         # Test with malformed JSON
-        malformed_markdown = '''
+        malformed_markdown = """
 ```json
 {
   "context": {
     "cell_type": "neural"
     // missing comma and closing brace
 ```
-        '''
+        """
 
         extracted_json = manager.extract_json_from_markdown(malformed_markdown)
         assert extracted_json is None
@@ -165,7 +166,7 @@ def test_validate_against_schema() -> None:
             "context": {
                 "cell_type": "neural stem cells",
                 "disease": "neurodevelopmental disorders",
-                "tissue": "brain"
+                "tissue": "brain",
             },
             "input_genes": ["TP53", "BRCA1"],
             "programs": [
@@ -175,11 +176,16 @@ def test_validate_against_schema() -> None:
                     "predicted_cellular_impact": ["test impact"],
                     "evidence_summary": "test evidence",
                     "significance_score": 0.8,
-                    "citations": [{"source_id": "PMID:12345678", "notes": "Supporting evidence for test program"}],
-                    "supporting_genes": ["TP53"]
+                    "citations": [
+                        {
+                            "source_id": "PMID:12345678",
+                            "notes": "Supporting evidence for test program",
+                        }
+                    ],
+                    "supporting_genes": ["TP53"],
                 }
             ],
-            "version": "1.0"
+            "version": "1.0",
         }
 
         is_valid, error_msg = manager.validate_against_schema(valid_json)
@@ -198,7 +204,7 @@ def test_validate_rejects_invalid_schema() -> None:
         # Invalid JSON missing required fields
         invalid_json = {
             "context": {"cell_type": "neural", "disease": ""},
-            "input_genes": ["TP53"]
+            "input_genes": ["TP53"],
             # Missing required 'programs' and 'version'
         }
 
