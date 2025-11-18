@@ -196,7 +196,7 @@ class OutputManager:
         Returns:
             Dictionary with processing results including validation status
         """
-        processing_result = {
+        processing_result: dict[str, Any] = {
             "success": False,
             "json_extracted": False,
             "schema_valid": False,
