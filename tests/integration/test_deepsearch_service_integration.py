@@ -98,8 +98,8 @@ def test_deepsearch_service_backward_compatibility() -> None:
     assert service.preferred_provider == provider  # Backward compatibility attribute
 
     # Test real API call
-    genes = ["BRCA1"]
-    context = "breast cancer"
+    genes = ["ILRUN"]
+    context = "immune system"
 
     try:
         result = service.research_gene_list(genes=genes, context=context)
@@ -113,7 +113,7 @@ def test_deepsearch_service_backward_compatibility() -> None:
 
         # Verify gene mentioned in response
         content_lower = content.lower()
-        assert "brca1" in content_lower or "brca" in content_lower
+        assert "ILRUN" in content_lower
 
     except Exception as e:
         pytest.fail(f"Backward compatibility test failed: {str(e)}")
@@ -150,8 +150,8 @@ def test_deepsearch_service_preset_configuration_applied() -> None:
     assert "nature.com" in domain_filter
 
     # Test with actual API call to verify these settings work
-    genes = ["MYC"]
-    context = "oncogene cancer"
+    genes = ["ILRUN"]
+    context = "immune system"
 
     try:
         result = service.research_gene_list(genes=genes, context=context)
@@ -187,8 +187,8 @@ def test_deepsearch_service_preset_override() -> None:
     service = DeepSearchService(preset="perplexity-sonar-pro")
 
     # Test provider override (if multiple providers available)
-    genes = ["EGFR"]
-    context = "receptor cancer"
+    genes = ["ILRUN"]
+    context = "immune system"
 
     try:
         # Use preset configuration
@@ -237,8 +237,8 @@ def test_deepsearch_service_constructor_overrides() -> None:
     assert service.config.provider == "perplexity"
 
     # Test real API call with overridden configuration
-    genes = ["CDK2"]
-    context = "cell cycle"
+    genes = ["ILRUN"]
+    context = "immune system"
 
     try:
         result = service.research_gene_list(genes=genes, context=context)
@@ -251,7 +251,7 @@ def test_deepsearch_service_constructor_overrides() -> None:
 
         # Should mention the gene
         content_lower = content.lower()
-        assert "cdk2" in content_lower or "cyclin" in content_lower
+        assert "ILRUN" in content_lower
 
     except Exception as e:
         pytest.fail(f"Constructor override test failed: {str(e)}")
@@ -278,7 +278,7 @@ def test_deepsearch_service_preset_error_handling() -> None:
 
     # Test with empty context
     with pytest.raises(ValueError) as exc_info:
-        service.research_gene_list(genes=["TP53"], context="")
+        service.research_gene_list(genes=["ILRUN"], context="")
 
     assert "context" in str(exc_info.value).lower()
 

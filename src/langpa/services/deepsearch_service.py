@@ -21,6 +21,10 @@ from langpa.services.deepsearch_configs import (
     list_available_presets,
     merge_config_overrides,
 )
+from langpa.services.deepsearch_prompts import (
+    format_prompt_template,
+    list_available_templates,
+)
 
 
 class DeepSearchService:
@@ -83,6 +87,15 @@ class DeepSearchService:
         """
         return get_preset_config(preset_name)
 
+    @classmethod
+    def get_available_templates(cls) -> dict[str, str]:
+        """Get list of available prompt templates.
+
+        Returns:
+            Dictionary mapping template names to their descriptions
+        """
+        return list_available_templates()
+
     @property
     def available_providers(self) -> list[str]:
         """Get list of available research providers."""
@@ -106,46 +119,28 @@ class DeepSearchService:
 
         return providers[0]
 
-    def _construct_prompt(self, genes: list[str], context: str) -> str:
+    def _construct_prompt(self, genes: list[str], context: str, template_override: str | None = None) -> str:
         """Construct the research prompt for gene list analysis.
 
-        Uses exact cellsem-agent template with embedded schema for JSON output.
+        Uses configurable prompt templates for different analysis approaches.
 
         Args:
             genes: List of gene symbols to analyze
             context: Biological context for the analysis
+            template_override: Optional template name to override config default
 
         Returns:
-            Formatted prompt for DeepSearch API with embedded schema
+            Formatted prompt for DeepSearch API
         """
-        genes_str = ", ".join(genes)
+        # Determine which template to use
+        template_name = template_override or self.config.prompt_template
 
-        prompt = f"""Perform comprehensive literature analysis for the following gene list in the specified biological context.
-
-**Gene List**: {genes_str}
-
-**Biological Context**: {context}
-
-**Analysis Strategy**:
-1. Search current scientific literature for functional roles of each gene in the input list
-2. Identify clusters of genes that act together in pathways, processes, or cellular states
-3. Treat each cluster as a potential gene program within the list
-4. Interpret findings in light of both normal physiological roles and disease-specific alterations
-5. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant
-
-**Guidelines**:
-* Anchor all predictions in either the normal physiology and development of the cell type and tissue specified in the context OR the alterations and dysregulations characteristic of the specified disease
-* Connect gene-level roles to program-level implications
-* Consider gene interactions, regulatory networks, and pathway dynamics
-* Highlight cases where multiple genes collectively strengthen evidence
-* Ensure all claims are backed by experimental evidence with proper attribution
-
-Provide a structured analysis identifying biological programs and their predicted cellular impacts within the given context."""
-
-        return prompt
+        # Format the prompt using the template system
+        return format_prompt_template(template_name, genes, context)
 
     def research_gene_list(
-        self, genes: list[str], context: str, provider: str | None = None, timeout: int = 180
+        self, genes: list[str], context: str, provider: str | None = None, timeout: int = 180,
+        custom_prompt: str | None = None, prompt_template: str | None = None
     ) -> Any:
         """Perform contextual research analysis of a gene list.
 
@@ -154,6 +149,8 @@ Provide a structured analysis identifying biological programs and their predicte
             context: Biological context for analysis (e.g., "cancer", "tumor suppressor genes")
             provider: Optional override for research provider
             timeout: Timeout in seconds for the API call (default 180s)
+            custom_prompt: Optional custom prompt to use instead of templates
+            prompt_template: Optional template name to override config default
 
         Returns:
             ResearchResult object with content and citations
@@ -170,7 +167,12 @@ Provide a structured analysis identifying biological programs and their predicte
             raise ValueError("Context cannot be empty")
 
         # Construct research query
-        prompt = self._construct_prompt(genes, context)
+        if custom_prompt:
+            # Use custom prompt directly
+            prompt = custom_prompt
+        else:
+            # Use template system
+            prompt = self._construct_prompt(genes, context, template_override=prompt_template)
 
         # Determine provider (support both new preset system and backward compatibility)
         research_provider = provider or self.config.provider
