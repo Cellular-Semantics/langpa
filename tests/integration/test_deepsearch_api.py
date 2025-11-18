@@ -19,7 +19,8 @@ def test_deepsearch_api_keys_present() -> None:
     openai_key = os.getenv("OPENAI_API_KEY")
 
     assert perplexity_key or openai_key, (
-        "Missing API keys: need either PERPLEXITY_API_KEY or OPENAI_API_KEY for DeepSearch integration"
+        "Missing API keys: need either PERPLEXITY_API_KEY or OPENAI_API_KEY "
+        "for DeepSearch integration"
     )
 
 
@@ -27,7 +28,9 @@ def test_deepsearch_api_keys_present() -> None:
 def test_deepsearch_client_import() -> None:
     """Verify we can import the DeepSearch client dependency."""
     try:
-        from deep_research_client import DeepResearchClient  # type: ignore
+        import deep_research_client  # type: ignore
+
+        assert deep_research_client is not None
     except ImportError as e:
         pytest.fail(f"Cannot import DeepResearchClient: {e}")
 
@@ -72,7 +75,9 @@ def test_deepsearch_response_format() -> None:
     provider = "perplexity" if "perplexity" in providers else providers[0]
 
     # Test with a simple gene that should have good literature coverage
-    response = client.research(query="What is the TP53 gene function in cancer?", provider=provider)
+    response = client.research(
+        query="What is function of the ILRUN gene in the immune system?", provider=provider
+    )
 
     # Verify response structure
     content = response.content
@@ -86,7 +91,7 @@ def test_deepsearch_response_format() -> None:
 
     # Look for common patterns that indicate research content
     content_lower = content.lower()
-    research_indicators = ["gene", "protein", "function", "cancer", "tumor", "suppressor"]
+    research_indicators = ["interferon", "antiviral", "lipid", "lipoprotein", "RAAS"]
     found_indicators = sum(1 for indicator in research_indicators if indicator in content_lower)
     assert found_indicators >= 2, (
         f"Response should contain research content about genes. Found: {found_indicators}"

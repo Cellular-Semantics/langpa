@@ -2,34 +2,96 @@
 
 from __future__ import annotations
 
+import json
 from typing import Any
 
+from deep_research_client import DeepResearchClient  # type: ignore
 from dotenv import load_dotenv
+
+from langpa.schemas import load_schema
+from langpa.services.deepsearch_configs import (
+    DeepSearchConfig,
+    get_preset_config,
+    list_available_presets,
+    merge_config_overrides,
+)
+from langpa.services.deepsearch_prompts import (
+    format_prompt_template,
+    list_available_templates,
+)
 
 # Load environment variables
 load_dotenv()
-
-# Import will be mocked in unit tests
-import json
-
-from deep_research_client import DeepResearchClient  # type: ignore
-
-from langpa.schemas import load_schema
 
 
 class DeepSearchService:
     """Service for performing contextual gene list analysis using DeepSearch/Perplexity."""
 
-    def __init__(self, preferred_provider: str | None = None) -> None:
+    def __init__(
+        self,
+        preferred_provider: str | None = None,
+        preset: str | None = None,
+        **config_overrides: Any,
+    ) -> None:
         """Initialize the DeepSearch service.
 
         Args:
             preferred_provider: Preferred research provider (e.g., 'perplexity', 'openai')
-                               If None, uses first available provider.
+                               If None, uses first available provider. (Backward compatibility)
+            preset: Configuration preset name (e.g., 'perplexity-sonar-pro')
+                   If None, uses 'perplexity-sonar-pro' as default
+            **config_overrides: Override specific configuration fields
         """
         self.client = DeepResearchClient()
+
+        # Load configuration (preset takes precedence over preferred_provider for new pattern)
+        if preset is not None:
+            self.config = get_preset_config(preset)
+            if config_overrides:
+                self.config = merge_config_overrides(self.config, config_overrides)
+        else:
+            # Backward compatibility: use preferred_provider with default preset
+            self.config = get_preset_config("perplexity-sonar-pro")
+            if preferred_provider:
+                # Override provider in default config for backward compatibility
+                self.config = merge_config_overrides(self.config, {"provider": preferred_provider})
+
+        # Keep old attributes for backward compatibility
         self.preferred_provider = preferred_provider
         self._available_providers: list[str] | None = None
+
+    @classmethod
+    def get_available_presets(cls) -> dict[str, str]:
+        """Get list of available configuration presets.
+
+        Returns:
+            Dictionary mapping preset names to their descriptions
+        """
+        return list_available_presets()
+
+    @classmethod
+    def get_preset_config(cls, preset_name: str) -> DeepSearchConfig:
+        """Get a specific preset configuration.
+
+        Args:
+            preset_name: Name of the preset to retrieve
+
+        Returns:
+            DeepSearchConfig object for the preset
+
+        Raises:
+            ValueError: If preset_name is not found
+        """
+        return get_preset_config(preset_name)
+
+    @classmethod
+    def get_available_templates(cls) -> dict[str, str]:
+        """Get list of available prompt templates.
+
+        Returns:
+            Dictionary mapping template names to their descriptions
+        """
+        return list_available_templates()
 
     @property
     def available_providers(self) -> list[str]:
@@ -54,46 +116,35 @@ class DeepSearchService:
 
         return providers[0]
 
-    def _construct_prompt(self, genes: list[str], context: str) -> str:
+    def _construct_prompt(
+        self, genes: list[str], context: str, template_override: str | None = None
+    ) -> str:
         """Construct the research prompt for gene list analysis.
 
-        Uses exact cellsem-agent template with embedded schema for JSON output.
+        Uses configurable prompt templates for different analysis approaches.
 
         Args:
             genes: List of gene symbols to analyze
             context: Biological context for the analysis
+            template_override: Optional template name to override config default
 
         Returns:
-            Formatted prompt for DeepSearch API with embedded schema
+            Formatted prompt for DeepSearch API
         """
-        genes_str = ", ".join(genes)
+        # Determine which template to use
+        template_name = template_override or self.config.prompt_template
 
-        prompt = f"""Perform comprehensive literature analysis for the following gene list in the specified biological context.
-
-**Gene List**: {genes_str}
-
-**Biological Context**: {context}
-
-**Analysis Strategy**:
-1. Search current scientific literature for functional roles of each gene in the input list
-2. Identify clusters of genes that act together in pathways, processes, or cellular states
-3. Treat each cluster as a potential gene program within the list
-4. Interpret findings in light of both normal physiological roles and disease-specific alterations
-5. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant
-
-**Guidelines**:
-* Anchor all predictions in either the normal physiology and development of the cell type and tissue specified in the context OR the alterations and dysregulations characteristic of the specified disease
-* Connect gene-level roles to program-level implications
-* Consider gene interactions, regulatory networks, and pathway dynamics
-* Highlight cases where multiple genes collectively strengthen evidence
-* Ensure all claims are backed by experimental evidence with proper attribution
-
-Provide a structured analysis identifying biological programs and their predicted cellular impacts within the given context."""
-
-        return prompt
+        # Format the prompt using the template system
+        return format_prompt_template(template_name, genes, context)
 
     def research_gene_list(
-        self, genes: list[str], context: str, provider: str | None = None, timeout: int = 180
+        self,
+        genes: list[str],
+        context: str,
+        provider: str | None = None,
+        timeout: int = 180,
+        custom_prompt: str | None = None,
+        prompt_template: str | None = None,
     ) -> Any:
         """Perform contextual research analysis of a gene list.
 
@@ -102,6 +153,8 @@ Provide a structured analysis identifying biological programs and their predicte
             context: Biological context for analysis (e.g., "cancer", "tumor suppressor genes")
             provider: Optional override for research provider
             timeout: Timeout in seconds for the API call (default 180s)
+            custom_prompt: Optional custom prompt to use instead of templates
+            prompt_template: Optional template name to override config default
 
         Returns:
             ResearchResult object with content and citations
@@ -118,41 +171,43 @@ Provide a structured analysis identifying biological programs and their predicte
             raise ValueError("Context cannot be empty")
 
         # Construct research query
-        prompt = self._construct_prompt(genes, context)
+        if custom_prompt:
+            # Use custom prompt directly
+            prompt = custom_prompt
+        else:
+            # Use template system
+            prompt = self._construct_prompt(genes, context, template_override=prompt_template)
 
-        # Determine provider
-        research_provider = provider or self._get_provider()
+        # Determine provider (support both new preset system and backward compatibility)
+        research_provider = provider or self.config.provider
+
+        # Use timeout from config or method parameter (method parameter takes precedence)
+        # Note: timeout parameter is used for backward compatibility but not currently applied
 
         try:
             # Load schema for response_format
             schema = load_schema("deepsearch_results_schema.json")
 
-            # Try Option 2: Use sonar-reasoning-pro with enhanced parameters
-            result = self.client.research(
-                query=prompt,
-                provider=research_provider,
-                model="sonar-reasoning-pro",  # Different model for better JSON compliance
-                provider_params={
-                    "return_citations": True,
-                    "search_domain_filter": [
-                        "pubmed.ncbi.nlm.nih.gov",
-                        "ncbi.nlm.nih.gov/pmc/",
-                        "www.ncbi.nlm.nih.gov",
-                        "europepmc.org",
-                        "biorxiv.org",
-                        "nature.com",
-                        "cell.com",
-                        "science.org",
-                    ],
-                    "reasoning_effort": "high",  # Increase reasoning depth
-                    "search_recency_filter": "month",  # Focus on recent research
-                    "system_prompt": f"""You are an expert biologist. Analyze the provided genes in the given biological context.
+            # Prepare provider params from config
+            provider_params = dict(self.config.provider_params)  # Copy to avoid modifying original
+
+            # Set system_prompt with JSON schema (overwrites any preset system_prompt)
+            provider_params[
+                "system_prompt"
+            ] = f"""You are an expert biologist. Analyze the provided genes in the given biological
+context.
 
 CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
 {json.dumps(schema, indent=2)}
 
-Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure.""",
-                },
+Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure."""
+
+            # Use configuration-driven research call
+            result = self.client.research(
+                query=prompt,
+                provider=research_provider,
+                model=self.config.model,
+                provider_params=provider_params,
             )
             return result
 

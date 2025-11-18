@@ -56,7 +56,7 @@ def test_output_manager_creates_directory() -> None:
         output_path = Path(temp_dir) / "outputs"
         assert not output_path.exists()
 
-        manager = OutputManager(output_dir=str(output_path))
+        OutputManager(output_dir=str(output_path))
         assert output_path.exists()
 
 

@@ -12,9 +12,11 @@ deep-research-client limitations we encountered earlier.
 
 import json
 import os
+import sys
 import time
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Any
+
 import requests
 from dotenv import load_dotenv
 
@@ -22,17 +24,16 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Add src to path for imports
-import sys
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from langpa.schemas import load_schema
-from langpa.services.deepsearch_service import DeepSearchService
+from langpa.schemas import load_schema  # noqa: E402
+from langpa.services.deepsearch_service import DeepSearchService  # noqa: E402
 
 
 class DirectAPITester:
     """Test direct Perplexity API calls with response_format parameter."""
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.api_key = os.getenv("PERPLEXITY_API_KEY")
         if not self.api_key:
             raise ValueError("PERPLEXITY_API_KEY not found in environment")
@@ -40,7 +41,7 @@ class DirectAPITester:
         self.base_url = "https://api.perplexity.ai/chat/completions"
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
         }
 
         # Load our deepsearch schema for response_format
@@ -50,7 +51,8 @@ class DirectAPITester:
         """Create the research prompt for gene list analysis."""
         genes_str = ", ".join(genes)
 
-        return f"""Perform comprehensive literature analysis for the following gene list in the specified biological context.
+        return f"""Perform comprehensive literature analysis for the following gene list in the
+specified biological context.
 
 **Gene List**: {genes_str}
 
@@ -61,20 +63,25 @@ class DirectAPITester:
 2. Identify clusters of genes that act together in pathways, processes, or cellular states
 3. Treat each cluster as a potential gene program within the list
 4. Interpret findings in light of both normal physiological roles and disease-specific alterations
-5. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant
+5. Prioritize well-established functions with strong literature support, but highlight emerging
+   evidence if contextually relevant
 
 **Guidelines**:
-* Anchor all predictions in either the normal physiology and development of the cell type and tissue specified in the context OR the alterations and dysregulations characteristic of the specified disease
+* Anchor all predictions in either the normal physiology and development of the cell type and
+  tissue specified in the context OR the alterations and dysregulations characteristic of the
+  specified disease
 * Connect gene-level roles to program-level implications
 * Consider gene interactions, regulatory networks, and pathway dynamics
 * Highlight cases where multiple genes collectively strengthen evidence
 * Ensure all claims are backed by experimental evidence with proper attribution
 
-Provide a structured analysis identifying biological programs and their predicted cellular impacts within the given context.
+Provide a structured analysis identifying biological programs and their predicted cellular
+impacts within the given context.
 
-IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do not include any explanatory text."""
+IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do not include
+any explanatory text."""
 
-    def test_sonar_deep_research_direct(self, genes: list[str], context: str) -> Dict[str, Any]:
+    def test_sonar_deep_research_direct(self, genes: list[str], context: str) -> dict[str, Any]:
         """Test sonar-deep-research with direct API call and response_format."""
         print("🔬 Testing sonar-deep-research with direct API call...")
 
@@ -82,18 +89,8 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
 
         payload = {
             "model": "sonar-deep-research",
-            "messages": [
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            "response_format": {
-                "type": "json_schema",
-                "json_schema": {
-                    "schema": self.schema
-                }
-            }
+            "messages": [{"role": "user", "content": prompt}],
+            "response_format": {"type": "json_schema", "json_schema": {"schema": self.schema}},
         }
 
         start_time = time.time()
@@ -103,7 +100,7 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
                 self.base_url,
                 headers=self.headers,
                 json=payload,
-                timeout=300  # 5 minute timeout
+                timeout=300,  # 5 minute timeout
             )
 
             duration = time.time() - start_time
@@ -119,7 +116,7 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
                     "model": "sonar-deep-research",
                     "content": content,
                     "raw_response": result,
-                    "method": "direct_api"
+                    "method": "direct_api",
                 }
             else:
                 return {
@@ -128,7 +125,7 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
                     "status_code": response.status_code,
                     "error": response.text,
                     "model": "sonar-deep-research",
-                    "method": "direct_api"
+                    "method": "direct_api",
                 }
 
         except Exception as e:
@@ -137,10 +134,10 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
                 "duration_seconds": time.time() - start_time,
                 "error": str(e),
                 "model": "sonar-deep-research",
-                "method": "direct_api"
+                "method": "direct_api",
             }
 
-    def test_current_implementation(self, genes: list[str], context: str) -> Dict[str, Any]:
+    def test_current_implementation(self, genes: list[str], context: str) -> dict[str, Any]:
         """Test current sonar-reasoning-pro implementation via deep-research-client."""
         print("🧠 Testing current sonar-reasoning-pro implementation...")
 
@@ -155,11 +152,11 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
             return {
                 "success": True,
                 "duration_seconds": duration,
-                "model": getattr(result, 'model', 'sonar-reasoning-pro'),
-                "provider": getattr(result, 'provider', 'perplexity'),
-                "content": getattr(result, 'markdown', ''),
-                "citations": getattr(result, 'citations', []),
-                "method": "deep_research_client"
+                "model": getattr(result, "model", "sonar-reasoning-pro"),
+                "provider": getattr(result, "provider", "perplexity"),
+                "content": getattr(result, "markdown", ""),
+                "citations": getattr(result, "citations", []),
+                "method": "deep_research_client",
             }
 
         except Exception as e:
@@ -167,10 +164,10 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
                 "success": False,
                 "duration_seconds": time.time() - start_time,
                 "error": str(e),
-                "method": "deep_research_client"
+                "method": "deep_research_client",
             }
 
-    def validate_json_response(self, content: str) -> Dict[str, Any]:
+    def validate_json_response(self, content: str) -> dict[str, Any]:
         """Validate if response contains valid JSON matching our schema."""
         from langpa.services.output_manager import OutputManager
 
@@ -178,7 +175,7 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
 
         try:
             # Try direct JSON parsing first
-            if content.strip().startswith('{'):
+            if content.strip().startswith("{"):
                 parsed_json = json.loads(content.strip())
             else:
                 # Use our existing extraction logic for complex responses
@@ -188,7 +185,7 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
                 return {
                     "valid_json": False,
                     "schema_valid": False,
-                    "error": "Could not extract valid JSON"
+                    "error": "Could not extract valid JSON",
                 }
 
             # Validate against schema
@@ -198,54 +195,54 @@ IMPORTANT: Return ONLY valid JSON that follows the provided schema structure. Do
                 "valid_json": True,
                 "schema_valid": is_valid,
                 "extracted_json": parsed_json,
-                "schema_error": error_msg if not is_valid else None
+                "schema_error": error_msg if not is_valid else None,
             }
 
         except Exception as e:
-            return {
-                "valid_json": False,
-                "schema_valid": False,
-                "error": str(e)
-            }
+            return {"valid_json": False, "schema_valid": False, "error": str(e)}
 
-    def run_comparison_test(self, genes: list[str], context: str) -> Dict[str, Any]:
+    def run_comparison_test(self, genes: list[str], context: str) -> dict[str, Any]:
         """Run full comparison test between both approaches."""
-        print(f"\n🧬 Running comparison test:")
+        print("\n🧬 Running comparison test:")
         print(f"   Genes: {genes}")
         print(f"   Context: {context}")
         print("=" * 60)
 
         # Test 1: Direct API with sonar-deep-research
         direct_result = self.test_sonar_deep_research_direct(genes, context)
-        direct_validation = self.validate_json_response(direct_result.get("content", "")) if direct_result.get("success") else {}
+        direct_validation = (
+            self.validate_json_response(direct_result.get("content", ""))
+            if direct_result.get("success")
+            else {}
+        )
 
-        print(f"✅ Direct API test completed: {direct_result.get('success', False)} ({direct_result.get('duration_seconds', 0):.1f}s)")
+        success = direct_result.get("success", False)
+        duration = direct_result.get("duration_seconds", 0)
+        print(f"✅ Direct API test completed: {success} ({duration:.1f}s)")
 
         # Test 2: Current implementation
         current_result = self.test_current_implementation(genes, context)
-        current_validation = self.validate_json_response(current_result.get("content", "")) if current_result.get("success") else {}
+        current_validation = (
+            self.validate_json_response(current_result.get("content", ""))
+            if current_result.get("success")
+            else {}
+        )
 
-        print(f"✅ Current implementation test completed: {current_result.get('success', False)} ({current_result.get('duration_seconds', 0):.1f}s)")
+        current_success = current_result.get("success", False)
+        current_duration = current_result.get("duration_seconds", 0)
+        print(
+            f"✅ Current implementation test completed: {current_success} ({current_duration:.1f}s)"
+        )
 
         # Compile results
         return {
-            "test_metadata": {
-                "genes": genes,
-                "context": context,
-                "timestamp": time.time()
-            },
-            "direct_api_result": {
-                **direct_result,
-                "validation": direct_validation
-            },
-            "current_implementation_result": {
-                **current_result,
-                "validation": current_validation
-            }
+            "test_metadata": {"genes": genes, "context": context, "timestamp": time.time()},
+            "direct_api_result": {**direct_result, "validation": direct_validation},
+            "current_implementation_result": {**current_result, "validation": current_validation},
         }
 
 
-def main():
+def main() -> None:
     """Run the comparison test."""
     try:
         tester = DirectAPITester()
@@ -263,7 +260,7 @@ def main():
         timestamp = int(time.time())
         results_file = output_dir / f"api_comparison_test_{timestamp}.json"
 
-        with open(results_file, 'w') as f:
+        with open(results_file, "w") as f:
             json.dump(results, f, indent=2, default=str)
 
         print(f"\n📊 Results saved to: {results_file}")
@@ -276,13 +273,13 @@ def main():
         direct = results["direct_api_result"]
         current = results["current_implementation_result"]
 
-        print(f"Direct API (sonar-deep-research):")
+        print("Direct API (sonar-deep-research):")
         print(f"  ✅ Success: {direct.get('success', False)}")
         print(f"  ⏱️  Duration: {direct.get('duration_seconds', 0):.1f}s")
         print(f"  📝 Valid JSON: {direct.get('validation', {}).get('valid_json', False)}")
         print(f"  ✅ Schema Valid: {direct.get('validation', {}).get('schema_valid', False)}")
 
-        print(f"\nCurrent Implementation (sonar-reasoning-pro):")
+        print("\nCurrent Implementation (sonar-reasoning-pro):")
         print(f"  ✅ Success: {current.get('success', False)}")
         print(f"  ⏱️  Duration: {current.get('duration_seconds', 0):.1f}s")
         print(f"  📝 Valid JSON: {current.get('validation', {}).get('valid_json', False)}")
@@ -300,6 +297,7 @@ def main():
     except Exception as e:
         print(f"❌ Test failed with error: {e}")
         import traceback
+
         traceback.print_exc()
 
 
