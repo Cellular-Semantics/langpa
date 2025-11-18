@@ -289,7 +289,7 @@ def show_template(template_name: str) -> None:
         print("  python scripts/run_deepsearch.py --genes TP53,BRCA1")
         print(f"    --context 'cancer research' --template {template_name}")
 
-    except ValueError as e:
+    except (ValueError, KeyError) as e:
         print(f"Error: {e}")
         print("Use --list-templates to see available templates.")
 
