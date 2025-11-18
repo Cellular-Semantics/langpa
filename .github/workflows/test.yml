@@ -6,6 +6,9 @@ on:
       - main
   pull_request:
 
+permissions:
+  contents: write
+
 env:
   UV_SYSTEM_PYTHON: "1"
 
@@ -62,6 +65,23 @@ jobs:
         if: matrix.python-version == '3.11'
         run: |
           PYTHONPATH=src uv run pytest tests/unit/ --cov=langpa --cov-report=xml --cov-report=term
+
+      - name: Generate Coverage Badge
+        if: matrix.python-version == '3.11' && github.ref == 'refs/heads/main'
+        uses: tj-actions/coverage-badge-py@v2
+        with:
+          coverage-path: coverage.xml
+          output: .github/badges/coverage.svg
+
+      - name: Commit Coverage Badge
+        if: matrix.python-version == '3.11' && github.ref == 'refs/heads/main'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          mkdir -p .github/badges
+          git add .github/badges/coverage.svg
+          git diff --staged --quiet || git commit -m "Update coverage badge [skip ci]"
+          git push
 
   docs:
     runs-on: ubuntu-latest
