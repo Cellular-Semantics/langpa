@@ -6,11 +6,13 @@ and provider optimizations.
 
 from __future__ import annotations
 
+from typing import Any
 
 # Registry of available prompt templates
-PROMPT_TEMPLATES: dict[str, dict[str, any]] = {
+PROMPT_TEMPLATES: dict[str, dict[str, Any]] = {
     "gene_analysis_academic": {
-        "template": """Perform comprehensive literature analysis for the following gene list in the specified biological context.
+        "template": """Perform comprehensive literature analysis for the following gene list in the
+specified biological context.
 
 **Gene List**: {genes}
 
@@ -21,23 +23,28 @@ PROMPT_TEMPLATES: dict[str, dict[str, any]] = {
 2. Identify clusters of genes that act together in pathways, processes, or cellular states
 3. Treat each cluster as a potential gene program within the list
 4. Interpret findings in light of both normal physiological roles and disease-specific alterations
-5. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant
+5. Prioritize well-established functions with strong literature support, but highlight emerging
+   evidence if contextually relevant
 
 **Guidelines**:
-* Anchor all predictions in either the normal physiology and development of the cell type and tissue specified in the context OR the alterations and dysregulations characteristic of the specified disease
+* Anchor all predictions in either the normal physiology and development of the cell type and
+  tissue specified in the context OR the alterations and dysregulations characteristic of the
+  specified disease
 * Connect gene-level roles to program-level implications
 * Consider gene interactions, regulatory networks, and pathway dynamics
 * Highlight cases where multiple genes collectively strengthen evidence
 * Ensure all claims are backed by experimental evidence with proper attribution
 
-Provide a structured analysis identifying biological programs and their predicted cellular impacts within the given context.""",
+Provide a structured analysis identifying biological programs and their predicted cellular
+impacts within the given context.""",
         "supports_json_schema": True,
         "optimized_for": ["perplexity", "consensus"],
-        "description": "Academic research-focused analysis with comprehensive literature review strategy"
+        "description": "Academic research-focused analysis with comprehensive literature review "
+        "strategy",
     },
-
     "gene_analysis_structured": {
-        "template": """Analyze the following genes in the specified biological context and provide structured findings.
+        "template": """Analyze the following genes in the specified biological context and provide
+structured findings.
 
 **Genes to Analyze**: {genes}
 
@@ -58,12 +65,13 @@ Provide a structured analysis identifying biological programs and their predicte
 Provide a systematic analysis organized by biological programs and functional clusters.""",
         "supports_json_schema": True,
         "optimized_for": ["openai", "edison"],
-        "description": "Structured analysis optimized for clear, systematic gene program identification"
-    }
+        "description": "Structured analysis optimized for clear, systematic gene program "
+        "identification",
+    },
 }
 
 
-def get_prompt_template(template_name: str) -> dict[str, any]:
+def get_prompt_template(template_name: str) -> dict[str, Any]:
     """Get a prompt template by name.
 
     Args:
@@ -117,7 +125,7 @@ def format_prompt_template(template_name: str, genes: list[str], context: str) -
     return formatted_prompt
 
 
-def get_template_metadata(template_name: str) -> dict[str, any]:
+def get_template_metadata(template_name: str) -> dict[str, Any]:
     """Get metadata about a specific template.
 
     Args:
@@ -134,5 +142,5 @@ def get_template_metadata(template_name: str) -> dict[str, any]:
     return {
         "supports_json_schema": template_config["supports_json_schema"],
         "optimized_for": template_config["optimized_for"],
-        "description": template_config["description"]
+        "description": template_config["description"],
     }

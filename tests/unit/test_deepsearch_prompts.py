@@ -6,9 +6,9 @@ import pytest
 
 from langpa.services.deepsearch_prompts import (
     PROMPT_TEMPLATES,
+    format_prompt_template,
     get_prompt_template,
     list_available_templates,
-    format_prompt_template,
 )
 
 
@@ -147,7 +147,7 @@ def test_template_placeholder_substitution() -> None:
     genes = ["TEST1", "TEST2"]
     context = "test biological context"
 
-    for template_name in PROMPT_TEMPLATES.keys():
+    for template_name in PROMPT_TEMPLATES:
         formatted = format_prompt_template(template_name, genes, context)
 
         # Should not contain any unsubstituted placeholders
@@ -169,14 +169,7 @@ def test_prompt_template_content_preservation() -> None:
     template_lower = template_text.lower()
 
     # Analysis strategy elements
-    expected_elements = [
-        "literature",
-        "analysis",
-        "gene",
-        "biological",
-        "program",
-        "pathway"
-    ]
+    expected_elements = ["literature", "analysis", "gene", "biological", "program", "pathway"]
 
     found_elements = sum(1 for element in expected_elements if element in template_lower)
     assert found_elements >= 4, "Template should preserve key analysis concepts"
@@ -185,7 +178,7 @@ def test_prompt_template_content_preservation() -> None:
 @pytest.mark.unit
 def test_template_optimization_metadata() -> None:
     """Test that template optimization metadata is meaningful."""
-    for template_name, template in PROMPT_TEMPLATES.items():
+    for _template_name, template in PROMPT_TEMPLATES.items():
         optimized_for = template["optimized_for"]
 
         # Should be optimized for at least one provider
@@ -204,4 +197,6 @@ def test_json_schema_support_consistency() -> None:
     # All current templates should support JSON schema for structured output
     for template_name, template in PROMPT_TEMPLATES.items():
         # Current implementation should support JSON schema
-        assert template["supports_json_schema"] is True, f"Template {template_name} should support JSON schema"
+        assert template["supports_json_schema"] is True, (
+            f"Template {template_name} should support JSON schema"
+        )

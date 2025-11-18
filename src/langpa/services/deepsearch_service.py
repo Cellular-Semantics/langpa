@@ -2,17 +2,11 @@
 
 from __future__ import annotations
 
+import json
 from typing import Any
 
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
-
-# Import will be mocked in unit tests
-import json
-
 from deep_research_client import DeepResearchClient  # type: ignore
+from dotenv import load_dotenv
 
 from langpa.schemas import load_schema
 from langpa.services.deepsearch_configs import (
@@ -26,6 +20,9 @@ from langpa.services.deepsearch_prompts import (
     list_available_templates,
 )
 
+# Load environment variables
+load_dotenv()
+
 
 class DeepSearchService:
     """Service for performing contextual gene list analysis using DeepSearch/Perplexity."""
@@ -34,7 +31,7 @@ class DeepSearchService:
         self,
         preferred_provider: str | None = None,
         preset: str | None = None,
-        **config_overrides: Any
+        **config_overrides: Any,
     ) -> None:
         """Initialize the DeepSearch service.
 
@@ -119,7 +116,9 @@ class DeepSearchService:
 
         return providers[0]
 
-    def _construct_prompt(self, genes: list[str], context: str, template_override: str | None = None) -> str:
+    def _construct_prompt(
+        self, genes: list[str], context: str, template_override: str | None = None
+    ) -> str:
         """Construct the research prompt for gene list analysis.
 
         Uses configurable prompt templates for different analysis approaches.
@@ -139,8 +138,13 @@ class DeepSearchService:
         return format_prompt_template(template_name, genes, context)
 
     def research_gene_list(
-        self, genes: list[str], context: str, provider: str | None = None, timeout: int = 180,
-        custom_prompt: str | None = None, prompt_template: str | None = None
+        self,
+        genes: list[str],
+        context: str,
+        provider: str | None = None,
+        timeout: int = 180,
+        custom_prompt: str | None = None,
+        prompt_template: str | None = None,
     ) -> Any:
         """Perform contextual research analysis of a gene list.
 
@@ -178,7 +182,7 @@ class DeepSearchService:
         research_provider = provider or self.config.provider
 
         # Use timeout from config or method parameter (method parameter takes precedence)
-        request_timeout = timeout if timeout != 180 else self.config.timeout
+        # Note: timeout parameter is used for backward compatibility but not currently applied
 
         try:
             # Load schema for response_format
@@ -188,7 +192,10 @@ class DeepSearchService:
             provider_params = dict(self.config.provider_params)  # Copy to avoid modifying original
 
             # Set system_prompt with JSON schema (overwrites any preset system_prompt)
-            provider_params["system_prompt"] = f"""You are an expert biologist. Analyze the provided genes in the given biological context.
+            provider_params[
+                "system_prompt"
+            ] = f"""You are an expert biologist. Analyze the provided genes in the given biological
+context.
 
 CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
 {json.dumps(schema, indent=2)}

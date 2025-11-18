@@ -4,17 +4,16 @@
 from __future__ import annotations
 
 import argparse
-import sys
-from pathlib import Path
-from typing import List, Sequence
 import json
+from collections.abc import Sequence
+from pathlib import Path
 
 from dotenv import load_dotenv
 
+from langpa.services import DeepSearchService, OutputManager
+
 # Ensure .env is loaded before instantiating clients
 load_dotenv()
-
-from langpa.services import DeepSearchService, OutputManager
 
 
 def parse_args() -> argparse.Namespace:
@@ -81,16 +80,16 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def _split_tokens(tokens: Sequence[str]) -> List[str]:
-    genes: List[str] = []
+def _split_tokens(tokens: Sequence[str]) -> list[str]:
+    genes: list[str] = []
     for token in tokens:
         parts = [part.strip() for part in token.split(",") if part.strip()]
         genes.extend(parts)
     return genes
 
 
-def load_genes(args: argparse.Namespace) -> List[str]:
-    genes: List[str] = []
+def load_genes(args: argparse.Namespace) -> list[str]:
+    genes: list[str] = []
 
     if args.genes:
         for group in args.genes:
@@ -111,7 +110,7 @@ def load_genes(args: argparse.Namespace) -> List[str]:
 
 
 def load_context(args: argparse.Namespace) -> str:
-    context_parts: List[str] = []
+    context_parts: list[str] = []
 
     if args.context:
         context_parts.append(args.context.strip())

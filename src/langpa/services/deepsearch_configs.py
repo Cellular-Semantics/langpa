@@ -7,7 +7,7 @@ model selection, and optimized parameters for different use cases.
 from __future__ import annotations
 
 import copy
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Any
 
 
@@ -23,6 +23,7 @@ class DeepSearchConfig:
         prompt_template: Name of prompt template to use
         description: Human-readable description of this configuration
     """
+
     provider: str
     model: str
     provider_params: dict[str, Any] | Any
@@ -88,7 +89,9 @@ def list_available_presets() -> dict[str, str]:
     return {name: config.description for name, config in PRESET_CONFIGS.items()}
 
 
-def merge_config_overrides(base_config: DeepSearchConfig, overrides: dict[str, Any]) -> DeepSearchConfig:
+def merge_config_overrides(
+    base_config: DeepSearchConfig, overrides: dict[str, Any]
+) -> DeepSearchConfig:
     """Merge configuration overrides into a base configuration.
 
     Args:

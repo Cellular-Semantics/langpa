@@ -2,13 +2,11 @@
 
 from __future__ import annotations
 
-from unittest.mock import Mock
-
 import pytest
 
 from langpa.services.deepsearch_configs import (
-    DeepSearchConfig,
     PRESET_CONFIGS,
+    DeepSearchConfig,
     get_preset_config,
     list_available_presets,
 )
@@ -144,13 +142,13 @@ def test_config_merge_functionality() -> None:
         provider_params={"base_param": "base_value"},
         timeout=100,
         prompt_template="base_template",
-        description="Base config"
+        description="Base config",
     )
 
     overrides = {
         "model": "override_model",
         "timeout": 200,
-        "provider_params": {"override_param": "override_value"}
+        "provider_params": {"override_param": "override_value"},
     }
 
     merged = merge_config_overrides(base_config, overrides)

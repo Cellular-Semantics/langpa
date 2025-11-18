@@ -7,13 +7,14 @@ Following CLAUDE.md: Integration tests REQUIRE real API keys and test against re
 from __future__ import annotations
 
 import os
+
 import pytest
 from dotenv import load_dotenv
 
+from langpa.services.deepsearch_service import DeepSearchService
+
 # Load environment variables from .env file
 load_dotenv()
-
-from langpa.services.deepsearch_service import DeepSearchService
 
 
 @pytest.mark.integration
@@ -64,7 +65,9 @@ def test_deepsearch_service_preset_integration() -> None:
 
         # Verify content contains gene-related information
         content_lower = content.lower()
-        assert "tp53" in content_lower or "p53" in content_lower, "Response should mention the queried gene"
+        assert "tp53" in content_lower or "p53" in content_lower, (
+            "Response should mention the queried gene"
+        )
 
         # Verify content indicates biological research
         bio_indicators = ["gene", "protein", "cancer", "tumor", "cell", "function"]
@@ -202,7 +205,7 @@ def test_deepsearch_service_preset_override() -> None:
         result2 = service.research_gene_list(
             genes=genes,
             context=context,
-            timeout=30  # Much shorter than preset default of 180
+            timeout=30,  # Much shorter than preset default of 180
         )
         assert result2 is not None
         content2 = getattr(result2, "content", None) or getattr(result2, "markdown", "")
@@ -230,7 +233,7 @@ def test_deepsearch_service_constructor_overrides() -> None:
     # Test model override in constructor
     service = DeepSearchService(
         preset="perplexity-sonar-pro",
-        model="sonar-reasoning-pro"  # Explicitly set same model
+        model="sonar-reasoning-pro",  # Explicitly set same model
     )
 
     assert service.config.model == "sonar-reasoning-pro"
