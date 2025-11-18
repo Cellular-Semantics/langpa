@@ -254,7 +254,7 @@ def test_deepsearch_service_constructor_overrides() -> None:
 
         # Should mention the gene
         content_lower = content.lower()
-        assert "ILRUN" in content_lower
+        assert "ilrun" in content_lower
 
     except Exception as e:
         pytest.fail(f"Constructor override test failed: {str(e)}")
