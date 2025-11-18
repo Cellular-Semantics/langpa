@@ -394,7 +394,7 @@ def show_dry_run(
         prompt = args.custom_prompt
         print("Custom Prompt:")
     else:
-        prompt = service._construct_prompt(genes, context, template_override=args.template)
+        prompt = service.construct_prompt(genes, context, template_override=args.template)
         print("Generated Prompt:")
 
     print("-" * 60)
