@@ -11,6 +11,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from langpa.services import DeepSearchService, OutputManager
+from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
 
 # Ensure .env is loaded before instantiating clients
 load_dotenv()
@@ -239,8 +240,6 @@ def list_templates() -> None:
     print("=" * 60)
     print()
 
-    from langpa.services.deepsearch_prompts import get_template_metadata
-
     templates = DeepSearchService.get_available_templates()
     for template_name, description in templates.items():
         # Get template metadata for detailed display
@@ -256,8 +255,6 @@ def list_templates() -> None:
 
 def show_template(template_name: str) -> None:
     """Display complete details for a specific template."""
-    from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
-
     try:
         # Get template metadata and content
         metadata = get_template_metadata(template_name)
