@@ -104,4 +104,4 @@ For each feature:
 
 Each proposed plan of work should include an MVP and a critique section detailing potential issues/risks with the approach.
 
-Before developing a plan, make sure you fully understand whether the imported libraries support the functions you are proposing. It is important not to duplicate core functionality.S
+Before developing a plan, make sure you fully understand whether the imported libraries support the functions you are proposing. It is important not to duplicate core functionality.
