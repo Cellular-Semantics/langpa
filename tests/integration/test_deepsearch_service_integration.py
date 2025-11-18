@@ -116,7 +116,7 @@ def test_deepsearch_service_backward_compatibility() -> None:
 
         # Verify gene mentioned in response
         content_lower = content.lower()
-        assert "ILRUN" in content_lower
+        assert "ilrun" in content_lower
 
     except Exception as e:
         pytest.fail(f"Backward compatibility test failed: {str(e)}")
