@@ -1,0 +1,49 @@
+# JSON Schema for validating DeepSearch template configurations
+$schema: http://json-schema.org/draft-07/schema#
+title: DeepSearch Template Configuration Schema
+description: Schema for validating DeepSearch prompt templates
+
+type: object
+properties:
+  templates:
+    type: object
+    patternProperties:
+      "^[a-zA-Z0-9_-]+$":  # Template names: alphanumeric, underscore, hyphen
+        type: object
+        required:
+          - description
+          - optimized_for
+          - supports_json_schema
+          - template
+        properties:
+          description:
+            type: string
+            minLength: 10
+            description: "Human-readable description of the template"
+
+          optimized_for:
+            type: array
+            items:
+              type: string
+              enum: [perplexity, openai, anthropic, edison, consensus]
+            minItems: 1
+            description: "List of providers this template is optimized for"
+
+          supports_json_schema:
+            type: boolean
+            description: "Whether this template supports structured JSON output"
+
+          schema_instruction:
+            type: string
+            minLength: 20
+            description: "Custom instruction for schema compliance, use {schema} placeholder"
+
+          template:
+            type: string
+            minLength: 50
+            description: "The prompt template text with {genes} and {context} placeholders"
+        additionalProperties: false
+    additionalProperties: false
+required:
+  - templates
+additionalProperties: false
