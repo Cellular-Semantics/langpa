@@ -11,3 +11,4 @@ build/
 docs/_build/
 outputs/
 .idea/
+tmp/

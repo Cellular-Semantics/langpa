@@ -14,7 +14,7 @@
             "type": "object",
             "required": [
                 "name",
-                "citation",
+                "citations",
                 "genes"
             ],
             "properties": {
@@ -22,7 +22,7 @@
                     "type": "string",
                     "description": "A minimal component of the gene program, representing a single biological process or cell component."
                 },
-                "citation": {
+                "citations": {
                     "type": "array",
                     "items": {
                         "$ref": "#/definitions/citation"
@@ -46,7 +46,8 @@
             ],
             "properties": {
                 "source_id": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Citation reference key matching DeepSearch/Perplexity numbering (e.g., '1', '2')."
                 },
                 "notes": {
                     "type": "string",

@@ -132,6 +132,82 @@ Some text after JSON
 
 
 @pytest.mark.unit
+def test_extract_json_after_think_and_code_fence() -> None:
+    """Test extraction when JSON follows </think> with a code fence."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        markdown_with_think = """
+<think>reasoning...</think>
+
+```json
+{
+  "context": {"cell_type": "neural", "disease": "cancer"},
+  "input_genes": ["TP53"],
+  "programs": []
+}
+```
+"""
+        extracted_json = manager.extract_json_from_markdown(markdown_with_think)
+        assert extracted_json is not None
+        assert extracted_json["input_genes"] == ["TP53"]
+
+
+@pytest.mark.unit
+def test_extract_json_after_think_raw_object() -> None:
+    """Test extraction when JSON follows </think> without a fence."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        markdown_with_think = """
+<think>reasoning...</think>
+{
+  "context": {"cell_type": "neural", "disease": "cancer"},
+  "input_genes": ["TP53"],
+  "programs": []
+}
+"""
+        extracted_json = manager.extract_json_from_markdown(markdown_with_think)
+        assert extracted_json is not None
+        assert extracted_json["context"]["disease"] == "cancer"
+
+
+@pytest.mark.unit
+def test_extract_json_prefers_after_think_over_schema_block() -> None:
+    """Ensure schema code fences earlier don't overshadow the post-think JSON."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        markdown_with_schema_then_output = """
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Schema"
+}
+```
+
+<think>reasoning...</think>
+
+```json
+{
+  "context": {"cell_type": "neural", "disease": "glioblastoma"},
+  "input_genes": ["TP53"],
+  "programs": []
+}
+```
+"""
+        extracted_json = manager.extract_json_from_markdown(markdown_with_schema_then_output)
+        assert extracted_json is not None
+        assert extracted_json["context"]["disease"] == "glioblastoma"
+
+
+@pytest.mark.unit
 def test_extract_json_handles_malformed() -> None:
     """Test JSON extraction handles malformed JSON gracefully."""
     from langpa.services.output_manager import OutputManager
@@ -151,6 +227,53 @@ def test_extract_json_handles_malformed() -> None:
 
         extracted_json = manager.extract_json_from_markdown(malformed_markdown)
         assert extracted_json is None
+
+
+@pytest.mark.unit
+def test_process_parses_stringified_json(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Ensure stringified JSON is parsed before validation/saving."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        class DummyResult:
+            markdown = "{}"
+            citations: list = []
+            provider = "test"
+            model = "test-model"
+            duration_seconds = 1.0
+
+        # Force extract_json_from_markdown to return a JSON string
+        valid_payload = {
+            "context": {"cell_type": "x", "disease": "y"},
+            "input_genes": ["A"],
+            "programs": [
+                {
+                    "program_name": "p",
+                    "description": "d",
+                    "predicted_cellular_impact": ["impact"],
+                    "evidence_summary": "ev",
+                    "significance_score": 0.5,
+                    "citations": [{"source_id": "1"}],
+                    "supporting_genes": ["A"],
+                }
+            ],
+            "version": "1",
+        }
+
+        monkeypatch.setattr(
+            manager, "extract_json_from_markdown", lambda _m: json.dumps(valid_payload)
+        )
+
+        processing = manager.process_and_save_structured_output(
+            DummyResult(),
+            genes=["A"],
+            context="ctx",
+        )
+
+        assert processing["success"] is True
+        assert processing["structured_data"] == valid_payload
 
 
 @pytest.mark.unit
