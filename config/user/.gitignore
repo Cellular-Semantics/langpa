@@ -1,0 +1,3 @@
+# User configuration overrides - not tracked in git
+*.yaml
+*.yml

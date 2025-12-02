@@ -1,0 +1,120 @@
+# DeepSearch Prompt Templates
+# Reusable prompt templates for different analysis approaches and provider optimizations
+#
+# Templates use {genes} and {context} placeholders that will be substituted at runtime
+
+templates:
+  gene_analysis_academic:
+    description: "Academic research-focused analysis with comprehensive literature review strategy"
+    optimized_for: [perplexity, consensus]
+    supports_json_schema: true
+    schema_instruction: |
+      You are an expert biologist. Analyze the provided genes in the given biological context.
+
+      CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
+      {schema}
+
+      Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure.
+    template: |
+      Perform comprehensive literature analysis for the following gene list in the
+      specified biological context.
+
+      **Gene List**: {genes}
+
+      **Biological Context**: {context}
+
+      **Analysis Strategy**:
+      1. Search current scientific literature for functional roles of each gene in the input list
+      2. Identify clusters of genes that act together in pathways, processes, or cellular states
+      3. Treat each cluster as a potential gene program within the list
+      4. Interpret findings in light of both normal physiological roles and disease-specific alterations
+      5. Prioritize well-established functions with strong literature support, but highlight emerging
+         evidence if contextually relevant
+
+      **Guidelines**:
+      * Anchor all predictions in either the normal physiology and development of the cell type and
+        tissue specified in the context OR the alterations and dysregulations characteristic of the
+        specified disease
+      * Connect gene-level roles to program-level implications
+      * Consider gene interactions, regulatory networks, and pathway dynamics
+      * Highlight cases where multiple genes collectively strengthen evidence
+      * Ensure all claims are backed by experimental evidence with proper attribution
+
+      Provide a structured analysis identifying biological programs and their predicted cellular
+      impacts within the given context.
+
+  gene_analysis_structured:
+    description: "Structured analysis optimized for clear, systematic gene program identification"
+    optimized_for: [openai, edison]
+    supports_json_schema: true
+    schema_instruction: |
+      You are an expert biologist conducting systematic gene analysis.
+
+      Please structure your response as JSON following this exact format:
+      {schema}
+
+      Ensure all required fields are populated with accurate biological data and evidence.
+    template: |
+      Analyze the following genes in the specified biological context and provide
+      structured findings.
+
+      **Genes to Analyze**: {genes}
+
+      **Context**: {context}
+
+      **Required Analysis**:
+      1. For each gene, identify its primary biological functions
+      2. Group genes by common pathways or biological processes
+      3. Identify potential gene programs (clusters of functionally related genes)
+      4. Assess the relevance to the specified biological context
+
+      **Output Requirements**:
+      - Focus on well-established, peer-reviewed findings
+      - Prioritize recent research when available
+      - Include pathway and process associations
+      - Highlight gene-gene interactions where relevant
+
+      Provide a systematic analysis organized by biological programs and functional clusters.
+
+  gene_analysis_deep_research:
+    description: "Deep research analysis optimized for Perplexity deep research models with comprehensive findings"
+    optimized_for: [perplexity]
+    supports_json_schema: true
+    schema_instruction: |
+      You are an expert biologist conducting comprehensive deep research on genes in biological context.
+
+      Please format your detailed analysis as JSON following this structure:
+      {schema}
+
+      Include thorough findings with proper citations and evidence. Ensure all analysis is backed by current scientific literature.
+    template: |
+      Conduct comprehensive deep research and literature analysis for the following gene list within the specified biological context.
+
+      **Gene List**: {genes}
+
+      **Biological Context**: {context}
+
+      **Deep Research Strategy**:
+      1. Perform extensive literature search across current scientific databases
+      2. Analyze functional roles and molecular mechanisms of each gene
+      3. Identify functional clusters and biological programs within the gene list
+      4. Examine gene interactions, regulatory networks, and pathway dynamics
+      5. Assess both normal physiological roles and disease-associated alterations
+      6. Prioritize well-established functions while highlighting emerging evidence
+
+      **Research Guidelines**:
+      * Conduct thorough investigation of recent publications and reviews
+      * Focus on experimental evidence and peer-reviewed findings
+      * Consider tissue-specific and context-dependent gene functions
+      * Analyze gene co-expression patterns and functional annotations
+      * Include both direct and indirect gene interactions
+      * Provide detailed citations for all claims and findings
+
+      **Output Requirements**:
+      * Comprehensive analysis with detailed biological insights
+      * Strong evidence base with proper attribution
+      * Clear identification of biological programs and functional clusters
+      * Assessment of predicted cellular impacts within the given context
+      * Integration of findings into coherent biological narrative
+
+      Provide a thorough, evidence-based analysis identifying biological programs and their predicted cellular impacts within the specified context.
