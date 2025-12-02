@@ -3,14 +3,14 @@
 from __future__ import annotations
 
 import json
-import tempfile
-from pathlib import Path
-
-import pytest
 
 # Mock deep_research_client for import issues
 import sys
-from unittest.mock import Mock, MagicMock
+import tempfile
+from pathlib import Path
+from unittest.mock import MagicMock, Mock
+
+import pytest
 
 mock_deep_research_client = MagicMock()
 mock_deep_research_client.DeepResearchClient = Mock

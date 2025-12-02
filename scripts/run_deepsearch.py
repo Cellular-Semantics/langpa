@@ -11,8 +11,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from langpa.services import CitationResolver, DeepSearchService, OutputManager
-from langpa.services.markdown_citation_extractor import extract_citations_from_markdown
 from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
+from langpa.services.markdown_citation_extractor import extract_citations_from_markdown
 
 # Ensure .env is loaded before instantiating clients
 load_dotenv()
@@ -74,12 +74,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--raw-input",
         type=Path,
-        help="Path to a raw DeepSearch JSON (e.g., saved by OutputManager.save_raw_response) to process offline.",
+        help=(
+            "Path to a raw DeepSearch JSON (e.g., saved by OutputManager.save_raw_response) "
+            "to process offline."
+        ),
     )
     parser.add_argument(
         "--citations-file",
         type=Path,
-        help="Optional path to a JSON file containing citation URLs or objects with source_id/source_url.",
+        help=(
+            "Optional path to a JSON file containing citation URLs or objects with "
+            "source_id/source_url."
+        ),
     )
     parser.add_argument(
         "--provider",
@@ -508,7 +514,9 @@ def main() -> None:
             service = DeepSearchService(preset=args.preset, **config_overrides)
         else:
             # Backward compatibility
-            service = DeepSearchService(preferred_provider=args.preferred_provider, **config_overrides)
+            service = DeepSearchService(
+                preferred_provider=args.preferred_provider, **config_overrides
+            )
 
     # Handle dry run
     if args.dry_run:
@@ -533,14 +541,27 @@ def main() -> None:
         if not args.raw_input.exists():
             raise SystemExit(f"[error] Raw input file not found: {args.raw_input}")
         raw_payload = json.loads(args.raw_input.read_text(encoding="utf-8"))
-        markdown = raw_payload.get("raw_response", {}).get("markdown") or raw_payload.get("markdown") or ""
-        citations = raw_payload.get("raw_response", {}).get("citations") or raw_payload.get("citations") or []
+        markdown = (
+            raw_payload.get("raw_response", {}).get("markdown") or raw_payload.get("markdown") or ""
+        )
+        citations = (
+            raw_payload.get("raw_response", {}).get("citations")
+            or raw_payload.get("citations")
+            or []
+        )
         metadata_src = raw_payload.get("metadata", {})
         genes = genes or metadata_src.get("genes") or []
         context = context or metadata_src.get("context") or ""
 
         class OfflineResult:
-            def __init__(self, markdown: str, citations: list, provider: str, model: str, duration_seconds: float | None) -> None:
+            def __init__(
+                self,
+                markdown: str,
+                citations: list,
+                provider: str,
+                model: str,
+                duration_seconds: float | None,
+            ) -> None:
                 self.markdown = markdown
                 self.citations = citations
                 self.provider = provider
@@ -614,7 +635,9 @@ def main() -> None:
     genes_for_output = genes or ["unspecified_genes"]
     context_for_output = context or "unspecified_context"
 
-    raw_path = output_manager.save_raw_response(result, genes_for_output, context_for_output, metadata=metadata)
+    raw_path = output_manager.save_raw_response(
+        result, genes_for_output, context_for_output, metadata=metadata
+    )
 
     debug_file = None
     if args.debug_extraction:

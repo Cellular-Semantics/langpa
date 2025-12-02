@@ -109,7 +109,8 @@ class OutputManager:
                         # Prefer blocks that look like our schema (contain context/programs)
                         if "context" in parsed or "programs" in parsed:
                             return parsed
-                        # If no better candidate is found, return the first successfully parsed block
+                        # If no better candidate is found, return the first successfully
+                        # parsed block
                         return parsed
                 except json.JSONDecodeError:
                     continue
@@ -248,7 +249,9 @@ class OutputManager:
                 try:
                     extracted_json = json.loads(extracted_json)
                 except json.JSONDecodeError as e:
-                    processing_result["errors"].append(f"Extracted JSON string failed to parse: {e}")
+                    processing_result["errors"].append(
+                        f"Extracted JSON string failed to parse: {e}"
+                    )
                     return processing_result
 
             processing_result["structured_data"] = extracted_json

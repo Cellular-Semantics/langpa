@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import re
-from typing import Iterable
+from collections.abc import Iterable
 
 
 def extract_citations_from_markdown(markdown: str) -> list[dict[str, str]]:
@@ -80,13 +80,12 @@ def _find_bibliography_block(markdown: str) -> list[tuple[int, str]] | None:
                 url = _strip_trailing_punctuation(match.group(2))
                 current.append((num, url))
                 break
-        else:
-            if current:
-                if _is_sequential_block(current):
-                    # Prefer the last sequential block; if lengths tie, prefer later (end of doc)
-                    if best_block is None or len(current) >= len(best_block):
-                        best_block = current
-                current = []
+        if not match and current:
+            is_sequential = _is_sequential_block(current)
+            if is_sequential and (best_block is None or len(current) >= len(best_block)):
+                # Prefer the last sequential block; if lengths tie, prefer later (end of doc)
+                best_block = current
+            current = []
     return best_block
 
 

@@ -18,7 +18,9 @@ class FakeResolver:
     def resolve(self, citations: list[dict[str, str]]) -> dict[str, object]:
         self.calls.append(citations)
         return {
-            "citations": {c["source_id"]: {"id": c["source_id"], "URL": c["source_url"]} for c in citations},
+            "citations": {
+                c["source_id"]: {"id": c["source_id"], "URL": c["source_url"]} for c in citations
+            },
             "stats": {"total": len(citations), "resolved": len(citations), "unresolved": 0},
             "failures": [],
         }
@@ -55,6 +57,7 @@ def test_offline_markdown_pipeline_builds_container() -> None:
 """
 
     citations = extract_citations_from_markdown(markdown)
+
     # simulate offline result carrying citations extracted from markdown
     class DummyResult:
         def __init__(self, markdown: str, citations: list[dict[str, str]]) -> None:

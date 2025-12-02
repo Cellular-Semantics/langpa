@@ -23,7 +23,9 @@ def test_resolver_passes_bibliography(monkeypatch: pytest.MonkeyPatch) -> None:
     """Ensure CitationResolver maps source_url to url2ref bibliography and returns dict."""
     calls: list[dict[str, Any]] = []
 
-    def fake_resolve_bibliography(bibliography: list[dict[str, str]], **kwargs: Any) -> DummyResolutionResult:
+    def fake_resolve_bibliography(
+        bibliography: list[dict[str, str]], **kwargs: Any
+    ) -> DummyResolutionResult:
         calls.append({"bibliography": bibliography, "kwargs": kwargs})
         return DummyResolutionResult({"1": {"id": "1", "URL": bibliography[0]["url"]}})
 
@@ -53,7 +55,9 @@ def test_resolver_skips_missing_urls(monkeypatch: pytest.MonkeyPatch) -> None:
     """Citations without source_url should be ignored."""
     calls: list[list[dict[str, str]]] = []
 
-    def fake_resolve_bibliography(bibliography: list[dict[str, str]], **kwargs: Any) -> DummyResolutionResult:
+    def fake_resolve_bibliography(
+        bibliography: list[dict[str, str]], **kwargs: Any
+    ) -> DummyResolutionResult:
         calls.append(bibliography)
         return DummyResolutionResult({})
 

@@ -20,10 +20,10 @@ def normalize_citations(citations: list[Any]) -> list[dict[str, str]]:
     for citation in citations:
         if not isinstance(citation, dict):
             continue
-        source_id = citation.get("source_id")
-        if source_id is None:
+        current_id = citation.get("source_id")
+        if current_id is None:
             continue
-        source_id_str = str(source_id)
+        source_id_str = str(current_id)
         if source_id_str.isdigit():
             max_numeric_id = max(max_numeric_id, int(source_id_str))
 

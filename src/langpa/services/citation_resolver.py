@@ -2,9 +2,13 @@
 
 from __future__ import annotations
 
-from typing import Any, Callable, Iterable
+from collections.abc import Callable, Iterable
+from typing import Any
 
-from lit_agent.identifiers.api import CitationResolutionResult, resolve_bibliography
+from lit_agent.identifiers.api import (  # type: ignore[import-untyped]
+    CitationResolutionResult,
+    resolve_bibliography,
+)
 
 
 class CitationResolver:
