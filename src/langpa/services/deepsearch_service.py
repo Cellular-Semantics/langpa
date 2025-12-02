@@ -200,6 +200,8 @@ context.
 CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
 {json.dumps(schema, indent=2)}
 
+Ensure every citation object includes \"source_id\" matching DeepSearch/Perplexity numbering.
+
 Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure."""
 
             # Use configuration-driven research call

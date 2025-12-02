@@ -10,7 +10,8 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from langpa.services import DeepSearchService, OutputManager
+from langpa.services import CitationResolver, DeepSearchService, OutputManager
+from langpa.services.markdown_citation_extractor import extract_citations_from_markdown
 from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
 
 # Ensure .env is loaded before instantiating clients
@@ -64,6 +65,21 @@ def parse_args() -> argparse.Namespace:
         "--context-file",
         type=Path,
         help="Path to a text file describing the biological context.",
+    )
+    parser.add_argument(
+        "--from-markdown",
+        type=Path,
+        help="Path to a markdown file containing a DeepSearch response to process offline.",
+    )
+    parser.add_argument(
+        "--raw-input",
+        type=Path,
+        help="Path to a raw DeepSearch JSON (e.g., saved by OutputManager.save_raw_response) to process offline.",
+    )
+    parser.add_argument(
+        "--citations-file",
+        type=Path,
+        help="Optional path to a JSON file containing citation URLs or objects with source_id/source_url.",
     )
     parser.add_argument(
         "--provider",
@@ -131,6 +147,40 @@ def parse_args() -> argparse.Namespace:
         "--debug-extraction",
         action="store_true",
         help="Dump extracted JSON to a file before validation (skips schema validation).",
+    )
+    parser.add_argument(
+        "--resolve-citations",
+        action="store_true",
+        help="Resolve DeepSearch citations with url2ref and build container JSON.",
+    )
+    parser.add_argument(
+        "--citation-validate",
+        action="store_true",
+        default=True,
+        help="Enable API/metapub validation during citation resolution (default: on).",
+    )
+    parser.add_argument(
+        "--citation-no-validate",
+        dest="citation_validate",
+        action="store_false",
+        help="Disable API/metapub validation during citation resolution.",
+    )
+    parser.add_argument(
+        "--citation-scrape",
+        action="store_true",
+        help="Enable web scraping/PDF extraction for unresolved citations (default: off).",
+    )
+    parser.add_argument(
+        "--citation-no-pdf",
+        dest="citation_pdf",
+        action="store_false",
+        default=True,
+        help="Disable PDF extraction during citation resolution (default: on).",
+    )
+    parser.add_argument(
+        "--citation-topic-validation",
+        action="store_true",
+        help="Enable topic validation during citation resolution (default: off).",
     )
     parser.add_argument(
         "--print-markdown",
@@ -426,12 +476,17 @@ def main() -> None:
         show_preset(args.show_preset)
         return
 
-    # Load genes and context
-    try:
-        genes = load_genes(args)
-        context = load_context(args)
-    except Exception as exc:
-        raise SystemExit(f"[error] {exc}") from exc
+    offline_input = args.from_markdown or args.raw_input
+    genes: list[str] | None = None
+    context: str | None = None
+
+    # Load genes and context unless offline inputs will supply them
+    if not offline_input:
+        try:
+            genes = load_genes(args)
+            context = load_context(args)
+        except Exception as exc:
+            raise SystemExit(f"[error] {exc}") from exc
 
     # Build configuration overrides
     config_overrides = {}
@@ -447,12 +502,13 @@ def main() -> None:
             provider_params["search_recency_filter"] = args.search_recency
         config_overrides["provider_params"] = provider_params
 
-    # Initialize service with preset support and overrides
-    if args.preset:
-        service = DeepSearchService(preset=args.preset, **config_overrides)
-    else:
-        # Backward compatibility
-        service = DeepSearchService(preferred_provider=args.preferred_provider, **config_overrides)
+    # Initialize service with preset support and overrides (only needed for live calls)
+    if not offline_input:
+        if args.preset:
+            service = DeepSearchService(preset=args.preset, **config_overrides)
+        else:
+            # Backward compatibility
+            service = DeepSearchService(preferred_provider=args.preferred_provider, **config_overrides)
 
     # Handle dry run
     if args.dry_run:
@@ -463,19 +519,77 @@ def main() -> None:
     if args.show_config:
         show_configuration(service, args)
 
-    try:
-        result = service.research_gene_list(
-            genes=genes,
-            context=context,
-            provider=args.provider,
-            timeout=args.timeout,
-            custom_prompt=args.custom_prompt,
-            prompt_template=args.template,
-        )
-    except Exception as exc:
-        raise SystemExit(f"[error] DeepSearch call failed: {exc}") from exc
-
     output_manager = OutputManager(output_dir=args.output_dir)
+    resolver = None
+    if args.resolve_citations:
+        resolver = CitationResolver(
+            validate=args.citation_validate,
+            scrape=args.citation_scrape,
+            pdf=args.citation_pdf,
+            topic_validation=args.citation_topic_validation,
+        )
+
+    if args.raw_input:
+        if not args.raw_input.exists():
+            raise SystemExit(f"[error] Raw input file not found: {args.raw_input}")
+        raw_payload = json.loads(args.raw_input.read_text(encoding="utf-8"))
+        markdown = raw_payload.get("raw_response", {}).get("markdown") or raw_payload.get("markdown") or ""
+        citations = raw_payload.get("raw_response", {}).get("citations") or raw_payload.get("citations") or []
+        metadata_src = raw_payload.get("metadata", {})
+        genes = genes or metadata_src.get("genes") or []
+        context = context or metadata_src.get("context") or ""
+
+        class OfflineResult:
+            def __init__(self, markdown: str, citations: list, provider: str, model: str, duration_seconds: float | None) -> None:
+                self.markdown = markdown
+                self.citations = citations
+                self.provider = provider
+                self.model = model
+                self.duration_seconds = duration_seconds
+
+        result = OfflineResult(
+            markdown=markdown,
+            citations=citations,
+            provider=metadata_src.get("provider", "offline"),
+            model=metadata_src.get("model", "offline"),
+            duration_seconds=metadata_src.get("duration_seconds"),
+        )
+    elif args.from_markdown:
+        if not args.from_markdown.exists():
+            raise SystemExit(f"[error] Markdown file not found: {args.from_markdown}")
+        markdown = args.from_markdown.read_text(encoding="utf-8")
+        # Load citations if provided explicitly
+        if args.citations_file:
+            import json as _json
+
+            citations_payload = _json.loads(args.citations_file.read_text(encoding="utf-8"))
+            citations = citations_payload
+        else:
+            citations = extract_citations_from_markdown(markdown)
+
+        class OfflineResult:
+            def __init__(self, markdown: str, citations: list) -> None:
+                self.markdown = markdown
+                self.citations = citations
+                self.provider = "offline"
+                self.model = "offline"
+                self.duration_seconds = None
+
+        result = OfflineResult(markdown, citations)
+    else:
+        try:
+            result = service.research_gene_list(
+                genes=genes,
+                context=context,
+                provider=args.provider,
+                timeout=args.timeout,
+                custom_prompt=args.custom_prompt,
+                prompt_template=args.template,
+            )
+        except Exception as exc:
+            raise SystemExit(f"[error] DeepSearch call failed: {exc}") from exc
+    effective_provider = "offline" if offline_input else service.config.provider
+    effective_model = "offline" if offline_input else service.config.model
     metadata = {
         "source": "scripts/run_deepsearch.py",
         "preset": args.preset,
@@ -486,10 +600,21 @@ def main() -> None:
         "reasoning_effort_override": args.reasoning_effort,
         "search_recency_override": args.search_recency,
         "timeout_seconds": args.timeout,
-        "effective_provider": service.config.provider,
-        "effective_model": service.config.model,
+        "effective_provider": effective_provider,
+        "effective_model": effective_model,
+        "resolve_citations": args.resolve_citations,
+        "citation_flags": {
+            "validate": args.citation_validate,
+            "scrape": args.citation_scrape,
+            "pdf": args.citation_pdf,
+            "topic_validation": args.citation_topic_validation,
+        },
     }
-    raw_path = output_manager.save_raw_response(result, genes, context, metadata=metadata)
+    # Provide fallbacks for genes/context in offline flows
+    genes_for_output = genes or ["unspecified_genes"]
+    context_for_output = context or "unspecified_context"
+
+    raw_path = output_manager.save_raw_response(result, genes_for_output, context_for_output, metadata=metadata)
 
     debug_file = None
     if args.debug_extraction:
@@ -512,22 +637,28 @@ def main() -> None:
     if not args.skip_structured and not args.debug_extraction:
         structured_info = output_manager.process_and_save_structured_output(
             result,
-            genes,
-            context,
+            genes_for_output,
+            context_for_output,
             raw_filepath=raw_path,
+            resolve_citations=args.resolve_citations,
+            resolver=resolver,
+            metadata=metadata,
         )
 
     print(f"[ok] Saved raw DeepSearch response to {raw_path}")
 
     # Configuration summary in output
-    config_summary = f"[config] Used {service.config.provider}/{service.config.model}"
-    if args.preset:
-        config_summary += f" (preset: {args.preset})"
-    if args.template:
-        config_summary += f" (template: {args.template})"
-    if args.custom_prompt:
-        config_summary += " (custom prompt)"
-    print(config_summary)
+    if offline_input:
+        print("[config] Offline mode: processed existing input (markdown/raw).")
+    else:
+        config_summary = f"[config] Used {service.config.provider}/{service.config.model}"
+        if args.preset:
+            config_summary += f" (preset: {args.preset})"
+        if args.template:
+            config_summary += f" (template: {args.template})"
+        if args.custom_prompt:
+            config_summary += " (custom prompt)"
+        print(config_summary)
 
     if structured_info:
         if structured_info.get("success"):

@@ -11,6 +11,8 @@ from typing import Any
 from jsonschema import ValidationError, validate
 
 from langpa.schemas import load_schema
+from langpa.services.citation_normalizer import normalize_citations
+from langpa.services.citation_resolver import CitationResolver
 
 
 class OutputManager:
@@ -80,17 +82,37 @@ class OutputManager:
             Parsed JSON dict or None if extraction/parsing fails
         """
         try:
-            # Method 1: Look for JSON code blocks
-            json_pattern = r"```json\s*\n(.*?)\n```"
-            match = re.search(json_pattern, markdown, re.DOTALL)
-
+            # Method 1: Look for JSON after </think> with optional fence or raw JSON
+            think_pattern = r"</think>\s*(?:```json\s*\n(.*?)\n```|(\{.*\}))"
+            match = re.search(think_pattern, markdown, re.DOTALL)
             if match:
-                json_content = match.group(1).strip()
-                parsed = json.loads(json_content)
-                # Remove $schema field if present (causes validation issues)
-                if isinstance(parsed, dict):
-                    parsed.pop("$schema", None)
-                return parsed
+                json_candidate = match.group(1) or match.group(2)
+                if json_candidate:
+                    json_candidate = json_candidate.strip()
+                    try:
+                        parsed = json.loads(json_candidate)
+                        if isinstance(parsed, dict):
+                            parsed.pop("$schema", None)
+                        return parsed
+                    except json.JSONDecodeError:
+                        pass
+
+            # Method 2: Look for JSON code blocks (prioritize ones containing "context")
+            json_pattern = r"```json\s*\n(.*?)\n```"
+            matches = re.finditer(json_pattern, markdown, re.DOTALL)
+            for m in matches:
+                json_content = m.group(1).strip()
+                try:
+                    parsed = json.loads(json_content)
+                    if isinstance(parsed, dict):
+                        parsed.pop("$schema", None)
+                        # Prefer blocks that look like our schema (contain context/programs)
+                        if "context" in parsed or "programs" in parsed:
+                            return parsed
+                        # If no better candidate is found, return the first successfully parsed block
+                        return parsed
+                except json.JSONDecodeError:
+                    continue
 
             # Method 2: Look for standalone JSON blocks (often after thinking)
             # Common patterns: after </think>, or after "Here is the JSON:"
@@ -184,6 +206,9 @@ class OutputManager:
         genes: list[str],
         context: str,
         raw_filepath: Path | None = None,
+        resolve_citations: bool = False,
+        resolver: CitationResolver | None = None,
+        metadata: dict[str, Any] | None = None,
     ) -> dict[str, Any]:
         """Extract JSON from response, validate it, and save processed version.
 
@@ -192,6 +217,9 @@ class OutputManager:
             genes: List of genes that were analyzed
             context: Biological context used for analysis
             raw_filepath: Optional path to raw file (for reference)
+            resolve_citations: Whether to run url2ref resolution and build container output
+            resolver: Optional CitationResolver instance; created if not provided
+            metadata: Optional metadata to include in container
 
         Returns:
             Dictionary with processing results including validation status
@@ -203,6 +231,7 @@ class OutputManager:
             "structured_data": None,
             "errors": [],
             "raw_file": str(raw_filepath) if raw_filepath else None,
+            "container_file": None,
         }
 
         try:
@@ -215,6 +244,13 @@ class OutputManager:
                 return processing_result
 
             processing_result["json_extracted"] = True
+            if isinstance(extracted_json, str):
+                try:
+                    extracted_json = json.loads(extracted_json)
+                except json.JSONDecodeError as e:
+                    processing_result["errors"].append(f"Extracted JSON string failed to parse: {e}")
+                    return processing_result
+
             processing_result["structured_data"] = extracted_json
 
             # Validate against schema
@@ -245,6 +281,18 @@ class OutputManager:
                     json.dump(structured_output, f, indent=2, ensure_ascii=False)
 
                 processing_result["structured_file"] = str(structured_filepath)
+
+                if resolve_citations:
+                    citation_data = self._resolve_and_package_citations(
+                        result=result,
+                        structured_json=extracted_json,
+                        genes=genes,
+                        context=context,
+                        resolver=resolver,
+                        metadata=metadata,
+                        raw_filepath=raw_filepath,
+                    )
+                    processing_result.update(citation_data)
 
         except Exception as e:
             processing_result["errors"].append(f"Processing error: {str(e)}")
@@ -287,3 +335,55 @@ class OutputManager:
         filename = re.sub(r'[<>:"/\\|?*]', "_", filename)
 
         return filename
+
+    def _resolve_and_package_citations(
+        self,
+        *,
+        result: Any,
+        structured_json: dict[str, Any],
+        genes: list[str],
+        context: str,
+        resolver: CitationResolver | None,
+        metadata: dict[str, Any] | None,
+        raw_filepath: Path | None,
+    ) -> dict[str, Any]:
+        """Resolve citations via url2ref and build container JSON."""
+        citation_list = getattr(result, "citations", []) or []
+        normalized_citations = normalize_citations(citation_list)
+
+        if resolver is None:
+            resolver = CitationResolver()
+
+        resolution = resolver.resolve(normalized_citations)
+
+        container_filename = self._generate_filename(genes, context, suffix="_container")
+        container_filepath = self.output_dir / container_filename
+
+        container_payload = {
+            "metadata": {
+                "timestamp": datetime.now().isoformat(),
+                "genes": genes,
+                "context": context,
+                "provider": getattr(result, "provider", "unknown"),
+                "model": getattr(result, "model", "unknown"),
+                **(metadata or {}),
+            },
+            "deepsearch_raw": {
+                "markdown": getattr(result, "markdown", ""),
+                "citations": citation_list,
+                "duration_seconds": getattr(result, "duration_seconds", None),
+            },
+            "report": structured_json,
+            "citations": resolution["citations"],
+            "bibliography_stats": resolution["stats"],
+            "unresolved": resolution["failures"],
+        }
+
+        with open(container_filepath, "w", encoding="utf-8") as f:
+            json.dump(container_payload, f, indent=2, ensure_ascii=False)
+
+        return {
+            "container_file": str(container_filepath),
+            "citation_resolution": resolution,
+            "normalized_citations": normalized_citations,
+        }
