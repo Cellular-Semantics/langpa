@@ -6,9 +6,21 @@ __pycache__/
 .ruff_cache/
 .mypy_cache/
 .pytest_cache/
-dist/
-build/
 docs/_build/
 outputs/
 .idea/
 tmp/
+# Distribution / packaging
+dist/
+build/
+develop-eggs/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+*/*.egg-info/
+.installed.cfg
+*.egg
+*/*.egg
