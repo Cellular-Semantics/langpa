@@ -282,6 +282,7 @@ class OutputManager:
                         "context": context,
                         "validation_status": "valid",
                         "raw_file_reference": str(raw_filepath) if raw_filepath else None,
+                        **(metadata or {}),
                     },
                     "structured_data": extracted_json,
                 }
