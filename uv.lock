@@ -317,7 +317,7 @@ wheels = [
 [[package]]
 name = "cellsem-llm-client"
 version = "0.1.0"
-source = { git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=main#c7b86af9d05939cc7c7556872e125345bc4c748f" }
+source = { git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=v1.1-beta#877fff443ef636bbfcd055c997f3dd9c03ca91f5" }
 dependencies = [
     { name = "litellm" },
     { name = "pydantic" },
@@ -2004,7 +2004,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "cellsem-llm-client", git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=main" },
+    { name = "cellsem-llm-client", git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=v1.1-beta" },
     { name = "deep-research-client", git = "https://github.com/monarch-initiative/deep-research-client.git?rev=main" },
     { name = "jsonschema", specifier = ">=4.22.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.10.0" },
