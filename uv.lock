@@ -2018,7 +2018,7 @@ requires-dist = [
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.5.0" },
     { name = "sphinx", marker = "extra == 'dev'", specifier = ">=7.3.0" },
     { name = "sphinx-autodoc-typehints", marker = "extra == 'dev'", specifier = ">=1.25.0" },
-    { name = "url2ref", git = "https://github.com/Cellular-Semantics/url2ref.git?rev=main" },
+    { name = "url2ref", git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.0-beta" },
 ]
 provides-extras = ["dev"]
 
@@ -4690,7 +4690,7 @@ wheels = [
 [[package]]
 name = "url2ref"
 version = "0.1.0"
-source = { git = "https://github.com/Cellular-Semantics/url2ref.git?rev=main#55ff6acd13afc9549dec17bdc5599e380b0e463f" }
+source = { git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.0-beta#bb01a41bb18c12ff1cfdc025bdf99f0b02e38117" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "litellm" },
