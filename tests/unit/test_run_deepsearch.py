@@ -3,11 +3,17 @@
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
 from types import SimpleNamespace
 from typing import Any
 
 import pytest
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from scripts.run_deepsearch import derive_query_name, process_batch
 
 
@@ -38,12 +44,35 @@ def test_derive_query_name_fallback_to_context() -> None:
         query=None,
         project="proj",
         context="gliosis reactive astrocytes study",
-        genes=None,
+        genes=[["TP53", "BRCA1", "EGFR", "MYC"]],
+        genes_file=None,
+        context_file=None,
         from_markdown=None,
         raw_input=None,
     )
     derived = derive_query_name(args, None)
-    assert derived.startswith("gliosis_reactive")
+    assert derived == "TP53_BRCA1_and_2_more_gliosis_reactive_ast"
+
+
+@pytest.mark.unit
+def test_derive_query_name_uses_path_when_no_genes_or_context(tmp_path: Path) -> None:
+    project = "proj"
+    query_dir = tmp_path / project / "inputs" / "my_query"
+    query_dir.mkdir(parents=True)
+    input_path = query_dir / "run_1.md"
+    input_path.write_text("content", encoding="utf-8")
+
+    args = SimpleNamespace(
+        query=None,
+        project=project,
+        context=None,
+        genes=None,
+        from_markdown=None,
+        raw_input=None,
+    )
+
+    derived = derive_query_name(args, input_path)
+    assert derived == "my_query"
 
 
 @pytest.mark.unit

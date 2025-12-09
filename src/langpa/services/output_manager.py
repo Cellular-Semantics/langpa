@@ -313,39 +313,20 @@ class OutputManager:
     def _generate_filename(
         self, genes: list[str], context: str, suffix: str = "", extension: str = ".json"
     ) -> str:
-        """Generate a safe filename for output files.
+        """Generate a deterministic filename for output files.
 
         Args:
-            genes: List of genes (will be truncated if too long)
-            context: Biological context (will be sanitized)
-            suffix: Optional suffix to add
-            extension: File extension
+            genes: List of genes (unused; kept for backward compatibility)
+            context: Biological context (unused; kept for backward compatibility)
+            suffix: Optional suffix to add (include leading underscore)
+            extension: File extension (default .json)
 
         Returns:
-            Safe filename string
+            Safe filename string (no embedded metadata or timestamps)
         """
-        # Create timestamp
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-        # Sanitize context (remove special characters, limit length)
-        safe_context = re.sub(r"[^\w\s-]", "", context.strip())
-        safe_context = re.sub(r"\s+", "_", safe_context)[:20]
-
-        # Handle gene list (limit to avoid very long filenames)
-        if len(genes) <= 3:
-            genes_part = "_".join(genes)
-        else:
-            genes_part = f"{genes[0]}_{genes[1]}_and_{len(genes) - 2}_more"
-
-        # Sanitize genes part
-        genes_part = re.sub(r"[^\w-]", "_", genes_part)[:30]
-
-        filename = f"deepsearch_{timestamp}_{genes_part}_{safe_context}{suffix}{extension}"
-
-        # Final safety check - ensure filename is filesystem safe
-        filename = re.sub(r'[<>:"/\\|?*]', "_", filename)
-
-        return filename
+        base = "deepsearch"
+        filename = f"{base}{suffix}{extension}"
+        return re.sub(r'[<>:"/\\|?*]', "_", filename)
 
     def _resolve_and_package_citations(
         self,

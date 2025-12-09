@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -273,6 +274,23 @@ def load_context(args: argparse.Namespace) -> str:
     return context
 
 
+def _query_slug_from_genes_context(genes: list[str], context: str) -> str:
+    """Compose a query slug using the legacy filename recipe (genes + context)."""
+    # Handle gene list (limit to avoid very long names)
+    if len(genes) <= 3:
+        genes_part = "_".join(genes)
+    else:
+        genes_part = f"{genes[0]}_{genes[1]}_and_{len(genes) - 2}_more"
+    genes_part = re.sub(r"[^\w-]", "_", genes_part)[:30]
+
+    # Sanitize context (remove special characters, limit length)
+    safe_context = re.sub(r"[^\w\s-]", "", context.strip())
+    safe_context = re.sub(r"\s+", "_", safe_context)[:20]
+
+    parts = [part for part in (genes_part, safe_context) if part]
+    return "_".join(parts) if parts else "default_query"
+
+
 def derive_query_name(args: argparse.Namespace, input_path: Path | None) -> str:
     """Derive a query name from args or input paths."""
     if args.query:
@@ -285,13 +303,27 @@ def derive_query_name(args: argparse.Namespace, input_path: Path | None) -> str:
             return sanitize_name(parent.name)
         return sanitize_name(input_path.stem)
 
-    # Fallback for live runs: use context or genes
-    if args.context:
-        tokens = args.context.split()
-        return sanitize_name("_".join(tokens[:5]))
+    # Fallback for live runs: use genes + context recipe
+    if args.context or args.context_file:
+        try:
+            genes = load_genes(args)
+        except Exception:
+            genes = []
+        try:
+            context_text = load_context(args)
+        except Exception:
+            context_text = (args.context or "").strip()
+
+        query_slug = _query_slug_from_genes_context(genes, context_text)
+        return sanitize_name(query_slug)
+
     if args.genes:
-        first_gene = args.genes[0]
-        return sanitize_name(f"genes_{first_gene}")
+        try:
+            genes = load_genes(args)
+        except Exception:
+            genes = []
+        query_slug = _query_slug_from_genes_context(genes, args.context or "")
+        return sanitize_name(query_slug)
 
     return "default_query"
 

@@ -67,11 +67,13 @@ def test_outputs_land_in_project_query_run_dir() -> None:
         # Raw file should exist under run_dir
         raw_files = list(run_dir.glob("*.json"))
         assert raw_files, "No JSON files written to run_dir"
+        assert {p.name for p in raw_files} == {"deepsearch_structured.json"}
 
         # Structured file present and under the run_dir
         assert processing["structured_file"]
         structured_path = Path(processing["structured_file"])
         assert structured_path.parent == run_dir
+        assert structured_path.name == "deepsearch_structured.json"
 
         payload = json.loads(structured_path.read_text())
         assert payload["metadata"]["project"] == project

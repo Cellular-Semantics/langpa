@@ -6,10 +6,11 @@
 - **Batch**: `--batch-dir` iterates query subfolders (e.g., `projects/<proj>/inputs/<query>/*`) and processes each file as a query.
 
 ## Project/query organization
-Outputs are written under `outputs/<project>/<query>/<timestamp>/` (base override via `--output-dir`):
-- `deepsearch_raw.json`: raw markdown + original citations + metadata (includes project/query/source_tag).
+Outputs are written under `outputs/<project>/<query>/<timestamp>/` (base override via `--output-dir`). Filenames are fixed; identity comes from the folder path:
+- `deepsearch.json`: raw markdown + original citations + metadata (includes project/query/source_tag).
 - `deepsearch_structured.json`: parsed/validated DeepSearch report (citations with `source_id` only).
 - `deepsearch_container.json`: structured report + CSL-JSON citation map (keyed by `source_id`) + resolution stats.
+- `deepsearch_extracted_debug.json`: optional debug dump when `--debug-extraction` is used.
 
 Query naming:
 - `--query` overrides; otherwise derived from input folder/basename or context/genes for live runs.

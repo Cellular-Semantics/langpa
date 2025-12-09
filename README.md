@@ -101,10 +101,11 @@ The CLI `scripts/run_deepsearch.py` supports live API runs and offline processin
 - `--resolve-citations`: normalize/resolve citations via url2ref and write a container with CSL-JSON.
 - `--batch-dir`: iterate query subfolders (e.g., `projects/<proj>/inputs/<query>/*`) and process each file as a separate query.
 
-Output files per run (when validation succeeds):
-- `deepsearch_raw.json`: raw markdown + original citations + metadata.
+Output files per run (when validation succeeds) live under `outputs/<project>/<query>/<timestamp>/` and use fixed filenames (identity comes from the folder path):
+- `deepsearch.json`: raw markdown + original citations + metadata.
 - `deepsearch_structured.json`: parsed/validated DeepSearch report (source_id-only citations).
 - `deepsearch_container.json`: structured report + citation map (CSL-JSON keyed by source_id) + stats.
+- `deepsearch_extracted_debug.json`: optional debug dump when `--debug-extraction` is used.
 
 ### Graph Agents with pydantic-ai
 
