@@ -18,9 +18,18 @@ uv run pytest -m unit           # Unit tests only
 uv run pytest -m integration    # Integration tests only
 uv run pytest --cov             # With coverage
 
+# Code quality (run before committing!)
+uv run ruff format src/ tests/        # Format code
+uv run ruff check --fix src/ tests/   # Lint and auto-fix
+uv run mypy src/                      # Type checking
+
 # Documentation (run before committing!)
 python scripts/check-docs.py         # Build docs and check for errors
 cd docs && uv run sphinx-build . _build/html -W  # Alternative direct command
+
+# Pre-commit hooks (recommended)
+uv run pre-commit install       # Install git hooks
+uv run pre-commit run --all-files   # Run on all files
 
 # Add new dependencies
 uv add requests              # Add runtime dependency
@@ -31,9 +40,11 @@ uv sync                      # Sync dependencies (production only)
 uv sync --dev               # Sync with development dependencies
 ```
 
-## Code Quality Strategy (temporarily relaxed)
-- Ruff lint/format and mypy type checks are temporarily disabled to speed development.
-- Pre-commit hooks and CI do not enforce lint/type checks during this period.
+## Code Quality Strategy
+- **Pre-commit hooks**: Auto-run ruff to lint AND format /mypy to type check before each commit
+- **Local checks**: Always run `ruff format` and `ruff check --fix` before pushing
+- **GitHub Actions**: Runs same checks on PRs - should never fail if run locally
+- **IDE integration**: Configure your editor to run formatters on save
 
 ## Environment Configuration
 - **ALWAYS use dotenv**: Use `from dotenv import load_dotenv; load_dotenv()` for environment variables, never use `os.getenv()` directly

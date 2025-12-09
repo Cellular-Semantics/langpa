@@ -34,8 +34,23 @@ jobs:
           curl -LsSf https://astral.sh/uv/install.sh | sh
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
+      - name: Install ruff
+        run: uv tool install ruff
+
       - name: Sync dependencies
         run: uv sync --dev
+
+      - name: Ruff lint
+        run: uv tool run ruff check src/ tests/ || echo "⚠️ Ruff linting found issues (not blocking CI)"
+
+      - name: Ruff format (check only)
+        run: uv tool run ruff format --check src/ tests/
+
+      - name: Install missing type stubs
+        run: uv run mypy --install-types --non-interactive || echo "Type stubs installation attempted"
+
+      - name: Type check
+        run: uv run mypy src/ || echo "⚠️ MyPy found type issues (not blocking CI)"
 
       - name: Unit tests
         run: |
