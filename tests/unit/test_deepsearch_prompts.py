@@ -143,16 +143,28 @@ def test_format_prompt_template_invalid_template() -> None:
 @pytest.mark.unit
 def test_template_placeholder_substitution() -> None:
     """Test that all placeholders in templates are properly substituted."""
+    from langpa.services.deepsearch_prompts import get_template_metadata
+
     # Test with all templates to ensure they work
     genes = ["TEST1", "TEST2"]
     context = "test biological context"
+    test_schema = {"type": "object", "properties": {"test": {"type": "string"}}}
 
     for template_name in PROMPT_TEMPLATES:
-        formatted = format_prompt_template(template_name, genes, context)
+        # Check if template requires schema
+        metadata = get_template_metadata(template_name)
+        if metadata.get("requires_full_schema", False):
+            # Provide schema for schema-embedded templates
+            formatted = format_prompt_template(template_name, genes, context, schema=test_schema)
+        else:
+            # Legacy templates don't need schema
+            formatted = format_prompt_template(template_name, genes, context)
 
         # Should not contain any unsubstituted placeholders
         assert "{genes}" not in formatted
         assert "{context}" not in formatted
+        assert "{genes_json_array}" not in formatted
+        assert "{schema}" not in formatted
 
         # Should contain the test values
         assert "TEST1" in formatted
@@ -200,3 +212,127 @@ def test_json_schema_support_consistency() -> None:
         assert template["supports_json_schema"] is True, (
             f"Template {template_name} should support JSON schema"
         )
+
+
+@pytest.mark.unit
+def test_format_prompt_template_with_schema() -> None:
+    """Test formatting a schema-embedded template with schema parameter."""
+    genes = ["TP53", "BRCA1"]
+    context = "cancer tumor suppressor genes"
+    schema = {
+        "type": "object",
+        "properties": {
+            "test": {"type": "string"}
+        }
+    }
+
+    # This should work once we implement the new template
+    formatted = format_prompt_template(
+        "gene_analysis_schema_embedded",
+        genes,
+        context,
+        schema=schema
+    )
+
+    assert isinstance(formatted, str)
+    assert len(formatted) > 100
+
+    # Should contain JSON array format for genes
+    assert '["TP53", "BRCA1"]' in formatted
+
+    # Should contain the schema as JSON string
+    assert '"type": "object"' in formatted
+    assert '"properties"' in formatted
+
+    # Should not contain unsubstituted placeholders
+    assert "{genes_json_array}" not in formatted
+    assert "{schema}" not in formatted
+    assert "{context}" not in formatted
+
+
+@pytest.mark.unit
+def test_format_prompt_template_schema_required_error() -> None:
+    """Test that schema-embedded templates require schema parameter."""
+    genes = ["TP53"]
+    context = "cancer"
+
+    # Should raise ValueError when schema is required but not provided
+    with pytest.raises(ValueError) as exc_info:
+        format_prompt_template("gene_analysis_schema_embedded", genes, context)
+
+    assert "requires schema parameter" in str(exc_info.value).lower()
+
+
+@pytest.mark.unit
+def test_gene_analysis_schema_embedded_template() -> None:
+    """Test the new gene_analysis_schema_embedded template configuration."""
+    template = PROMPT_TEMPLATES["gene_analysis_schema_embedded"]
+
+    assert template["supports_json_schema"] is True
+    assert template["requires_full_schema"] is True
+    assert "perplexity" in template["optimized_for"]
+    assert "schema-embedded" in template["description"].lower()
+
+    # Template should contain placeholders
+    template_text = template["template"]
+    assert "{genes_json_array}" in template_text
+    assert "{context}" in template_text
+    assert "{schema}" in template_text
+
+    # Should contain key analysis elements
+    template_lower = template_text.lower()
+    assert "literature analysis" in template_lower or "analysis" in template_lower
+    assert "gene" in template_lower
+    assert "biological" in template_lower
+
+
+@pytest.mark.unit
+def test_get_template_metadata_new_field() -> None:
+    """Test that get_template_metadata returns requires_full_schema field."""
+    from langpa.services.deepsearch_prompts import get_template_metadata
+
+    # Test with schema-embedded template
+    metadata = get_template_metadata("gene_analysis_schema_embedded")
+    assert "requires_full_schema" in metadata
+    assert metadata["requires_full_schema"] is True
+    assert metadata["supports_json_schema"] is True
+
+    # Test with legacy template
+    metadata_legacy = get_template_metadata("gene_analysis_academic")
+    assert "requires_full_schema" in metadata_legacy
+    assert metadata_legacy["requires_full_schema"] is False
+
+
+@pytest.mark.unit
+def test_format_prompt_template_genes_json_array() -> None:
+    """Test that genes are formatted as JSON array in schema-embedded templates."""
+    genes = ["MYC", "EGFR", "KRAS"]
+    context = "oncogenes"
+    schema = {"type": "object"}
+
+    formatted = format_prompt_template(
+        "gene_analysis_schema_embedded",
+        genes,
+        context,
+        schema=schema
+    )
+
+    # Should contain genes as JSON array
+    import json
+    genes_json = json.dumps(genes)
+    assert genes_json in formatted
+    assert '["MYC", "EGFR", "KRAS"]' in formatted
+
+
+@pytest.mark.unit
+def test_legacy_templates_no_schema_required() -> None:
+    """Test that legacy templates work without schema parameter."""
+    genes = ["TP53"]
+    context = "cancer"
+
+    # Should work fine without schema parameter
+    formatted = format_prompt_template("gene_analysis_academic", genes, context)
+
+    assert isinstance(formatted, str)
+    assert "TP53" in formatted
+    assert "cancer" in formatted

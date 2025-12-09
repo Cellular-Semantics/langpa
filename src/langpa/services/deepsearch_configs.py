@@ -57,6 +57,29 @@ PRESET_CONFIGS: dict[str, DeepSearchConfig] = {
         prompt_template="gene_analysis_academic",
         description="Academic research optimized for Perplexity with high reasoning effort",
     ),
+    "perplexity-sonar-schema-embedded": DeepSearchConfig(
+        provider="perplexity",
+        model="sonar-deep-research",
+        provider_params={
+            "return_citations": True,
+            "search_domain_filter": [
+                "pubmed.ncbi.nlm.nih.gov",
+                "ncbi.nlm.nih.gov/pmc/",
+                "www.ncbi.nlm.nih.gov",
+                "europepmc.org",
+                "biorxiv.org",
+                "nature.com",
+                "cell.com",
+                "science.org",
+            ],
+            "reasoning_effort": "high",
+            "search_recency_filter": "month",
+            "system_prompt": None,  # Will be set dynamically to minimal prompt
+        },
+        timeout=180,
+        prompt_template="gene_analysis_schema_embedded",
+        description="Schema-embedded approach with full schema in user prompt - proven to work reliably with Perplexity for JSON output",
+    ),
 }
 
 
