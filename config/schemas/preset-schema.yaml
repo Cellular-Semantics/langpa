@@ -1,0 +1,71 @@
+# JSON Schema for validating DeepSearch preset configurations
+$schema: http://json-schema.org/draft-07/schema#
+title: DeepSearch Preset Configuration Schema
+description: Schema for validating DeepSearch configuration presets
+
+type: object
+properties:
+  presets:
+    type: object
+    patternProperties:
+      "^[a-zA-Z0-9_-]+$":  # Preset names: alphanumeric, underscore, hyphen
+        type: object
+        required:
+          - description
+          - provider
+          - model
+          - timeout
+          - prompt_template
+          - provider_params
+        properties:
+          description:
+            type: string
+            minLength: 10
+            description: "Human-readable description of the preset"
+
+          provider:
+            type: string
+            enum: [perplexity, openai, anthropic, edison, consensus]
+            description: "Research provider name"
+
+          model:
+            type: string
+            minLength: 1
+            description: "Model name for the provider"
+
+          timeout:
+            type: integer
+            minimum: 30
+            maximum: 600
+            description: "Request timeout in seconds"
+
+          prompt_template:
+            type: string
+            minLength: 1
+            description: "Name of prompt template to use"
+
+          provider_params:
+            type: object
+            description: "Provider-specific parameters"
+            properties:
+              return_citations:
+                type: boolean
+              reasoning_effort:
+                type: string
+                enum: [low, medium, high]
+              search_recency_filter:
+                type: [string, "null"]
+                enum: [hour, day, week, month, year, null]
+              search_domain_filter:
+                type: array
+                items:
+                  type: string
+                  format: hostname
+              system_prompt:
+                type: [string, "null"]
+            additionalProperties: true  # Allow provider-specific params
+        additionalProperties: false
+    additionalProperties: false
+required:
+  - presets
+additionalProperties: false

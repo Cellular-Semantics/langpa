@@ -10,9 +10,12 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from langpa.services import CitationResolver, DeepSearchService, OutputManager
+
+from langpa.services import DeepSearchService, OutputManager, CitationResolver
+from langpa.services.yaml_config import get_config_manager
 from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
 from langpa.services.markdown_citation_extractor import extract_citations_from_markdown
+
 
 # Ensure .env is loaded before instantiating clients
 load_dotenv()
@@ -101,6 +104,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--preferred-provider",
         help="Preferred provider when initializing DeepSearchService (for backward compatibility).",
+    )
+    parser.add_argument(
+        "--config-dir",
+        help="Custom configuration directory path. Default: uses ./config or ~/.langpa/config "
+        "hierarchy with built-in defaults as fallback.",
     )
     parser.add_argument(
         "--template",
@@ -252,16 +260,16 @@ def load_context(args: argparse.Namespace) -> str:
     return context
 
 
-def list_presets() -> None:
+def list_presets(config_dir: str | None = None) -> None:
     """Display available configuration presets with complete details."""
     print("Available configuration presets:")
     print("=" * 60)
     print()
 
-    preset_descriptions = DeepSearchService.get_available_presets()
+    preset_descriptions = DeepSearchService.get_available_presets(config_dir)
     for preset_name, description in preset_descriptions.items():
         # Get the actual configuration for detailed display
-        config = DeepSearchService.get_preset_config(preset_name)
+        config = DeepSearchService.get_preset_config(preset_name, config_dir)
 
         print(f"{preset_name}")
         print(f"  Description: {description}")
@@ -290,16 +298,17 @@ def list_presets() -> None:
         print()
 
 
-def list_templates() -> None:
+def list_templates(config_dir: str | None = None) -> None:
     """Display available prompt templates with complete details."""
     print("Available prompt templates:")
     print("=" * 60)
     print()
 
-    templates = DeepSearchService.get_available_templates()
+    templates = DeepSearchService.get_available_templates(config_dir)
+    config_manager = get_config_manager(config_dir)
     for template_name, description in templates.items():
         # Get template metadata for detailed display
-        metadata = get_template_metadata(template_name)
+        metadata = config_manager.get_template_metadata(template_name)
 
         print(f"{template_name}")
         print(f"  Description: {description}")
@@ -309,12 +318,13 @@ def list_templates() -> None:
         print()
 
 
-def show_template(template_name: str) -> None:
+def show_template(template_name: str, config_dir: str | None = None) -> None:
     """Display complete details for a specific template."""
     try:
+        config_manager = get_config_manager(config_dir)
         # Get template metadata and content
-        metadata = get_template_metadata(template_name)
-        template_config = get_prompt_template(template_name)
+        metadata = config_manager.get_template_metadata(template_name)
+        template_config = config_manager.get_template(template_name)
         template_text = template_config["template"]
 
         print(f"Template Details: {template_name}")
@@ -350,12 +360,12 @@ def show_template(template_name: str) -> None:
         print("Use --list-templates to see available templates.")
 
 
-def show_preset(preset_name: str) -> None:
+def show_preset(preset_name: str, config_dir: str | None = None) -> None:
     """Display complete details for a specific preset."""
     try:
         # Get preset configuration
-        config = DeepSearchService.get_preset_config(preset_name)
-        preset_descriptions = DeepSearchService.get_available_presets()
+        config = DeepSearchService.get_preset_config(preset_name, config_dir)
+        preset_descriptions = DeepSearchService.get_available_presets(config_dir)
         description = preset_descriptions.get(preset_name, "No description available")
 
         print(f"Preset Details: {preset_name}")
@@ -436,10 +446,19 @@ def show_dry_run(
     # Show provider parameters
     print("Provider Parameters:")
     for key, value in service.config.provider_params.items():
-        if key == "system_prompt" and value:
-            print(f"  {key}: [JSON schema system prompt - truncated]")
+        if key == "system_prompt":
+            # Skip showing system_prompt here - we'll show it separately below
+            continue
         else:
             print(f"  {key}: {value}")
+    print()
+
+    # Show complete system prompt with schema injection
+    system_prompt = service._get_system_prompt_with_schema(args.template)
+    print("System Prompt:")
+    print("-" * 60)
+    print(system_prompt)
+    print("-" * 60)
     print()
 
     # Construct and show the prompt
@@ -447,7 +466,7 @@ def show_dry_run(
         prompt = args.custom_prompt
         print("Custom Prompt:")
     else:
-        prompt = service.construct_prompt(genes, context, template_override=args.template)
+        prompt = service._construct_prompt(genes, context, template_override=args.template)
         print("Generated Prompt:")
 
     print("-" * 60)
@@ -467,19 +486,19 @@ def main() -> None:
 
     # Handle informational operations first
     if args.list_presets:
-        list_presets()
+        list_presets(args.config_dir)
         return
 
     if args.list_templates:
-        list_templates()
+        list_templates(args.config_dir)
         return
 
     if args.show_template:
-        show_template(args.show_template)
+        show_template(args.show_template, args.config_dir)
         return
 
     if args.show_preset:
-        show_preset(args.show_preset)
+        show_preset(args.show_preset, args.config_dir)
         return
 
     offline_input = args.from_markdown or args.raw_input
@@ -508,15 +527,18 @@ def main() -> None:
             provider_params["search_recency_filter"] = args.search_recency
         config_overrides["provider_params"] = provider_params
 
-    # Initialize service with preset support and overrides (only needed for live calls)
-    if not offline_input:
-        if args.preset:
-            service = DeepSearchService(preset=args.preset, **config_overrides)
-        else:
-            # Backward compatibility
-            service = DeepSearchService(
-                preferred_provider=args.preferred_provider, **config_overrides
-            )
+    # Initialize service with preset support and overrides
+    if args.preset:
+        service = DeepSearchService(
+            preset=args.preset, config_dir=args.config_dir, **config_overrides
+        )
+    else:
+        # Backward compatibility
+        service = DeepSearchService(
+            preferred_provider=args.preferred_provider,
+            config_dir=args.config_dir,
+            **config_overrides,
+        )
 
     # Handle dry run
     if args.dry_run:

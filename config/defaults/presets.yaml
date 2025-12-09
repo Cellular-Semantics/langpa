@@ -1,0 +1,64 @@
+# DeepSearch Configuration Presets
+# Default configurations for various research scenarios
+#
+# Each preset combines provider, model, parameters, timeout, and prompt template
+# for optimized performance in specific use cases.
+
+presets:
+  perplexity-sonar-pro:
+    description: "Academic research optimized for Perplexity with high reasoning effort"
+    provider: perplexity
+    model: sonar-reasoning-pro
+    timeout: 180
+    prompt_template: gene_analysis_academic
+    provider_params:
+      return_citations: true
+      reasoning_effort: high  # low, medium, high
+      search_recency_filter: month  # hour, day, week, month, year
+      search_domain_filter:
+        - "pubmed.ncbi.nlm.nih.gov"
+        - "ncbi.nlm.nih.gov/pmc/"
+        - "www.ncbi.nlm.nih.gov"
+        - "europepmc.org"
+        - "biorxiv.org"
+        - "nature.com"
+        - "cell.com"
+        - "science.org"
+      system_prompt: null  # Will be set dynamically with JSON schema
+
+  perplexity-deep-research_JSON:
+    description: "Academic research optimized for Perplexity deep search, returning structured results."
+    provider: perplexity
+    model: sonar-deep-research
+    timeout: 500
+    prompt_template: gene_analysis_deep_research
+    provider_params:
+      return_citations: true
+      # reasoning_effort: high  # low, medium, high. Not applicable to deep-research
+      search_recency_filter: null  # hour, day, week, month, year
+      search_domain_filter:
+        - "pubmed.ncbi.nlm.nih.gov"
+        - "ncbi.nlm.nih.gov/pmc/"
+        - "www.ncbi.nlm.nih.gov"
+        - "europepmc.org"
+        - "biorxiv.org"
+        - "nature.com"
+        - "cell.com"
+        - "science.org"
+      system_prompt: Respond with JSON conforming to the provided schema - no prose, no markdown.  If you are unable to respond with JSON alone, make sure the text includes code-fenced schema compliant JSON covering all report content.  If that is not possible, ensure the report includes tables that unambiguously capture the elements and their associations that would be captured if returning schema compliant JSON.  Provided schema  ```JSON {schema}```
+  # Example additional preset for fast analysis
+  perplexity-fast:
+    description: "Fast analysis with lower reasoning effort for quick experiments"
+    provider: perplexity
+    model: sonar-small
+    timeout: 60
+    prompt_template: gene_analysis_structured
+    provider_params:
+      return_citations: true
+      reasoning_effort: low
+      search_recency_filter: week
+      search_domain_filter:
+        - "pubmed.ncbi.nlm.nih.gov"
+        - "ncbi.nlm.nih.gov/pmc/"
+        - "nature.com"
+      system_prompt: null
