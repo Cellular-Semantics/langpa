@@ -362,3 +362,195 @@ def test_filename_generation() -> None:
         # Should be safe for filesystem
         assert "/" not in filename
         assert "\\" not in filename
+
+# Phase 3: Pydantic validation tests
+
+@pytest.mark.unit
+def test_validate_against_schema_v2_success() -> None:
+    """Test new pydantic validation method with valid data."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        valid_data = {
+            "context": {"cell_type": "cells", "disease": "test"},
+            "input_genes": ["TMEM14E"],
+            "programs": [{
+                "program_name": "Test",
+                "description": "Test program",
+                "predicted_cellular_impact": ["test impact"],
+                "evidence_summary": "test",
+                "significance_score": 0.5,
+                "citations": [{"source_id": "1"}],
+                "supporting_genes": ["TMEM14E"]
+            }],
+            "version": "1.0"
+        }
+
+        is_valid, error_msg, metadata = manager.validate_against_schema_v2(
+            valid_data,
+            use_pydantic=True
+        )
+
+        assert is_valid is True
+        assert error_msg is None
+        assert metadata["retry_count"] == 0
+        assert metadata["validation_time_ms"] > 0
+        assert metadata["corrections_applied"] is False
+
+
+@pytest.mark.unit
+def test_validate_against_schema_v2_invalid() -> None:
+    """Test pydantic validation with invalid data."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        # Missing required fields
+        invalid_data = {
+            "context": {"cell_type": "cells", "disease": "test"}
+            # Missing input_genes, programs, version
+        }
+
+        is_valid, error_msg, metadata = manager.validate_against_schema_v2(
+            invalid_data,
+            use_pydantic=True,
+            max_retries=1
+        )
+
+        assert is_valid is False
+        assert error_msg is not None
+
+
+@pytest.mark.unit
+def test_validate_against_schema_v2_fallback_to_jsonschema() -> None:
+    """Test that v2 can fallback to legacy jsonschema validation."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        valid_data = {
+            "context": {"cell_type": "cells", "disease": "test"},
+            "input_genes": ["TMEM14E"],
+            "programs": [{
+                "program_name": "Test",
+                "description": "Test",
+                "predicted_cellular_impact": ["impact"],
+                "evidence_summary": "evidence",
+                "significance_score": 0.5,
+                "citations": [{"source_id": "1"}],
+                "supporting_genes": ["TMEM14E"]
+            }],
+            "version": "1.0"
+        }
+
+        # Use fallback to jsonschema
+        is_valid, error_msg, metadata = manager.validate_against_schema_v2(
+            valid_data,
+            use_pydantic=False
+        )
+
+        assert is_valid is True
+        assert error_msg is None
+        # No metadata when using fallback
+        assert metadata == {}
+
+
+@pytest.mark.unit
+def test_backward_compatibility_validate_against_schema() -> None:
+    """Test that legacy validation method still works."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        valid_data = {
+            "context": {"cell_type": "cells", "disease": "test"},
+            "input_genes": ["TMEM14E"],
+            "programs": [{
+                "program_name": "Test",
+                "description": "Test",
+                "predicted_cellular_impact": ["impact"],
+                "evidence_summary": "evidence",
+                "significance_score": 0.5,
+                "citations": [{"source_id": "1"}],
+                "supporting_genes": ["TMEM14E"]
+            }],
+            "version": "1.0"
+        }
+
+        # Old method should still work
+        is_valid, error_msg = manager.validate_against_schema(valid_data)
+
+        assert is_valid is True
+        assert error_msg is None
+
+
+@pytest.mark.unit
+def test_process_and_save_with_pydantic() -> None:
+    """Test process_and_save_structured_output with pydantic validation."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        # Valid JSON in markdown
+        markdown = '''
+```json
+{
+    "context": {"cell_type": "cells", "disease": "test"},
+    "input_genes": ["TMEM14E"],
+    "programs": [{
+        "program_name": "Test",
+        "description": "Test",
+        "predicted_cellular_impact": ["impact"],
+        "evidence_summary": "evidence",
+        "significance_score": 0.5,
+        "citations": [{"source_id": "1"}],
+        "supporting_genes": ["TMEM14E"]
+    }],
+    "version": "1.0"
+}
+```
+        '''
+
+        result = MockResearchResult(markdown=markdown)
+
+        processing = manager.process_and_save_structured_output(
+            result=result,
+            genes=["TMEM14E"],
+            context="cells",
+            use_pydantic=True
+        )
+
+        assert processing["success"] is True
+        assert processing["json_extracted"] is True
+        assert processing["schema_valid"] is True
+        assert "validation_metadata" in processing
+        assert processing["validation_metadata"]["retry_count"] >= 0
+
+
+@pytest.mark.unit
+def test_validator_lazy_loading() -> None:
+    """Test that validator is lazy-loaded to avoid import overhead."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        manager = OutputManager(output_dir=temp_dir)
+
+        # Validator should not be initialized yet
+        assert manager._validator is None
+
+        # Access validator property
+        validator = manager.validator
+
+        # Now it should be initialized
+        assert validator is not None
+        assert manager._validator is not None
+
+        # Second access should return same instance
+        validator2 = manager.validator
+        assert validator is validator2
