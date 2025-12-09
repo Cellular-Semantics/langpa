@@ -20,7 +20,7 @@ load_dotenv()
 
 
 @pytest.mark.integration
-def test_deepsearch_pydantic_validation_e2e() -> None:
+def test_deepsearch_pydantic_validation_e2e(save_test_output) -> None:
     """Test complete E2E flow with pydantic validation.
 
     This test:
@@ -71,6 +71,24 @@ def test_deepsearch_pydantic_validation_e2e() -> None:
         # Check metadata
         assert validation_result.retry_count >= 0, "Should have retry count"
         assert validation_result.validation_time_ms > 0, "Should have validation time"
+
+        # Extract JSON for saving
+        extracted_json = validator.output_manager.extract_json_from_markdown(markdown)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            extracted_json=extracted_json,
+            validation_result={
+                "success": validation_result.success,
+                "retry_count": validation_result.retry_count,
+                "validation_time_ms": validation_result.validation_time_ms,
+                "error": str(validation_result.error) if validation_result.error else None
+            },
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro"
+        )
 
     except Exception as e:
         pytest.fail(f"Pydantic validation failed: {str(e)}")
@@ -136,7 +154,7 @@ def test_deepsearch_pydantic_validation_e2e() -> None:
 
 
 @pytest.mark.integration
-def test_deepsearch_pydantic_validation_with_moderate_genes() -> None:
+def test_deepsearch_pydantic_validation_with_moderate_genes(save_test_output) -> None:
     """Test E2E pydantic validation with moderate gene set.
 
     Uses slightly larger gene list to test multi-gene validation.
@@ -171,6 +189,22 @@ def test_deepsearch_pydantic_validation_with_moderate_genes() -> None:
             f"Validation should succeed. Error: {validation_result.error}"
         )
         assert validation_result.model_instance is not None
+
+        # Extract JSON and save output
+        extracted_json = validator.output_manager.extract_json_from_markdown(markdown)
+
+        save_test_output(
+            raw_response=result,
+            extracted_json=extracted_json,
+            validation_result={
+                "success": validation_result.success,
+                "retry_count": validation_result.retry_count,
+                "validation_time_ms": validation_result.validation_time_ms
+            },
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro"
+        )
 
     except Exception as e:
         pytest.fail(f"Pydantic validation failed: {str(e)}")

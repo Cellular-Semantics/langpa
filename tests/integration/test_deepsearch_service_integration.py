@@ -18,7 +18,7 @@ load_dotenv()
 
 
 @pytest.mark.integration
-def test_deepsearch_service_preset_integration() -> None:
+def test_deepsearch_service_preset_integration(save_test_output) -> None:
     """Test that perplexity-sonar-pro preset works with real Perplexity API.
 
     This is the core integration test for the preset system.
@@ -43,6 +43,14 @@ def test_deepsearch_service_preset_integration() -> None:
 
     try:
         result = service.research_gene_list(genes=genes, context=context)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro"
+        )
 
         # Verify API response structure
         assert result is not None
@@ -80,7 +88,7 @@ def test_deepsearch_service_preset_integration() -> None:
 
 
 @pytest.mark.integration
-def test_deepsearch_service_backward_compatibility() -> None:
+def test_deepsearch_service_backward_compatibility(save_test_output) -> None:
     """Test that the old preferred_provider pattern still works with real APIs.
 
     Ensures backward compatibility for existing code that uses preferred_provider.
@@ -107,6 +115,14 @@ def test_deepsearch_service_backward_compatibility() -> None:
     try:
         result = service.research_gene_list(genes=genes, context=context)
 
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            genes=genes,
+            context=context,
+            provider=provider
+        )
+
         # Basic response validation
         assert result is not None
 
@@ -123,7 +139,7 @@ def test_deepsearch_service_backward_compatibility() -> None:
 
 
 @pytest.mark.integration
-def test_deepsearch_service_preset_configuration_applied() -> None:
+def test_deepsearch_service_preset_configuration_applied(save_test_output) -> None:
     """Test that preset configuration parameters are actually applied to real API calls.
 
     Verifies that the preset's provider_params, model, and timeout are used.
@@ -159,6 +175,14 @@ def test_deepsearch_service_preset_configuration_applied() -> None:
     try:
         result = service.research_gene_list(genes=genes, context=context)
 
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro"
+        )
+
         # If we get a response, the configuration was applied successfully
         assert result is not None
 
@@ -177,7 +201,7 @@ def test_deepsearch_service_preset_configuration_applied() -> None:
 
 
 @pytest.mark.integration
-def test_deepsearch_service_preset_override() -> None:
+def test_deepsearch_service_preset_override(save_test_output) -> None:
     """Test that preset configuration can be overridden per method call.
 
     Verifies flexibility of the preset system.
@@ -196,6 +220,15 @@ def test_deepsearch_service_preset_override() -> None:
     try:
         # Use preset configuration
         result1 = service.research_gene_list(genes=genes, context=context)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result1,
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro",
+            test_variant="default_timeout"
+        )
         assert result1 is not None
         # Verify content exists
         content1 = getattr(result1, "content", None) or getattr(result1, "markdown", "")
@@ -220,7 +253,7 @@ def test_deepsearch_service_preset_override() -> None:
 
 
 @pytest.mark.integration
-def test_deepsearch_service_constructor_overrides() -> None:
+def test_deepsearch_service_constructor_overrides(save_test_output) -> None:
     """Test that constructor overrides work with preset system.
 
     Verifies constructor parameter precedence over preset defaults.
@@ -245,6 +278,15 @@ def test_deepsearch_service_constructor_overrides() -> None:
 
     try:
         result = service.research_gene_list(genes=genes, context=context)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro",
+            override_model="sonar-reasoning-pro"
+        )
 
         assert result is not None
 
