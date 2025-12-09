@@ -235,6 +235,7 @@ Do not include any prose, markdown, explanatory text, or <think> tags. Only the 
             # Set system_prompt with schema injection
             provider_params["system_prompt"] = self._get_system_prompt_with_schema(prompt_template)
 
+
             # Use configuration-driven research call
             result = self.client.research(
                 query=prompt,
