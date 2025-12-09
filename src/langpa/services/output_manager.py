@@ -26,6 +26,7 @@ class OutputManager:
         """
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        self._validator = None  # Lazy-loaded validator
 
     def save_raw_response(
         self,
@@ -202,6 +203,66 @@ class OutputManager:
         except Exception as e:
             return False, f"Schema validation error: {str(e)}"
 
+    @property
+    def validator(self):
+        """Lazy-load DeepSearchValidator to avoid import overhead.
+
+        Returns:
+            DeepSearchValidator instance
+        """
+        if self._validator is None:
+            from langpa.services.deepsearch_validator import DeepSearchValidator
+
+            self._validator = DeepSearchValidator()
+        return self._validator
+
+    def validate_against_schema_v2(
+        self,
+        json_data: dict[str, Any],
+        use_pydantic: bool = True,
+        max_retries: int = 3,
+    ) -> tuple[bool, str | None, dict[str, Any]]:
+        """Validate JSON data with pydantic support and metadata.
+
+        New validation method that supports both pydantic (via cellsem_llm_client)
+        and legacy jsonschema validation for backward compatibility.
+
+        Args:
+            json_data: JSON data to validate
+            use_pydantic: Use pydantic validation if True, jsonschema if False
+            max_retries: Maximum retry attempts for pydantic validation
+
+        Returns:
+            Tuple of (is_valid, error_message, metadata)
+            metadata includes: retry_count, validation_time_ms, corrections_applied
+
+        .. code-block:: python
+
+            is_valid, error, metadata = manager.validate_against_schema_v2(
+                data,
+                use_pydantic=True
+            )
+            if is_valid:
+                print(f"Validated after {metadata['retry_count']} retries")
+        """
+        if not use_pydantic:
+            # Fallback to legacy jsonschema
+            is_valid, error_msg = self.validate_against_schema(json_data)
+            return is_valid, error_msg, {}
+
+        # Use pydantic validation with retry
+        result = self.validator.validate_json_dict(json_data, max_retries)
+
+        metadata = {
+            "retry_count": result.retry_count,
+            "validation_time_ms": result.validation_time_ms,
+            "corrections_applied": result.retry_count > 0,
+        }
+
+        error_msg = str(result.error) if result.error else None
+
+        return result.success, error_msg, metadata
+
     def process_and_save_structured_output(
         self,
         result: Any,  # ResearchResult object
@@ -212,6 +273,7 @@ class OutputManager:
         resolver: CitationResolver | None = None,
         metadata: dict[str, Any] | None = None,
         filename_prefix: str | None = None,
+        use_pydantic: bool = False,
     ) -> dict[str, Any]:
         """Extract JSON from response, validate it, and save processed version.
 
@@ -223,6 +285,7 @@ class OutputManager:
             resolve_citations: Whether to run url2ref resolution and build container output
             resolver: Optional CitationResolver instance; created if not provided
             metadata: Optional metadata to include in container
+            use_pydantic: Use pydantic validation if True, jsonschema if False (default)
 
         Returns:
             Dictionary with processing results including validation status
@@ -259,7 +322,14 @@ class OutputManager:
             processing_result["structured_data"] = extracted_json
 
             # Validate against schema
-            is_valid, error_msg = self.validate_against_schema(extracted_json)
+            if use_pydantic:
+                is_valid, error_msg, val_metadata = self.validate_against_schema_v2(
+                    extracted_json, use_pydantic=True
+                )
+                processing_result["validation_metadata"] = val_metadata
+            else:
+                is_valid, error_msg = self.validate_against_schema(extracted_json)
+
             processing_result["schema_valid"] = is_valid
 
             if not is_valid:

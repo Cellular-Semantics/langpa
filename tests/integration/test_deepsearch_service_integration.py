@@ -18,7 +18,7 @@ load_dotenv()
 
 
 @pytest.mark.integration
-def test_deepsearch_service_preset_integration() -> None:
+def test_deepsearch_service_preset_integration(save_test_output) -> None:
     """Test that perplexity-sonar-pro preset works with real Perplexity API.
 
     This is the core integration test for the preset system.
@@ -37,12 +37,20 @@ def test_deepsearch_service_preset_integration() -> None:
     assert service.config.model == "sonar-reasoning-pro"
     assert service.config.timeout == 180
 
-    # Test real API call with minimal gene list for speed
-    genes = ["TP53"]  # Single gene for faster testing
-    context = "cancer tumor suppressor"
+    # Test real API call with minimal gene list for speed and cost
+    genes = ["TMEM14E"]  # Minimally characterized gene for cost optimization
+    context = "cells"
 
     try:
         result = service.research_gene_list(genes=genes, context=context)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro"
+        )
 
         # Verify API response structure
         assert result is not None
@@ -65,7 +73,7 @@ def test_deepsearch_service_preset_integration() -> None:
 
         # Verify content contains gene-related information
         content_lower = content.lower()
-        assert "tp53" in content_lower or "p53" in content_lower, (
+        assert "tmem14e" in content_lower or "tmem" in content_lower, (
             "Response should mention the queried gene"
         )
 
@@ -80,7 +88,7 @@ def test_deepsearch_service_preset_integration() -> None:
 
 
 @pytest.mark.integration
-def test_deepsearch_service_backward_compatibility() -> None:
+def test_deepsearch_service_backward_compatibility(save_test_output) -> None:
     """Test that the old preferred_provider pattern still works with real APIs.
 
     Ensures backward compatibility for existing code that uses preferred_provider.
@@ -100,12 +108,20 @@ def test_deepsearch_service_backward_compatibility() -> None:
     assert service.config.provider == provider
     assert service.preferred_provider == provider  # Backward compatibility attribute
 
-    # Test real API call
-    genes = ["ILRUN"]
-    context = "immune system"
+    # Test real API call with minimal gene set
+    genes = ["TMEM14E"]
+    context = "cells"
 
     try:
         result = service.research_gene_list(genes=genes, context=context)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            genes=genes,
+            context=context,
+            provider=provider
+        )
 
         # Basic response validation
         assert result is not None
@@ -116,14 +132,14 @@ def test_deepsearch_service_backward_compatibility() -> None:
 
         # Verify gene mentioned in response
         content_lower = content.lower()
-        assert "ilrun" in content_lower
+        assert "tmem14e" in content_lower or "tmem" in content_lower
 
     except Exception as e:
         pytest.fail(f"Backward compatibility test failed: {str(e)}")
 
 
 @pytest.mark.integration
-def test_deepsearch_service_preset_configuration_applied() -> None:
+def test_deepsearch_service_preset_configuration_applied(save_test_output) -> None:
     """Test that preset configuration parameters are actually applied to real API calls.
 
     Verifies that the preset's provider_params, model, and timeout are used.
@@ -153,11 +169,19 @@ def test_deepsearch_service_preset_configuration_applied() -> None:
     assert "nature.com" in domain_filter
 
     # Test with actual API call to verify these settings work
-    genes = ["ILRUN"]
-    context = "immune system"
+    genes = ["C9orf72", "C21orf91"]
+    context = "neural cells"
 
     try:
         result = service.research_gene_list(genes=genes, context=context)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro"
+        )
 
         # If we get a response, the configuration was applied successfully
         assert result is not None
@@ -177,7 +201,7 @@ def test_deepsearch_service_preset_configuration_applied() -> None:
 
 
 @pytest.mark.integration
-def test_deepsearch_service_preset_override() -> None:
+def test_deepsearch_service_preset_override(save_test_output) -> None:
     """Test that preset configuration can be overridden per method call.
 
     Verifies flexibility of the preset system.
@@ -190,12 +214,21 @@ def test_deepsearch_service_preset_override() -> None:
     service = DeepSearchService(preset="perplexity-sonar-pro")
 
     # Test provider override (if multiple providers available)
-    genes = ["ILRUN"]
-    context = "immune system"
+    genes = ["TMEM14E"]
+    context = "cells"
 
     try:
         # Use preset configuration
         result1 = service.research_gene_list(genes=genes, context=context)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result1,
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro",
+            test_variant="default_timeout"
+        )
         assert result1 is not None
         # Verify content exists
         content1 = getattr(result1, "content", None) or getattr(result1, "markdown", "")
@@ -220,7 +253,7 @@ def test_deepsearch_service_preset_override() -> None:
 
 
 @pytest.mark.integration
-def test_deepsearch_service_constructor_overrides() -> None:
+def test_deepsearch_service_constructor_overrides(save_test_output) -> None:
     """Test that constructor overrides work with preset system.
 
     Verifies constructor parameter precedence over preset defaults.
@@ -240,11 +273,20 @@ def test_deepsearch_service_constructor_overrides() -> None:
     assert service.config.provider == "perplexity"
 
     # Test real API call with overridden configuration
-    genes = ["ILRUN"]
-    context = "immune system"
+    genes = ["C9orf72", "C21orf91"]
+    context = "neural cells"
 
     try:
         result = service.research_gene_list(genes=genes, context=context)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-pro",
+            override_model="sonar-reasoning-pro"
+        )
 
         assert result is not None
 
@@ -252,9 +294,9 @@ def test_deepsearch_service_constructor_overrides() -> None:
         content = getattr(result, "content", None) or getattr(result, "markdown", "")
         assert len(content) > 20
 
-        # Should mention the gene
+        # Should mention at least one of the genes
         content_lower = content.lower()
-        assert "ilrun" in content_lower
+        assert "c9orf72" in content_lower or "c21orf91" in content_lower
 
     except Exception as e:
         pytest.fail(f"Constructor override test failed: {str(e)}")
@@ -281,7 +323,7 @@ def test_deepsearch_service_preset_error_handling() -> None:
 
     # Test with empty context
     with pytest.raises(ValueError) as exc_info:
-        service.research_gene_list(genes=["ILRUN"], context="")
+        service.research_gene_list(genes=["TMEM14E"], context="")
 
     assert "context" in str(exc_info.value).lower()
 
