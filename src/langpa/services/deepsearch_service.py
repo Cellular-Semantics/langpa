@@ -17,6 +17,7 @@ from langpa.services.deepsearch_configs import (
 )
 from langpa.services.deepsearch_prompts import (
     format_prompt_template,
+    get_template_metadata,
     list_available_templates,
 )
 
@@ -134,8 +135,15 @@ class DeepSearchService:
         # Determine which template to use
         template_name = template_override or self.config.prompt_template
 
+        # Check if template requires schema embedding in user prompt
+        template_metadata = get_template_metadata(template_name)
+        schema = None
+        if template_metadata.get("requires_full_schema", False):
+            # Load schema for embedding in user prompt
+            schema = load_schema("deepsearch_results_schema.json")
+
         # Format the prompt using the template system
-        return format_prompt_template(template_name, genes, context)
+        return format_prompt_template(template_name, genes, context, schema=schema)
 
     def research_gene_list(
         self,
@@ -191,11 +199,19 @@ class DeepSearchService:
             # Prepare provider params from config
             provider_params = dict(self.config.provider_params)  # Copy to avoid modifying original
 
-            # Set system_prompt with JSON schema (overwrites any preset system_prompt)
-            provider_params[
-                "system_prompt"
-            ] = f"""You are an expert biologist. Analyze the provided genes in the given biological
-context.
+            # Determine system prompt strategy based on template
+            template_name = prompt_template or self.config.prompt_template
+            template_metadata = get_template_metadata(template_name)
+
+            if template_metadata.get("requires_full_schema", False):
+                # Schema-embedded approach: minimal system prompt
+                # Schema is in user prompt, so just remind model to return JSON only
+                provider_params["system_prompt"] = """You are an expert biologist. Respond ONLY with valid JSON matching the schema provided in the user prompt. Do not include any prose, markdown, explanatory text, or <think> tags. Only output the JSON structure."""
+            else:
+                # Legacy approach: schema in system prompt
+                provider_params[
+                    "system_prompt"
+                ] = f"""You are an expert biologist. Analyze the provided genes in the given biological context.
 
 CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
 {json.dumps(schema, indent=2)}

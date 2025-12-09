@@ -181,3 +181,83 @@ def test_deepsearch_service_provider_configuration(mock_client_class: Mock) -> N
 
     call_args = mock_client.research.call_args[1]
     assert call_args["provider"] == "openai", "Should use specified provider"
+
+
+@pytest.mark.unit
+@patch("langpa.services.deepsearch_service.DeepResearchClient")
+def test_deepsearch_service_schema_embedded_prompt_construction(mock_client_class: Mock) -> None:
+    """Test that service constructs schema-embedded prompts correctly."""
+    from langpa.services.deepsearch_service import DeepSearchService
+
+    mock_client = Mock()
+    mock_client.get_available_providers.return_value = ["perplexity"]
+    mock_client.research.return_value = MockResearchResult(content="test")
+    mock_client_class.return_value = mock_client
+
+    # Initialize with schema-embedded preset
+    service = DeepSearchService(preset="perplexity-sonar-schema-embedded")
+
+    genes = ["SERPINE1", "EMP1"]
+    context = "glioblastoma cells"
+
+    service.research_gene_list(genes=genes, context=context)
+
+    # Verify the prompt contains schema and JSON array genes
+    call_args = mock_client.research.call_args[1]
+    query = call_args["query"]
+
+    # Should have genes as JSON array
+    assert '["SERPINE1", "EMP1"]' in query or "SERPINE1" in query
+
+    # Should have schema embedded in user prompt
+    assert '"type"' in query or "schema" in query.lower()
+
+
+@pytest.mark.unit
+@patch("langpa.services.deepsearch_service.DeepResearchClient")
+def test_deepsearch_service_conditional_system_prompt(mock_client_class: Mock) -> None:
+    """Test that service uses minimal system prompt for schema-embedded templates."""
+    from langpa.services.deepsearch_service import DeepSearchService
+
+    mock_client = Mock()
+    mock_client.get_available_providers.return_value = ["perplexity"]
+    mock_client.research.return_value = MockResearchResult(content="test")
+    mock_client_class.return_value = mock_client
+
+    # Test with schema-embedded preset
+    service = DeepSearchService(preset="perplexity-sonar-schema-embedded")
+    service.research_gene_list(genes=["TP53"], context="cancer")
+
+    call_args = mock_client.research.call_args[1]
+    provider_params = call_args.get("provider_params", {})
+    system_prompt = provider_params.get("system_prompt", "")
+
+    # System prompt should be minimal (not contain full schema)
+    # It should be much shorter than the legacy version
+    assert len(system_prompt) < 500, "Schema-embedded should have minimal system prompt"
+    assert "schema provided in the user prompt" in system_prompt.lower() or \
+           "respond only with valid json" in system_prompt.lower()
+
+
+@pytest.mark.unit
+@patch("langpa.services.deepsearch_service.DeepResearchClient")
+def test_deepsearch_service_legacy_system_prompt(mock_client_class: Mock) -> None:
+    """Test that service uses full schema in system prompt for legacy templates."""
+    from langpa.services.deepsearch_service import DeepSearchService
+
+    mock_client = Mock()
+    mock_client.get_available_providers.return_value = ["perplexity"]
+    mock_client.research.return_value = MockResearchResult(content="test")
+    mock_client_class.return_value = mock_client
+
+    # Test with legacy preset
+    service = DeepSearchService(preset="perplexity-sonar-pro")
+    service.research_gene_list(genes=["TP53"], context="cancer")
+
+    call_args = mock_client.research.call_args[1]
+    provider_params = call_args.get("provider_params", {})
+    system_prompt = provider_params.get("system_prompt", "")
+
+    # System prompt should contain full schema (legacy behavior)
+    assert len(system_prompt) > 500, "Legacy should have full schema in system prompt"
+    assert '"type"' in system_prompt or "json" in system_prompt.lower()
