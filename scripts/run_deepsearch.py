@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -13,6 +14,7 @@ from dotenv import load_dotenv
 from langpa.services import CitationResolver, DeepSearchService, OutputManager
 from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
 from langpa.services.markdown_citation_extractor import extract_citations_from_markdown
+from langpa.utils.output_paths import build_run_directory, sanitize_name
 
 # Ensure .env is loaded before instantiating clients
 load_dotenv()
@@ -23,6 +25,26 @@ def parse_args() -> argparse.Namespace:
         description="Run DeepSearch over a gene list within a biological context."
     )
 
+    parser.add_argument(
+        "--project",
+        default="default",
+        help="Project name used to organize outputs (default: default).",
+    )
+    parser.add_argument(
+        "--query",
+        help=(
+            "Query name used to organize outputs. If omitted, derived from input "
+            "filename/folder or context/genes."
+        ),
+    )
+    parser.add_argument(
+        "--batch-dir",
+        type=Path,
+        help=(
+            "Process all inputs under this directory as separate queries "
+            "(use project + subfolder names)."
+        ),
+    )
     # List available options
     parser.add_argument(
         "--list-presets",
@@ -252,6 +274,60 @@ def load_context(args: argparse.Namespace) -> str:
     return context
 
 
+def _query_slug_from_genes_context(genes: list[str], context: str) -> str:
+    """Compose a query slug using the legacy filename recipe (genes + context)."""
+    # Handle gene list (limit to avoid very long names)
+    if len(genes) <= 3:
+        genes_part = "_".join(genes)
+    else:
+        genes_part = f"{genes[0]}_{genes[1]}_and_{len(genes) - 2}_more"
+    genes_part = re.sub(r"[^\w-]", "_", genes_part)[:30]
+
+    # Sanitize context (remove special characters, limit length)
+    safe_context = re.sub(r"[^\w\s-]", "", context.strip())
+    safe_context = re.sub(r"\s+", "_", safe_context)[:20]
+
+    parts = [part for part in (genes_part, safe_context) if part]
+    return "_".join(parts) if parts else "default_query"
+
+
+def derive_query_name(args: argparse.Namespace, input_path: Path | None) -> str:
+    """Derive a query name from args or input paths."""
+    if args.query:
+        return sanitize_name(args.query)
+
+    if input_path:
+        # Prefer immediate parent folder under projects/<project>/inputs/<query>/
+        parent = input_path.parent
+        if parent.name and parent.name not in {"inputs", args.project}:
+            return sanitize_name(parent.name)
+        return sanitize_name(input_path.stem)
+
+    # Fallback for live runs: use genes + context recipe
+    if args.context or args.context_file:
+        try:
+            genes = load_genes(args)
+        except Exception:
+            genes = []
+        try:
+            context_text = load_context(args)
+        except Exception:
+            context_text = (args.context or "").strip()
+
+        query_slug = _query_slug_from_genes_context(genes, context_text)
+        return sanitize_name(query_slug)
+
+    if args.genes:
+        try:
+            genes = load_genes(args)
+        except Exception:
+            genes = []
+        query_slug = _query_slug_from_genes_context(genes, args.context or "")
+        return sanitize_name(query_slug)
+
+    return "default_query"
+
+
 def list_presets() -> None:
     """Display available configuration presets with complete details."""
     print("Available configuration presets:")
@@ -462,9 +538,54 @@ def show_dry_run(
     print("No actual API call made (dry run mode)")
 
 
+def process_batch(args):
+    batch_root = args.batch_dir
+    if not batch_root or not batch_root.exists():
+        raise SystemExit(f"[error] Batch directory not found: {batch_root}")
+
+    # Expect structure projects/<project>/inputs/<query>/*
+    query_dirs = [
+        p for p in batch_root.iterdir() if p.is_dir()
+    ]
+
+    if not query_dirs:
+        raise SystemExit(f"[error] No query subfolders found under {batch_root}")
+
+    for query_dir in query_dirs:
+        files = sorted(
+            [p for p in query_dir.iterdir() if p.is_file() and p.suffix in {".md", ".json"}]
+        )
+        if not files:
+            continue
+
+        # derive query from folder name
+        query_name = sanitize_name(query_dir.name)
+
+        for input_path in files:
+            sub_args = argparse.Namespace(**vars(args))
+            if input_path.suffix == ".md":
+                sub_args.from_markdown = input_path
+                sub_args.raw_input = None
+            else:
+                sub_args.raw_input = input_path
+                sub_args.from_markdown = None
+            sub_args.query = query_name
+            sub_args.batch_dir = None  # prevent recursion
+
+            print(f"[batch] Processing {input_path} as query '{query_name}'")
+            main_single_run(sub_args)
+    print("[batch] Done.")
+
+
 def main() -> None:
     args = parse_args()
+    if args.batch_dir:
+        process_batch(args)
+        return
+    main_single_run(args)
 
+
+def main_single_run(args: argparse.Namespace) -> None:
     # Handle informational operations first
     if args.list_presets:
         list_presets()
@@ -485,6 +606,11 @@ def main() -> None:
     offline_input = args.from_markdown or args.raw_input
     genes: list[str] | None = None
     context: str | None = None
+
+    # Derive query and project
+    input_path: Path | None = args.from_markdown or args.raw_input
+    query_name = derive_query_name(args, input_path)
+    project_name = sanitize_name(args.project)
 
     # Load genes and context unless offline inputs will supply them
     if not offline_input:
@@ -509,6 +635,7 @@ def main() -> None:
         config_overrides["provider_params"] = provider_params
 
     # Initialize service with preset support and overrides (only needed for live calls)
+    service = None
     if not offline_input:
         if args.preset:
             service = DeepSearchService(preset=args.preset, **config_overrides)
@@ -527,7 +654,10 @@ def main() -> None:
     if args.show_config:
         show_configuration(service, args)
 
-    output_manager = OutputManager(output_dir=args.output_dir)
+    # Build run directory under outputs/<project>/<query>/<timestamp>
+    run_dir = build_run_directory(Path(args.output_dir), project_name, query_name)
+
+    output_manager = OutputManager(output_dir=run_dir)
     resolver = None
     if args.resolve_citations:
         resolver = CitationResolver(
@@ -623,6 +753,9 @@ def main() -> None:
         "timeout_seconds": args.timeout,
         "effective_provider": effective_provider,
         "effective_model": effective_model,
+        "project": project_name,
+        "query": query_name,
+        "source_tag": input_path.stem if input_path else None,
         "resolve_citations": args.resolve_citations,
         "citation_flags": {
             "validate": args.citation_validate,

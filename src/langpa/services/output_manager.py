@@ -33,6 +33,7 @@ class OutputManager:
         genes: list[str],
         context: str,
         metadata: dict[str, Any] | None = None,
+        filename: str | None = None,
     ) -> Path:
         """Save raw DeepSearch response to JSON file.
 
@@ -46,7 +47,7 @@ class OutputManager:
             Path to the saved file
         """
         # Generate filename
-        filename = self._generate_filename(genes, context)
+        filename = filename or self._generate_filename(genes, context)
         filepath = self.output_dir / filename
 
         # Prepare data structure
@@ -210,6 +211,7 @@ class OutputManager:
         resolve_citations: bool = False,
         resolver: CitationResolver | None = None,
         metadata: dict[str, Any] | None = None,
+        filename_prefix: str | None = None,
     ) -> dict[str, Any]:
         """Extract JSON from response, validate it, and save processed version.
 
@@ -266,7 +268,11 @@ class OutputManager:
                 processing_result["success"] = True
 
                 # Save structured output
-                structured_filename = self._generate_filename(genes, context, suffix="_structured")
+                structured_filename = (
+                    f"{filename_prefix}_structured.json"
+                    if filename_prefix
+                    else self._generate_filename(genes, context, suffix="_structured")
+                )
                 structured_filepath = self.output_dir / structured_filename
 
                 structured_output = {
@@ -276,6 +282,7 @@ class OutputManager:
                         "context": context,
                         "validation_status": "valid",
                         "raw_file_reference": str(raw_filepath) if raw_filepath else None,
+                        **(metadata or {}),
                     },
                     "structured_data": extracted_json,
                 }
@@ -294,6 +301,7 @@ class OutputManager:
                         resolver=resolver,
                         metadata=metadata,
                         raw_filepath=raw_filepath,
+                        filename_prefix=filename_prefix,
                     )
                     processing_result.update(citation_data)
 
@@ -305,39 +313,20 @@ class OutputManager:
     def _generate_filename(
         self, genes: list[str], context: str, suffix: str = "", extension: str = ".json"
     ) -> str:
-        """Generate a safe filename for output files.
+        """Generate a deterministic filename for output files.
 
         Args:
-            genes: List of genes (will be truncated if too long)
-            context: Biological context (will be sanitized)
-            suffix: Optional suffix to add
-            extension: File extension
+            genes: List of genes (unused; kept for backward compatibility)
+            context: Biological context (unused; kept for backward compatibility)
+            suffix: Optional suffix to add (include leading underscore)
+            extension: File extension (default .json)
 
         Returns:
-            Safe filename string
+            Safe filename string (no embedded metadata or timestamps)
         """
-        # Create timestamp
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-        # Sanitize context (remove special characters, limit length)
-        safe_context = re.sub(r"[^\w\s-]", "", context.strip())
-        safe_context = re.sub(r"\s+", "_", safe_context)[:20]
-
-        # Handle gene list (limit to avoid very long filenames)
-        if len(genes) <= 3:
-            genes_part = "_".join(genes)
-        else:
-            genes_part = f"{genes[0]}_{genes[1]}_and_{len(genes) - 2}_more"
-
-        # Sanitize genes part
-        genes_part = re.sub(r"[^\w-]", "_", genes_part)[:30]
-
-        filename = f"deepsearch_{timestamp}_{genes_part}_{safe_context}{suffix}{extension}"
-
-        # Final safety check - ensure filename is filesystem safe
-        filename = re.sub(r'[<>:"/\\|?*]', "_", filename)
-
-        return filename
+        base = "deepsearch"
+        filename = f"{base}{suffix}{extension}"
+        return re.sub(r'[<>:"/\\|?*]', "_", filename)
 
     def _resolve_and_package_citations(
         self,
@@ -349,6 +338,7 @@ class OutputManager:
         resolver: CitationResolver | None,
         metadata: dict[str, Any] | None,
         raw_filepath: Path | None,
+        filename_prefix: str | None,
     ) -> dict[str, Any]:
         """Resolve citations via url2ref and build container JSON."""
         citation_list = getattr(result, "citations", []) or []
@@ -359,7 +349,11 @@ class OutputManager:
 
         resolution = resolver.resolve(normalized_citations)
 
-        container_filename = self._generate_filename(genes, context, suffix="_container")
+        container_filename = (
+            f"{filename_prefix}_container.json"
+            if filename_prefix
+            else self._generate_filename(genes, context, suffix="_container")
+        )
         container_filepath = self.output_dir / container_filename
 
         container_payload = {

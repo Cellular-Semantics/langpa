@@ -92,6 +92,21 @@ Optional workflow graphs powered by Pydantic ensure orchestration definitions ar
 - `src/langpa/services`: Concrete integrations (CellSem LLM client, Deepsearch)
 - `src/langpa/utils`: Repo-specific tooling/helpers that support workflows without being agents
 
+## DeepSearch CLI & Outputs
+
+The CLI `scripts/run_deepsearch.py` supports live API runs and offline processing of saved DeepSearch markdown/raw JSON. Key flags:
+
+- `--project` / `--query`: organize outputs under `outputs/<project>/<query>/<timestamp>/`.
+- `--from-markdown` / `--raw-input`: process saved responses without calling the API.
+- `--resolve-citations`: normalize/resolve citations via url2ref and write a container with CSL-JSON.
+- `--batch-dir`: iterate query subfolders (e.g., `projects/<proj>/inputs/<query>/*`) and process each file as a separate query.
+
+Output files per run (when validation succeeds) live under `outputs/<project>/<query>/<timestamp>/` and use fixed filenames (identity comes from the folder path):
+- `deepsearch.json`: raw markdown + original citations + metadata.
+- `deepsearch_structured.json`: parsed/validated DeepSearch report (source_id-only citations).
+- `deepsearch_container.json`: structured report + citation map (CSL-JSON keyed by source_id) + stats.
+- `deepsearch_extracted_debug.json`: optional debug dump when `--debug-extraction` is used.
+
 ### Graph Agents with pydantic-ai
 
 ```python

@@ -83,7 +83,7 @@ def test_save_raw_response() -> None:
         # Verify file was created
         assert saved_path.exists()
         assert saved_path.suffix == ".json"
-        assert "deepsearch" in saved_path.name
+        assert saved_path.name == "deepsearch.json"
 
         # Verify file contents
         with open(saved_path) as f:
@@ -350,10 +350,14 @@ def test_filename_generation() -> None:
 
         filename = manager._generate_filename(genes, context)
 
-        # Should contain timestamp
-        assert "_" in filename
-        assert filename.startswith("deepsearch_")
-        assert filename.endswith(".json")
+        # Fixed base name with no timestamp or metadata
+        assert filename == "deepsearch.json"
+
+        # Genes/context should not be embedded in filename
+        assert "TP53" not in filename
+        assert "BRCA1" not in filename
+        assert "cancer" not in filename
+        assert "research" not in filename
 
         # Should be safe for filesystem
         assert "/" not in filename
