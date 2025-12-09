@@ -59,7 +59,7 @@ PRESET_CONFIGS: dict[str, DeepSearchConfig] = {
     ),
     "perplexity-sonar-schema-embedded": DeepSearchConfig(
         provider="perplexity",
-        model="sonar-reasoning-pro",
+        model="sonar-deep-research",
         provider_params={
             "return_citations": True,
             "search_domain_filter": [
