@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from importlib import resources
 from json import loads
+from pathlib import Path
 from typing import Any
 
 
@@ -13,4 +14,13 @@ def load_schema(name: str) -> dict[str, Any]:
         return loads(handle.read())
 
 
-__all__ = ["load_schema"]
+def get_schemas_dir() -> Path:
+    """Get the path to the schemas directory.
+
+    Returns:
+        Path object pointing to the schemas directory
+    """
+    return Path(resources.files(__package__).joinpath(".").as_posix())
+
+
+__all__ = ["load_schema", "get_schemas_dir"]
