@@ -99,13 +99,46 @@ The CLI `scripts/run_deepsearch.py` supports live API runs and offline processin
 - `--project` / `--query`: organize outputs under `outputs/<project>/<query>/<timestamp>/`.
 - `--from-markdown` / `--raw-input`: process saved responses without calling the API.
 - `--resolve-citations`: normalize/resolve citations via url2ref and write a container with CSL-JSON.
+- `--citation-style`: citation style for compact bibliography (e.g., vancouver, apa, ieee, chicago). Default: vancouver.
+- `--citation-locale`: locale for citation formatting (e.g., en-US, en-GB, de-DE). Default: en-US.
 - `--batch-dir`: iterate query subfolders (e.g., `projects/<proj>/inputs/<query>/*`) and process each file as a separate query.
 
 Output files per run (when validation succeeds) live under `outputs/<project>/<query>/<timestamp>/` and use fixed filenames (identity comes from the folder path):
 - `deepsearch.json`: raw markdown + original citations + metadata.
 - `deepsearch_structured.json`: parsed/validated DeepSearch report (source_id-only citations).
-- `deepsearch_container.json`: structured report + citation map (CSL-JSON keyed by source_id) + stats.
+- `deepsearch_container.json`: structured report + citation map (CSL-JSON keyed by source_id) + stats + **compact bibliography strings**.
 - `deepsearch_extracted_debug.json`: optional debug dump when `--debug-extraction` is used.
+
+#### Compact Bibliography
+
+When `--resolve-citations` is enabled, the container JSON includes human-readable compact reference strings alongside CSL-JSON:
+
+```bash
+python scripts/run_deepsearch.py \
+  --genes TMEM14E \
+  --context "cellular function" \
+  --resolve-citations \
+  --citation-style apa \
+  --citation-locale en-GB
+```
+
+The container will include a `compact_bibliography` field:
+
+```json
+{
+  "compact_bibliography": {
+    "entries": [
+      "[1] Author, A., & Author, B. (2024). Paper title. Journal Name, 123(4), 567-890.",
+      "[2] Smith, J. et al. (2023). Another paper. Nature, 456, 123-456."
+    ],
+    "style": "apa",
+    "locale": "en-GB",
+    "renderer": "citeproc-py"
+  }
+}
+```
+
+Supported styles: vancouver, apa, ieee, chicago, and others supported by citeproc-py. See [docs/compact-references.md](docs/compact-references.md) for details.
 
 ### Graph Agents with pydantic-ai
 
