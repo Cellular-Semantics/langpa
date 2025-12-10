@@ -75,3 +75,81 @@ def test_resolver_skips_missing_urls(monkeypatch: pytest.MonkeyPatch) -> None:
 
     assert calls[0] == [{"source_id": "1", "url": "https://paper"}]
     assert result["citations"] == {}
+
+
+@pytest.mark.unit
+def test_resolver_returns_resolution_result(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Ensure resolve() returns the resolution_result for downstream rendering."""
+
+    def fake_resolve_bibliography(
+        bibliography: list[dict[str, str]], **kwargs: Any
+    ) -> DummyResolutionResult:
+        return DummyResolutionResult({"1": {"id": "1", "URL": "https://example.com"}})
+
+    monkeypatch.setattr(
+        "langpa.services.citation_resolver.resolve_bibliography",
+        fake_resolve_bibliography
+    )
+
+    resolver = CitationResolver()
+    citations = [{"source_id": "1", "source_url": "https://example.com"}]
+
+    result = resolver.resolve(citations)
+
+    # New assertion: resolution_result should be included
+    assert "resolution_result" in result
+    assert hasattr(result["resolution_result"], "citations")
+    assert hasattr(result["resolution_result"], "stats")
+    assert hasattr(result["resolution_result"], "failures")
+
+
+@pytest.mark.unit
+def test_resolve_with_compact_returns_compact_bibliography(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Test resolve_with_compact() generates compact bibliography strings."""
+
+    def fake_resolve_bibliography(
+        bibliography: list[dict[str, str]], **kwargs: Any
+    ) -> DummyResolutionResult:
+        return DummyResolutionResult(
+            {"1": {"id": "1", "title": "Test Paper", "URL": "https://example.com"}}
+        )
+
+    def fake_render_bibliography_to_strings(
+        resolution_result: Any, style: str = "vancouver", locale: str = "en-US"
+    ) -> tuple[list[str], dict[str, Any]]:
+        return (
+            ["[1] Author Test Paper 2024 https://example.com"],
+            {"renderer": "citeproc-py", "style": style, "locale": locale}
+        )
+
+    monkeypatch.setattr(
+        "langpa.services.citation_resolver.resolve_bibliography",
+        fake_resolve_bibliography
+    )
+    monkeypatch.setattr(
+        "langpa.services.citation_resolver.render_bibliography_to_strings",
+        fake_render_bibliography_to_strings
+    )
+
+    resolver = CitationResolver()
+    citations = [{"source_id": "1", "source_url": "https://example.com"}]
+
+    result = resolver.resolve_with_compact(citations, style="apa", locale="en-GB")
+
+    # Check structure includes compact_bibliography
+    assert "citations" in result
+    assert "stats" in result
+    assert "failures" in result
+    assert "compact_bibliography" in result
+
+    # Check compact bibliography structure
+    compact = result["compact_bibliography"]
+    assert "entries" in compact
+    assert isinstance(compact["entries"], list)
+    assert len(compact["entries"]) == 1
+    assert compact["entries"][0].startswith("[1]")
+
+    # Check metadata
+    assert compact["style"] == "apa"
+    assert compact["locale"] == "en-GB"
+    assert compact["renderer"] == "citeproc-py"
