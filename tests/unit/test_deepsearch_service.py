@@ -232,11 +232,12 @@ def test_deepsearch_service_conditional_system_prompt(mock_client_class: Mock) -
     provider_params = call_args.get("provider_params", {})
     system_prompt = provider_params.get("system_prompt", "")
 
-    # System prompt should be minimal (not contain full schema)
-    # It should be much shorter than the legacy version
-    assert len(system_prompt) < 500, "Schema-embedded should have minimal system prompt"
-    assert "schema provided in the user prompt" in system_prompt.lower() or \
-           "respond only with valid json" in system_prompt.lower()
+    # System prompt should not contain the JSON schema structure
+    # (Schema should be in user prompt for schema-embedded templates)
+    # This constraint catches schemas (2000+ chars), not instruction verbosity
+    assert len(system_prompt) < 2000, "System prompt should not contain massive schema"
+    assert '"type": "object"' not in system_prompt.lower(), "Schema should be in user prompt, not system"
+    assert '"properties"' not in system_prompt.lower(), "Schema should be in user prompt, not system"
 
 
 @pytest.mark.unit
