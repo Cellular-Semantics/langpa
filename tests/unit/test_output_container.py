@@ -44,6 +44,16 @@ def test_container_builds_with_resolution(monkeypatch: pytest.MonkeyPatch) -> No
         def resolve(self, citations):
             return fake_resolve(citations)
 
+        def resolve_with_compact(self, citations, *, style="vancouver", locale="en-US"):
+            result = fake_resolve(citations)
+            result["compact_bibliography"] = {
+                "entries": [f"[{c['source_id']}] Fake entry" for c in citations],
+                "style": style,
+                "locale": locale,
+                "renderer": "fake",
+            }
+            return result
+
     result = MockResearchResult(
         markdown="""```json
 {

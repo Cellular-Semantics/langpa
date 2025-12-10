@@ -211,6 +211,22 @@ def parse_args() -> argparse.Namespace:
         help="Enable topic validation during citation resolution (default: off).",
     )
     parser.add_argument(
+        "--citation-style",
+        default="vancouver",
+        help=(
+            "Citation style for compact bibliography (e.g., vancouver, apa, ieee, chicago). "
+            "Default: vancouver. Only used when --resolve-citations is enabled."
+        ),
+    )
+    parser.add_argument(
+        "--citation-locale",
+        default="en-US",
+        help=(
+            "Locale for citation formatting (e.g., en-US, en-GB, de-DE). "
+            "Default: en-US. Only used when --resolve-citations is enabled."
+        ),
+    )
+    parser.add_argument(
         "--print-markdown",
         action="store_true",
         help="Echo the markdown/content returned by DeepSearch.",
@@ -799,6 +815,8 @@ def main_single_run(args: argparse.Namespace) -> None:
             resolve_citations=args.resolve_citations,
             resolver=resolver,
             metadata=metadata,
+            citation_style=args.citation_style,
+            citation_locale=args.citation_locale,
         )
 
     print(f"[ok] Saved raw DeepSearch response to {raw_path}")

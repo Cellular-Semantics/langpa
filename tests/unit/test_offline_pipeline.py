@@ -25,6 +25,24 @@ class FakeResolver:
             "failures": [],
         }
 
+    def resolve_with_compact(
+        self, citations: list[dict[str, str]], *, style: str = "vancouver", locale: str = "en-US"
+    ) -> dict[str, object]:
+        self.calls.append(citations)
+        return {
+            "citations": {
+                c["source_id"]: {"id": c["source_id"], "URL": c["source_url"]} for c in citations
+            },
+            "compact_bibliography": {
+                "entries": [f"[{c['source_id']}] Fake entry {c['source_url']}" for c in citations],
+                "style": style,
+                "locale": locale,
+                "renderer": "fake",
+            },
+            "stats": {"total": len(citations), "resolved": len(citations), "unresolved": 0},
+            "failures": [],
+        }
+
 
 @pytest.mark.unit
 def test_offline_markdown_pipeline_builds_container() -> None:
