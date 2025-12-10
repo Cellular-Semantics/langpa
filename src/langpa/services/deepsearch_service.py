@@ -204,20 +204,12 @@ class DeepSearchService:
             template_metadata = get_template_metadata(template_name)
 
             if template_metadata.get("requires_full_schema", False):
-                # Schema-embedded approach: Use default research prompt from deep-research-client
+                # Schema-embedded approach: Minimal system prompt since schema is in user prompt
                 # The schema in user prompt has explicit output instructions
-                # Using the standard research prompt (without recency filter) aligns with model training
-                provider_params["system_prompt"] = """You are an expert researcher providing comprehensive, well-cited information.
-
-Provide detailed information focusing on:
-1. Key concepts and definitions with current understanding
-2. Recent developments and latest research
-3. Current applications and real-world implementations
-4. Expert opinions and analysis from authoritative sources
-5. Relevant statistics and data from recent studies
-
-Format as a comprehensive research report with proper citations. Include URLs and publication dates where available.
-Always prioritize recent, authoritative sources and provide specific citations for all major claims."""
+                provider_params["system_prompt"] = (
+                    "The JSON schema is provided in the user prompt. "
+                    "Respond only with valid JSON as per the schema."
+                )
             else:
                 # Legacy approach: schema in system prompt
                 provider_params[
