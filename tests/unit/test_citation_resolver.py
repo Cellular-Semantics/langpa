@@ -75,3 +75,29 @@ def test_resolver_skips_missing_urls(monkeypatch: pytest.MonkeyPatch) -> None:
 
     assert calls[0] == [{"source_id": "1", "url": "https://paper"}]
     assert result["citations"] == {}
+
+
+@pytest.mark.unit
+def test_resolver_returns_resolution_result(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Ensure resolve() returns the resolution_result for downstream rendering."""
+
+    def fake_resolve_bibliography(
+        bibliography: list[dict[str, str]], **kwargs: Any
+    ) -> DummyResolutionResult:
+        return DummyResolutionResult({"1": {"id": "1", "URL": "https://example.com"}})
+
+    monkeypatch.setattr(
+        "langpa.services.citation_resolver.resolve_bibliography",
+        fake_resolve_bibliography
+    )
+
+    resolver = CitationResolver()
+    citations = [{"source_id": "1", "source_url": "https://example.com"}]
+
+    result = resolver.resolve(citations)
+
+    # New assertion: resolution_result should be included
+    assert "resolution_result" in result
+    assert hasattr(result["resolution_result"], "citations")
+    assert hasattr(result["resolution_result"], "stats")
+    assert hasattr(result["resolution_result"], "failures")
