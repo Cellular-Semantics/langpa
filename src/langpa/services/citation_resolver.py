@@ -41,7 +41,7 @@ class CitationResolver:
             metadata_lookup: Optional callable passed to url2ref for metadata enrichment.
 
         Returns:
-            Dict with ``citations``, ``stats``, ``failures`` mirroring url2ref output.
+            Dict with ``citations``, ``stats``, ``failures``, and ``resolution_result``.
         """
         bibliography = [
             {"source_id": citation["source_id"], "url": citation["source_url"]}
@@ -62,4 +62,5 @@ class CitationResolver:
             "citations": result.citations,
             "stats": result.stats,
             "failures": result.failures,
+            "resolution_result": result,
         }
