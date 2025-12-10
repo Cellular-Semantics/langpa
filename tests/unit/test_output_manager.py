@@ -554,3 +554,94 @@ def test_validator_lazy_loading() -> None:
         # Second access should return same instance
         validator2 = manager.validator
         assert validator is validator2
+
+
+@pytest.mark.unit
+def test_container_includes_compact_bibliography(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Test that container JSON includes compact_bibliography field."""
+    from langpa.services.output_manager import OutputManager
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        output_manager = OutputManager(output_dir=temp_dir)
+
+        # Mock result with citations
+        result = MockResearchResult(
+            markdown="Test content\n\n[1] https://example.com",
+            citations=[{"source_id": "1", "source_url": "https://example.com"}],
+        )
+
+        # Mock resolver
+        mock_resolver = Mock()
+        mock_resolver.resolve_with_compact.return_value = {
+            "citations": {
+                "1": {"id": "1", "title": "Test Paper", "URL": "https://example.com"}
+            },
+            "compact_bibliography": {
+                "entries": ["[1] Author Test Paper 2024 https://example.com"],
+                "style": "apa",
+                "locale": "en-GB",
+                "renderer": "citeproc-py",
+            },
+            "stats": {"total": 1, "resolved": 1},
+            "failures": [],
+        }
+
+        # Mock extract and validate methods
+        extracted_json = {
+            "context": {"cell_type": "test", "disease": "test"},
+            "input_genes": ["TEST"],
+            "programs": [],
+            "version": "1.0",
+        }
+        monkeypatch.setattr(
+            output_manager,
+            "extract_json_from_markdown",
+            lambda _: extracted_json
+        )
+        monkeypatch.setattr(
+            output_manager,
+            "validate_against_schema",
+            lambda _: (True, None)
+        )
+
+        # Process with citation resolution and compact refs
+        result_dict = output_manager.process_and_save_structured_output(
+            result=result,
+            genes=["TEST"],
+            context="test context",
+            resolve_citations=True,
+            resolver=mock_resolver,
+            citation_style="apa",
+            citation_locale="en-GB",
+        )
+
+        # Verify compact_bibliography is in container
+        assert result_dict["success"] is True
+        assert result_dict["container_file"] is not None
+
+        # Load and verify container JSON
+        container_path = Path(result_dict["container_file"])
+        assert container_path.exists()
+
+        with open(container_path) as f:
+            container = json.load(f)
+
+        # Check compact_bibliography field exists
+        assert "compact_bibliography" in container
+        compact = container["compact_bibliography"]
+
+        # Verify structure
+        assert "entries" in compact
+        assert isinstance(compact["entries"], list)
+        assert len(compact["entries"]) == 1
+        assert compact["entries"][0].startswith("[1]")
+
+        assert compact["style"] == "apa"  # Should match requested style
+        assert compact["locale"] == "en-GB"  # Should match requested locale
+        assert compact["renderer"] == "citeproc-py"
+
+        # Verify resolver was called with correct parameters
+        mock_resolver.resolve_with_compact.assert_called_once()
+        call_kwargs = mock_resolver.resolve_with_compact.call_args[1]
+        assert call_kwargs["style"] == "apa"
+        assert call_kwargs["locale"] == "en-GB"
