@@ -274,6 +274,8 @@ class OutputManager:
         metadata: dict[str, Any] | None = None,
         filename_prefix: str | None = None,
         use_pydantic: bool = False,
+        citation_style: str = "vancouver",
+        citation_locale: str = "en-US",
     ) -> dict[str, Any]:
         """Extract JSON from response, validate it, and save processed version.
 
@@ -285,7 +287,10 @@ class OutputManager:
             resolve_citations: Whether to run url2ref resolution and build container output
             resolver: Optional CitationResolver instance; created if not provided
             metadata: Optional metadata to include in container
+            filename_prefix: Optional prefix for output filenames
             use_pydantic: Use pydantic validation if True, jsonschema if False (default)
+            citation_style: Citation style for compact bibliography (default: vancouver)
+            citation_locale: Locale for citation formatting (default: en-US)
 
         Returns:
             Dictionary with processing results including validation status
@@ -372,6 +377,8 @@ class OutputManager:
                         metadata=metadata,
                         raw_filepath=raw_filepath,
                         filename_prefix=filename_prefix,
+                        citation_style=citation_style,
+                        citation_locale=citation_locale,
                     )
                     processing_result.update(citation_data)
 
@@ -409,15 +416,38 @@ class OutputManager:
         metadata: dict[str, Any] | None,
         raw_filepath: Path | None,
         filename_prefix: str | None,
+        citation_style: str = "vancouver",
+        citation_locale: str = "en-US",
     ) -> dict[str, Any]:
-        """Resolve citations via url2ref and build container JSON."""
+        """Resolve citations via url2ref and build container JSON with compact refs.
+
+        Args:
+            result: ResearchResult object
+            structured_json: Validated structured output
+            genes: Gene list
+            context: Biological context
+            resolver: CitationResolver instance (created if None)
+            metadata: Optional metadata
+            raw_filepath: Path to raw response file
+            filename_prefix: Optional filename prefix
+            citation_style: Citation style for compact bibliography (default: vancouver)
+            citation_locale: Locale for formatting (default: en-US)
+
+        Returns:
+            Dict with container_file path and citation resolution details
+        """
         citation_list = getattr(result, "citations", []) or []
         normalized_citations = normalize_citations(citation_list)
 
         if resolver is None:
             resolver = CitationResolver()
 
-        resolution = resolver.resolve(normalized_citations)
+        # Use new method to get compact bibliography
+        resolution = resolver.resolve_with_compact(
+            normalized_citations,
+            style=citation_style,
+            locale=citation_locale,
+        )
 
         container_filename = (
             f"{filename_prefix}_container.json"
@@ -442,6 +472,7 @@ class OutputManager:
             },
             "report": structured_json,
             "citations": resolution["citations"],
+            "compact_bibliography": resolution["compact_bibliography"],
             "bibliography_stats": resolution["stats"],
             "unresolved": resolution["failures"],
         }
