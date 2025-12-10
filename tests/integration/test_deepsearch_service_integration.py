@@ -328,3 +328,82 @@ def test_deepsearch_service_preset_error_handling() -> None:
     assert "context" in str(exc_info.value).lower()
 
     # These validation errors should work regardless of preset configuration
+
+
+@pytest.mark.integration
+def test_deepsearch_service_schema_embedded_preset(save_test_output) -> None:
+    """Test the schema-embedded preset with real Perplexity API.
+
+    This test validates the gene_analysis_schema_embedded template which:
+    - Embeds the full JSON schema in the user prompt
+    - Uses the default research system prompt (without JSON instructions)
+    - Aims for more consistent JSON output from Perplexity
+    """
+    # Check for required API keys
+    perplexity_key = os.getenv("PERPLEXITY_API_KEY") or os.getenv("PERPLEXITY-API-KEY")
+    if not perplexity_key:
+        pytest.skip("PERPLEXITY_API_KEY not found - cannot test schema-embedded preset")
+
+    # Initialize service with schema-embedded preset
+    service = DeepSearchService(preset="perplexity-sonar-schema-embedded")
+
+    # Verify preset configuration is loaded correctly
+    assert service.config.provider == "perplexity"
+    assert service.config.model == "sonar-deep-research"
+    assert service.config.prompt_template == "gene_analysis_schema_embedded"
+    assert service.config.timeout == 180
+
+    # Verify provider params
+    params = service.config.provider_params
+    assert "reasoning_effort" in params
+    assert params["reasoning_effort"] == "high"
+    assert "search_recency_filter" in params
+    assert params["search_recency_filter"] == "month"
+
+    # Test real API call with genes relevant to obesity research
+    genes = ["CCDC92", "CCDC47"]
+    context = "obesity and fat distribution"
+
+    try:
+        result = service.research_gene_list(genes=genes, context=context)
+
+        # Save output if --save-outputs flag is set
+        save_test_output(
+            raw_response=result,
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-schema-embedded"
+        )
+
+        # Verify API response structure
+        assert result is not None
+
+        # Check for either 'content' or 'markdown' attribute
+        content = None
+        if hasattr(result, "content"):
+            content = result.content
+        elif hasattr(result, "markdown"):
+            content = result.markdown
+        else:
+            pytest.fail("Response should have either 'content' or 'markdown' attribute")
+
+        assert isinstance(content, str), "Response content should be string"
+        assert len(content) > 50, "Response should contain substantial content"
+
+        # Verify citations if available
+        if hasattr(result, "citations"):
+            assert result.citations is not None, "Perplexity should provide citations"
+
+        # Verify content mentions at least one of the queried genes
+        content_lower = content.lower()
+        gene_mentioned = any(gene.lower() in content_lower for gene in genes)
+        assert gene_mentioned, "Response should mention at least one of the queried genes"
+
+        # Verify content indicates biological research related to obesity/metabolism
+        bio_indicators = ["obesity", "fat", "adipose", "metabol", "gene", "protein"]
+        found_indicators = sum(1 for indicator in bio_indicators if indicator in content_lower)
+        assert found_indicators >= 2, "Response should contain obesity/metabolism-related biological content"
+
+    except Exception as e:
+        # Provide helpful error message for debugging
+        pytest.fail(f"Schema-embedded preset integration test failed: {str(e)}")
