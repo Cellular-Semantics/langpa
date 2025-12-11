@@ -405,6 +405,86 @@ class OutputManager:
         filename = f"{base}{suffix}{extension}"
         return re.sub(r'[<>:"/\\|?*]', "_", filename)
 
+    def list_container_files(
+        self,
+        project: str,
+        query: str | None = None
+    ) -> list[Path]:
+        """List all container files for a project/query.
+
+        Args:
+            project: Project name
+            query: Optional query name (if None, search all queries)
+
+        Returns:
+            List of paths to container JSON files
+
+        .. code-block:: python
+
+            manager = OutputManager(output_dir="outputs")
+            containers = manager.list_container_files("glioblastoma", "0_Gliosis")
+            for container in containers:
+                print(container)
+        """
+        project_dir = self.output_dir / project
+
+        if not project_dir.exists():
+            return []
+
+        containers = []
+
+        if query:
+            # Search specific query directory
+            query_dir = project_dir / query
+            if query_dir.exists():
+                containers.extend(query_dir.glob("*/deepsearch_container.json"))
+        else:
+            # Search all queries
+            containers.extend(project_dir.glob("*/*/deepsearch_container.json"))
+
+        return sorted(containers)
+
+    def load_container(self, container_path: str | Path) -> dict[str, Any]:
+        """Load a container JSON file.
+
+        Args:
+            container_path: Path to container JSON
+
+        Returns:
+            Container data dict
+
+        .. code-block:: python
+
+            manager = OutputManager(output_dir="outputs")
+            container = manager.load_container("outputs/project/query/run/container.json")
+            programs = container["report"]["programs"]
+        """
+        with open(container_path, encoding="utf-8") as f:
+            return json.load(f)
+
+    def load_containers_for_query(
+        self,
+        project: str,
+        query: str
+    ) -> list[dict[str, Any]]:
+        """Load all containers for a specific query.
+
+        Args:
+            project: Project name
+            query: Query name
+
+        Returns:
+            List of container data dicts
+
+        .. code-block:: python
+
+            manager = OutputManager(output_dir="outputs")
+            containers = manager.load_containers_for_query("glioblastoma", "0_Gliosis")
+            print(f"Loaded {len(containers)} runs")
+        """
+        container_paths = self.list_container_files(project, query)
+        return [self.load_container(path) for path in container_paths]
+
     def _resolve_and_package_citations(
         self,
         *,
