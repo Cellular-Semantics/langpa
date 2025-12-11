@@ -37,19 +37,24 @@ jobs:
       - name: Sync dependencies
         run: uv sync --dev
 
-      - name: Unit tests
+      - name: Unit tests - langpa
         run: |
-          PYTHONPATH=src uv run pytest tests/unit/ -v --tb=short
+          uv run pytest langpa/tests/unit/ -m unit -v --tb=short
+
+      - name: Unit tests - langpa_validation_tools
+        run: |
+          uv run pytest langpa_validation_tools/tests/unit/ -m unit -v --tb=short
 
       - name: Integration tests (skipped in CI)
         run: |
           echo "Integration tests require real API keys; run locally before pushing."
-          echo "Use: PYTHONPATH=src uv run pytest tests/integration/ -m integration"
+          echo "Use: uv run pytest langpa/tests -m integration"
+          echo "Use: uv run pytest langpa_validation_tools/tests -m integration"
 
       - name: Coverage report (Python 3.11 only)
         if: matrix.python-version == '3.11'
         run: |
-          PYTHONPATH=src uv run pytest tests/unit/ --cov=langpa --cov-report=xml --cov-report=term
+          uv run pytest langpa/tests/unit/ langpa_validation_tools/tests/unit/ -m unit --cov=langpa --cov=langpa_validation_tools --cov-report=xml --cov-report=term
 
       - name: Generate Coverage Badge
         if: matrix.python-version == '3.11' && github.ref == 'refs/heads/main'
