@@ -10,7 +10,7 @@ from langpa.services.markdown_reporter import MarkdownReportGenerator
 
 
 @pytest.mark.unit
-def test_markdown_preserves_reference_order_and_citations(tmp_path: Path) -> None:
+def test_markdown_preserves_reference_order_and_citations() -> None:
     """Bibliography order should follow input citations and in-text citations must align."""
     container = {
         "report": {
