@@ -1,0 +1,43 @@
+[project]
+name = "langpa-validation-tools"
+version = "0.1.0"
+description = "Validation and comparison tools for LangPA outputs"
+readme = "README.md"
+requires-python = ">= 3.11"
+dependencies = [
+    "langpa",
+    "openai>=1.0.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "scipy>=1.10.0",
+]
+
+[project.scripts]
+langpa-validate = "langpa_validation_tools.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-m 'unit'"
+markers = [
+    "unit: fast, isolated tests",
+    "integration: real API and IO tests",
+]
+
+[tool.coverage.run]
+source = ["src/langpa_validation_tools"]
+
+[tool.uv.sources]
+langpa = { workspace = true }
