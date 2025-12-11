@@ -876,18 +876,20 @@ def main_single_run(args: argparse.Namespace) -> None:
     elif args.debug_extraction:
         print("[info] Validation skipped due to --debug-extraction; rerun without it to validate.")
 
-    if args.generate_markdown and structured_info:
-        container_file = structured_info.get("container_file")
-        source_file = container_file or structured_info.get("structured_file")
-        if not source_file:
-            print("[warn] No container/structured file available for Markdown generation.")
+    if args.generate_markdown:
+        if not structured_info:
+            print("[error] Cannot generate Markdown report: structured/container output is missing. Ensure extraction/validation succeeded and try again.")
         else:
-            try:
-                output_md = generate_markdown_report(Path(source_file))
-                print(f"[ok] Markdown report written to {output_md}")
-            except Exception as exc:
-                print(f"[warn] Markdown generation failed: {exc}")
-
+            container_file = structured_info.get("container_file")
+            source_file = container_file or structured_info.get("structured_file")
+            if not source_file:
+                print("[warn] No container/structured file available for Markdown generation.")
+            else:
+                try:
+                    output_md = generate_markdown_report(Path(source_file))
+                    print(f"[ok] Markdown report written to {output_md}")
+                except Exception as exc:
+                    print(f"[warn] Markdown generation failed: {exc}")
     if args.print_markdown:
         markdown = getattr(result, "markdown", None) or getattr(result, "content", "")
         divider = "-" * 40
