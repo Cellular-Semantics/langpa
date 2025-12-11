@@ -145,6 +145,23 @@ class DeepSearchService:
         # Format the prompt using the template system
         return format_prompt_template(template_name, genes, context, schema=schema)
 
+    def construct_prompt(
+        self, genes: list[str], context: str, template_override: str | None = None
+    ) -> str:
+        """Public method to construct the research prompt for gene list analysis.
+
+        Uses configurable prompt templates for different analysis approaches.
+
+        Args:
+            genes: List of gene symbols to analyze
+            context: Biological context for the analysis
+            template_override: Optional template name to override config default
+
+        Returns:
+            Formatted prompt for DeepSearch API
+        """
+        return self._construct_prompt(genes, context, template_override)
+
     def research_gene_list(
         self,
         genes: list[str],

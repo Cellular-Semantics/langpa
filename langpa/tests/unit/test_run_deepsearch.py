@@ -201,3 +201,43 @@ def test_generate_markdown_report_creates_file(tmp_path: Path, monkeypatch: pyte
     assert output_path == rendered_path
     assert output_path.exists()
     assert output_path.read_text(encoding="utf-8") == "# report"
+
+
+@pytest.mark.unit
+def test_show_dry_run_constructs_prompt(monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]) -> None:
+    """Test that show_dry_run can construct and display the prompt."""
+    from scripts import run_deepsearch
+    from unittest.mock import Mock
+
+    # Create a mock service with construct_prompt method
+    mock_service = Mock()
+    mock_service.config = Mock()
+    mock_service.config.provider_params = {"return_citations": True, "search_domain_filter": ["pubmed.ncbi.nlm.nih.gov"]}
+    mock_service.config.provider = "perplexity"
+    mock_service.config.model = "sonar-deep-research"
+    mock_service.config.prompt_template = "gene_analysis_schema_embedded"
+    mock_service.config.timeout = 180
+    mock_service.construct_prompt.return_value = "Test prompt for CCDC92 in context of obesity"
+
+    # Create args namespace
+    args = argparse.Namespace(
+        preset="perplexity-sonar-schema-embedded",
+        model="sonar-deep-research",
+        custom_prompt=None,
+        template=None,
+    )
+
+    genes = ["CCDC92"]
+    context = "obesity"
+
+    # Call show_dry_run
+    run_deepsearch.show_dry_run(mock_service, genes, context, args)
+
+    # Verify construct_prompt was called
+    mock_service.construct_prompt.assert_called_once_with(genes, context, template_override=None)
+
+    # Check output contains the prompt
+    captured = capsys.readouterr()
+    assert "Test prompt for CCDC92 in context of obesity" in captured.out
+    assert "DRY RUN MODE" in captured.out
+    assert "No actual API call made (dry run mode)" in captured.out
