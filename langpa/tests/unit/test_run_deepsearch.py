@@ -225,6 +225,9 @@ def test_show_dry_run_constructs_prompt(monkeypatch: pytest.MonkeyPatch, capsys:
         model="sonar-deep-research",
         custom_prompt=None,
         template=None,
+        timeout=180,
+        reasoning_effort=None,
+        search_recency=None,
     )
 
     genes = ["CCDC92"]
