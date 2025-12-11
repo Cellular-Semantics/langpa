@@ -8,6 +8,27 @@
 
 LLM AgeNt for Gene Program Annotation
 
+## 📦 Repository Structure
+
+This repository uses a **UV workspace** containing two packages:
+
+### 1. **[langpa](langpa/)** - Core DeepSearch Engine
+The main LangPA package for gene program annotation and literature analysis.
+- DeepSearch service integration
+- Citation resolution and normalization
+- Markdown report generation
+- Output management and validation
+- [📖 Full Documentation](langpa/README.md)
+
+### 2. **[langpa-validation-tools](langpa_validation_tools/)** - Validation & Analysis Tools
+Companion package for comparing and analyzing DeepSearch outputs across multiple runs.
+- Program comparison with Jaccard similarity
+- Semantic similarity using OpenAI embeddings
+- Visualization (bubble plots, confusion matrices)
+- Master validation reports
+- CLI: `langpa-validate` command
+- [📖 Full Documentation](langpa_validation_tools/README.md)
+
 ## 🚀 Quick Start
 
 ### Installation
@@ -20,20 +41,17 @@ cd langpa
 # Install uv (if not already installed)
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# Create environment and install dependencies
+# Install both packages (langpa + langpa-validation-tools)
 uv sync --dev
 
 # Set up pre-commit hooks (optional but recommended)
 uv run pre-commit install
 
-# uv manages dependencies (see [tool.uv] in pyproject.toml)
-
 # Use repo-provided git hooks for consistent checks
 git config core.hooksPath .githooks
-
-# Pre-commit hook runs lint, unit tests, and integration tests (requires real API keys)
-pre-commit hook runs unit and integration tests before commits.
 ```
+
+The UV workspace automatically installs both packages and links them together. The `langpa-validation-tools` package imports from `langpa` as a workspace dependency.
 
 ### Environment Setup
 
@@ -71,26 +89,53 @@ Documentation lives in `docs/` and is built with Sphinx + MyST. Run `python scri
 
 ## 🏗️ Architecture
 
+This is a **UV workspace** with two packages:
+
 ```
-langpa/
-├── src/langpa/
-│   ├── agents/       # Agent classes coordinating workflows
-│   ├── graphs/       # Optional workflow graphs powered by Pydantic
-│   ├── schemas/      # Shared IO models and contracts
-│   └── services/     # LLM + Deepsearch integration layers
-├── tests/unit/        # Fast, isolated tests
-├── tests/integration/ # Real API + IO validation (no mocks)
-├── docs/              # Sphinx configuration and content
-└── scripts/           # Tooling helpers (docs, chores, etc.)
+langpa/                                    # Repository root
+├── pyproject.toml                         # Workspace configuration
+├── langpa/                                # Core package
+│   ├── pyproject.toml                     # Core package config
+│   ├── src/langpa/
+│   │   ├── agents/                        # Agent classes coordinating workflows
+│   │   ├── graphs/                        # Optional workflow graphs powered by Pydantic
+│   │   ├── schemas/                       # Shared IO models and contracts
+│   │   ├── services/                      # LLM + Deepsearch integration layers
+│   │   └── utils/                         # Repo-specific tooling/helpers
+│   └── tests/
+│       ├── unit/                          # Fast, isolated tests
+│       └── integration/                   # Real API + IO validation (no mocks)
+├── langpa_validation_tools/               # Validation tools package
+│   ├── pyproject.toml                     # Validation tools config
+│   ├── src/langpa_validation_tools/
+│   │   ├── analysis/                      # Run comparison & embedding workflows
+│   │   ├── comparison/                    # Similarity metrics & matching
+│   │   ├── embeddings/                    # OpenAI embedding generation
+│   │   ├── visualization/                 # Heatmaps & bubble plots
+│   │   ├── reporting/                     # Master report generation
+│   │   └── cli.py                         # langpa-validate CLI
+│   └── tests/
+│       ├── unit/                          # Validation tools unit tests
+│       └── integration/                   # Validation tools integration tests
+├── docs/                                  # Sphinx configuration and content
+└── scripts/                               # Tooling helpers (docs, CLI, etc.)
 ```
 
-Optional workflow graphs powered by Pydantic ensure orchestration definitions are validated before agents execute them, keeping schema and runtime behaviors aligned.
+### Package Details
 
-- `src/langpa/agents`: Agent entrypoints coordinating services and schemas
-- `src/langpa/graphs`: Optional workflow graphs powered by Pydantic + pydantic-ai
-- `src/langpa/schemas`: JSON Schema contracts describing outputs + business rules
-- `src/langpa/services`: Concrete integrations (CellSem LLM client, Deepsearch)
-- `src/langpa/utils`: Repo-specific tooling/helpers that support workflows without being agents
+**langpa** - Core functionality:
+- Agent entrypoints coordinating services and schemas
+- Optional workflow graphs powered by Pydantic + pydantic-ai
+- JSON Schema contracts describing outputs + business rules
+- Concrete integrations (CellSem LLM client, Deepsearch)
+- Citation resolution and markdown report generation
+
+**langpa-validation-tools** - Analysis & validation:
+- Comparison metrics (Jaccard, name similarity, embeddings)
+- Batch embedding generation with caching
+- Visualization generation (bubble plots, confusion matrices)
+- Master validation reports aggregating multiple runs
+- CLI interface for validation workflows
 
 ## DeepSearch CLI & Outputs
 
@@ -197,27 +242,36 @@ Schemas stay in JSON so downstream services (Python, JS, workflows) can share th
 
 ### 🧪 Testing Strategy
 
-- **Unit Tests** (`tests/unit`, `@pytest.mark.unit`): no network, deterministic, fast
-- **Integration Tests** (`tests/integration`, `@pytest.mark.integration`): real APIs, fail hard if env vars missing
-- **Coverage**: target ≥80%, monitored via the coverage badge
+- **Unit Tests** (`@pytest.mark.unit`): no network, deterministic, fast
+- **Integration Tests** (`@pytest.mark.integration`): real APIs, fail hard if env vars missing
+- **Coverage**: target ≥80%, monitored via the coverage badge (currently 94%)
 - **CI Policy**: GitHub Actions runs only `uv run pytest -m unit`; run `uv run pytest -m integration` locally with real API keys before pushing
 - **Hooks**: `.githooks/pre-commit` runs lint, unit tests, and integration tests (skips integration if API keys missing)
 
 ### Development Workflow
 
 ```bash
-# Run tests
-uv run pytest                    # All tests
-uv run pytest -m unit            # Unit only
-uv run pytest -m integration     # Integration only
+# Run tests for both packages
+uv run pytest langpa/tests -m unit                          # langpa unit tests
+uv run pytest langpa_validation_tools/tests -m unit         # validation tools unit tests
+uv run pytest langpa/tests -m integration                   # langpa integration tests
+uv run pytest langpa_validation_tools/tests -m integration  # validation tools integration tests
+
+# Run all unit tests
+uv run pytest langpa/tests/unit langpa_validation_tools/tests/unit -m unit
 
 # Code quality
-uv run ruff check --fix src/ tests/
-uv run ruff format src/ tests/
-uv run mypy src/
+uv run ruff check --fix langpa/src/ langpa/tests/
+uv run ruff format langpa/src/ langpa/tests/
+uv run mypy langpa/src/
 
 # Docs
 python scripts/check-docs.py
+
+# Validation tools CLI
+uv run langpa-validate --help
+uv run langpa-validate compare --project my_project
+uv run langpa-validate pipeline --project my_project --use-embeddings
 ```
 
 ## 📄 License
