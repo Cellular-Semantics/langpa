@@ -262,3 +262,55 @@ def test_deepsearch_service_legacy_system_prompt(mock_client_class: Mock) -> Non
     # System prompt should contain full schema (legacy behavior)
     assert len(system_prompt) > 500, "Legacy should have full schema in system prompt"
     assert '"type"' in system_prompt or "json" in system_prompt.lower()
+
+
+@pytest.mark.unit
+@patch("langpa.services.deepsearch_service.DeepResearchClient")
+def test_deepsearch_service_construct_prompt_public_method(mock_client_class: Mock) -> None:
+    """Test that construct_prompt is available as a public method for dry-run."""
+    from langpa.services.deepsearch_service import DeepSearchService
+
+    mock_client = Mock()
+    mock_client.get_available_providers.return_value = ["perplexity"]
+    mock_client_class.return_value = mock_client
+
+    service = DeepSearchService(preset="perplexity-sonar-schema-embedded")
+
+    genes = ["CCDC92", "TP53"]
+    context = "obesity"
+
+    # Test that construct_prompt is available and returns a string
+    prompt = service.construct_prompt(genes, context)
+
+    assert isinstance(prompt, str), "construct_prompt should return a string"
+    assert len(prompt) > 0, "Prompt should not be empty"
+    assert "CCDC92" in prompt, "Prompt should contain gene names"
+    assert "TP53" in prompt, "Prompt should contain gene names"
+    assert "obesity" in prompt, "Prompt should contain the context string"
+
+
+@pytest.mark.unit
+@patch("langpa.services.deepsearch_service.DeepResearchClient")
+def test_deepsearch_service_construct_prompt_with_template_override(mock_client_class: Mock) -> None:
+    """Test that construct_prompt respects template_override parameter."""
+    from langpa.services.deepsearch_service import DeepSearchService
+
+    mock_client = Mock()
+    mock_client.get_available_providers.return_value = ["perplexity"]
+    mock_client_class.return_value = mock_client
+
+    service = DeepSearchService(preset="perplexity-sonar-schema-embedded")
+
+    genes = ["BRCA1"]
+    context = "breast cancer"
+
+    # Test with default template
+    prompt_default = service.construct_prompt(genes, context)
+    assert isinstance(prompt_default, str)
+    assert len(prompt_default) > 0
+
+    # Test with template override (if different templates exist)
+    # This just verifies the parameter is accepted
+    prompt_override = service.construct_prompt(genes, context, template_override="gene_analysis_schema_embedded")
+    assert isinstance(prompt_override, str)
+    assert len(prompt_override) > 0
