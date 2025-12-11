@@ -12,6 +12,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from langpa.services import CitationResolver, DeepSearchService, OutputManager
+from langpa.services.markdown_reporter import MarkdownReportGenerator
 from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
 from langpa.services.markdown_citation_extractor import extract_citations_from_markdown
 from langpa.utils.output_paths import build_run_directory, sanitize_name
@@ -232,6 +233,11 @@ def parse_args() -> argparse.Namespace:
         help="Echo the markdown/content returned by DeepSearch.",
     )
     parser.add_argument(
+        "--generate-markdown",
+        action="store_true",
+        help="Generate a Markdown report from the structured/container output.",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Show configuration and prompt that would be sent, but don't call API.",
@@ -242,6 +248,31 @@ def parse_args() -> argparse.Namespace:
         help="Display effective configuration before making API call.",
     )
     return parser.parse_args()
+
+
+def generate_markdown_report(
+    *,
+    container_path: Path,
+    output_path: Path | None = None,
+    strict_citations: bool = False,
+) -> Path:
+    """Generate a Markdown report from a container/structured JSON file.
+
+    Args:
+        container_path: Path to the container or structured JSON file.
+        output_path: Optional explicit path for the rendered Markdown file. Defaults to
+            the container path with a `.md` extension.
+        strict_citations: Whether to fail on citation/reference mismatches (default: False).
+
+    Returns:
+        Path to the written Markdown file.
+    """
+    generator = MarkdownReportGenerator(strict_citations=strict_citations)
+    markdown = generator.render_from_path(container_path)
+
+    target_path = output_path or container_path.with_suffix(".md")
+    target_path.write_text(markdown, encoding="utf-8")
+    return target_path
 
 
 def _split_tokens(tokens: Sequence[str]) -> list[str]:
@@ -845,6 +876,20 @@ def main_single_run(args: argparse.Namespace) -> None:
     elif args.debug_extraction:
         print("[info] Validation skipped due to --debug-extraction; rerun without it to validate.")
 
+    if args.generate_markdown:
+        if not structured_info:
+            print("[error] Cannot generate Markdown report: structured/container output is missing. Ensure extraction/validation succeeded and try again.")
+        else:
+            container_file = structured_info.get("container_file")
+            source_file = container_file or structured_info.get("structured_file")
+            if not source_file:
+                print("[warn] No container/structured file available for Markdown generation.")
+            else:
+                try:
+                    output_md = generate_markdown_report(Path(source_file))
+                    print(f"[ok] Markdown report written to {output_md}")
+                except Exception as exc:
+                    print(f"[warn] Markdown generation failed: {exc}")
     if args.print_markdown:
         markdown = getattr(result, "markdown", None) or getattr(result, "content", "")
         divider = "-" * 40

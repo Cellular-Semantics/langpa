@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 from types import SimpleNamespace
@@ -142,3 +143,61 @@ def test_process_batch_invokes_main_per_query(
     assert queries == {"q1", "q2"}
     assert any(c["from_markdown"] and c["from_markdown"].name == "a.md" for c in calls)
     assert any(c["raw_input"] and c["raw_input"].name == "b.json" for c in calls)
+
+
+@pytest.mark.unit
+def test_generate_markdown_report_creates_file(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    """Generating markdown from a container file should write to output."""
+    from scripts import run_deepsearch
+
+    container_payload = {
+        "report": {
+            "context": {"cell_type": "astrocyte", "disease": "glioma", "tissue": "brain"},
+            "input_genes": ["FOO1"],
+            "programs": [
+                {
+                    "program_name": "Test Program",
+                    "description": "Desc",
+                    "predicted_cellular_impact": ["impact"],
+                    "evidence_summary": "evidence",
+                    "significance_score": 0.5,
+                    "citations": [{"source_id": "1"}],
+                    "supporting_genes": ["FOO1"],
+                }
+            ],
+            "version": "1.0",
+        },
+        "citations": [{"source_id": "1", "source_url": "https://example.com/one"}],
+    }
+
+    container_path = tmp_path / "sample_container.json"
+    container_path.write_text(run_deepsearch.json.dumps(container_payload), encoding="utf-8")
+
+    rendered_path = tmp_path / "rendered.md"
+
+    class FakeGenerator:
+        def __init__(self) -> None:
+            self.calls = []
+
+        def render_from_path(self, container_path: Path) -> str:
+            data = json.loads(container_path.read_text(encoding="utf-8"))
+            return self.render_from_container(data)
+
+        def render_from_container(self, data: dict) -> str:
+            self.calls.append(data)
+            return "# report"
+
+    fake_generator = FakeGenerator()
+
+    def factory(**kwargs: Any) -> FakeGenerator:
+        return fake_generator
+
+    monkeypatch.setattr(run_deepsearch, "MarkdownReportGenerator", factory)
+
+    output_path = run_deepsearch.generate_markdown_report(
+        container_path=container_path, output_path=rendered_path
+    )
+
+    assert output_path == rendered_path
+    assert output_path.exists()
+    assert output_path.read_text(encoding="utf-8") == "# report"
