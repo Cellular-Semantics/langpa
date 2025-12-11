@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 from types import SimpleNamespace
 from typing import Any
+from unittest.mock import Mock
 
 import pytest
 
@@ -207,7 +208,6 @@ def test_generate_markdown_report_creates_file(tmp_path: Path, monkeypatch: pyte
 def test_show_dry_run_constructs_prompt(monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]) -> None:
     """Test that show_dry_run can construct and display the prompt."""
     from scripts import run_deepsearch
-    from unittest.mock import Mock
 
     # Create a mock service with construct_prompt method
     mock_service = Mock()

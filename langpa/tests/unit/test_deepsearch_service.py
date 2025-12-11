@@ -286,7 +286,7 @@ def test_deepsearch_service_construct_prompt_public_method(mock_client_class: Mo
     assert len(prompt) > 0, "Prompt should not be empty"
     assert "CCDC92" in prompt, "Prompt should contain gene names"
     assert "TP53" in prompt, "Prompt should contain gene names"
-    assert "obesity" in prompt or "context" in prompt.lower(), "Prompt should reference context"
+    assert "obesity" in prompt, "Prompt should contain the context string"
 
 
 @pytest.mark.unit
