@@ -334,3 +334,116 @@ def test_deepsearch_output_manager_pydantic_integration() -> None:
 
     except Exception as e:
         pytest.fail(f"OutputManager pydantic validation failed: {str(e)}")
+
+
+@pytest.mark.integration
+def test_schema_embedded_ignores_extra_fields(save_test_output) -> None:
+    """Test that schema-embedded preset handles LLM-generated schema metadata fields.
+
+    The schema-embedded preset (perplexity-sonar-schema-embedded) includes the full
+    JSON schema in the user prompt, which can cause LLMs to include schema metadata
+    fields (title, description, type) in their response.
+
+    This test verifies that our Pydantic config override (extra='ignore') allows
+    validation to pass even when these extra fields are present.
+    """
+    # Check for API key
+    perplexity_key = os.getenv("PERPLEXITY_API_KEY") or os.getenv("PERPLEXITY-API-KEY")
+    if not perplexity_key:
+        pytest.skip("PERPLEXITY_API_KEY not found - cannot test schema-embedded preset")
+
+    # Initialize service with schema-embedded preset
+    service = DeepSearchService(preset="perplexity-sonar-schema-embedded")
+    validator = DeepSearchValidator()
+
+    # Use specific genes and context
+    genes = ["CCDC92", "C21orf91"]
+    context = "obesity"
+
+    # Step 1: Make real API call with schema-embedded preset
+    try:
+        result = service.research_gene_list(genes=genes, context=context)
+        assert result is not None, "API call should return result"
+
+        # Get markdown response
+        markdown = getattr(result, "markdown", None) or getattr(result, "content", None)
+        assert markdown is not None, "Response should have markdown or content"
+        assert isinstance(markdown, str), "Markdown should be string"
+        assert len(markdown) > 100, "Response should have substantial content"
+
+    except Exception as e:
+        pytest.fail(f"API call failed: {str(e)}")
+
+    # Step 2: Extract JSON (may contain extra schema metadata fields)
+    extracted_json = validator.output_manager.extract_json_from_markdown(markdown)
+    assert extracted_json is not None, "Should extract JSON from markdown"
+
+    # Log extracted fields to verify if schema metadata is present
+    extracted_keys = list(extracted_json.keys())
+    schema_metadata_fields = ["title", "description", "type", "$schema", "$id"]
+    found_metadata = [k for k in schema_metadata_fields if k in extracted_keys]
+
+    # Step 3: Validate with pydantic (should pass even with extra fields)
+    try:
+        validation_result = validator.validate_markdown(markdown, max_retries=3)
+
+        # Validation should succeed regardless of extra fields
+        assert validation_result.success, (
+            f"Validation should succeed even with extra fields. "
+            f"Found metadata fields: {found_metadata}. "
+            f"Error: {validation_result.error}"
+        )
+        assert validation_result.model_instance is not None, (
+            "Should have validated model instance"
+        )
+
+        # Save output for analysis
+        save_test_output(
+            raw_response=result,
+            extracted_json=extracted_json,
+            validation_result={
+                "success": validation_result.success,
+                "retry_count": validation_result.retry_count,
+                "validation_time_ms": validation_result.validation_time_ms,
+                "found_schema_metadata": found_metadata,  # Track if metadata was present
+                "error": str(validation_result.error) if validation_result.error else None,
+            },
+            genes=genes,
+            context=context,
+            preset="perplexity-sonar-schema-embedded",
+        )
+
+    except Exception as e:
+        pytest.fail(
+            f"Pydantic validation failed with schema-embedded preset. "
+            f"Extracted keys: {extracted_keys}. "
+            f"Error: {str(e)}"
+        )
+
+    # Step 4: Verify model instance does NOT have schema metadata attributes
+    model_instance = validation_result.model_instance
+
+    # These fields should NOT be present in validated instance
+    for field in schema_metadata_fields:
+        assert not hasattr(model_instance, field), (
+            f"Model instance should not have schema metadata field: {field}"
+        )
+
+    # Step 5: Verify required fields ARE present and valid
+    assert hasattr(model_instance, "context"), "Model should have context field"
+    assert hasattr(model_instance, "input_genes"), "Model should have input_genes field"
+    assert hasattr(model_instance, "programs"), "Model should have programs field"
+
+    # Verify data content
+    assert isinstance(model_instance.context, dict), "context should be dict"
+    assert isinstance(model_instance.input_genes, list), "input_genes should be list"
+    assert len(model_instance.input_genes) > 0, "input_genes should have entries"
+    assert isinstance(model_instance.programs, list), "programs should be list"
+    assert len(model_instance.programs) > 0, "programs should have entries"
+
+    # Verify requested genes are in response
+    input_genes_upper = [g.upper() for g in model_instance.input_genes]
+    found_genes = [g for g in ["CCDC92", "C21ORF91"] if g in input_genes_upper]
+    assert len(found_genes) > 0, (
+        f"Should find at least one requested gene. Found: {input_genes_upper}"
+    )
