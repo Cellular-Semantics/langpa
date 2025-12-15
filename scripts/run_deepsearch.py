@@ -40,12 +40,9 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--batch-dir",
+        "--single",
         type=Path,
-        help=(
-            "Process all inputs under this directory as separate queries "
-            "(use project + subfolder names)."
-        ),
+        help="Process a single input file (raw JSON or markdown). Skips batch traversal.",
     )
     # List available options
     parser.add_argument(
@@ -232,6 +229,11 @@ def parse_args() -> argparse.Namespace:
         "--cache",
         action="store_true",
         help="Enable DeepResearchClient result caching (default: off).",
+    )
+    parser.add_argument(
+        "--no-stomp",
+        action="store_true",
+        help="Do not overwrite existing outputs; create versioned filenames instead.",
     )
     parser.add_argument(
         "--print-markdown",
@@ -600,54 +602,73 @@ def show_dry_run(
     print("No actual API call made (dry run mode)")
 
 
-def process_batch(args):
-    batch_root = args.batch_dir
-    if not batch_root or not batch_root.exists():
-        raise SystemExit(f"[error] Batch directory not found: {batch_root}")
+def _versioned_prefix(run_dir: Path, base: str, no_stomp: bool) -> str:
+    """Return a filename prefix honoring no-stomp."""
+    if not no_stomp:
+        return base
+    if not (run_dir / f"{base}.json").exists():
+        return base
+    idx = 2
+    while True:
+        candidate = f"{base}_v{idx}"
+        if not (run_dir / f"{candidate}.json").exists():
+            return candidate
+        idx += 1
 
-    # Expect structure projects/<project>/inputs/<query>/*
-    query_dirs = [
-        p for p in batch_root.iterdir() if p.is_dir()
-    ]
 
-    if not query_dirs:
-        raise SystemExit(f"[error] No query subfolders found under {batch_root}")
+def _discover_project_runs(project: str, output_dir: Path, query: str | None = None) -> list[tuple[str, Path, Path]]:
+    """Find all deepsearch.json files under outputs/{project}/{query}/{run}/."""
+    project_root = output_dir / project
+    if not project_root.exists():
+        raise SystemExit(f"[error] Project not found under {output_dir}: {project}")
 
-    for query_dir in query_dirs:
-        files = sorted(
-            [p for p in query_dir.iterdir() if p.is_file() and p.suffix in {".md", ".json"}]
-        )
-        if not files:
+    runs: list[tuple[str, Path, Path]] = []
+    queries = [project_root / query] if query else [p for p in project_root.iterdir() if p.is_dir()]
+
+    for qdir in queries:
+        if not qdir.exists() or not qdir.is_dir():
             continue
+        query_name = qdir.name
+        for run_dir in sorted(p for p in qdir.iterdir() if p.is_dir()):
+            raw_path = run_dir / "deepsearch.json"
+            if raw_path.exists():
+                runs.append((query_name, run_dir, raw_path))
+    if not runs:
+        raise SystemExit("[error] No deepsearch.json files found under project path.")
+    return runs
 
-        # derive query from folder name
-        query_name = sanitize_name(query_dir.name)
 
-        for input_path in files:
-            sub_args = argparse.Namespace(**vars(args))
-            if input_path.suffix == ".md":
-                sub_args.from_markdown = input_path
-                sub_args.raw_input = None
-            else:
-                sub_args.raw_input = input_path
-                sub_args.from_markdown = None
-            sub_args.query = query_name
-            sub_args.batch_dir = None  # prevent recursion
-
-            print(f"[batch] Processing {input_path} as query '{query_name}'")
-            main_single_run(sub_args)
+def process_project_batch(args: argparse.Namespace) -> None:
+    """Batch process all deepsearch.json under outputs/{project}/{query}/{run}/."""
+    output_dir = Path(args.output_dir)
+    runs = _discover_project_runs(args.project, output_dir, args.query)
+    for query_name, run_dir, raw_path in runs:
+        sub_args = argparse.Namespace(**vars(args))
+        sub_args.raw_input = raw_path
+        sub_args.from_markdown = None
+        sub_args.query = query_name
+        sub_args.project = args.project
+        sub_args.single = None
+        sub_args.fixed_run_dir = run_dir
+        print(f"[batch] Processing {raw_path} as query '{query_name}' (run: {run_dir.name})")
+        main_single_run(sub_args, fixed_run_dir=run_dir, allow_print=False)
     print("[batch] Done.")
 
 
 def main() -> None:
     args = parse_args()
-    if args.batch_dir:
-        process_batch(args)
+    if args.single:
+        # Single-file processing path
+        main_single_run(args, fixed_run_dir=None, allow_print=True)
         return
-    main_single_run(args)
+
+    # Batch mode requires project (and optional query)
+    if not args.project:
+        raise SystemExit("[error] --project is required for batch processing (no --single provided)")
+    process_project_batch(args)
 
 
-def main_single_run(args: argparse.Namespace) -> None:
+def main_single_run(args: argparse.Namespace, fixed_run_dir: Path | None = None, allow_print: bool = True) -> None:
     # Handle informational operations first
     if args.list_presets:
         list_presets()
@@ -724,8 +745,13 @@ def main_single_run(args: argparse.Namespace) -> None:
     if args.show_config:
         show_configuration(service, args)
 
-    # Build run directory under outputs/<project>/<query>/<timestamp>
-    run_dir = build_run_directory(Path(args.output_dir), project_name, query_name)
+    # Build or reuse run directory
+    if fixed_run_dir is not None:
+        run_dir = Path(fixed_run_dir)
+    else:
+        run_dir = build_run_directory(Path(args.output_dir), project_name, query_name)
+
+    prefix = _versioned_prefix(run_dir, "deepsearch", getattr(args, "no_stomp", False))
 
     output_manager = OutputManager(output_dir=run_dir)
     resolver = None
@@ -744,6 +770,8 @@ def main_single_run(args: argparse.Namespace) -> None:
         raw_resp = raw_payload.get("raw_response", {}) or {}
         markdown = raw_resp.get("markdown") or raw_payload.get("markdown") or ""
         citations = raw_resp.get("citations") or raw_payload.get("citations") or []
+        if not citations and markdown:
+            citations = extract_citations_from_markdown(markdown)
         metadata_src = raw_payload.get("metadata", {})
         genes = genes or metadata_src.get("genes") or []
         context = context or metadata_src.get("context") or ""
@@ -834,7 +862,11 @@ def main_single_run(args: argparse.Namespace) -> None:
     context_for_output = context or "unspecified_context"
 
     raw_path = output_manager.save_raw_response(
-        result, genes_for_output, context_for_output, metadata=metadata
+        result,
+        genes_for_output,
+        context_for_output,
+        metadata=metadata,
+        filename=f"{prefix}.json",
     )
 
     debug_file = None
@@ -866,6 +898,7 @@ def main_single_run(args: argparse.Namespace) -> None:
             metadata=metadata,
             citation_style=args.citation_style,
             citation_locale=args.citation_locale,
+            filename_prefix=prefix,
         )
 
     print(f"[ok] Saved raw DeepSearch response to {raw_path}")
@@ -908,7 +941,7 @@ def main_single_run(args: argparse.Namespace) -> None:
                     print(f"[ok] Markdown report written to {output_md}")
                 except Exception as exc:
                     print(f"[warn] Markdown generation failed: {exc}")
-    if args.print_markdown:
+    if allow_print and args.print_markdown:
         markdown = getattr(result, "markdown", None) or getattr(result, "content", "")
         divider = "-" * 40
         print(divider)
