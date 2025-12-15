@@ -11,6 +11,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+from langpa.schemas import load_schema
 from langpa.services import CitationResolver, DeepSearchService, OutputManager
 from langpa.services.markdown_reporter import MarkdownReportGenerator
 from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
@@ -226,6 +227,11 @@ def parse_args() -> argparse.Namespace:
             "Locale for citation formatting (e.g., en-US, en-GB, de-DE). "
             "Default: en-US. Only used when --resolve-citations is enabled."
         ),
+    )
+    parser.add_argument(
+        "--cache",
+        action="store_true",
+        help="Enable DeepResearchClient result caching (default: off).",
     )
     parser.add_argument(
         "--print-markdown",
@@ -556,13 +562,22 @@ def show_dry_run(
     """Display configuration and prompt for dry run."""
     show_configuration(service, args, title="DRY RUN MODE")
 
+    template_name = args.template or service.config.prompt_template
+    template_metadata = get_template_metadata(template_name)
+    provider_params = dict(service.config.provider_params)
+    schema = load_schema("deepsearch_results_schema.json")
+
+    # Resolve the system prompt using the same logic as the service
+    provider_params["system_prompt"] = service._resolve_system_prompt(
+        provider_params=provider_params,
+        schema=schema,
+        template_requires_schema=template_metadata.get("requires_full_schema", False),
+    )
+
     # Show provider parameters
     print("Provider Parameters:")
-    for key, value in service.config.provider_params.items():
-        if key == "system_prompt" and value:
-            print(f"  {key}: [JSON schema system prompt - truncated]")
-        else:
-            print(f"  {key}: {value}")
+    for key, value in provider_params.items():
+        print(f"  {key}: {value}")
     print()
 
     # Construct and show the prompt
@@ -685,11 +700,19 @@ def main_single_run(args: argparse.Namespace) -> None:
     service = None
     if not offline_input:
         if args.preset:
-            service = DeepSearchService(preset=args.preset, **config_overrides)
+            from deep_research_client.models import CacheConfig  # type: ignore
+
+            cache_config = CacheConfig(enabled=args.cache)
+            service = DeepSearchService(preset=args.preset, cache_config=cache_config, **config_overrides)
         else:
             # Backward compatibility
+            from deep_research_client.models import CacheConfig  # type: ignore
+
+            cache_config = CacheConfig(enabled=args.cache)
             service = DeepSearchService(
-                preferred_provider=args.preferred_provider, **config_overrides
+                preferred_provider=args.preferred_provider,
+                cache_config=cache_config,
+                **config_overrides,
             )
 
     # Handle dry run
@@ -718,14 +741,9 @@ def main_single_run(args: argparse.Namespace) -> None:
         if not args.raw_input.exists():
             raise SystemExit(f"[error] Raw input file not found: {args.raw_input}")
         raw_payload = json.loads(args.raw_input.read_text(encoding="utf-8"))
-        markdown = (
-            raw_payload.get("raw_response", {}).get("markdown") or raw_payload.get("markdown") or ""
-        )
-        citations = (
-            raw_payload.get("raw_response", {}).get("citations")
-            or raw_payload.get("citations")
-            or []
-        )
+        raw_resp = raw_payload.get("raw_response", {}) or {}
+        markdown = raw_resp.get("markdown") or raw_payload.get("markdown") or ""
+        citations = raw_resp.get("citations") or raw_payload.get("citations") or []
         metadata_src = raw_payload.get("metadata", {})
         genes = genes or metadata_src.get("genes") or []
         context = context or metadata_src.get("context") or ""
@@ -886,7 +904,7 @@ def main_single_run(args: argparse.Namespace) -> None:
                 print("[warn] No container/structured file available for Markdown generation.")
             else:
                 try:
-                    output_md = generate_markdown_report(Path(source_file))
+                    output_md = generate_markdown_report(container_path=Path(source_file))
                     print(f"[ok] Markdown report written to {output_md}")
                 except Exception as exc:
                     print(f"[warn] Markdown generation failed: {exc}")
