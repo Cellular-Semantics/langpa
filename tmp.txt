@@ -1,0 +1,271 @@
+=== DRY RUN MODE ===
+
+Configuration:
+  Preset: perplexity-sonar-schema-embedded
+  Provider: perplexity
+  Model: sonar-deep-research (overridden)
+  Template: gene_analysis_schema_embedded
+  Timeout: 180s
+
+Provider Parameters:
+  return_citations: True
+  search_domain_filter: ['pubmed.ncbi.nlm.nih.gov', 'ncbi.nlm.nih.gov/pmc/', 'www.ncbi.nlm.nih.gov', 'europepmc.org', 'biorxiv.org', 'nature.com', 'cell.com', 'science.org']
+  reasoning_effort: high
+  search_recency_filter: month
+  system_prompt: You are an expert researcher providing comprehensive, well-cited information.
+
+Provide detailed information focusing on:
+1. Key concepts and definitions with current understanding
+2. Recent developments and latest research
+3. Current applications and real-world implementations
+4. Expert opinions and analysis from authoritative sources
+5. Relevant statistics and data from recent studies
+
+Format as a comprehensive research report with proper citations. Include URLs and publication dates where available.
+Always prioritize recent, authoritative sources and provide specific citations for all major claims.
+
+Generated Prompt:
+------------------------------------------------------------
+Perform comprehensive literature analysis for the following gene list in the specified biological context.
+
+**Gene List**: ["CCDC92"]
+
+**Biological Context**: obesity
+
+**Analysis Strategy**:
+1. Search current scientific literature for functional roles of each gene in the input list
+2. Identify clusters of genes that act together in pathways, processes, or cellular states
+3. Treat each cluster as a potential gene program within the list
+4. Interpret findings in light of both normal physiological roles and disease-specific alterations
+5. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant.
+
+**Guidelines**:
+* Anchor all predictions in either the normal physiology and development of the cell type and tissue specified in the context OR the alterations and dysregulations characteristic of the specified disease
+* Connect gene-level roles to program-level implications
+* Consider gene interactions, regulatory networks, and pathway dynamics
+* Highlight cases where multiple genes collectively strengthen evidence
+* Ensure all claims are backed by experimental evidence with proper attribution
+
+**Output**: Respond with JSON conforming to the provided schema - no prose, no markdown. If you are unable to respond with JSON alone, make sure the text includes tables or fragments of schema compliant that unambiguously capture the elements and their associations that would be captured if returning JSON schema.
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gene Program Functional Analysis",
+  "description": "Comprehensive literature-based functional analysis of gene lists in specific biological contexts. Perform systematic analysis to identify gene programs - clusters of genes acting together in pathways, processes, or cellular states. For each program, predict functional implications for the specified cell type in the context of the provided disease and tissue environment. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant. Rank predictions higher when multiple genes from input list act in same process and when most/all required pathway components are present.",
+  "type": "object",
+  "required": [
+    "context",
+    "input_genes",
+    "programs",
+    "version"
+  ],
+  "definitions": {
+    "atomic_term": {
+      "type": "object",
+      "required": [
+        "name",
+        "citations",
+        "genes"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "A minimal component of the gene program, representing a single biological process or cell component."
+        },
+        "citations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/citation"
+          },
+          "description": "list of citations supporting the role of the listed genes in the name biological process or cell component"
+        },
+        "genes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Genes of the program whose products are involved in this biological process or cell component."
+        }
+      },
+      "additionalProperties": false
+    },
+    "citation": {
+      "type": "object",
+      "required": [
+        "source_id"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "description": "Citation reference key matching DeepSearch/Perplexity numbering (e.g., '1', '2')."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Why this citation supports the claim"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "context": {
+      "type": "object",
+      "required": [
+        "cell_type",
+        "disease"
+      ],
+      "properties": {
+        "cell_type": {
+          "type": "string",
+          "description": "Extract and specify the name or names of the primary cell type(s) from the provided biological context. Use standard cell type terminology. Leave blank if not specified."
+        },
+        "disease": {
+          "type": "string",
+          "description": "Extract and specify the disease or pathological condition from the provided biological context (e.g., 'IDH-mutant astrocytoma', 'Alzheimer disease', 'multiple sclerosis'). Use standard disease terminology. Leave blank if not specified."
+        },
+        "tissue": {
+          "type": "string",
+          "description": "Extract and specify the tissue or anatomical location if mentioned in the biological context (e.g., 'brain', 'cerebral cortex', 'hippocampus'). Leave blank if not specified."
+        }
+      },
+      "additionalProperties": false
+    },
+    "input_genes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "programs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "program_name",
+          "description",
+          "predicted_cellular_impact",
+          "evidence_summary",
+          "significance_score",
+          "citations",
+          "supporting_genes"
+        ],
+        "description": "A gene program, relevant to the provided context. Avoid programs that group 2 or more loosely related processes",
+        "properties": {
+          "program_name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Provide a concise, descriptive name for this gene program that captures its primary biological function or pathway. Use 2-5 words maximum."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "A more detailed description of the gene program."
+          },
+          "atomic_biological_processes": {
+            "type": "array",
+            "description": "A list of atomic biological process terms extracted from the description.",
+            "items": {
+              "$ref": "#/definitions/atomic_term"
+            }
+          },
+          "atomic_cellular_components": {
+            "type": "array",
+            "description": "A list of atomic cellular component terms extracted from the description.",
+            "items": {
+              "$ref": "#/definitions/atomic_term"
+            }
+          },
+          "predicted_cellular_impact": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "description": "Concise bullet-level impacts (e.g., \u2018enhanced focal adhesion signaling\u2019)"
+            }
+          },
+          "evidence_summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "significance_score": {
+            "description": "A value between 0 and 1 that ranks this gene program by the number of supporting genes, the number of supporting references and relevance to the context.",
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0
+          },
+          "citations": {
+            "description": "Array of citations supporting the role of the listed genes in this gene program.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/definitions/citation"
+            }
+          },
+          "supporting_genes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "required_genes_not_in_input": {
+            "description": "Genes required for this program that are NOT present in the input genes.",
+            "type": "object",
+            "properties": {
+              "genes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "citations": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "$ref": "#/definitions/citation"
+                }
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "method": {
+      "type": "object",
+      "description": "Optional trace of how programs were derived",
+      "properties": {
+        "clustering_basis": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "e.g., pathway databases, co-citation, PPI, co-expression"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
+```
+
+------------------------------------------------------------
+
+Genes to analyze: CCDC92
+Context: obesity
+
+API call would be made to: perplexity
+No actual API call made (dry run mode)

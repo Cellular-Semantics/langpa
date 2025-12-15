@@ -1,0 +1,34 @@
+JSON Extraction Success Rate Test Results
+============================================================
+
+Test Configuration:
+  Genes: CCDC92, C21orf91_obesity
+  Context: obesity
+  Preset: perplexity-sonar-schema-embedded
+  Number of runs: 10
+
+Success Rates:
+  Extraction:  0/10 (0.0%)
+  Validation:  0/10 (0.0%)
+  Full Success: 0/10 (0.0%)
+
+Response Characteristics:
+  Responses with <think> tags: 10/10 (100.0%)
+  Responses with ```json fence: 0/10 (0.0%)
+  Average response length: 56593 characters
+  Average program count (successful): 0.0
+
+Assessment:
+  ✗ CONCERNING - Success rate below acceptable threshold (<80%)
+
+Failed Runs (10):
+  Run 1: Extraction failed
+  Run 2: Extraction failed
+  Run 3: Extraction failed
+  Run 4: Extraction failed
+  Run 5: Extraction failed
+  Run 6: Extraction failed
+  Run 7: Extraction failed
+  Run 8: Extraction failed
+  Run 9: Extraction failed
+  Run 10: Extraction failed

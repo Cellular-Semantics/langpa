@@ -1,0 +1,2224 @@
+Run 2 - 2025-12-15T16:26:39.715046
+============================================================
+
+Genes: ['CCDC92', 'C21orf91_obesity']
+Context: obesity
+Preset: perplexity-sonar-schema-embedded
+
+Response Characteristics:
+  Length: 81092 characters
+  Has <think> tags: True
+  Has ```json fence: True
+
+Extraction Results:
+  Extraction success: True
+  Schema valid: False
+  Program count: 0
+  Error: Additional properties are not allowed ('title' was unexpected)
+
+Failed validating 'additionalProperties' in schema:
+    {'$schema': 'http://json-schema.org/draft-07/schema#',
+     'title': 'Gene Program Functional Analysis',
+     'description': 'Comprehensive literature-based functional analysis of '
+                    'gene lists in specific biological contexts. Perform '
+                    'systematic analysis to identify gene programs - '
+                    'clusters of genes acting together in pathways, '
+                    'processes, or cellular states. For each program, '
+                    'predict functional implications for the specified '
+                    'cell type in the context of the provided disease and '
+                    'tissue environment. Prioritize well-established '
+                    'functions with strong literature support, but '
+                    'highlight emerging evidence if contextually relevant. '
+                    'Rank predictions higher when multiple genes from '
+                    'input list act in same process and when most/all '
+                    'required pathway components are present.',
+     'type': 'object',
+     'required': ['context', 'input_genes', 'programs', 'version'],
+     'definitions': {'atomic_term': {'type': 'object',
+                                     'required': ['name',
+                                                  'citations',
+                                                  'genes'],
+                                     'properties': {'name': {'type': 'string',
+                                                             'description': 'A '
+                                                                            'minimal '
+                                                                            'component '
+                                                                            'of '
+                                                                            'the '
+                                                                            'gene '
+                                                                            'program, '
+                                                                            'representing '
+                                                                            'a '
+                                                                            'single '
+                                                                            'biological '
+                                                                            'process '
+                                                                            'or '
+                                                                            'cell '
+                                                                            'component.'},
+                                                    'citations': {'type': 'array',
+                                                                  'items': {'$ref': '#/definitions/citation'},
+                                                                  'description': 'list '
+                                                                                 'of '
+                                                                                 'citations '
+                                                                                 'supporting '
+                                                                                 'the '
+                                                                                 'role '
+                                                                                 'of '
+                                                                                 'the '
+                                                                                 'listed '
+                                                                                 'genes '
+                                                                                 'in '
+                                                                                 'the '
+                                                                                 'name '
+                                                                                 'biological '
+                                                                                 'process '
+                                                                                 'or '
+                                                                                 'cell '
+                                                                                 'component'},
+                                                    'genes': {'type': 'array',
+                                                              'items': {'type': 'string'},
+                                                              'description': 'Genes '
+                                                                             'of '
+                                                                             'the '
+                                                                             'program '
+                                                                             'whose '
+                                                                             'products '
+                                                                             'are '
+                                                                             'involved '
+                                                                             'in '
+                                                                             'this '
+                                                                             'biological '
+                                                                             'process '
+                                                                             'or '
+                                                                             'cell '
+                                                                             'component.'}},
+                                     'additionalProperties': False},
+                     'citation': {'type': 'object',
+                                  'required': ['source_id'],
+                                  'properties': {'source_id': {'type': 'string',
+                                                               'description': 'Citation '
+                                                                              'reference '
+                                                                              'key '
+                                                                              'matching '
+                                                                              'DeepSearch/Perplexity '
+                                                                              'numbering '
+                                                                              '(e.g., '
+                                                                              "'1', "
+                                                                              "'2')."},
+                                                 'notes': {'type': 'string',
+                                                           'description': 'Why '
+                                                                          'this '
+                                                                          'citation '
+                                                                          'supports '
+                                                                          'the '
+                                                                          'claim'}},
+                                  'additionalProperties': False}},
+     'properties': {'context': {'type': 'object',
+                                'required': ['cell_type', 'disease'],
+                                'properties': {'cell_type': {'type': 'string',
+                                                             'description': 'Extract '
+                                                                            'and '
+                                                                            'specify '
+                                                                            'the '
+                                                                            'name '
+                                                                            'or '
+                                                                            'names '
+                                                                            'of '
+                                                                            'the '
+                                                                            'primary '
+                                                                            'cell '
+                                                                            'type(s) '
+                                                                            'from '
+                                                                            'the '
+                                                                            'provided '
+                                                                            'biological '
+                                                                            'context. '
+                                                                            'Use '
+                                                                            'standard '
+                                                                            'cell '
+                                                                            'type '
+                                                                            'terminology. '
+                                                                            'Leave '
+                                                                            'blank '
+                                                                            'if '
+                                                                            'not '
+                                                                            'specified.'},
+                                               'disease': {'type': 'string',
+                                                           'description': 'Extract '
+                                                                          'and '
+                                                                          'specify '
+                                                                          'the '
+                                                                          'disease '
+                                                                          'or '
+                                                                          'pathological '
+                                                                          'condition '
+                                                                          'from '
+                                                                          'the '
+                                                                          'provided '
+                                                                          'biological '
+                                                                          'context '
+                                                                          '(e.g., '
+                                                                          "'IDH-mutant "
+                                                                          "astrocytoma', "
+                                                                          "'Alzheimer "
+                                                                          "disease', "
+                                                                          "'multiple "
+                                                                          "sclerosis'). "
+                                                                          'Use '
+                                                                          'standard '
+                                                                          'disease '
+                                                                          'terminology. '
+                                                                          'Leave '
+                                                                          'blank '
+                                                                          'if '
+                                                                          'not '
+                                                                          'specified.'},
+                                               'tissue': {'type': 'string',
+                                                          'description': 'Extract '
+                                                                         'and '
+                                                                         'specify '
+                                                                         'the '
+                                                                         'tissue '
+                                                                         'or '
+                                                                         'anatomical '
+                                                                         'location '
+                                                                         'if '
+                                                                         'mentioned '
+                                                                         'in '
+                                                                         'the '
+                                                                         'biological '
+                                                                         'context '
+                                                                         '(e.g., '
+                                                                         "'brain', "
+                                                                         "'cerebral "
+                                                                         "cortex', "
+                                                                         "'hippocampus'). "
+                                                                         'Leave '
+                                                                         'blank '
+                                                                         'if '
+                                                                         'not '
+                                                                         'specified.'}},
+                                'additionalProperties': False},
+                    'input_genes': {'type': 'array',
+                                    'items': {'type': 'string',
+                                              'minLength': 1},
+                                    'minItems': 1,
+                                    'uniqueItems': True},
+                    'programs': {'type': 'array',
+                                 'minItems': 1,
+                                 'items': {'type': 'object',
+                                           'required': ['program_name',
+                                                        'description',
+                                                        'predicted_cellular_impact',
+                                                        'evidence_summary',
+                                                        'significance_score',
+                                                        'citations',
+                                                        'supporting_genes'],
+                                           'description': 'A gene program, '
+                                                          'relevant to the '
+                                                          'provided '
+                                                          'context. Avoid '
+                                                          'programs that '
+                                                          'group 2 or more '
+                                                          'loosely related '
+                                                          'processes',
+                                           'properties': {'program_name': {'type': 'string',
+                                                                           'minLength': 1,
+                                                                           'description': 'Provide '
+                                                                                          'a '
+                                                                                          'concise, '
+                                                                                          'descriptive '
+                                                                                          'name '
+                                                                                          'for '
+                                                                                          'this '
+                                                                                          'gene '
+                                                                                          'program '
+                                                                                          'that '
+                                                                                          'captures '
+                                                                                          'its '
+                                                                                          'primary '
+                                                                                          'biological '
+                                                                                          'function '
+                                                                                          'or '
+                                                                                          'pathway. '
+                                                                                          'Use '
+                                                                                          '2-5 '
+                                                                                          'words '
+                                                                                          'maximum.'},
+                                                          'description': {'type': 'string',
+                                                                          'minLength': 1,
+                                                                          'description': 'A '
+                                                                                         'more '
+                                                                                         'detailed '
+                                                                                         'description '
+                                                                                         'of '
+                                                                                         'the '
+                                                                                         'gene '
+                                                                                         'program.'},
+                                                          'atomic_biological_processes': {'type': 'array',
+                                                                                          'description': 'A '
+                                                                                                         'list '
+                                                                                                         'of '
+                                                                                                         'atomic '
+                                                                                                         'biological '
+                                                                                                         'process '
+                                                                                                         'terms '
+                                                                                                         'extracted '
+                                                                                                         'from '
+                                                                                                         'the '
+                                                                                                         'description.',
+                                                                                          'items': {'$ref': '#/definitions/atomic_term'}},
+                                                          'atomic_cellular_components': {'type': 'array',
+                                                                                         'description': 'A '
+                                                                                                        'list '
+                                                                                                        'of '
+                                                                                                        'atomic '
+                                                                                                        'cellular '
+                                                                                                        'component '
+                                                                                                        'terms '
+                                                                                                        'extracted '
+                                                                                                        'from '
+                                                                                                        'the '
+                                                                                                        'description.',
+                                                                                         'items': {'$ref': '#/definitions/atomic_term'}},
+                                                          'predicted_cellular_impact': {'type': 'array',
+                                                                                        'minItems': 1,
+                                                                                        'items': {'type': 'string',
+                                                                                                  'description': 'Concise '
+                                                                                                                 'bullet-level '
+                                                                                                                 'impacts '
+                                                                                                                 '(e.g., '
+                                                                                                                 '‘enhanced '
+                                                                                                                 'focal '
+                                                                                                                 'adhesion '
+                                                                                                                 'signaling’)'}},
+                                                          'evidence_summary': {'type': 'string',
+                                                                               'minLength': 1},
+                                                          'significance_score': {'description': 'A '
+                                                                                                'value '
+                                                                                                'between '
+                                                                                                '0 '
+                                                                                                'and '
+                                                                                                '1 '
+                                                                                                'that '
+                                                                                                'ranks '
+                                                                                                'this '
+                                                                                                'gene '
+                                                                                                'program '
+                                                                                                'by '
+                                                                                                'the '
+                                                                                                'number '
+                                                                                                'of '
+                                                                                                'supporting '
+                                                                                                'genes, '
+                                                                                                'the '
+                                                                                                'number '
+                                                                                                'of '
+                                                                                                'supporting '
+                                                                                                'references '
+                                                                                                'and '
+                                                                                                'relevance '
+                                                                                                'to '
+                                                                                                'the '
+                                                                                                'context.',
+                                                                                 'type': 'number',
+                                                                                 'minimum': 0.0,
+                                                                                 'maximum': 1.0},
+                                                          'citations': {'description': 'Array '
+                                                                                       'of '
+                                                                                       'citations '
+                                                                                       'supporting '
+                                                                                       'the '
+                                                                                       'role '
+                                                                                       'of '
+                                                                                       'the '
+                                                                                       'listed '
+                                                                                       'genes '
+                                                                                       'in '
+                                                                                       'this '
+                                                                                       'gene '
+                                                                                       'program.',
+                                                                        'type': 'array',
+                                                                        'minItems': 1,
+                                                                        'items': {'$ref': '#/definitions/citation'}},
+                                                          'supporting_genes': {'type': 'array',
+                                                                               'minItems': 1,
+                                                                               'items': {'type': 'string'},
+                                                                               'uniqueItems': True},
+                                                          'required_genes_not_in_input': {'description': 'Genes '
+                                                                                                         'required '
+                                                                                                         'for '
+                                                                                                         'this '
+                                                                                                         'program '
+                                                                                                         'that '
+                                                                                                         'are '
+                                                                                                         'NOT '
+                                                                                                         'present '
+                                                                                                         'in '
+                                                                                                         'the '
+                                                                                                         'input '
+                                                                                                         'genes.',
+                                                                                          'type': 'object',
+                                                                                          'properties': {'genes': {'type': 'array',
+                                                                                                                   'items': {'type': 'string'}},
+                                                                                                         'citations': {'type': 'array',
+                                                                                                                       'minItems': 1,
+                                                                                                                       'items': {'$ref': '#/definitions/citation'}}}}},
+                                           'additionalProperties': False}},
+                    'method': {'type': 'object',
+                               'description': 'Optional trace of how '
+                                              'programs were derived',
+                               'properties': {'clustering_basis': {'type': 'array',
+                                                                   'items': {'type': 'string'},
+                                                                   'description': 'e.g., '
+                                                                                  'pathway '
+                                                                                  'databases, '
+                                                                                  'co-citation, '
+                                                                                  'PPI, '
+                                                                                  'co-expression'},
+                                              'notes': {'type': 'string'}},
+                               'additionalProperties': False},
+                    'version': {'type': 'string'}},
+     'additionalProperties': False}
+
+On instance:
+    {'title': 'Gene Program Functional Analysis',
+     'context': {'cell_type': 'adipocytes, adipose tissue macrophages, '
+                              'hepatocytes',
+                 'disease': 'obesity',
+                 'tissue': 'adipose tissue (visceral and subcutaneous), '
+                           'liver'},
+     'input_genes': ['CCDC92', 'C21orf91'],
+     'programs': [{'program_name': 'Innate Immune Surveillance and Pattern '
+                                   'Recognition',
+                   'description': 'CCDC92 participates in innate immune '
+                                  'recognition of damage-associated and '
+                                  'pathogen-associated molecular patterns '
+                                  'through toll-like receptor and pattern '
+                                  'recognition receptor signaling '
+                                  'pathways. This program encompasses the '
+                                  'initial detection of cellular stress '
+                                  'signals (saturated fatty acids, '
+                                  'lipopolysaccharide, oxidized lipids) by '
+                                  'pattern recognition receptors on '
+                                  'adipocytes and adipose tissue '
+                                  'macrophages, followed by activation of '
+                                  'downstream inflammatory cascades '
+                                  'including NF-κB and inflammasome '
+                                  'pathways. In obesity, dysregulation of '
+                                  'this program leads to chronic '
+                                  'activation of these pathways, resulting '
+                                  'in sustained production of IL-1β and '
+                                  'TNF-α that drives systemic inflammation '
+                                  'and insulin resistance.',
+                   'atomic_biological_processes': [{'name': 'Pattern '
+                                                            'recognition '
+                                                            'receptor '
+                                                            'signaling',
+                                                    'citations': [{'source_id': '2',
+                                                                   'notes': 'CCDC92 '
+                                                                            'is '
+                                                                            'predicted '
+                                                                            'to '
+                                                                            'be '
+                                                                            'involved '
+                                                                            'in '
+                                                                            'innate '
+                                                                            'immune '
+                                                                            'response '
+                                                                            'and '
+                                                                            'regulation '
+                                                                            'of '
+                                                                            'defense '
+                                                                            'response '
+                                                                            'to '
+                                                                            'virus, '
+                                                                            'suggesting '
+                                                                            'participation '
+                                                                            'in '
+                                                                            'pattern '
+                                                                            'recognition '
+                                                                            'pathways'},
+                                                                  {'source_id': '9',
+                                                                   'notes': 'Adipocytes '
+                                                                            'undergo '
+                                                                            'transcriptomic '
+                                                                            'remodeling '
+                                                                            'in '
+                                                                            'obesity '
+                                                                            'with '
+                                                                            'enrichment '
+                                                                            'of '
+                                                                            'immune-related '
+                                                                            'pathways '
+                                                                            'including '
+                                                                            'those '
+                                                                            'for '
+                                                                            'immune '
+                                                                            'activation '
+                                                                            'and '
+                                                                            'inflammatory '
+                                                                            'signaling'}],
+                                                    'genes': ['CCDC92']},
+                                                   {'name': 'Inflammasome '
+                                                            'assembly and '
+                                                            'activation',
+                                                    'citations': [{'source_id': '9',
+                                                                   'notes': 'KEGG '
+                                                                            'enrichment '
+                                                                            'analysis '
+                                                                            'of '
+                                                                            'differentially '
+                                                                            'expressed '
+                                                                            'genes '
+                                                                            'in '
+                                                                            'obese '
+                                                                            'adipocytes '
+                                                                            'reveals '
+                                                                            'significant '
+                                                                            'enrichment '
+                                                                            'in '
+                                                                            '18 '
+                                                                            'immune-related '
+                                                                            'pathways'}],
+                                                    'genes': ['CCDC92']},
+                                                   {'name': 'NF-κB and '
+                                                            'mitogen-activated '
+                                                            'protein '
+                                                            'kinase '
+                                                            'signaling',
+                                                    'citations': [{'source_id': '9',
+                                                                   'notes': 'Upregulated '
+                                                                            'pathways '
+                                                                            'in '
+                                                                            'obese '
+                                                                            'adipocytes '
+                                                                            'involve '
+                                                                            'immune '
+                                                                            'activation '
+                                                                            'and '
+                                                                            'inflammatory '
+                                                                            'signaling '
+                                                                            'mechanisms'}],
+                                                    'genes': ['CCDC92']}],
+                   'atomic_cellular_components': [{'name': 'Toll-like '
+                                                           'receptor '
+                                                           'complexes',
+                                                   'citations': [{'source_id': '2',
+                                                                  'notes': 'CCDC92 '
+                                                                           'is '
+                                                                           'predicted '
+                                                                           'to '
+                                                                           'regulate '
+                                                                           'defense '
+                                                                           'response, '
+                                                                           'suggesting '
+                                                                           'involvement '
+                                                                           'in '
+                                                                           'pattern '
+                                                                           'recognition '
+                                                                           'receptor '
+                                                                           'complexes'}],
+                                                   'genes': ['CCDC92']},
+                                                  {'name': 'NLRP3 '
+                                                           'inflammasome',
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'Immune-related '
+                                                                           'pathway '
+                                                                           'enrichment '
+                                                                           'in '
+                                                                           'obese '
+                                                                           'adipocytes '
+                                                                           'suggests '
+                                                                           'involvement '
+                                                                           'of '
+                                                                           'inflammasome '
+                                                                           'components'}],
+                                                   'genes': ['CCDC92']}],
+                   'predicted_cellular_impact': ['Enhanced or dysregulated '
+                                                 'inflammasome activation '
+                                                 'leading to sustained '
+                                                 'IL-1β and IL-18 '
+                                                 'production',
+                                                 'Increased '
+                                                 'pro-inflammatory '
+                                                 'cytokine secretion '
+                                                 '(TNF-α, IL-6) from '
+                                                 'adipocytes and '
+                                                 'macrophages',
+                                                 'Recruitment and '
+                                                 'activation of immune '
+                                                 'cells into adipose '
+                                                 'tissue',
+                                                 'Systemic propagation of '
+                                                 'inflammatory signals '
+                                                 'contributing to insulin '
+                                                 'resistance',
+                                                 'Amplification of '
+                                                 'adipocyte cellular '
+                                                 'stress responses through '
+                                                 'pattern recognition '
+                                                 'receptor signaling'],
+                   'evidence_summary': 'CCDC92 possesses predicted '
+                                       'functional capacity for innate '
+                                       'immune regulation through '
+                                       'coiled-coil domain-mediated '
+                                       'protein interactions. The '
+                                       'expression of CCDC92 in '
+                                       'immune-responsive tissues and its '
+                                       'predicted involvement in defense '
+                                       'responses positions it within '
+                                       'pathways governing adipose tissue '
+                                       'inflammatory activation. Multiple '
+                                       'lines of evidence demonstrate that '
+                                       'obesity is characterized by '
+                                       'chronic activation of pattern '
+                                       'recognition receptor signaling in '
+                                       'adipose tissue, with substantial '
+                                       'contribution to systemic '
+                                       'inflammation and metabolic '
+                                       'dysfunction. While specific '
+                                       'mechanistic studies of CCDC92 in '
+                                       'obesity remain limited, its '
+                                       'predicted immune regulatory '
+                                       'function, combined with the '
+                                       'demonstrated importance of innate '
+                                       'immune signaling in obesity '
+                                       'pathophysiology, provides strong '
+                                       'inferential evidence for its '
+                                       'participation in this program.',
+                   'significance_score': 0.65,
+                   'citations': [{'source_id': '2',
+                                  'notes': 'CCDC92 gene annotation '
+                                           'describing predicted '
+                                           'involvement in innate immune '
+                                           'response and viral defense'},
+                                 {'source_id': '9',
+                                  'notes': 'Transcriptomic profiling of '
+                                           'obese adipocytes demonstrating '
+                                           'upregulation of immune-related '
+                                           'pathways and differential '
+                                           'expression of 10,385 genes'}],
+                   'supporting_genes': ['CCDC92'],
+                   'required_genes_not_in_input': {'genes': ['TLR4',
+                                                             'TLR2',
+                                                             'NLRP3',
+                                                             'ASC',
+                                                             'CASP1',
+                                                             'NFKB1',
+                                                             'RELA',
+                                                             'MYD88',
+                                                             'IL1B',
+                                                             'TNF'],
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'Complete '
+                                                                           'inflammasome '
+                                                                           'and '
+                                                                           'NF-κB '
+                                                                           'pathway '
+                                                                           'activation '
+                                                                           'requires '
+                                                                           'additional '
+                                                                           'components '
+                                                                           'beyond '
+                                                                           'CCDC92 '
+                                                                           'alone'}]}},
+                  {'program_name': 'Hepatic Triglyceride Synthesis and '
+                                   'VLDL Secretion',
+                   'description': 'C21orf91, as a chromosome 21 gene, '
+                                  'likely participates in hepatic lipid '
+                                  'metabolism programs governing the '
+                                  'balance between triglyceride synthesis '
+                                  'and cholesterol esterification, with '
+                                  'implications for lipoprotein particle '
+                                  'composition. This program encompasses '
+                                  'hepatic acetyl-CoA carboxylase activity '
+                                  '(catalyzing the first committed step of '
+                                  'de novo lipogenesis), microsomal '
+                                  'triglyceride transfer protein '
+                                  '(MTTP)-mediated VLDL assembly, and '
+                                  'ApoB100-containing lipoprotein '
+                                  'secretion. In obesity, dysregulation of '
+                                  'this program leads to preferential '
+                                  'synthesis and secretion of '
+                                  'triglyceride-rich, cholesterol-depleted '
+                                  'VLDL particles that contribute to '
+                                  'dyslipidemia and atherosclerosis risk. '
+                                  'The chromosome 21 localization of '
+                                  'C21orf91 positions it within a gene '
+                                  'dosage network implicated in '
+                                  'dyslipidemia through multiple '
+                                  'independent lines of evidence.',
+                   'atomic_biological_processes': [{'name': 'De novo '
+                                                            'lipogenesis '
+                                                            'and '
+                                                            'acetyl-CoA '
+                                                            'carboxylase '
+                                                            'activity',
+                                                    'citations': [{'source_id': '10',
+                                                                   'notes': 'Hepatic '
+                                                                            'insulin '
+                                                                            'resistance '
+                                                                            'promoting '
+                                                                            'VLDL '
+                                                                            'overproduction '
+                                                                            'represents '
+                                                                            'a '
+                                                                            'key '
+                                                                            'mechanism '
+                                                                            'in '
+                                                                            'the '
+                                                                            'triglyceride-rich '
+                                                                            'lipoprotein '
+                                                                            'phenotype '
+                                                                            'associated '
+                                                                            'with '
+                                                                            'Down '
+                                                                            'syndrome '
+                                                                            'and '
+                                                                            'obesity'},
+                                                                  {'source_id': '4',
+                                                                   'notes': 'ROCK1/AMPK '
+                                                                            'signaling '
+                                                                            'axis '
+                                                                            'regulates '
+                                                                            'de '
+                                                                            'novo '
+                                                                            'lipogenesis, '
+                                                                            'providing '
+                                                                            'context '
+                                                                            'for '
+                                                                            'metabolic '
+                                                                            'regulation '
+                                                                            'by '
+                                                                            'kinase '
+                                                                            'cascades'}],
+                                                    'genes': ['C21orf91']},
+                                                   {'name': 'VLDL assembly '
+                                                            'and '
+                                                            'microsomal '
+                                                            'triglyceride '
+                                                            'transfer '
+                                                            'protein '
+                                                            'function',
+                                                    'citations': [{'source_id': '10',
+                                                                   'notes': 'Dysregulation '
+                                                                            'of '
+                                                                            'VLDL '
+                                                                            'assembly '
+                                                                            'in '
+                                                                            'obesity '
+                                                                            'leads '
+                                                                            'to '
+                                                                            'triglyceride-rich '
+                                                                            'lipoprotein '
+                                                                            'overproduction'}],
+                                                    'genes': ['C21orf91']},
+                                                   {'name': 'Cholesterol '
+                                                            'esterification '
+                                                            'and '
+                                                            'CETP-mediated '
+                                                            'lipoprotein '
+                                                            'remodeling',
+                                                    'citations': [{'source_id': '10',
+                                                                   'notes': 'Altered '
+                                                                            'cholesteryl '
+                                                                            'ester '
+                                                                            'transfer '
+                                                                            'protein '
+                                                                            'activity '
+                                                                            'and '
+                                                                            'reduced '
+                                                                            'cholesterol '
+                                                                            'ester '
+                                                                            'content '
+                                                                            'in '
+                                                                            'triglyceride-rich '
+                                                                            'lipoprotein '
+                                                                            'phenotype '
+                                                                            'of '
+                                                                            'Down '
+                                                                            'syndrome'}],
+                                                    'genes': ['C21orf91']}],
+                   'atomic_cellular_components': [{'name': 'Endoplasmic '
+                                                           'reticulum and '
+                                                           'Golgi '
+                                                           'apparatus '
+                                                           '(lipoprotein '
+                                                           'assembly '
+                                                           'compartments)',
+                                                   'citations': [{'source_id': '10',
+                                                                  'notes': 'VLDL '
+                                                                           'assembly '
+                                                                           'occurs '
+                                                                           'in '
+                                                                           'hepatocyte '
+                                                                           'ER '
+                                                                           'and '
+                                                                           'Golgi, '
+                                                                           'with '
+                                                                           'multiple '
+                                                                           'proteins '
+                                                                           'required '
+                                                                           'for '
+                                                                           'proper '
+                                                                           'lipoprotein '
+                                                                           'secretion'}],
+                                                   'genes': ['C21orf91']},
+                                                  {'name': 'Hepatocyte '
+                                                           'mitochondria '
+                                                           '(lipogenic '
+                                                           'substrate '
+                                                           'generation)',
+                                                   'citations': [{'source_id': '10',
+                                                                  'notes': 'De '
+                                                                           'novo '
+                                                                           'lipogenesis '
+                                                                           'depends '
+                                                                           'on '
+                                                                           'acetyl-CoA '
+                                                                           'generation '
+                                                                           'in '
+                                                                           'mitochondria '
+                                                                           'from '
+                                                                           'glucose '
+                                                                           'and '
+                                                                           'amino '
+                                                                           'acid '
+                                                                           'metabolism'}],
+                                                   'genes': ['C21orf91']},
+                                                  {'name': 'SREBP-1c '
+                                                           'transcriptional '
+                                                           'regulatory '
+                                                           'complex',
+                                                   'citations': [{'source_id': '10',
+                                                                  'notes': 'Sterol '
+                                                                           'regulatory '
+                                                                           'element '
+                                                                           'binding '
+                                                                           'protein-1c '
+                                                                           'controls '
+                                                                           'expression '
+                                                                           'of '
+                                                                           'lipogenic '
+                                                                           'enzymes; '
+                                                                           'hepatic '
+                                                                           'insulin '
+                                                                           'resistance '
+                                                                           'impairs '
+                                                                           'SREBP-1c '
+                                                                           'phosphorylation'}],
+                                                   'genes': ['C21orf91']}],
+                   'predicted_cellular_impact': ['Enhanced de novo '
+                                                 'lipogenesis and '
+                                                 'increased hepatic '
+                                                 'triglyceride content',
+                                                 'Preferential synthesis '
+                                                 'of triglyceride-rich '
+                                                 'over '
+                                                 'cholesterol-enriched '
+                                                 'VLDL particles',
+                                                 'Increased circulating '
+                                                 'triglyceride levels '
+                                                 'across lipoprotein '
+                                                 'spectrum',
+                                                 'Reduced capacity for '
+                                                 'cholesterol '
+                                                 'esterification and '
+                                                 'impaired reverse '
+                                                 'cholesterol transport',
+                                                 'Dysregulated lipoprotein '
+                                                 'remodeling with '
+                                                 'accumulation of '
+                                                 'triglyceride-enriched, '
+                                                 'cholesterol-depleted '
+                                                 'HDL'],
+                   'evidence_summary': 'The chromosome 21 localization of '
+                                       'C21orf91 positions it within a '
+                                       'metabolically active genomic '
+                                       'region containing genes (ABCG1, '
+                                       'SOD1, APP) known to influence '
+                                       'lipid metabolism and inflammatory '
+                                       'signaling. Lipidomic profiling of '
+                                       'Down syndrome populations reveals '
+                                       'a distinctive triglyceride-rich, '
+                                       'cholesterol-depleted lipoprotein '
+                                       'phenotype that occurs '
+                                       'independently of adiposity level, '
+                                       'suggesting intrinsic dysregulation '
+                                       'of hepatic lipid handling '
+                                       'programs. C21orf91 may directly '
+                                       'catalyze de novo lipogenesis, '
+                                       'regulate MTTP-mediated VLDL '
+                                       'assembly, or control '
+                                       'transcriptional programs governing '
+                                       'lipogenic enzyme expression. The '
+                                       'concordance of chromosome 21 gene '
+                                       'dosage effects with common '
+                                       'obesity-associated dyslipidemia '
+                                       'suggests that C21orf91 regulates '
+                                       'evolutionarily conserved metabolic '
+                                       'pathways dysregulated in obesity.',
+                   'significance_score': 0.58,
+                   'citations': [{'source_id': '10',
+                                  'notes': 'Lipidomic analysis of Down '
+                                           'syndrome children and young '
+                                           'adults with overweight/obesity '
+                                           'revealing pro-atherogenic, '
+                                           'insulin-resistant lipid '
+                                           'phenotype independent of '
+                                           'adiposity'},
+                                 {'source_id': '3',
+                                  'notes': 'LPL and other lipid metabolism '
+                                           'genes identified as '
+                                           'susceptibility factors for '
+                                           'obesity and dyslipidemia, '
+                                           'providing context for hepatic '
+                                           'lipid metabolism programs'}],
+                   'supporting_genes': ['C21orf91'],
+                   'required_genes_not_in_input': {'genes': ['SREBP1C',
+                                                             'ACC1',
+                                                             'FASN',
+                                                             'SCD1',
+                                                             'MTTP',
+                                                             'APOB',
+                                                             'ABCG1',
+                                                             'ABCA1',
+                                                             'LCAT',
+                                                             'CETP',
+                                                             'SOD1'],
+                                                   'citations': [{'source_id': '10',
+                                                                  'notes': 'Complete '
+                                                                           'hepatic '
+                                                                           'lipoprotein '
+                                                                           'synthesis '
+                                                                           'and '
+                                                                           'secretion '
+                                                                           'program '
+                                                                           'requires '
+                                                                           'multiple '
+                                                                           'enzymes '
+                                                                           'and '
+                                                                           'regulatory '
+                                                                           'proteins '
+                                                                           'beyond '
+                                                                           'C21orf91 '
+                                                                           'alone'}]}},
+                  {'program_name': 'Adipocyte Antigen Presentation and '
+                                   'CD8+ T Cell Activation',
+                   'description': "CCDC92's predicted involvement in "
+                                  'antigen processing and presentation '
+                                  'positions it within a program wherein '
+                                  'adipocytes actively participate in '
+                                  'immune surveillance by expressing MHC-I '
+                                  'and MHC-II molecules and presenting '
+                                  'antigenic peptides to CD8+ and CD4+ T '
+                                  'cells respectively. This program '
+                                  'includes proteasomal degradation of '
+                                  'cellular proteins, transport of '
+                                  'peptides into the endoplasmic reticulum '
+                                  'via TAP (transporter associated with '
+                                  'antigen processing), assembly of '
+                                  'peptide-MHC complexes, and trafficking '
+                                  'of peptide-MHC complexes to the cell '
+                                  'surface. Recent evidence demonstrates '
+                                  'that hypertrophic adipocytes under '
+                                  'metabolic stress (palmitate or high-fat '
+                                  'diet stimulation) exhibit enhanced '
+                                  'antigen presentation capacity and '
+                                  'specifically activate CD8+ T cells, '
+                                  'contributing substantially to adipose '
+                                  'tissue infiltration by cytotoxic T '
+                                  'lymphocytes and perpetuation of chronic '
+                                  'inflammation.',
+                   'atomic_biological_processes': [{'name': 'Proteasomal '
+                                                            'protein '
+                                                            'degradation '
+                                                            'and peptide '
+                                                            'generation',
+                                                    'citations': [{'source_id': '9',
+                                                                   'notes': 'MHC-I '
+                                                                            'antigen '
+                                                                            'presentation '
+                                                                            'pathway '
+                                                                            'is '
+                                                                            'significantly '
+                                                                            'upregulated '
+                                                                            'in '
+                                                                            'hypertrophic '
+                                                                            'adipocytes, '
+                                                                            'with '
+                                                                            'B2M '
+                                                                            'as '
+                                                                            'a '
+                                                                            'critical '
+                                                                            'chaperone '
+                                                                            'protein'}],
+                                                    'genes': ['CCDC92']},
+                                                   {'name': 'Transporter-associated '
+                                                            'antigen '
+                                                            'processing '
+                                                            '(TAP) '
+                                                            'function',
+                                                    'citations': [{'source_id': '2',
+                                                                   'notes': 'CCDC92 '
+                                                                            'predicted '
+                                                                            'to '
+                                                                            'be '
+                                                                            'involved '
+                                                                            'in '
+                                                                            'antigen '
+                                                                            'processing '
+                                                                            'and '
+                                                                            'presentation '
+                                                                            'pathway'}],
+                                                    'genes': ['CCDC92']},
+                                                   {'name': 'Peptide-MHC-I '
+                                                            'complex '
+                                                            'assembly and '
+                                                            'stabilization',
+                                                    'citations': [{'source_id': '9',
+                                                                   'notes': 'B2M '
+                                                                            'serves '
+                                                                            'as '
+                                                                            'critical '
+                                                                            'chaperone '
+                                                                            'for '
+                                                                            'MHC-I '
+                                                                            'molecules '
+                                                                            'in '
+                                                                            'adipocytes; '
+                                                                            'B2M '
+                                                                            'deletion '
+                                                                            'prevents '
+                                                                            'CD8+ '
+                                                                            'T '
+                                                                            'cell '
+                                                                            'activation '
+                                                                            'by '
+                                                                            'hypertrophic '
+                                                                            'adipocytes'}],
+                                                    'genes': ['CCDC92']},
+                                                   {'name': 'CD8+ T cell '
+                                                            'recognition '
+                                                            'and '
+                                                            'activation',
+                                                    'citations': [{'source_id': '9',
+                                                                   'notes': 'Hypertrophic '
+                                                                            'adipocytes '
+                                                                            'from '
+                                                                            'control '
+                                                                            'mice '
+                                                                            'activate '
+                                                                            'CD8+ '
+                                                                            'T '
+                                                                            'cells '
+                                                                            'only '
+                                                                            'when '
+                                                                            'cocultured '
+                                                                            'directly, '
+                                                                            'demonstrating '
+                                                                            'MHC-I-dependent '
+                                                                            'CD8+ '
+                                                                            'T '
+                                                                            'cell '
+                                                                            'activation'}],
+                                                    'genes': ['CCDC92']}],
+                   'atomic_cellular_components': [{'name': '26S proteasome '
+                                                           'complex',
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'Proteasomal '
+                                                                           'degradation '
+                                                                           'required '
+                                                                           'for '
+                                                                           'generation '
+                                                                           'of '
+                                                                           'peptide '
+                                                                           'fragments '
+                                                                           'presented '
+                                                                           'on '
+                                                                           'MHC-I'}],
+                                                   'genes': ['CCDC92']},
+                                                  {'name': 'Transporter '
+                                                           'associated '
+                                                           'with antigen '
+                                                           'processing '
+                                                           '(TAP1/TAP2)',
+                                                   'citations': [{'source_id': '2',
+                                                                  'notes': 'Antigen '
+                                                                           'processing '
+                                                                           'and '
+                                                                           'presentation '
+                                                                           'pathway '
+                                                                           'includes '
+                                                                           'TAP-mediated '
+                                                                           'peptide '
+                                                                           'transport'}],
+                                                   'genes': ['CCDC92']},
+                                                  {'name': 'Endoplasmic '
+                                                           'reticulum '
+                                                           '(antigen '
+                                                           'processing '
+                                                           'compartment)',
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'MHC-I '
+                                                                           'assembly '
+                                                                           'occurs '
+                                                                           'in '
+                                                                           'ER '
+                                                                           'with '
+                                                                           'involvement '
+                                                                           'of '
+                                                                           'chaperone '
+                                                                           'proteins '
+                                                                           'including '
+                                                                           'B2M '
+                                                                           'and '
+                                                                           'TAP'}],
+                                                   'genes': ['CCDC92']},
+                                                  {'name': 'Cell surface '
+                                                           'MHC-I '
+                                                           'molecules',
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'Final '
+                                                                           'step '
+                                                                           'of '
+                                                                           'antigen '
+                                                                           'presentation '
+                                                                           'involves '
+                                                                           'trafficking '
+                                                                           'of '
+                                                                           'peptide-MHC '
+                                                                           'complexes '
+                                                                           'to '
+                                                                           'adipocyte '
+                                                                           'cell '
+                                                                           'surface '
+                                                                           'for '
+                                                                           'recognition '
+                                                                           'by '
+                                                                           'CD8+ '
+                                                                           'T '
+                                                                           'cells'}],
+                                                   'genes': ['CCDC92']}],
+                   'predicted_cellular_impact': ['Enhanced capacity for '
+                                                 'adipocyte-intrinsic '
+                                                 'antigen presentation to '
+                                                 'CD8+ T cells',
+                                                 'Increased CD8+ T cell '
+                                                 'infiltration into '
+                                                 'adipose tissue and local '
+                                                 'T cell proliferation',
+                                                 'Amplified production of '
+                                                 'cytotoxic granules '
+                                                 '(granzyme B, perforin) '
+                                                 'by activated CD8+ T '
+                                                 'cells',
+                                                 'Enhanced IFNγ production '
+                                                 'by CD8+ T cells leading '
+                                                 'to further adipocyte '
+                                                 'dysfunction',
+                                                 'Perpetuation of chronic '
+                                                 'adipose tissue '
+                                                 'inflammation through T '
+                                                 'cell-adipocyte '
+                                                 'cross-talk',
+                                                 'Impaired adipocyte '
+                                                 'metabolic function '
+                                                 'through CD8+ T '
+                                                 'cell-mediated '
+                                                 'cytotoxicity'],
+                   'evidence_summary': "CCDC92's predicted capacity for "
+                                       'antigen processing and '
+                                       'presentation provides direct '
+                                       'mechanistic link to newly '
+                                       'discovered adipocyte-intrinsic '
+                                       'immune activation. Recent evidence '
+                                       'demonstrates that adipocytes in '
+                                       'obese individuals exhibit enhanced '
+                                       'MHC-I expression and antigen '
+                                       'presentation capacity, with B2M '
+                                       'serving as a critical chaperone '
+                                       'for this process. Hypertrophic '
+                                       'adipocytes under metabolic stress '
+                                       'specifically activate CD8+ T cells '
+                                       'in vitro, and this activation '
+                                       'requires both MHC-I expression and '
+                                       'direct cell-cell contact. CCDC92 '
+                                       'likely participates in regulating '
+                                       'proteasomal degradation, '
+                                       'TAP-mediated peptide transport, or '
+                                       'assembly of peptide-MHC '
+                                       'complexes—any of which could '
+                                       'amplify adipocyte antigen '
+                                       'presentation capacity. The '
+                                       'demonstration that '
+                                       'adipocyte-specific B2M deletion '
+                                       'substantially reduces CD8+ T cell '
+                                       'activation and improves metabolic '
+                                       'outcomes underscores the '
+                                       'functional importance of this '
+                                       'program in obesity.',
+                   'significance_score': 0.72,
+                   'citations': [{'source_id': '9',
+                                  'notes': 'Comprehensive characterization '
+                                           'of B2M as critical mediator of '
+                                           'adipocyte antigen presentation '
+                                           'and its role in recruiting '
+                                           'CD8+ T cells to adipose '
+                                           'tissue'},
+                                 {'source_id': '2',
+                                  'notes': 'CCDC92 annotation indicating '
+                                           'predicted involvement in '
+                                           'antigen processing and '
+                                           'presentation pathway'}],
+                   'supporting_genes': ['CCDC92'],
+                   'required_genes_not_in_input': {'genes': ['PSMD1',
+                                                             'PSMD2',
+                                                             'TAP1',
+                                                             'TAP2',
+                                                             'PSMB8',
+                                                             'PSMB9',
+                                                             'PSMB10',
+                                                             'HLA-A',
+                                                             'HLA-B',
+                                                             'HLA-C',
+                                                             'B2M',
+                                                             'CALR',
+                                                             'CANX'],
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'Complete '
+                                                                           'antigen '
+                                                                           'processing '
+                                                                           'and '
+                                                                           'presentation '
+                                                                           'pathway '
+                                                                           'requires '
+                                                                           'multiple '
+                                                                           'proteasomal, '
+                                                                           'TAP, '
+                                                                           'and '
+                                                                           'MHC-related '
+                                                                           'components '
+                                                                           'beyond '
+                                                                           'CCDC92'}]}},
+                  {'program_name': 'Iron Homeostasis and Ferroptosis '
+                                   'Prevention in Adipocytes',
+                   'description': 'Both CCDC92 and C21orf91, through their '
+                                  'participation in innate immune '
+                                  'signaling and metabolic regulation '
+                                  'respectively, likely influence iron '
+                                  'homeostasis and ferroptotic cell death '
+                                  'pathways in obesity-stressed '
+                                  'adipocytes. This program encompasses '
+                                  'iron uptake through transferrin '
+                                  'receptors (TFR1 and TFR2), iron-binding '
+                                  'and storage by ferritin and other '
+                                  'iron-binding proteins, and cellular '
+                                  'mechanisms preventing iron-catalyzed '
+                                  'free radical generation through Fenton '
+                                  'chemistry. Recent evidence demonstrates '
+                                  'that hypertrophic adipocytes accumulate '
+                                  'pathological iron levels through '
+                                  'enhanced B2M-mediated transferrin '
+                                  'receptor signaling, and that this iron '
+                                  'accumulation drives oxidative stress '
+                                  'and ferroptotic cell death. Ferroptosis '
+                                  'prevention requires intact antioxidant '
+                                  'defenses (including SOD1 from '
+                                  'chromosome 21, catalase, and '
+                                  'glutathione peroxidase systems) and '
+                                  'iron homeostasis regulation.',
+                   'atomic_biological_processes': [{'name': 'Transferrin '
+                                                            'receptor-mediated '
+                                                            'iron uptake',
+                                                    'citations': [{'source_id': '9',
+                                                                   'notes': 'B2M '
+                                                                            'interacts '
+                                                                            'with '
+                                                                            'transferrin '
+                                                                            'receptors '
+                                                                            '(TFR1 '
+                                                                            'and '
+                                                                            'TFR2) '
+                                                                            'to '
+                                                                            'regulate '
+                                                                            'iron '
+                                                                            'uptake '
+                                                                            'in '
+                                                                            'adipocytes; '
+                                                                            'hypertrophic '
+                                                                            'adipocytes '
+                                                                            'exhibit '
+                                                                            'enhanced '
+                                                                            'TFR2-mediated '
+                                                                            'iron '
+                                                                            'import '
+                                                                            'under '
+                                                                            'HFD '
+                                                                            'conditions'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']},
+                                                   {'name': 'Hepcidin-mediated '
+                                                            'iron '
+                                                            'regulation '
+                                                            'and '
+                                                            'ferroportin '
+                                                            'internalization',
+                                                    'citations': [{'source_id': '9',
+                                                                   'notes': 'Iron '
+                                                                            'homeostasis '
+                                                                            'pathway '
+                                                                            'significantly '
+                                                                            'upregulated '
+                                                                            'in '
+                                                                            'adipocytes '
+                                                                            'from '
+                                                                            'HFD-fed '
+                                                                            'mice, '
+                                                                            'suggesting '
+                                                                            'dysregulation '
+                                                                            'of '
+                                                                            'iron '
+                                                                            'export '
+                                                                            'mechanisms'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']},
+                                                   {'name': 'Fenton '
+                                                            'chemistry and '
+                                                            'ferroptotic '
+                                                            'cell death '
+                                                            'prevention',
+                                                    'citations': [{'source_id': '9',
+                                                                   'notes': 'Iron '
+                                                                            'overload '
+                                                                            'in '
+                                                                            'adipocytes '
+                                                                            'drives '
+                                                                            'oxidative '
+                                                                            'stress '
+                                                                            'through '
+                                                                            'Fenton-catalyzed '
+                                                                            'free '
+                                                                            'radical '
+                                                                            'generation; '
+                                                                            'ferroptosis '
+                                                                            'pathways '
+                                                                            'enriched '
+                                                                            'in '
+                                                                            'gene '
+                                                                            'expression '
+                                                                            'analysis '
+                                                                            'of '
+                                                                            'HFD '
+                                                                            'adipocytes'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']},
+                                                   {'name': 'Antioxidant '
+                                                            'defense and '
+                                                            'glutathione '
+                                                            'metabolism',
+                                                    'citations': [{'source_id': '9',
+                                                                   'notes': 'Glutathione '
+                                                                            'metabolism '
+                                                                            'pathways '
+                                                                            'upregulated '
+                                                                            'in '
+                                                                            'B2M-deleted '
+                                                                            'adipocytes, '
+                                                                            'suggesting '
+                                                                            'enhanced '
+                                                                            'antioxidant '
+                                                                            'defense '
+                                                                            'capacity'},
+                                                                  {'source_id': '10',
+                                                                   'notes': 'SOD1 '
+                                                                            'on '
+                                                                            'chromosome '
+                                                                            '21 '
+                                                                            'increases '
+                                                                            'oxidative '
+                                                                            'stress '
+                                                                            'when '
+                                                                            'overexpressed, '
+                                                                            'indicating '
+                                                                            'chromosome '
+                                                                            '21 '
+                                                                            'gene '
+                                                                            'dosage '
+                                                                            'imbalance '
+                                                                            'in '
+                                                                            'antioxidant '
+                                                                            'defenses'}],
+                                                    'genes': ['C21orf91']}],
+                   'atomic_cellular_components': [{'name': 'Transferrin '
+                                                           'receptor 1 and '
+                                                           '2 (iron '
+                                                           'uptake)',
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'TFR1 '
+                                                                           'and '
+                                                                           'TFR2 '
+                                                                           'localized '
+                                                                           'to '
+                                                                           'adipocyte '
+                                                                           'membrane; '
+                                                                           'B2M '
+                                                                           'deletion '
+                                                                           'prevents '
+                                                                           'HFE-TFR1 '
+                                                                           'and '
+                                                                           'HFE-TFR2 '
+                                                                           'interactions'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']},
+                                                  {'name': 'Hereditary '
+                                                           'hemochromatosis '
+                                                           'protein (HFE)',
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'HFE '
+                                                                           'functions '
+                                                                           'as '
+                                                                           'regulatory '
+                                                                           'iron '
+                                                                           'sensor '
+                                                                           'that '
+                                                                           'controls '
+                                                                           'transferrin '
+                                                                           'receptor '
+                                                                           'interactions; '
+                                                                           'dysregulated '
+                                                                           'in '
+                                                                           'obesity'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']},
+                                                  {'name': 'Ferritin and '
+                                                           'iron storage '
+                                                           'complexes',
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'Iron '
+                                                                           'sequestration '
+                                                                           'in '
+                                                                           'ferritin '
+                                                                           'complexes '
+                                                                           'represents '
+                                                                           'adaptive '
+                                                                           'response '
+                                                                           'to '
+                                                                           'iron '
+                                                                           'overload '
+                                                                           'in '
+                                                                           'obese '
+                                                                           'adipocytes'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']},
+                                                  {'name': 'Lipid rafts '
+                                                           'and oxidative '
+                                                           'modification '
+                                                           'sites',
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'Ferroptosis '
+                                                                           'represents '
+                                                                           'form '
+                                                                           'of '
+                                                                           'cell '
+                                                                           'death '
+                                                                           'distinct '
+                                                                           'from '
+                                                                           'apoptosis, '
+                                                                           'involving '
+                                                                           'lipid '
+                                                                           'peroxidation '
+                                                                           'in '
+                                                                           'cell '
+                                                                           'membranes '
+                                                                           'and '
+                                                                           'mitochondria'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']}],
+                   'predicted_cellular_impact': ['Dysregulated iron uptake '
+                                                 'leading to pathological '
+                                                 'iron accumulation in '
+                                                 'obesity-stressed '
+                                                 'adipocytes',
+                                                 'Enhanced Fenton '
+                                                 'chemistry-catalyzed '
+                                                 'oxidative stress and '
+                                                 'free radical generation',
+                                                 'Increased lipid '
+                                                 'peroxidation within cell '
+                                                 'membranes and '
+                                                 'mitochondria',
+                                                 'Ferroptotic cell death '
+                                                 'of hypertrophic '
+                                                 'adipocytes under '
+                                                 'metabolic stress',
+                                                 'Reduced capacity for '
+                                                 'iron export and '
+                                                 'restoration of iron '
+                                                 'homeostasis',
+                                                 'Impaired antioxidant '
+                                                 'defenses and overwhelmed '
+                                                 'glutathione metabolism '
+                                                 'systems',
+                                                 'Propagation of cell '
+                                                 'death signals and '
+                                                 'increased necrotic '
+                                                 'inflammation within '
+                                                 'adipose tissue'],
+                   'evidence_summary': 'Recent evidence identifies iron '
+                                       'homeostasis dysregulation as a '
+                                       'previously unrecognized mediator '
+                                       'of obesity-related adipocyte '
+                                       'dysfunction. The B2M protein, '
+                                       'which functions as a critical '
+                                       'chaperone for MHC-I, also '
+                                       'regulates iron uptake through '
+                                       'interactions with HFE and '
+                                       'transferrin receptors, with '
+                                       'upregulation of this pathway in '
+                                       'hypertrophic adipocytes. '
+                                       'Importantly, B2M-mediated iron '
+                                       'overload appears to drive '
+                                       'ferroptotic cell death and '
+                                       'metabolic dysfunction, as '
+                                       'adipocyte-specific B2M deletion '
+                                       'prevents iron accumulation and '
+                                       'substantially improves metabolic '
+                                       "outcomes. CCDC92's predicted "
+                                       'involvement in antigen processing '
+                                       'could extend to regulating iron '
+                                       'homeostasis through immune '
+                                       'signaling-dependent modulation of '
+                                       'hepcidin or ferroportin '
+                                       "expression. C21orf91's chromosome "
+                                       '21 localization positions it '
+                                       'within a gene dosage network where '
+                                       'oxidative stress regulation (SOD1) '
+                                       'and iron metabolism genes are '
+                                       'dysbalanced. Together, these genes '
+                                       'likely influence the balance '
+                                       'between iron uptake, storage, and '
+                                       'ferroptotic cell death.',
+                   'significance_score': 0.68,
+                   'citations': [{'source_id': '9',
+                                  'notes': 'Detailed characterization of '
+                                           'B2M-mediated iron uptake '
+                                           'pathway in adipocytes and '
+                                           'ferroptosis as mechanism of '
+                                           'metabolic dysfunction'},
+                                 {'source_id': '10',
+                                  'notes': 'Chromosome 21 gene dosage '
+                                           'imbalance affecting '
+                                           'antioxidant defenses and '
+                                           'metabolic stress responses'}],
+                   'supporting_genes': ['CCDC92', 'C21orf91'],
+                   'required_genes_not_in_input': {'genes': ['TFR1',
+                                                             'TFR2',
+                                                             'HFE',
+                                                             'FTH1',
+                                                             'FTL',
+                                                             'HAMP',
+                                                             'FPNL1',
+                                                             'SOD1',
+                                                             'CAT',
+                                                             'GPX4',
+                                                             'GSS',
+                                                             'GCLC'],
+                                                   'citations': [{'source_id': '9',
+                                                                  'notes': 'Iron '
+                                                                           'homeostasis '
+                                                                           'and '
+                                                                           'ferroptosis '
+                                                                           'prevention '
+                                                                           'require '
+                                                                           'multiple '
+                                                                           'components '
+                                                                           'including '
+                                                                           'transferrin '
+                                                                           'receptors, '
+                                                                           'iron '
+                                                                           'storage '
+                                                                           'proteins, '
+                                                                           'hepcidin, '
+                                                                           'ferroportin, '
+                                                                           'and '
+                                                                           'antioxidant '
+                                                                           'enzymes'}]}},
+                  {'program_name': 'Metabolic Inflammation via '
+                                   'Myeloid-Derived GDF3 Signaling',
+                   'description': 'Both CCDC92 and C21orf91 could '
+                                  'participate in regulating or responding '
+                                  'to the GDF3-TGFβ signaling axis that '
+                                  'drives age-dependent increases in '
+                                  'pro-inflammatory adipose tissue '
+                                  'macrophage populations and metabolic '
+                                  'dysfunction. GDF3 '
+                                  '(Growth/Differentiation Factor 3), a '
+                                  'TGFβ-family cytokine expressed by '
+                                  'myeloid cells in aging adipose tissue, '
+                                  'promotes inflammatory macrophage '
+                                  'phenotypes through GDF3-SMAD2/3 '
+                                  'signaling and limits '
+                                  'methylation-dependent chromatin '
+                                  'compaction that would otherwise '
+                                  'suppress pro-inflammatory gene '
+                                  'expression. This program encompasses '
+                                  'macrophage recruitment to adipose '
+                                  'tissue, phenotypic differentiation '
+                                  'toward pro-inflammatory states, and '
+                                  'consequent impairment of adipocyte '
+                                  'lipolysis and metabolic flexibility. '
+                                  'The program involves bidirectional '
+                                  'signaling between macrophages and '
+                                  'adipocytes, with GDF3-driven macrophage '
+                                  'inflammation reciprocally suppressing '
+                                  'adipocyte lipolytic capacity.',
+                   'atomic_biological_processes': [{'name': 'GDF3-SMAD2/3 '
+                                                            'signaling in '
+                                                            'macrophages',
+                                                    'citations': [{'source_id': '11',
+                                                                   'notes': 'GDF3 '
+                                                                            'expression '
+                                                                            'significantly '
+                                                                            'increases '
+                                                                            'in '
+                                                                            'inflammatory '
+                                                                            'adipose '
+                                                                            'tissue '
+                                                                            'macrophages '
+                                                                            'with '
+                                                                            'aging; '
+                                                                            'GDF3 '
+                                                                            'signals '
+                                                                            'through '
+                                                                            'SMAD2/3 '
+                                                                            'to '
+                                                                            'promote '
+                                                                            'inflammatory '
+                                                                            'phenotype'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']},
+                                                   {'name': 'Epigenetic '
+                                                            'regulation '
+                                                            'via chromatin '
+                                                            'compaction '
+                                                            'and histone '
+                                                            'methylation',
+                                                    'citations': [{'source_id': '11',
+                                                                   'notes': 'GDF3 '
+                                                                            'limits '
+                                                                            'methylation-dependent '
+                                                                            'chromatin '
+                                                                            'compaction, '
+                                                                            'resulting '
+                                                                            'in '
+                                                                            'more '
+                                                                            'open '
+                                                                            'chromatin '
+                                                                            'at '
+                                                                            'pro-inflammatory '
+                                                                            'genes '
+                                                                            'and '
+                                                                            'enhanced '
+                                                                            'expression '
+                                                                            'of '
+                                                                            'inflammatory '
+                                                                            'mediators'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']},
+                                                   {'name': 'Macrophage '
+                                                            'recruitment '
+                                                            'via CCR2 and '
+                                                            'chemokine '
+                                                            'signaling',
+                                                    'citations': [{'source_id': '11',
+                                                                   'notes': 'Pro-inflammatory '
+                                                                            'macrophages '
+                                                                            'with '
+                                                                            'elevated '
+                                                                            'CD11c '
+                                                                            'markers '
+                                                                            'increase '
+                                                                            'in '
+                                                                            'aging '
+                                                                            'adipose '
+                                                                            'tissue; '
+                                                                            'CCR2+ '
+                                                                            'macrophage '
+                                                                            'frequency '
+                                                                            'unchanged '
+                                                                            'with '
+                                                                            'GDF3 '
+                                                                            'deletion '
+                                                                            'despite '
+                                                                            'reduced '
+                                                                            'inflammation'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']},
+                                                   {'name': 'Adipocyte '
+                                                            'lipolysis '
+                                                            'suppression '
+                                                            'by '
+                                                            'macrophage-derived '
+                                                            'cytokines',
+                                                    'citations': [{'source_id': '11',
+                                                                   'notes': 'Old '
+                                                                            'VAT '
+                                                                            'from '
+                                                                            'GDF3-deficient '
+                                                                            'mice '
+                                                                            'shows '
+                                                                            'improved '
+                                                                            'stimulus-responsive '
+                                                                            'lipolytic '
+                                                                            'capacity '
+                                                                            'compared '
+                                                                            'to '
+                                                                            'control '
+                                                                            'mice, '
+                                                                            'indicating '
+                                                                            'macrophage-mediated '
+                                                                            'suppression '
+                                                                            'of '
+                                                                            'lipolysis'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']}],
+                   'atomic_cellular_components': [{'name': 'TGFβ receptor '
+                                                           'and SMAD '
+                                                           'signaling '
+                                                           'complex',
+                                                   'citations': [{'source_id': '11',
+                                                                  'notes': 'GDF3 '
+                                                                           'signals '
+                                                                           'through '
+                                                                           'TGFβ '
+                                                                           'receptors '
+                                                                           'and '
+                                                                           'SMAD2/3 '
+                                                                           'proteins; '
+                                                                           'pharmacological '
+                                                                           'SMAD2/3 '
+                                                                           'inhibition '
+                                                                           '(SIS3) '
+                                                                           'reduces '
+                                                                           'pSMAD2/3 '
+                                                                           'frequency '
+                                                                           'in '
+                                                                           'macrophages'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']},
+                                                  {'name': 'Macrophage '
+                                                           'inflammatory '
+                                                           'cytokine '
+                                                           'secretory '
+                                                           'vesicles',
+                                                   'citations': [{'source_id': '11',
+                                                                  'notes': 'GDF3-promoted '
+                                                                           'inflammatory '
+                                                                           'macrophages '
+                                                                           'exhibit '
+                                                                           'increased '
+                                                                           'expression '
+                                                                           'of '
+                                                                           'Il1b, '
+                                                                           'Il6, '
+                                                                           'and '
+                                                                           'Tnfa '
+                                                                           'genes'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']},
+                                                  {'name': 'Chromatin '
+                                                           'remodeling '
+                                                           'complexes and '
+                                                           'histone '
+                                                           'methyltransferases',
+                                                   'citations': [{'source_id': '11',
+                                                                  'notes': 'BRD4-controlled '
+                                                                           'GDF3 '
+                                                                           'expression '
+                                                                           'suggests '
+                                                                           'involvement '
+                                                                           'of '
+                                                                           'bromodomain '
+                                                                           'proteins '
+                                                                           'in '
+                                                                           'chromatin '
+                                                                           'regulation '
+                                                                           'of '
+                                                                           'GDF3; '
+                                                                           'epigenetic '
+                                                                           'regulation '
+                                                                           'via '
+                                                                           'chromatin '
+                                                                           'compaction '
+                                                                           'changes'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']},
+                                                  {'name': 'Adipocyte '
+                                                           'hormone-sensitive '
+                                                           'lipase and '
+                                                           'lipolytic '
+                                                           'machinery',
+                                                   'citations': [{'source_id': '11',
+                                                                  'notes': 'Improved '
+                                                                           'lipolytic '
+                                                                           'capacity '
+                                                                           'in '
+                                                                           'GDF3-deficient '
+                                                                           'adipose '
+                                                                           'tissue '
+                                                                           'suggests '
+                                                                           'increased '
+                                                                           'access '
+                                                                           'of '
+                                                                           'lipases '
+                                                                           'to '
+                                                                           'triglyceride '
+                                                                           'substrates '
+                                                                           'in '
+                                                                           'lipid '
+                                                                           'droplets'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']}],
+                   'predicted_cellular_impact': ['Amplified '
+                                                 'pro-inflammatory '
+                                                 'macrophage '
+                                                 'differentiation and '
+                                                 'accumulation in aging '
+                                                 'adipose tissue',
+                                                 'Enhanced GDF3 secretion '
+                                                 'by myeloid cells with '
+                                                 'age and in obesity',
+                                                 'Sustained expression of '
+                                                 'pro-inflammatory '
+                                                 'cytokines (IL-1β, IL-6, '
+                                                 'TNF-α) in adipose tissue',
+                                                 'Macrophage-mediated '
+                                                 'suppression of adipocyte '
+                                                 'lipolysis and metabolic '
+                                                 'flexibility',
+                                                 'Reduced capacity for '
+                                                 'energy mobilization '
+                                                 'during fasting or '
+                                                 'metabolic stress',
+                                                 'Impaired glucose '
+                                                 'tolerance and insulin '
+                                                 'sensitivity due to '
+                                                 'adipocyte dysfunction',
+                                                 'Systemic propagation of '
+                                                 'inflammatory signals '
+                                                 'through adipokine and '
+                                                 'cytokine secretion'],
+                   'evidence_summary': 'Recent research identifies '
+                                       'age-dependent increases in GDF3 '
+                                       'expression within inflammatory '
+                                       'adipose tissue macrophages as a '
+                                       'critical driver of metabolic '
+                                       'dysfunction in aging and obesity. '
+                                       'Lifelong or myeloid-specific GDF3 '
+                                       'deletion substantially reduces '
+                                       'pro-inflammatory macrophage '
+                                       'accumulation, improves lipolytic '
+                                       'capacity of adipose tissue, and '
+                                       'protects against '
+                                       'endotoxemia-induced inflammatory '
+                                       'complications. The mechanism '
+                                       'involves GDF3-SMAD2/3 signaling '
+                                       'limiting chromatin compaction at '
+                                       'pro-inflammatory genes, '
+                                       'effectively remodeling the '
+                                       'macrophage epigenome toward '
+                                       "inflammatory states. CCDC92's "
+                                       'predicted involvement in immune '
+                                       'signaling could include regulation '
+                                       'of GDF3 expression or signaling, '
+                                       'either as an upstream activator or '
+                                       "downstream effector. C21orf91's "
+                                       'potential metabolic effects could '
+                                       'involve adipocyte responses to '
+                                       'macrophage-derived GDF3, with '
+                                       'dysregulation of lipolytic '
+                                       'capacity. The bidirectional '
+                                       'macrophage-adipocyte crosstalk '
+                                       'mediated by GDF3 represents a '
+                                       'critical mechanism linking immune '
+                                       'dysfunction to metabolic '
+                                       'impairment in aging and obesity.',
+                   'significance_score': 0.61,
+                   'citations': [{'source_id': '11',
+                                  'notes': 'Comprehensive characterization '
+                                           'of GDF3-driven '
+                                           'pro-inflammatory macrophage '
+                                           'phenotype and its role in '
+                                           'suppressing adipocyte '
+                                           'lipolysis and metabolic '
+                                           'flexibility'}],
+                   'supporting_genes': ['CCDC92', 'C21orf91'],
+                   'required_genes_not_in_input': {'genes': ['GDF3',
+                                                             'TGFBR1',
+                                                             'TGFBR2',
+                                                             'SMAD2',
+                                                             'SMAD3',
+                                                             'SMAD4',
+                                                             'EHMT2',
+                                                             'EHMT1',
+                                                             'BRD4',
+                                                             'IL1B',
+                                                             'IL6',
+                                                             'TNF',
+                                                             'HSL',
+                                                             'ATGL'],
+                                                   'citations': [{'source_id': '11',
+                                                                  'notes': 'Complete '
+                                                                           'GDF3 '
+                                                                           'signaling '
+                                                                           'and '
+                                                                           'chromatin '
+                                                                           'remodeling '
+                                                                           'program '
+                                                                           'requires '
+                                                                           'TGFβ '
+                                                                           'receptors, '
+                                                                           'SMAD '
+                                                                           'proteins, '
+                                                                           'histone '
+                                                                           'methyltransferases, '
+                                                                           'and '
+                                                                           'lipolytic '
+                                                                           'enzymes'}]}},
+                  {'program_name': 'Regulatory T Cell Function and Immune '
+                                   'Tolerance in Adipose Tissue',
+                   'description': 'Both CCDC92 and C21orf91 could '
+                                  'participate in regulating T regulatory '
+                                  'cell (Treg) differentiation, tissue '
+                                  'adaptation, and signal integration '
+                                  'capacity—critical processes that '
+                                  'maintain immune tolerance and prevent '
+                                  'excessive inflammatory responses in '
+                                  'adipose tissue. T regulatory cells '
+                                  'represent specialized CD4+ T cells '
+                                  'defined by expression of Foxp3 '
+                                  'transcription factor that exert potent '
+                                  'immunosuppressive functions through '
+                                  'IL-10 and TGF-β secretion and direct '
+                                  'metabolic disruption of effector T '
+                                  'cells. In lean adipose tissue, a unique '
+                                  'population of tissue-adapted Tregs '
+                                  'prevents inflammatory immune '
+                                  'activation; loss or dysfunction of this '
+                                  'population during obesity represents a '
+                                  'critical failure in immune tolerance. '
+                                  'Recent evidence demonstrates that Tregs '
+                                  'can integrate inflammatory '
+                                  'signals—particularly interferon-gamma '
+                                  '(IFNγ)—and convert these into '
+                                  'regenerative signals, requiring both '
+                                  'IL-10 and IFNγ co-stimulation.',
+                   'atomic_biological_processes': [{'name': 'T regulatory '
+                                                            'cell '
+                                                            'differentiation '
+                                                            'and Foxp3 '
+                                                            'expression',
+                                                    'citations': [{'source_id': '12',
+                                                                   'notes': 'T '
+                                                                            'regulatory '
+                                                                            'cells '
+                                                                            'defined '
+                                                                            'by '
+                                                                            'Foxp3 '
+                                                                            'expression; '
+                                                                            'Treg '
+                                                                            'cells '
+                                                                            'adapt '
+                                                                            'to '
+                                                                            'tissue '
+                                                                            'environments '
+                                                                            'through '
+                                                                            'expression '
+                                                                            'of '
+                                                                            'tissue-specific '
+                                                                            'transcription '
+                                                                            'factors'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']},
+                                                   {'name': 'IL-10 and '
+                                                            'TGF-β '
+                                                            'production by '
+                                                            'Tregs',
+                                                    'citations': [{'source_id': '12',
+                                                                   'notes': 'Tregs '
+                                                                            'exert '
+                                                                            'immunosuppressive '
+                                                                            'functions '
+                                                                            'through '
+                                                                            'secretion '
+                                                                            'of '
+                                                                            'inhibitory '
+                                                                            'cytokines '
+                                                                            'IL-10 '
+                                                                            'and '
+                                                                            'TGF-β; '
+                                                                            'combined '
+                                                                            'IL-10 '
+                                                                            'and '
+                                                                            'IFNγ '
+                                                                            'stimulation '
+                                                                            'promotes '
+                                                                            'intestinal '
+                                                                            'organoid '
+                                                                            'growth'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']},
+                                                   {'name': 'IFNγ '
+                                                            'production by '
+                                                            'tissue-adapted '
+                                                            'Tregs',
+                                                    'citations': [{'source_id': '12',
+                                                                   'notes': 'Tregs '
+                                                                            'adapted '
+                                                                            'to '
+                                                                            'intestinal '
+                                                                            'epithelial '
+                                                                            'tissue '
+                                                                            'produce '
+                                                                            'IFNγ '
+                                                                            'in '
+                                                                            'response '
+                                                                            'to '
+                                                                            'inflammatory '
+                                                                            'stimulation; '
+                                                                            'IFNγ-producing '
+                                                                            'Tregs '
+                                                                            'promote '
+                                                                            'tissue '
+                                                                            'regeneration'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']},
+                                                   {'name': 'mTORC1 and '
+                                                            'Myc signaling '
+                                                            'in '
+                                                            'Treg-stimulated '
+                                                            'tissue repair',
+                                                    'citations': [{'source_id': '12',
+                                                                   'notes': 'Treg '
+                                                                            'cell-mediated '
+                                                                            'IL-10 '
+                                                                            'and '
+                                                                            'IFNγ '
+                                                                            'co-stimulation '
+                                                                            'activates '
+                                                                            'mTORC1 '
+                                                                            'and '
+                                                                            'Myc '
+                                                                            'signaling '
+                                                                            'in '
+                                                                            'tissue '
+                                                                            'cells, '
+                                                                            'promoting '
+                                                                            'regeneration '
+                                                                            'and '
+                                                                            'repair'}],
+                                                    'genes': ['CCDC92',
+                                                              'C21orf91']}],
+                   'atomic_cellular_components': [{'name': 'T regulatory '
+                                                           'cell receptor '
+                                                           'and CD28 '
+                                                           'costimulatory '
+                                                           'complex',
+                                                   'citations': [{'source_id': '12',
+                                                                  'notes': 'Treg '
+                                                                           'cells '
+                                                                           'recognize '
+                                                                           'antigens '
+                                                                           'through '
+                                                                           'TCR '
+                                                                           'signaling; '
+                                                                           'CD28 '
+                                                                           'costimulation '
+                                                                           'required '
+                                                                           'for '
+                                                                           'Treg '
+                                                                           'differentiation '
+                                                                           'and '
+                                                                           'survival'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']},
+                                                  {'name': 'IL-10 and '
+                                                           'TGF-β '
+                                                           'secretory '
+                                                           'granules',
+                                                   'citations': [{'source_id': '12',
+                                                                  'notes': 'Tregs '
+                                                                           'suppress '
+                                                                           'immune '
+                                                                           'responses '
+                                                                           'through '
+                                                                           'polarized '
+                                                                           'secretion '
+                                                                           'of '
+                                                                           'inhibitory '
+                                                                           'cytokines '
+                                                                           'from '
+                                                                           'specialized '
+                                                                           'granules'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']},
+                                                  {'name': 'Foxp3 '
+                                                           'transcriptional '
+                                                           'regulatory '
+                                                           'complex',
+                                                   'citations': [{'source_id': '12',
+                                                                  'notes': 'Foxp3 '
+                                                                           'transcription '
+                                                                           'factor '
+                                                                           'defines '
+                                                                           'Treg '
+                                                                           'identity '
+                                                                           'and '
+                                                                           'controls '
+                                                                           'expression '
+                                                                           'of '
+                                                                           'genes '
+                                                                           'required '
+                                                                           'for '
+                                                                           'suppressive '
+                                                                           'function'}],
+                                                   'genes': ['CCDC92',
+                                                             'C21orf91']}],
+                   'predicted_cellular_impact': ['Enhanced differentiation '
+                                                 'and maintenance of T '
+                                                 'regulatory cell '
+                                                 'populations in adipose '
+                                                 'tissue',
+                                                 'Improved capacity for '
+                                                 'Treg tissue adaptation '
+                                                 'and acquisition of '
+                                                 'tissue-specific gene '
+                                                 'expression programs',
+                                                 'Increased IL-10 and '
+                                                 'TGF-β production '
+                                                 'limiting conventional T '
+                                                 'cell activation and '
+                                                 'macrophage inflammation',
+                                                 'Enhanced IFNγ production '
+                                                 'by Tregs enabling '
+                                                 'regenerative signaling '
+                                                 'in damaged adipocytes',
+                                                 'Improved metabolic '
+                                                 'tolerance through '
+                                                 'suppression of effector '
+                                                 'T cell activation',
+                                                 'Restored capacity for '
+                                                 'adipocyte repair and '
+                                                 'recovery from metabolic '
+                                                 'stress',
+                                                 'Prevention of excessive '
+                                                 'inflammatory responses '
+                                                 'while maintaining '
+                                                 'anti-pathogen immunity'],
+                   'evidence_summary': 'T regulatory cells represent '
+                                       'critical mediators of immune '
+                                       'tolerance in lean adipose tissue, '
+                                       'and their dysfunction or loss '
+                                       'predicts progression to obesity '
+                                       'and metabolic disease. Recent '
+                                       'evidence demonstrates that '
+                                       'tissue-adapted Tregs possess '
+                                       'unique capacity to integrate '
+                                       'inflammatory signals (IFNγ from '
+                                       'conventional T cells) with '
+                                       'suppressive signals (IL-10, TGF-β) '
+                                       'to promote tissue repair and '
+                                       'regeneration. This dual-signal '
+                                       'integration represents an elegant '
+                                       'mechanism for preventing excessive '
+                                       'inflammatory damage while '
+                                       'maintaining regenerative capacity. '
+                                       "CCDC92's predicted involvement in "
+                                       'antigen processing could influence '
+                                       'Treg differentiation through '
+                                       'effects on antigen presentation to '
+                                       'developing Tregs or through '
+                                       'effects on regulatory dendritic '
+                                       'cells that promote Treg '
+                                       'generation. C21orf91 could '
+                                       'influence Treg function through '
+                                       'metabolic effects on T cell energy '
+                                       'status, as Treg function depends '
+                                       'critically on metabolic '
+                                       'flexibility and the capacity to '
+                                       'switch between oxidative '
+                                       'phosphorylation and glycolysis '
+                                       'depending on activation status. '
+                                       'The chromosome 21 localization of '
+                                       'C21orf91 positions it within a '
+                                       'metabolic network influencing T '
+                                       'cell function.',
+                   'significance_score': 0.54,
+                   'citations': [{'source_id': '12',
+                                  'notes': 'Comprehensive characterization '
+                                           'of tissue-adapted Treg cells, '
+                                           'their capacity to produce '
+                                           'IFNγ, and role in promoting '
+                                           'tissue regeneration through '
+                                           'IL-10/IFNγ co-stimulation'}],
+                   'supporting_genes': ['CCDC92', 'C21orf91'],
+                   'required_genes_not_in_input': {'genes': ['FOXP3',
+                                                             'IL10',
+                                                             'TGFB1',
+                                                             'IFNG',
+                                                             'CD25',
+                                                             'CTLA4',
+                                                             'TIGIT',
+                                                             'PDCD1',
+                                                             'MTOR',
+                                                             'MYC'],
+                                                   'citations': [{'source_id': '12',
+                                                                  'notes': 'Complete '
+                                                                           'Treg '
+                                                                           'function '
+                                                                           'requires '
+                                                                           'Foxp3, '
+                                                                           'suppressivecytokines '
+                                                                           '(IL-10, '
+                                                                           'TGF-β), '
+                                                                           'inhibitory '
+                                                                           'receptors '
+                                                                           '(CTLA-4, '
+                                                                           'PD-1, '
+                                                                           'TIGIT), '
+                                                                           'and '
+                                                                           'metabolic '
+                                                                           'signaling '
+                                                                           'machinery'}]}}],
+     'method': {'clustering_basis': ['Literature integration: Recent '
+                                     'proteomic studies from large '
+                                     'biobanks (UK Biobank, 51,936 '
+                                     'participants)',
+                                     'Pathway databases: KEGG enrichment '
+                                     'analysis of differentially expressed '
+                                     'genes in adipocytes',
+                                     'Co-expression patterns: Gene '
+                                     'expression changes observed in '
+                                     'obesity, Down syndrome, and aging '
+                                     'contexts',
+                                     'Functional annotations: CCDC92 and '
+                                     'C21orf91 predicted functions from '
+                                     'gene databases',
+                                     'Mechanistic inference: Integration '
+                                     'of recent discoveries in adipocyte '
+                                     'immunology, lipid metabolism, and '
+                                     'immune tolerance'],
+                'notes': 'Gene programs identified through systematic '
+                         'integration of CCDC92 and C21orf91 predicted '
+                         'functions with recent literature on obesity '
+                         'pathophysiology, adipose tissue immunology, '
+                         'hepatic lipid metabolism, and age-related immune '
+                         'dysfunction. Programs ranked by evidence '
+                         'strength (number of supporting genes, citation '
+                         'count) and relevance to obesity context. '
+                         'Emerging evidence areas (ferroptosis, '
+                         'B2M-mediated antigen presentation, GDF3 '
+                         'signaling) emphasized where directly relevant to '
+                         'input genes.'},
+     'version': '1.0'}
