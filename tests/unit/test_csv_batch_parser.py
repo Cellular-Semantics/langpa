@@ -127,7 +127,7 @@ def test_parse_csv_duplicate_query_names(tmp_path):
     csv_file = tmp_path / "test.csv"
     csv_file.write_text(csv_content)
 
-    with pytest.raises(ValueError, match="Duplicate query name.*0_Gliosis.*row 2"):
+    with pytest.raises(ValueError, match="Duplicate query name.*0_Gliosis.*rows.*2"):
         parse_csv_batch(csv_file, global_context=None)
 
 
