@@ -147,3 +147,92 @@ def test_model_validation_errors() -> None:
 
     # Should mention missing required fields
     assert "input_genes" in str(exc_info.value) or "required" in str(exc_info.value).lower()
+
+
+@pytest.mark.unit
+def test_model_ignores_extra_fields() -> None:
+    """Test that model ignores LLM-generated schema metadata fields.
+
+    LLMs using schema-embedded prompts sometimes include JSON Schema metadata
+    fields (title, description, type, $schema) in their response JSON.
+    These should be silently ignored during validation.
+    """
+    from langpa.services.pydantic_models import get_deepsearch_pydantic_model
+
+    model = get_deepsearch_pydantic_model()
+
+    # Data with schema metadata fields that LLMs sometimes include
+    data_with_extra_fields = {
+        "title": "Gene Program Functional Analysis",  # Schema metadata
+        "description": "Comprehensive literature-based analysis",  # Schema metadata
+        "type": "object",  # Schema metadata
+        "$schema": "http://json-schema.org/draft-07/schema#",  # Schema metadata
+        "$id": "test-schema-id",  # Schema metadata
+        # Valid data fields:
+        "context": {"cell_type": "neurons", "disease": "test disease"},
+        "input_genes": ["GENE1", "GENE2"],
+        "programs": [
+            {
+                "program_name": "Test Program",
+                "description": "Program description",  # This is valid inside program
+                "predicted_cellular_impact": ["test impact"],
+                "evidence_summary": "test evidence",
+                "significance_score": 0.8,
+                "citations": [{"source_id": "1"}],
+                "supporting_genes": ["GENE1"],
+            }
+        ],
+        "version": "1.0",
+    }
+
+    # Should not raise ValidationError despite extra fields
+    instance = model(**data_with_extra_fields)
+
+    # Extra fields should not be present in validated instance
+    assert not hasattr(instance, "title")
+    assert not hasattr(instance, "description")
+    assert not hasattr(instance, "type")
+    assert not hasattr(instance, "$schema")
+    assert not hasattr(instance, "$id")
+
+    # Valid fields should be present and correct
+    assert instance.context["cell_type"] == "neurons"
+    assert instance.input_genes == ["GENE1", "GENE2"]
+    assert len(instance.programs) == 1
+    assert instance.programs[0]["program_name"] == "Test Program"
+    assert instance.version == "1.0"
+
+
+@pytest.mark.unit
+def test_model_with_deeply_nested_extra_fields() -> None:
+    """Test that nested objects can still have fields like 'description'.
+
+    While root-level schema metadata is ignored, nested objects should retain
+    legitimate fields with the same names (e.g., program.description).
+    """
+    from langpa.services.pydantic_models import get_deepsearch_pydantic_model
+
+    model = get_deepsearch_pydantic_model()
+
+    data = {
+        "context": {"cell_type": "neurons", "disease": "test"},
+        "input_genes": ["GENE1"],
+        "programs": [
+            {
+                "program_name": "Test",
+                "description": "This is a legitimate program description",  # Valid
+                "predicted_cellular_impact": ["impact"],
+                "evidence_summary": "evidence",
+                "significance_score": 0.5,
+                "citations": [{"source_id": "1", "notes": "Citation notes"}],  # Valid
+                "supporting_genes": ["GENE1"],
+            }
+        ],
+        "version": "1.0",
+    }
+
+    instance = model(**data)
+
+    # Nested 'description' and 'notes' fields should be preserved
+    assert instance.programs[0]["description"] == "This is a legitimate program description"
+    assert instance.programs[0]["citations"][0]["notes"] == "Citation notes"
