@@ -273,7 +273,7 @@ class OutputManager:
         resolver: CitationResolver | None = None,
         metadata: dict[str, Any] | None = None,
         filename_prefix: str | None = None,
-        use_pydantic: bool = False,
+        use_pydantic: bool = True,
         citation_style: str = "vancouver",
         citation_locale: str = "en-US",
     ) -> dict[str, Any]:
@@ -288,7 +288,7 @@ class OutputManager:
             resolver: Optional CitationResolver instance; created if not provided
             metadata: Optional metadata to include in container
             filename_prefix: Optional prefix for output filenames
-            use_pydantic: Use pydantic validation if True, jsonschema if False (default)
+            use_pydantic: Use pydantic validation if True, jsonschema if False
             citation_style: Citation style for compact bibliography (default: vancouver)
             citation_locale: Locale for citation formatting (default: en-US)
 

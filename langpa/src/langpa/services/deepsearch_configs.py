@@ -10,6 +10,20 @@ import copy
 from dataclasses import dataclass
 from typing import Any
 
+# Explicit system prompts must be chosen per preset (no defaults)
+RESEARCH_SYSTEM_PROMPT = """You are an expert biology researcher providing comprehensive, well-cited information.
+
+Prioritize authoritative sources and provide specific citations for all major claims."""
+
+JSON_SCHEMA_SYSTEM_PROMPT = """You are an expert biologist. Analyze the provided genes in the given biological context.
+
+CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
+{schema}
+
+Ensure every citation object includes "source_id" matching DeepSearch/Perplexity numbering.
+
+Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure."""
+
 
 @dataclass
 class DeepSearchConfig:
@@ -51,7 +65,7 @@ PRESET_CONFIGS: dict[str, DeepSearchConfig] = {
             ],
             "reasoning_effort": "high",
             "search_recency_filter": "month",
-            "system_prompt": None,  # Will be set dynamically with JSON schema
+            "system_prompt": JSON_SCHEMA_SYSTEM_PROMPT,
         },
         timeout=180,
         prompt_template="gene_analysis_academic",
@@ -74,7 +88,7 @@ PRESET_CONFIGS: dict[str, DeepSearchConfig] = {
             ],
             "reasoning_effort": "high",
             "search_recency_filter": "month",
-            "system_prompt": None,  # Will be set dynamically to minimal prompt
+            "system_prompt": RESEARCH_SYSTEM_PROMPT,
         },
         timeout=180,
         prompt_template="gene_analysis_schema_embedded",

@@ -24,6 +24,9 @@ def test_generate_bubble_plot_creates_file() -> None:
         "gene_jaccard": [0.8, 0.6, 0.7],
         "name_similarity": [0.9, 0.7, 0.8],
         "combined_similarity": [0.82, 0.63, 0.73],
+        "overlap_count": [4, 3, 2],
+        "genes_a_count": [6, 5, 4],
+        "genes_b_count": [7, 5, 4],
     })
 
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -35,13 +38,57 @@ def test_generate_bubble_plot_creates_file() -> None:
 
 
 @pytest.mark.unit
+def test_generate_bubble_plot_uses_program_axes_and_overlap_sizes(tmp_path: Path) -> None:
+    """Bubble plot should map programs to numbered axes and scale by overlap_count."""
+    from langpa_validation_tools.visualization import generate_bubble_plot
+    import matplotlib
+
+    matplotlib.use("Agg")
+
+    matches_df = pd.DataFrame({
+        "query": ["q1", "q1"],
+        "run_a": ["run1", "run1"],
+        "run_b": ["run2", "run2"],
+        "program_a": ["ProgA", "ProgB"],
+        "program_b": ["ProgX", "ProgY"],
+        "gene_jaccard": [0.8, 0.5],
+        "name_similarity": [0.7, 0.6],
+        "combined_similarity": [0.75, 0.55],
+        "overlap_count": [1, 3],
+        "genes_a_count": [4, 5],
+        "genes_b_count": [6, 7],
+    })
+
+    fig, ax = generate_bubble_plot(matches_df, tmp_path / "axes_plot.png", return_fig=True)  # type: ignore[assignment]
+
+    sizes = ax.collections[0].get_sizes()
+    # Second match has higher overlap, should produce larger bubble size
+    assert sizes[1] > sizes[0]
+
+    xticklabels = [tick.get_text() for tick in ax.get_xticklabels()]
+    yticklabels = [tick.get_text() for tick in ax.get_yticklabels()]
+
+    # Labels should show numbering with gene counts in parentheses
+    assert "1 (" in xticklabels[0]
+    assert "1 (" in yticklabels[0]
+
+    legend_texts = [t.get_text() for t in fig.texts]
+    assert any("ProgA" in text for text in legend_texts)
+    assert any("ProgX" in text for text in legend_texts)
+
+    import matplotlib.pyplot as plt
+    plt.close(fig)
+
+
+@pytest.mark.unit
 def test_generate_bubble_plot_empty_dataframe() -> None:
     """generate_bubble_plot handles empty DataFrame gracefully."""
     from langpa_validation_tools.visualization import generate_bubble_plot
 
     empty_df = pd.DataFrame(columns=[
         "query", "run_a", "run_b", "program_a", "program_b",
-        "gene_jaccard", "name_similarity", "combined_similarity"
+        "gene_jaccard", "name_similarity", "combined_similarity",
+        "overlap_count", "genes_a_count", "genes_b_count"
     ])
 
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -110,6 +157,9 @@ def test_bubble_plot_query_filtering() -> None:
         "gene_jaccard": [0.8, 0.6, 0.7],
         "name_similarity": [0.9, 0.7, 0.8],
         "combined_similarity": [0.82, 0.63, 0.73],
+        "overlap_count": [2, 1, 3],
+        "genes_a_count": [5, 4, 6],
+        "genes_b_count": [4, 3, 5],
     })
 
     with tempfile.TemporaryDirectory() as temp_dir:

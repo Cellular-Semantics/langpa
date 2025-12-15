@@ -21,13 +21,15 @@ def generate_bubble_plot(
     output_path: Path | str,
     query: str | None = None,
     figsize: tuple[int, int] = (12, 8),
+    return_fig: bool = False,
 ) -> None:
     """Generate bubble plot visualization of program matches.
 
     Creates a scatter plot where each point represents a matched program pair.
-    The x-axis shows gene Jaccard similarity, y-axis shows name similarity,
-    bubble size represents the number of overlapping genes, and color intensity
-    shows the combined similarity score.
+    The x-axis is the program index from run A, the y-axis is the program index
+    from run B. Bubble size represents the number of overlapping genes, and
+    color intensity shows the combined similarity score. Axes are numbered and
+    annotated with gene counts; a legend maps numbers to program names.
 
     Args:
         matches_df: DataFrame with program matches (from compare_runs)
@@ -49,6 +51,14 @@ def generate_bubble_plot(
 
         # Filter by query
         generate_bubble_plot(df, Path("query1_plot.png"), query="0_Gliosis")
+    Args:
+        matches_df: DataFrame with program matches (from compare_runs)
+                   Required columns: program_a, program_b, combined_similarity,
+                   overlap_count, genes_a_count, genes_b_count
+        output_path: Path to save the PNG file
+        query: Optional query name to filter results (default: all queries)
+        figsize: Figure size as (width, height) tuple (default: (12, 8))
+        return_fig: If True, return (fig, ax) without closing (useful for tests)
     """
     output_path = Path(output_path)
 
@@ -70,63 +80,127 @@ def generate_bubble_plot(
         )
         ax.set_xlim(0, 1)
         ax.set_ylim(0, 1)
-        ax.set_xlabel("Gene Jaccard Similarity")
-        ax.set_ylabel("Name Similarity")
+        ax.set_xlabel("Programs (Run A)")
+        ax.set_ylabel("Programs (Run B)")
         ax.set_title("Program Matches Bubble Plot")
         plt.tight_layout()
         plt.savefig(output_path, dpi=150, bbox_inches="tight")
-        plt.close()
+        if not return_fig:
+            plt.close()
+        else:
+            return fig, ax  # type: ignore[return-value]
         return
 
     # Create figure
     fig, ax = plt.subplots(figsize=figsize)
 
-    # Calculate bubble sizes (based on gene overlap)
-    # We don't have overlap count directly, so use gene_jaccard as proxy
-    # Scale it to reasonable bubble sizes (50-500)
-    bubble_sizes = 50 + (df["gene_jaccard"] * 450)
+    # Build program index mappings with gene counts
+    run_a_programs: dict[str, tuple[int, int]] = {}
+    run_b_programs: dict[str, tuple[int, int]] = {}
+
+    genes_a_counts = df["genes_a_count"] if "genes_a_count" in df else pd.Series([0] * len(df))
+    genes_b_counts = df["genes_b_count"] if "genes_b_count" in df else pd.Series([0] * len(df))
+
+    for prog, count in zip(df["program_a"], genes_a_counts):
+        if prog not in run_a_programs:
+            run_a_programs[prog] = (len(run_a_programs) + 1, int(count) if pd.notna(count) else 0)
+
+    for prog, count in zip(df["program_b"], genes_b_counts):
+        if prog not in run_b_programs:
+            run_b_programs[prog] = (len(run_b_programs) + 1, int(count) if pd.notna(count) else 0)
+
+    # Map programs to numeric positions
+    df["x_idx"] = df["program_a"].map(lambda p: run_a_programs[p][0])
+    df["y_idx"] = df["program_b"].map(lambda p: run_b_programs[p][0])
+
+    # Bubble sizes based on overlap count (scale for visibility)
+    overlap = df.get("overlap_count", pd.Series([0] * len(df)))
+    max_overlap = max(overlap.max(), 1)
+    bubble_sizes = 50 + (overlap / max_overlap) * 450
 
     # Create scatter plot
+    norm = plt.Normalize(vmin=0, vmax=1)
     scatter = ax.scatter(
-        df["gene_jaccard"],
-        df["name_similarity"],
+        df["x_idx"],
+        df["y_idx"],
         s=bubble_sizes,
         c=df["combined_similarity"],
         cmap="viridis",
-        alpha=0.6,
+        norm=norm,
+        alpha=0.7,
         edgecolors="black",
         linewidth=0.5,
     )
 
-    # Add colorbar
+    # Colorbar
     cbar = plt.colorbar(scatter, ax=ax)
     cbar.set_label("Combined Similarity", rotation=270, labelpad=15)
+    cbar.set_ticks(np.linspace(0, 1, 6))
 
-    # Labels and title
-    ax.set_xlabel("Gene Jaccard Similarity", fontsize=12)
-    ax.set_ylabel("Name Similarity", fontsize=12)
+    # Axis labels and ticks
+    ax.set_xlabel("Programs (Run A)", fontsize=12)
+    ax.set_ylabel("Programs (Run B)", fontsize=12)
 
+    x_ticks, x_labels = zip(*[
+        (idx, f"{idx} ({count})")
+        for prog, (idx, count) in run_a_programs.items()
+    ]) if run_a_programs else ([], [])
+
+    y_ticks, y_labels = zip(*[
+        (idx, f"{idx} ({count})")
+        for prog, (idx, count) in run_b_programs.items()
+    ]) if run_b_programs else ([], [])
+
+    ax.set_xticks(list(x_ticks))
+    ax.set_xticklabels(list(x_labels), rotation=45, ha="right")
+    ax.set_yticks(list(y_ticks))
+    ax.set_yticklabels(list(y_labels))
+
+    # Titles
     title = "Program Matches Bubble Plot"
     if query:
         title += f" - {query}"
     ax.set_title(title, fontsize=14, fontweight="bold")
 
-    # Set axis limits with padding
-    ax.set_xlim(-0.05, 1.05)
-    ax.set_ylim(-0.05, 1.05)
-
-    # Add grid
+    # Limits and grid
+    ax.set_xlim(0.5, len(run_a_programs) + 0.5)
+    ax.set_ylim(0.5, len(run_b_programs) + 0.5)
     ax.grid(True, alpha=0.3, linestyle="--")
 
-    # Add reference lines at threshold (0.3)
-    ax.axhline(y=0.3, color="red", linestyle="--", alpha=0.3, label="Threshold")
-    ax.axvline(x=0.3, color="red", linestyle="--", alpha=0.3)
+    # Add legend mapping numbers to program names
+    legend_lines = ["Run A programs:"]
+    for prog, (idx, count) in run_a_programs.items():
+        legend_lines.append(f"{idx}: {prog} (n={count})")
 
-    ax.legend(loc="upper left")
+    legend_lines.append("")
+    legend_lines.append("Run B programs:")
+    for prog, (idx, count) in run_b_programs.items():
+        legend_lines.append(f"{idx}: {prog} (n={count})")
 
-    plt.tight_layout()
+    legend_text = "\n".join(legend_lines)
+    # Place legend to the right of the colorbar dynamically
+    fig.canvas.draw_idle()
+    cbar_pos = cbar.ax.get_position()
+    legend_x = cbar_pos.x1 + 0.02
+    legend_y = 0.5
+    fig.text(
+        legend_x,
+        legend_y,
+        legend_text,
+        va="center",
+        ha="left",
+        fontsize=9,
+        bbox=dict(boxstyle="round,pad=0.4", facecolor="white", alpha=0.8, edgecolor="gray"),
+    )
+
+    # Adjust right margin to fit legend
+    fig.subplots_adjust(right=min(0.9, legend_x + 0.15))
+
     plt.savefig(output_path, dpi=150, bbox_inches="tight")
-    plt.close()
+    if not return_fig:
+        plt.close()
+    else:
+        return fig, ax  # type: ignore[return-value]
 
 
 def generate_confusion_matrix(

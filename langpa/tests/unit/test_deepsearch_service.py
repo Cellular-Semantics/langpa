@@ -185,6 +185,35 @@ def test_deepsearch_service_provider_configuration(mock_client_class: Mock) -> N
 
 @pytest.mark.unit
 @patch("langpa.services.deepsearch_service.DeepResearchClient")
+def test_deepsearch_service_requires_system_prompt(mock_client_class: Mock) -> None:
+    """Test missing system prompt raises a clear error."""
+    from langpa.services.deepsearch_service import DeepSearchService
+
+    mock_client = Mock()
+    mock_client.get_available_providers.return_value = ["perplexity"]
+    mock_client.research.return_value = MockResearchResult(content="test")
+    mock_client_class.return_value = mock_client
+
+    # Override provider_params without system_prompt
+    overrides = {
+        "provider_params": {
+            "return_citations": True,
+            "search_domain_filter": ["example.com"],
+            "reasoning_effort": "high",
+            "search_recency_filter": "month",
+            # intentionally omit system_prompt
+        }
+    }
+    service = DeepSearchService(**overrides)
+
+    with pytest.raises(ValueError) as exc:
+        service.research_gene_list(genes=["TP53"], context="cancer")
+
+    assert "system_prompt" in str(exc.value)
+
+
+@pytest.mark.unit
+@patch("langpa.services.deepsearch_service.DeepResearchClient")
 def test_deepsearch_service_schema_embedded_prompt_construction(mock_client_class: Mock) -> None:
     """Test that service constructs schema-embedded prompts correctly."""
     from langpa.services.deepsearch_service import DeepSearchService

@@ -12,6 +12,7 @@ from typing import Any
 import pandas as pd
 
 from langpa.services.output_manager import OutputManager
+import os
 
 
 def build_master_report(
@@ -56,6 +57,13 @@ def build_master_report(
     """
     output_path = Path(output_path)
     manager = OutputManager(output_dir=str(output_dir))
+
+    def _safe_relpath(target: Path, base: Path) -> Path:
+        """Return a path relative to base, falling back to os.path.relpath if needed."""
+        try:
+            return target.relative_to(base)
+        except ValueError:
+            return Path(os.path.relpath(target, base))
 
     # Determine plot directory
     if plot_dir is None:
@@ -139,7 +147,7 @@ def build_master_report(
                 bubble_plot = plot_dir / f"bubble_plot_{query}.png"
                 if bubble_plot.exists():
                     # Make path relative to report location
-                    rel_path = bubble_plot.relative_to(output_path.parent)
+                    rel_path = _safe_relpath(bubble_plot, output_path.parent)
                     lines.extend([
                         "#### Bubble Plot",
                         "",
@@ -160,7 +168,7 @@ def build_master_report(
                 if md_reports:
                     for report_path in md_reports:
                         run_id = report_path.parent.name
-                        rel_path = report_path.relative_to(output_path.parent)
+                        rel_path = _safe_relpath(report_path, output_path.parent)
                         lines.append(f"- [{run_id}]({rel_path})")
                 else:
                     lines.append("- No individual reports found")

@@ -13,7 +13,8 @@ def test_similarity_scores_model() -> None:
     scores = SimilarityScores(
         gene_jaccard=0.85,
         name_similarity=0.92,
-        combined=0.885
+        combined=0.885,
+        overlap_count=3,
     )
     assert scores.gene_jaccard == 0.85
     assert scores.name_similarity == 0.92
@@ -31,7 +32,8 @@ def test_similarity_scores_validation() -> None:
     scores = SimilarityScores(
         gene_jaccard=0.0,
         name_similarity=1.0,
-        combined=0.5
+        combined=0.5,
+        overlap_count=0,
     )
     assert scores.gene_jaccard == 0.0
     assert scores.name_similarity == 1.0
@@ -61,7 +63,7 @@ def test_program_pair_model() -> None:
     pair = ProgramPair(
         program_a={"program_name": "DNA Repair", "supporting_genes": ["TP53"]},
         program_b={"program_name": "DNA Damage", "supporting_genes": ["TP53", "BRCA1"]},
-        scores=SimilarityScores(gene_jaccard=0.5, name_similarity=0.9, combined=0.7)
+        scores=SimilarityScores(gene_jaccard=0.5, name_similarity=0.9, combined=0.7, overlap_count=1)
     )
     assert pair.program_a["program_name"] == "DNA Repair"
     assert pair.program_b["program_name"] == "DNA Damage"
@@ -74,7 +76,7 @@ def test_program_pair_requires_fields() -> None:
     from langpa_validation_tools.comparison.models import ProgramPair, SimilarityScores
     from pydantic import ValidationError
 
-    scores = SimilarityScores(gene_jaccard=0.5, name_similarity=0.9, combined=0.7)
+    scores = SimilarityScores(gene_jaccard=0.5, name_similarity=0.9, combined=0.7, overlap_count=0)
 
     # Missing program_name
     with pytest.raises(ValidationError, match="program_name"):

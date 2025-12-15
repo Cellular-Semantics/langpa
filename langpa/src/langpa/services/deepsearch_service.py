@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import json
+import warnings
 from typing import Any
 
 from deep_research_client import DeepResearchClient  # type: ignore
+from deep_research_client.models import CacheConfig  # type: ignore
 from dotenv import load_dotenv
 
 from langpa.schemas import load_schema
@@ -32,6 +34,7 @@ class DeepSearchService:
         self,
         preferred_provider: str | None = None,
         preset: str | None = None,
+        cache_config: CacheConfig | None = None,
         **config_overrides: Any,
     ) -> None:
         """Initialize the DeepSearch service.
@@ -41,9 +44,14 @@ class DeepSearchService:
                                If None, uses first available provider. (Backward compatibility)
             preset: Configuration preset name (e.g., 'perplexity-sonar-pro')
                    If None, uses 'perplexity-sonar-pro' as default
+            cache_config: Cache configuration for DeepResearchClient (default: disabled)
             **config_overrides: Override specific configuration fields
         """
-        self.client = DeepResearchClient()
+        # Default to disabling client cache unless explicitly provided
+        if cache_config is None:
+            cache_config = CacheConfig(enabled=False)
+
+        self.client = DeepResearchClient(cache_config=cache_config)
 
         # Load configuration (preset takes precedence over preferred_provider for new pattern)
         if preset is not None:
@@ -162,6 +170,36 @@ class DeepSearchService:
         """
         return self._construct_prompt(genes, context, template_override)
 
+    def _resolve_system_prompt(
+        self,
+        provider_params: dict[str, Any],
+        schema: dict[str, Any],
+        template_requires_schema: bool,
+    ) -> str:
+        """Resolve the system prompt to use, enforcing explicit selection."""
+        system_prompt = provider_params.get("system_prompt")
+        if not system_prompt:
+            raise ValueError(
+                "system_prompt must be specified in provider_params; "
+                "update the preset to set an explicit system prompt."
+            )
+
+        # Replace schema placeholder if present
+        if "{schema}" in system_prompt:
+            system_prompt = system_prompt.format(schema=json.dumps(schema, indent=2))
+
+        # Warn about known incompatibility: sonar-deep-research with JSON-focused prompts
+        if self.config.model == "sonar-deep-research" and "json" in system_prompt.lower():
+            warnings.warn(
+                "sonar-deep-research is known to ignore or fail with JSON-enforcing system prompts; "
+                "consider using a non-JSON system prompt for this model.",
+                UserWarning,
+            )
+
+        # If template requires schema in user prompt, prefer non-JSON system prompts,
+        # but we keep the explicit selection made in the preset to honor user choice.
+        return system_prompt
+
     def research_gene_list(
         self,
         genes: list[str],
@@ -209,46 +247,24 @@ class DeepSearchService:
         # Use timeout from config or method parameter (method parameter takes precedence)
         # Note: timeout parameter is used for backward compatibility but not currently applied
 
+        # Load schema for response_format
+        schema = load_schema("deepsearch_results_schema.json")
+
+        # Prepare provider params from config
+        provider_params = dict(self.config.provider_params)  # Copy to avoid modifying original
+
+        # Determine system prompt strategy based on preset/template choice
+        template_name = prompt_template or self.config.prompt_template
+        template_metadata = get_template_metadata(template_name)
+
+        provider_params["system_prompt"] = self._resolve_system_prompt(
+            provider_params=provider_params,
+            schema=schema,
+            template_requires_schema=template_metadata.get("requires_full_schema", False),
+        )
+
+        # Use configuration-driven research call
         try:
-            # Load schema for response_format
-            schema = load_schema("deepsearch_results_schema.json")
-
-            # Prepare provider params from config
-            provider_params = dict(self.config.provider_params)  # Copy to avoid modifying original
-
-            # Determine system prompt strategy based on template
-            template_name = prompt_template or self.config.prompt_template
-            template_metadata = get_template_metadata(template_name)
-
-            if template_metadata.get("requires_full_schema", False):
-                # Schema-embedded approach: Use research-focused prompt (schema is in user prompt)
-                # The schema in user prompt has explicit output instructions
-                # Using the standard research prompt aligns with model training
-                provider_params["system_prompt"] = """You are an expert researcher providing comprehensive, well-cited information.
-
-Provide detailed information focusing on:
-1. Key concepts and definitions with current understanding
-2. Recent developments and latest research
-3. Current applications and real-world implementations
-4. Expert opinions and analysis from authoritative sources
-5. Relevant statistics and data from recent studies
-
-Format as a comprehensive research report with proper citations. Include URLs and publication dates where available.
-Always prioritize recent, authoritative sources and provide specific citations for all major claims."""
-            else:
-                # Legacy approach: schema in system prompt
-                provider_params[
-                    "system_prompt"
-                ] = f"""You are an expert biologist. Analyze the provided genes in the given biological context.
-
-CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
-{json.dumps(schema, indent=2)}
-
-Ensure every citation object includes \"source_id\" matching DeepSearch/Perplexity numbering.
-
-Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure."""
-
-            # Use configuration-driven research call
             result = self.client.research(
                 query=prompt,
                 provider=research_provider,
@@ -256,7 +272,6 @@ Do not include any prose, markdown, explanatory text, or <think> tags. Only the 
                 provider_params=provider_params,
             )
             return result
-
         except Exception as e:
             # Re-raise with context
             raise Exception(f"DeepSearch API error: {str(e)}") from e
