@@ -6,7 +6,9 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import time
 from collections.abc import Sequence
+from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -17,6 +19,7 @@ from langpa.services.markdown_reporter import MarkdownReportGenerator
 from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
 from langpa.services.markdown_citation_extractor import extract_citations_from_markdown
 from langpa.utils.output_paths import build_run_directory, sanitize_name
+from langpa.utils.csv_batch_parser import parse_csv_batch
 
 # Ensure .env is loaded before instantiating clients
 load_dotenv()
@@ -43,6 +46,25 @@ def parse_args() -> argparse.Namespace:
         "--single",
         type=Path,
         help="Process a single input file (raw JSON or markdown). Skips batch traversal.",
+    )
+    parser.add_argument(
+        "--batch-csv",
+        type=Path,
+        help=(
+            "CSV file with batch queries (columns: ID, name, gene_list, context, GSE). "
+            "Each row triggers new deepsearch API calls. Requires --project."
+        ),
+    )
+    parser.add_argument(
+        "--batch-reprocess",
+        action="store_true",
+        help="Reprocess existing deepsearch.json files in project directory. Requires --project.",
+    )
+    parser.add_argument(
+        "--num-runs",
+        type=int,
+        default=1,
+        help="Number of times to run each query in CSV batch (default: 1). Only used with --batch-csv.",
     )
     # List available options
     parser.add_argument(
@@ -638,6 +660,132 @@ def _discover_project_runs(project: str, output_dir: Path, query: str | None = N
     return runs
 
 
+def log_warning(warnings_file: Path, query_name: str, run_num: int, error: Exception) -> None:
+    """Log a warning for a failed query run.
+
+    Args:
+        warnings_file: Path to warnings log file
+        query_name: Name of the query that failed
+        run_num: Run number that failed
+        error: Exception that was raised
+    """
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_entry = f"[{timestamp}] Query: {query_name}, Run: {run_num}, Error: {error}\n"
+
+    with open(warnings_file, "a", encoding="utf-8") as f:
+        f.write(log_entry)
+
+
+def run_query_with_retry(
+    args: argparse.Namespace, query_name: str, genes: list[str], context: str, run_num: int
+) -> None:
+    """Run a single query with exponential backoff retry logic.
+
+    Args:
+        args: Command-line arguments namespace
+        query_name: Name of the query
+        genes: List of gene symbols
+        context: Biological context
+        run_num: Current run number (1-indexed)
+
+    Raises:
+        Exception: If all retry attempts fail
+    """
+    max_attempts = 3
+    backoff_delays = [1, 2, 4]  # seconds
+
+    for attempt in range(1, max_attempts + 1):
+        try:
+            print(f"[batch] Processing query '{query_name}' (run {run_num}/{args.num_runs})")
+
+            # Create a copy of args with query-specific genes and context
+            sub_args = argparse.Namespace(**vars(args))
+            sub_args.query = query_name
+            sub_args.genes = [[gene] for gene in genes]  # Format expected by load_genes
+            sub_args.context = context
+
+            # Run the query (will create its own timestamped directory)
+            main_single_run(sub_args, fixed_run_dir=None, allow_print=False)
+            return  # Success
+
+        except Exception as e:
+            if attempt < max_attempts:
+                delay = backoff_delays[attempt - 1]
+                print(f"[retry] Attempt {attempt}/{max_attempts} failed for '{query_name}' "
+                      f"(run {run_num}): {e}")
+                print(f"[retry] Retrying in {delay}s...")
+                time.sleep(delay)
+            else:
+                # Final attempt failed, re-raise
+                print(f"[error] All {max_attempts} attempts failed for '{query_name}' (run {run_num})")
+                raise
+
+
+def process_csv_batch(args: argparse.Namespace) -> None:
+    """Process CSV batch with multiple runs per query.
+
+    Parses CSV file, validates queries, and executes each query the specified
+    number of times with retry logic. Warnings are logged for failed runs.
+
+    Args:
+        args: Command-line arguments namespace. Must include:
+            - batch_csv: Path to CSV file
+            - project: Project name
+            - num_runs: Number of times to run each query
+            - context/context_file: Optional global context
+
+    Raises:
+        ValueError: If CSV parsing or validation fails
+        SystemExit: If CSV file not found or other fatal errors
+    """
+    if not args.batch_csv.exists():
+        raise SystemExit(f"[error] CSV file not found: {args.batch_csv}")
+
+    # Load global context (may be None if all rows have per-row context)
+    try:
+        global_context = load_context(args)
+    except ValueError:
+        # No global context provided; will rely on per-row context
+        global_context = None
+
+    # Parse CSV
+    print(f"[batch] Parsing CSV file: {args.batch_csv}")
+    try:
+        queries = parse_csv_batch(args.batch_csv, global_context)
+    except ValueError as e:
+        raise SystemExit(f"[error] CSV parsing failed: {e}") from e
+
+    print(f"[batch] Found {len(queries)} queries, {args.num_runs} run(s) per query "
+          f"= {len(queries) * args.num_runs} total executions")
+
+    # Create warnings log file
+    output_dir = Path(args.output_dir)
+    warnings_file = output_dir / args.project / "batch_warnings.log"
+    warnings_file.parent.mkdir(parents=True, exist_ok=True)
+
+    # Execute each query num_runs times
+    total_queries = len(queries)
+    total_failures = 0
+
+    for query_idx, query in enumerate(queries, start=1):
+        for run_idx in range(1, args.num_runs + 1):
+            try:
+                print(f"[batch] Query {query_idx}/{total_queries}: {query.query_name}")
+                run_query_with_retry(args, query.query_name, query.genes, query.context, run_idx)
+            except Exception as e:
+                total_failures += 1
+                log_warning(warnings_file, query.query_name, run_idx, e)
+                print(f"[warn] Query '{query.query_name}' run {run_idx} failed after retries: {e}")
+
+    # Summary
+    total_runs = len(queries) * args.num_runs
+    total_successes = total_runs - total_failures
+    print(f"\n[batch] Complete.")
+    print(f"[batch] Total: {total_runs} runs, {total_successes} succeeded, {total_failures} failed")
+    if total_failures > 0:
+        print(f"[batch] Warnings logged to: {warnings_file}")
+
+
 def process_project_batch(args: argparse.Namespace) -> None:
     """Batch process all deepsearch.json under outputs/{project}/{query}/{run}/."""
     output_dir = Path(args.output_dir)
@@ -662,10 +810,24 @@ def main() -> None:
         main_single_run(args, fixed_run_dir=None, allow_print=True)
         return
 
-    # Batch mode requires project (and optional query)
-    if not args.project:
-        raise SystemExit("[error] --project is required for batch processing (no --single provided)")
-    process_project_batch(args)
+    # CSV batch mode - fresh API calls for each CSV row
+    if args.batch_csv:
+        if not args.project:
+            raise SystemExit("[error] --project is required with --batch-csv")
+        process_csv_batch(args)
+        return
+
+    # Batch reprocess mode - process existing deepsearch.json files
+    if args.batch_reprocess:
+        if not args.project:
+            raise SystemExit("[error] --project is required with --batch-reprocess")
+        process_project_batch(args)
+        return
+
+    # No mode specified
+    raise SystemExit(
+        "[error] Must specify one of: --single <file>, --batch-csv <file>, or --batch-reprocess"
+    )
 
 
 def main_single_run(args: argparse.Namespace, fixed_run_dir: Path | None = None, allow_print: bool = True) -> None:
