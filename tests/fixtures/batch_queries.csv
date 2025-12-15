@@ -1,0 +1,6 @@
+ID,name,gene_list,context,GSE
+0,Gliosis,"GFAP,S100B,VIM","Astrocyte activation in glioblastoma",GO:0001578
+1,Hypoxia,"HIF1A,VEGFA,EPO","Hypoxic response in tumor microenvironment",GO:0071456
+2,,"TP53,MDM2,CDKN1A","Tumor suppressor pathways in cancer",GO:0006915
+,OPC_like,"SOX10,OLIG2,PDGFRA",,GO:0022010
+3,Inflammation,"IL6,TNF,NFKB1","Inflammatory response in tissue damage",
