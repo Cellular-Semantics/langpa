@@ -805,29 +805,44 @@ def process_project_batch(args: argparse.Namespace) -> None:
 
 def main() -> None:
     args = parse_args()
+
+    # Handle informational operations FIRST (no mode required)
+    if args.list_presets:
+        list_presets()
+        return
+    if args.list_templates:
+        list_templates()
+        return
+    if args.show_template:
+        show_template(args.show_template)
+        return
+    if args.show_preset:
+        show_preset(args.show_preset)
+        return
+
+    # Explicit mode: Single file processing
     if args.single:
-        # Single-file processing path
         main_single_run(args, fixed_run_dir=None, allow_print=True)
         return
 
-    # CSV batch mode - fresh API calls for each CSV row
+    # Explicit mode: CSV batch (fresh API calls)
     if args.batch_csv:
         if not args.project:
             raise SystemExit("[error] --project is required with --batch-csv")
         process_csv_batch(args)
         return
 
-    # Batch reprocess mode - process existing deepsearch.json files
+    # Explicit mode: Batch reprocess (offline)
     if args.batch_reprocess:
         if not args.project:
             raise SystemExit("[error] --project is required with --batch-reprocess")
         process_project_batch(args)
         return
 
-    # No mode specified
-    raise SystemExit(
-        "[error] Must specify one of: --single <file>, --batch-csv <file>, or --batch-reprocess"
-    )
+    # Default: Fresh deepsearch run (implicit mode)
+    # This handles the common case: --genes + --context
+    # Let main_single_run() handle validation (missing genes, context, etc.)
+    main_single_run(args, fixed_run_dir=None, allow_print=True)
 
 
 def main_single_run(args: argparse.Namespace, fixed_run_dir: Path | None = None, allow_print: bool = True) -> None:
