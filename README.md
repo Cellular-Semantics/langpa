@@ -139,14 +139,35 @@ langpa/                                    # Repository root
 
 ## DeepSearch CLI & Outputs
 
-The CLI `scripts/run_deepsearch.py` supports live API runs and offline processing of saved DeepSearch markdown/raw JSON. Key flags:
+The CLI `scripts/run_deepsearch.py` supports live API runs, batch processing from CSV, and offline processing of saved DeepSearch markdown/raw JSON.
+
+### Processing Modes
+
+1. **Single Query Mode** (`--single <file>`):
+   - Process a single markdown or raw JSON file
+   - Example: `python scripts/run_deepsearch.py --single outputs/project/query/timestamp/deepsearch.json`
+
+2. **CSV Batch Mode** (`--batch-csv <file>`):
+   - Run fresh DeepSearch API calls for each row in CSV
+   - CSV columns: `ID`, `name`, `gene_list`, `context` (optional), `GSE` (optional)
+   - Query naming: `{ID}_{name}` if both present, else single value
+   - Per-row context overrides global `--context` / `--context-file`
+   - Supports multiple runs per query via `--num-runs N` (default: 1)
+   - Example: `python scripts/run_deepsearch.py --batch-csv queries.csv --project my_project --num-runs 3`
+   - See [examples/batch_queries_example.csv](examples/batch_queries_example.csv) for format
+
+3. **Batch Reprocess Mode** (`--batch-reprocess`):
+   - Reprocess existing `deepsearch.json` files under `outputs/<project>/`
+   - Does not make new API calls; processes saved responses
+   - Example: `python scripts/run_deepsearch.py --batch-reprocess --project my_project`
+
+### Key Flags
 
 - `--project` / `--query`: organize outputs under `outputs/<project>/<query>/<timestamp>/`.
 - `--from-markdown` / `--raw-input`: process saved responses without calling the API.
 - `--resolve-citations`: normalize/resolve citations via url2ref and write a container with CSL-JSON.
 - `--citation-style`: citation style for compact bibliography (e.g., vancouver, apa, ieee, chicago). Default: vancouver.
 - `--citation-locale`: locale for citation formatting (e.g., en-US, en-GB, de-DE). Default: en-US.
-- `--batch-dir`: iterate query subfolders (e.g., `projects/<proj>/inputs/<query>/*`) and process each file as a separate query.
 
 Output files per run (when validation succeeds) live under `outputs/<project>/<query>/<timestamp>/` and use fixed filenames (identity comes from the folder path):
 - `deepsearch.json`: raw markdown + original citations + metadata.
