@@ -106,3 +106,57 @@ class TestOntologyMappingModels:
 
         mapping3 = OntologyMapping(term="test", confidence=0.5)
         assert mapping3.confidence == 0.5
+
+
+@pytest.mark.unit
+class TestOntologyMappingConfiguration:
+    """Test configuration and dependencies."""
+
+    def test_config_from_env_defaults(self, monkeypatch, tmp_path):
+        """Test configuration loads with default values."""
+        from langpa.agents.ontology_mapping.config import OntologyMappingDependencies
+
+        # Set workdir to temp path
+        monkeypatch.setenv("WORKDIR", str(tmp_path / "workdir"))
+
+        config = OntologyMappingDependencies.from_env()
+
+        assert config.target_ontologies == ["GO", "CL", "UBERON", "ChEBI"]
+        assert config.workdir == tmp_path / "workdir"
+        assert config.workdir.exists()
+
+    def test_config_from_env_custom_ontologies(self, monkeypatch, tmp_path):
+        """Test configuration with custom ontology list."""
+        from langpa.agents.ontology_mapping.config import OntologyMappingDependencies
+
+        monkeypatch.setenv("WORKDIR", str(tmp_path))
+        monkeypatch.setenv("TARGET_ONTOLOGIES", "GO,CL")
+
+        config = OntologyMappingDependencies.from_env()
+
+        assert config.target_ontologies == ["GO", "CL"]
+
+    def test_config_from_env_ontologies_with_spaces(self, monkeypatch, tmp_path):
+        """Test configuration handles spaces in ontology list."""
+        from langpa.agents.ontology_mapping.config import OntologyMappingDependencies
+
+        monkeypatch.setenv("WORKDIR", str(tmp_path))
+        monkeypatch.setenv("TARGET_ONTOLOGIES", "GO, CL, UBERON")
+
+        config = OntologyMappingDependencies.from_env()
+
+        assert config.target_ontologies == ["GO", "CL", "UBERON"]
+
+    def test_config_workdir_creation(self, monkeypatch, tmp_path):
+        """Test that workdir is created if it doesn't exist."""
+        from langpa.agents.ontology_mapping.config import OntologyMappingDependencies
+
+        workdir = tmp_path / "new_workdir"
+        monkeypatch.setenv("WORKDIR", str(workdir))
+
+        assert not workdir.exists()
+
+        config = OntologyMappingDependencies.from_env()
+
+        assert config.workdir.exists()
+        assert config.workdir.is_dir()
