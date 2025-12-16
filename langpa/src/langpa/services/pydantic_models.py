@@ -45,8 +45,12 @@ def get_schema_manager() -> SchemaManager:
 def get_deepsearch_pydantic_model() -> type[BaseModel]:
     """Generate pydantic model from deepsearch_results_schema.json.
 
+    Configures the model to ignore extra fields that LLMs sometimes include
+    (e.g., schema metadata like 'title', 'description', 'type').
+
     Uses cellsem_llm_client's SchemaManager to dynamically generate a pydantic
-    model from the JSON Schema. The model is cached for performance.
+    model from the JSON Schema, then overrides config to allow extra fields.
+    The model is cached for performance.
 
     Returns:
         Pydantic model class for deepsearch results validation
@@ -68,10 +72,25 @@ def get_deepsearch_pydantic_model() -> type[BaseModel]:
     cache_key = "deepsearch"
 
     if cache_key not in _model_cache:
+        from pydantic import ConfigDict
+
         manager = get_schema_manager()
-        _model_cache[cache_key] = manager.get_pydantic_model(
+        base_model = manager.get_pydantic_model(
             "deepsearch_results_schema"  # Without .json extension
         )
+
+        # Override config to ignore extra fields (LLM-generated schema metadata)
+        # This allows validation to pass even when LLM includes title, description, etc.
+        model_with_ignore = type(
+            base_model.__name__,  # Keep same name
+            (base_model,),  # Inherit from base model
+            {
+                "model_config": ConfigDict(extra="ignore"),  # Ignore extra fields
+                "__doc__": base_model.__doc__,  # Preserve docstring
+            },
+        )
+
+        _model_cache[cache_key] = model_with_ignore
 
     return _model_cache[cache_key]
 

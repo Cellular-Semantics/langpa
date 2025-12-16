@@ -1,0 +1,4 @@
+ID,name,gene_list,context,GSE
+0,Gliosis,"GFAP,S100B,VIM","Astrocyte activation in glioblastoma",GO:0001578
+1,Hypoxia,"HIF1A,VEGFA,EPO","Hypoxic response in tumor microenvironment",GO:0071456
+2,Apoptosis,"TP53,BAX,BCL2","Programmed cell death pathways in cancer",GO:0006915

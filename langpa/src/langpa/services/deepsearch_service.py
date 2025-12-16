@@ -32,6 +32,7 @@ class DeepSearchService:
         self,
         preferred_provider: str | None = None,
         preset: str | None = None,
+        cache_config: Any = None,
         **config_overrides: Any,
     ) -> None:
         """Initialize the DeepSearch service.
@@ -41,9 +42,14 @@ class DeepSearchService:
                                If None, uses first available provider. (Backward compatibility)
             preset: Configuration preset name (e.g., 'perplexity-sonar-pro')
                    If None, uses 'perplexity-sonar-pro' as default
+            cache_config: Optional cache configuration for DeepResearchClient
             **config_overrides: Override specific configuration fields
         """
-        self.client = DeepResearchClient()
+        # Initialize client with cache config if provided
+        if cache_config is not None:
+            self.client = DeepResearchClient(cache_config=cache_config)
+        else:
+            self.client = DeepResearchClient()
 
         # Load configuration (preset takes precedence over preferred_provider for new pattern)
         if preset is not None:
@@ -162,6 +168,48 @@ class DeepSearchService:
         """
         return self._construct_prompt(genes, context, template_override)
 
+    def _resolve_system_prompt(
+        self,
+        provider_params: dict[str, Any],
+        schema: dict[str, Any],
+        template_requires_schema: bool,
+    ) -> str:
+        """Resolve the system prompt based on template requirements.
+
+        Args:
+            provider_params: Provider parameters dict (may contain existing system_prompt)
+            schema: JSON schema for response format
+            template_requires_schema: Whether template embeds schema in user prompt
+
+        Returns:
+            Resolved system prompt string
+        """
+        if template_requires_schema:
+            # Schema-embedded approach: Use research-focused prompt (schema is in user prompt)
+            # The schema in user prompt has explicit output instructions
+            # Using the standard research prompt aligns with model training
+            return """You are an expert researcher providing comprehensive, well-cited information.
+
+Provide detailed information focusing on:
+1. Key concepts and definitions with current understanding
+2. Recent developments and latest research
+3. Current applications and real-world implementations
+4. Expert opinions and analysis from authoritative sources
+5. Relevant statistics and data from recent studies
+
+Format as a comprehensive research report with proper citations. Include URLs and publication dates where available.
+Always prioritize recent, authoritative sources and provide specific citations for all major claims."""
+        else:
+            # Legacy approach: schema in system prompt
+            return f"""You are an expert biologist. Analyze the provided genes in the given biological context.
+
+CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
+{json.dumps(schema, indent=2)}
+
+Ensure every citation object includes \"source_id\" matching DeepSearch/Perplexity numbering.
+
+Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure."""
+
     def research_gene_list(
         self,
         genes: list[str],
@@ -220,33 +268,12 @@ class DeepSearchService:
             template_name = prompt_template or self.config.prompt_template
             template_metadata = get_template_metadata(template_name)
 
-            if template_metadata.get("requires_full_schema", False):
-                # Schema-embedded approach: Use research-focused prompt (schema is in user prompt)
-                # The schema in user prompt has explicit output instructions
-                # Using the standard research prompt aligns with model training
-                provider_params["system_prompt"] = """You are an expert researcher providing comprehensive, well-cited information.
-
-Provide detailed information focusing on:
-1. Key concepts and definitions with current understanding
-2. Recent developments and latest research
-3. Current applications and real-world implementations
-4. Expert opinions and analysis from authoritative sources
-5. Relevant statistics and data from recent studies
-
-Format as a comprehensive research report with proper citations. Include URLs and publication dates where available.
-Always prioritize recent, authoritative sources and provide specific citations for all major claims."""
-            else:
-                # Legacy approach: schema in system prompt
-                provider_params[
-                    "system_prompt"
-                ] = f"""You are an expert biologist. Analyze the provided genes in the given biological context.
-
-CRITICAL: Respond ONLY with valid JSON that exactly follows this schema structure:
-{json.dumps(schema, indent=2)}
-
-Ensure every citation object includes \"source_id\" matching DeepSearch/Perplexity numbering.
-
-Do not include any prose, markdown, explanatory text, or <think> tags. Only the JSON structure."""
+            # Resolve system prompt using helper method
+            provider_params["system_prompt"] = self._resolve_system_prompt(
+                provider_params=provider_params,
+                schema=schema,
+                template_requires_schema=template_metadata.get("requires_full_schema", False),
+            )
 
             # Use configuration-driven research call
             result = self.client.research(
