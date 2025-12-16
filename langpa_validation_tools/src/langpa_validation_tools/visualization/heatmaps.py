@@ -23,13 +23,14 @@ def generate_bubble_plot(
     figsize: tuple[int, int] = (12, 8),
     return_fig: bool = False,
 ) -> None | tuple[Any, Any]:
-    """Generate bubble plot visualization of program matches.
+    """Generate bubble plot visualization of program comparisons.
 
-    Creates a scatter plot where each point represents a matched program pair.
-    The x-axis is the program index from run A, the y-axis is the program index
-    from run B. Bubble size represents the number of overlapping genes, and
-    color intensity shows the combined similarity score. Axes are numbered and
-    annotated with gene counts; a legend maps numbers to program names.
+    Creates a scatter plot where each point represents a program pair (full
+    pairwise matrix). The x-axis is the program index from run A, the y-axis is
+    the program index from run B. Bubble size represents the number of
+    overlapping genes, and color intensity shows the combined similarity score.
+    Axes are numbered and annotated with gene counts; a legend maps numbers to
+    program names.
 
     .. code-block:: python
 
@@ -46,7 +47,7 @@ def generate_bubble_plot(
         # Filter by query
         generate_bubble_plot(df, Path("query1_plot.png"), query="0_Gliosis")
     Args:
-        matches_df: DataFrame with program matches (from compare_runs)
+        matches_df: DataFrame with full program comparisons (from compare_runs)
                    Required columns: program_a, program_b, combined_similarity,
                    overlap_count, genes_a_count, genes_b_count
         output_path: Path to save the PNG file
@@ -62,12 +63,20 @@ def generate_bubble_plot(
     else:
         df = matches_df.copy()
 
+    # Drop pairs with zero overlap (no dot should be shown)
+    if "overlap_count" in df:
+        df = df[df["overlap_count"] > 0]
+    else:
+        df = df.copy()
+        df["overlap_count"] = 0
+        df = df[df["overlap_count"] > 0]
+
     # Handle empty DataFrame
     if len(df) == 0:
         fig, ax = plt.subplots(figsize=figsize)
         ax.text(
             0.5, 0.5,
-            "No matches to display",
+            "No overlaps to display",
             ha="center", va="center",
             fontsize=14,
             color="gray"

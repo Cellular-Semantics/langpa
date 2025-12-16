@@ -9,6 +9,7 @@ dependencies = [
     "pydantic>=2.7.0",
     "pydantic-ai>=1.16.0",
     "jsonschema>=4.22.0",
+    "citeproc-py>=0.6.0",
     "cellsem-llm-client @ git+https://github.com/Cellular-Semantics/cellsem_llm_client.git@v1.11-beta",
     "url2ref @ git+https://github.com/Cellular-Semantics/url2ref.git@v1.3-beta",
     "deep-research-client @ git+https://github.com/monarch-initiative/deep-research-client.git@main",

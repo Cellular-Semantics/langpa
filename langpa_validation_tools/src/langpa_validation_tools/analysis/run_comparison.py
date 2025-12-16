@@ -12,7 +12,11 @@ from typing import Any
 import pandas as pd
 
 from langpa.services.output_manager import OutputManager
-from langpa_validation_tools.comparison import match_programs
+from langpa_validation_tools.comparison.metrics import (
+    compute_combined_similarity,
+    compute_gene_jaccard,
+    compute_name_similarity,
+)
 
 
 def compare_runs(
@@ -26,7 +30,10 @@ def compare_runs(
     """Compare all DeepSearch runs in a project.
 
     Loads all container files for the project, compares programs across runs,
-    and generates a DataFrame with similarity metrics.
+    and generates a **full pairwise similarity matrix** (not just matched
+    pairs). A boolean ``is_match`` column flags rows whose combined similarity
+    meets or exceeds ``threshold``; bubble plots can then render the complete
+    matrix while reports can still filter to matches.
 
     Args:
         project: Project name (directory under output_dir)
@@ -46,6 +53,9 @@ def compare_runs(
             - gene_jaccard: Gene Jaccard similarity
             - name_similarity: Program name similarity
             - combined_similarity: Combined similarity score
+            - overlap_count: Number of shared genes
+            - genes_a_count / genes_b_count: Gene counts per program
+            - is_match: True if combined_similarity >= threshold
 
     .. code-block:: python
 
@@ -81,7 +91,11 @@ def compare_runs(
             "program_b",
             "gene_jaccard",
             "name_similarity",
-            "combined_similarity"
+            "combined_similarity",
+            "overlap_count",
+            "genes_a_count",
+            "genes_b_count",
+            "is_match",
         ])
 
     # Group containers by query
@@ -109,6 +123,21 @@ def compare_runs(
         containers_by_query[query_name].append((container_path, container_data))
 
     # Compare runs within each query
+    columns = [
+        "query",
+        "run_a",
+        "run_b",
+        "program_a",
+        "program_b",
+        "gene_jaccard",
+        "name_similarity",
+        "combined_similarity",
+        "overlap_count",
+        "genes_a_count",
+        "genes_b_count",
+        "is_match",
+    ]
+
     all_matches = []
 
     for query_name, containers in containers_by_query.items():
@@ -133,50 +162,68 @@ def compare_runs(
                 if not programs_a or not programs_b:
                     continue
 
-                # Match programs
-                matches = match_programs(
-                    programs_a,
-                    programs_b,
-                    threshold=threshold,
-                    return_unmatched=False
-                )
+                # Full pairwise similarity matrix (no greedy matching)
+                for prog_a in programs_a:
+                    for prog_b in programs_b:
+                        genes_a = prog_a.get("supporting_genes", [])
+                        genes_b = prog_b.get("supporting_genes", [])
 
-                # Convert matches to DataFrame rows
-                for match in matches:
-                    genes_a = match.program_a["supporting_genes"]
-                    genes_b = match.program_b["supporting_genes"]
-                    overlap_count = len(set(genes_a) & set(genes_b))
+                        overlap_count = len(set(genes_a) & set(genes_b))
+                        gene_jac = compute_gene_jaccard(genes_a, genes_b)
+                        name_sim = compute_name_similarity(
+                            prog_a.get("program_name", ""),
+                            prog_b.get("program_name", "")
+                        )
+                        combined = compute_combined_similarity(gene_jac, name_sim)
 
-                    all_matches.append({
-                        "query": query_name,
-                        "run_a": run_a,
-                        "run_b": run_b,
-                        "program_a": match.program_a["program_name"],
-                        "program_b": match.program_b["program_name"],
-                        "gene_jaccard": match.scores.gene_jaccard,
-                        "name_similarity": match.scores.name_similarity,
-                        "combined_similarity": match.scores.combined,
-                        "overlap_count": overlap_count,
-                        "genes_a_count": len(genes_a),
-                        "genes_b_count": len(genes_b),
-                    })
+                        all_matches.append({
+                            "query": query_name,
+                            "run_a": run_a,
+                            "run_b": run_b,
+                            "program_a": prog_a.get("program_name", "N/A"),
+                            "program_b": prog_b.get("program_name", "N/A"),
+                            "gene_jaccard": gene_jac,
+                            "name_similarity": name_sim,
+                            "combined_similarity": combined,
+                            "overlap_count": overlap_count,
+                            "genes_a_count": len(genes_a),
+                            "genes_b_count": len(genes_b),
+                            "is_match": combined >= threshold,
+                        })
 
     # Create DataFrame
-    df = pd.DataFrame(all_matches)
+    df = pd.DataFrame(all_matches, columns=columns)
 
     # Save CSV files if requested
     if save_csv and csv_output_dir:
         csv_output_dir.mkdir(parents=True, exist_ok=True)
 
-        # Save matches
+        # Save full pairwise matrix (still called program_matches for compatibility)
         matches_path = csv_output_dir / "program_matches.csv"
         df.to_csv(matches_path, index=False)
 
-        # For unmatched programs, we need to track which programs were matched
-        # For now, create an empty unmatched file
-        # TODO: Implement proper unmatched tracking in future iteration
+        # Track programs with no matches above threshold (per run)
+        unmatched_records: list[dict[str, str]] = []
+        if not df.empty:
+            # Programs from run_a perspective
+            for (query, run, program), has_match in (
+                df.groupby(["query", "run_a", "program_a"])["is_match"].any().items()
+            ):
+                if not has_match:
+                    unmatched_records.append(
+                        {"query": query, "run": run, "program_name": program}
+                    )
+            # Programs from run_b perspective
+            for (query, run, program), has_match in (
+                df.groupby(["query", "run_b", "program_b"])["is_match"].any().items()
+            ):
+                if not has_match:
+                    unmatched_records.append(
+                        {"query": query, "run": run, "program_name": program}
+                    )
+
         unmatched_path = csv_output_dir / "unmatched_programs.csv"
-        unmatched_df = pd.DataFrame(columns=["query", "run", "program_name"])
+        unmatched_df = pd.DataFrame(unmatched_records or [], columns=["query", "run", "program_name"])
         unmatched_df.to_csv(unmatched_path, index=False)
 
     return df

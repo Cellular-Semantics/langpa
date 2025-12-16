@@ -81,6 +81,38 @@ def test_generate_bubble_plot_uses_program_axes_and_overlap_sizes(tmp_path: Path
 
 
 @pytest.mark.unit
+def test_generate_bubble_plot_filters_zero_overlap(tmp_path: Path) -> None:
+    """Bubble plot should omit pairs with zero gene overlap."""
+    from langpa_validation_tools.visualization import generate_bubble_plot
+    import matplotlib
+
+    matplotlib.use("Agg")
+
+    matches_df = pd.DataFrame({
+        "query": ["q1", "q1"],
+        "run_a": ["run1", "run1"],
+        "run_b": ["run2", "run2"],
+        "program_a": ["ProgA", "ProgB"],
+        "program_b": ["ProgX", "ProgY"],
+        "gene_jaccard": [0.0, 0.5],
+        "name_similarity": [0.1, 0.6],
+        "combined_similarity": [0.05, 0.55],
+        "overlap_count": [0, 2],  # first pair has zero overlap
+        "genes_a_count": [4, 5],
+        "genes_b_count": [6, 7],
+    })
+
+    fig, ax = generate_bubble_plot(matches_df, tmp_path / "filtered.png", return_fig=True)  # type: ignore[assignment]
+
+    sizes = ax.collections[0].get_sizes()
+    assert len(sizes) == 1  # zero-overlap pair removed
+    assert sizes[0] > 0
+
+    import matplotlib.pyplot as plt
+    plt.close(fig)
+
+
+@pytest.mark.unit
 def test_generate_bubble_plot_empty_dataframe() -> None:
     """generate_bubble_plot handles empty DataFrame gracefully."""
     from langpa_validation_tools.visualization import generate_bubble_plot

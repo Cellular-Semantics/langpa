@@ -106,7 +106,11 @@ def test_compare_runs_includes_required_columns() -> None:
             "program_b",
             "gene_jaccard",
             "name_similarity",
-            "combined_similarity"
+            "combined_similarity",
+            "overlap_count",
+            "genes_a_count",
+            "genes_b_count",
+            "is_match",
         ]
 
         for col in required_columns:
