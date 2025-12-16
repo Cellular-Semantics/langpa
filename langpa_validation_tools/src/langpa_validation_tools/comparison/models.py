@@ -13,6 +13,7 @@ class SimilarityScores(BaseModel):
     gene_jaccard: float = Field(ge=0.0, le=1.0, description="Gene set Jaccard similarity")
     name_similarity: float = Field(ge=0.0, le=1.0, description="Program name similarity")
     combined: float = Field(ge=0.0, le=1.0, description="Combined weighted similarity")
+    overlap_count: int = Field(default=0, ge=0, description="Number of overlapping genes")
 
 
 class ProgramPair(BaseModel):
