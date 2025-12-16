@@ -143,6 +143,10 @@ def compare_runs(
 
                 # Convert matches to DataFrame rows
                 for match in matches:
+                    genes_a = match.program_a["supporting_genes"]
+                    genes_b = match.program_b["supporting_genes"]
+                    overlap_count = len(set(genes_a) & set(genes_b))
+
                     all_matches.append({
                         "query": query_name,
                         "run_a": run_a,
@@ -152,6 +156,9 @@ def compare_runs(
                         "gene_jaccard": match.scores.gene_jaccard,
                         "name_similarity": match.scores.name_similarity,
                         "combined_similarity": match.scores.combined,
+                        "overlap_count": overlap_count,
+                        "genes_a_count": len(genes_a),
+                        "genes_b_count": len(genes_b),
                     })
 
     # Create DataFrame

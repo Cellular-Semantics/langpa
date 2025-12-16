@@ -39,10 +39,10 @@ def match_programs(
     candidates = []
     for i, prog_a in enumerate(programs_a):
         for j, prog_b in enumerate(programs_b):
-            gene_jac = compute_gene_jaccard(
-                prog_a["supporting_genes"],
-                prog_b["supporting_genes"]
-            )
+            genes_a = prog_a["supporting_genes"]
+            genes_b = prog_b["supporting_genes"]
+            overlap_count = len(set(genes_a) & set(genes_b))
+            gene_jac = compute_gene_jaccard(genes_a, genes_b)
             name_sim = compute_name_similarity(
                 prog_a["program_name"],
                 prog_b["program_name"]
@@ -50,7 +50,7 @@ def match_programs(
             combined = compute_combined_similarity(gene_jac, name_sim)
 
             if combined >= threshold:
-                candidates.append((i, j, gene_jac, name_sim, combined))
+                candidates.append((i, j, gene_jac, name_sim, combined, overlap_count))
 
     # Sort by combined similarity (descending)
     candidates.sort(key=lambda x: x[4], reverse=True)
@@ -60,7 +60,7 @@ def match_programs(
     matched_b = set()
     matches = []
 
-    for i, j, gene_jac, name_sim, combined in candidates:
+    for i, j, gene_jac, name_sim, combined, overlap_count in candidates:
         if i not in matched_a and j not in matched_b:
             matches.append(
                 ProgramPair(
@@ -69,7 +69,8 @@ def match_programs(
                     scores=SimilarityScores(
                         gene_jaccard=gene_jac,
                         name_similarity=name_sim,
-                        combined=combined
+                        combined=combined,
+                        overlap_count=overlap_count,
                     )
                 )
             )
