@@ -2007,7 +2007,6 @@ version = "0.1.0"
 source = { editable = "langpa" }
 dependencies = [
     { name = "cellsem-llm-client" },
-    { name = "citeproc-py" },
     { name = "deep-research-client" },
     { name = "jsonschema" },
     { name = "pydantic" },
@@ -2041,7 +2040,6 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "cellsem-llm-client", git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=v1.11-beta" },
-    { name = "citeproc-py" },
     { name = "deep-research-client", git = "https://github.com/monarch-initiative/deep-research-client.git?rev=main" },
     { name = "jsonschema", specifier = ">=4.22.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.10.0" },
@@ -2055,7 +2053,7 @@ requires-dist = [
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.5.0" },
     { name = "sphinx", marker = "extra == 'dev'", specifier = ">=7.3.0" },
     { name = "sphinx-autodoc-typehints", marker = "extra == 'dev'", specifier = ">=1.25.0" },
-    { name = "url2ref", git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.2-beta" },
+    { name = "url2ref", git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.3-beta" },
 ]
 provides-extras = ["dev"]
 
@@ -4893,7 +4891,7 @@ wheels = [
 [[package]]
 name = "url2ref"
 version = "0.1.0"
-source = { git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.2-beta#fd2b892d3a824f3d8b989b0ca8ee08052f53caaa" }
+source = { git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.3-beta#140e62071480848c725839273244e30e9208ace0" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "citeproc-py" },
