@@ -89,7 +89,8 @@ Provide a systematic analysis organized by biological programs and functional cl
 * Highlight cases where multiple genes collectively strengthen evidence
 * Ensure all claims are backed by experimental evidence with proper attribution
 
-**Output**: Respond with JSON conforming to the provided schema. If you are unable to respond with JSON alone, make sure the response includes a complete, schema compliant JSON representation of content, separated by code fences.
+
+**Output**: As well as referenced text, your report MUST include code fenced JSON encoding the same information and following this schema:
 
 ```json
 {schema}

@@ -6,16 +6,20 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import time
 from collections.abc import Sequence
+from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
 
+from langpa.schemas import load_schema
 from langpa.services import CitationResolver, DeepSearchService, OutputManager
 from langpa.services.markdown_reporter import MarkdownReportGenerator
 from langpa.services.deepsearch_prompts import get_prompt_template, get_template_metadata
 from langpa.services.markdown_citation_extractor import extract_citations_from_markdown
 from langpa.utils.output_paths import build_run_directory, sanitize_name
+from langpa.utils.csv_batch_parser import parse_csv_batch
 
 # Ensure .env is loaded before instantiating clients
 load_dotenv()
@@ -39,12 +43,23 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--batch-dir",
+        "--batch-csv",
         type=Path,
         help=(
-            "Process all inputs under this directory as separate queries "
-            "(use project + subfolder names)."
+            "CSV file with batch queries (columns: ID, name, gene_list, context, GSE). "
+            "Each row triggers new deepsearch API calls. Requires --project."
         ),
+    )
+    parser.add_argument(
+        "--batch-reprocess",
+        action="store_true",
+        help="Reprocess existing deepsearch.json files in project directory. Requires --project.",
+    )
+    parser.add_argument(
+        "--num-runs",
+        type=int,
+        default=1,
+        help="Number of times to run each query in CSV batch (default: 1). Only used with --batch-csv.",
     )
     # List available options
     parser.add_argument(
@@ -228,6 +243,16 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--cache",
+        action="store_true",
+        help="Enable DeepResearchClient result caching (default: off).",
+    )
+    parser.add_argument(
+        "--no-stomp",
+        action="store_true",
+        help="Do not overwrite existing outputs; create versioned filenames instead.",
+    )
+    parser.add_argument(
         "--print-markdown",
         action="store_true",
         help="Echo the markdown/content returned by DeepSearch.",
@@ -344,10 +369,24 @@ def derive_query_name(args: argparse.Namespace, input_path: Path | None) -> str:
         return sanitize_name(args.query)
 
     if input_path:
-        # Prefer immediate parent folder under projects/<project>/inputs/<query>/
+        # For output structure: outputs/{project}/{query}/{timestamp}/file
+        # Check if immediate parent looks like a timestamp directory
         parent = input_path.parent
-        if parent.name and parent.name not in {"inputs", args.project}:
+
+        # Timestamp pattern: YYYYMMDD_HHMMSS (e.g., 20251216_083514)
+        import re
+        timestamp_pattern = r'^\d{8}_\d{6}$'
+
+        if parent.name and re.match(timestamp_pattern, parent.name):
+            # Parent is timestamp, use grandparent as query name
+            grandparent = parent.parent
+            if grandparent.name and grandparent.name not in {"inputs", "outputs", args.project}:
+                return sanitize_name(grandparent.name)
+
+        # Otherwise use immediate parent if it's not a special directory
+        if parent.name and parent.name not in {"inputs", "outputs", args.project}:
             return sanitize_name(parent.name)
+
         return sanitize_name(input_path.stem)
 
     # Fallback for live runs: use genes + context recipe
@@ -556,13 +595,22 @@ def show_dry_run(
     """Display configuration and prompt for dry run."""
     show_configuration(service, args, title="DRY RUN MODE")
 
+    template_name = args.template or service.config.prompt_template
+    template_metadata = get_template_metadata(template_name)
+    provider_params = dict(service.config.provider_params)
+    schema = load_schema("deepsearch_results_schema.json")
+
+    # Resolve the system prompt using the same logic as the service
+    provider_params["system_prompt"] = service._resolve_system_prompt(
+        provider_params=provider_params,
+        schema=schema,
+        template_requires_schema=template_metadata.get("requires_full_schema", False),
+    )
+
     # Show provider parameters
     print("Provider Parameters:")
-    for key, value in service.config.provider_params.items():
-        if key == "system_prompt" and value:
-            print(f"  {key}: [JSON schema system prompt - truncated]")
-        else:
-            print(f"  {key}: {value}")
+    for key, value in provider_params.items():
+        print(f"  {key}: {value}")
     print()
 
     # Construct and show the prompt
@@ -585,54 +633,222 @@ def show_dry_run(
     print("No actual API call made (dry run mode)")
 
 
-def process_batch(args):
-    batch_root = args.batch_dir
-    if not batch_root or not batch_root.exists():
-        raise SystemExit(f"[error] Batch directory not found: {batch_root}")
+def _versioned_prefix(run_dir: Path, base: str, no_stomp: bool) -> str:
+    """Return a filename prefix honoring no-stomp."""
+    if not no_stomp:
+        return base
+    if not (run_dir / f"{base}.json").exists():
+        return base
+    idx = 2
+    while True:
+        candidate = f"{base}_v{idx}"
+        if not (run_dir / f"{candidate}.json").exists():
+            return candidate
+        idx += 1
 
-    # Expect structure projects/<project>/inputs/<query>/*
-    query_dirs = [
-        p for p in batch_root.iterdir() if p.is_dir()
-    ]
 
-    if not query_dirs:
-        raise SystemExit(f"[error] No query subfolders found under {batch_root}")
+def _discover_project_runs(project: str, output_dir: Path, query: str | None = None) -> list[tuple[str, Path, Path]]:
+    """Find all deepsearch.json files under outputs/{project}/{query}/{run}/."""
+    project_root = output_dir / project
+    if not project_root.exists():
+        raise SystemExit(f"[error] Project not found under {output_dir}: {project}")
 
-    for query_dir in query_dirs:
-        files = sorted(
-            [p for p in query_dir.iterdir() if p.is_file() and p.suffix in {".md", ".json"}]
-        )
-        if not files:
+    runs: list[tuple[str, Path, Path]] = []
+    queries = [project_root / query] if query else [p for p in project_root.iterdir() if p.is_dir()]
+
+    for qdir in queries:
+        if not qdir.exists() or not qdir.is_dir():
             continue
+        query_name = qdir.name
+        for run_dir in sorted(p for p in qdir.iterdir() if p.is_dir()):
+            raw_path = run_dir / "deepsearch.json"
+            if raw_path.exists():
+                runs.append((query_name, run_dir, raw_path))
+    if not runs:
+        raise SystemExit("[error] No deepsearch.json files found under project path.")
+    return runs
 
-        # derive query from folder name
-        query_name = sanitize_name(query_dir.name)
 
-        for input_path in files:
+def log_warning(warnings_file: Path, query_name: str, run_num: int, error: Exception) -> None:
+    """Log a warning for a failed query run.
+
+    Args:
+        warnings_file: Path to warnings log file
+        query_name: Name of the query that failed
+        run_num: Run number that failed
+        error: Exception that was raised
+    """
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_entry = f"[{timestamp}] Query: {query_name}, Run: {run_num}, Error: {error}\n"
+
+    with open(warnings_file, "a", encoding="utf-8") as f:
+        f.write(log_entry)
+
+
+def run_query_with_retry(
+    args: argparse.Namespace, query_name: str, genes: list[str], context: str, run_num: int
+) -> None:
+    """Run a single query with exponential backoff retry logic.
+
+    Args:
+        args: Command-line arguments namespace
+        query_name: Name of the query
+        genes: List of gene symbols
+        context: Biological context
+        run_num: Current run number (1-indexed)
+
+    Raises:
+        Exception: If all retry attempts fail
+    """
+    max_attempts = 3
+    backoff_delays = [1, 2, 4]  # seconds
+
+    for attempt in range(1, max_attempts + 1):
+        try:
+            print(f"[batch] Processing query '{query_name}' (run {run_num}/{args.num_runs})")
+
+            # Create a copy of args with query-specific genes and context
             sub_args = argparse.Namespace(**vars(args))
-            if input_path.suffix == ".md":
-                sub_args.from_markdown = input_path
-                sub_args.raw_input = None
-            else:
-                sub_args.raw_input = input_path
-                sub_args.from_markdown = None
             sub_args.query = query_name
-            sub_args.batch_dir = None  # prevent recursion
+            sub_args.genes = [[gene] for gene in genes]  # Format expected by load_genes
+            sub_args.context = context
 
-            print(f"[batch] Processing {input_path} as query '{query_name}'")
-            main_single_run(sub_args)
+            # Run the query (will create its own timestamped directory)
+            main_single_run(sub_args, fixed_run_dir=None, allow_print=False)
+            return  # Success
+
+        except Exception as e:
+            if attempt < max_attempts:
+                delay = backoff_delays[attempt - 1]
+                print(f"[retry] Attempt {attempt}/{max_attempts} failed for '{query_name}' "
+                      f"(run {run_num}): {e}")
+                print(f"[retry] Retrying in {delay}s...")
+                time.sleep(delay)
+            else:
+                # Final attempt failed, re-raise
+                print(f"[error] All {max_attempts} attempts failed for '{query_name}' (run {run_num})")
+                raise
+
+
+def process_csv_batch(args: argparse.Namespace) -> None:
+    """Process CSV batch with multiple runs per query.
+
+    Parses CSV file, validates queries, and executes each query the specified
+    number of times with retry logic. Warnings are logged for failed runs.
+
+    Args:
+        args: Command-line arguments namespace. Must include:
+            - batch_csv: Path to CSV file
+            - project: Project name
+            - num_runs: Number of times to run each query
+            - context/context_file: Optional global context
+
+    Raises:
+        ValueError: If CSV parsing or validation fails
+        SystemExit: If CSV file not found or other fatal errors
+    """
+    if not args.batch_csv.exists():
+        raise SystemExit(f"[error] CSV file not found: {args.batch_csv}")
+
+    # Load global context (may be None if all rows have per-row context)
+    try:
+        global_context = load_context(args)
+    except ValueError:
+        # No global context provided; will rely on per-row context
+        global_context = None
+
+    # Parse CSV
+    print(f"[batch] Parsing CSV file: {args.batch_csv}")
+    try:
+        queries = parse_csv_batch(args.batch_csv, global_context)
+    except ValueError as e:
+        raise SystemExit(f"[error] CSV parsing failed: {e}") from e
+
+    print(f"[batch] Found {len(queries)} queries, {args.num_runs} run(s) per query "
+          f"= {len(queries) * args.num_runs} total executions")
+
+    # Create warnings log file
+    output_dir = Path(args.output_dir)
+    warnings_file = output_dir / args.project / "batch_warnings.log"
+    warnings_file.parent.mkdir(parents=True, exist_ok=True)
+
+    # Execute each query num_runs times
+    total_queries = len(queries)
+    total_failures = 0
+
+    for query_idx, query in enumerate(queries, start=1):
+        for run_idx in range(1, args.num_runs + 1):
+            try:
+                print(f"[batch] Query {query_idx}/{total_queries}: {query.query_name}")
+                run_query_with_retry(args, query.query_name, query.genes, query.context, run_idx)
+            except Exception as e:
+                total_failures += 1
+                log_warning(warnings_file, query.query_name, run_idx, e)
+                print(f"[warn] Query '{query.query_name}' run {run_idx} failed after retries: {e}")
+
+    # Summary
+    total_runs = len(queries) * args.num_runs
+    total_successes = total_runs - total_failures
+    print(f"\n[batch] Complete.")
+    print(f"[batch] Total: {total_runs} runs, {total_successes} succeeded, {total_failures} failed")
+    if total_failures > 0:
+        print(f"[batch] Warnings logged to: {warnings_file}")
+
+
+def process_project_batch(args: argparse.Namespace) -> None:
+    """Batch process all deepsearch.json under outputs/{project}/{query}/{run}/."""
+    output_dir = Path(args.output_dir)
+    runs = _discover_project_runs(args.project, output_dir, args.query)
+    for query_name, run_dir, raw_path in runs:
+        sub_args = argparse.Namespace(**vars(args))
+        sub_args.raw_input = raw_path
+        sub_args.from_markdown = None
+        sub_args.query = query_name
+        sub_args.project = args.project
+        sub_args.fixed_run_dir = run_dir
+        print(f"[batch] Processing {raw_path} as query '{query_name}' (run: {run_dir.name})")
+        main_single_run(sub_args, fixed_run_dir=run_dir, allow_print=False)
     print("[batch] Done.")
 
 
 def main() -> None:
     args = parse_args()
-    if args.batch_dir:
-        process_batch(args)
+
+    # Handle informational operations FIRST (no mode required)
+    if args.list_presets:
+        list_presets()
         return
-    main_single_run(args)
+    if args.list_templates:
+        list_templates()
+        return
+    if args.show_template:
+        show_template(args.show_template)
+        return
+    if args.show_preset:
+        show_preset(args.show_preset)
+        return
+
+    # Explicit mode: CSV batch (fresh API calls)
+    if args.batch_csv:
+        if not args.project:
+            raise SystemExit("[error] --project is required with --batch-csv")
+        process_csv_batch(args)
+        return
+
+    # Explicit mode: Batch reprocess (offline)
+    if args.batch_reprocess:
+        if not args.project:
+            raise SystemExit("[error] --project is required with --batch-reprocess")
+        process_project_batch(args)
+        return
+
+    # Default: Fresh deepsearch run (implicit mode)
+    # This handles the common case: --genes + --context
+    # Let main_single_run() handle validation (missing genes, context, etc.)
+    main_single_run(args, fixed_run_dir=None, allow_print=True)
 
 
-def main_single_run(args: argparse.Namespace) -> None:
+def main_single_run(args: argparse.Namespace, fixed_run_dir: Path | None = None, allow_print: bool = True) -> None:
     # Handle informational operations first
     if args.list_presets:
         list_presets()
@@ -685,11 +901,19 @@ def main_single_run(args: argparse.Namespace) -> None:
     service = None
     if not offline_input:
         if args.preset:
-            service = DeepSearchService(preset=args.preset, **config_overrides)
+            from deep_research_client.models import CacheConfig  # type: ignore
+
+            cache_config = CacheConfig(enabled=args.cache)
+            service = DeepSearchService(preset=args.preset, cache_config=cache_config, **config_overrides)
         else:
             # Backward compatibility
+            from deep_research_client.models import CacheConfig  # type: ignore
+
+            cache_config = CacheConfig(enabled=args.cache)
             service = DeepSearchService(
-                preferred_provider=args.preferred_provider, **config_overrides
+                preferred_provider=args.preferred_provider,
+                cache_config=cache_config,
+                **config_overrides,
             )
 
     # Handle dry run
@@ -701,8 +925,13 @@ def main_single_run(args: argparse.Namespace) -> None:
     if args.show_config:
         show_configuration(service, args)
 
-    # Build run directory under outputs/<project>/<query>/<timestamp>
-    run_dir = build_run_directory(Path(args.output_dir), project_name, query_name)
+    # Build or reuse run directory
+    if fixed_run_dir is not None:
+        run_dir = Path(fixed_run_dir)
+    else:
+        run_dir = build_run_directory(Path(args.output_dir), project_name, query_name)
+
+    prefix = _versioned_prefix(run_dir, "deepsearch", getattr(args, "no_stomp", False))
 
     output_manager = OutputManager(output_dir=run_dir)
     resolver = None
@@ -718,14 +947,11 @@ def main_single_run(args: argparse.Namespace) -> None:
         if not args.raw_input.exists():
             raise SystemExit(f"[error] Raw input file not found: {args.raw_input}")
         raw_payload = json.loads(args.raw_input.read_text(encoding="utf-8"))
-        markdown = (
-            raw_payload.get("raw_response", {}).get("markdown") or raw_payload.get("markdown") or ""
-        )
-        citations = (
-            raw_payload.get("raw_response", {}).get("citations")
-            or raw_payload.get("citations")
-            or []
-        )
+        raw_resp = raw_payload.get("raw_response", {}) or {}
+        markdown = raw_resp.get("markdown") or raw_payload.get("markdown") or ""
+        citations = raw_resp.get("citations") or raw_payload.get("citations") or []
+        if not citations and markdown:
+            citations = extract_citations_from_markdown(markdown)
         metadata_src = raw_payload.get("metadata", {})
         genes = genes or metadata_src.get("genes") or []
         context = context or metadata_src.get("context") or ""
@@ -816,7 +1042,11 @@ def main_single_run(args: argparse.Namespace) -> None:
     context_for_output = context or "unspecified_context"
 
     raw_path = output_manager.save_raw_response(
-        result, genes_for_output, context_for_output, metadata=metadata
+        result,
+        genes_for_output,
+        context_for_output,
+        metadata=metadata,
+        filename=f"{prefix}.json",
     )
 
     debug_file = None
@@ -848,6 +1078,7 @@ def main_single_run(args: argparse.Namespace) -> None:
             metadata=metadata,
             citation_style=args.citation_style,
             citation_locale=args.citation_locale,
+            filename_prefix=prefix,
         )
 
     print(f"[ok] Saved raw DeepSearch response to {raw_path}")
@@ -886,11 +1117,11 @@ def main_single_run(args: argparse.Namespace) -> None:
                 print("[warn] No container/structured file available for Markdown generation.")
             else:
                 try:
-                    output_md = generate_markdown_report(Path(source_file))
+                    output_md = generate_markdown_report(container_path=Path(source_file))
                     print(f"[ok] Markdown report written to {output_md}")
                 except Exception as exc:
                     print(f"[warn] Markdown generation failed: {exc}")
-    if args.print_markdown:
+    if allow_print and args.print_markdown:
         markdown = getattr(result, "markdown", None) or getattr(result, "content", "")
         divider = "-" * 40
         print(divider)

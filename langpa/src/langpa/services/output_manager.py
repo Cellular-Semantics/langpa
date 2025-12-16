@@ -288,7 +288,10 @@ class OutputManager:
             resolver: Optional CitationResolver instance; created if not provided
             metadata: Optional metadata to include in container
             filename_prefix: Optional prefix for output filenames
-            use_pydantic: Use pydantic validation if True, jsonschema if False
+            use_pydantic: Use Pydantic validation with extra field handling (default: True).
+                         Pydantic validation is more robust for LLM outputs that may include
+                         unexpected fields like schema metadata (title, description, type).
+                         Set to False to use legacy jsonschema validation.
             citation_style: Citation style for compact bibliography (default: vancouver)
             citation_locale: Locale for citation formatting (default: en-US)
 
