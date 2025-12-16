@@ -84,63 +84,50 @@ class OutputManager:
             Parsed JSON dict or None if extraction/parsing fails
         """
         try:
+            candidates: list[dict[str, Any]] = []
+            seen_blocks: set[str] = set()
+
+            def add_candidate(json_text: str) -> None:
+                """Parse and store a JSON block if valid and unseen."""
+                cleaned = json_text.strip()
+                if not cleaned or cleaned in seen_blocks:
+                    return
+                try:
+                    parsed = json.loads(cleaned)
+                except json.JSONDecodeError:
+                    return
+                if isinstance(parsed, dict):
+                    parsed.pop("$schema", None)
+                    candidates.append(parsed)
+                    seen_blocks.add(cleaned)
+
             # Method 1: Look for JSON after </think> with optional fence or raw JSON
             think_pattern = r"</think>\s*(?:```json\s*\n(.*?)\n```|(\{.*\}))"
             match = re.search(think_pattern, markdown, re.DOTALL)
             if match:
                 json_candidate = match.group(1) or match.group(2)
                 if json_candidate:
-                    json_candidate = json_candidate.strip()
-                    try:
-                        parsed = json.loads(json_candidate)
-                        if isinstance(parsed, dict):
-                            parsed.pop("$schema", None)
-                        return parsed
-                    except json.JSONDecodeError:
-                        pass
+                    add_candidate(json_candidate)
 
-            # Method 2: Look for JSON code blocks (prioritize ones containing "context")
+            # Method 2: Look for JSON code blocks
             json_pattern = r"```json\s*\n(.*?)\n```"
-            matches = re.finditer(json_pattern, markdown, re.DOTALL)
-            for m in matches:
-                json_content = m.group(1).strip()
-                try:
-                    parsed = json.loads(json_content)
-                    if isinstance(parsed, dict):
-                        parsed.pop("$schema", None)
-                        # Prefer blocks that look like our schema (contain context/programs)
-                        if "context" in parsed or "programs" in parsed:
-                            return parsed
-                        # If no better candidate is found, return the first successfully
-                        # parsed block
-                        return parsed
-                except json.JSONDecodeError:
-                    continue
+            for m in re.finditer(json_pattern, markdown, re.DOTALL):
+                add_candidate(m.group(1))
 
-            # Method 2: Look for standalone JSON blocks (often after thinking)
-            # Common patterns: after </think>, or after "Here is the JSON:"
+            # Method 3: Standalone JSON blocks (after prompts like 'Here is the JSON')
             json_start_patterns = [
                 r"</think>\s*\n\s*(\{.*\})",
                 r"Here is the JSON[:\s]*\n\s*(\{.*\})",
                 r"JSON[:\s]*\n\s*(\{.*\})",
                 r"```\s*(\{.*\})\s*```",
-                r'\n(\{[^}]*"context"[^}]*\}.*\})',  # Look for our specific schema structure
+                r'\n(\{[^}]*"context"[^}]*\}.*\})',
             ]
-
             for pattern in json_start_patterns:
                 match = re.search(pattern, markdown, re.DOTALL | re.IGNORECASE)
                 if match:
-                    json_content = match.group(1).strip()
-                    try:
-                        parsed = json.loads(json_content)
-                        # Remove $schema field if present (causes validation issues)
-                        if isinstance(parsed, dict):
-                            parsed.pop("$schema", None)
-                        return parsed
-                    except json.JSONDecodeError:
-                        continue
+                    add_candidate(match.group(1))
 
-            # Method 3: Find largest JSON-like structure
+            # Method 4: Find large JSON-like structures by brace matching
             brace_positions = []
             for i, char in enumerate(markdown):
                 if char == "{":
@@ -148,34 +135,51 @@ class OutputManager:
                 elif char == "}":
                     brace_positions.append(("close", i))
 
-            # Find properly nested JSON structures
-            candidates = []
-            stack = []
-
+            stack: list[int] = []
+            json_texts: list[tuple[str, int]] = []
             for brace_type, pos in brace_positions:
                 if brace_type == "open":
                     stack.append(pos)
                 elif brace_type == "close" and stack:
                     start_pos = stack.pop()
-                    if not stack:  # Complete JSON structure
+                    if not stack:
                         json_text = markdown[start_pos : pos + 1].strip()
-                        if len(json_text) > 100:  # Reasonable size filter
-                            candidates.append((json_text, len(json_text)))
+                        if len(json_text) > 100:
+                            json_texts.append((json_text, len(json_text)))
 
-            # Try candidates from largest to smallest
-            candidates.sort(key=lambda x: x[1], reverse=True)
-            for json_text, _ in candidates[:3]:  # Try top 3 candidates
-                try:
-                    parsed = json.loads(json_text)
-                    # Verify it looks like our schema
-                    if isinstance(parsed, dict) and ("context" in parsed or "programs" in parsed):
-                        # Remove $schema field if present (causes validation issues)
-                        parsed.pop("$schema", None)
-                        return parsed
-                except json.JSONDecodeError:
-                    continue
+            for json_text, _ in sorted(json_texts, key=lambda x: x[1], reverse=True)[:3]:
+                add_candidate(json_text)
 
-            return None
+            if not candidates:
+                return None
+
+            def is_schema_like(data: dict[str, Any]) -> bool:
+                """Detect schema/definition blocks lacking result content."""
+                if "programs" in data or "context" in data or "input_genes" in data:
+                    return False
+                schema_keys = {"definitions", "title", "description", "required", "type"}
+                return bool(schema_keys & set(data.keys()))
+
+            def score_candidate(data: dict[str, Any]) -> int:
+                """Score candidates to prefer actual result payloads."""
+                score = 0
+                if "programs" in data:
+                    score += 3
+                    if data.get("programs"):
+                        score += 1
+                if "context" in data:
+                    score += 2
+                if "input_genes" in data:
+                    score += 1
+                if is_schema_like(data):
+                    score -= 5
+                return score
+
+            scored = [(score_candidate(c), idx, c) for idx, c in enumerate(candidates)]
+            scored.sort(key=lambda t: (t[0], -t[1]), reverse=True)
+            best_score, _, best_candidate = scored[0]
+
+            return best_candidate if best_score > 0 else None
 
         except Exception:
             return None
