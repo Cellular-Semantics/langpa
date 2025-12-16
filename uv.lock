@@ -327,7 +327,7 @@ wheels = [
 [[package]]
 name = "cellsem-llm-client"
 version = "0.1.0"
-source = { git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=v1.1-beta#877fff443ef636bbfcd055c997f3dd9c03ca91f5" }
+source = { git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=v1.11-beta#371bfd7b89d52362317cb0254c87593954e74689" }
 dependencies = [
     { name = "litellm" },
     { name = "pydantic" },
@@ -494,6 +494,31 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/4b/51/8ade005e5ca5b0d80fb4aff72a3775b325bdc3d27408c8113811a7cbe640/charset_normalizer-3.4.4-cp314-cp314-win_amd64.whl", hash = "sha256:8a6562c3700cce886c5be75ade4a5db4214fda19fede41d9792d100288d8f94c", size = 107104, upload-time = "2025-10-14T04:41:51.051Z" },
     { url = "https://files.pythonhosted.org/packages/da/5f/6b8f83a55bb8278772c5ae54a577f3099025f9ade59d0136ac24a0df4bde/charset_normalizer-3.4.4-cp314-cp314-win_arm64.whl", hash = "sha256:de00632ca48df9daf77a2c65a484531649261ec9f25489917f09e455cb09ddb2", size = 100743, upload-time = "2025-10-14T04:41:52.122Z" },
     { url = "https://files.pythonhosted.org/packages/0a/4c/925909008ed5a988ccbb72dcc897407e5d6d3bd72410d69e051fc0c14647/charset_normalizer-3.4.4-py3-none-any.whl", hash = "sha256:7a32c560861a02ff789ad905a2fe94e3f840803362c84fecf1851cb4cf3dc37f", size = 53402, upload-time = "2025-10-14T04:42:31.76Z" },
+]
+
+[[package]]
+name = "citeproc-py"
+version = "0.9.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "lxml" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3e/45/1ef360e947036256aadcfccc67698de61545e2bc82b8bee19280077c0191/citeproc_py-0.9.0.tar.gz", hash = "sha256:58781d8a563e87ca7cceb43d08beaca10dcdf9f3cf77ddf3b17894071edc27c8", size = 161247, upload-time = "2025-08-25T19:47:14.961Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/33/16/82b65366ff45eec94785ca562908f5f55ab83b4e1d31ce3e00f77d6a4120/citeproc_py-0.9.0-py3-none-any.whl", hash = "sha256:4737a2adbbb8ba13e2abd6c24c29095b7d0c36722e7d377f7b046323bfc4d4f9", size = 182713, upload-time = "2025-08-25T19:47:13.39Z" },
+]
+
+[[package]]
+name = "citeproc-py-styles"
+version = "0.1.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "lxml" },
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a9/5f/f404e956c24ea487563eb898e5a34cf4a399cd3f29e0a62abfd85d8e38c5/citeproc_py_styles-0.1.5.tar.gz", hash = "sha256:20a82e22b4eb814039449ba83be8c142a385e6f6f17f5b70b1b33b3fd1f8e619", size = 3691118, upload-time = "2025-07-17T19:22:07.555Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7c/f4/46806ef35525b9025561f1a05cc28f7f88a19ee4e03e4d005f7da3dd46e3/citeproc_py_styles-0.1.5-py2.py3-none-any.whl", hash = "sha256:2d15558d82fc447daf49a0861f01b51ee9dbc0d2f1872ac87fb6545867620433", size = 11939977, upload-time = "2025-07-17T19:22:05.68Z" },
 ]
 
 [[package]]
@@ -2014,7 +2039,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "cellsem-llm-client", git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=v1.1-beta" },
+    { name = "cellsem-llm-client", git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=v1.11-beta" },
     { name = "deep-research-client", git = "https://github.com/monarch-initiative/deep-research-client.git?rev=main" },
     { name = "jsonschema", specifier = ">=4.22.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.10.0" },
@@ -2028,7 +2053,7 @@ requires-dist = [
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.5.0" },
     { name = "sphinx", marker = "extra == 'dev'", specifier = ">=7.3.0" },
     { name = "sphinx-autodoc-typehints", marker = "extra == 'dev'", specifier = ">=1.25.0" },
-    { name = "url2ref", git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.0-beta" },
+    { name = "url2ref", git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.2-beta" },
 ]
 provides-extras = ["dev"]
 
@@ -4866,9 +4891,11 @@ wheels = [
 [[package]]
 name = "url2ref"
 version = "0.1.0"
-source = { git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.0-beta#bb01a41bb18c12ff1cfdc025bdf99f0b02e38117" }
+source = { git = "https://github.com/Cellular-Semantics/url2ref.git?rev=v1.2-beta#fd2b892d3a824f3d8b989b0ca8ee08052f53caaa" }
 dependencies = [
     { name = "beautifulsoup4" },
+    { name = "citeproc-py" },
+    { name = "citeproc-py-styles" },
     { name = "litellm" },
     { name = "lxml" },
     { name = "matplotlib" },
