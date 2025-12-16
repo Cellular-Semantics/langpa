@@ -11,6 +11,8 @@ outputs/
 # Test outputs (keep README for documentation)
 test_outputs/
 !test_outputs/README.md
+# Timestamp-based output directories (e.g., 20251212_121027/)
+202[0-9]*/
 .idea/
 tmp/
 # Distribution / packaging
