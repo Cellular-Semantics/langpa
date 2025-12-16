@@ -31,12 +31,6 @@ def generate_bubble_plot(
     color intensity shows the combined similarity score. Axes are numbered and
     annotated with gene counts; a legend maps numbers to program names.
 
-    Args:
-        matches_df: DataFrame with program matches (from compare_runs)
-        output_path: Path to save the PNG file
-        query: Optional query name to filter results (default: all queries)
-        figsize: Figure size as (width, height) tuple (default: (12, 8))
-
     .. code-block:: python
 
         from langpa_validation_tools.visualization import generate_bubble_plot
