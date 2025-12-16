@@ -43,11 +43,6 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--single",
-        type=Path,
-        help="Process a single input file (raw JSON or markdown). Skips batch traversal.",
-    )
-    parser.add_argument(
         "--batch-csv",
         type=Path,
         help=(
@@ -374,10 +369,24 @@ def derive_query_name(args: argparse.Namespace, input_path: Path | None) -> str:
         return sanitize_name(args.query)
 
     if input_path:
-        # Prefer immediate parent folder under projects/<project>/inputs/<query>/
+        # For output structure: outputs/{project}/{query}/{timestamp}/file
+        # Check if immediate parent looks like a timestamp directory
         parent = input_path.parent
-        if parent.name and parent.name not in {"inputs", args.project}:
+
+        # Timestamp pattern: YYYYMMDD_HHMMSS (e.g., 20251216_083514)
+        import re
+        timestamp_pattern = r'^\d{8}_\d{6}$'
+
+        if parent.name and re.match(timestamp_pattern, parent.name):
+            # Parent is timestamp, use grandparent as query name
+            grandparent = parent.parent
+            if grandparent.name and grandparent.name not in {"inputs", "outputs", args.project}:
+                return sanitize_name(grandparent.name)
+
+        # Otherwise use immediate parent if it's not a special directory
+        if parent.name and parent.name not in {"inputs", "outputs", args.project}:
             return sanitize_name(parent.name)
+
         return sanitize_name(input_path.stem)
 
     # Fallback for live runs: use genes + context recipe
@@ -796,7 +805,6 @@ def process_project_batch(args: argparse.Namespace) -> None:
         sub_args.from_markdown = None
         sub_args.query = query_name
         sub_args.project = args.project
-        sub_args.single = None
         sub_args.fixed_run_dir = run_dir
         print(f"[batch] Processing {raw_path} as query '{query_name}' (run: {run_dir.name})")
         main_single_run(sub_args, fixed_run_dir=run_dir, allow_print=False)
@@ -818,11 +826,6 @@ def main() -> None:
         return
     if args.show_preset:
         show_preset(args.show_preset)
-        return
-
-    # Explicit mode: Single file processing
-    if args.single:
-        main_single_run(args, fixed_run_dir=None, allow_print=True)
         return
 
     # Explicit mode: CSV batch (fresh API calls)
