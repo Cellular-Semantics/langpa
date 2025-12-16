@@ -107,7 +107,8 @@ def test_run_comparison_e2e() -> None:
         # Check columns
         expected_columns = [
             "query", "run_a", "run_b", "program_a", "program_b",
-            "gene_jaccard", "name_similarity", "combined_similarity"
+            "gene_jaccard", "name_similarity", "combined_similarity",
+            "overlap_count", "genes_a_count", "genes_b_count", "is_match",
         ]
         for col in expected_columns:
             assert col in df.columns
