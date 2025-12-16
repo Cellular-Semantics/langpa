@@ -116,13 +116,13 @@ def map_terms_to_go(
             agent = build_ontology_mapping_agent()
             deps = OntologyMappingDependencies.from_env()
             response = map_terms_to_go(
-                ["neutrophil chemotaxis", "NF-�B pathway"],
+                ["neutrophil chemotaxis", "NF-kB pathway"],
                 agent,
                 deps
             )
 
             for mapping in response.mappings:
-                print(f"{mapping.term} � {mapping.ontology_id}")
+                print(f"{mapping.term} -> {mapping.ontology_id}")
     """
     # Format terms as JSON for the agent
     user_prompt = f"Map these biological terms to GO: {json.dumps(terms)}"
@@ -130,4 +130,4 @@ def map_terms_to_go(
     # Run agent with dependencies
     result = agent.run_sync(user_prompt, deps=deps)
 
-    return result.data
+    return result.output
