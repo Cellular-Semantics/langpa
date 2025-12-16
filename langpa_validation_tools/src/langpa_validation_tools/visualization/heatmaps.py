@@ -22,7 +22,7 @@ def generate_bubble_plot(
     query: str | None = None,
     figsize: tuple[int, int] = (12, 8),
     return_fig: bool = False,
-) -> None:
+) -> None | tuple[Any, Any]:
     """Generate bubble plot visualization of program matches.
 
     Creates a scatter plot where each point represents a matched program pair.
