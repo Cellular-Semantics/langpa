@@ -23,7 +23,7 @@ from langpa.services import DeepSearchService, OutputManager
 load_dotenv()
 
 # Test configuration
-GENES = ["CCDC92", "C21orf91_obesity"]
+GENES = ["CCDC92", "C21orf91"]
 CONTEXT = "obesity"
 PRESET = "perplexity-sonar-schema-embedded"
 NUM_RUNS = 4
