@@ -183,13 +183,19 @@ def collect_project_data(project_dir: Path) -> ProjectData:
                         context_str = context
 
                 # Aggregate program data
-                for program in data.get("programs", []):
-                    prog_name = program.get("name", "")
+                # Programs can be at top level (old format) or in structured_data (new format)
+                programs = data.get("programs", [])
+                if not programs and "structured_data" in data:
+                    programs = data.get("structured_data", {}).get("programs", [])
+
+                for program in programs:
+                    # Handle both old and new field names
+                    prog_name = program.get("program_name") or program.get("name", "")
                     if not prog_name:
                         continue
 
-                    # Add genes
-                    prog_genes = program.get("genes", [])
+                    # Add genes (supporting_genes in new format, genes in old format)
+                    prog_genes = program.get("supporting_genes") or program.get("genes", [])
                     program_data[prog_name]["genes"].update(prog_genes)
 
                     # Add citations
@@ -323,11 +329,16 @@ def format_readme_markdown(project_data: ProjectData) -> str:
             lines.append("")
 
             # Program table
-            lines.append("| Program Name | Genes | Citations |")
-            lines.append("|---|---|---|")
+            lines.append("| Program Name | Genes | % of Total | Citations |")
+            lines.append("|---|---|---|---|")
             for program in query.programs:
+                pct_of_total = (
+                    round(100 * program.total_genes / query.num_genes)
+                    if query.num_genes > 0
+                    else 0
+                )
                 lines.append(
-                    f"| {program.name} | {program.total_genes} | {program.total_citations} |"
+                    f"| {program.name} | {program.total_genes} | {pct_of_total}% | {program.total_citations} |"
                 )
             lines.append("")
             lines.append("</details>")

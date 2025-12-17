@@ -192,12 +192,12 @@ def test_format_readme_markdown_program_table(temp_project_dir: Path):
     readme_content = format_readme_markdown(project_data)
 
     # Check table headers
-    assert "| Program Name | Genes | Citations |" in readme_content
-    assert "|---|---|---|" in readme_content
+    assert "| Program Name | Genes | % of Total | Citations |" in readme_content
+    assert "|---|---|---|---|" in readme_content
 
-    # Check program rows
-    assert "| Test Program 1 | 2 | 3 |" in readme_content
-    assert "| Test Program 2 | 2 | 1 |" in readme_content
+    # Check program rows (2 genes out of 3 total = 67%)
+    assert "| Test Program 1 | 2 | 67% | 3 |" in readme_content
+    assert "| Test Program 2 | 2 | 67% | 1 |" in readme_content
 
 
 def test_generate_batch_readme(temp_project_dir: Path):
