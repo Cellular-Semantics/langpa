@@ -74,7 +74,7 @@ def build_ontology_mapping_agent(
                 "Map these terms: neutrophil chemotaxis, cell migration",
                 deps=deps
             )
-            print(result.data.mappings)
+            print(result.output.mappings)
     """
     agent = Agent(
         model,

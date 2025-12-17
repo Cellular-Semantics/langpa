@@ -117,5 +117,52 @@ class DeepSearchValidator:
             max_retries=max_retries,
         )
 
+    def validate_enriched_output(
+        self, json_data: dict, max_retries: int = 3
+    ) -> SchemaValidationResult:
+        """Validate enriched deepsearch output with ontology mappings.
+
+        This method validates output that has been enriched with ontology mapping
+        fields using the enriched schema (deepsearch_results_schema_enriched.json).
+
+        Args:
+            json_data: Enriched JSON dictionary to validate
+            max_retries: Maximum number of validation retry attempts
+
+        Returns:
+            SchemaValidationResult with validation details
+
+        .. code-block:: python
+
+            # After ontology enrichment
+            enriched_data, metadata = enricher.enrich_deepsearch_output(data)
+
+            # Validate enriched output
+            validator = DeepSearchValidator()
+            result = validator.validate_enriched_output(enriched_data)
+
+            if result.success:
+                print("Enriched data validated successfully")
+        """
+        from pathlib import Path
+
+        from langpa.services.pydantic_models import get_pydantic_model_from_schema
+
+        # Get enriched schema path
+        enriched_schema_path = (
+            Path(__file__).parent.parent
+            / "schemas"
+            / "deepsearch_results_schema_enriched.json"
+        )
+
+        # Get pydantic model from enriched schema
+        model = get_pydantic_model_from_schema(enriched_schema_path)
+
+        return self.schema_validator.validate_with_retry(
+            response_text=json.dumps(json_data),
+            target_model=model,
+            max_retries=max_retries,
+        )
+
 
 __all__ = ["DeepSearchValidator"]
