@@ -20,6 +20,7 @@ from langpa.services.deepsearch_prompts import get_prompt_template, get_template
 from langpa.services.markdown_citation_extractor import extract_citations_from_markdown
 from langpa.utils.output_paths import build_run_directory, sanitize_name
 from langpa.utils.csv_batch_parser import parse_csv_batch
+from langpa.utils.readme_generator import generate_batch_readme
 
 # Ensure .env is loaded before instantiating clients
 load_dotenv()
@@ -54,6 +55,11 @@ def parse_args() -> argparse.Namespace:
         "--batch-reprocess",
         action="store_true",
         help="Reprocess existing deepsearch.json files in project directory. Requires --project.",
+    )
+    parser.add_argument(
+        "--generate-readme",
+        action="store_true",
+        help="Generate README.md for a project directory. Requires --project. Can be used standalone or with batch operations.",
     )
     parser.add_argument(
         "--num-runs",
@@ -791,6 +797,15 @@ def process_csv_batch(args: argparse.Namespace) -> None:
     total_successes = total_runs - total_failures
     print(f"\n[batch] Complete.")
     print(f"[batch] Total: {total_runs} runs, {total_successes} succeeded, {total_failures} failed")
+
+    # Generate README if requested
+    if args.generate_readme or total_successes > 0:
+        project_dir = output_dir / args.project
+        try:
+            readme_path = generate_batch_readme(project_dir)
+            print(f"[batch] README.md generated: {readme_path}")
+        except Exception as e:
+            print(f"[warn] README generation failed: {e}")
     if total_failures > 0:
         print(f"[batch] Warnings logged to: {warnings_file}")
 
@@ -810,6 +825,15 @@ def process_project_batch(args: argparse.Namespace) -> None:
         main_single_run(sub_args, fixed_run_dir=run_dir, allow_print=False)
     print("[batch] Done.")
 
+    # Generate README if requested
+    if args.generate_readme or len(runs) > 0:
+        project_dir = output_dir / args.project
+        try:
+            readme_path = generate_batch_readme(project_dir)
+            print(f"[batch] README.md generated: {readme_path}")
+        except Exception as e:
+            print(f"[warn] README generation failed: {e}")
+
 
 def main() -> None:
     args = parse_args()
@@ -826,6 +850,21 @@ def main() -> None:
         return
     if args.show_preset:
         show_preset(args.show_preset)
+        return
+
+    # Explicit mode: Generate README only
+    if args.generate_readme and not args.batch_csv and not args.batch_reprocess:
+        if not args.project:
+            raise SystemExit("[error] --project is required with --generate-readme")
+        output_dir = Path(args.output_dir)
+        project_dir = output_dir / args.project
+        if not project_dir.exists():
+            raise SystemExit(f"[error] Project directory not found: {project_dir}")
+        try:
+            readme_path = generate_batch_readme(project_dir)
+            print(f"[ok] README.md generated: {readme_path}")
+        except Exception as e:
+            raise SystemExit(f"[error] README generation failed: {e}") from e
         return
 
     # Explicit mode: CSV batch (fresh API calls)
