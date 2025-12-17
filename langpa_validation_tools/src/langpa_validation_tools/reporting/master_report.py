@@ -79,9 +79,14 @@ def build_master_report(
         "",
     ]
 
+    # Use only matched pairs for reporting stats if available
+    match_rows = matches_df
+    if "is_match" in matches_df.columns:
+        match_rows = matches_df[matches_df["is_match"]]
+
     # Add summary statistics
-    total_matches = len(matches_df)
-    queries = matches_df["query"].unique() if "query" in matches_df.columns else []
+    total_matches = len(match_rows)
+    queries = match_rows["query"].unique() if "query" in match_rows.columns else []
     num_queries = len(queries)
 
     lines.extend([
@@ -91,9 +96,9 @@ def build_master_report(
     ])
 
     if total_matches > 0:
-        avg_gene_jaccard = matches_df["gene_jaccard"].mean()
-        avg_name_sim = matches_df["name_similarity"].mean()
-        avg_combined = matches_df["combined_similarity"].mean()
+        avg_gene_jaccard = match_rows["gene_jaccard"].mean()
+        avg_name_sim = match_rows["name_similarity"].mean()
+        avg_combined = match_rows["combined_similarity"].mean()
 
         lines.extend([
             f"- **Average Gene Jaccard**: {avg_gene_jaccard:.3f}",
@@ -103,12 +108,12 @@ def build_master_report(
         ])
 
     # Per-query sections
-    if "query" in matches_df.columns and num_queries > 0:
+    if "query" in match_rows.columns and num_queries > 0:
         lines.append("## Per-Query Analysis")
         lines.append("")
 
         for query in sorted(queries):
-            query_matches = matches_df[matches_df["query"] == query]
+            query_matches = match_rows[match_rows["query"] == query]
 
             lines.extend([
                 f"### Query: {query}",

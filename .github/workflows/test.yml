@@ -60,7 +60,6 @@ jobs:
         if: matrix.python-version == '3.11' && github.ref == 'refs/heads/main'
         uses: tj-actions/coverage-badge-py@v2
         with:
-          coverage-path: coverage.xml
           output: .github/badges/coverage.svg
 
       - name: Commit Coverage Badge
@@ -69,9 +68,9 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           mkdir -p .github/badges
-          git add .github/badges/coverage.svg
+          git add .github/badges/coverage.svg || true
           git diff --staged --quiet || git commit -m "Update coverage badge [skip ci]"
-          git push
+          git push || true
 
   docs:
     runs-on: ubuntu-latest

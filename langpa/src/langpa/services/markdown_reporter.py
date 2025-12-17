@@ -93,9 +93,11 @@ class MarkdownReportGenerator:
         lines.append("")
         lines.append("## Bibliography")
         if bibliography.compact_entries:
-            for idx, entry in enumerate(bibliography.compact_entries, start=1):
-                lines.append(f"{idx}. {entry}")
+            # Compact entries already have numbers, render as-is
+            for entry in bibliography.compact_entries:
+                lines.append(entry)
         else:
+            # Fallback to manual rendering if no compact entries
             for source_id in bibliography.order:
                 entry = bibliography.entries.get(source_id, {})
                 title = entry.get("title") or entry.get("Title") or entry.get("id") or ""

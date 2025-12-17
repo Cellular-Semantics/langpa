@@ -2459,6 +2459,7 @@ version = "0.1.0"
 source = { editable = "langpa" }
 dependencies = [
     { name = "cellsem-llm-client" },
+    { name = "citeproc-py" },
     { name = "deep-research-client" },
     { name = "jsonschema" },
     { name = "oaklib" },
@@ -2493,6 +2494,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "cellsem-llm-client", git = "https://github.com/Cellular-Semantics/cellsem_llm_client.git?rev=v1.11-beta" },
+    { name = "citeproc-py", specifier = ">=0.6.0" },
     { name = "deep-research-client", git = "https://github.com/monarch-initiative/deep-research-client.git?rev=main" },
     { name = "jsonschema", specifier = ">=4.22.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.10.0" },

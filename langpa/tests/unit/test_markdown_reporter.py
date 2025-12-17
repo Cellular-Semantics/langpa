@@ -159,3 +159,44 @@ def test_required_genes_rendering() -> None:
     assert "Required genes" in markdown
     assert "REQ1" in markdown and "REQ2" in markdown
     assert "[2]" in markdown and "needed" in markdown
+
+
+@pytest.mark.unit
+def test_compact_bibliography_rendering_no_double_numbering() -> None:
+    """Compact bibliography entries should be rendered as-is without extra numbering."""
+    container = {
+        "report": {
+            "context": {"cell_type": "astrocyte"},
+            "input_genes": ["FOO1"],
+            "programs": [
+                {
+                    "program_name": "Test",
+                    "description": "Desc",
+                    "predicted_cellular_impact": ["impact"],
+                    "evidence_summary": "evidence",
+                    "significance_score": 0.5,
+                    "citations": [{"source_id": "1"}],
+                    "supporting_genes": ["FOO1"],
+                }
+            ],
+            "version": "1.0",
+        },
+        "citations": {"1": {"id": "1", "URL": "https://example.com/one"}},
+        "compact_bibliography": {
+            "entries": [
+                "[1] Doe J, Smith A. Example Paper. Nature 2024. 10.1038/example",
+                "[2] Jones B. Another Paper. Science 2023. PMID:12345"
+            ]
+        },
+    }
+
+    generator = MarkdownReportGenerator()
+    markdown = generator.render_from_container(container)
+
+    # Should NOT have double numbering
+    assert "1. [1]" not in markdown
+    assert "2. [2]" not in markdown
+
+    # Should have clean entries
+    assert "[1] Doe J, Smith A. Example Paper" in markdown
+    assert "[2] Jones B. Another Paper" in markdown
