@@ -469,35 +469,35 @@ Protein quality control systems, including the ubiquitin-proteasome system and a
 - [16]: Autophagy and protein quality control in chronic pathological conditions
 
 ## Bibliography
-1. 1. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
-2. 2. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
-3. 3. Available from: https://www.ncbi.nlm.nih.gov/gene/18015
-4. 4. Available from: https://www.ncbi.nlm.nih.gov/gene/546
-5. 5. Niu R-Z, Xue L-L, Tian X-H, Huangfu L-R, Chen L, Zhai C-Y, et al.. Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome. Nature Communications [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41467-025-66109-9_reference.pdf
-6. 6. Dimitriou C, Anesti M, Kaplanis S, Mourtzi T, Dimopoulou A, Dimitrakopoulos D, et al.. Platelets regulate neural and oligodendroglial progenitors when infiltrating the brain parenchyma. Communications Biology [Internet]. 2025Nov24;8(1). Available from: https://www.nature.com/articles/s42003-025-09028-1
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/8502
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/20674
-9. 9. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/5318
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=18508
-12. 12. Liu Y, Hu J-J, Cao B, Chen P, Peng B, Yao H, et al.. EphB1-NR2B receptor signaling in glutamatergic neurons of the ventroposteromedial thalamic nucleus regulates emergence from anesthesia. Science Advances [Internet]. 2025Dec5;11(49). Available from: https://www.science.org/doi/10.1126/sciadv.adw7972
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/121021
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/13641
-15. 15. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/10215
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/2260
-19. 19. Available from: https://www.ncbi.nlm.nih.gov/gene/4613
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/4804
-21. 21. Jiang R, Lu Z, Li F, Zhu Y, Yang M, Zhang S, et al.. scCirclehunter delineates ecDNA-containing cells using single-cell ATAC-seq, with a focus on glioblastoma. Cell Discovery [Internet]. 2025Dec9;11(1). Available from: https://www.nature.com/articles/s41421-025-00842-9
-22. 22. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
-23. 23. Zhang J, Li M, Wang M, Sun Y, Yin C, Yang S, et al.. Single-cell spatiotemporal transcriptomic and chromatin accessibility profiling in developing postnatal human and macaque prefrontal cortex. Nature Neuroscience [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41593-025-02150-7
-24. 24. Available from: https://www.ncbi.nlm.nih.gov/gene/21898
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/12053
-26. 26. Available from: https://www.ncbi.nlm.nih.gov/gene/18033
-27. 27. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
-28. 28. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/6622
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/5894
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
-32. 32. Available from: http://json-schema.org/draft-07/schema#",
+1. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
+2. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
+3. Available from: https://www.ncbi.nlm.nih.gov/gene/18015
+4. Available from: https://www.ncbi.nlm.nih.gov/gene/546
+5. Niu R-Z, Xue L-L, Tian X-H, Huangfu L-R, Chen L, Zhai C-Y, et al.. Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome. Nature Communications [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41467-025-66109-9_reference.pdf
+6. Dimitriou C, Anesti M, Kaplanis S, Mourtzi T, Dimopoulou A, Dimitrakopoulos D, et al.. Platelets regulate neural and oligodendroglial progenitors when infiltrating the brain parenchyma. Communications Biology [Internet]. 2025Nov24;8(1). Available from: https://www.nature.com/articles/s42003-025-09028-1
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/8502
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/20674
+9. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/5318
+11. Available from: https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=18508
+12. Liu Y, Hu J-J, Cao B, Chen P, Peng B, Yao H, et al.. EphB1-NR2B receptor signaling in glutamatergic neurons of the ventroposteromedial thalamic nucleus regulates emergence from anesthesia. Science Advances [Internet]. 2025Dec5;11(49). Available from: https://www.science.org/doi/10.1126/sciadv.adw7972
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/121021
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/13641
+15. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/10215
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/2260
+19. Available from: https://www.ncbi.nlm.nih.gov/gene/4613
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/4804
+21. Jiang R, Lu Z, Li F, Zhu Y, Yang M, Zhang S, et al.. scCirclehunter delineates ecDNA-containing cells using single-cell ATAC-seq, with a focus on glioblastoma. Cell Discovery [Internet]. 2025Dec9;11(1). Available from: https://www.nature.com/articles/s41421-025-00842-9
+22. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
+23. Zhang J, Li M, Wang M, Sun Y, Yin C, Yang S, et al.. Single-cell spatiotemporal transcriptomic and chromatin accessibility profiling in developing postnatal human and macaque prefrontal cortex. Nature Neuroscience [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41593-025-02150-7
+24. Available from: https://www.ncbi.nlm.nih.gov/gene/21898
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/12053
+26. Available from: https://www.ncbi.nlm.nih.gov/gene/18033
+27. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
+28. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/6622
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/5894
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
+32. Available from: http://json-schema.org/draft-07/schema#",

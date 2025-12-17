@@ -1,0 +1,16 @@
+{
+  "total_processes": 30,
+  "total_components": 10,
+  "mapped_processes": 29,
+  "mapped_components": 9,
+  "failed_mappings": [
+    {
+      "term": "Cell differentiation and lineage commitment",
+      "type": "process"
+    },
+    {
+      "term": "Synaptic scaffold complexes",
+      "type": "component"
+    }
+  ]
+}

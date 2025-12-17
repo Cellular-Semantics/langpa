@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T23:34:31.504426",
+    "timestamp": "2025-12-17T22:11:31.948946",
     "genes": [
       "THSD7A",
       "RND3",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_20",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -264,7 +264,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/10419",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 225.06063103675842
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -497,7 +497,12 @@
                 "source_id": "15",
                 "notes": "INSM1 governs neuronal progenitor state critical for glioblastoma plasticity and maintenance of transformed phenotype"
               }
-            ]
+            ],
+            "ontology_id": "GO:0048496",
+            "ontology_label": "maintenance of animal organ identity",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Prevention of terminal neuronal differentiation",
@@ -511,7 +516,12 @@
                 "source_id": "8",
                 "notes": "INSM1 maintains undifferentiated state; knockdown promotes differentiation and reduces tumorigenicity"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           },
           {
             "name": "Neural stem cell maintenance and self-renewal",
@@ -528,7 +538,12 @@
                 "source_id": "5",
                 "notes": "SoxC transcription factors target promoters of genes induced during neural differentiation and maintain progenitor identity"
               }
-            ]
+            ],
+            "ontology_id": "GO:0097150",
+            "ontology_label": "neuronal stem cell population maintenance",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -547,7 +562,12 @@
                 "source_id": "8",
                 "notes": "INSM1 forms transcriptional network with other transcription factors regulating progenitor fate"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -623,7 +643,12 @@
                 "source_id": "34",
                 "notes": "Type I UCRs within protein-coding genes modulate brain development by regulating alternative splicing of genes controlling neural differentiation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0000380",
+            "ontology_label": "alternative mRNA splicing, via spliceosome",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Neuronal isoform production from progenitor-like transcriptional state",
@@ -638,7 +663,12 @@
                 "source_id": "14",
                 "notes": "Splicing factors control production of neuronal versions of cytoskeletal and development-related proteins"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -654,7 +684,12 @@
                 "source_id": "14",
                 "notes": "SRRM4 recruits spliceosome machinery to neuronal exons, promoting their inclusion in mature transcripts"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005681",
+            "ontology_label": "spliceosomal complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "RNA stability regulation apparatus",
@@ -668,7 +703,12 @@
                 "source_id": "14",
                 "notes": "ELAV proteins bind AU-rich elements in neuronal transcripts, stabilizing neuronal mRNAs"
               }
-            ]
+            ],
+            "ontology_id": "GO:0043487",
+            "ontology_label": "regulation of RNA stability",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -736,7 +776,12 @@
                 "source_id": "14",
                 "notes": "ROBO and DCC pathways guide cell migration during neural development and are dysregulated in glioma invasion"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           },
           {
             "name": "Response to guidance ligands (SLIT and NETRIN)",
@@ -752,7 +797,12 @@
                 "source_id": "34",
                 "notes": "Axon guidance molecules create repulsive and attractive cues guiding neuronal migration"
               }
-            ]
+            ],
+            "ontology_id": "GO:0038007",
+            "ontology_label": "netrin-activated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Suppression of pro-apoptotic DCC signaling",
@@ -766,7 +816,12 @@
                 "source_id": "14",
                 "notes": "DCC functions both in survival/migration and in pro-apoptotic pathways depending on NETRIN availability and signaling context"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "atomic_cellular_components": [
@@ -782,7 +837,12 @@
                 "source_id": "14",
                 "notes": "ROBO proteins function as transmembrane receptors for SLIT guidance molecules"
               }
-            ]
+            ],
+            "ontology_id": "GO:0071666",
+            "ontology_label": "Slit-Robo signaling complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "DCC/NETRIN signaling complex",
@@ -796,7 +856,12 @@
                 "source_id": "14",
                 "notes": "DCC and associated proteins form signaling complex responding to NETRIN ligands"
               }
-            ]
+            ],
+            "ontology_id": "GO:0038007",
+            "ontology_label": "netrin-activated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -864,7 +929,12 @@
                 "source_id": "14",
                 "notes": "Glutamate transporters and synaptic vesicle proteins are essential for glutamatergic neurotransmission"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098700",
+            "ontology_label": "neurotransmitter loading into synaptic vesicle",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Ionotropic glutamate receptor signaling",
@@ -883,7 +953,12 @@
                 "source_id": "30",
                 "notes": "GRIA4 AMPA receptor subunit involved in fast synaptic transmission and plasticity"
               }
-            ]
+            ],
+            "ontology_id": "GO:0035235",
+            "ontology_label": "ionotropic glutamate receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.95,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Calcium-dependent synaptic processes",
@@ -897,7 +972,12 @@
                 "source_id": "14",
                 "notes": "Calcium signaling regulates synaptic plasticity and dendritic integration"
               }
-            ]
+            ],
+            "ontology_id": "GO:0099502",
+            "ontology_label": "calcium-dependent activation of synaptic vesicle fusion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -915,7 +995,12 @@
                 "source_id": "14",
                 "notes": "Synaptotagmins and piccolo regulate synaptic vesicle docking and release"
               }
-            ]
+            ],
+            "ontology_id": "GO:0008021",
+            "ontology_label": "synaptic vesicle",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Postsynaptic density structure",
@@ -931,7 +1016,12 @@
                 "source_id": "14",
                 "notes": "Postsynaptic density contains glutamate receptors, scaffolding proteins, and adhesion molecules"
               }
-            ]
+            ],
+            "ontology_id": "GO:0014069",
+            "ontology_label": "postsynaptic density",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1002,7 +1092,12 @@
                 "source_id": "14",
                 "notes": "Cadherins and catenins form adherens junctions essential for tissue organization"
               }
-            ]
+            ],
+            "ontology_id": "GO:0034334",
+            "ontology_label": "adherens junction maintenance",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Immunoglobulin superfamily cell-cell recognition",
@@ -1016,7 +1111,12 @@
                 "source_id": "14",
                 "notes": "Contactins and neurexins mediate cell-cell interactions through immunoglobulin domains"
               }
-            ]
+            ],
+            "ontology_id": "GO:0009988",
+            "ontology_label": "cell-cell recognition",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Bidirectional ephrin-EphB signaling",
@@ -1034,7 +1134,12 @@
                 "source_id": "32",
                 "notes": "Ephrin-EphB signaling controls cell migration, morphology, and adhesion"
               }
-            ]
+            ],
+            "ontology_id": "GO:0048013",
+            "ontology_label": "ephrin receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1050,7 +1155,12 @@
                 "source_id": "14",
                 "notes": "Alpha-catenin links cadherins to the actin cytoskeleton, providing mechanical strength to junctions"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005912",
+            "ontology_label": "adherens junction",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Synaptic adhesion complex",
@@ -1065,7 +1175,12 @@
                 "source_id": "14",
                 "notes": "Neurexins, contactins, and eph receptors form heterophilic adhesion complexes at synapses"
               }
-            ]
+            ],
+            "ontology_id": "GO:0099560",
+            "ontology_label": "synaptic membrane adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1137,7 +1252,12 @@
                 "source_id": "8",
                 "notes": "INSM1 drives progenitor fate in developing brain and in glioblastoma"
               }
-            ]
+            ],
+            "ontology_id": "GO:0001708",
+            "ontology_label": "cell fate specification",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Neuronal differentiation and synaptogenesis",
@@ -1152,7 +1272,12 @@
                 "source_id": "21",
                 "notes": "FOXP2 regulates synaptic development and neural circuit formation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007416",
+            "ontology_label": "synapse assembly",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Epithelial-mesenchymal transition and migration",
@@ -1166,7 +1291,12 @@
                 "source_id": "33",
                 "notes": "ZEB1 drives epithelial-mesenchymal transition and cell lineage plasticity, enabling cellular reprogramming"
               }
-            ]
+            ],
+            "ontology_id": "GO:0001837",
+            "ontology_label": "epithelial to mesenchymal transition",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Developmental patterning and neural axis formation",
@@ -1180,7 +1310,12 @@
                 "source_id": "14",
                 "notes": "LIM-homeodomain transcription factors specify neural cell identities and patterning"
               }
-            ]
+            ],
+            "ontology_id": "GO:0021532",
+            "ontology_label": "neural tube patterning",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1198,7 +1333,12 @@
                 "source_id": "8",
                 "notes": "SOX and EBF factors cooperate in transcriptional regulation of progenitor genes"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           },
           {
             "name": "EMT-inducing transcriptional complex",
@@ -1212,7 +1352,12 @@
                 "source_id": "33",
                 "notes": "ZEB1 and related EMT factors form transcriptional repressor complexes silencing epithelial genes"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           }
         ],
         "predicted_cellular_impact": [
@@ -1282,7 +1427,12 @@
                 "source_id": "14",
                 "notes": "lncRNAs regulate chromatin accessibility and histone modifications controlling gene expression"
               }
-            ]
+            ],
+            "ontology_id": "GO:0040029",
+            "ontology_label": "epigenetic regulation of gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Alternative splicing regulation through lncRNA interactions",
@@ -1296,7 +1446,12 @@
                 "source_id": "34",
                 "notes": "lncRNAs interact with splicing factors to modulate alternative splicing patterns"
               }
-            ]
+            ],
+            "ontology_id": "GO:0000381",
+            "ontology_label": "regulation of alternative mRNA splicing, via spliceosome",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "miRNA biogenesis and regulation",
@@ -1309,7 +1464,12 @@
                 "source_id": "14",
                 "notes": "Host genes for miRNAs contain regulatory sequences controlling miRNA expression"
               }
-            ]
+            ],
+            "ontology_id": "GO:0035196",
+            "ontology_label": "miRNA processing",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1325,7 +1485,12 @@
                 "source_id": "14",
                 "notes": "lncRNAs recruit chromatin remodeling complexes to specific genomic loci"
               }
-            ]
+            ],
+            "ontology_id": "GO:0000785",
+            "ontology_label": "chromatin",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1392,7 +1557,12 @@
                 "source_id": "3",
                 "notes": "RND3 regulates actin cytoskeleton during astrocyte-to-neuron conversion and morphological changes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0030036",
+            "ontology_label": "actin cytoskeleton organization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Focal adhesion assembly and turnover",
@@ -1406,7 +1576,12 @@
                 "source_id": "14",
                 "notes": "PAK-mediated phosphorylation regulates focal adhesion dynamics and cell migration"
               }
-            ]
+            ],
+            "ontology_id": "GO:0048041",
+            "ontology_label": "focal adhesion assembly",
+            "ontology_source": "GO",
+            "confidence": 0.75,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell-cell junction dynamics",
@@ -1420,7 +1595,12 @@
                 "source_id": "3",
                 "notes": "RND3 signaling modulates cell-cell adhesion during developmental transitions"
               }
-            ]
+            ],
+            "ontology_id": "GO:0045216",
+            "ontology_label": "cell-cell junction organization",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1436,7 +1616,12 @@
                 "source_id": "10",
                 "notes": "PAK proteins interact with GTPases and scaffold proteins regulating downstream signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0099125",
+            "ontology_label": "PAK family kinase-Sog2 complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Focal adhesion maturation machinery",
@@ -1451,7 +1636,12 @@
                 "source_id": "14",
                 "notes": "Focal adhesions contain integrin-binding proteins and actin regulators"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005925",
+            "ontology_label": "focal adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T22:32:57.237866",
+    "timestamp": "2025-12-17T21:35:59.356181",
     "genes": [
       "CARNS1",
       "MOBP",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_8",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -279,7 +279,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/6667",
       "https://www.nature.com/articles/s41593-025-02123-w"
     ],
-    "duration_seconds": 236.99061012268066
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -514,7 +514,12 @@
               "SOX10",
               "NKX6-2",
               "MYRF"
-            ]
+            ],
+            "ontology_id": "GO:0048713",
+            "ontology_label": "regulation of oligodendrocyte differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Chromatin remodeling and DNA accessibility",
@@ -532,7 +537,12 @@
               "SOX10",
               "VRK2",
               "TRIM59"
-            ]
+            ],
+            "ontology_id": "GO:0006338",
+            "ontology_label": "chromatin remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [
@@ -553,7 +563,12 @@
               "NKX6-2",
               "MYRF",
               "VRK2"
-            ]
+            ],
+            "ontology_id": "GO:0005667",
+            "ontology_label": "transcription regulator complex",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Chromatin modifying enzyme complexes",
@@ -567,7 +582,12 @@
               "TRIM2",
               "TRIM59",
               "VRK2"
-            ]
+            ],
+            "ontology_id": "GO:0005677",
+            "ontology_label": "chromatin silencing complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -650,7 +670,12 @@
               "PLP1",
               "MOG",
               "MOBP"
-            ]
+            ],
+            "ontology_id": "GO:0010467",
+            "ontology_label": "gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Myelin protein trafficking and assembly",
@@ -669,7 +694,12 @@
               "MAG",
               "ENPP2",
               "CNP"
-            ]
+            ],
+            "ontology_id": "GO:0032288",
+            "ontology_label": "myelin assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Myelin sheath compaction and stability",
@@ -683,7 +713,12 @@
               "PLLP",
               "CLDN11",
               "MAL"
-            ]
+            ],
+            "ontology_id": "GO:0043217",
+            "ontology_label": "myelin maintenance",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -707,7 +742,12 @@
               "MAG",
               "OPALIN",
               "CNP"
-            ]
+            ],
+            "ontology_id": "GO:0043209",
+            "ontology_label": "myelin sheath",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Myelin membrane domains",
@@ -726,7 +766,12 @@
               "CNTNAP4",
               "PLLP",
               "OPALIN"
-            ]
+            ],
+            "ontology_id": "GO:0043209",
+            "ontology_label": "myelin sheath",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -810,7 +855,12 @@
             "genes": [
               "CLDN11",
               "CLDND1"
-            ]
+            ],
+            "ontology_id": "GO:0120193",
+            "ontology_label": "tight junction organization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Adherens junction stabilization",
@@ -827,7 +877,12 @@
             "genes": [
               "CDH19",
               "CTNNA3"
-            ]
+            ],
+            "ontology_id": "GO:0034334",
+            "ontology_label": "adherens junction maintenance",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell adhesion molecule-mediated intercellular communication",
@@ -845,7 +900,12 @@
               "CNTN2",
               "CNTNAP4",
               "CERCAM"
-            ]
+            ],
+            "ontology_id": "GO:0044331",
+            "ontology_label": "cell-cell adhesion mediated by cadherin",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -864,7 +924,12 @@
             "genes": [
               "CLDN11",
               "CLDND1"
-            ]
+            ],
+            "ontology_id": "GO:0070160",
+            "ontology_label": "tight junction",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Adherens junction complexes",
@@ -881,7 +946,12 @@
             "genes": [
               "CDH19",
               "CTNNA3"
-            ]
+            ],
+            "ontology_id": "GO:0005912",
+            "ontology_label": "adherens junction",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Extracellular matrix components supporting adhesion",
@@ -899,7 +969,12 @@
               "EDIL3",
               "SPOCK3",
               "COL4A5"
-            ]
+            ],
+            "ontology_id": "GO:0007160",
+            "ontology_label": "cell-matrix adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -982,7 +1057,12 @@
             ],
             "genes": [
               "ATP1B1"
-            ]
+            ],
+            "ontology_id": "GO:0006814",
+            "ontology_label": "sodium ion transport",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Potassium channel-mediated conductance",
@@ -999,7 +1079,12 @@
             "genes": [
               "KCNK1",
               "KCNMB4"
-            ]
+            ],
+            "ontology_id": "GO:0005267",
+            "ontology_label": "potassium channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Phospholipid metabolism supporting channel regulation",
@@ -1013,7 +1098,12 @@
               "PIP4K2A",
               "PLD1",
               "PLAAT3"
-            ]
+            ],
+            "ontology_id": "GO:1903725",
+            "ontology_label": "regulation of phospholipid metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1032,7 +1122,12 @@
             "genes": [
               "ATP1B1",
               "ATP8A1"
-            ]
+            ],
+            "ontology_id": "GO:0005391",
+            "ontology_label": "P-type sodium:potassium-exchanging transporter activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Voltage-gated ion channels",
@@ -1046,7 +1141,12 @@
               "KCNK1",
               "KCNMB4",
               "PIEZO2"
-            ]
+            ],
+            "ontology_id": "GO:0022832",
+            "ontology_label": "voltage-gated channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Membrane phospholipid regulation complexes",
@@ -1060,7 +1160,12 @@
               "PIP4K2A",
               "PLD1",
               "PLAAT3"
-            ]
+            ],
+            "ontology_id": "GO:0061091",
+            "ontology_label": "regulation of phospholipid translocation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1133,7 +1238,12 @@
             "genes": [
               "SEMA4D",
               "UNC5C"
-            ]
+            ],
+            "ontology_id": "GO:1902287",
+            "ontology_label": "semaphorin-plexin signaling pathway involved in axon guidance",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Growth factor receptor signaling",
@@ -1151,7 +1261,12 @@
               "ERBB3",
               "FGFR2",
               "LPAR1"
-            ]
+            ],
+            "ontology_id": "GO:0007173",
+            "ontology_label": "epidermal growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "RNA-binding protein-mediated translational control",
@@ -1164,7 +1279,12 @@
             "genes": [
               "LARP6",
               "DNAJC6"
-            ]
+            ],
+            "ontology_id": "GO:0140764",
+            "ontology_label": "small RNA binding translational repressor activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1179,7 +1299,12 @@
             "genes": [
               "SEMA4D",
               "MEGF10"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_direct_match"
           },
           {
             "name": "Growth factor receptor complexes",
@@ -1193,7 +1318,12 @@
               "ERBB3",
               "FGFR2",
               "LPAR1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_direct_match"
           },
           {
             "name": "Chloride channel signaling complexes",
@@ -1205,7 +1335,12 @@
             ],
             "genes": [
               "BEST1"
-            ]
+            ],
+            "ontology_id": "GO:0034707",
+            "ontology_label": "chloride channel complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1276,7 +1411,12 @@
             ],
             "genes": [
               "FA2H"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Cerebroside (galactosylceramide) synthesis",
@@ -1288,7 +1428,12 @@
             ],
             "genes": [
               "UGT8"
-            ]
+            ],
+            "ontology_id": "GO:0006682",
+            "ontology_label": "galactosylceramide biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Very long-chain fatty acid elongation",
@@ -1301,7 +1446,12 @@
             "genes": [
               "ELOVL7",
               "SCD"
-            ]
+            ],
+            "ontology_id": "GO:0030497",
+            "ontology_label": "fatty acid elongation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cholesterol and oxysterol trafficking",
@@ -1313,7 +1463,12 @@
             ],
             "genes": [
               "OSBPL1A"
-            ]
+            ],
+            "ontology_id": "GO:0030301",
+            "ontology_label": "cholesterol transport",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1329,7 +1484,12 @@
               "FA2H",
               "SCD",
               "ELOVL7"
-            ]
+            ],
+            "ontology_id": "GO:0006633",
+            "ontology_label": "fatty acid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Glycosphingolipid synthesis complexes",
@@ -1342,7 +1502,12 @@
             "genes": [
               "UGT8",
               "ST6GALNAC3"
-            ]
+            ],
+            "ontology_id": "GO:0006688",
+            "ontology_label": "glycosphingolipid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lipid trafficking and binding proteins",
@@ -1361,7 +1526,12 @@
               "ABCA2",
               "ABCA6",
               "ABCA8"
-            ]
+            ],
+            "ontology_id": "GO:0008289",
+            "ontology_label": "lipid binding",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1436,7 +1606,12 @@
             "genes": [
               "ATP1B1",
               "ENO4"
-            ]
+            ],
+            "ontology_id": "GO:0006112",
+            "ontology_label": "energy reserve metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Glycogen metabolism and glucose utilization",
@@ -1449,7 +1624,12 @@
             "genes": [
               "ATP1B1",
               "TPPP"
-            ]
+            ],
+            "ontology_id": "GO:0005977",
+            "ontology_label": "glycogen metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Inflammatory signaling and metabolic adaptation",
@@ -1466,7 +1646,12 @@
             "genes": [
               "IL1RAPL1",
               "TNF"
-            ]
+            ],
+            "ontology_id": "GO:0006954",
+            "ontology_label": "inflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1486,7 +1671,12 @@
               "ATP1B1",
               "ATP8A1",
               "ENO4"
-            ]
+            ],
+            "ontology_id": "GO:0042773",
+            "ontology_label": "ATP synthesis coupled electron transport",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Metabolic regulatory enzyme complexes",
@@ -1499,7 +1689,12 @@
             "genes": [
               "ENO4",
               "CBR1"
-            ]
+            ],
+            "ontology_id": "GO:0150005",
+            "ontology_label": "enzyme activator complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Stress response and inflammatory signaling complexes",
@@ -1512,7 +1707,12 @@
             "genes": [
               "IL1RAPL1",
               "HSPA2"
-            ]
+            ],
+            "ontology_id": "GO:0140467",
+            "ontology_label": "integrated stress response signaling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1589,7 +1789,12 @@
             "genes": [
               "SOX10",
               "NKX6-2"
-            ]
+            ],
+            "ontology_id": "GO:0140673",
+            "ontology_label": "transcription elongation-coupled chromatin remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Transcriptional control of myelin protein synthesis",
@@ -1607,7 +1812,12 @@
               "MYRF",
               "SOX10",
               "NKX6-2"
-            ]
+            ],
+            "ontology_id": "GO:0043217",
+            "ontology_label": "myelin maintenance",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Ubiquitin-mediated protein degradation affecting transcriptional regulation",
@@ -1620,7 +1830,12 @@
             "genes": [
               "TRIM2",
               "TRIM59"
-            ]
+            ],
+            "ontology_id": "GO:0043161",
+            "ontology_label": "proteasome-mediated ubiquitin-dependent protein catabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1637,7 +1852,12 @@
               "NKX6-2",
               "MYRF",
               "VRK2"
-            ]
+            ],
+            "ontology_id": "GO:0005667",
+            "ontology_label": "transcription regulator complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Chromatin modifying enzyme complexes",
@@ -1651,7 +1871,12 @@
               "TRIM2",
               "TRIM59",
               "VRK2"
-            ]
+            ],
+            "ontology_id": "GO:0140993",
+            "ontology_label": "histone modifying activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Protein kinase signaling complexes",
@@ -1663,7 +1888,12 @@
             ],
             "genes": [
               "VRK2"
-            ]
+            ],
+            "ontology_id": "GO:0070528",
+            "ontology_label": "protein kinase C signaling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

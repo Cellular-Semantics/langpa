@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T23:25:14.408336",
+    "timestamp": "2025-12-17T22:10:16.622317",
     "genes": [
       "AC103770.1",
       "AC008467.1",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_18",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -263,7 +263,7 @@
       "https://www.nature.com/articles/s42003-025-09138-w",
       "https://www.nature.com/articles/s41598-025-11796-z"
     ],
-    "duration_seconds": 253.12346696853638
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -493,7 +493,12 @@
             "genes": [
               "TICAM1",
               "TICAM2"
-            ]
+            ],
+            "ontology_id": "GO:0002224",
+            "ontology_label": "toll-like receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Interleukin-1 receptor signaling and inflammatory response",
@@ -510,7 +515,12 @@
             "genes": [
               "IL1R1",
               "IL1R2"
-            ]
+            ],
+            "ontology_id": "GO:0070498",
+            "ontology_label": "interleukin-1-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Interleukin-12 signaling and Th1 differentiation",
@@ -522,7 +532,12 @@
             ],
             "genes": [
               "IL12RB2"
-            ]
+            ],
+            "ontology_id": "GO:0035722",
+            "ontology_label": "interleukin-12-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Monocyte recruitment and myeloid differentiation",
@@ -534,7 +549,12 @@
             ],
             "genes": [
               "IL34"
-            ]
+            ],
+            "ontology_id": "GO:0030099",
+            "ontology_label": "myeloid cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -549,7 +569,12 @@
             "genes": [
               "TICAM1",
               "TICAM2"
-            ]
+            ],
+            "ontology_id": "GO:0070976",
+            "ontology_label": "TIR domain binding",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -617,7 +642,12 @@
             ],
             "genes": [
               "SLC7A11"
-            ]
+            ],
+            "ontology_id": "GO:0015327",
+            "ontology_label": "cystine:glutamate antiporter activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Antioxidant response element transcriptional regulation",
@@ -634,7 +664,12 @@
             "genes": [
               "NFE2L2",
               "NFE2L3"
-            ]
+            ],
+            "ontology_id": "GO:0016209",
+            "ontology_label": "antioxidant activity",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lipid peroxidation and ferroptotic lipid remodeling",
@@ -646,7 +681,12 @@
             ],
             "genes": [
               "WWTR1"
-            ]
+            ],
+            "ontology_id": "GO:0034368",
+            "ontology_label": "protein-lipid complex remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -660,7 +700,12 @@
             ],
             "genes": [
               "SLC7A11"
-            ]
+            ],
+            "ontology_id": "GO:0015327",
+            "ontology_label": "cystine:glutamate antiporter activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -722,7 +767,12 @@
             ],
             "genes": [
               "WWTR1"
-            ]
+            ],
+            "ontology_id": "GO:0035329",
+            "ontology_label": "hippo signaling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell density sensing and mechanical force transduction",
@@ -734,7 +784,12 @@
             ],
             "genes": [
               "WWTR1"
-            ]
+            ],
+            "ontology_id": "GO:0060245",
+            "ontology_label": "detection of cell density",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lineage commitment and cell fate specification",
@@ -746,7 +801,12 @@
             ],
             "genes": [
               "WWTR1"
-            ]
+            ],
+            "ontology_id": "GO:0045165",
+            "ontology_label": "cell fate commitment",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Ferroptosis susceptibility through ACSL4/LPCAT3 regulation",
@@ -758,7 +818,12 @@
             ],
             "genes": [
               "WWTR1"
-            ]
+            ],
+            "ontology_id": "GO:0110075",
+            "ontology_label": "regulation of ferroptosis",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -772,7 +837,12 @@
             ],
             "genes": [
               "WWTR1"
-            ]
+            ],
+            "ontology_id": "GO:0140552",
+            "ontology_label": "TEAD-YAP complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -827,7 +897,12 @@
             ],
             "genes": [
               "BECN1"
-            ]
+            ],
+            "ontology_id": "GO:1904763",
+            "ontology_label": "chaperone-mediated autophagy translocation complex assembly",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Dual-level autophagy regulation through TRIM59",
@@ -839,7 +914,12 @@
             ],
             "genes": [
               "TRIM59"
-            ]
+            ],
+            "ontology_id": "GO:0010506",
+            "ontology_label": "regulation of autophagy",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Selective autophagy and glioma survival",
@@ -852,7 +932,12 @@
             "genes": [
               "BECN1",
               "TRIM59"
-            ]
+            ],
+            "ontology_id": "GO:0016236",
+            "ontology_label": "macroautophagy",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "related_term_match"
           }
         ],
         "atomic_cellular_components": [
@@ -866,7 +951,12 @@
             ],
             "genes": [
               "BECN1"
-            ]
+            ],
+            "ontology_id": "GO:0006914",
+            "ontology_label": "autophagy",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "RING E3 ubiquitin ligase TRIM59",
@@ -878,7 +968,12 @@
             ],
             "genes": [
               "TRIM59"
-            ]
+            ],
+            "ontology_id": "GO:0080008",
+            "ontology_label": "Cul4-RING E3 ubiquitin ligase complex",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -938,7 +1033,12 @@
               "CORIN",
               "THBS1",
               "SPARC"
-            ]
+            ],
+            "ontology_id": "GO:0022617",
+            "ontology_label": "extracellular matrix disassembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ECM cross-linking and stabilization",
@@ -950,7 +1050,12 @@
             ],
             "genes": [
               "LOX"
-            ]
+            ],
+            "ontology_id": "GO:0018149",
+            "ontology_label": "peptide cross-linking",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Collagen synthesis and ECM composition",
@@ -963,7 +1068,12 @@
             "genes": [
               "COL21A1",
               "COL14A1"
-            ]
+            ],
+            "ontology_id": "GO:0032964",
+            "ontology_label": "collagen biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [
@@ -982,7 +1092,12 @@
             "genes": [
               "THBS1",
               "SPARC"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           },
           {
             "name": "Tetraspanin-mediated ECM interactions",
@@ -995,7 +1110,12 @@
             "genes": [
               "TSPAN8",
               "CD151"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           }
         ],
         "predicted_cellular_impact": [
@@ -1067,7 +1187,12 @@
             "genes": [
               "TSPAN8",
               "CD151"
-            ]
+            ],
+            "ontology_id": "GO:0097197",
+            "ontology_label": "tetraspanin-enriched microdomain",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Integrin-tetraspanin signaling complexes",
@@ -1080,7 +1205,12 @@
             "genes": [
               "TSPAN8",
               "CD151"
-            ]
+            ],
+            "ontology_id": "GO:0007229",
+            "ontology_label": "integrin-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Angiogenic signaling coordination",
@@ -1093,7 +1223,12 @@
             "genes": [
               "TSPAN8",
               "CD151"
-            ]
+            ],
+            "ontology_id": "GO:0120077",
+            "ontology_label": "angiogenic sprout fusion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1108,7 +1243,12 @@
             "genes": [
               "TSPAN8",
               "CD151"
-            ]
+            ],
+            "ontology_id": "GO:0097197",
+            "ontology_label": "tetraspanin-enriched microdomain",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1173,7 +1313,12 @@
               "LINC00589",
               "LINC01504",
               "LINC01214"
-            ]
+            ],
+            "ontology_id": "GO:0006110",
+            "ontology_label": "regulation of glycolytic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "lncRNA-mediated tumor microenvironment shaping",
@@ -1188,7 +1333,12 @@
               "LINC00589",
               "LINC01504",
               "LINC01214"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Competing endogenous RNA mechanisms",
@@ -1205,7 +1355,12 @@
               "LINC02196",
               "LINC01588",
               "LINC02408"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "lncRNA-encoded micropeptides in metabolic regulation",
@@ -1218,7 +1373,12 @@
             "genes": [
               "LINC01933",
               "LINC01934"
-            ]
+            ],
+            "ontology_id": "GO:0019222",
+            "ontology_label": "regulation of metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -1317,7 +1477,12 @@
             "genes": [
               "MSH4",
               "HORMAD2"
-            ]
+            ],
+            "ontology_id": "GO:0010778",
+            "ontology_label": "meiotic DNA repair synthesis involved in reciprocal meiotic recombination",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Germ cell-specific metabolic programs",
@@ -1329,7 +1494,12 @@
             ],
             "genes": [
               "LDHC"
-            ]
+            ],
+            "ontology_id": "GO:0007281",
+            "ontology_label": "germ cell development",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Gonadotropin signaling and stem cell maintenance",
@@ -1341,7 +1511,12 @@
             ],
             "genes": [
               "LHCGR"
-            ]
+            ],
+            "ontology_id": "GO:0019827",
+            "ontology_label": "stem cell population maintenance",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -1398,7 +1573,12 @@
             "genes": [
               "DNAH12",
               "DNAH14"
-            ]
+            ],
+            "ontology_id": "GO:0003777",
+            "ontology_label": "microtubule motor activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Hedgehog signaling compartmentalization",
@@ -1411,7 +1591,12 @@
             "genes": [
               "DNAH12",
               "DNAH14"
-            ]
+            ],
+            "ontology_id": "GO:0035301",
+            "ontology_label": "Hedgehog signaling complex",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Ciliary resorption and cell cycle progression",
@@ -1424,7 +1609,12 @@
             "genes": [
               "DNAH12",
               "DNAH14"
-            ]
+            ],
+            "ontology_id": "GO:0051726",
+            "ontology_label": "regulation of cell cycle",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1439,7 +1629,12 @@
             "genes": [
               "DNAH12",
               "DNAH14"
-            ]
+            ],
+            "ontology_id": "GO:0036156",
+            "ontology_label": "inner dynein arm",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1493,7 +1688,12 @@
             ],
             "genes": [
               "TPH2"
-            ]
+            ],
+            "ontology_id": "GO:0042427",
+            "ontology_label": "serotonin biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "NMDA-type glutamate receptor signaling",
@@ -1505,7 +1705,12 @@
             ],
             "genes": [
               "GRIN3A"
-            ]
+            ],
+            "ontology_id": "GO:0098989",
+            "ontology_label": "NMDA selective glutamate receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Glycine receptor-mediated inhibitory signaling",
@@ -1517,7 +1722,12 @@
             ],
             "genes": [
               "GLRA1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Guanylate cyclase signaling and cGMP metabolism",
@@ -1529,7 +1739,12 @@
             ],
             "genes": [
               "GUCY2C"
-            ]
+            ],
+            "ontology_id": "GO:0007168",
+            "ontology_label": "receptor guanylyl cyclase signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1543,7 +1758,12 @@
             ],
             "genes": [
               "GRIN3A"
-            ]
+            ],
+            "ontology_id": "GO:0017146",
+            "ontology_label": "NMDA selective glutamate receptor complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Inhibitory neurotransmitter receptors",
@@ -1555,7 +1775,12 @@
             ],
             "genes": [
               "GLRA1"
-            ]
+            ],
+            "ontology_id": "GO:0060077",
+            "ontology_label": "inhibitory synapse",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1613,7 +1838,12 @@
             ],
             "genes": [
               "SLC7A11"
-            ]
+            ],
+            "ontology_id": "GO:0110075",
+            "ontology_label": "regulation of ferroptosis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Bile acid and organic anion transport",
@@ -1625,7 +1855,12 @@
             ],
             "genes": [
               "SLC10A1"
-            ]
+            ],
+            "ontology_id": "GO:0015721",
+            "ontology_label": "bile acid and bile salt transport",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Glucose and polyol transport",
@@ -1637,7 +1872,12 @@
             ],
             "genes": [
               "SLC2A9"
-            ]
+            ],
+            "ontology_id": "GO:1904659",
+            "ontology_label": "D-glucose transmembrane transport",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Ion transport and pH homeostasis",
@@ -1649,7 +1889,12 @@
             ],
             "genes": [
               "SLC9C2"
-            ]
+            ],
+            "ontology_id": "GO:0098771",
+            "ontology_label": "inorganic ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1666,7 +1911,12 @@
               "SLC10A1",
               "SLC2A9",
               "SLC9C2"
-            ]
+            ],
+            "ontology_id": "GO:0005215",
+            "ontology_label": "transporter activity",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

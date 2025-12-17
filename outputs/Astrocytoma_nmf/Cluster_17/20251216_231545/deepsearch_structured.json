@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T23:20:24.402550",
+    "timestamp": "2025-12-17T21:58:08.004779",
     "genes": [
       "DNAH11",
       "EFHC2",
@@ -207,7 +207,7 @@
     "validation_status": "valid",
     "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_17/20251216_231545/deepsearch.json",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_17",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,

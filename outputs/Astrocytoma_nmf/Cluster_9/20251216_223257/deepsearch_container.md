@@ -473,61 +473,61 @@ Glioblastoma cells exhibit profound alterations in metabolic programming, includ
 - [37]: Oxidative phosphorylation and glycolysis dysregulation in glioma resistance
 
 ## Bibliography
-1. 1. Available from: https://www.ncbi.nlm.nih.gov/gene/546
-2. 2. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
-3. 3. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
-4. 4. Available from: https://www.ncbi.nlm.nih.gov/gene/57670
-5. 5. DeSouza PA, Ishahak M, Qu X, McCornack C, Annamalai D, Mao DD, et al.. INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model. Nature Communications [Internet]. 2025Dec7;. Available from: https://www.nature.com/articles/s41467-025-66371-x
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/51299
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/627
-8. 8. Man KNM, Rougé SLS, Berumen RA, Jacobi AA, Weiner JC, Naderi SY, et al.. Stimulation of Ca
+1. Available from: https://www.ncbi.nlm.nih.gov/gene/546
+2. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
+3. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
+4. Available from: https://www.ncbi.nlm.nih.gov/gene/57670
+5. DeSouza PA, Ishahak M, Qu X, McCornack C, Annamalai D, Mao DD, et al.. INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model. Nature Communications [Internet]. 2025Dec7;. Available from: https://www.nature.com/articles/s41467-025-66371-x
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/51299
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/627
+8. Man KNM, Rougé SLS, Berumen RA, Jacobi AA, Weiner JC, Naderi SY, et al.. Stimulation of Ca
                     <sup>2+</sup>
                     channel Ca
                     <sub>V</sub>
                     1.2 activity by dopamine signaling augments spatial working memory. Science Signaling [Internet]. 2025Dec9;18(916). Available from: https://www.science.org/doi/10.1126/scisignal.adp7760
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/2904
-10. 10. Anderson AP, Kim S, Melton AJ, Ding X, Zhang W, Saltzman AB, et al.. A distinct PP2A subunit regulates local protein phosphorylation at the axon initial segment. Nature Communications [Internet]. 2025Dec3;16(1). Available from: https://www.nature.com/articles/s41467-025-66120-0
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/775
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/2902
-13. 13. Lee Y-K, Xiao C, Zhou X, Wang L, McReynolds M, Wu Z, et al.. Bipolar and schizophrenia risk gene AKAP11 encodes an autophagy receptor coupling the regulation of PKA kinase network homeostasis to synaptic transmission. Nature Communications [Internet]. 2025Nov28;16(1). Available from: https://www.nature.com/articles/s41467-025-66356-w
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/26047
-15. 15. Reig-Viader R, del C-BD, Burgas-Pau A, Arco-Alonso D, Zerpa-Rios O, Ramos-Vicente D, et al.. Synaptic proteome diversity is shaped by the levels of glutamate receptors and their regulatory proteins. Nature Communications [Internet]. 2025Nov25;16(1). Available from: https://www.nature.com/articles/s41467-025-65490-9
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/1742
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/6900
-18. 18. Hsu T-T, Chen C-P, Lin M-H, Hung T-E, Haung T-N, Wang C-Y, et al.. Shared and divergent alteration of whole-brain connectivity and sensory deficits in multiple autism mouse models. Molecular Psychiatry [Internet]. 2025Nov20;. Available from: https://www.nature.com/articles/s41380-025-03340-2
-19. 19. Leggieri A, García-González J, Hosseinian S, Ashdown P, Anagianni S, Wang X, et al.. rbfox1 LoF mutants show disrupted bdnf/trkb2 and crhb/nr3c2 expression and increased cortisol levels during development coupled with signs of allostatic overload in adulthood. Translational Psychiatry [Internet]. 2025Nov19;15(1). Available from: https://www.nature.com/articles/s41398-025-03703-x
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/2066
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/54715
-22. 22. Available from: https://www.ncbi.nlm.nih.gov/gene/211323
-23. 23. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-24. 24. Wang Y, Jing L, Qi J, Wang Y, Song Y, Chen A, et al.. NeuroDepth: an ultra long whole brain reachable multi-channel probe for real-time precise functional localization of deep human brain tumor margins. Microsystems &amp; Nanoengineering [Internet]. 2025Dec11;11(1). Available from: https://www.nature.com/articles/s41378-025-01097-w
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/13869
-26. 26. Available from: https://www.nature.com/subjects/cns-cancer/ncomms
-27. 27. Desprez F, Remize S, François-Moutal L, Ung DC, Dangoumau A, Marouillat S, et al.. Missense variants in DPYSL5 associated with neurodevelopmental disorders and brain malformations cause impaired neuronal maturation in vitro. Molecular Psychiatry [Internet]. 2025Nov24;. Available from: https://www.nature.com/articles/s41380-025-03364-8
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
-29. 29. Takeo S, Chisato S, Yasunori H. Transient Photoactivation of Rac1 Induces Persistent Structural LTP Independent of CaMKII in Hippocampal Dendritic Spines.. eNeuro [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41249054/
-30. 30. Jeet BS, Bartomeu P-A, Jenny S, Hadi M, Constanze IS, Anna F, et al.. Activity-dependent extracellular proteolytic cascade cleaves the ECM component brevican to promote structural plasticity.. EMBO reports [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41261283/
-31. 31. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
-32. 32. Available from: https://www.ncbi.nlm.nih.gov/gene/319504
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/429
-34. 34. Miao C, Ding Z, Wu J, An Q, Shu Y, Jiang H, et al.. Identification and targeting oxidative phosphorylation/glycolysis to overcome anti-CSF-1R therapy resistance in glioblastoma. Cell Death &amp; Disease [Internet]. 2025Dec10;. Available from: https://www.nature.com/articles/s41419-025-08288-3
-35. 35. Available from: https://www.ncbi.nlm.nih.gov/gene/17967
-36. 36. Available from: https://www.ncbi.nlm.nih.gov/gene/17172
-37. 37. Elbaum-Mendelson L, Yuan W, Seiler JP-H, Blom N, Chan Y-C, Baig AH, et al.. Revealing acute consequences of rapid degradation of synaptic fusion proteins at individual synapses using Auxin-Inducible Degron 2 technology. Communications Biology [Internet]. 2025Nov17;8(1). Available from: https://www.nature.com/articles/s42003-025-08996-8
-38. 38. Peng T, Ying Z, Xingyu J, Yangping L, Li K, Feng W, et al.. A non-coding RNA risk pathway in schizophrenia: miR-137 enhances the lncRNA GOMAFU through a pathological transcription network.. Translational psychiatry [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41253765/
-39. 39. Uzay B, Zhang KJ, Monteggia LM, Kavalali ET. Dopaminergic tone inhibits spontaneous glutamate release and augments homeostatic synaptic plasticity. Molecular Psychiatry [Internet]. 2025Dec6;. Available from: https://www.nature.com/articles/s41380-025-03374-6
-40. 40. Trudel L, Therriault J, Macedo AC, Woo MS, Rahmouni N, Aumont É, et al.. APOE ε4 potentiates tau related reactive astrogliosis assessed by cerebrospinal fluid YKL40 in Alzheimer’s disease. Communications Medicine [Internet]. 2025Nov20;5(1). Available from: https://www.nature.com/articles/s43856-025-01171-4
-41. 41. Fernandez RF, Fallatah W, Ji Y, Jones JW, Johnson CC, Tressler CM, et al.. Dysregulated hippocampal fatty acid metabolism following intermittent hypoxemia-induced neonatal brain injury is rescued by treatment with acetate. Nature Communications [Internet]. 2025Dec14;. Available from: https://www.nature.com/articles/s41467-025-67542-6_reference.pdf
-42. 42. Available from: https://www.ncbi.nlm.nih.gov/gene/4661
-43. 43. Available from: https://www.ncbi.nlm.nih.gov/gene/23040
-44. 44. Available from: https://www.ncbi.nlm.nih.gov/gene/2146
-45. 45. Available from: https://www.ncbi.nlm.nih.gov/gene/20674
-46. 46. Available from: https://www.ncbi.nlm.nih.gov/gene/283120
-47. 47. Available from: https://www.ncbi.nlm.nih.gov/gene/57441
-48. 48. Darko-Boateng A, Afriyie E, Morgenstern TJ, Shanmugam SK, Zou X, Laloudakis YD, et al.. Ion channel inhibition by targeted recruitment of NEDD4-2 with divalent nanobodies. Nature Communications [Internet]. 2025Dec6;. Available from: https://www.nature.com/articles/s41467-025-67068-x
-49. 49. Available from: https://www.ncbi.nlm.nih.gov/gene/2891
-50. 50. Available from: https://www.ncbi.nlm.nih.gov/gene/2475
-51. 51. Giovannini S, Fiorilli C, Moriconi V, Shi Y, Candi E, Melino G, et al.. The role of HECT-type E3 ubiquitin ligases in DNA damage response and repair. Cell Death Discovery [Internet]. 2025Dec13;. Available from: https://www.nature.com/articles/s41420-025-02911-0
-52. 52. Available from: https://www.ncbi.nlm.nih.gov/gene/14812
-53. 53. Available from: https://www.ncbi.nlm.nih.gov/gene/5594
-54. 54. Available from: http://json-schema.org/draft-07/schema#",
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/2904
+10. Anderson AP, Kim S, Melton AJ, Ding X, Zhang W, Saltzman AB, et al.. A distinct PP2A subunit regulates local protein phosphorylation at the axon initial segment. Nature Communications [Internet]. 2025Dec3;16(1). Available from: https://www.nature.com/articles/s41467-025-66120-0
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/775
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/2902
+13. Lee Y-K, Xiao C, Zhou X, Wang L, McReynolds M, Wu Z, et al.. Bipolar and schizophrenia risk gene AKAP11 encodes an autophagy receptor coupling the regulation of PKA kinase network homeostasis to synaptic transmission. Nature Communications [Internet]. 2025Nov28;16(1). Available from: https://www.nature.com/articles/s41467-025-66356-w
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/26047
+15. Reig-Viader R, del C-BD, Burgas-Pau A, Arco-Alonso D, Zerpa-Rios O, Ramos-Vicente D, et al.. Synaptic proteome diversity is shaped by the levels of glutamate receptors and their regulatory proteins. Nature Communications [Internet]. 2025Nov25;16(1). Available from: https://www.nature.com/articles/s41467-025-65490-9
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/1742
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/6900
+18. Hsu T-T, Chen C-P, Lin M-H, Hung T-E, Haung T-N, Wang C-Y, et al.. Shared and divergent alteration of whole-brain connectivity and sensory deficits in multiple autism mouse models. Molecular Psychiatry [Internet]. 2025Nov20;. Available from: https://www.nature.com/articles/s41380-025-03340-2
+19. Leggieri A, García-González J, Hosseinian S, Ashdown P, Anagianni S, Wang X, et al.. rbfox1 LoF mutants show disrupted bdnf/trkb2 and crhb/nr3c2 expression and increased cortisol levels during development coupled with signs of allostatic overload in adulthood. Translational Psychiatry [Internet]. 2025Nov19;15(1). Available from: https://www.nature.com/articles/s41398-025-03703-x
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/2066
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/54715
+22. Available from: https://www.ncbi.nlm.nih.gov/gene/211323
+23. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+24. Wang Y, Jing L, Qi J, Wang Y, Song Y, Chen A, et al.. NeuroDepth: an ultra long whole brain reachable multi-channel probe for real-time precise functional localization of deep human brain tumor margins. Microsystems &amp; Nanoengineering [Internet]. 2025Dec11;11(1). Available from: https://www.nature.com/articles/s41378-025-01097-w
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/13869
+26. Available from: https://www.nature.com/subjects/cns-cancer/ncomms
+27. Desprez F, Remize S, François-Moutal L, Ung DC, Dangoumau A, Marouillat S, et al.. Missense variants in DPYSL5 associated with neurodevelopmental disorders and brain malformations cause impaired neuronal maturation in vitro. Molecular Psychiatry [Internet]. 2025Nov24;. Available from: https://www.nature.com/articles/s41380-025-03364-8
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
+29. Takeo S, Chisato S, Yasunori H. Transient Photoactivation of Rac1 Induces Persistent Structural LTP Independent of CaMKII in Hippocampal Dendritic Spines.. eNeuro [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41249054/
+30. Jeet BS, Bartomeu P-A, Jenny S, Hadi M, Constanze IS, Anna F, et al.. Activity-dependent extracellular proteolytic cascade cleaves the ECM component brevican to promote structural plasticity.. EMBO reports [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41261283/
+31. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
+32. Available from: https://www.ncbi.nlm.nih.gov/gene/319504
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/429
+34. Miao C, Ding Z, Wu J, An Q, Shu Y, Jiang H, et al.. Identification and targeting oxidative phosphorylation/glycolysis to overcome anti-CSF-1R therapy resistance in glioblastoma. Cell Death &amp; Disease [Internet]. 2025Dec10;. Available from: https://www.nature.com/articles/s41419-025-08288-3
+35. Available from: https://www.ncbi.nlm.nih.gov/gene/17967
+36. Available from: https://www.ncbi.nlm.nih.gov/gene/17172
+37. Elbaum-Mendelson L, Yuan W, Seiler JP-H, Blom N, Chan Y-C, Baig AH, et al.. Revealing acute consequences of rapid degradation of synaptic fusion proteins at individual synapses using Auxin-Inducible Degron 2 technology. Communications Biology [Internet]. 2025Nov17;8(1). Available from: https://www.nature.com/articles/s42003-025-08996-8
+38. Peng T, Ying Z, Xingyu J, Yangping L, Li K, Feng W, et al.. A non-coding RNA risk pathway in schizophrenia: miR-137 enhances the lncRNA GOMAFU through a pathological transcription network.. Translational psychiatry [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41253765/
+39. Uzay B, Zhang KJ, Monteggia LM, Kavalali ET. Dopaminergic tone inhibits spontaneous glutamate release and augments homeostatic synaptic plasticity. Molecular Psychiatry [Internet]. 2025Dec6;. Available from: https://www.nature.com/articles/s41380-025-03374-6
+40. Trudel L, Therriault J, Macedo AC, Woo MS, Rahmouni N, Aumont É, et al.. APOE ε4 potentiates tau related reactive astrogliosis assessed by cerebrospinal fluid YKL40 in Alzheimer’s disease. Communications Medicine [Internet]. 2025Nov20;5(1). Available from: https://www.nature.com/articles/s43856-025-01171-4
+41. Fernandez RF, Fallatah W, Ji Y, Jones JW, Johnson CC, Tressler CM, et al.. Dysregulated hippocampal fatty acid metabolism following intermittent hypoxemia-induced neonatal brain injury is rescued by treatment with acetate. Nature Communications [Internet]. 2025Dec14;. Available from: https://www.nature.com/articles/s41467-025-67542-6_reference.pdf
+42. Available from: https://www.ncbi.nlm.nih.gov/gene/4661
+43. Available from: https://www.ncbi.nlm.nih.gov/gene/23040
+44. Available from: https://www.ncbi.nlm.nih.gov/gene/2146
+45. Available from: https://www.ncbi.nlm.nih.gov/gene/20674
+46. Available from: https://www.ncbi.nlm.nih.gov/gene/283120
+47. Available from: https://www.ncbi.nlm.nih.gov/gene/57441
+48. Darko-Boateng A, Afriyie E, Morgenstern TJ, Shanmugam SK, Zou X, Laloudakis YD, et al.. Ion channel inhibition by targeted recruitment of NEDD4-2 with divalent nanobodies. Nature Communications [Internet]. 2025Dec6;. Available from: https://www.nature.com/articles/s41467-025-67068-x
+49. Available from: https://www.ncbi.nlm.nih.gov/gene/2891
+50. Available from: https://www.ncbi.nlm.nih.gov/gene/2475
+51. Giovannini S, Fiorilli C, Moriconi V, Shi Y, Candi E, Melino G, et al.. The role of HECT-type E3 ubiquitin ligases in DNA damage response and repair. Cell Death Discovery [Internet]. 2025Dec13;. Available from: https://www.nature.com/articles/s41420-025-02911-0
+52. Available from: https://www.ncbi.nlm.nih.gov/gene/14812
+53. Available from: https://www.ncbi.nlm.nih.gov/gene/5594
+54. Available from: http://json-schema.org/draft-07/schema#",

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T20:39:28.153613",
+    "timestamp": "2025-12-17T21:46:45.294380",
     "genes": [
       "FAM189A2",
       "OGFRL1",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_0",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -280,7 +280,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/22339",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 309.8507661819458
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -514,7 +514,12 @@
             "genes": [
               "SLC1A3",
               "SLC1A4"
-            ]
+            ],
+            "ontology_id": "GO:0051935",
+            "ontology_label": "glutamate reuptake",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "GABA receptor signaling",
@@ -531,7 +536,12 @@
             "genes": [
               "GABBR2",
               "GABRB1"
-            ]
+            ],
+            "ontology_id": "GO:0016917",
+            "ontology_label": "GABA receptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Potassium buffering and ion homeostasis",
@@ -548,7 +558,12 @@
             "genes": [
               "KCNQ5",
               "KCNN3"
-            ]
+            ],
+            "ontology_id": "GO:0055075",
+            "ontology_label": "potassium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -622,7 +637,12 @@
             "genes": [
               "AQP4",
               "AQP1"
-            ]
+            ],
+            "ontology_id": "GO:0006833",
+            "ontology_label": "water transport",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Perivascular interface organization",
@@ -634,7 +654,12 @@
             ],
             "genes": [
               "AQP4"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "atomic_cellular_components": [
@@ -652,7 +677,12 @@
             ],
             "genes": [
               "AQP4"
-            ]
+            ],
+            "ontology_id": "GO:0097450",
+            "ontology_label": "astrocyte end-foot",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Perivascular space",
@@ -665,7 +695,12 @@
             "genes": [
               "AQP4",
               "AQP1"
-            ]
+            ],
+            "ontology_id": "UBERON:0014930",
+            "ontology_label": "perivascular space",
+            "ontology_source": "UBERON",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -728,7 +763,12 @@
             ],
             "genes": [
               "ATP1A2"
-            ]
+            ],
+            "ontology_id": "GO:0010248",
+            "ontology_label": "establishment or maintenance of transmembrane electrochemical gradient",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Intracellular calcium signaling",
@@ -745,7 +785,12 @@
             "genes": [
               "ITPR2",
               "SLC24A4"
-            ]
+            ],
+            "ontology_id": "GO:0019722",
+            "ontology_label": "calcium-mediated signaling",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Bicarbonate and pH regulation",
@@ -757,7 +802,12 @@
             ],
             "genes": [
               "SLC4A4"
-            ]
+            ],
+            "ontology_id": "GO:0006885",
+            "ontology_label": "regulation of pH",
+            "ontology_source": "GO",
+            "confidence": 0.75,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Zinc homeostasis",
@@ -769,7 +819,12 @@
             ],
             "genes": [
               "SLC39A11"
-            ]
+            ],
+            "ontology_id": "GO:0006882",
+            "ontology_label": "intracellular zinc ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.95,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Metabolite and nutrient transport",
@@ -789,7 +844,12 @@
               "SLCO3A1",
               "SLC25A48",
               "SLC14A1"
-            ]
+            ],
+            "ontology_id": "GO:0071938",
+            "ontology_label": "vitamin A transport",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -813,7 +873,12 @@
               "SLCO3A1",
               "SLC25A48",
               "SLC14A1"
-            ]
+            ],
+            "ontology_id": "GO:0006810",
+            "ontology_label": "transport",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Endoplasmic reticulum calcium release channels",
@@ -825,7 +890,12 @@
             ],
             "genes": [
               "ITPR2"
-            ]
+            ],
+            "ontology_id": "GO:0005219",
+            "ontology_label": "ryanodine-sensitive calcium-release channel activity",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -900,7 +970,12 @@
             "genes": [
               "CDH20",
               "ITGA6"
-            ]
+            ],
+            "ontology_id": "GO:0034333",
+            "ontology_label": "adherens junction assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Tight junction assembly and barrier function",
@@ -917,7 +992,12 @@
             "genes": [
               "TJP2",
               "PARD3B"
-            ]
+            ],
+            "ontology_id": "GO:0120192",
+            "ontology_label": "tight junction assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cellular polarity establishment",
@@ -929,7 +1009,12 @@
             ],
             "genes": [
               "PARD3B"
-            ]
+            ],
+            "ontology_id": "GO:0030010",
+            "ontology_label": "establishment of cell polarity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Cadherin-adhesion molecule complex organization",
@@ -943,7 +1028,12 @@
               "CDHR3",
               "CDH20",
               "PCDH9"
-            ]
+            ],
+            "ontology_id": "GO:0098641",
+            "ontology_label": "cadherin binding involved in cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -960,7 +1050,12 @@
               "CDHR3",
               "PCDH9",
               "ITGA6"
-            ]
+            ],
+            "ontology_id": "GO:0005912",
+            "ontology_label": "adherens junction",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Tight junctions",
@@ -973,7 +1068,12 @@
             "genes": [
               "TJP2",
               "PARD3B"
-            ]
+            ],
+            "ontology_id": "GO:0070160",
+            "ontology_label": "tight junction",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Astrocyte end-feet",
@@ -993,7 +1093,12 @@
               "PARD3B",
               "UTRN",
               "DTNA"
-            ]
+            ],
+            "ontology_id": "GO:0097450",
+            "ontology_label": "astrocyte end-foot",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1071,7 +1176,12 @@
               "RHOB",
               "ARKGEF4",
               "ARHGAP26"
-            ]
+            ],
+            "ontology_id": "GO:0043087",
+            "ontology_label": "regulation of GTPase activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Actin polymerization and filament assembly",
@@ -1089,7 +1199,12 @@
               "FMN2",
               "SHROOM3",
               "DAAM2"
-            ]
+            ],
+            "ontology_id": "GO:0030041",
+            "ontology_label": "actin filament polymerization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cytoskeletal-membrane protein linking",
@@ -1103,7 +1218,12 @@
               "ANK2",
               "DTNA",
               "UTRN"
-            ]
+            ],
+            "ontology_id": "GO:0106006",
+            "ontology_label": "cytoskeletal protein-membrane anchor activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell motility and migration",
@@ -1123,7 +1243,12 @@
               "FMN2",
               "SHROOM3",
               "ANK2"
-            ]
+            ],
+            "ontology_id": "GO:0048870",
+            "ontology_label": "cell motility",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1139,7 +1264,12 @@
               "FMN2",
               "DAAM2",
               "SHROOM3"
-            ]
+            ],
+            "ontology_id": "GO:0005884",
+            "ontology_label": "actin filament",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Spectrin-repeat cytoskeletal network",
@@ -1153,7 +1283,12 @@
               "DTNA",
               "UTRN",
               "ANK2"
-            ]
+            ],
+            "ontology_id": "GO:0014731",
+            "ontology_label": "spectrin-associated cytoskeleton",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1232,7 +1367,12 @@
             ],
             "genes": [
               "NTRK2"
-            ]
+            ],
+            "ontology_id": "GO:0031547",
+            "ontology_label": "brain-derived neurotrophic factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "MAPK/ERK signaling cascade",
@@ -1249,7 +1389,12 @@
             "genes": [
               "MAP3K5",
               "MAPK4"
-            ]
+            ],
+            "ontology_id": "GO:0000165",
+            "ontology_label": "MAPK cascade",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "PI3K/AKT/mTOR pathway activation",
@@ -1265,7 +1410,12 @@
             ],
             "genes": [
               "NTRK2"
-            ]
+            ],
+            "ontology_id": "GO:0043491",
+            "ontology_label": "phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "JAK/STAT pathway activation",
@@ -1281,7 +1431,12 @@
             ],
             "genes": [
               "NTRK2"
-            ]
+            ],
+            "ontology_id": "GO:0007259",
+            "ontology_label": "cell surface receptor signaling pathway via JAK-STAT",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Growth factor production and paracrine signaling",
@@ -1297,7 +1452,12 @@
             ],
             "genes": [
               "NRG3"
-            ]
+            ],
+            "ontology_id": "GO:0038001",
+            "ontology_label": "paracrine signaling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1311,7 +1471,12 @@
             ],
             "genes": [
               "NTRK2"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1391,7 +1556,12 @@
             ],
             "genes": [
               "FADS2"
-            ]
+            ],
+            "ontology_id": "GO:0034626",
+            "ontology_label": "fatty acid elongation, polyunsaturated fatty acid",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Cholesterol and oxysterol trafficking",
@@ -1408,7 +1578,12 @@
             "genes": [
               "OSBPL11",
               "OSBPL3"
-            ]
+            ],
+            "ontology_id": "GO:0033344",
+            "ontology_label": "cholesterol efflux",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lipoprotein metabolism",
@@ -1420,7 +1595,12 @@
             ],
             "genes": [
               "LPL"
-            ]
+            ],
+            "ontology_id": "GO:0042157",
+            "ontology_label": "lipoprotein metabolic process",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Membrane composition remodeling",
@@ -1434,7 +1614,12 @@
               "FADS2",
               "OSBPL11",
               "OSBPL3"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -1450,7 +1635,12 @@
               "FADS2",
               "OSBPL11",
               "OSBPL3"
-            ]
+            ],
+            "ontology_id": "GO:0005886",
+            "ontology_label": "plasma membrane",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lipid droplets",
@@ -1464,7 +1654,12 @@
               "FADS2",
               "OSBPL11",
               "LPL"
-            ]
+            ],
+            "ontology_id": "GO:0019915",
+            "ontology_label": "lipid storage",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1527,7 +1722,12 @@
             ],
             "genes": [
               "GLUD1"
-            ]
+            ],
+            "ontology_id": "GO:0009060",
+            "ontology_label": "aerobic respiration",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial calcium handling and energetics",
@@ -1543,7 +1743,12 @@
             ],
             "genes": [
               "ITPR2"
-            ]
+            ],
+            "ontology_id": "GO:0051560",
+            "ontology_label": "mitochondrial calcium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Oxidative stress response and antioxidant metabolism",
@@ -1555,7 +1760,12 @@
             ],
             "genes": [
               "ALDH1A1"
-            ]
+            ],
+            "ontology_id": "GO:0006979",
+            "ontology_label": "response to oxidative stress",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Senescence and metabolic dysfunction",
@@ -1567,7 +1777,12 @@
             ],
             "genes": [
               "ITPR2"
-            ]
+            ],
+            "ontology_id": "GO:0090398",
+            "ontology_label": "cellular senescence",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1581,7 +1796,12 @@
             ],
             "genes": [
               "ITPR2"
-            ]
+            ],
+            "ontology_id": "GO:0005759",
+            "ontology_label": "mitochondrial matrix",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Astrocyte and neuron metabolic coupling interface",
@@ -1594,7 +1814,12 @@
             "genes": [
               "GLUD1",
               "ALDH1A1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -1667,7 +1892,12 @@
             ],
             "genes": [
               "TLR4"
-            ]
+            ],
+            "ontology_id": "GO:0002224",
+            "ontology_label": "toll-like receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "GFAP expression and reactive astrocyte marker upregulation",
@@ -1683,7 +1913,12 @@
             ],
             "genes": [
               "GFAP"
-            ]
+            ],
+            "ontology_id": "GO:0048143",
+            "ontology_label": "astrocyte activation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Complement-mediated synapse pruning",
@@ -1695,7 +1930,12 @@
             ],
             "genes": [
               "SPARCL1"
-            ]
+            ],
+            "ontology_id": "GO:0150062",
+            "ontology_label": "complement-mediated synapse pruning",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Immune cell recruitment and macrophage polarization",
@@ -1712,7 +1952,12 @@
             "genes": [
               "TLR4",
               "CD38"
-            ]
+            ],
+            "ontology_id": "GO:0042116",
+            "ontology_label": "macrophage activation",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Pro-inflammatory cytokine production",
@@ -1724,7 +1969,12 @@
             ],
             "genes": [
               "TLR4"
-            ]
+            ],
+            "ontology_id": "GO:0002534",
+            "ontology_label": "cytokine production involved in inflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1742,7 +1992,12 @@
             ],
             "genes": [
               "GFAP"
-            ]
+            ],
+            "ontology_id": "GO:0097449",
+            "ontology_label": "astrocyte projection",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1821,7 +2076,12 @@
             "genes": [
               "TENM4",
               "CNTN1"
-            ]
+            ],
+            "ontology_id": "GO:0099560",
+            "ontology_label": "synaptic membrane adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Neurotrophic growth factor signaling",
@@ -1843,7 +2103,12 @@
               "NTRK2",
               "NRG3",
               "LIFR"
-            ]
+            ],
+            "ontology_id": "GO:0038180",
+            "ontology_label": "nerve growth factor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Astrocytic metabolic support to neurons",
@@ -1857,7 +2122,12 @@
               "SLC1A3",
               "SLC1A4",
               "GLUD1"
-            ]
+            ],
+            "ontology_id": "GO:0007272",
+            "ontology_label": "ensheathment of neurons",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Tumor-associated seizure susceptibility",
@@ -1871,7 +2141,12 @@
               "KCNQ5",
               "KCNN3",
               "NTRK2"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1887,7 +2162,12 @@
               "TENM4",
               "CNTN1",
               "NTRK2"
-            ]
+            ],
+            "ontology_id": "GO:0099560",
+            "ontology_label": "synaptic membrane adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Astrocyte-neuron metabolic interface",
@@ -1901,7 +2181,12 @@
               "SLC1A3",
               "SLC1A4",
               "GLUD1"
-            ]
+            ],
+            "ontology_id": "GO:0036520",
+            "ontology_label": "astrocyte-dopaminergic neuron signaling",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

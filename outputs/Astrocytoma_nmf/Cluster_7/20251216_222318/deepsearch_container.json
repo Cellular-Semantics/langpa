@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T22:28:31.050032",
+    "timestamp": "2025-12-17T21:52:07.072394",
     "genes": [
       "CAMK2D",
       "MIR4435-2HG",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_7",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -288,7 +288,7 @@
       "https://www.nature.com/articles/s41398-025-03668-x",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 284.0122859477997
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -519,7 +519,12 @@
               "LAMA2",
               "LAMA4",
               "LIMK1"
-            ]
+            ],
+            "ontology_id": "GO:0033627",
+            "ontology_label": "cell adhesion mediated by integrin",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Focal adhesion assembly and turnover",
@@ -535,7 +540,12 @@
               "ITGB8",
               "LIMK1",
               "ARHGAP26"
-            ]
+            ],
+            "ontology_id": "GO:0048041",
+            "ontology_label": "focal adhesion assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mechanotransduction and YAP signaling",
@@ -551,7 +561,12 @@
               "ITGB8",
               "WWTR1",
               "LIMK1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -567,7 +582,12 @@
               "ITGA3",
               "ITGA7",
               "ITGB8"
-            ]
+            ],
+            "ontology_id": "GO:0008305",
+            "ontology_label": "integrin complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Extracellular matrix scaffolds",
@@ -583,7 +603,12 @@
               "LAMA4",
               "COL4A2",
               "COL22A1"
-            ]
+            ],
+            "ontology_id": "GO:0031012",
+            "ontology_label": "extracellular matrix",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -649,7 +674,12 @@
               "SIPA1L1",
               "VAV3",
               "LIMK1"
-            ]
+            ],
+            "ontology_id": "GO:0051496",
+            "ontology_label": "positive regulation of stress fiber assembly",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Rac1 and Cdc42 activation",
@@ -664,7 +694,12 @@
               "TRIO",
               "PREX1",
               "ARHGAP26"
-            ]
+            ],
+            "ontology_id": "GO:0032488",
+            "ontology_label": "Cdc42 protein signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Negative feedback suppression of Rho signaling",
@@ -686,7 +721,12 @@
               "RGS6",
               "RGS17",
               "DUSP6"
-            ]
+            ],
+            "ontology_id": "GO:0035331",
+            "ontology_label": "negative regulation of hippo signaling",
+            "ontology_source": "GO",
+            "confidence": 0.4,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -703,7 +743,12 @@
               "TRIO",
               "VAV3",
               "PREX1"
-            ]
+            ],
+            "ontology_id": "GO:0005085",
+            "ontology_label": "guanyl-nucleotide exchange factor activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Rho GTPase-activating proteins",
@@ -717,7 +762,12 @@
               "DLC1",
               "ARHGAP26",
               "SIPA1L1"
-            ]
+            ],
+            "ontology_id": "GO:0032794",
+            "ontology_label": "GTPase activating protein binding",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Actin-binding and cytoskeletal regulators",
@@ -731,7 +781,12 @@
               "LIMK1",
               "SHROOM3",
               "TRIM9"
-            ]
+            ],
+            "ontology_id": "GO:0005519",
+            "ontology_label": "cytoskeletal regulatory protein binding",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -806,7 +861,12 @@
             "genes": [
               "CDK6",
               "CDK14"
-            ]
+            ],
+            "ontology_id": "GO:0044843",
+            "ontology_label": "cell cycle G1/S phase transition",
+            "ontology_source": "GO",
+            "confidence": 0.95,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Calcium-dependent signaling and plasticity",
@@ -822,7 +882,12 @@
               "TRPM3",
               "GRIN2B",
               "GRIA3"
-            ]
+            ],
+            "ontology_id": "GO:0019722",
+            "ontology_label": "calcium-mediated signaling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Receptor tyrosine kinase signaling",
@@ -836,7 +901,12 @@
               "ALK",
               "FGFR1",
               "MAP3K1"
-            ]
+            ],
+            "ontology_id": "GO:0007169",
+            "ontology_label": "cell surface receptor protein tyrosine kinase signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "PI3K-Akt-mTOR pathway activation",
@@ -852,7 +922,12 @@
               "STK17A",
               "STK32A",
               "STK32B"
-            ]
+            ],
+            "ontology_id": "GO:0043491",
+            "ontology_label": "phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -867,7 +942,12 @@
             "genes": [
               "CDK6",
               "CDK14"
-            ]
+            ],
+            "ontology_id": "GO:0008024",
+            "ontology_label": "cyclin/CDK positive transcription elongation factor complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Calcium-calmodulin signaling complexes",
@@ -880,7 +960,12 @@
             "genes": [
               "CAMK2B",
               "CAMK2D"
-            ]
+            ],
+            "ontology_id": "GO:0005954",
+            "ontology_label": "calcium- and calmodulin-dependent protein kinase complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -958,7 +1043,12 @@
               "SPRED1",
               "SPRED2",
               "DUSP6"
-            ]
+            ],
+            "ontology_id": "GO:0141070",
+            "ontology_label": "symbiont-mediated suppression of host MAPK cascade",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "RTK signaling antagonism",
@@ -973,7 +1063,12 @@
               "SPRY4",
               "SPRED1",
               "SPRED2"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -987,7 +1082,12 @@
             ],
             "genes": [
               "DUSP6"
-            ]
+            ],
+            "ontology_id": "GO:1903293",
+            "ontology_label": "phosphatase complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Negative feedback regulator complexes",
@@ -1002,7 +1102,12 @@
               "SPRY4",
               "SPRED1",
               "SPRED2"
-            ]
+            ],
+            "ontology_id": "GO:0005667",
+            "ontology_label": "transcription regulator complex",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1067,7 +1172,12 @@
             ],
             "genes": [
               "ITPR2"
-            ]
+            ],
+            "ontology_id": "GO:0006984",
+            "ontology_label": "ER-nucleus signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial calcium handling",
@@ -1080,7 +1190,12 @@
             "genes": [
               "ITPR2",
               "RYR3"
-            ]
+            ],
+            "ontology_id": "GO:0051560",
+            "ontology_label": "mitochondrial calcium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Glutamate receptor-mediated calcium influx",
@@ -1094,7 +1209,12 @@
               "GRIN2B",
               "GRIA3",
               "GRIK2"
-            ]
+            ],
+            "ontology_id": "GO:0019722",
+            "ontology_label": "calcium-mediated signaling",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "GPCR-mediated calcium signaling",
@@ -1107,7 +1227,12 @@
             "genes": [
               "CHRM3",
               "P2RY14"
-            ]
+            ],
+            "ontology_id": "GO:0019722",
+            "ontology_label": "calcium-mediated signaling",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Calcium-dependent gene expression",
@@ -1121,7 +1246,12 @@
               "CAMK2B",
               "CAMK2D",
               "CREB5"
-            ]
+            ],
+            "ontology_id": "GO:0010467",
+            "ontology_label": "gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1135,7 +1265,12 @@
             ],
             "genes": [
               "ITPR2"
-            ]
+            ],
+            "ontology_id": "GO:0032469",
+            "ontology_label": "endoplasmic reticulum calcium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Ryanodine receptor calcium channels",
@@ -1147,7 +1282,12 @@
             ],
             "genes": [
               "RYR3"
-            ]
+            ],
+            "ontology_id": "GO:0005219",
+            "ontology_label": "ryanodine-sensitive calcium-release channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Voltage-gated ion channels",
@@ -1161,7 +1301,12 @@
               "TRPM3",
               "KCNMA1",
               "KCND2"
-            ]
+            ],
+            "ontology_id": "GO:0005244",
+            "ontology_label": "voltage-gated monoatomic ion channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Ligand-gated glutamate receptors",
@@ -1175,7 +1320,12 @@
               "GRIN2B",
               "GRIA3",
               "GRIK2"
-            ]
+            ],
+            "ontology_id": "GO:0004970",
+            "ontology_label": "glutamate-gated receptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1252,7 +1402,12 @@
               "GAP43",
               "SYNJ2",
               "DPP6"
-            ]
+            ],
+            "ontology_id": "GO:0048167",
+            "ontology_label": "regulation of synaptic plasticity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Glutamate receptor signaling",
@@ -1267,7 +1422,12 @@
               "GRIA3",
               "GRIK2",
               "SLC1A2"
-            ]
+            ],
+            "ontology_id": "GO:0007215",
+            "ontology_label": "glutamate receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Cell-cell adhesion and neuron-astrocyte interaction",
@@ -1284,7 +1444,12 @@
               "CDH2",
               "CDH4",
               "JAG1"
-            ]
+            ],
+            "ontology_id": "GO:0007158",
+            "ontology_label": "neuron cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Synaptic organization and neuromodulation",
@@ -1299,7 +1464,12 @@
               "P2RY14",
               "DENND2A",
               "CPNE4"
-            ]
+            ],
+            "ontology_id": "GO:0048499",
+            "ontology_label": "synaptic vesicle membrane organization",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1316,7 +1486,12 @@
               "SLC1A2",
               "GRIA3",
               "GRIN2B"
-            ]
+            ],
+            "ontology_id": "GO:0048786",
+            "ontology_label": "presynaptic active zone",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell adhesion molecules",
@@ -1332,7 +1507,12 @@
               "LSAMP",
               "CDH2",
               "CDH4"
-            ]
+            ],
+            "ontology_id": "GO:0098609",
+            "ontology_label": "cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Growth cone structure",
@@ -1345,7 +1525,12 @@
             "genes": [
               "GAP43",
               "DPYSL5"
-            ]
+            ],
+            "ontology_id": "GO:0030426",
+            "ontology_label": "growth cone",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1428,7 +1613,12 @@
               "LMO2",
               "LEF1",
               "RUNX1"
-            ]
+            ],
+            "ontology_id": "GO:0097150",
+            "ontology_label": "neuronal stem cell population maintenance",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Developmental transcriptional regulation",
@@ -1448,7 +1638,12 @@
               "RUNX1",
               "MEIS1",
               "LMO2"
-            ]
+            ],
+            "ontology_id": "GO:0050793",
+            "ontology_label": "regulation of developmental process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Undifferentiated and cancer stem cell phenotype",
@@ -1463,7 +1658,12 @@
               "CREB5",
               "ENC1",
               "NPAS3"
-            ]
+            ],
+            "ontology_id": "GO:0048864",
+            "ontology_label": "stem cell development",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "HMGA2-mediated stemness",
@@ -1476,7 +1676,12 @@
             "genes": [
               "HMGA2",
               "HMGA2-AS1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1495,7 +1700,12 @@
               "RUNX1",
               "SATB2",
               "CREB5"
-            ]
+            ],
+            "ontology_id": "GO:0005667",
+            "ontology_label": "transcription regulator complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Nuclear matrix attachment regions",
@@ -1507,7 +1717,12 @@
             ],
             "genes": [
               "SATB2"
-            ]
+            ],
+            "ontology_id": "GO:0016363",
+            "ontology_label": "nuclear matrix",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1583,7 +1798,12 @@
               "ADAM12",
               "MMP14",
               "POSTN"
-            ]
+            ],
+            "ontology_id": "GO:0022617",
+            "ontology_label": "extracellular matrix disassembly",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ECM component synthesis and deposition",
@@ -1600,7 +1820,12 @@
               "COL4A2",
               "COL22A1",
               "FBN2"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Matricellular protein signaling",
@@ -1616,7 +1841,12 @@
             ],
             "genes": [
               "POSTN"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -1630,7 +1860,12 @@
             ],
             "genes": [
               "MMP14"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_suitable_match_found"
           },
           {
             "name": "Secreted matrix proteases",
@@ -1644,7 +1879,12 @@
               "ADAMTS9",
               "ADAM19",
               "ADAM12"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_suitable_match_found"
           },
           {
             "name": "Extracellular matrix structural proteins",
@@ -1660,7 +1900,12 @@
               "LAMA4",
               "COL4A2",
               "COL22A1"
-            ]
+            ],
+            "ontology_id": "GO:0030020",
+            "ontology_label": "extracellular matrix structural constituent conferring tensile strength",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1729,7 +1974,12 @@
             "genes": [
               "BCAT1",
               "GLDC"
-            ]
+            ],
+            "ontology_id": "GO:0006520",
+            "ontology_label": "amino acid metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Fatty acid and lipid synthesis",
@@ -1743,7 +1993,12 @@
               "ACSBG1",
               "ACSS3",
               "ELOVL2"
-            ]
+            ],
+            "ontology_id": "GO:0008610",
+            "ontology_label": "lipid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.95,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Oxysterol and cholesterol metabolism",
@@ -1755,7 +2010,12 @@
             ],
             "genes": [
               "OSBP2"
-            ]
+            ],
+            "ontology_id": "GO:0008203",
+            "ontology_label": "cholesterol metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1770,7 +2030,12 @@
             "genes": [
               "GLDC",
               "BCAT1"
-            ]
+            ],
+            "ontology_id": "GO:0016507",
+            "ontology_label": "mitochondrial fatty acid beta-oxidation multienzyme complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lipogenic enzyme complexes",
@@ -1783,7 +2048,12 @@
             "genes": [
               "ACSBG1",
               "ACSS3"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -1848,7 +2118,12 @@
               "SEMA5A",
               "SEMA3A",
               "SEMA3E"
-            ]
+            ],
+            "ontology_id": "GO:0071526",
+            "ontology_label": "semaphorin-plexin signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ETS transcription factor signaling",
@@ -1861,7 +2136,12 @@
             "genes": [
               "ETV5",
               "ETV6"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Migration-associated kinase signaling",
@@ -1874,7 +2154,12 @@
             "genes": [
               "ALK",
               "MAP3K1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -1890,7 +2175,12 @@
               "SEMA5A",
               "SEMA3A",
               "SEMA3E"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1956,7 +2246,12 @@
               "LINC02742",
               "LINC01138",
               "LINC01798"
-            ]
+            ],
+            "ontology_id": "GO:0006338",
+            "ontology_label": "chromatin remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Post-transcriptional regulation and mRNA stability",
@@ -1970,7 +2265,12 @@
               "CHRM3-AS2",
               "ADAMTS9-AS1",
               "PCDH9-AS2"
-            ]
+            ],
+            "ontology_id": "GO:0010608",
+            "ontology_label": "post-transcriptional regulation of gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "miRNA sponging and ceRNA networks",
@@ -1984,7 +2284,12 @@
               "MIR4435-2HG",
               "GNG12-AS1",
               "LINC00266-1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -1999,7 +2304,12 @@
             "genes": [
               "MIR4435-2HG",
               "HMGA2-AS1"
-            ]
+            ],
+            "ontology_id": "GO:0006338",
+            "ontology_label": "chromatin remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

@@ -1,0 +1,32 @@
+{
+  "total_processes": 52,
+  "total_components": 31,
+  "mapped_processes": 49,
+  "mapped_components": 28,
+  "failed_mappings": [
+    {
+      "term": "Oligodendrocyte-astrocyte interactions",
+      "type": "process"
+    },
+    {
+      "term": "Receptor tyrosine kinase complex",
+      "type": "component"
+    },
+    {
+      "term": "Notch-mediated progenitor maintenance",
+      "type": "process"
+    },
+    {
+      "term": "EMT transcriptional regulatory complex",
+      "type": "component"
+    },
+    {
+      "term": "ETS family transcription factor signaling",
+      "type": "process"
+    },
+    {
+      "term": "ETS transcription factor protein family",
+      "type": "component"
+    }
+  ]
+}

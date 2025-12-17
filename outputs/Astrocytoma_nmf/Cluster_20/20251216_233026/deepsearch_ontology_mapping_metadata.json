@@ -1,0 +1,36 @@
+{
+  "total_processes": 24,
+  "total_components": 14,
+  "mapped_processes": 20,
+  "mapped_components": 11,
+  "failed_mappings": [
+    {
+      "term": "Prevention of terminal neuronal differentiation",
+      "type": "process"
+    },
+    {
+      "term": "INSM1-dependent transcriptional complex",
+      "type": "component"
+    },
+    {
+      "term": "Neuronal isoform production from progenitor-like transcriptional state",
+      "type": "process"
+    },
+    {
+      "term": "Chemotactic migration and invasion",
+      "type": "process"
+    },
+    {
+      "term": "Suppression of pro-apoptotic DCC signaling",
+      "type": "process"
+    },
+    {
+      "term": "Progenitor-specifying transcriptional complex",
+      "type": "component"
+    },
+    {
+      "term": "EMT-inducing transcriptional complex",
+      "type": "component"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "total_processes": 43,
+  "total_components": 13,
+  "mapped_processes": 38,
+  "mapped_components": 12,
+  "failed_mappings": [
+    {
+      "term": "Immediate early response transcription",
+      "type": "process"
+    },
+    {
+      "term": "NAD+ biosynthesis and SIRT-dependent signaling",
+      "type": "process"
+    },
+    {
+      "term": "Mitochondrial metabolic compartments",
+      "type": "component"
+    },
+    {
+      "term": "Astrocyte-neuron contact and synaptic stabilization",
+      "type": "process"
+    },
+    {
+      "term": "Hyaluronic acid-mediated adhesion and immune signaling",
+      "type": "process"
+    },
+    {
+      "term": "Immunosuppressive microenvironment establishment",
+      "type": "process"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-17T00:02:54.387728",
+    "timestamp": "2025-12-17T22:04:34.603774",
     "genes": [
       "AC004448.2",
       "PIM3",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_26",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -285,7 +285,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/24387",
       "https://www.ncbi.nlm.nih.gov/gene/17172"
     ],
-    "duration_seconds": 246.846538066864
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -518,7 +518,12 @@
               "HSPA1B",
               "HSPA2",
               "HSPE1"
-            ]
+            ],
+            "ontology_id": "GO:0036499",
+            "ontology_label": "PERK-mediated unfolded protein response",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ER-associated protein degradation (ERAD)",
@@ -530,7 +535,12 @@
             ],
             "genes": [
               "HERPUD1"
-            ]
+            ],
+            "ontology_id": "GO:0036503",
+            "ontology_label": "ERAD pathway",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Translational control during ER stress",
@@ -542,7 +552,12 @@
             ],
             "genes": [
               "PPP1R15A"
-            ]
+            ],
+            "ontology_id": "GO:0043555",
+            "ontology_label": "regulation of translation in response to stress",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -558,7 +573,12 @@
               "HSPA1B",
               "HSPA2",
               "HERPUD1"
-            ]
+            ],
+            "ontology_id": "GO:0005788",
+            "ontology_label": "endoplasmic reticulum lumen",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Ribosome and translation machinery",
@@ -570,7 +590,12 @@
             ],
             "genes": [
               "PPP1R15A"
-            ]
+            ],
+            "ontology_id": "GO:0044322",
+            "ontology_label": "endoplasmic reticulum quality control compartment",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -641,7 +666,12 @@
               "TNFAIP6",
               "TNFRSF12A",
               "S100A13"
-            ]
+            ],
+            "ontology_id": "GO:0006954",
+            "ontology_label": "inflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Anti-inflammatory and immunomodulatory signaling",
@@ -654,7 +684,12 @@
             "genes": [
               "ANXA1",
               "ANXA2"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           },
           {
             "name": "IL-6 mediated immune suppression and NK cell dysfunction",
@@ -666,7 +701,12 @@
             ],
             "genes": [
               "IL32"
-            ]
+            ],
+            "ontology_id": "GO:0052562",
+            "ontology_label": "symbiont-mediated suppression of host immune response",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Negative feedback on cytokine signaling",
@@ -678,7 +718,12 @@
             ],
             "genes": [
               "SOCS1"
-            ]
+            ],
+            "ontology_id": "GO:0001960",
+            "ontology_label": "negative regulation of cytokine-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           }
         ],
         "atomic_cellular_components": [
@@ -692,7 +737,12 @@
             ],
             "genes": [
               "TNFRSF12A"
-            ]
+            ],
+            "ontology_id": "GO:0005031",
+            "ontology_label": "tumor necrosis factor receptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Extracellular space and secreted factors",
@@ -706,7 +756,12 @@
               "TNFAIP6",
               "S100A13",
               "IL32"
-            ]
+            ],
+            "ontology_id": "GO:0005615",
+            "ontology_label": "extracellular space",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Cell membrane and plasma membrane associated proteins",
@@ -720,7 +775,12 @@
               "ANXA1",
               "ANXA2",
               "LGALS3"
-            ]
+            ],
+            "ontology_id": "GO:0005886",
+            "ontology_label": "plasma membrane",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -793,7 +853,12 @@
             "genes": [
               "PLIN2",
               "PLIN3"
-            ]
+            ],
+            "ontology_id": "GO:0006635",
+            "ontology_label": "fatty acid beta-oxidation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Oxidative stress management and antioxidant defense",
@@ -806,7 +871,12 @@
             "genes": [
               "HMOX1",
               "GDF15"
-            ]
+            ],
+            "ontology_id": "GO:0006979",
+            "ontology_label": "response to oxidative stress",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lysosomal acidification and autophagy-mediated nutrient recycling",
@@ -818,7 +888,12 @@
             ],
             "genes": [
               "ATP6V0D2"
-            ]
+            ],
+            "ontology_id": "GO:0007042",
+            "ontology_label": "lysosomal lumen acidification",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Drug and hormone metabolism",
@@ -830,7 +905,12 @@
             ],
             "genes": [
               "SULT1A1"
-            ]
+            ],
+            "ontology_id": "GO:0042445",
+            "ontology_label": "hormone metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Metabolic stress signaling",
@@ -842,7 +922,12 @@
             ],
             "genes": [
               "GDF15"
-            ]
+            ],
+            "ontology_id": "GO:0031098",
+            "ontology_label": "stress-activated protein kinase signaling cascade",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -857,7 +942,12 @@
             "genes": [
               "PLIN2",
               "PLIN3"
-            ]
+            ],
+            "ontology_id": "GO:0005811",
+            "ontology_label": "lipid droplet",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Endoplasmic reticulum membrane and associated systems",
@@ -869,7 +959,12 @@
             ],
             "genes": [
               "MGST1"
-            ]
+            ],
+            "ontology_id": "GO:0005789",
+            "ontology_label": "endoplasmic reticulum membrane",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lysosomes and vacuolar compartments",
@@ -881,7 +976,12 @@
             ],
             "genes": [
               "ATP6V0D2"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -952,7 +1052,12 @@
             ],
             "genes": [
               "MAP1LC3B"
-            ]
+            ],
+            "ontology_id": "GO:0097352",
+            "ontology_label": "autophagosome maturation",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Selective autophagy and cargo recognition",
@@ -964,7 +1069,12 @@
             ],
             "genes": [
               "SQSTM1"
-            ]
+            ],
+            "ontology_id": "GO:0160247",
+            "ontology_label": "autophagy cargo adaptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lysosomal protein degradation",
@@ -976,7 +1086,12 @@
             ],
             "genes": [
               "CTSL"
-            ]
+            ],
+            "ontology_id": "GO:1905146",
+            "ontology_label": "lysosomal protein catabolic process",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "synonym_match"
           }
         ],
         "atomic_cellular_components": [
@@ -990,7 +1105,12 @@
             ],
             "genes": [
               "MAP1LC3B"
-            ]
+            ],
+            "ontology_id": "GO:0034045",
+            "ontology_label": "phagophore assembly site membrane",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Lysosomes and lysosomal compartments",
@@ -1002,7 +1122,12 @@
             ],
             "genes": [
               "CTSL"
-            ]
+            ],
+            "ontology_id": "GO:0005765",
+            "ontology_label": "lysosomal membrane",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1055,7 +1180,12 @@
             ],
             "genes": [
               "PRKG1"
-            ]
+            ],
+            "ontology_id": "GO:0061939",
+            "ontology_label": "c-di-GMP signaling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "MAPK signaling and translation regulation",
@@ -1067,7 +1197,12 @@
             ],
             "genes": [
               "MKNK2"
-            ]
+            ],
+            "ontology_id": "GO:0043408",
+            "ontology_label": "regulation of MAPK cascade",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Phosphoinositide signaling and calcium mobilization",
@@ -1084,7 +1219,12 @@
             "genes": [
               "PLCD1",
               "PLCD3"
-            ]
+            ],
+            "ontology_id": "GO:0048015",
+            "ontology_label": "phosphatidylinositol-mediated signaling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Sphingosine 1-phosphate signaling and immune regulation",
@@ -1097,7 +1237,12 @@
             "genes": [
               "SPHK1",
               "S1PR1"
-            ]
+            ],
+            "ontology_id": "GO:0003376",
+            "ontology_label": "sphingosine-1-phosphate receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Proto-oncogene signaling in malignancy",
@@ -1109,7 +1254,12 @@
             ],
             "genes": [
               "PIM3"
-            ]
+            ],
+            "ontology_id": "GO:0090402",
+            "ontology_label": "oncogene-induced cell senescence",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1123,7 +1273,12 @@
             ],
             "genes": [
               "S1PR1"
-            ]
+            ],
+            "ontology_id": "GO:0097648",
+            "ontology_label": "G protein-coupled receptor complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cytoplasmic signaling complexes and kinase cascades",
@@ -1137,7 +1292,12 @@
               "PRKG1",
               "MKNK2",
               "PIM3"
-            ]
+            ],
+            "ontology_id": "GO:0090036",
+            "ontology_label": "regulation of protein kinase C signaling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Phosphoinositide pools in plasma membrane and intracellular membranes",
@@ -1150,7 +1310,12 @@
             "genes": [
               "PLCD1",
               "PLCD3"
-            ]
+            ],
+            "ontology_id": "GO:0043231",
+            "ontology_label": "intracellular membrane-bounded organelle",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1228,7 +1393,12 @@
             ],
             "genes": [
               "NR1D1"
-            ]
+            ],
+            "ontology_id": "GO:0042752",
+            "ontology_label": "regulation of circadian rhythm",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "DNA repair and chemotherapy sensitivity",
@@ -1244,7 +1414,12 @@
             ],
             "genes": [
               "NR1D1"
-            ]
+            ],
+            "ontology_id": "GO:0006281",
+            "ontology_label": "DNA repair",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Metabolic regulation by circadian factors",
@@ -1256,7 +1431,12 @@
             ],
             "genes": [
               "NR1D1"
-            ]
+            ],
+            "ontology_id": "GO:0032922",
+            "ontology_label": "circadian regulation of gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1270,7 +1450,12 @@
             ],
             "genes": [
               "NR1D1"
-            ]
+            ],
+            "ontology_id": "GO:0005634",
+            "ontology_label": "nucleus",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "DNA damage response sites",
@@ -1282,7 +1467,12 @@
             ],
             "genes": [
               "NR1D1"
-            ]
+            ],
+            "ontology_id": "GO:0090734",
+            "ontology_label": "site of DNA damage",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1341,7 +1531,12 @@
             "genes": [
               "ITGA5",
               "ITGBL1"
-            ]
+            ],
+            "ontology_id": "GO:0007229",
+            "ontology_label": "integrin-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Syndecane-mediated cell adhesion and growth factor signaling",
@@ -1353,7 +1548,12 @@
             ],
             "genes": [
               "SDC4"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Rho GTPase-mediated cytoskeletal reorganization",
@@ -1365,7 +1565,12 @@
             ],
             "genes": [
               "RHOC"
-            ]
+            ],
+            "ontology_id": "GO:0007266",
+            "ontology_label": "Rho protein signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Mechanical substrate stiffness sensing",
@@ -1378,7 +1583,12 @@
             "genes": [
               "RHOC",
               "LAMTOR5"
-            ]
+            ],
+            "ontology_id": "GO:0009612",
+            "ontology_label": "response to mechanical stimulus",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "mTORC1 signaling in response to amino acid availability and growth signals",
@@ -1390,7 +1600,12 @@
             ],
             "genes": [
               "LAMTOR5"
-            ]
+            ],
+            "ontology_id": "GO:0043200",
+            "ontology_label": "response to amino acid",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1405,7 +1620,12 @@
             "genes": [
               "ITGA5",
               "ITGBL1"
-            ]
+            ],
+            "ontology_id": "GO:0005925",
+            "ontology_label": "focal adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell membrane and transmembrane proteins",
@@ -1419,7 +1639,12 @@
               "ITGA5",
               "ITGBL1",
               "SDC4"
-            ]
+            ],
+            "ontology_id": "GO:0016020",
+            "ontology_label": "membrane",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Cytoskeletal actin filaments and stress fibers",
@@ -1432,7 +1657,12 @@
             "genes": [
               "RHOC",
               "KRT10"
-            ]
+            ],
+            "ontology_id": "GO:0030036",
+            "ontology_label": "actin cytoskeleton organization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lysosomal surface and late endosomal membranes",
@@ -1444,7 +1674,12 @@
             ],
             "genes": [
               "LAMTOR5"
-            ]
+            ],
+            "ontology_id": "GO:0005765",
+            "ontology_label": "lysosomal membrane",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1506,7 +1741,12 @@
               "TNFAIP6",
               "ANXA1",
               "ANXA2"
-            ]
+            ],
+            "ontology_id": "GO:0048143",
+            "ontology_label": "astrocyte activation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell identity and differentiation control",
@@ -1518,7 +1758,12 @@
             ],
             "genes": [
               "ID3"
-            ]
+            ],
+            "ontology_id": "GO:0030154",
+            "ontology_label": "cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Chromatin remodeling and histone variant expression",
@@ -1540,7 +1785,12 @@
               "HIST1H4H",
               "HIST2H2BE",
               "HIST3H2A"
-            ]
+            ],
+            "ontology_id": "GO:0006338",
+            "ontology_label": "chromatin remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Heat shock response and proteostasis",
@@ -1555,7 +1805,12 @@
               "HSPA2",
               "HSPB8",
               "HSPE1"
-            ]
+            ],
+            "ontology_id": "GO:0009408",
+            "ontology_label": "response to heat",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1571,7 +1826,12 @@
               "S100A13",
               "ANXA1",
               "ANXA2"
-            ]
+            ],
+            "ontology_id": "GO:0005886",
+            "ontology_label": "plasma membrane",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Chromatin and nucleus",
@@ -1594,7 +1854,12 @@
               "HIST1H4H",
               "HIST2H2BE",
               "HIST3H2A"
-            ]
+            ],
+            "ontology_id": "GO:0005615",
+            "ontology_label": "extracellular space",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cytoplasm and protein quality control compartments",
@@ -1609,7 +1874,12 @@
               "HSPA2",
               "HSPB8",
               "HSPE1"
-            ]
+            ],
+            "ontology_id": "GO:0000785",
+            "ontology_label": "chromatin",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1685,7 +1955,12 @@
             ],
             "genes": [
               "HDAC2"
-            ]
+            ],
+            "ontology_id": "GO:0034983",
+            "ontology_label": "peptidyl-lysine deacetylation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Circadian-epigenetic coupling",
@@ -1697,7 +1972,12 @@
             ],
             "genes": [
               "HDAC2"
-            ]
+            ],
+            "ontology_id": "GO:0040029",
+            "ontology_label": "epigenetic regulation of gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Chromatin remodeling and nucleosome organization",
@@ -1719,7 +1999,12 @@
               "HIST1H4H",
               "HIST2H2BE",
               "HIST3H2A"
-            ]
+            ],
+            "ontology_id": "GO:0006338",
+            "ontology_label": "chromatin remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1744,7 +2029,12 @@
               "HIST1H4H",
               "HIST2H2BE",
               "HIST3H2A"
-            ]
+            ],
+            "ontology_id": "GO:0000785",
+            "ontology_label": "chromatin",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Histone deacetylase complexes",
@@ -1756,7 +2046,12 @@
             ],
             "genes": [
               "HDAC2"
-            ]
+            ],
+            "ontology_id": "GO:0000118",
+            "ontology_label": "histone deacetylase complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           }
         ],
         "predicted_cellular_impact": [

@@ -364,56 +364,56 @@ Histone deacetylase inhibitors have emerged as potential therapeutic agents in g
 - [37]: HDAC2 histone deacetylase family member in chromatin regulation and epigenetic control
 
 ## Bibliography
-1. 1. Available from: https://www.ncbi.nlm.nih.gov/gene/57670
-2. 2. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-3. 3. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
-4. 4. Available from: https://www.ncbi.nlm.nih.gov/gene/2735
-5. 5. Available from: https://www.ncbi.nlm.nih.gov/gene/7098
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/4613
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/114548
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
-9. 9. Wang Y, Guo Z, Xu A, Fu Z, Hou Y, Tang K, et al.. Mechanistic insights into IL-6-mediated NK cell dysfunction in NSCLC via the IRE1α-XBP1s-STAT3-UBE2S axis. npj Precision Oncology [Internet]. 2025Nov18;9(1). Available from: https://www.nature.com/articles/s41698-025-01140-z
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/9518
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/5594
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/14828
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/23886
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/301
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/gene/19225
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/13609
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/1901
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/1029
-19. 19. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
-20. 20. Available from: http://connect.biorxiv.org/archive/index.php?dt
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/1030
-22. 22. Available from: https://www.ncbi.nlm.nih.gov/gene/1052
-23. 23. Available from: https://www.ncbi.nlm.nih.gov/gene/21937
-24. 24. Almaguer-Mederos LE, Key J, Sen N-E, Canet-Pons J, Döring C, Meierhofer D, et al.. Multiomics approach identifies SERPINB1 as candidate biomarker for spinocerebellar ataxia type 2. Scientific Reports [Internet]. 2025Nov26;15(1). Available from: https://www.nature.com/articles/s41598-025-29070-7
-25. 25. Yang K, Yang S, Teng X, He X, Sun T, Chen H. Modulating Schwann cell behavior via functional nerve guidance conduits for enhanced peripheral nerve regeneration. npj Regenerative Medicine [Internet]. 2025Nov26;10(1). Available from: https://www.nature.com/articles/s41536-025-00443-w
-26. 26. Available from: https://www.ncbi.nlm.nih.gov/gene/6817
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/3162
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/4780
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/546
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/64209
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
-32. 32. Available from: https://www.ncbi.nlm.nih.gov/gene/21926
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/406991
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/3066
-35. 35. Nelson N, Zimmer O, Relógio A. Personalized chronotherapy in glioblastoma: integrating circadian profiling and PK–PD modelling to optimize temozolomide timing. npj Precision Oncology [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41698-025-01205-z
-36. 36. Available from: https://www.ncbi.nlm.nih.gov/gene/9572
-37. 37. Available from: https://www.ncbi.nlm.nih.gov/gene/5333
-38. 38. Available from: https://www.ncbi.nlm.nih.gov/gene/1385
-39. 39. Available from: https://www.ncbi.nlm.nih.gov/gene/113026
-40. 40. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
-41. 41. Available from: https://www.ncbi.nlm.nih.gov/gene/5524
-42. 42. Available from: https://www.ncbi.nlm.nih.gov/gene/415116
-43. 43. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
-44. 44. Available from: https://www.ncbi.nlm.nih.gov/gene/5292
-45. 45. Available from: https://www.ncbi.nlm.nih.gov/gene/16189
-46. 46. Available from: https://www.ncbi.nlm.nih.gov/gene/4869
-47. 47. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
-48. 48. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
-49. 49. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
-50. 50. Available from: https://www.ncbi.nlm.nih.gov/gene/6663
-51. 51. Available from: https://www.ncbi.nlm.nih.gov/gene/8842
-52. 52. Available from: https://www.ncbi.nlm.nih.gov/gene/24387
-53. 53. Available from: https://www.ncbi.nlm.nih.gov/gene/17172
+1. Available from: https://www.ncbi.nlm.nih.gov/gene/57670
+2. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+3. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
+4. Available from: https://www.ncbi.nlm.nih.gov/gene/2735
+5. Available from: https://www.ncbi.nlm.nih.gov/gene/7098
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/4613
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/114548
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
+9. Wang Y, Guo Z, Xu A, Fu Z, Hou Y, Tang K, et al.. Mechanistic insights into IL-6-mediated NK cell dysfunction in NSCLC via the IRE1α-XBP1s-STAT3-UBE2S axis. npj Precision Oncology [Internet]. 2025Nov18;9(1). Available from: https://www.nature.com/articles/s41698-025-01140-z
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/9518
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/5594
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/14828
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/23886
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/301
+15. Available from: https://www.ncbi.nlm.nih.gov/gene/19225
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/13609
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/1901
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/1029
+19. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
+20. Available from: http://connect.biorxiv.org/archive/index.php?dt
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/1030
+22. Available from: https://www.ncbi.nlm.nih.gov/gene/1052
+23. Available from: https://www.ncbi.nlm.nih.gov/gene/21937
+24. Almaguer-Mederos LE, Key J, Sen N-E, Canet-Pons J, Döring C, Meierhofer D, et al.. Multiomics approach identifies SERPINB1 as candidate biomarker for spinocerebellar ataxia type 2. Scientific Reports [Internet]. 2025Nov26;15(1). Available from: https://www.nature.com/articles/s41598-025-29070-7
+25. Yang K, Yang S, Teng X, He X, Sun T, Chen H. Modulating Schwann cell behavior via functional nerve guidance conduits for enhanced peripheral nerve regeneration. npj Regenerative Medicine [Internet]. 2025Nov26;10(1). Available from: https://www.nature.com/articles/s41536-025-00443-w
+26. Available from: https://www.ncbi.nlm.nih.gov/gene/6817
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/3162
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/4780
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/546
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/64209
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
+32. Available from: https://www.ncbi.nlm.nih.gov/gene/21926
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/406991
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/3066
+35. Nelson N, Zimmer O, Relógio A. Personalized chronotherapy in glioblastoma: integrating circadian profiling and PK–PD modelling to optimize temozolomide timing. npj Precision Oncology [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41698-025-01205-z
+36. Available from: https://www.ncbi.nlm.nih.gov/gene/9572
+37. Available from: https://www.ncbi.nlm.nih.gov/gene/5333
+38. Available from: https://www.ncbi.nlm.nih.gov/gene/1385
+39. Available from: https://www.ncbi.nlm.nih.gov/gene/113026
+40. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
+41. Available from: https://www.ncbi.nlm.nih.gov/gene/5524
+42. Available from: https://www.ncbi.nlm.nih.gov/gene/415116
+43. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
+44. Available from: https://www.ncbi.nlm.nih.gov/gene/5292
+45. Available from: https://www.ncbi.nlm.nih.gov/gene/16189
+46. Available from: https://www.ncbi.nlm.nih.gov/gene/4869
+47. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
+48. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
+49. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
+50. Available from: https://www.ncbi.nlm.nih.gov/gene/6663
+51. Available from: https://www.ncbi.nlm.nih.gov/gene/8842
+52. Available from: https://www.ncbi.nlm.nih.gov/gene/24387
+53. Available from: https://www.ncbi.nlm.nih.gov/gene/17172

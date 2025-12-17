@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T20:39:04.570431",
+    "timestamp": "2025-12-17T21:44:41.502531",
     "genes": [
       "FAM189A2",
       "OGFRL1",
@@ -207,7 +207,7 @@
     "validation_status": "valid",
     "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_0/20251216_203354/deepsearch.json",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_0",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,

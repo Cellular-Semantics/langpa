@@ -410,47 +410,47 @@ The collective evidence from multiple interconnected programs demonstrates that 
 - [36]: DNA replication dynamics pace developmental timing in cortical development
 
 ## Bibliography
-1. 1. Available from: https://www.ncbi.nlm.nih.gov/gene/2697
-2. 2. Available from: https://www.ncbi.nlm.nih.gov/gene/207
-3. 3. Available from: https://www.ncbi.nlm.nih.gov/gene/627
-4. 4. Available from: https://www.ncbi.nlm.nih.gov/gene/4763
-5. 5. Available from: https://www.ncbi.nlm.nih.gov/gene/5817
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/5133
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/3832
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/4867
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/80184
-11. 11. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/clinvar/variation/VCV000012374
-13. 13. Philipp K, Jacob SY, Maarten MJW, Tommaso S, Nico T, Alba C, et al.. A prognostic classification system for extent of resection in IDH-mutant grade 2 glioma: an international, multicentre, retrospective cohort study with external validation by the RANO resect group.. The Lancet Oncology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41308678/
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/clinvar/variation/43590/
-16. 16. Lara N, Javier M, Irene S-S, Moisés S-P, Esther R-S, Teresa S-M. Next-Generation Sequencing Reveals a Diagnostic and Prognostic Role of the . International journal of molecular sciences [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41373636/?fc=None&ff=20251211105245&v=2.18.0.post22+67771e2
-17. 17. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/7161
-19. 19. Available from: https://www.ncbi.nlm.nih.gov/gene/6660
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/4582
-21. 21. Pietramale AN, Bame X, Doty ME, Schwarz KE, Hill RA. Mitochondria are absent from microglial processes performing surveillance, chemotaxis, and phagocytic engulfment. Nature Communications [Internet]. 2025Dec12;16(1). Available from: https://www.nature.com/articles/s41467-025-66708-6
-22. 22. Zamboni M, Martínez-Martín A, Rydholm G, Häneke T, Pintado AL, Seçilmiş D, et al.. The regulatory code of injury-responsive enhancers enables precision cell-state targeting in the CNS. Nature Neuroscience [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41593-025-02131-w
-23. 23. Available from: https://www.ncbi.nlm.nih.gov/gene/3064
-24. 24. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
-25. 25. Han Y, Han M, Wang T, Zhang H, Liu H, Zheng Y, et al.. Inhibiting the formation of neutrophil extracellular traps to prevent the recurrence of post-operative glioblastoma. Nature Communications [Internet]. 2025Dec9;16(1). Available from: https://www.nature.com/articles/s41467-025-65933-3
-26. 26. Available from: https://www.ncbi.nlm.nih.gov/gene/6103
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/4804
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/57096
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/24842
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/12803
-31. 31. Zhao X, Mouilleau V, Wang Y, Solak AC, Garcia JQ, Chen X, et al.. PCM1 coordinates centrosome asymmetry with polarized endosome dynamics to regulate daughter cell fate. Nature Communications [Internet]. 2025Nov28;16(1). Available from: https://www.nature.com/articles/s41467-025-65756-2
-32. 32. Available from: https://www.ncbi.nlm.nih.gov/gene/1270
-33. 33. Wang J, Kong Y, Li X, Chen D, Xiang K, Tan Y, et al.. DNA replication fork speed acts as a pacer in cortical neurogenesis. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-65269-y
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/4313
-35. 35. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-36. 36. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
-37. 37. Christina P, Olympia A, Konstantina C, Anastasios K, Sofia D, Martina S, et al.. Dysregulated proteostasis in p.A53T-α-Synuclein astrocytes aggravates Lewy-like neuropathology in a Parkinson's disease iPSC model.. Proceedings of the National Academy of Sciences of the United States of America [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41248289/
-38. 38. Li W, Zhang Q, Yin H, Li Q, Liu S, Wang J, et al.. Knockdown of SUCLG2 inhibits glioblastoma proliferation and promotes apoptosis through LMNA acetylation and the mediation of H4K16la lactylation. Cell Death Discovery [Internet]. 2025Nov17;11(1). Available from: https://www.nature.com/articles/s41420-025-02856-4
-39. 39. Available from: https://www.ncbi.nlm.nih.gov/gene/991
-40. 40. Xie Y, Li Q, Ma Y, Yang Y, Jin X, Yi T, et al.. RGS20 reduces glioma stemness and temozolomide resistance by intrinsically inhibiting the WNT/β-catenin signaling pathway. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-30291-z
-41. 41. Ren Y, Zhang Z, Lei X, Shi L. Long non-coding RNAs in cancer glycolysis and metabolism: mechanisms and translational opportunities. Cell Death &amp; Disease [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41419-025-08289-2
-42. 42. Available from: https://www.ncbi.nlm.nih.gov/gene/7465
-43. 43. Xie Y, Li Q, Ma Y, Yang Y, Jin X, Yi T, et al.. RGS20 reduces glioma stemness and temozolomide resistance by intrinsically inhibiting the WNT/β-catenin signaling pathway. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-30291-z_reference.pdf
-44. 44. Available from: http://json-schema.org/draft-07/schema#",
+1. Available from: https://www.ncbi.nlm.nih.gov/gene/2697
+2. Available from: https://www.ncbi.nlm.nih.gov/gene/207
+3. Available from: https://www.ncbi.nlm.nih.gov/gene/627
+4. Available from: https://www.ncbi.nlm.nih.gov/gene/4763
+5. Available from: https://www.ncbi.nlm.nih.gov/gene/5817
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/5133
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/3832
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/4867
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/80184
+11. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
+12. Available from: https://www.ncbi.nlm.nih.gov/clinvar/variation/VCV000012374
+13. Philipp K, Jacob SY, Maarten MJW, Tommaso S, Nico T, Alba C, et al.. A prognostic classification system for extent of resection in IDH-mutant grade 2 glioma: an international, multicentre, retrospective cohort study with external validation by the RANO resect group.. The Lancet Oncology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41308678/
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
+15. Available from: https://www.ncbi.nlm.nih.gov/clinvar/variation/43590/
+16. Lara N, Javier M, Irene S-S, Moisés S-P, Esther R-S, Teresa S-M. Next-Generation Sequencing Reveals a Diagnostic and Prognostic Role of the . International journal of molecular sciences [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41373636/?fc=None&ff=20251211105245&v=2.18.0.post22+67771e2
+17. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/7161
+19. Available from: https://www.ncbi.nlm.nih.gov/gene/6660
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/4582
+21. Pietramale AN, Bame X, Doty ME, Schwarz KE, Hill RA. Mitochondria are absent from microglial processes performing surveillance, chemotaxis, and phagocytic engulfment. Nature Communications [Internet]. 2025Dec12;16(1). Available from: https://www.nature.com/articles/s41467-025-66708-6
+22. Zamboni M, Martínez-Martín A, Rydholm G, Häneke T, Pintado AL, Seçilmiş D, et al.. The regulatory code of injury-responsive enhancers enables precision cell-state targeting in the CNS. Nature Neuroscience [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41593-025-02131-w
+23. Available from: https://www.ncbi.nlm.nih.gov/gene/3064
+24. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
+25. Han Y, Han M, Wang T, Zhang H, Liu H, Zheng Y, et al.. Inhibiting the formation of neutrophil extracellular traps to prevent the recurrence of post-operative glioblastoma. Nature Communications [Internet]. 2025Dec9;16(1). Available from: https://www.nature.com/articles/s41467-025-65933-3
+26. Available from: https://www.ncbi.nlm.nih.gov/gene/6103
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/4804
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/57096
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/24842
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/12803
+31. Zhao X, Mouilleau V, Wang Y, Solak AC, Garcia JQ, Chen X, et al.. PCM1 coordinates centrosome asymmetry with polarized endosome dynamics to regulate daughter cell fate. Nature Communications [Internet]. 2025Nov28;16(1). Available from: https://www.nature.com/articles/s41467-025-65756-2
+32. Available from: https://www.ncbi.nlm.nih.gov/gene/1270
+33. Wang J, Kong Y, Li X, Chen D, Xiang K, Tan Y, et al.. DNA replication fork speed acts as a pacer in cortical neurogenesis. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-65269-y
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/4313
+35. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+36. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
+37. Christina P, Olympia A, Konstantina C, Anastasios K, Sofia D, Martina S, et al.. Dysregulated proteostasis in p.A53T-α-Synuclein astrocytes aggravates Lewy-like neuropathology in a Parkinson's disease iPSC model.. Proceedings of the National Academy of Sciences of the United States of America [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41248289/
+38. Li W, Zhang Q, Yin H, Li Q, Liu S, Wang J, et al.. Knockdown of SUCLG2 inhibits glioblastoma proliferation and promotes apoptosis through LMNA acetylation and the mediation of H4K16la lactylation. Cell Death Discovery [Internet]. 2025Nov17;11(1). Available from: https://www.nature.com/articles/s41420-025-02856-4
+39. Available from: https://www.ncbi.nlm.nih.gov/gene/991
+40. Xie Y, Li Q, Ma Y, Yang Y, Jin X, Yi T, et al.. RGS20 reduces glioma stemness and temozolomide resistance by intrinsically inhibiting the WNT/β-catenin signaling pathway. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-30291-z
+41. Ren Y, Zhang Z, Lei X, Shi L. Long non-coding RNAs in cancer glycolysis and metabolism: mechanisms and translational opportunities. Cell Death &amp; Disease [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41419-025-08289-2
+42. Available from: https://www.ncbi.nlm.nih.gov/gene/7465
+43. Xie Y, Li Q, Ma Y, Yang Y, Jin X, Yi T, et al.. RGS20 reduces glioma stemness and temozolomide resistance by intrinsically inhibiting the WNT/β-catenin signaling pathway. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-30291-z_reference.pdf
+44. Available from: http://json-schema.org/draft-07/schema#",

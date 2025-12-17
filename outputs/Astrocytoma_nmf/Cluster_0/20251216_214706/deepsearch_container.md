@@ -498,65 +498,65 @@ NTRK2 represents a critical survival and proliferation signal for astrocytes und
 - [21]: Details NTRK2 roles in astrocyte response to injury
 
 ## Bibliography
-1. 1. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
-2. 2. Schoof M, Zheng T, Sill M, Imle R, Cais A, Altendorf L, et al.. Investigation of a global mouse methylome atlas reveals subtype-specific copy number alterations in pediatric cancer models. Nature Genetics [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41588-025-02419-4
-3. 3. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
-4. 4. Available from: https://www.ncbi.nlm.nih.gov/gene/23627
-5. 5. Breen KE, Mehta N, Ravichandran V, Mehine M, Gao C, Fiala E, et al.. Paired tumor-normal sequencing provides insights into the CDKN2A-associated tumor spectrum. npj Precision Oncology [Internet]. 2025Nov19;9(1). Available from: https://www.nature.com/articles/s41698-025-01155-6
-6. 6. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/21898
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/12494
-9. 9. González-Gallego J, Todorov-Völgyi K, Müller SA, Antesberger S, Todorov MI, Malik R, et al.. A fully iPS-cell-derived 3D model of the human blood–brain barrier for exploring neurovascular disease mechanisms and therapeutic interventions. Nature Neuroscience [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41593-025-02123-w
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/6507
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/20655
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/20512
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/211323
-14. 14. Trudel L, Therriault J, Macedo AC, Woo MS, Rahmouni N, Aumont É, et al.. APOE ε4 potentiates tau related reactive astrogliosis assessed by cerebrospinal fluid YKL40 in Alzheimer’s disease. Communications Medicine [Internet]. 2025Nov20;5(1). Available from: https://www.nature.com/articles/s43856-025-01171-4
-15. 15. Yusuf AM, Ilce BY, Alhaj HA, Hamoudi R. α-synuclein in Parkinson’s disease: a central point of convergence with depression. npj Parkinson's Disease [Internet]. 2025Nov20;11(1). Available from: https://www.nature.com/articles/s41531-025-01167-w
-16. 16. Sung S, Kim H-J, Cha SJ, Nahm M, Kim SH, Kwon M-S. Microglial lipid droplets as therapeutic targets in age-related neurodegenerative diseases. npj Aging [Internet]. 2025Nov30;. Available from: https://www.nature.com/articles/s41514-025-00295-0
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/11835
-18. 18. Hruby AJ, Higuchi-Sanabria R. Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease. npj Aging [Internet]. 2025Dec16;11(1). Available from: https://www.nature.com/articles/s41514-025-00291-4
-19. 19. Ji JX, Giles BL, Bhattacharjee S, Kautzmann M-AI, P. MA, Do CS, et al.. Intercellular signaling and synaptic deconstruction uncovered by single-cell and spatial transcriptomics in an AD tauopathy model. Communications Biology [Internet]. 2025Nov17;8(1). Available from: https://www.nature.com/articles/s42003-025-08959-z
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/18018
-21. 21. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-22. 22. Nasu Y, Kishikawa S, Imai M, Yokoyama N, Iida I, Tabeta K, et al.. Ammonia reduces glutamine synthetase expression in astrocytes via activation of Hippo-YAP signaling pathways. Communications Biology [Internet]. 2025Dec13;. Available from: https://www.nature.com/articles/s42003-025-09191-5
-23. 23. Ghirardello M, Yruela I, Merino P, Sackstein R, Sanz-Martínez I, Hurtado-Guerrero R. Structure, function, and implications of fucosyltransferases in health and disease. Nature Communications [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41467-025-66871-w_reference.pdf
-24. 24. Jiaojiao W, Chunfang D, Hao Y, Qiuyun T, Qian X, Xiaohuan L, et al.. The YAP/SCAP/SREBP1 Pathway in Astrocytes: A Novel Target for Treating Neonatal Hypoxic-Ischemic Encephalopathy.. Progress in neurobiology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41390137/?fc=None&ff=20251214151330&v=2.18.0.post22+67771e2
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/4323
-26. 26. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/4613
-28. 28. DeSouza PA, Ishahak M, Qu X, McCornack C, Annamalai D, Mao DD, et al.. INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model. Nature Communications [Internet]. 2025Dec7;. Available from: https://www.nature.com/articles/s41467-025-66371-x
-29. 29. H HJ, S ZZ, S L. [Molecular subtype-driven surgical concepts and clinical application in gliomas].. Zhonghua wai ke za zhi [Chinese journal of surgery] [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41292395/
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/546
-32. 32. Zhang Y, Savvidou M, Liaudanskaya V, Ramanathan V, Bui T, Lindley M, et al.. Multi-modal label-free imaging of cellular metabolism and oxidative stress in 3D brain tissue models. Communications Biology [Internet]. 2025Dec2;8(1). Available from: https://www.nature.com/articles/s42003-025-09122-4
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/4137
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/5594
-35. 35. Available from: https://www.ncbi.nlm.nih.gov/gene/8678
-36. 36. Available from: https://www.ncbi.nlm.nih.gov/gene/5894
-37. 37. Niu R-Z, Xue L-L, Tian X-H, Huangfu L-R, Chen L, Zhai C-Y, et al.. Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome. Nature Communications [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41467-025-66109-9_reference.pdf
-38. 38. Gkogka A, Malwade S, Koskuvi M, Ohtonen S, Molnar E, Bose R, et al.. Human oligodendrocyte progenitor cells mediate synapse elimination through TAM receptor activation. Nature Communications [Internet]. 2025Dec5;16(1). Available from: https://www.nature.com/articles/s41467-025-66521-1
-39. 39. Sims SL, Lu T-H, Weiss BE, Lin R-L, Galopin LB, Wright NA, et al.. Central cytometabolic functional vascular coupling in health and disease. npj Metabolic Health and Disease [Internet]. 2025Dec2;3(1). Available from: https://www.nature.com/articles/s44324-025-00090-1
-40. 40. Available from: https://www.ncbi.nlm.nih.gov/gene/998
-41. 41. Martín-Monteagudo C, Sánchez RJ, Adams JM, Puente N, Grandes P, Marsicano G, et al.. An astrocytic ensemble at vHip-NAc synapses modulates cognitive impairments induced by chronic tetrahydrocannabinol exposure. Nature Communications [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s41467-025-67166-w_reference.pdf
-42. 42. Available from: https://www.ncbi.nlm.nih.gov/gene/3399
-43. 43. Available from: https://www.ncbi.nlm.nih.gov/gene/19016
-44. 44. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
-45. 45. Available from: https://www.ncbi.nlm.nih.gov/gene/57591
-46. 46. Available from: https://www.ncbi.nlm.nih.gov/gene/19013
-47. 47. Available from: https://www.ncbi.nlm.nih.gov/gene/207
-48. 48. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
-49. 49. Jiang R, Lu Z, Li F, Zhu Y, Yang M, Zhang S, et al.. scCirclehunter delineates ecDNA-containing cells using single-cell ATAC-seq, with a focus on glioblastoma. Cell Discovery [Internet]. 2025Dec9;11(1). Available from: https://www.nature.com/articles/s41421-025-00842-9
-50. 50. Available from: https://www.ncbi.nlm.nih.gov/gene/1385
-51. 51. Available from: https://www.ncbi.nlm.nih.gov/gene/7076
-52. 52. Available from: https://www.ncbi.nlm.nih.gov/gene/10763
-53. 53. Fingleton E, Lombardo A, Won S, Chang K, Li Y, Roche KW. Trio and CRMP2 regulate axon branching and Semaphorin3A signaling. Communications Biology [Internet]. 2025Nov25;8(1). Available from: https://www.nature.com/articles/s42003-025-08988-8
-54. 54. Ni H, Zhou Z, Estill M, Halawani D, Junqueira AC, Shen L, et al.. Plexin-B1 safeguards astrocyte agility and glial alignment to facilitate wound corralling and axon pathfinding in mouse spinal cord injury model. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-65095-2
-55. 55. Liu T-T, Li H-Y, Gu S-Y, Sun L, Zhang R-W, Zu J-L, et al.. NMDA receptors coordinate brain vascular development via neuron-to-endothelial tip cell crosstalk in zebrafish. Nature Communications [Internet]. 2025Dec9;16(1). Available from: https://www.nature.com/articles/s41467-025-66543-9
-56. 56. Available from: https://www.ncbi.nlm.nih.gov/gene/13649
-57. 57. Available from: https://www.ncbi.nlm.nih.gov/gene/2697
-58. 58. David KS, Erin MS, Maeve LS, Maria CV, Sandra M. Differential regulation of p62-ubiquitin conjugates in neurons versus astrocytes during cellular stress.. bioRxiv : the preprint server for biology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41332782/
-59. 59. Available from: https://www.ncbi.nlm.nih.gov/gene/56717
-60. 60. Sun Y, Liu S, Chen L, Zhou Z, Yin X, Shi Y, et al.. AI-driven discovery of dual antiaging and anti-AD therapeutics via PROTAC target deconvolution of a super-enhancer–regulated axis. Science Advances [Internet]. 2025Nov21;11(47). Available from: https://www.science.org/doi/10.1126/sciadv.adz9283
-61. 61. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
-62. 62. Available from: http://json-schema.org/draft-07/schema#",
+1. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
+2. Schoof M, Zheng T, Sill M, Imle R, Cais A, Altendorf L, et al.. Investigation of a global mouse methylome atlas reveals subtype-specific copy number alterations in pediatric cancer models. Nature Genetics [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41588-025-02419-4
+3. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
+4. Available from: https://www.ncbi.nlm.nih.gov/gene/23627
+5. Breen KE, Mehta N, Ravichandran V, Mehine M, Gao C, Fiala E, et al.. Paired tumor-normal sequencing provides insights into the CDKN2A-associated tumor spectrum. npj Precision Oncology [Internet]. 2025Nov19;9(1). Available from: https://www.nature.com/articles/s41698-025-01155-6
+6. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/21898
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/12494
+9. González-Gallego J, Todorov-Völgyi K, Müller SA, Antesberger S, Todorov MI, Malik R, et al.. A fully iPS-cell-derived 3D model of the human blood–brain barrier for exploring neurovascular disease mechanisms and therapeutic interventions. Nature Neuroscience [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41593-025-02123-w
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/6507
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/20655
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/20512
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/211323
+14. Trudel L, Therriault J, Macedo AC, Woo MS, Rahmouni N, Aumont É, et al.. APOE ε4 potentiates tau related reactive astrogliosis assessed by cerebrospinal fluid YKL40 in Alzheimer’s disease. Communications Medicine [Internet]. 2025Nov20;5(1). Available from: https://www.nature.com/articles/s43856-025-01171-4
+15. Yusuf AM, Ilce BY, Alhaj HA, Hamoudi R. α-synuclein in Parkinson’s disease: a central point of convergence with depression. npj Parkinson's Disease [Internet]. 2025Nov20;11(1). Available from: https://www.nature.com/articles/s41531-025-01167-w
+16. Sung S, Kim H-J, Cha SJ, Nahm M, Kim SH, Kwon M-S. Microglial lipid droplets as therapeutic targets in age-related neurodegenerative diseases. npj Aging [Internet]. 2025Nov30;. Available from: https://www.nature.com/articles/s41514-025-00295-0
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/11835
+18. Hruby AJ, Higuchi-Sanabria R. Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease. npj Aging [Internet]. 2025Dec16;11(1). Available from: https://www.nature.com/articles/s41514-025-00291-4
+19. Ji JX, Giles BL, Bhattacharjee S, Kautzmann M-AI, P. MA, Do CS, et al.. Intercellular signaling and synaptic deconstruction uncovered by single-cell and spatial transcriptomics in an AD tauopathy model. Communications Biology [Internet]. 2025Nov17;8(1). Available from: https://www.nature.com/articles/s42003-025-08959-z
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/18018
+21. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+22. Nasu Y, Kishikawa S, Imai M, Yokoyama N, Iida I, Tabeta K, et al.. Ammonia reduces glutamine synthetase expression in astrocytes via activation of Hippo-YAP signaling pathways. Communications Biology [Internet]. 2025Dec13;. Available from: https://www.nature.com/articles/s42003-025-09191-5
+23. Ghirardello M, Yruela I, Merino P, Sackstein R, Sanz-Martínez I, Hurtado-Guerrero R. Structure, function, and implications of fucosyltransferases in health and disease. Nature Communications [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41467-025-66871-w_reference.pdf
+24. Jiaojiao W, Chunfang D, Hao Y, Qiuyun T, Qian X, Xiaohuan L, et al.. The YAP/SCAP/SREBP1 Pathway in Astrocytes: A Novel Target for Treating Neonatal Hypoxic-Ischemic Encephalopathy.. Progress in neurobiology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41390137/?fc=None&ff=20251214151330&v=2.18.0.post22+67771e2
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/4323
+26. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/4613
+28. DeSouza PA, Ishahak M, Qu X, McCornack C, Annamalai D, Mao DD, et al.. INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model. Nature Communications [Internet]. 2025Dec7;. Available from: https://www.nature.com/articles/s41467-025-66371-x
+29. H HJ, S ZZ, S L. [Molecular subtype-driven surgical concepts and clinical application in gliomas].. Zhonghua wai ke za zhi [Chinese journal of surgery] [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41292395/
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/546
+32. Zhang Y, Savvidou M, Liaudanskaya V, Ramanathan V, Bui T, Lindley M, et al.. Multi-modal label-free imaging of cellular metabolism and oxidative stress in 3D brain tissue models. Communications Biology [Internet]. 2025Dec2;8(1). Available from: https://www.nature.com/articles/s42003-025-09122-4
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/4137
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/5594
+35. Available from: https://www.ncbi.nlm.nih.gov/gene/8678
+36. Available from: https://www.ncbi.nlm.nih.gov/gene/5894
+37. Niu R-Z, Xue L-L, Tian X-H, Huangfu L-R, Chen L, Zhai C-Y, et al.. Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome. Nature Communications [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41467-025-66109-9_reference.pdf
+38. Gkogka A, Malwade S, Koskuvi M, Ohtonen S, Molnar E, Bose R, et al.. Human oligodendrocyte progenitor cells mediate synapse elimination through TAM receptor activation. Nature Communications [Internet]. 2025Dec5;16(1). Available from: https://www.nature.com/articles/s41467-025-66521-1
+39. Sims SL, Lu T-H, Weiss BE, Lin R-L, Galopin LB, Wright NA, et al.. Central cytometabolic functional vascular coupling in health and disease. npj Metabolic Health and Disease [Internet]. 2025Dec2;3(1). Available from: https://www.nature.com/articles/s44324-025-00090-1
+40. Available from: https://www.ncbi.nlm.nih.gov/gene/998
+41. Martín-Monteagudo C, Sánchez RJ, Adams JM, Puente N, Grandes P, Marsicano G, et al.. An astrocytic ensemble at vHip-NAc synapses modulates cognitive impairments induced by chronic tetrahydrocannabinol exposure. Nature Communications [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s41467-025-67166-w_reference.pdf
+42. Available from: https://www.ncbi.nlm.nih.gov/gene/3399
+43. Available from: https://www.ncbi.nlm.nih.gov/gene/19016
+44. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
+45. Available from: https://www.ncbi.nlm.nih.gov/gene/57591
+46. Available from: https://www.ncbi.nlm.nih.gov/gene/19013
+47. Available from: https://www.ncbi.nlm.nih.gov/gene/207
+48. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
+49. Jiang R, Lu Z, Li F, Zhu Y, Yang M, Zhang S, et al.. scCirclehunter delineates ecDNA-containing cells using single-cell ATAC-seq, with a focus on glioblastoma. Cell Discovery [Internet]. 2025Dec9;11(1). Available from: https://www.nature.com/articles/s41421-025-00842-9
+50. Available from: https://www.ncbi.nlm.nih.gov/gene/1385
+51. Available from: https://www.ncbi.nlm.nih.gov/gene/7076
+52. Available from: https://www.ncbi.nlm.nih.gov/gene/10763
+53. Fingleton E, Lombardo A, Won S, Chang K, Li Y, Roche KW. Trio and CRMP2 regulate axon branching and Semaphorin3A signaling. Communications Biology [Internet]. 2025Nov25;8(1). Available from: https://www.nature.com/articles/s42003-025-08988-8
+54. Ni H, Zhou Z, Estill M, Halawani D, Junqueira AC, Shen L, et al.. Plexin-B1 safeguards astrocyte agility and glial alignment to facilitate wound corralling and axon pathfinding in mouse spinal cord injury model. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-65095-2
+55. Liu T-T, Li H-Y, Gu S-Y, Sun L, Zhang R-W, Zu J-L, et al.. NMDA receptors coordinate brain vascular development via neuron-to-endothelial tip cell crosstalk in zebrafish. Nature Communications [Internet]. 2025Dec9;16(1). Available from: https://www.nature.com/articles/s41467-025-66543-9
+56. Available from: https://www.ncbi.nlm.nih.gov/gene/13649
+57. Available from: https://www.ncbi.nlm.nih.gov/gene/2697
+58. David KS, Erin MS, Maeve LS, Maria CV, Sandra M. Differential regulation of p62-ubiquitin conjugates in neurons versus astrocytes during cellular stress.. bioRxiv : the preprint server for biology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41332782/
+59. Available from: https://www.ncbi.nlm.nih.gov/gene/56717
+60. Sun Y, Liu S, Chen L, Zhou Z, Yin X, Shi Y, et al.. AI-driven discovery of dual antiaging and anti-AD therapeutics via PROTAC target deconvolution of a super-enhancer–regulated axis. Science Advances [Internet]. 2025Nov21;11(47). Available from: https://www.science.org/doi/10.1126/sciadv.adz9283
+61. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
+62. Available from: http://json-schema.org/draft-07/schema#",

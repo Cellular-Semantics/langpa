@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T21:51:59.043415",
+    "timestamp": "2025-12-17T21:46:45.301523",
     "genes": [
       "FAM189A2",
       "OGFRL1",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_0",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -294,6 +294,6 @@
       "https://www.nature.com/articles/s41593-025-02100-3",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 292.078232049942
+    "duration_seconds": null
   }
 }

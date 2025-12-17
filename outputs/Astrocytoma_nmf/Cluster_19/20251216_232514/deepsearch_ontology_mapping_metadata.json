@@ -1,0 +1,24 @@
+{
+  "total_processes": 38,
+  "total_components": 20,
+  "mapped_processes": 37,
+  "mapped_components": 17,
+  "failed_mappings": [
+    {
+      "term": "Oligodendrocyte transcriptional complex",
+      "type": "component"
+    },
+    {
+      "term": "DOCK GEF complex",
+      "type": "component"
+    },
+    {
+      "term": "Phosphatidic acid-mTOR signaling",
+      "type": "process"
+    },
+    {
+      "term": "ECM-modifying enzyme",
+      "type": "component"
+    }
+  ]
+}

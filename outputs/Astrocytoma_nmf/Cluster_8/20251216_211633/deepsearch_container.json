@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T21:21:20.745151",
+    "timestamp": "2025-12-17T21:33:51.948219",
     "genes": [
       "CARNS1",
       "MOBP",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_8",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -251,7 +251,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/65078",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 277.16770792007446
+    "duration_seconds": null
   },
   "report": {
     "title": "Gene Program Functional Analysis - Astrocytoma",
@@ -489,7 +489,12 @@
               "NKX6-2",
               "SOX10",
               "MYRF"
-            ]
+            ],
+            "ontology_id": "GO:0045595",
+            "ontology_label": "regulation of cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell differentiation and lineage commitment",
@@ -502,7 +507,12 @@
             "genes": [
               "NKX6-2",
               "SOX10"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "None"
           }
         ],
         "atomic_cellular_components": [],
@@ -575,7 +585,12 @@
               "CNP",
               "OPALIN",
               "MAG"
-            ]
+            ],
+            "ontology_id": "GO:0160307",
+            "ontology_label": "protein biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Myelin lipid synthesis and processing",
@@ -590,7 +605,12 @@
               "FA2H",
               "ELOVL7",
               "MAL"
-            ]
+            ],
+            "ontology_id": "GO:0008610",
+            "ontology_label": "lipid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -609,7 +629,12 @@
               "OPALIN",
               "MAG",
               "PLLP"
-            ]
+            ],
+            "ontology_id": "GO:0043209",
+            "ontology_label": "myelin sheath",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -674,7 +699,12 @@
             "genes": [
               "ELOVL7",
               "FA2H"
-            ]
+            ],
+            "ontology_id": "GO:0042761",
+            "ontology_label": "very long-chain fatty acid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cholesterol and glycosphingolipid metabolism",
@@ -688,7 +718,12 @@
               "OSBPL1A",
               "UGT8",
               "ST6GALNAC3"
-            ]
+            ],
+            "ontology_id": "GO:0008203",
+            "ontology_label": "cholesterol metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -705,7 +740,12 @@
               "ABCA6",
               "ABCA8",
               "OSBPL1A"
-            ]
+            ],
+            "ontology_id": "GO:1990351",
+            "ontology_label": "transporter complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -765,7 +805,12 @@
             "genes": [
               "GLUT3",
               "LPAR1"
-            ]
+            ],
+            "ontology_id": "GO:0046323",
+            "ontology_label": "D-glucose import",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Neuronal excitability and synaptic transmission support",
@@ -779,7 +824,12 @@
               "GLUT3",
               "GPR37",
               "SLC44A1"
-            ]
+            ],
+            "ontology_id": "GO:0007268",
+            "ontology_label": "chemical synaptic transmission",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -794,7 +844,12 @@
             "genes": [
               "GLUT3",
               "SLC24A2"
-            ]
+            ],
+            "ontology_id": "GO:0099518",
+            "ontology_label": "vesicle cytoskeletal trafficking",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -853,7 +908,12 @@
             "genes": [
               "SLC7A14",
               "SLC22A15"
-            ]
+            ],
+            "ontology_id": "GO:0051933",
+            "ontology_label": "amino acid neurotransmitter reuptake",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Extracellular glutamate regulation",
@@ -866,7 +926,12 @@
             "genes": [
               "SLC7A14",
               "SLC44A1"
-            ]
+            ],
+            "ontology_id": "GO:0014048",
+            "ontology_label": "regulation of glutamate secretion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -919,7 +984,12 @@
             "genes": [
               "CDH19",
               "CTNNA3"
-            ]
+            ],
+            "ontology_id": "GO:0007156",
+            "ontology_label": "homophilic cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Immunoglobulin superfamily adhesion",
@@ -932,7 +1002,12 @@
             "genes": [
               "CNTN2",
               "CNTNAP4"
-            ]
+            ],
+            "ontology_id": "GO:0007155",
+            "ontology_label": "cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -947,7 +1022,12 @@
             "genes": [
               "CDH19",
               "CTNNA3"
-            ]
+            ],
+            "ontology_id": "GO:0044380",
+            "ontology_label": "protein localization to cytoskeleton",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1002,7 +1082,12 @@
             ],
             "genes": [
               "SEMA4D"
-            ]
+            ],
+            "ontology_id": "GO:1902287",
+            "ontology_label": "semaphorin-plexin signaling pathway involved in axon guidance",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -1051,7 +1136,12 @@
             "genes": [
               "ASPA",
               "QDPR"
-            ]
+            ],
+            "ontology_id": "GO:0007042",
+            "ontology_label": "lysosomal lumen acidification",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Autophagy flux and cargo processing",
@@ -1064,7 +1154,12 @@
             "genes": [
               "ASPA",
               "KLK6"
-            ]
+            ],
+            "ontology_id": "GO:0006914",
+            "ontology_label": "autophagy",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1079,7 +1174,12 @@
             "genes": [
               "ASPA",
               "CA2"
-            ]
+            ],
+            "ontology_id": "GO:0043202",
+            "ontology_label": "lysosomal lumen",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1133,7 +1233,12 @@
             ],
             "genes": [
               "KLK6"
-            ]
+            ],
+            "ontology_id": "GO:0008236",
+            "ontology_label": "serine-type peptidase activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Protein substrate processing",
@@ -1147,7 +1252,12 @@
               "KLK6",
               "ADAMTS4",
               "ADAMTS18"
-            ]
+            ],
+            "ontology_id": "GO:0016485",
+            "ontology_label": "protein processing",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -1198,7 +1308,12 @@
             "genes": [
               "COBL",
               "DAAM2"
-            ]
+            ],
+            "ontology_id": "GO:0030041",
+            "ontology_label": "actin filament polymerization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell morphology and motility control",
@@ -1211,7 +1326,12 @@
             "genes": [
               "SHROOM4",
               "SLAIN1"
-            ]
+            ],
+            "ontology_id": "GO:0048870",
+            "ontology_label": "cell motility",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1228,7 +1348,12 @@
               "SHROOM4",
               "SLAIN1",
               "CSRP1"
-            ]
+            ],
+            "ontology_id": "GO:0005884",
+            "ontology_label": "actin filament",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1280,7 +1405,12 @@
             "genes": [
               "MAP7",
               "TPPP"
-            ]
+            ],
+            "ontology_id": "GO:0031109",
+            "ontology_label": "microtubule polymerization or depolymerization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Motor protein-driven transport",
@@ -1293,7 +1423,12 @@
             "genes": [
               "KIF6",
               "DNAJC6"
-            ]
+            ],
+            "ontology_id": "GO:0098840",
+            "ontology_label": "protein transport along microtubule",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1309,7 +1444,12 @@
               "MAP7",
               "TPPP",
               "TUBB4A"
-            ]
+            ],
+            "ontology_id": "GO:0015630",
+            "ontology_label": "microtubule cytoskeleton",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1366,7 +1506,12 @@
               "KCNK1",
               "KCNMB4",
               "SGK1"
-            ]
+            ],
+            "ontology_id": "GO:0055075",
+            "ontology_label": "potassium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Osmotic homeostasis regulation",
@@ -1379,7 +1524,12 @@
             "genes": [
               "SGK1",
               "ATP1B1"
-            ]
+            ],
+            "ontology_id": "GO:0047484",
+            "ontology_label": "regulation of response to osmotic stress",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1394,7 +1544,12 @@
             "genes": [
               "KCNK1",
               "KCNMB4"
-            ]
+            ],
+            "ontology_id": "GO:0034705",
+            "ontology_label": "potassium channel complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1446,7 +1601,12 @@
               "CNTNAP4",
               "DLG2",
               "ANK3"
-            ]
+            ],
+            "ontology_id": "GO:0097106",
+            "ontology_label": "postsynaptic density organization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Astrocyte-synapse interactions",
@@ -1459,7 +1619,12 @@
             "genes": [
               "CNTNAP4",
               "SEMA4D"
-            ]
+            ],
+            "ontology_id": "GO:0045202",
+            "ontology_label": "synapse",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1474,7 +1639,12 @@
             "genes": [
               "DLG2",
               "ANK3"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -1526,7 +1696,12 @@
               "ADAMTS4",
               "ADAMTS18",
               "HAPLN2"
-            ]
+            ],
+            "ontology_id": "GO:0085029",
+            "ontology_label": "extracellular matrix assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Matrix metalloprotease activity",
@@ -1539,7 +1714,12 @@
             "genes": [
               "ADAMTS4",
               "ADAMTS18"
-            ]
+            ],
+            "ontology_id": "GO:0008237",
+            "ontology_label": "metallopeptidase activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1555,7 +1735,12 @@
               "HAPLN2",
               "ADAMTS4",
               "ADAMTS18"
-            ]
+            ],
+            "ontology_id": "GO:0072534",
+            "ontology_label": "perineuronal net",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1607,7 +1792,12 @@
               "ENPP2",
               "LPAR1",
               "PLAT3"
-            ]
+            ],
+            "ontology_id": "GO:0035727",
+            "ontology_label": "lysophosphatidic acid binding",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Phosphatidic acid generation",
@@ -1620,7 +1810,12 @@
             "genes": [
               "PLD1",
               "PLAT3"
-            ]
+            ],
+            "ontology_id": "GO:0006654",
+            "ontology_label": "phosphatidic acid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Prostaglandin synthesis",
@@ -1632,7 +1827,12 @@
             ],
             "genes": [
               "PTGDS"
-            ]
+            ],
+            "ontology_id": "GO:0001516",
+            "ontology_label": "prostaglandin biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [],

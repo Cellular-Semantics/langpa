@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T23:20:48.292282",
+    "timestamp": "2025-12-17T22:00:10.751350",
     "genes": [
       "DNAH11",
       "EFHC2",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_17",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -276,7 +276,7 @@
       "https://www.nature.com/articles/s41598-025-30291-z_reference.pdf",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 278.7486882209778
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -519,7 +519,12 @@
               "ROPN1L",
               "DRC1",
               "DRC7"
-            ]
+            ],
+            "ontology_id": "GO:0001539",
+            "ontology_label": "cilium or flagellum-dependent cell motility",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Radial spoke and central pair signaling transduction",
@@ -545,7 +550,12 @@
               "CFAP100",
               "CFAP206",
               "CFAP221"
-            ]
+            ],
+            "ontology_id": "GO:0001534",
+            "ontology_label": "radial spoke",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -567,7 +577,12 @@
               "TEKT1",
               "CCDC30",
               "CCDC40"
-            ]
+            ],
+            "ontology_id": "GO:0005879",
+            "ontology_label": "axonemal microtubule",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -657,7 +672,12 @@
               "CCDC40",
               "CCDC146",
               "CCDC170"
-            ]
+            ],
+            "ontology_id": "GO:0007098",
+            "ontology_label": "centrosome cycle",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Asymmetric centrosome inheritance and segregation",
@@ -669,7 +689,12 @@
             ],
             "genes": [
               "PARD3B"
-            ]
+            ],
+            "ontology_id": "GO:0051642",
+            "ontology_label": "centrosome localization",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -686,7 +711,12 @@
               "CCDC40",
               "CCDC146",
               "CCDC170"
-            ]
+            ],
+            "ontology_id": "GO:0000242",
+            "ontology_label": "pericentriolar material",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -741,7 +771,12 @@
             "genes": [
               "TTLL9",
               "PACRG"
-            ]
+            ],
+            "ontology_id": "GO:0018095",
+            "ontology_label": "protein polyglutamylation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "exact_match_and_combined_terms"
           },
           {
             "name": "Microtubule nucleation and organization from centrosomes",
@@ -757,7 +792,12 @@
               "TTC29",
               "TTC23L",
               "TTC34"
-            ]
+            ],
+            "ontology_id": "GO:0051418",
+            "ontology_label": "microtubule nucleation by microtubule organizing center",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match_and_combined_terms"
           }
         ],
         "atomic_cellular_components": [
@@ -774,7 +814,12 @@
               "TEKT1",
               "TTLL9",
               "PACRG"
-            ]
+            ],
+            "ontology_id": "GO:0005875",
+            "ontology_label": "microtubule associated complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -837,7 +882,12 @@
             "genes": [
               "PARD3B",
               "DYNLRB2"
-            ]
+            ],
+            "ontology_id": "GO:0061502",
+            "ontology_label": "early endosome to recycling endosome transport",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Asymmetric endosome inheritance and polarized distribution",
@@ -850,7 +900,12 @@
             "genes": [
               "PARD3B",
               "DYNLRB2"
-            ]
+            ],
+            "ontology_id": "GO:0007032",
+            "ontology_label": "endosome organization",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -865,7 +920,12 @@
             "genes": [
               "PARD3B",
               "DYNLRB2"
-            ]
+            ],
+            "ontology_id": "GO:0034058",
+            "ontology_label": "endosomal vesicle fusion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Recycling endosomal compartment (Rab11a-positive)",
@@ -878,7 +938,12 @@
             "genes": [
               "PARD3B",
               "DYNLRB2"
-            ]
+            ],
+            "ontology_id": "GO:0055037",
+            "ontology_label": "recycling endosome",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -934,7 +999,12 @@
             ],
             "genes": [
               "SOX5"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           },
           {
             "name": "Glial cell identity maintenance and astrocytic differentiation",
@@ -946,7 +1016,12 @@
             ],
             "genes": [
               "SOX5"
-            ]
+            ],
+            "ontology_id": "GO:0010001",
+            "ontology_label": "glial cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -960,7 +1035,12 @@
             ],
             "genes": [
               "SOX5"
-            ]
+            ],
+            "ontology_id": "GO:0010001",
+            "ontology_label": "glial cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1024,7 +1104,12 @@
             ],
             "genes": [
               "NTRK2"
-            ]
+            ],
+            "ontology_id": "GO:0007165",
+            "ontology_label": "signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "PI3K/AKT and MAPK/ERK signaling cascade activation",
@@ -1040,7 +1125,12 @@
             ],
             "genes": [
               "NTRK2"
-            ]
+            ],
+            "ontology_id": "GO:0000165",
+            "ontology_label": "MAPK cascade",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1054,7 +1144,12 @@
             ],
             "genes": [
               "NTRK2"
-            ]
+            ],
+            "ontology_id": "GO:0048011",
+            "ontology_label": "neurotrophin TRK receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1113,7 +1208,12 @@
             ],
             "genes": [
               "TP63"
-            ]
+            ],
+            "ontology_id": "GO:0044818",
+            "ontology_label": "mitotic G2/M transition checkpoint",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "DNA damage response and apoptosis induction",
@@ -1129,7 +1229,12 @@
             ],
             "genes": [
               "TP63"
-            ]
+            ],
+            "ontology_id": "GO:0008630",
+            "ontology_label": "intrinsic apoptotic signaling pathway in response to DNA damage",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1143,7 +1248,12 @@
             ],
             "genes": [
               "TP63"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           }
         ],
         "predicted_cellular_impact": [
@@ -1202,7 +1312,12 @@
             ],
             "genes": [
               "SUCLG2"
-            ]
+            ],
+            "ontology_id": "GO:0006089",
+            "ontology_label": "lactate metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial oxidative phosphorylation and ATP production",
@@ -1214,7 +1329,12 @@
             ],
             "genes": [
               "SUCLG2"
-            ]
+            ],
+            "ontology_id": "GO:0006119",
+            "ontology_label": "oxidative phosphorylation",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Hypoxia-inducible factor signaling and metabolic adaptation",
@@ -1226,7 +1346,12 @@
             ],
             "genes": [
               "SUCLG2"
-            ]
+            ],
+            "ontology_id": "GO:0097411",
+            "ontology_label": "hypoxia-inducible factor-1alpha signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1240,7 +1365,12 @@
             ],
             "genes": [
               "SUCLG2"
-            ]
+            ],
+            "ontology_id": "GO:0045239",
+            "ontology_label": "tricarboxylic acid cycle heteromeric enzyme complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1306,7 +1436,12 @@
               "LINC01602",
               "LINC02018",
               "LINC02055"
-            ]
+            ],
+            "ontology_id": "GO:0035195",
+            "ontology_label": "miRNA-mediated post-transcriptional gene silencing",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Glycolytic reprogramming and metabolic enzyme regulation",
@@ -1328,7 +1463,12 @@
               "LINC01602",
               "LINC02018",
               "LINC02055"
-            ]
+            ],
+            "ontology_id": "GO:0019222",
+            "ontology_label": "regulation of metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Transcription factor and chromatin accessibility modulation",
@@ -1350,7 +1490,12 @@
               "LINC01602",
               "LINC02018",
               "LINC02055"
-            ]
+            ],
+            "ontology_id": "GO:0140673",
+            "ontology_label": "transcription elongation-coupled chromatin remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1374,7 +1519,12 @@
               "LINC01602",
               "LINC02018",
               "LINC02055"
-            ]
+            ],
+            "ontology_id": "GO:0000512",
+            "ontology_label": "lncRNA-mediated post-transcriptional gene silencing",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1436,7 +1586,12 @@
                 "notes": "Acute astrocyte activation features pro-inflammatory transcriptome with upregulation of TNF, IL-1β, IL-17rc, Ccl2, Cxcl10 and immediate early genes Junb, Egr1"
               }
             ],
-            "genes": []
+            "genes": [],
+            "ontology_id": "GO:0006954",
+            "ontology_label": "inflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Transition from inflammation to neurodegeneration",
@@ -1446,7 +1601,12 @@
                 "notes": "Subacute phase shows persistent low-level pro-inflammatory signaling; upregulation of regulatory and homeostatic pathways"
               }
             ],
-            "genes": []
+            "genes": [],
+            "ontology_id": "GO:0001816",
+            "ontology_label": "cytokine production",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Synaptic pruning and neuronal apoptotic pathways",
@@ -1456,7 +1616,12 @@
                 "notes": "Subacute and chronic phases feature upregulation of synapse pruning mediators (Sparc, Mertk, C1q) and neuronal apoptotic pathways"
               }
             ],
-            "genes": []
+            "genes": [],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -1468,7 +1633,12 @@
                 "notes": "Distinct transcriptional signatures associated with A1-like (pro-inflammatory) and A2-like (pro-healing) astrocyte states"
               }
             ],
-            "genes": []
+            "genes": [],
+            "ontology_id": "GO:0010467",
+            "ontology_label": "gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1527,7 +1697,12 @@
               "PLEKHA5",
               "PLEKHA7",
               "PTPRQ"
-            ]
+            ],
+            "ontology_id": "GO:0098609",
+            "ontology_label": "cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Extracellular matrix composition and remodeling",
@@ -1541,7 +1716,12 @@
               "PLEKHA5",
               "PLEKHA7",
               "PTPRQ"
-            ]
+            ],
+            "ontology_id": "GO:0030198",
+            "ontology_label": "extracellular matrix organization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1557,7 +1737,12 @@
               "PLEKHA5",
               "PLEKHA7",
               "PTPRQ"
-            ]
+            ],
+            "ontology_id": "GO:0005925",
+            "ontology_label": "focal adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Extracellular matrix protein networks and spatial organization",
@@ -1571,7 +1756,12 @@
               "PLEKHA5",
               "PLEKHA7",
               "PTPRQ"
-            ]
+            ],
+            "ontology_id": "GO:0030198",
+            "ontology_label": "extracellular matrix organization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1647,7 +1837,12 @@
               "TUBA1A",
               "TTLL9",
               "PACRG"
-            ]
+            ],
+            "ontology_id": "GO:0008356",
+            "ontology_label": "asymmetric cell division",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Developmental signal integration through primary cilia",
@@ -1679,7 +1874,12 @@
               "CFAP54",
               "CFAP57",
               "CFAP61"
-            ]
+            ],
+            "ontology_id": "GO:0032502",
+            "ontology_label": "developmental process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Developmental timing and cell cycle pace setting",
@@ -1692,7 +1892,12 @@
             "genes": [
               "TUBA1A",
               "TTLL9"
-            ]
+            ],
+            "ontology_id": "GO:0007049",
+            "ontology_label": "cell cycle",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "synonym_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1714,7 +1919,12 @@
               "TUBA1A",
               "TTLL9",
               "PACRG"
-            ]
+            ],
+            "ontology_id": "GO:0008356",
+            "ontology_label": "asymmetric cell division",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Developmental signal transduction complexes",
@@ -1726,7 +1936,12 @@
             ],
             "genes": [
               "SOX5"
-            ]
+            ],
+            "ontology_id": "GO:0007165",
+            "ontology_label": "signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

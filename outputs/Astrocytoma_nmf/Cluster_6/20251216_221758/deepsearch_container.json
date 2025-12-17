@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T22:23:18.672702",
+    "timestamp": "2025-12-17T21:40:14.859046",
     "genes": [
       "SOX6",
       "FGF12",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_6",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -273,7 +273,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/177",
       "their known roles in astrocyte development"
     ],
-    "duration_seconds": 307.2207579612732
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -506,7 +506,12 @@
               "SOX6",
               "RBPJ",
               "OLIG1"
-            ]
+            ],
+            "ontology_id": "GO:0001709",
+            "ontology_label": "cell fate determination",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Stemness and progenitor cell maintenance",
@@ -524,7 +529,12 @@
               "SOX2-OT",
               "SOX10",
               "RBPJ"
-            ]
+            ],
+            "ontology_id": "GO:0019827",
+            "ontology_label": "stem cell population maintenance",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -606,7 +616,12 @@
               "DLGAP1",
               "NXPH1",
               "LRRTM4"
-            ]
+            ],
+            "ontology_id": "GO:0035235",
+            "ontology_label": "ionotropic glutamate receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Axonal guidance and neuronal morphogenesis",
@@ -623,7 +638,12 @@
               "SEMA5B",
               "SEMA6D",
               "MAP2"
-            ]
+            ],
+            "ontology_id": "GO:0097485",
+            "ontology_label": "neuron projection guidance",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Synaptic vesicle trafficking and exocytosis",
@@ -637,7 +657,12 @@
               "DNM3",
               "REPS2",
               "SLC1A1"
-            ]
+            ],
+            "ontology_id": "GO:0016079",
+            "ontology_label": "synaptic vesicle exocytosis",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -655,7 +680,12 @@
               "GRIA3",
               "GRIA4",
               "LRRTM4"
-            ]
+            ],
+            "ontology_id": "GO:0014069",
+            "ontology_label": "postsynaptic density",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -733,7 +763,12 @@
               "PCDH11X",
               "CDH13",
               "CTNNA3"
-            ]
+            ],
+            "ontology_id": "GO:0044331",
+            "ontology_label": "cell-cell adhesion mediated by cadherin",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Neural cell recognition and synaptic adhesion",
@@ -749,7 +784,12 @@
               "ALCAM",
               "CNTN3",
               "NXPH1"
-            ]
+            ],
+            "ontology_id": "GO:0099560",
+            "ontology_label": "synaptic membrane adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Adherens junction and desmosomal organization",
@@ -763,7 +803,12 @@
               "CTNNA3",
               "PKP4",
               "TNR"
-            ]
+            ],
+            "ontology_id": "GO:0034332",
+            "ontology_label": "adherens junction organization",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -781,7 +826,12 @@
               "PCDH11X",
               "CDH13",
               "PKP4"
-            ]
+            ],
+            "ontology_id": "GO:0005912",
+            "ontology_label": "adherens junction",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -849,7 +899,12 @@
             "genes": [
               "PDGFRA",
               "PDGFC"
-            ]
+            ],
+            "ontology_id": "GO:0048008",
+            "ontology_label": "platelet-derived growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "ErbB family receptor signaling and HER3/HER4 activation",
@@ -866,7 +921,12 @@
             "genes": [
               "ERBB3",
               "ERBB4"
-            ]
+            ],
+            "ontology_id": "GO:0038127",
+            "ontology_label": "ERBB signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Intracellular FGF-mediated ion channel modulation",
@@ -883,7 +943,12 @@
             "genes": [
               "FGF12",
               "FGF14"
-            ]
+            ],
+            "ontology_id": "GO:0008543",
+            "ontology_label": "fibroblast growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -957,7 +1022,12 @@
             "genes": [
               "COL11A1",
               "COL20A1"
-            ]
+            ],
+            "ontology_id": "GO:0032964",
+            "ontology_label": "collagen biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Versican and proteoglycan regulation",
@@ -971,7 +1041,12 @@
               "VCAN",
               "VCAN-AS1",
               "UST"
-            ]
+            ],
+            "ontology_id": "GO:0010908",
+            "ontology_label": "regulation of heparan sulfate proteoglycan biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Matrix metalloproteinase-mediated ECM degradation",
@@ -985,7 +1060,12 @@
               "MMP16",
               "ADAMTS20",
               "ADAMTS6"
-            ]
+            ],
+            "ontology_id": "GO:0022617",
+            "ontology_label": "extracellular matrix disassembly",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ECM-derived growth factor modulation",
@@ -997,7 +1077,12 @@
             ],
             "genes": [
               "SMOC1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -1012,7 +1097,12 @@
             "genes": [
               "COL11A1",
               "COL20A1"
-            ]
+            ],
+            "ontology_id": "GO:0030199",
+            "ontology_label": "collagen fibril organization",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Proteoglycan and glycosaminoglycan matrix",
@@ -1025,7 +1115,12 @@
             "genes": [
               "VCAN",
               "UST"
-            ]
+            ],
+            "ontology_id": "GO:0031012",
+            "ontology_label": "extracellular matrix",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "synonym_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1092,7 +1187,12 @@
             "genes": [
               "SCN1A",
               "SCN3A"
-            ]
+            ],
+            "ontology_id": "GO:0086062",
+            "ontology_label": "voltage-gated sodium channel activity involved in Purkinje myocyte action potential",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Potassium channel regulation and membrane potential",
@@ -1104,7 +1204,12 @@
             ],
             "genes": [
               "KCNIP4"
-            ]
+            ],
+            "ontology_id": "GO:0042391",
+            "ontology_label": "regulation of membrane potential",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ATP-gated purinergic signaling and inflammasome activation",
@@ -1120,7 +1225,12 @@
             ],
             "genes": [
               "P2RX7"
-            ]
+            ],
+            "ontology_id": "GO:0141084",
+            "ontology_label": "inflammasome-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1135,7 +1245,12 @@
             "genes": [
               "SCN1A",
               "SCN3A"
-            ]
+            ],
+            "ontology_id": "GO:0001518",
+            "ontology_label": "voltage-gated sodium channel complex",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1200,7 +1315,12 @@
             ],
             "genes": [
               "FYN"
-            ]
+            ],
+            "ontology_id": "GO:1990051",
+            "ontology_label": "activation of protein kinase C activity",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Protein kinase C activation and substrate phosphorylation",
@@ -1212,7 +1332,12 @@
             ],
             "genes": [
               "PRKCE"
-            ]
+            ],
+            "ontology_id": "GO:0070528",
+            "ontology_label": "protein kinase C signaling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Diacylglycerol metabolism and PKC signal termination",
@@ -1225,7 +1350,12 @@
             "genes": [
               "DGKB",
               "DGKG"
-            ]
+            ],
+            "ontology_id": "GO:0046339",
+            "ontology_label": "diacylglycerol metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -1291,7 +1421,12 @@
               "RBMS3",
               "KHDRBS2",
               "KHDRBS3"
-            ]
+            ],
+            "ontology_id": "GO:0043488",
+            "ontology_label": "regulation of mRNA stability",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Alternative splicing and isoform selection",
@@ -1307,7 +1442,12 @@
               "KHDRBS2",
               "KHDRBS3",
               "NOVA1"
-            ]
+            ],
+            "ontology_id": "GO:0000380",
+            "ontology_label": "alternative mRNA splicing, via spliceosome",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "partial_match"
           },
           {
             "name": "MicroRNA sequestration and competing endogenous RNA function",
@@ -1323,7 +1463,12 @@
               "LINC00609",
               "LINC01170",
               "CCDC26"
-            ]
+            ],
+            "ontology_id": "GO:0006403",
+            "ontology_label": "RNA localization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -1391,7 +1536,12 @@
             ],
             "genes": [
               "ZBTB16"
-            ]
+            ],
+            "ontology_id": "GO:0031555",
+            "ontology_label": "transcriptional attenuation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Hedgehog pathway antagonism and growth suppression",
@@ -1403,7 +1553,12 @@
             ],
             "genes": [
               "PTCH1"
-            ]
+            ],
+            "ontology_id": "GO:0007224",
+            "ontology_label": "smoothened signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Differentiation promotion and stemness suppression",
@@ -1416,7 +1571,12 @@
             "genes": [
               "SOX5",
               "RBPJ"
-            ]
+            ],
+            "ontology_id": "GO:0030154",
+            "ontology_label": "cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -1479,7 +1639,12 @@
               "NFKB1",
               "TNF",
               "IL6"
-            ]
+            ],
+            "ontology_id": "GO:0002534",
+            "ontology_label": "cytokine production involved in inflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Notch-mediated microglial activation and IL-6-STAT3 signaling",
@@ -1495,7 +1660,12 @@
             ],
             "genes": [
               "NOTCH3"
-            ]
+            ],
+            "ontology_id": "GO:0070102",
+            "ontology_label": "interleukin-6-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Immune checkpoint signaling and myeloid cell inhibition",
@@ -1511,7 +1681,12 @@
             ],
             "genes": [
               "SIRPA"
-            ]
+            ],
+            "ontology_id": "GO:0000075",
+            "ontology_label": "cell cycle checkpoint signaling",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -1583,7 +1758,12 @@
             "genes": [
               "SOX2-OT",
               "NES"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Progenitor cell migration and developmental motility",
@@ -1595,7 +1775,12 @@
             ],
             "genes": [
               "DOCK10"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -1609,7 +1794,12 @@
             ],
             "genes": [
               "NES"
-            ]
+            ],
+            "ontology_id": "GO:0045111",
+            "ontology_label": "intermediate filament cytoskeleton",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [

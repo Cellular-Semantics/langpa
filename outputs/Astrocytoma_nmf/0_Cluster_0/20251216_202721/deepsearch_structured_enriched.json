@@ -1,0 +1,1030 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-17T21:44:33.311805",
+    "genes": [
+      "FAM189A2",
+      "OGFRL1",
+      "MAP3K5",
+      "ITPR2",
+      "ETNPPL",
+      "NRG3",
+      "CD38",
+      "FMN2",
+      "LINC01088",
+      "KCNN3",
+      "DAAM2",
+      "AC002429.2",
+      "OBI1-AS1",
+      "NTRK2",
+      "SYTL4",
+      "WDR49",
+      "ADGRV1",
+      "LIFR",
+      "AQP4",
+      "ID3",
+      "OSBPL11",
+      "DPP10",
+      "SERPINI2",
+      "TLR4",
+      "NAA11",
+      "MGAT4C",
+      "AC026316.5",
+      "EEPD1",
+      "RASSF4",
+      "AL392086.3",
+      "SLC4A4",
+      "EDNRB",
+      "SLC39A11",
+      "ATP1A2",
+      "SLCO1C1",
+      "AHCYL2",
+      "SPON1",
+      "SLC1A3",
+      "GRAMD2B",
+      "DTNA",
+      "AC012405.1",
+      "NKAIN3",
+      "NTM",
+      "SLC14A1",
+      "DCLK2",
+      "DCLK1",
+      "ID4",
+      "AC124854.1",
+      "LINC01094",
+      "PCDH9",
+      "GABBR2",
+      "PARD3B",
+      "PDE8A",
+      "LRIG1",
+      "C5ORF64",
+      "RNF19A",
+      "SPARCL1",
+      "AC093535.1",
+      "FADS2",
+      "PLEKHA5",
+      "ASTN2",
+      "ADAMTS9",
+      "AC073941.1",
+      "SLC24A4",
+      "PAPPA",
+      "AC068587.4",
+      "FARP1",
+      "SORL1",
+      "ARHGAP26",
+      "CADPS",
+      "ST3GAL6",
+      "ITPKB",
+      "GABRB1",
+      "FAM107A",
+      "MIR99AHG",
+      "ANK2",
+      "AC107223.1",
+      "PPP2R2B",
+      "LPL",
+      "AL589935.1",
+      "MRVI1",
+      "TNIK",
+      "AL160272.1",
+      "AC016766.1",
+      "RANBP3L",
+      "ARHGEF4",
+      "ADCY2",
+      "NPL",
+      "KCNQ5",
+      "AC079352.1",
+      "LIX1",
+      "APOE",
+      "SLC25A48",
+      "ADCYAP1R1",
+      "AHCYL1",
+      "RASL12",
+      "GINS3",
+      "PTPRG",
+      "AL096709.1",
+      "BMP2K",
+      "MCF2L2",
+      "RBMS3",
+      "SLCO3A1",
+      "AL445426.1",
+      "CARMIL1",
+      "CACNA2D3",
+      "CDHR3",
+      "NAV3",
+      "UTRN",
+      "NRP2",
+      "DNAH7",
+      "KIAA1671",
+      "HPSE2",
+      "COL4A5",
+      "AC083864.5",
+      "L3MBTL4",
+      "AC092131.1",
+      "PCSK6",
+      "AC097450.1",
+      "ANOS1",
+      "SYNPO2",
+      "LINC00836",
+      "MAPK4",
+      "AL365259.1",
+      "WNK2",
+      "LMO3",
+      "SSBP2",
+      "SLC1A4",
+      "PPP2R5A",
+      "LINC00299",
+      "SLC15A2",
+      "CNTN1",
+      "FKBP5",
+      "GREB1L",
+      "LUZP2",
+      "MAP7",
+      "AC023095.1",
+      "IGFBP7",
+      "ALDH1A1",
+      "GRAMD1C",
+      "RHBDL3",
+      "DAPK1",
+      "LINC02058",
+      "TENM4",
+      "RTN1",
+      "LINC01138",
+      "GLUD1",
+      "NEBL",
+      "LINC01117",
+      "AC092691.1",
+      "TJP2",
+      "PCDH9-AS2",
+      "YAP1",
+      "ABCC9",
+      "LAMA1",
+      "AL137024.1",
+      "ERBB4",
+      "ADRA1A",
+      "MYBPC1",
+      "NT5DC3",
+      "AQP1",
+      "NKAIN4",
+      "ARAP2",
+      "RHOB",
+      "AQP4-AS1",
+      "CDH20",
+      "RGMA",
+      "OSGIN2",
+      "PRKG1",
+      "MROH7",
+      "PRRX1",
+      "MAST4",
+      "CHL1",
+      "PAPLN",
+      "OSBPL3",
+      "RFX4",
+      "CD44",
+      "ATP13A4",
+      "COL5A3",
+      "ITGA6",
+      "DOCK7",
+      "CPE",
+      "DPF3",
+      "ZNF521",
+      "DHRS3",
+      "AC006148.1",
+      "LMNTD1",
+      "AC092924.2",
+      "LHFPL6",
+      "AC024145.1",
+      "LIMCH1",
+      "SRPX2",
+      "AL590999.1",
+      "ADCY8",
+      "AC008957.2",
+      "TTYH2",
+      "GJA1",
+      "SHROOM3",
+      "USH1C",
+      "AC007262.2"
+    ],
+    "context": "Astrocytoma CNMF cluster program",
+    "validation_status": "valid_enriched",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/0_Cluster_0/20251216_202721/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": null,
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "offline",
+    "effective_model": "offline",
+    "project": "Astrocytoma_nmf",
+    "query": "0_Cluster_0",
+    "source_tag": "deepsearch",
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "context": {
+      "cell_type": "astrocyte",
+      "disease": "astrocytoma",
+      "tissue": ""
+    },
+    "input_genes": [
+      "FAM189A2",
+      "OGFRL1",
+      "MAP3K5",
+      "ITPR2",
+      "ETNPPL",
+      "NRG3",
+      "CD38",
+      "FMN2",
+      "LINC01088",
+      "KCNN3",
+      "DAAM2",
+      "AC002429.2",
+      "OBI1-AS1",
+      "NTRK2",
+      "SYTL4",
+      "WDR49",
+      "ADGRV1",
+      "LIFR",
+      "AQP4",
+      "ID3",
+      "OSBPL11",
+      "DPP10",
+      "SERPINI2",
+      "TLR4",
+      "NAA11",
+      "MGAT4C",
+      "AC026316.5",
+      "EEPD1",
+      "RASSF4",
+      "AL392086.3",
+      "SLC4A4",
+      "EDNRB",
+      "SLC39A11",
+      "ATP1A2",
+      "SLCO1C1",
+      "AHCYL2",
+      "SPON1",
+      "SLC1A3",
+      "GRAMD2B",
+      "DTNA",
+      "AC012405.1",
+      "NKAIN3",
+      "NTM",
+      "SLC14A1",
+      "DCLK2",
+      "DCLK1",
+      "ID4",
+      "AC124854.1",
+      "LINC01094",
+      "PCDH9",
+      "GABBR2",
+      "PARD3B",
+      "PDE8A",
+      "LRIG1",
+      "C5ORF64",
+      "RNF19A",
+      "SPARCL1",
+      "AC093535.1",
+      "FADS2",
+      "PLEKHA5",
+      "ASTN2",
+      "ADAMTS9",
+      "AC073941.1",
+      "SLC24A4",
+      "PAPPA",
+      "AC068587.4",
+      "FARP1",
+      "SORL1",
+      "ARHGAP26",
+      "CADPS",
+      "ST3GAL6",
+      "ITPKB",
+      "GABRB1",
+      "FAM107A",
+      "MIR99AHG",
+      "ANK2",
+      "AC107223.1",
+      "PPP2R2B",
+      "LPL",
+      "AL589935.1",
+      "MRVI1",
+      "TNIK",
+      "AL160272.1",
+      "AC016766.1",
+      "RANBP3L",
+      "ARHGEF4",
+      "ADCY2",
+      "NPL",
+      "KCNQ5",
+      "AC079352.1",
+      "LIX1",
+      "APOE",
+      "SLC25A48",
+      "ADCYAP1R1",
+      "AHCYL1",
+      "RASL12",
+      "GINS3",
+      "PTPRG",
+      "AL096709.1",
+      "BMP2K",
+      "MCF2L2",
+      "RBMS3",
+      "SLCO3A1",
+      "AL445426.1",
+      "CARMIL1",
+      "CACNA2D3",
+      "CDHR3",
+      "NAV3",
+      "UTRN",
+      "NRP2",
+      "DNAH7",
+      "KIAA1671",
+      "HPSE2",
+      "COL4A5",
+      "AC083864.5",
+      "L3MBTL4",
+      "AC092131.1",
+      "PCSK6",
+      "AC097450.1",
+      "ANOS1",
+      "SYNPO2",
+      "LINC00836",
+      "MAPK4",
+      "AL365259.1",
+      "WNK2",
+      "LMO3",
+      "SSBP2",
+      "SLC1A4",
+      "PPP2R5A",
+      "LINC00299",
+      "SLC15A2",
+      "CNTN1",
+      "FKBP5",
+      "GREB1L",
+      "LUZP2",
+      "MAP7",
+      "AC023095.1",
+      "IGFBP7",
+      "ALDH1A1",
+      "GRAMD1C",
+      "RHBDL3",
+      "DAPK1",
+      "LINC02058",
+      "TENM4",
+      "RTN1",
+      "LINC01138",
+      "GLUD1",
+      "NEBL",
+      "LINC01117",
+      "AC092691.1",
+      "TJP2",
+      "PCDH9-AS2",
+      "YAP1",
+      "ABCC9",
+      "LAMA1",
+      "AL137024.1",
+      "ERBB4",
+      "ADRA1A",
+      "MYBPC1",
+      "NT5DC3",
+      "AQP1",
+      "NKAIN4",
+      "ARAP2",
+      "RHOB",
+      "AQP4-AS1",
+      "CDH20",
+      "RGMA",
+      "OSGIN2",
+      "PRKG1",
+      "MROH7",
+      "PRRX1",
+      "MAST4",
+      "CHL1",
+      "PAPLN",
+      "OSBPL3",
+      "RFX4",
+      "CD44",
+      "ATP13A4",
+      "COL5A3",
+      "ITGA6",
+      "DOCK7",
+      "CPE",
+      "DPF3",
+      "ZNF521",
+      "DHRS3",
+      "AC006148.1",
+      "LMNTD1",
+      "AC092924.2",
+      "LHFPL6",
+      "AC024145.1",
+      "LIMCH1",
+      "SRPX2",
+      "AL590999.1",
+      "ADCY8",
+      "AC008957.2",
+      "TTYH2",
+      "GJA1",
+      "SHROOM3",
+      "USH1C",
+      "AC007262.2"
+    ],
+    "programs": [
+      {
+        "program_name": "Ion Transport and Astrocyte Homeostasis",
+        "description": "Genes encoding ion transporters and channels essential for astrocyte buffering capacity and cellular volume regulation, including aquaporins, sodium-potassium ATPases, and potassium channels critical for maintaining extracellular ion concentrations and preventing excitotoxicity in the brain.",
+        "atomic_biological_processes": [
+          {
+            "name": "Potassium buffering and extracellular ion homeostasis",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene network analysis demonstrates importance of ion transport genes in maintaining cellular homeostasis; study utilized expression data relevant to understanding astrocyte function"
+              }
+            ],
+            "genes": [
+              "KCNN3",
+              "KCNQ5",
+              "ATP1A2",
+              "AQP4",
+              "AQP1",
+              "SLC4A4",
+              "SLC1A3"
+            ],
+            "ontology_id": "GO:0055075",
+            "ontology_label": "potassium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Calcium signaling regulation",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene co-expression analysis identifies calcium regulatory networks; relevant to understanding astrocyte calcium dynamics"
+              }
+            ],
+            "genes": [
+              "ITPR2",
+              "ADCY2",
+              "ADCY8",
+              "CACNA2D3",
+              "PRKG1"
+            ],
+            "ontology_id": "GO:0050848",
+            "ontology_label": "regulation of calcium-mediated signaling",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Plasma membrane ion transporters",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Transcriptomic analysis identifies membrane transport proteins as key cellular components"
+              }
+            ],
+            "genes": [
+              "ATP1A2",
+              "SLC1A3",
+              "SLC4A4",
+              "SLC39A11",
+              "SLC1A4",
+              "SLC15A2",
+              "SLCO1C1",
+              "SLCO3A1",
+              "SLC24A4",
+              "SLC25A48",
+              "SLC14A1"
+            ],
+            "ontology_id": "GO:0099587",
+            "ontology_label": "inorganic ion import across plasma membrane",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Aquaporin water channels",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene expression analysis demonstrates role of aquaporins in cellular water transport and volume regulation"
+              }
+            ],
+            "genes": [
+              "AQP4",
+              "AQP1"
+            ],
+            "ontology_id": "GO:0015250",
+            "ontology_label": "water channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "exact_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced potassium buffering capacity to counteract excitotoxicity and neuronal hyperexcitability",
+          "Maintained cellular volume through osmotic regulation",
+          "Sustained calcium signaling for astrocyte-neuron communication",
+          "Preserved extracellular ion homeostasis in tumor microenvironment",
+          "Dysregulated ion handling potentially contributing to astrocytoma growth"
+        ],
+        "evidence_summary": "This program clusters genes encoding ion transporters and channels fundamental to astrocyte physiology. Multiple aquaporins (AQP4, AQP1), sodium-potassium ATPase (ATP1A2), potassium channels (KCNN3, KCNQ5), and bicarbonate transporters (SLC4A4, SLC1A3) form a coordinated system for maintaining ionic gradients and cellular volume. In astrocytoma, dysregulation of these transporters could enhance tumor cell survival and migration while impairing normal supportive astrocyte functions.",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "Comprehensive gene co-expression network analysis provides framework for understanding interconnected ion transport functions in brain tissue"
+          }
+        ],
+        "supporting_genes": [
+          "AQP4",
+          "AQP1",
+          "ATP1A2",
+          "KCNN3",
+          "KCNQ5",
+          "SLC4A4",
+          "SLC1A3",
+          "SLC39A11",
+          "SLC1A4",
+          "SLC15A2",
+          "SLCO1C1",
+          "SLCO3A1",
+          "SLC24A4",
+          "SLC25A48",
+          "SLC14A1",
+          "ITPR2",
+          "ADCY2",
+          "ADCY8",
+          "CACNA2D3",
+          "PRKG1"
+        ]
+      },
+      {
+        "program_name": "Cytoskeletal Dynamics and Cell Adhesion",
+        "description": "Genes encoding structural proteins, adhesion molecules, and cytoskeletal regulators that control cell morphology, migration, and intercellular contacts. Includes formins, integrins, cadherins, and associated regulatory proteins critical for astrocyte process extension and tissue organization.",
+        "atomic_biological_processes": [
+          {
+            "name": "Actin cytoskeleton polymerization and regulation",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene network analysis identifies clusters of cytoskeletal regulators coordinating cellular architecture"
+              }
+            ],
+            "genes": [
+              "FMN2",
+              "DAAM2",
+              "FARP1",
+              "ARHGAP26",
+              "ARHGEF4",
+              "SHROOM3",
+              "LIMCH1"
+            ],
+            "ontology_id": "GO:0030036",
+            "ontology_label": "actin cytoskeleton organization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Cell-cell adhesion and junction assembly",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Network analysis reveals cadherin and adhesion-related gene clusters important for tissue organization"
+              }
+            ],
+            "genes": [
+              "PCDH9",
+              "CDH20",
+              "TJP2",
+              "CHL1",
+              "CNTN1",
+              "PARD3B"
+            ],
+            "ontology_id": "GO:0007043",
+            "ontology_label": "cell-cell junction assembly",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Actin filament-binding proteins",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Transcriptomic profiling identifies actin regulators as central to cytoskeletal networks"
+              }
+            ],
+            "genes": [
+              "FMN2",
+              "DAAM2",
+              "SHROOM3",
+              "RBMS3",
+              "SRPY2"
+            ],
+            "ontology_id": "GO:0051015",
+            "ontology_label": "actin filament binding",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Cell-cell junction complexes",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene co-expression patterns highlight interconnected adhesion and junction proteins"
+              }
+            ],
+            "genes": [
+              "PCDH9",
+              "CDH20",
+              "TJP2",
+              "PARD3B",
+              "CNTN1",
+              "CHL1"
+            ],
+            "ontology_id": "GO:0005911",
+            "ontology_label": "cell-cell junction",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Integrin and extracellular matrix interaction",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Network analysis reveals genes involved in cell-matrix interactions and integrin signaling"
+              }
+            ],
+            "genes": [
+              "ITGA6",
+              "LAMA1",
+              "COL5A3",
+              "COL4A5",
+              "ADAMTS9",
+              "SPON1",
+              "SPARCL1"
+            ],
+            "ontology_id": "GO:0030198",
+            "ontology_label": "extracellular matrix organization",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced cell migration and invasive capacity in tumor context",
+          "Altered astrocyte morphology with retracted processes favoring tumoral phenotype",
+          "Disrupted gap junction communication between astrocytes and neurons",
+          "Modified cell-matrix interactions affecting tumor microenvironment interaction",
+          "Loss of normal astrocyte tiling and supportive network organization"
+        ],
+        "evidence_summary": "This program aggregates genes regulating actin dynamics, cell adhesion, and structural organization. Formins (FMN2, DAAM2), Rho-family GTPase regulators (ARHGAP26, ARHGEF4), and adhesion molecules (PCDH9, CDH20, TJP2) enable astrocytes to form branched morphologies and maintain tissue architecture. In astrocytoma, dysregulation of these factors—particularly increased formin activity or loss of adhesion—promotes tumor cell migration and disrupts the organized astrocytic scaffold that normally supports neural circuits.",
+        "significance_score": 0.68,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "Integrative gene network analysis demonstrates coordinated expression of cytoskeletal and adhesion genes"
+          }
+        ],
+        "supporting_genes": [
+          "FMN2",
+          "DAAM2",
+          "FARP1",
+          "ARHGAP26",
+          "ARHGEF4",
+          "SHROOM3",
+          "LIMCH1",
+          "PCDH9",
+          "CDH20",
+          "TJP2",
+          "CHL1",
+          "CNTN1",
+          "PARD3B",
+          "ITGA6",
+          "LAMA1",
+          "COL5A3",
+          "COL4A5",
+          "ADAMTS9",
+          "SPON1",
+          "SPARCL1",
+          "RBMS3",
+          "SRPX2",
+          "DOCK7"
+        ]
+      },
+      {
+        "program_name": "Neurotrophic Signaling and Cell Survival",
+        "description": "Genes encoding neurotrophic factors, their receptors, and downstream signaling mediators that regulate survival, differentiation, and synaptic plasticity. Includes NTRK2, LIFR, ERBB4, and related signaling components critical for astrocyte-neuron crosstalk and neuroprotection.",
+        "atomic_biological_processes": [
+          {
+            "name": "Growth factor receptor signaling",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene network analysis identifies receptor tyrosine kinase signaling clusters relevant to cell fate determination"
+              }
+            ],
+            "genes": [
+              "NTRK2",
+              "ERBB4",
+              "LIFR",
+              "NRG3"
+            ],
+            "ontology_id": "GO:0007173",
+            "ontology_label": "epidermal growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "MAPK cascade and stress response",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Transcriptomic analysis reveals coordinated expression of MAPK pathway components"
+              }
+            ],
+            "genes": [
+              "MAP3K5",
+              "MAP7",
+              "MAPK4",
+              "DAPK1"
+            ],
+            "ontology_id": "GO:0051403",
+            "ontology_label": "stress-activated MAPK cascade",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Receptor tyrosine kinases and co-receptors",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene expression profiling identifies receptor proteins central to signal transduction"
+              }
+            ],
+            "genes": [
+              "NTRK2",
+              "ERBB4",
+              "LIFR"
+            ],
+            "ontology_id": "GO:0039706",
+            "ontology_label": "co-receptor binding",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced pro-survival signaling pathways driving astrocytoma progression",
+          "Dysregulated neurotrophic factor responses favoring tumor over supportive phenotype",
+          "Altered neuronal-astrocytic coupling through dysregulated ERBB and NTRK signaling",
+          "Enhanced resistance to apoptosis through activated LIFR and related pathways",
+          "Impaired neuroprotective astrocyte functions"
+        ],
+        "evidence_summary": "This program clusters genes involved in growth factor signaling critical for astrocyte survival and neuroprotection. NTRK2 (TrkB) and ERBB4 are receptor tyrosine kinases responding to brain-derived neurotrophic factor and neuregulins respectively. LIFR mediates leukemia inhibitory factor signaling supporting astrocyte survival. Downstream effectors include MAP kinases (MAP3K5, MAPK4) and stress-responsive proteins (DAPK1). In astrocytoma, alterations in this pathway could shift balance from neuroprotective to tumorigenic phenotypes.",
+        "significance_score": 0.65,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "Gene co-expression networks reveal interconnected growth factor signaling clusters"
+          }
+        ],
+        "supporting_genes": [
+          "NTRK2",
+          "ERBB4",
+          "LIFR",
+          "NRG3",
+          "MAP3K5",
+          "MAP7",
+          "MAPK4",
+          "DAPK1"
+        ]
+      },
+      {
+        "program_name": "Lipid Metabolism and Membrane Biogenesis",
+        "description": "Genes involved in lipid synthesis, modification, and trafficking essential for myelin support and astrocyte-mediated lipid delivery to neurons. Includes fatty acid desaturases, oxysterol-binding proteins, and lipid transport proteins.",
+        "atomic_biological_processes": [
+          {
+            "name": "Fatty acid and lipid biosynthesis",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "Methylation and expression analysis identifies lipid metabolism genes in differential expression signatures"
+              }
+            ],
+            "genes": [
+              "FADS2",
+              "ALDH1A1"
+            ],
+            "ontology_id": "GO:0006633",
+            "ontology_label": "fatty acid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Oxysterol and sterol trafficking",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene networks implicate oxysterol-binding proteins in lipid homeostasis"
+              }
+            ],
+            "genes": [
+              "OSBPL11",
+              "OSBPL3"
+            ],
+            "ontology_id": "GO:0015918",
+            "ontology_label": "sterol transport",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Lipid binding and transport proteins",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Transcriptomic analysis identifies proteins involved in intracellular lipid trafficking"
+              }
+            ],
+            "genes": [
+              "OSBPL11",
+              "OSBPL3",
+              "SORL1",
+              "GRAMD2B",
+              "GRAMD1C"
+            ],
+            "ontology_id": "GO:0006869",
+            "ontology_label": "lipid transport",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced lipid synthesis supporting tumor cell membrane expansion",
+          "Dysregulated cholesterol and fatty acid metabolism affecting myelination support",
+          "Altered astrocyte-neuron lipid transfer mechanisms",
+          "Modified membrane composition affecting cell signaling and drug sensitivity",
+          "Impaired lipid-dependent neuroprotective functions"
+        ],
+        "evidence_summary": "This program encompasses genes controlling lipid synthesis, modification, and intracellular trafficking. FADS2 catalyzes fatty acid desaturation essential for polyunsaturated fatty acid production. Oxysterol-binding proteins (OSBPL11, OSBPL3) facilitate sterol and lipid binding and transport. SORL1 mediates apolipoprotein E (APOE) recycling, critical for astrocyte-mediated lipid delivery to neurons. In astrocytoma, dysregulation could favor anabolic lipid synthesis for membrane biogenesis and energy storage while impairing supportive lipid delivery to neurons.",
+        "significance_score": 0.58,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "Differential gene expression analysis identifies metabolic gene signatures"
+          },
+          {
+            "source_id": "3",
+            "notes": "Gene co-expression networks reveal lipid metabolism clusters"
+          }
+        ],
+        "supporting_genes": [
+          "FADS2",
+          "ALDH1A1",
+          "OSBPL11",
+          "OSBPL3",
+          "SORL1",
+          "GRAMD2B",
+          "GRAMD1C",
+          "APOE"
+        ]
+      },
+      {
+        "program_name": "Transcriptional Regulation and Cell Fate",
+        "description": "Genes encoding transcription factors, chromatin remodelers, and regulatory proteins controlling astrocyte differentiation, identity, and responses to developmental or pathological cues. Includes ID proteins, YAP1, and associated chromatin regulators.",
+        "atomic_biological_processes": [
+          {
+            "name": "Cell fate determination and differentiation",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "Multimodal single-cell analysis identifies transcription factor networks driving cell fate decisions and differentiation"
+              }
+            ],
+            "genes": [
+              "ID3",
+              "ID4",
+              "RFX4",
+              "LMO3"
+            ],
+            "ontology_id": "GO:0001709",
+            "ontology_label": "cell fate determination",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Hippo pathway signaling and mechanotransduction",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene network analysis reveals Hippo pathway components in cellular state determination"
+              }
+            ],
+            "genes": [
+              "YAP1",
+              "PRKG1"
+            ],
+            "ontology_id": "GO:0035329",
+            "ontology_label": "hippo signaling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Transcription factors and cofactors",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "Single-cell analysis identifies key transcription factors and their regulatory networks"
+              }
+            ],
+            "genes": [
+              "ID3",
+              "ID4",
+              "RFX4",
+              "LMO3",
+              "YAP1",
+              "ZNF521",
+              "GREB1L"
+            ],
+            "ontology_id": "GO:0001221",
+            "ontology_label": "transcription coregulator binding",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered astrocyte differentiation and identity maintenance in tumor context",
+          "Dysregulated transcriptional networks promoting glioma-initiating cell programs",
+          "Enhanced stemness or de-differentiation phenotypes",
+          "Loss of mature astrocyte gene expression programs",
+          "Aberrant mechanotransduction through YAP1 dysregulation"
+        ],
+        "evidence_summary": "This program gathers transcription factors and regulators of astrocyte fate. ID proteins (ID3, ID4) inhibit differentiation-promoting bHLH factors, maintaining progenitor-like states when overexpressed. RFX4 regulates CFTR expression and may modulate astrocyte identity. YAP1, a Hippo pathway effector, acts as a mechanotransducer coupling physical cues to gene expression. In astrocytoma, dysregulation of these factors could drive de-differentiation toward glioma stem cell phenotypes, away from mature supportive astrocyte functions.",
+        "significance_score": 0.62,
+        "citations": [
+          {
+            "source_id": "4",
+            "notes": "Multimodal single-cell analysis reveals transcription factor networks matching known and emerging TF interactions"
+          },
+          {
+            "source_id": "3",
+            "notes": "Gene co-expression networks implicate transcriptional regulators in cell fate programs"
+          }
+        ],
+        "supporting_genes": [
+          "ID3",
+          "ID4",
+          "RFX4",
+          "LMO3",
+          "YAP1",
+          "PRKG1",
+          "ZNF521",
+          "GREB1L"
+        ]
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Functional annotation from literature: ion transport, cytoskeletal regulation, signaling pathways, metabolism, transcriptional control",
+        "Gene ontology enrichment patterns: cellular component and biological process categories",
+        "Known pathway participation: Hippo signaling, MAPK cascades, synaptic plasticity networks",
+        "Astrocyte-specific roles: potassium buffering, metabolic support, neuroprotection",
+        "Astrocytoma context: consideration of normal functions inverted toward tumorigenesis"
+      ],
+      "notes": "This analysis identifies five major gene programs from the provided list relevant to astrocytoma biology. While the provided search results do not contain direct characterization of all genes in this list within the astrocytoma context, clustering rationale is grounded in established astrocyte biology and how such genes would be perturbed in malignant transformation. Ion transport represents the core astrocyte identity. Cytoskeletal and adhesion genes enable phenotypic shifts toward migratory phenotypes. Neurotrophic signaling controls survival. Lipid metabolism supports membranous expansion. Transcriptional regulators enable fate changes. Each program represents a coordinated functional unit likely dysregulated in astrocytoma CNMF cluster programs."
+    },
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "total_processes": 36,
+  "total_components": 16,
+  "mapped_processes": 34,
+  "mapped_components": 14,
+  "failed_mappings": [
+    {
+      "term": "GABAA receptor-gephyrin postsynaptic scaffold complex",
+      "type": "component"
+    },
+    {
+      "term": "Neuronal gene expression and repression of glial genes",
+      "type": "process"
+    },
+    {
+      "term": "INSM1 transcription factor complex",
+      "type": "component"
+    },
+    {
+      "term": "Metabolic plasticity enabling therapeutic resistance",
+      "type": "process"
+    }
+  ]
+}

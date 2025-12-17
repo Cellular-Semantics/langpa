@@ -1,0 +1,32 @@
+{
+  "total_processes": 53,
+  "total_components": 15,
+  "mapped_processes": 51,
+  "mapped_components": 11,
+  "failed_mappings": [
+    {
+      "term": "Glycolytic enzyme complexes",
+      "type": "component"
+    },
+    {
+      "term": "p62 filamentous structures and condensates",
+      "type": "component"
+    },
+    {
+      "term": "Semaphorin-mediated immune cell guidance",
+      "type": "process"
+    },
+    {
+      "term": "CEBPD-mediated inflammatory signaling",
+      "type": "process"
+    },
+    {
+      "term": "Tyrosine kinase receptor complexes",
+      "type": "component"
+    },
+    {
+      "term": "Paraspeckle nuclear structures",
+      "type": "component"
+    }
+  ]
+}

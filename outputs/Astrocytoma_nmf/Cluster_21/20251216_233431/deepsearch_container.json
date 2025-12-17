@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T23:39:12.484802",
+    "timestamp": "2025-12-17T22:02:49.172119",
     "genes": [
       "THSD4",
       "STK17B",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_21",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -275,7 +275,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/6249",
       "https://www.ncbi.nlm.nih.gov/gene/5594"
     ],
-    "duration_seconds": 260.597286939621
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -509,7 +509,12 @@
                 "source_id": "10",
                 "notes": "SLC1A3 contributes to glutamate homeostasis by regulating astrocytic GLAST expression"
               }
-            ]
+            ],
+            "ontology_id": "GO:0051935",
+            "ontology_label": "glutamate reuptake",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "sodium-calcium exchange and ion homeostasis",
@@ -522,7 +527,12 @@
                 "source_id": "8",
                 "notes": "SLC8A1 sodium-calcium exchanger regulates intracellular calcium dynamics relevant to astrocyte physiology"
               }
-            ]
+            ],
+            "ontology_id": "GO:0055074",
+            "ontology_label": "calcium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "calcium signaling and cellular excitability",
@@ -543,7 +553,12 @@
                 "source_id": "4",
                 "notes": "Glioma cells impair local glutamate reuptake through alterations in astrocytic function affecting calcium-dependent processes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0019722",
+            "ontology_label": "calcium-mediated signaling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -558,7 +573,12 @@
                 "source_id": "8",
                 "notes": "SLC1A3 encodes high-affinity glutamate transporter"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098712",
+            "ontology_label": "L-glutamate import across plasma membrane",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "voltage-gated ion channels",
@@ -574,7 +594,12 @@
                 "source_id": "26",
                 "notes": "Ion channels regulate astrocytic membrane potential and excitability"
               }
-            ]
+            ],
+            "ontology_id": "GO:0022832",
+            "ontology_label": "voltage-gated channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "partial_match"
           },
           {
             "name": "calcium-regulated cellular compartments",
@@ -588,7 +613,12 @@
                 "source_id": "26",
                 "notes": "TRPC4 involved in astrocytic calcium signaling compartments"
               }
-            ]
+            ],
+            "ontology_id": "GO:0071277",
+            "ontology_label": "cellular response to calcium ion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -653,7 +683,12 @@
                 "source_id": "2",
                 "notes": "Single-cell spatial profiling identifies unique ECM expression profiles in glioblastoma including altered cadherin expression"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098609",
+            "ontology_label": "cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ECM protein synthesis and organization",
@@ -668,7 +703,12 @@
                 "source_id": "2",
                 "notes": "ECM signaling pathways are dysregulated in brain pathologies including glioblastoma with profoundly altered expression signatures"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007010",
+            "ontology_label": "cytoskeleton organization",
+            "ontology_source": "GO",
+            "confidence": 0.4,
+            "mapping_method": "partial_match"
           },
           {
             "name": "matrix metalloproteinase activity and ECM remodeling",
@@ -680,7 +720,12 @@
                 "source_id": "22",
                 "notes": "ADAMTS1 metalloprotease decreases cell migration and invasion by modulating matrix dynamics"
               }
-            ]
+            ],
+            "ontology_id": "GO:1990773",
+            "ontology_label": "matrix metallopeptidase secretion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "integrin signaling and focal adhesion assembly",
@@ -698,7 +743,12 @@
                 "source_id": "18",
                 "notes": "Focal adhesion proteins show liquid-liquid phase separation on lipid membranes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007229",
+            "ontology_label": "integrin-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -717,7 +767,12 @@
                 "source_id": "1",
                 "notes": "Cell junction assembly genes downregulated in reactive astrocytes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007155",
+            "ontology_label": "cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "secreted extracellular matrix proteins",
@@ -733,7 +788,12 @@
                 "source_id": "2",
                 "notes": "ECM components show unique expression profiles across GBM cell populations and spatial regions"
               }
-            ]
+            ],
+            "ontology_id": "GO:0031012",
+            "ontology_label": "extracellular matrix",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "cell polarity and adhesion scaffolds",
@@ -746,7 +806,12 @@
                 "source_id": "20",
                 "notes": "PARD3 and related proteins organize cell polarity and epithelial architecture"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007163",
+            "ontology_label": "establishment or maintenance of cell polarity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -810,7 +875,12 @@
                 "source_id": "1",
                 "notes": "Upregulation of genes involved in synaptic structure regulation and neuronal stem cell maintenance in subacute phase"
               }
-            ]
+            ],
+            "ontology_id": "GO:0050808",
+            "ontology_label": "synapse organization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "synapse pruning and phagocytosis",
@@ -827,7 +897,12 @@
                 "source_id": "23",
                 "notes": "MERTK, along with C1q components, mediates synapse pruning in reactive astrocytes during neurodegeneration"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098883",
+            "ontology_label": "synapse pruning",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "protein ubiquitination in synaptic remodeling",
@@ -840,7 +915,12 @@
                 "source_id": "1",
                 "notes": "E3 ubiquitin ligases participate in synaptic protein clearance and autophagy-mediated pathways"
               }
-            ]
+            ],
+            "ontology_id": "GO:0016567",
+            "ontology_label": "protein ubiquitination",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -857,7 +937,12 @@
                 "source_id": "1",
                 "notes": "Synaptic adhesion genes involved in synapse maintenance and stabilization"
               }
-            ]
+            ],
+            "ontology_id": "GO:0099560",
+            "ontology_label": "synaptic membrane adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "phagocytic receptor machinery",
@@ -869,7 +954,12 @@
                 "source_id": "23",
                 "notes": "MERTK mediates phagocytosis in astrocytes for synapse pruning"
               }
-            ]
+            ],
+            "ontology_id": "GO:0045335",
+            "ontology_label": "phagocytic vesicle",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -931,7 +1021,12 @@
                 "source_id": "33",
                 "notes": "FGFR signaling gradients establish developmental patterns in neural tube formation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0008543",
+            "ontology_label": "fibroblast growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.95,
+            "mapping_method": "exact_match"
           },
           {
             "name": "insulin-like growth factor signaling",
@@ -944,7 +1039,12 @@
                 "source_id": "9",
                 "notes": "IGF1R binds insulin-like growth factor with high affinity and has tyrosine kinase activity promoting cell survival and proliferation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0048009",
+            "ontology_label": "insulin-like growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.95,
+            "mapping_method": "exact_match"
           },
           {
             "name": "progenitor maintenance and differentiation control",
@@ -963,7 +1063,12 @@
                 "source_id": "28",
                 "notes": "INSM1-driven transcriptional programs regulate proliferation-differentiation balance in developing brain"
               }
-            ]
+            ],
+            "ontology_id": "GO:1901532",
+            "ontology_label": "regulation of hematopoietic progenitor cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -978,7 +1083,12 @@
                 "source_id": "9",
                 "notes": "IGF1R and similar RTKs transduce growth signals through receptor-mediated tyrosine kinase activation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0004714",
+            "ontology_label": "transmembrane receptor protein tyrosine kinase activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "basic helix-loop-helix transcription factors",
@@ -992,7 +1102,12 @@
                 "source_id": "3",
                 "notes": "Transcriptional programs regulated by developmental factors control progenitor state and differentiation"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -1048,7 +1163,12 @@
                 "source_id": "30",
                 "notes": "Expression of key metabolic determinants including IDH1, HK2, and related metabolic genes increased in recurrent tumors"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006730",
+            "ontology_label": "one-carbon metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "antioxidant defense and glutathione synthesis",
@@ -1060,7 +1180,12 @@
                 "source_id": "31",
                 "notes": "NFE2L1 (Nrf1) is key regulator of glucose and lipid metabolism upregulated in stress responses"
               }
-            ]
+            ],
+            "ontology_id": "GO:0009165",
+            "ontology_label": "nucleotide biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "lipid signaling and membrane remodeling",
@@ -1073,7 +1198,12 @@
                 "source_id": "16",
                 "notes": "PLCB1 is candidate signature gene for proneural subtype high-grade glioma with altered signaling dynamics"
               }
-            ]
+            ],
+            "ontology_id": "GO:0016209",
+            "ontology_label": "antioxidant activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1087,7 +1217,12 @@
                 "source_id": "30",
                 "notes": "Mitochondrial genes show altered expression in recurrent tumor populations"
               }
-            ]
+            ],
+            "ontology_id": "GO:0032042",
+            "ontology_label": "mitochondrial DNA metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "cytoplasmic metabolic enzymes",
@@ -1095,7 +1230,12 @@
               "ALDH1L1",
               "GCLC"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0043600",
+            "ontology_label": "cytoplasmic replisome",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1144,7 +1284,12 @@
                 "source_id": "37",
                 "notes": "FOXO1 affects medulloblastoma growth through regulation of progenitor state"
               }
-            ]
+            ],
+            "ontology_id": "GO:0072005",
+            "ontology_label": "maintenance of kidney identity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "transcriptional repression and co-repressor recruitment",
@@ -1156,7 +1301,12 @@
                 "source_id": "1",
                 "notes": "Transcriptional control of gene expression programs in developing and reactive astrocytes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0003714",
+            "ontology_label": "transcription corepressor activity",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "nuclear receptor signaling",
@@ -1164,7 +1314,12 @@
               "ESRRG",
               "RORA"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0141193",
+            "ontology_label": "nuclear receptor-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1180,7 +1335,12 @@
                 "source_id": "6",
                 "notes": "FOXP2 is member of forkhead/winged-helix transcription factor family"
               }
-            ]
+            ],
+            "ontology_id": "GO:0003700",
+            "ontology_label": "DNA-binding transcription factor activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1237,7 +1397,12 @@
                 "source_id": "26",
                 "notes": "TRPC4 regulates calcium homeostasis in astrocytes and participates in astrocytic calcium dynamics"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005249",
+            "ontology_label": "voltage-gated potassium channel activity",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "calcium influx and store-operated calcium entry",
@@ -1255,14 +1420,24 @@
                 "source_id": "4",
                 "notes": "Altered neuronal excitability results from impaired astrocytic function including calcium signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0002115",
+            "ontology_label": "store-operated calcium entry",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "calcium extrusion and ATP-dependent pumps",
             "genes": [
               "ATP2B2"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0030899",
+            "ontology_label": "calcium-dependent ATPase activity",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1281,7 +1456,12 @@
                 "source_id": "26",
                 "notes": "Ion channels embedded in plasma membrane regulating cellular excitability"
               }
-            ]
+            ],
+            "ontology_id": "GO:0099587",
+            "ontology_label": "inorganic ion import across plasma membrane",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "intracellular calcium stores and their regulators",
@@ -1289,7 +1469,12 @@
               "TPCN1",
               "ATP2B2"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0006874",
+            "ontology_label": "intracellular calcium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "synonym_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1342,7 +1527,12 @@
                 "source_id": "31",
                 "notes": "HIF-1 forms incoherent feedforward loops with p53 and Notch1 to generate cycling hypoxia-specific gene expression patterns"
               }
-            ]
+            ],
+            "ontology_id": "GO:0097411",
+            "ontology_label": "hypoxia-inducible factor-1alpha signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "angiogenesis and vessel formation",
@@ -1354,7 +1544,12 @@
                 "source_id": "40",
                 "notes": "VEGFA regulated by HIF family transcription factors in glioma angiogenesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0001525",
+            "ontology_label": "angiogenesis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "metabolic adaptation to low oxygen",
@@ -1367,7 +1562,12 @@
                 "source_id": "31",
                 "notes": "HIF-1-dependent metabolic rewiring occurs in response to cycling hypoxia"
               }
-            ]
+            ],
+            "ontology_id": "GO:0070482",
+            "ontology_label": "response to oxygen levels",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1382,7 +1582,12 @@
                 "source_id": "31",
                 "notes": "HIF family transcription factors regulate hypoxic adaptive responses"
               }
-            ]
+            ],
+            "ontology_id": "GO:0097411",
+            "ontology_label": "hypoxia-inducible factor-1alpha signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1428,7 +1633,12 @@
                 "source_id": "1",
                 "notes": "E3 ubiquitin ligases participate in synaptic protein clearance and modulation of signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0016567",
+            "ontology_label": "protein ubiquitination",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "endocytic trafficking and vesicular transport",
@@ -1441,7 +1651,12 @@
                 "source_id": "47",
                 "notes": "CLIP1 links endocytic vesicles to microtubules facilitating vesicular transport"
               }
-            ]
+            ],
+            "ontology_id": "GO:0016192",
+            "ontology_label": "vesicle-mediated transport",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "surface protein turnover and receptor endocytosis",
@@ -1449,7 +1664,12 @@
               "MARCH3",
               "NEDD4"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0006898",
+            "ontology_label": "receptor-mediated endocytosis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1462,7 +1682,12 @@
               "MARCH3",
               "TRIM9"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:1990352",
+            "ontology_label": "BRE1 E3 ubiquitin ligase complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "endocytic trafficking machinery",
@@ -1475,7 +1700,12 @@
                 "source_id": "47",
                 "notes": "CLIP1 protein participates in endocytic vesicle trafficking"
               }
-            ]
+            ],
+            "ontology_id": "GO:0032456",
+            "ontology_label": "endocytic recycling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1523,7 +1753,12 @@
                 "source_id": "20",
                 "notes": "Actin polymerization and cell migration programs active during development"
               }
-            ]
+            ],
+            "ontology_id": "GO:0030041",
+            "ontology_label": "actin filament polymerization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "myosin-driven cell migration",
@@ -1531,7 +1766,12 @@
               "MYO10",
               "TPM1"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0016477",
+            "ontology_label": "cell migration",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Rho GTPase signaling and migration control",
@@ -1540,7 +1780,12 @@
               "ARHGAP24",
               "ARHGAP31"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0160221",
+            "ontology_label": "Rho-activating G protein-coupled receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "lamellipodia and filopodia dynamics",
@@ -1549,7 +1794,12 @@
               "MYO10",
               "ANLN"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0046847",
+            "ontology_label": "filopodium assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1563,14 +1813,24 @@
               "LRRC4C",
               "TPM1"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0051017",
+            "ontology_label": "actin filament bundle assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "myosin motors",
             "genes": [
               "MYO10"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0016459",
+            "ontology_label": "myosin complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Rho GTPase regulators",
@@ -1579,7 +1839,12 @@
               "ARHGAP24",
               "ARHGAP31"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0007266",
+            "ontology_label": "Rho protein signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "related_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1630,7 +1895,12 @@
                 "source_id": "21",
                 "notes": "Astrocytic ephrin-B1 controls excitatory-inhibitory balance in developing hippocampus"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007171",
+            "ontology_label": "activation of transmembrane receptor protein tyrosine kinase activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "guidance factor signaling",
@@ -1638,7 +1908,12 @@
               "DCC",
               "SEMA4B"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:1902287",
+            "ontology_label": "semaphorin-plexin signaling pathway involved in axon guidance",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "astrocyte-neuron signaling",
@@ -1651,7 +1926,12 @@
                 "source_id": "4",
                 "notes": "Neuron-tumor crosstalk in peritumoral cortex involves direct synaptic communication"
               }
-            ]
+            ],
+            "ontology_id": "GO:0150098",
+            "ontology_label": "glial cell-neuron signaling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1666,7 +1946,12 @@
                 "source_id": "19",
                 "notes": "EphB receptors are receptor tyrosine kinases activated by ephrin ligands"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005003",
+            "ontology_label": "ephrin receptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1722,7 +2007,12 @@
                 "source_id": "23",
                 "notes": "MERTK, along with C1q and other complement components, mediates synapse pruning in reactive astrocytes and models of chronic neurodegeneration"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098883",
+            "ontology_label": "synapse pruning",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "immune cell activation and recruitment",
@@ -1735,7 +2025,12 @@
                 "source_id": "41",
                 "notes": "Glioma tumor microenvironment characterized by profoundly immunosuppressive nature limiting immunotherapy efficacy"
               }
-            ]
+            ],
+            "ontology_id": "GO:0045321",
+            "ontology_label": "leukocyte activation",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "chronic inflammatory signaling",
@@ -1747,7 +2042,12 @@
                 "source_id": "1",
                 "notes": "Inflammatory and stress-related pathways enriched in acute and chronic phase astrocytes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0002544",
+            "ontology_label": "chronic inflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1761,7 +2061,12 @@
                 "source_id": "23",
                 "notes": "MERTK receptors mediate phagocytosis and synapse pruning"
               }
-            ]
+            ],
+            "ontology_id": "GO:0004875",
+            "ontology_label": "complement receptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1810,14 +2115,24 @@
               "LINC00461",
               "SLC8A1-AS1"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0045974",
+            "ontology_label": "regulation of translation, ncRNA-mediated",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "RNA binding and post-transcriptional control",
             "genes": [
               "RBMS3"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0000512",
+            "ontology_label": "lncRNA-mediated post-transcriptional gene silencing",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1833,7 +2148,12 @@
               "LINC00461",
               "SLC8A1-AS1"
             ],
-            "citations": []
+            "citations": [],
+            "ontology_id": "GO:0140742",
+            "ontology_label": "lncRNA transcription",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "synonym_match"
           }
         ],
         "predicted_cellular_impact": [

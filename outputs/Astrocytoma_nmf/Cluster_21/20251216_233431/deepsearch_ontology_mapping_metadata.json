@@ -1,0 +1,12 @@
+{
+  "total_processes": 40,
+  "total_components": 24,
+  "mapped_processes": 40,
+  "mapped_components": 23,
+  "failed_mappings": [
+    {
+      "term": "basic helix-loop-helix transcription factors",
+      "type": "component"
+    }
+  ]
+}

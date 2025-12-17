@@ -415,59 +415,59 @@ Long non-coding RNAs are emerging as critical regulators of gene expression and 
 - [9]: lncRNA dysregulation in Alzheimer's disease networks with altered functions compared to normal tissue
 
 ## Bibliography
-1. 1. Available from: https://www.ncbi.nlm.nih.gov/gene/6667
-2. 2. Available from: https://www.ncbi.nlm.nih.gov/gene/12669
-3. 3. Available from: https://www.ncbi.nlm.nih.gov/gene/154
-4. 4. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
-5. 5. Available from: https://www.ncbi.nlm.nih.gov/gene/207
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/1894
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/5879
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/16449
-9. 9. Zebardast F, Riethmüller MPS, Nowick K. Integrative gene co-expression network analysis reveals protein-coding and LncRNA genes associated with Alzheimer’s disease pathology. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-30392-9
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/18128
-11. 11. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/10395
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/3845
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/3480
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/gene/857
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/3265
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/238
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/1050
-19. 19. Available from: https://www.ncbi.nlm.nih.gov/gene/27436
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/12606
-21. 21. Hruby AJ, Higuchi-Sanabria R. Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease. npj Aging [Internet]. 2025Dec16;11(1). Available from: https://www.nature.com/articles/s41514-025-00291-4
-22. 22. Lee H, Han Y, Song J-Y, Kim DG, Chung H, Jung SJ, et al.. Pharmacological activation of SERCA2 reverses ER calcium dysregulation and depression-like behaviors in hyperglycemic mice. Scientific Reports [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41598-025-31293-7_reference.pdf
-23. 23. Available from: https://www.ncbi.nlm.nih.gov/gene/212712
-24. 24. Huang W, Zhang F, Zhang Z, Wang Q, Chen S. Dysregulation of HOXA genes in acute myeloid leukemia and targeted therapy. npj Precision Oncology [Internet]. 2025Dec5;9(1). Available from: https://www.nature.com/articles/s41698-025-01200-4
-25. 25. Leavey P, Jiang L, Pannullo N, Santiago C, Blackshaw S. Overexpression of Meis factors in late-stage retinal progenitors yields complex effects on temporal patterning and neurogenesis. Scientific Reports [Internet]. 2025Dec3;. Available from: https://www.nature.com/articles/s41598-025-31061-7_reference.pdf
-26. 26. Available from: https://www.ncbi.nlm.nih.gov/gene/23314
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/4602
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/11921
-29. 29. Ghirardello M, Yruela I, Merino P, Sackstein R, Sanz-Martínez I, Hurtado-Guerrero R. Structure, function, and implications of fucosyltransferases in health and disease. Nature Communications [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41467-025-66871-w_reference.pdf
-30. 30. Jin-Fen X, Kristin I, Emily YK, Annaliese F, Marina TB, Jlenia G. Periostin promotes sarcoma growth by promoting tumor-associated macrophage migration and differentiation.. Cancer research communications [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41264337/
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/4323
-32. 32. Available from: https://www.ncbi.nlm.nih.gov/gene/10631
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/546
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/6093
-35. 35. Available from: https://www.ncbi.nlm.nih.gov/gene/4851
-36. 36. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
-37. 37. Available from: https://www.ncbi.nlm.nih.gov/gene/998
-38. 38. Wei X-Y, Zou Z-M, Yao Z-X, Teng S-W, Wei X-Y, Tang W-J, et al.. Neuronal activity-induced GLUT3 plasma translocation supports energy demands for memory acquisition. Communications Biology [Internet]. 2025Nov28;8(1). Available from: https://www.nature.com/articles/s42003-025-09119-z
-39. 39. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
-40. 40. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
-41. 41. Ye J, Wang H, Peng Y, Wang S, Zheng R, Chen Y, et al.. Noncanonical role of astrocytic mitochondrial Cx43: suppressing IDH3α to sustain glycolytic homeostasis against depression. Cell Death &amp; Disease [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41419-025-08309-1
-42. 42. Available from: https://www.ncbi.nlm.nih.gov/gene/2475
-43. 43. Kao Y-C, Huang H-B, Lee C-H. Combined effects of red light and direct-current electric fields on neurite growth in 3D neural cell cultures. Scientific Reports [Internet]. 2025Nov29;. Available from: https://www.nature.com/articles/s41598-025-29835-0_reference.pdf
-44. 44. Available from: https://www.ncbi.nlm.nih.gov/gene/2534
-45. 45. Available from: https://www.ncbi.nlm.nih.gov/gene/2596
-46. 46. Available from: https://www.ncbi.nlm.nih.gov/gene/4868
-47. 47. Available from: https://www.ncbi.nlm.nih.gov/gene/5154
-48. 48. Dyer A, Dudley R, Ahuja S, Alsinet C, Poudel P, Bowyer G, et al.. Characterisation of human in vitro tumour-associated macrophage models to define translational relevance. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-30224-w
-49. 49. Available from: https://www.ncbi.nlm.nih.gov/gene/5155
-50. 50. Yan X, Yang Z, Jiahe W. Engineered macrophages accumulate in solid tumors and locally deliver immune-activating proteins to inhibit tumor progression.. Translational cancer research [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41378015/?fc=None&ff=20251211101854&v=2.18.0.post22+67771e2
-51. 51. Available from: https://www.ncbi.nlm.nih.gov/gene/10253
-52. 52. Rangarajan S, Espeter L, Drexler HCA, Chrostek-Grashoff A, Grashoff C. Talin force coupling underlies eukaryotic cell-substrate adhesion. Nature Communications [Internet]. 2025Dec6;16(1). Available from: https://www.nature.com/articles/s41467-025-67354-8
-53. 53. Available from: https://www.ncbi.nlm.nih.gov/gene/24064
-54. 54. Available from: https://www.ncbi.nlm.nih.gov/gene/3611
-55. 55. da SNL, de MGVRM, Oliveira-Nazareth Y, da SRS, Campello-Costa P. Effects of caffeine on neuroinflammation in anxiety and depression: a systematic review of rodent studies. Translational Psychiatry [Internet]. 2025Nov17;15(1). Available from: https://www.nature.com/articles/s41398-025-03668-x
-56. 56. Available from: http://json-schema.org/draft-07/schema#",
+1. Available from: https://www.ncbi.nlm.nih.gov/gene/6667
+2. Available from: https://www.ncbi.nlm.nih.gov/gene/12669
+3. Available from: https://www.ncbi.nlm.nih.gov/gene/154
+4. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
+5. Available from: https://www.ncbi.nlm.nih.gov/gene/207
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/1894
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/5879
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/16449
+9. Zebardast F, Riethmüller MPS, Nowick K. Integrative gene co-expression network analysis reveals protein-coding and LncRNA genes associated with Alzheimer’s disease pathology. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-30392-9
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/18128
+11. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/10395
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/3845
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/3480
+15. Available from: https://www.ncbi.nlm.nih.gov/gene/857
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/3265
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/238
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/1050
+19. Available from: https://www.ncbi.nlm.nih.gov/gene/27436
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/12606
+21. Hruby AJ, Higuchi-Sanabria R. Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease. npj Aging [Internet]. 2025Dec16;11(1). Available from: https://www.nature.com/articles/s41514-025-00291-4
+22. Lee H, Han Y, Song J-Y, Kim DG, Chung H, Jung SJ, et al.. Pharmacological activation of SERCA2 reverses ER calcium dysregulation and depression-like behaviors in hyperglycemic mice. Scientific Reports [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41598-025-31293-7_reference.pdf
+23. Available from: https://www.ncbi.nlm.nih.gov/gene/212712
+24. Huang W, Zhang F, Zhang Z, Wang Q, Chen S. Dysregulation of HOXA genes in acute myeloid leukemia and targeted therapy. npj Precision Oncology [Internet]. 2025Dec5;9(1). Available from: https://www.nature.com/articles/s41698-025-01200-4
+25. Leavey P, Jiang L, Pannullo N, Santiago C, Blackshaw S. Overexpression of Meis factors in late-stage retinal progenitors yields complex effects on temporal patterning and neurogenesis. Scientific Reports [Internet]. 2025Dec3;. Available from: https://www.nature.com/articles/s41598-025-31061-7_reference.pdf
+26. Available from: https://www.ncbi.nlm.nih.gov/gene/23314
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/4602
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/11921
+29. Ghirardello M, Yruela I, Merino P, Sackstein R, Sanz-Martínez I, Hurtado-Guerrero R. Structure, function, and implications of fucosyltransferases in health and disease. Nature Communications [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41467-025-66871-w_reference.pdf
+30. Jin-Fen X, Kristin I, Emily YK, Annaliese F, Marina TB, Jlenia G. Periostin promotes sarcoma growth by promoting tumor-associated macrophage migration and differentiation.. Cancer research communications [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41264337/
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/4323
+32. Available from: https://www.ncbi.nlm.nih.gov/gene/10631
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/546
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/6093
+35. Available from: https://www.ncbi.nlm.nih.gov/gene/4851
+36. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
+37. Available from: https://www.ncbi.nlm.nih.gov/gene/998
+38. Wei X-Y, Zou Z-M, Yao Z-X, Teng S-W, Wei X-Y, Tang W-J, et al.. Neuronal activity-induced GLUT3 plasma translocation supports energy demands for memory acquisition. Communications Biology [Internet]. 2025Nov28;8(1). Available from: https://www.nature.com/articles/s42003-025-09119-z
+39. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
+40. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
+41. Ye J, Wang H, Peng Y, Wang S, Zheng R, Chen Y, et al.. Noncanonical role of astrocytic mitochondrial Cx43: suppressing IDH3α to sustain glycolytic homeostasis against depression. Cell Death &amp; Disease [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41419-025-08309-1
+42. Available from: https://www.ncbi.nlm.nih.gov/gene/2475
+43. Kao Y-C, Huang H-B, Lee C-H. Combined effects of red light and direct-current electric fields on neurite growth in 3D neural cell cultures. Scientific Reports [Internet]. 2025Nov29;. Available from: https://www.nature.com/articles/s41598-025-29835-0_reference.pdf
+44. Available from: https://www.ncbi.nlm.nih.gov/gene/2534
+45. Available from: https://www.ncbi.nlm.nih.gov/gene/2596
+46. Available from: https://www.ncbi.nlm.nih.gov/gene/4868
+47. Available from: https://www.ncbi.nlm.nih.gov/gene/5154
+48. Dyer A, Dudley R, Ahuja S, Alsinet C, Poudel P, Bowyer G, et al.. Characterisation of human in vitro tumour-associated macrophage models to define translational relevance. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-30224-w
+49. Available from: https://www.ncbi.nlm.nih.gov/gene/5155
+50. Yan X, Yang Z, Jiahe W. Engineered macrophages accumulate in solid tumors and locally deliver immune-activating proteins to inhibit tumor progression.. Translational cancer research [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41378015/?fc=None&ff=20251211101854&v=2.18.0.post22+67771e2
+51. Available from: https://www.ncbi.nlm.nih.gov/gene/10253
+52. Rangarajan S, Espeter L, Drexler HCA, Chrostek-Grashoff A, Grashoff C. Talin force coupling underlies eukaryotic cell-substrate adhesion. Nature Communications [Internet]. 2025Dec6;16(1). Available from: https://www.nature.com/articles/s41467-025-67354-8
+53. Available from: https://www.ncbi.nlm.nih.gov/gene/24064
+54. Available from: https://www.ncbi.nlm.nih.gov/gene/3611
+55. da SNL, de MGVRM, Oliveira-Nazareth Y, da SRS, Campello-Costa P. Effects of caffeine on neuroinflammation in anxiety and depression: a systematic review of rodent studies. Translational Psychiatry [Internet]. 2025Nov17;15(1). Available from: https://www.nature.com/articles/s41398-025-03668-x
+56. Available from: http://json-schema.org/draft-07/schema#",

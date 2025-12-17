@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T22:50:03.176042",
+    "timestamp": "2025-12-17T22:13:47.757536",
     "genes": [
       "PAM",
       "ADAMTS9-AS2",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_11",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -284,7 +284,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/3845",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 308.3937430381775
+    "duration_seconds": null
   },
   "report": {
     "title": "Astrocytoma Gene Program Functional Analysis",
@@ -519,7 +519,12 @@
                 "source_id": "26",
                 "notes": "HIF-1alpha/VEGF pathway in angiogenesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0050821",
+            "ontology_label": "protein stabilization",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Transcriptional activation of hypoxia response elements",
@@ -543,7 +548,12 @@
                 "source_id": "23",
                 "notes": "HIF-1α expression elevated under hypoxic conditions"
               }
-            ]
+            ],
+            "ontology_id": "GO:1900039",
+            "ontology_label": "positive regulation of cellular response to hypoxia",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -557,7 +567,12 @@
                 "source_id": "1",
                 "notes": "VEGFA blunted response via VEGFA gene promoter variants"
               }
-            ]
+            ],
+            "ontology_id": "GO:0031545",
+            "ontology_label": "peptidyl-proline 4-dioxygenase activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -638,7 +653,12 @@
                 "source_id": "6",
                 "notes": "Transcription factor LHX9 enhances pyruvate kinase PKM2 activity in cancer stem cells"
               }
-            ]
+            ],
+            "ontology_id": "GO:1904659",
+            "ontology_label": "D-glucose transmembrane transport",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Phosphorylation and commitment of glucose to glycolysis",
@@ -650,7 +670,12 @@
                 "source_id": "23",
                 "notes": "HIF-1α binds to glycolysis-related genes including HK2"
               }
-            ]
+            ],
+            "ontology_id": "GO:0061621",
+            "ontology_label": "canonical glycolysis",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Regulated steps of glycolytic pathway",
@@ -666,7 +691,12 @@
                 "source_id": "3",
                 "notes": "lncRNA FTO-IT1 modulates FTO-mediated modification on GLUT1 and PKM2"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006110",
+            "ontology_label": "regulation of glycolytic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Pyruvate conversion to lactate and export",
@@ -678,7 +708,12 @@
                 "source_id": "23",
                 "notes": "L-Lac and D-Lac administration studies in GBM cells"
               }
-            ]
+            ],
+            "ontology_id": "GO:0019244",
+            "ontology_label": "lactate biosynthetic process from pyruvate",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Prevention of pyruvate oxidation",
@@ -694,7 +729,12 @@
                 "source_id": "23",
                 "notes": "HIF-1α regulates glucose uptake and lactate production through PDK1 and related genes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0019660",
+            "ontology_label": "pyruvate fermentation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -710,7 +750,12 @@
                 "source_id": "6",
                 "notes": "PKM2 activity central to glycolytic metabolic reprogramming"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -782,7 +827,12 @@
                 "source_id": "26",
                 "notes": "HIF-1alpha expression results in increased VEGF expression and HIF-1alpha/VEGF pathway in angiogenesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0010573",
+            "ontology_label": "vascular endothelial growth factor production",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "VEGF co-receptor signaling enhancement",
@@ -794,7 +844,12 @@
                 "source_id": "1",
                 "notes": "VEGF pathway components in angiogenesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0038190",
+            "ontology_label": "VEGF-activated neuropilin signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Alternative angiogenic factor production",
@@ -807,7 +862,12 @@
                 "source_id": "1",
                 "notes": "VEGF pathway and angiogenic responses"
               }
-            ]
+            ],
+            "ontology_id": "GO:0090360",
+            "ontology_label": "platelet-derived growth factor production",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Endothelial cell guidance and adhesion",
@@ -819,7 +879,12 @@
                 "source_id": "1",
                 "notes": "Endothelial cell response to angiogenic signals"
               }
-            ]
+            ],
+            "ontology_id": "GO:0090673",
+            "ontology_label": "endothelial cell-matrix adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -834,7 +899,12 @@
                 "source_id": "1",
                 "notes": "VEGFA vascular endothelial growth factor"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005172",
+            "ontology_label": "vascular endothelial growth factor receptor binding",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -901,7 +971,12 @@
                 "source_id": "39",
                 "notes": "Tight junction proteins and adherens junction proteins including collagen interactions"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005587",
+            "ontology_label": "collagen type IV trimer",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Type V collagen production modulating fibrillogenesis",
@@ -913,7 +988,12 @@
                 "source_id": "4",
                 "notes": "Matrix metalloproteinase-mediated COL1A1 synthesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005588",
+            "ontology_label": "collagen type V trimer",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Type XIII collagen production with adhesive properties",
@@ -925,7 +1005,12 @@
                 "source_id": "4",
                 "notes": "Collagen regulation in tumor invasion and metastasis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005600",
+            "ontology_label": "collagen type XIII trimer",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Fibronectin production and deposition",
@@ -937,7 +1022,12 @@
                 "source_id": "4",
                 "notes": "Extracellular matrix components in cell adhesion and migration"
               }
-            ]
+            ],
+            "ontology_id": "GO:1905590",
+            "ontology_label": "fibronectin fibril organization",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Matrix metalloproteinase-mediated proteolysis",
@@ -949,7 +1039,12 @@
                 "source_id": "7",
                 "notes": "Matrix metalloproteinase-1 decorated polymersomes potentiate collagen degradation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006508",
+            "ontology_label": "proteolysis",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Collagen lysine hydroxylation enabling cross-linking",
@@ -961,7 +1056,12 @@
                 "source_id": "4",
                 "notes": "Matrix metalloproteinase inducing COL1A1 synthesis and ECM remodeling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0018395",
+            "ontology_label": "peptidyl-lysine hydroxylation to 5-hydroxy-L-lysine",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Procollagen C-terminal processing",
@@ -973,7 +1073,12 @@
                 "source_id": "4",
                 "notes": "Extracellular matrix processing and maturation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0050211",
+            "ontology_label": "procollagen galactosyltransferase activity",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Integrin-mediated adhesion and migration signaling",
@@ -989,7 +1094,12 @@
                 "source_id": "53",
                 "notes": "Integrin α3 critical for proper neuron-glia cell adhesion"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007229",
+            "ontology_label": "integrin-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Cell-cell adhesion through neural CAMs",
@@ -1001,7 +1111,12 @@
                 "source_id": "46",
                 "notes": "NRCAM downregulation associated with chronic TBI astrocyte alterations"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007158",
+            "ontology_label": "neuron cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1016,7 +1131,12 @@
                 "source_id": "39",
                 "notes": "Tight junction-associated proteins and basement membrane components"
               }
-            ]
+            ],
+            "ontology_id": "GO:0140155",
+            "ontology_label": "hexagonal collagen network of basement membrane",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Fibronectin matrix networks",
@@ -1028,7 +1148,12 @@
                 "source_id": "4",
                 "notes": "Extracellular matrix protein networks"
               }
-            ]
+            ],
+            "ontology_id": "GO:0061800",
+            "ontology_label": "fibronectin fibril",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1109,7 +1234,12 @@
                 "source_id": "14",
                 "notes": "p62/SQSTM1 recognizes poly-ubiquitinated cargo and delivers to autophagosome"
               }
-            ]
+            ],
+            "ontology_id": "GO:0010506",
+            "ontology_label": "regulation of autophagy",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Selective mitochondrial autophagy (mitophagy)",
@@ -1121,7 +1251,12 @@
                 "source_id": "1",
                 "notes": "Metabolic reprogramming and hypoxia responses affecting mitochondrial function"
               }
-            ]
+            ],
+            "ontology_id": "GO:0000423",
+            "ontology_label": "mitophagy",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Stress sensing and AMPK activation",
@@ -1133,7 +1268,12 @@
                 "source_id": "14",
                 "notes": "Proteostasis and autophagy pathway regulation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0061762",
+            "ontology_label": "CAMKK-AMPK signaling cascade",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Phagophore formation and membrane dynamics",
@@ -1145,7 +1285,12 @@
                 "source_id": "14",
                 "notes": "VMP1 required for phagophore formation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0061908",
+            "ontology_label": "phagophore",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "SQSTM1 filament formation and phase separation",
@@ -1157,7 +1302,12 @@
                 "source_id": "14",
                 "notes": "p62/SQSTM1 forms higher-order filaments and undergoes liquid-liquid phase separation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0140693",
+            "ontology_label": "molecular condensate scaffold activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1172,7 +1322,12 @@
                 "source_id": "14",
                 "notes": "Selective autophagy receptors with LC3-interacting regions"
               }
-            ]
+            ],
+            "ontology_id": "GO:0160247",
+            "ontology_label": "autophagy cargo adaptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "p62 filamentous structures and condensates",
@@ -1184,7 +1339,12 @@
                 "source_id": "14",
                 "notes": "p62 forms discontinuous coat around cargo"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -1253,7 +1413,12 @@
                 "source_id": "18",
                 "notes": "PI3K/Akt signaling with growth factor pathways"
               }
-            ]
+            ],
+            "ontology_id": "GO:0033344",
+            "ontology_label": "cholesterol efflux",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "HDL-mediated cholesterol ester uptake",
@@ -1265,7 +1430,12 @@
                 "source_id": "12",
                 "notes": "Lipid and cholesterol metabolism regulation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0090119",
+            "ontology_label": "vesicle-mediated cholesterol transport",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cholesterol sensing and negative feedback regulation",
@@ -1277,7 +1447,12 @@
                 "source_id": "12",
                 "notes": "Cholesterol metabolism and feedback control"
               }
-            ]
+            ],
+            "ontology_id": "GO:0090370",
+            "ontology_label": "negative regulation of cholesterol efflux",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Zinc-dependent membrane transport",
@@ -1289,7 +1464,12 @@
                 "source_id": "40",
                 "notes": "Ion channel and transporter regulation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0071577",
+            "ontology_label": "zinc ion transmembrane transport",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1304,7 +1484,12 @@
                 "source_id": "12",
                 "notes": "Cholesterol and lipid membrane organization"
               }
-            ]
+            ],
+            "ontology_id": "GO:0045121",
+            "ontology_label": "membrane raft",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ABC transporter complexes",
@@ -1316,7 +1501,12 @@
                 "source_id": "12",
                 "notes": "ATP binding cassette transporter family"
               }
-            ]
+            ],
+            "ontology_id": "GO:0140359",
+            "ontology_label": "ABC-type transporter activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1387,7 +1577,12 @@
                 "source_id": "52",
                 "notes": "ER chaperone BiP and unfolded protein response"
               }
-            ]
+            ],
+            "ontology_id": "GO:0034663",
+            "ontology_label": "endoplasmic reticulum chaperone complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Integrated stress response transcription factor activation",
@@ -1399,7 +1594,12 @@
                 "source_id": "50",
                 "notes": "DDIT3 (CHOP) as ER stress-responsive transcription factor"
               }
-            ]
+            ],
+            "ontology_id": "GO:0140467",
+            "ontology_label": "integrated stress response signaling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ER oxidoreductase-mediated disulfide bond formation",
@@ -1411,7 +1611,12 @@
                 "source_id": "23",
                 "notes": "ER oxidoreductase in oxidative protein folding"
               }
-            ]
+            ],
+            "ontology_id": "GO:0015036",
+            "ontology_label": "disulfide oxidoreductase activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Nutritional stress sensing",
@@ -1423,7 +1628,12 @@
                 "source_id": "14",
                 "notes": "SESN2 as amino acid stress sensor"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006950",
+            "ontology_label": "response to stress",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "CCAAT/enhancer binding protein family transcriptional regulation",
@@ -1440,7 +1650,12 @@
                 "source_id": "50",
                 "notes": "ER stress regulation through CHOP and related factors"
               }
-            ]
+            ],
+            "ontology_id": "GO:0016602",
+            "ontology_label": "CCAAT-binding factor complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "synonym_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1455,7 +1670,12 @@
                 "source_id": "52",
                 "notes": "ER chaperone and oxidoreductase complexes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0034663",
+            "ontology_label": "endoplasmic reticulum chaperone complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1532,7 +1752,12 @@
                 "source_id": "46",
                 "notes": "Pro-inflammatory cytokines in acute TBI astrocyte response"
               }
-            ]
+            ],
+            "ontology_id": "GO:0002757",
+            "ontology_label": "immune response-activating signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "TNF-α signaling and immune activation",
@@ -1542,7 +1767,12 @@
                 "source_id": "25",
                 "notes": "TNF-α signaling mediates dopaminergic effects and neuroinflammation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0002253",
+            "ontology_label": "activation of immune response",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Semaphorin-mediated immune cell guidance",
@@ -1554,7 +1784,12 @@
                 "source_id": "25",
                 "notes": "Cytokine and chemokine signaling in neuroimmune responses"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Apelin-mediated immune and vascular regulation",
@@ -1566,7 +1801,12 @@
                 "source_id": "19",
                 "notes": "BDNF from microglia regulating neuronal development and social behavior"
               }
-            ]
+            ],
+            "ontology_id": "GO:0060183",
+            "ontology_label": "apelin receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "CEBPD-mediated inflammatory signaling",
@@ -1578,7 +1818,12 @@
                 "source_id": "10",
                 "notes": "CEBPD supports inflammatory signaling through TLR4 gene activation"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -1592,7 +1837,12 @@
                 "source_id": "27",
                 "notes": "IL6 and related cytokine receptor signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0045323",
+            "ontology_label": "interleukin-1 receptor complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1677,7 +1927,12 @@
                 "source_id": "25",
                 "notes": "BDNF receptor signaling in dopamine and neuroimmune responses"
               }
-            ]
+            ],
+            "ontology_id": "GO:0031547",
+            "ontology_label": "brain-derived neurotrophic factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "IGF1 signaling pathway activation",
@@ -1695,7 +1950,12 @@
                 "source_id": "19",
                 "notes": "IGF receptor signaling in neuronal and glial development"
               }
-            ]
+            ],
+            "ontology_id": "GO:0043567",
+            "ontology_label": "regulation of insulin-like growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "IGF bioavailability regulation",
@@ -1709,7 +1969,12 @@
                 "source_id": "19",
                 "notes": "IGF-binding proteins in growth factor signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0043567",
+            "ontology_label": "regulation of insulin-like growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Neuron-glia cell-cell adhesion",
@@ -1721,7 +1986,12 @@
                 "source_id": "46",
                 "notes": "NRCAM downregulation in chronic TBI astrocytes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007158",
+            "ontology_label": "neuron cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Axonal growth and plasticity",
@@ -1738,7 +2008,12 @@
                 "source_id": "21",
                 "notes": "Neuronal development and astrocyte interactions"
               }
-            ]
+            ],
+            "ontology_id": "GO:0044295",
+            "ontology_label": "axonal growth cone",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1753,7 +2028,12 @@
                 "source_id": "19",
                 "notes": "Growth factor receptor signaling complexes"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -1834,7 +2114,12 @@
                 "source_id": "44",
                 "notes": "Metabolic inhibition and checkpoint regulation in response to radiotherapy"
               }
-            ]
+            ],
+            "ontology_id": "GO:0044818",
+            "ontology_label": "mitotic G2/M transition checkpoint",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cyclin-dependent kinase transcriptional functions",
@@ -1846,7 +2131,12 @@
                 "source_id": "49",
                 "notes": "CDK8 regulates transcription of ribosomal genes and protein synthesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0097472",
+            "ontology_label": "cyclin-dependent protein kinase activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Inhibition of differentiation through helix-loop-helix antagonism",
@@ -1858,7 +2148,12 @@
                 "source_id": "13",
                 "notes": "E2F1 couples immune cell development to immune response"
               }
-            ]
+            ],
+            "ontology_id": "GO:0060242",
+            "ontology_label": "contact inhibition",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Growth-inhibitory signaling suppression",
@@ -1870,7 +2165,12 @@
                 "source_id": "13",
                 "notes": "Cell cycle and immune response regulation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0060396",
+            "ontology_label": "growth hormone receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1884,7 +2184,12 @@
                 "source_id": "40",
                 "notes": "Mitotic regulation by WEE1"
               }
-            ]
+            ],
+            "ontology_id": "GO:0000086",
+            "ontology_label": "G2/M transition of mitotic cell cycle",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1956,7 +2261,12 @@
                 "source_id": "43",
                 "notes": "NEAT1 isoform balance influences cellular fate determination"
               }
-            ]
+            ],
+            "ontology_id": "GO:0033962",
+            "ontology_label": "P-body assembly",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "FUS-mediated transcriptional regulation and RNA processing",
@@ -1968,7 +2278,12 @@
                 "source_id": "51",
                 "notes": "FUS RNA binding protein recruits cofactors to transactivate gene expression"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006396",
+            "ontology_label": "RNA processing",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "RNA polymerase II transcriptional elongation",
@@ -1981,7 +2296,12 @@
                 "source_id": "49",
                 "notes": "CDK8 mediator complex interaction facilitates RNA polymerase II occupancy"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006368",
+            "ontology_label": "transcription elongation by RNA polymerase II",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "mRNA stability regulation through RNA-binding proteins",
@@ -1993,7 +2313,12 @@
                 "source_id": "49",
                 "notes": "RNA-binding protein involvement in gene expression control"
               }
-            ]
+            ],
+            "ontology_id": "GO:0043488",
+            "ontology_label": "regulation of mRNA stability",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Hypoxia-responsive lncRNA production",
@@ -2011,7 +2336,12 @@
                 "source_id": "37",
                 "notes": "microRNA-210 expression associated with poor prognosis in glioma"
               }
-            ]
+            ],
+            "ontology_id": "GO:0140742",
+            "ontology_label": "lncRNA transcription",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -2025,7 +2355,12 @@
                 "source_id": "36",
                 "notes": "Nuclear paraspeckle assembly and function"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           },
           {
             "name": "Mediator complex and transcriptional machinery",
@@ -2038,7 +2373,12 @@
                 "source_id": "49",
                 "notes": "Mediator complex recruitment and transcriptional regulation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0016592",
+            "ontology_label": "mediator complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

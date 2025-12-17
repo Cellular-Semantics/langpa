@@ -437,58 +437,58 @@ Astrocyte metabolic capacity depends critically on mitochondrial function enabli
 - [3]: Mitochondrial pathways upregulated in chronic TBI astrocytes
 
 ## Bibliography
-1. 1. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
-2. 2. Available from: https://www.ncbi.nlm.nih.gov/gene/546
-3. 3. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-4. 4. Anamaria S, Cristian-Ionut O, Raluca IV, Madalina B, Manuela E, Sorin V, et al.. Unpredictable Evolution of Pilocytic Astrocytoma in Adults: A Case Series and Diagnostic Challenges.. The American journal of case reports [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41382984/?fc=None&ff=20251213032813&v=2.18.0.post22+67771e2
-5. 5. Available from: https://www.ncbi.nlm.nih.gov/gene/2697
-6. 6. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
-7. 7. André LTES, Pedro HP de O, Bruno YY-M, Jéssica da SF, Jonatan PA, Helder IN, et al.. Complement pathway dysregulation and astrocyte alterations in Down syndrome: evidence from postmortem brain tissue and iPSC-derived astrocytes.. Acta neuropathologica communications [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41350900/?fc=None&ff=20251210050700&v=2.18.0.post22+67771e2
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/361
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/6507
-10. 10. Raptis V, Bhak Y, Cannings TI, MacLullich AMJ, Tenesa A. Dissecting the genetic and proteomic risk factors for delirium. Nature Aging [Internet]. 2025Nov24;. Available from: https://www.nature.com/articles/s43587-025-01018-6
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/14645
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/8854
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/24957
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/gene/7057
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/2247
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/4288
-19. 19. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
-20. 20. Efthymiou G, Lohmann E, Montenegro C, Kousteridou P, Bertrand P, Pereira J, et al.. The extracellular matrix drives guanylate production and protects pancreatic cancer cells from oxaliplatin-induced DNA damage. Science Advances [Internet]. 2025Dec12;11(50). Available from: https://www.science.org/doi/10.1126/sciadv.adu2276
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/18596
-22. 22. Available from: https://www.ncbi.nlm.nih.gov/gene/2202
-23. 23. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
-24. 24. Trudel L, Therriault J, Macedo AC, Woo MS, Rahmouni N, Aumont É, et al.. APOE ε4 potentiates tau related reactive astrogliosis assessed by cerebrospinal fluid YKL40 in Alzheimer’s disease. Communications Medicine [Internet]. 2025Nov20;5(1). Available from: https://www.nature.com/articles/s43856-025-01171-4
-25. 25. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
-26. 26. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/23705
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/253559
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/2913
-31. 31. Youngblood MW, Kumari A, Kang Y-T, Gould A, Habashy K, Gomez M, et al.. Dynamic release of extracellular particles after opening of the blood-brain barrier predicts glioblastoma susceptibility to paclitaxel. Nature Communications [Internet]. 2025Dec16;16(1). Available from: https://www.nature.com/articles/s41467-025-65681-4
-32. 32. Available from: https://www.ncbi.nlm.nih.gov/gene/13797
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/2915
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/6622
-35. 35. H HJ, S ZZ, S L. [Molecular subtype-driven surgical concepts and clinical application in gliomas].. Zhonghua wai ke za zhi [Chinese journal of surgery] [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41292395/
-36. 36. Hruby AJ, Higuchi-Sanabria R. Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease. npj Aging [Internet]. 2025Dec16;11(1). Available from: https://www.nature.com/articles/s41514-025-00291-4
-37. 37. Lara N, Javier M, Irene S-S, Moisés S-P, Esther R-S, Teresa S-M. Next-Generation Sequencing Reveals a Diagnostic and Prognostic Role of the . International journal of molecular sciences [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41373636/?fc=None&ff=20251211105245&v=2.18.0.post22+67771e2
-38. 38. Available from: https://www.ncbi.nlm.nih.gov/gene/6647
-39. 39. Ji JX, Giles BL, Bhattacharjee S, Kautzmann M-AI, P. MA, Do CS, et al.. Intercellular signaling and synaptic deconstruction uncovered by single-cell and spatial transcriptomics in an AD tauopathy model. Communications Biology [Internet]. 2025Nov17;8(1). Available from: https://www.nature.com/articles/s42003-025-08959-z
-40. 40. Skoufa E, Zhong J, Hu K, Kahre O, Tsissios G, Carrau L, et al.. Specialized signaling centers direct cell fate and spatial organization in a mesodermal organoid model. Science Advances [Internet]. 2025Nov28;11(48). Available from: https://www.science.org/doi/10.1126/sciadv.ady7682
-41. 41. Available from: https://www.ncbi.nlm.nih.gov/gene/1950
-42. 42. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
-43. 43. Available from: https://www.ncbi.nlm.nih.gov/gene/22339
-44. 44. Available from: https://www.nature.com/subjects/endocytosis/ncomms
-45. 45. Spreen A, Sadanandan NP, Schneider MW, Kuehn E, Leemisa AN, De ZR, et al.. Optogenetic silencing by combining a rhodopsin cyclase with an engineered cGMP-gated potassium channel. Science Advances [Internet]. 2025Nov28;11(48). Available from: https://www.science.org/doi/10.1126/sciadv.adx1195
-46. 46. Zhongyi Z, Yang L, Zhicong Z, Tian G, Youhui C, Qian C, et al.. MRI-based radiomic clustering identifies a glioblastoma subtype enriched for neural stemness and proliferative programs.. Frontiers in oncology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41378293/?fc=None&ff=20251212152250&v=2.18.0.post22+67771e2
-47. 47. Zhang X-G, Song J-N. 6-Gingerol enhances the anti-tumor activity of temozolomide by inhibiting EGR1/GDF15 signaling in glioblastoma. Scientific Reports [Internet]. 2025Nov26;15(1). Available from: https://www.nature.com/articles/s41598-025-26109-7
-48. 48. Available from: https://www.nature.com/subjects/astrocyte/neuro
-49. 49. Ghirardello M, Yruela I, Merino P, Sackstein R, Sanz-Martínez I, Hurtado-Guerrero R. Structure, function, and implications of fucosyltransferases in health and disease. Nature Communications [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41467-025-66871-w_reference.pdf
-50. 50. Gkogka A, Malwade S, Koskuvi M, Ohtonen S, Molnar E, Bose R, et al.. Human oligodendrocyte progenitor cells mediate synapse elimination through TAM receptor activation. Nature Communications [Internet]. 2025Dec5;16(1). Available from: https://www.nature.com/articles/s41467-025-66521-1
-51. 51. Meng Q, Li C, Cai Y, Chen Y, Chen X, Wang X, et al.. Itaconate transport across the plasma membrane and Salmonella-containing vacuole via MCT1/4 modulates macrophage antibacterial activity. Nature Communications [Internet]. 2025Nov26;16(1). Available from: https://www.nature.com/articles/s41467-025-65582-6
-52. 52. Jiang R, Lu Z, Li F, Zhu Y, Yang M, Zhang S, et al.. scCirclehunter delineates ecDNA-containing cells using single-cell ATAC-seq, with a focus on glioblastoma. Cell Discovery [Internet]. 2025Dec9;11(1). Available from: https://www.nature.com/articles/s41421-025-00842-9
-53. 53. Zamboni M, Martínez-Martín A, Rydholm G, Häneke T, Pintado AL, Seçilmiş D, et al.. The regulatory code of injury-responsive enhancers enables precision cell-state targeting in the CNS. Nature Neuroscience [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41593-025-02131-w
-54. 54. Wei X-Y, Zou Z-M, Yao Z-X, Teng S-W, Wei X-Y, Tang W-J, et al.. Neuronal activity-induced GLUT3 plasma translocation supports energy demands for memory acquisition. Communications Biology [Internet]. 2025Nov28;8(1). Available from: https://www.nature.com/articles/s42003-025-09119-z
-55. 55. Available from: http://json-schema.org/draft-07/schema#",
+1. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
+2. Available from: https://www.ncbi.nlm.nih.gov/gene/546
+3. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+4. Anamaria S, Cristian-Ionut O, Raluca IV, Madalina B, Manuela E, Sorin V, et al.. Unpredictable Evolution of Pilocytic Astrocytoma in Adults: A Case Series and Diagnostic Challenges.. The American journal of case reports [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41382984/?fc=None&ff=20251213032813&v=2.18.0.post22+67771e2
+5. Available from: https://www.ncbi.nlm.nih.gov/gene/2697
+6. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
+7. André LTES, Pedro HP de O, Bruno YY-M, Jéssica da SF, Jonatan PA, Helder IN, et al.. Complement pathway dysregulation and astrocyte alterations in Down syndrome: evidence from postmortem brain tissue and iPSC-derived astrocytes.. Acta neuropathologica communications [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41350900/?fc=None&ff=20251210050700&v=2.18.0.post22+67771e2
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/361
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/6507
+10. Raptis V, Bhak Y, Cannings TI, MacLullich AMJ, Tenesa A. Dissecting the genetic and proteomic risk factors for delirium. Nature Aging [Internet]. 2025Nov24;. Available from: https://www.nature.com/articles/s43587-025-01018-6
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/14645
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/8854
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/24957
+15. Available from: https://www.ncbi.nlm.nih.gov/gene/7057
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/2247
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/4288
+19. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
+20. Efthymiou G, Lohmann E, Montenegro C, Kousteridou P, Bertrand P, Pereira J, et al.. The extracellular matrix drives guanylate production and protects pancreatic cancer cells from oxaliplatin-induced DNA damage. Science Advances [Internet]. 2025Dec12;11(50). Available from: https://www.science.org/doi/10.1126/sciadv.adu2276
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/18596
+22. Available from: https://www.ncbi.nlm.nih.gov/gene/2202
+23. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
+24. Trudel L, Therriault J, Macedo AC, Woo MS, Rahmouni N, Aumont É, et al.. APOE ε4 potentiates tau related reactive astrogliosis assessed by cerebrospinal fluid YKL40 in Alzheimer’s disease. Communications Medicine [Internet]. 2025Nov20;5(1). Available from: https://www.nature.com/articles/s43856-025-01171-4
+25. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
+26. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/23705
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/253559
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/2913
+31. Youngblood MW, Kumari A, Kang Y-T, Gould A, Habashy K, Gomez M, et al.. Dynamic release of extracellular particles after opening of the blood-brain barrier predicts glioblastoma susceptibility to paclitaxel. Nature Communications [Internet]. 2025Dec16;16(1). Available from: https://www.nature.com/articles/s41467-025-65681-4
+32. Available from: https://www.ncbi.nlm.nih.gov/gene/13797
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/2915
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/6622
+35. H HJ, S ZZ, S L. [Molecular subtype-driven surgical concepts and clinical application in gliomas].. Zhonghua wai ke za zhi [Chinese journal of surgery] [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41292395/
+36. Hruby AJ, Higuchi-Sanabria R. Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease. npj Aging [Internet]. 2025Dec16;11(1). Available from: https://www.nature.com/articles/s41514-025-00291-4
+37. Lara N, Javier M, Irene S-S, Moisés S-P, Esther R-S, Teresa S-M. Next-Generation Sequencing Reveals a Diagnostic and Prognostic Role of the . International journal of molecular sciences [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41373636/?fc=None&ff=20251211105245&v=2.18.0.post22+67771e2
+38. Available from: https://www.ncbi.nlm.nih.gov/gene/6647
+39. Ji JX, Giles BL, Bhattacharjee S, Kautzmann M-AI, P. MA, Do CS, et al.. Intercellular signaling and synaptic deconstruction uncovered by single-cell and spatial transcriptomics in an AD tauopathy model. Communications Biology [Internet]. 2025Nov17;8(1). Available from: https://www.nature.com/articles/s42003-025-08959-z
+40. Skoufa E, Zhong J, Hu K, Kahre O, Tsissios G, Carrau L, et al.. Specialized signaling centers direct cell fate and spatial organization in a mesodermal organoid model. Science Advances [Internet]. 2025Nov28;11(48). Available from: https://www.science.org/doi/10.1126/sciadv.ady7682
+41. Available from: https://www.ncbi.nlm.nih.gov/gene/1950
+42. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
+43. Available from: https://www.ncbi.nlm.nih.gov/gene/22339
+44. Available from: https://www.nature.com/subjects/endocytosis/ncomms
+45. Spreen A, Sadanandan NP, Schneider MW, Kuehn E, Leemisa AN, De ZR, et al.. Optogenetic silencing by combining a rhodopsin cyclase with an engineered cGMP-gated potassium channel. Science Advances [Internet]. 2025Nov28;11(48). Available from: https://www.science.org/doi/10.1126/sciadv.adx1195
+46. Zhongyi Z, Yang L, Zhicong Z, Tian G, Youhui C, Qian C, et al.. MRI-based radiomic clustering identifies a glioblastoma subtype enriched for neural stemness and proliferative programs.. Frontiers in oncology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41378293/?fc=None&ff=20251212152250&v=2.18.0.post22+67771e2
+47. Zhang X-G, Song J-N. 6-Gingerol enhances the anti-tumor activity of temozolomide by inhibiting EGR1/GDF15 signaling in glioblastoma. Scientific Reports [Internet]. 2025Nov26;15(1). Available from: https://www.nature.com/articles/s41598-025-26109-7
+48. Available from: https://www.nature.com/subjects/astrocyte/neuro
+49. Ghirardello M, Yruela I, Merino P, Sackstein R, Sanz-Martínez I, Hurtado-Guerrero R. Structure, function, and implications of fucosyltransferases in health and disease. Nature Communications [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41467-025-66871-w_reference.pdf
+50. Gkogka A, Malwade S, Koskuvi M, Ohtonen S, Molnar E, Bose R, et al.. Human oligodendrocyte progenitor cells mediate synapse elimination through TAM receptor activation. Nature Communications [Internet]. 2025Dec5;16(1). Available from: https://www.nature.com/articles/s41467-025-66521-1
+51. Meng Q, Li C, Cai Y, Chen Y, Chen X, Wang X, et al.. Itaconate transport across the plasma membrane and Salmonella-containing vacuole via MCT1/4 modulates macrophage antibacterial activity. Nature Communications [Internet]. 2025Nov26;16(1). Available from: https://www.nature.com/articles/s41467-025-65582-6
+52. Jiang R, Lu Z, Li F, Zhu Y, Yang M, Zhang S, et al.. scCirclehunter delineates ecDNA-containing cells using single-cell ATAC-seq, with a focus on glioblastoma. Cell Discovery [Internet]. 2025Dec9;11(1). Available from: https://www.nature.com/articles/s41421-025-00842-9
+53. Zamboni M, Martínez-Martín A, Rydholm G, Häneke T, Pintado AL, Seçilmiş D, et al.. The regulatory code of injury-responsive enhancers enables precision cell-state targeting in the CNS. Nature Neuroscience [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41593-025-02131-w
+54. Wei X-Y, Zou Z-M, Yao Z-X, Teng S-W, Wei X-Y, Tang W-J, et al.. Neuronal activity-induced GLUT3 plasma translocation supports energy demands for memory acquisition. Communications Biology [Internet]. 2025Nov28;8(1). Available from: https://www.nature.com/articles/s42003-025-09119-z
+55. Available from: http://json-schema.org/draft-07/schema#",

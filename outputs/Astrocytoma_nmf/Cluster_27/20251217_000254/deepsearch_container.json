@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-17T00:06:54.207050",
+    "timestamp": "2025-12-17T22:08:25.959514",
     "genes": [
       "ABCB5",
       "MOXD1",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_27",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -291,7 +291,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/2670",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 224.4642298221588
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -519,7 +519,12 @@
                 "source_id": "17",
                 "notes": "AP-1 binding sites required for injury-responsive enhancer activation in reactive astrocytes; lineage-specific TFs modulate AP-1 function"
               }
-            ]
+            ],
+            "ontology_id": "GO:0043045",
+            "ontology_label": "epigenetic programming of gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "EMT-associated transcriptional repression",
@@ -532,7 +537,12 @@
                 "source_id": "27",
                 "notes": "ZEB1 is a zinc finger transcription factor promoting EMT and invasive phenotypes"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           },
           {
             "name": "Lineage-specific developmental programming",
@@ -550,7 +560,12 @@
                 "source_id": "3",
                 "notes": "TP63 regulates stemness programs and alternative differentiation in neural progenitors"
               }
-            ]
+            ],
+            "ontology_id": "GO:0043045",
+            "ontology_label": "epigenetic programming of gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "TFIID-associated selective gene activation",
@@ -562,7 +577,12 @@
                 "source_id": "48",
                 "notes": "TAF3 participates in selective activation of developmental genes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005669",
+            "ontology_label": "transcription factor TFIID complex",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -577,7 +597,12 @@
                 "source_id": "17",
                 "notes": "IRENs contain AP-1 binding sites that recruit lineage-specific transcription factors"
               }
-            ]
+            ],
+            "ontology_id": "GO:0035976",
+            "ontology_label": "transcription factor AP-1 complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -646,7 +671,12 @@
                 "source_id": "24",
                 "notes": "SMYD3 encodes a histone methyltransferase promoting cancer cell proliferation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0042054",
+            "ontology_label": "histone methyltransferase activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Transcription-activating chromatin mark deposition",
@@ -658,7 +688,12 @@
                 "source_id": "22",
                 "notes": "H3K4me3 is a transcription-activating chromatin mark established at promoters and distal intergenic sites"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           },
           {
             "name": "Epigenetic plasticity in drug-tolerant states",
@@ -671,7 +706,12 @@
                 "source_id": "22",
                 "notes": "Epigenetic reprogramming enables glioblastoma cells to survive chemotherapy through reversible drug-tolerant states"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           }
         ],
         "atomic_cellular_components": [
@@ -685,7 +725,12 @@
                 "source_id": "22",
                 "notes": "H3K4me3 peaks are most abundant at promoters where histone methyltransferases concentrate"
               }
-            ]
+            ],
+            "ontology_id": "GO:0000785",
+            "ontology_label": "chromatin",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -743,7 +788,12 @@
                 "source_id": "28",
                 "notes": "SLIT2 and ROBO2 participate in cell guidance and migration alongside cadherin systems"
               }
-            ]
+            ],
+            "ontology_id": "GO:0009988",
+            "ontology_label": "cell-cell recognition",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Crumbs polarity complex assembly and function",
@@ -760,7 +810,12 @@
                 "source_id": "42",
                 "notes": "PARD3 binds cell adhesion molecules at tight junctions of neuroepithelial cells"
               }
-            ]
+            ],
+            "ontology_id": "GO:0120157",
+            "ontology_label": "PAR polarity complex",
+            "ontology_source": "GO",
+            "confidence": 0.4,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Rac-mediated junction disruption and cytoskeletal remodeling",
@@ -773,7 +828,12 @@
                 "source_id": "39",
                 "notes": "VAV3 (Rac GEF) promotes cytoskeletal dynamics when PARD3 polarity is disrupted"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.3,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ZEB1-mediated transcriptional suppression of adhesion molecules",
@@ -785,7 +845,12 @@
                 "source_id": "27",
                 "notes": "ZEB1 represses adherens junction components including classical cadherins"
               }
-            ]
+            ],
+            "ontology_id": "GO:0043922",
+            "ontology_label": "host-mediated suppression of viral transcription",
+            "ontology_source": "GO",
+            "confidence": 0.3,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -801,7 +866,12 @@
                 "source_id": "39",
                 "notes": "Adherens junction organization is disrupted by altered VAV3 signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005912",
+            "ontology_label": "adherens junction",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Crumbs polarity complex at tight junctions",
@@ -813,7 +883,12 @@
                 "source_id": "42",
                 "notes": "PARD3 localizes to tight junctions of neuroepithelial cells"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -878,7 +953,12 @@
                 "source_id": "23",
                 "notes": "MMP16 is regulated by miR-146a and promotes glioma progression"
               }
-            ]
+            ],
+            "ontology_id": "GO:0141066",
+            "ontology_label": "symbiont-mediated disruption of host extracellular matrix",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Growth factor sequestration and bioavailability",
@@ -890,7 +970,12 @@
                 "source_id": "33",
                 "notes": "IGFBP2 promotes glioma progression through M2 macrophage polarization and modulation of IGF signaling"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "IGF signaling modulation in tumor microenvironment",
@@ -902,7 +987,12 @@
                 "source_id": "33",
                 "notes": "IGFBP2 is a cancer-associated fibroblast gene promoting glioma progression"
               }
-            ]
+            ],
+            "ontology_id": "GO:0048009",
+            "ontology_label": "insulin-like growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -917,7 +1007,12 @@
                 "source_id": "21",
                 "notes": "MMP16 degrades matrix metalloprotein substrates"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005201",
+            "ontology_label": "extracellular matrix structural constituent",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -987,7 +1082,12 @@
                 "source_id": "58",
                 "notes": "PDGFRA tumorigenicity and signaling in glioma"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007169",
+            "ontology_label": "cell surface receptor protein tyrosine kinase signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "MAPK pathway activation and cell cycle progression",
@@ -999,7 +1099,12 @@
                 "source_id": "32",
                 "notes": "MAP3K1 regulates mitogen-activated protein kinase signaling cascades"
               }
-            ]
+            ],
+            "ontology_id": "GO:0000165",
+            "ontology_label": "MAPK cascade",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Metabolic adaptation to support proliferation",
@@ -1011,7 +1116,12 @@
                 "source_id": "51",
                 "notes": "Malic enzyme activity supports gluconeogenesis and lipogenesis in metabolically adapted cells"
               }
-            ]
+            ],
+            "ontology_id": "GO:0008152",
+            "ontology_label": "metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1025,7 +1135,12 @@
                 "source_id": "1",
                 "notes": "PDGFRA localizes to cell surface where it engages PDGF ligands"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005017",
+            "ontology_label": "platelet-derived growth factor receptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Downstream signaling complexes (PI3K/AKT, MAPK/ERK)",
@@ -1038,7 +1153,12 @@
                 "source_id": "1",
                 "notes": "PDGFRA engagement recruits and activates downstream signaling cascades"
               }
-            ]
+            ],
+            "ontology_id": "GO:0043491",
+            "ontology_label": "phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1101,7 +1221,12 @@
                 "source_id": "51",
                 "notes": "Fatty acid elongase activity modulates PUFA synthesis and influences ferroptosis susceptibility and metabolic adaptation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006636",
+            "ontology_label": "unsaturated fatty acid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Intracellular lipid transport and organization",
@@ -1113,7 +1238,12 @@
                 "source_id": "51",
                 "notes": "Oxysterol-binding proteins regulate intracellular lipid distribution and vesicular trafficking"
               }
-            ]
+            ],
+            "ontology_id": "GO:0032365",
+            "ontology_label": "intracellular lipid transport",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Acetyl-CoA generation for biosynthesis",
@@ -1125,7 +1255,12 @@
                 "source_id": "51",
                 "notes": "Acyl-CoA synthetase short-chain family member 3 catalyzes acetate to acetyl-CoA conversion"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006085",
+            "ontology_label": "acetyl-CoA biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Very long-chain fatty acid biosynthesis",
@@ -1137,7 +1272,12 @@
                 "source_id": "54",
                 "notes": "ELOVL2 participates in very long-chain fatty acid biosynthetic pathways"
               }
-            ]
+            ],
+            "ontology_id": "GO:0042761",
+            "ontology_label": "very long-chain fatty acid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1152,7 +1292,12 @@
                 "source_id": "51",
                 "notes": "Elongation of unsaturated fatty acids increases PUFA-containing phospholipids in membranes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0140754",
+            "ontology_label": "reorganization of cellular membranes to establish viral sites of replication",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lipid droplets and storage organelles",
@@ -1164,7 +1309,12 @@
                 "source_id": "51",
                 "notes": "Oxysterol-binding proteins interact with lipid storage compartments"
               }
-            ]
+            ],
+            "ontology_id": "GO:0019915",
+            "ontology_label": "lipid storage",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1218,7 +1368,12 @@
                 "source_id": "10",
                 "notes": "NOS2 (inducible nitric oxide synthase) catalyzes NO production in immune and inflammatory contexts"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006809",
+            "ontology_label": "nitric oxide biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "cGMP signaling and cyclic nucleotide regulation",
@@ -1231,7 +1386,12 @@
                 "source_id": "47",
                 "notes": "PDE3A (cGMP-inhibited phosphodiesterase) regulates cGMP duration and amplitude"
               }
-            ]
+            ],
+            "ontology_id": "GO:0009187",
+            "ontology_label": "cyclic nucleotide metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "NF-κB pathway activation through NO signaling",
@@ -1243,7 +1403,12 @@
                 "source_id": "10",
                 "notes": "NOS2-derived NO activates NF-κB signaling in immune cells and inflammatory contexts"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           },
           {
             "name": "Inflammatory cytokine production and immune activation",
@@ -1255,7 +1420,12 @@
                 "source_id": "10",
                 "notes": "NOS2 expression is characteristic of M1 macrophage and pro-inflammatory astrocyte activation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0002534",
+            "ontology_label": "cytokine production involved in inflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1269,7 +1439,12 @@
                 "source_id": "10",
                 "notes": "NOS2 localizes to macrophage and astrocyte membranes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005886",
+            "ontology_label": "plasma membrane",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1324,7 +1499,12 @@
                 "source_id": "53",
                 "notes": "Ion channels including KCNJ16 participate in setting resting membrane potential"
               }
-            ]
+            ],
+            "ontology_id": "GO:0060075",
+            "ontology_label": "regulation of resting membrane potential",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "TRPM3 calcium channel activation and calcium influx",
@@ -1336,7 +1516,12 @@
                 "source_id": "53",
                 "notes": "TRPM3 is a multimodal cation channel responsive to temperature, steroids, and direct activation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005262",
+            "ontology_label": "calcium channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Calmodulin-mediated regulation of channel function",
@@ -1348,7 +1533,12 @@
                 "source_id": "56",
                 "notes": "Calmodulin regulates TRPM3 activity and indicates importance of calcium signaling domain"
               }
-            ]
+            ],
+            "ontology_id": "GO:0050848",
+            "ontology_label": "regulation of calcium-mediated signaling",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Altered migration and survival through ion channel modulation",
@@ -1360,7 +1550,12 @@
                 "source_id": "53",
                 "notes": "Altered potassium channel expression associated with changes in cell migration"
               }
-            ]
+            ],
+            "ontology_id": "GO:0099106",
+            "ontology_label": "ion channel regulator activity",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1377,7 +1572,12 @@
                 "source_id": "53",
                 "notes": "Ion channels organize into functional complexes at the plasma membrane"
               }
-            ]
+            ],
+            "ontology_id": "GO:0034702",
+            "ontology_label": "monoatomic ion channel complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1437,7 +1637,12 @@
                 "source_id": "48",
                 "notes": "CREB1 is a central regulator of cAMP-dependent transcription"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Differential gene expression downstream of cyclic nucleotide signaling",
@@ -1450,7 +1655,12 @@
                 "source_id": "45",
                 "notes": "CREM regulates transcription of genes involved in cell proliferation, differentiation, metabolic adaptation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0010467",
+            "ontology_label": "gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "cAMP hydrolysis and signal termination",
@@ -1462,7 +1672,12 @@
                 "source_id": "47",
                 "notes": "PDE3A (phosphodiesterase 3A) catalyzes cAMP hydrolysis, regulating signal duration"
               }
-            ]
+            ],
+            "ontology_id": "GO:0023021",
+            "ontology_label": "termination of signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Constraint of differentiation signals",
@@ -1474,7 +1689,12 @@
                 "source_id": "47",
                 "notes": "Elevated phosphodiesterase activity can suppress cAMP-dependent differentiation signals"
               }
-            ]
+            ],
+            "ontology_id": "GO:0045595",
+            "ontology_label": "regulation of cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1489,7 +1709,12 @@
                 "source_id": "45",
                 "notes": "CREM and CREB1 bind cAMP-responsive elements in promoters of target genes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0035497",
+            "ontology_label": "cAMP response element binding",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1548,7 +1773,12 @@
                 "source_id": "17",
                 "notes": "SHROOM3 promotes local actin polymerization through formin interaction in reactive astrocytes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0030041",
+            "ontology_label": "actin filament polymerization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell process extension and hypertrophic morphology",
@@ -1560,7 +1790,12 @@
                 "source_id": "17",
                 "notes": "SHROOM3 activity supports formation of hypertrophic astrocyte processes after injury"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006930",
+            "ontology_label": "substrate-dependent cell migration, cell extension",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Rac-mediated cytoskeletal remodeling and migration",
@@ -1573,7 +1808,12 @@
                 "source_id": "39",
                 "notes": "VAV3 (Rac GEF) promotes cytoskeletal dynamics and cell motility"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Rapid actin filament assembly and disassembly",
@@ -1586,7 +1826,12 @@
                 "source_id": "17",
                 "notes": "Coordinated regulation of actin polymerization and depolymerization enables dynamic migration"
               }
-            ]
+            ],
+            "ontology_id": "GO:0030046",
+            "ontology_label": "parallel actin filament bundle assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1601,7 +1846,12 @@
                 "source_id": "17",
                 "notes": "SHROOM3 and FMN2 organize actin into organized filament networks"
               }
-            ]
+            ],
+            "ontology_id": "GO:0032432",
+            "ontology_label": "actin filament bundle",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell processes and membrane protrusions",
@@ -1614,7 +1864,12 @@
                 "source_id": "17",
                 "notes": "Actin polymerization drives cell process extension and protrusion formation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0031253",
+            "ontology_label": "cell projection membrane",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1669,7 +1924,12 @@
                 "source_id": "5",
                 "notes": "NRXN1 (neurexin 1) is a presynaptic adhesion molecule involved in synapse formation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0099537",
+            "ontology_label": "trans-synaptic signaling",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Notch ligand signaling to endothelial and progenitor cells",
@@ -1685,7 +1945,12 @@
                 "source_id": "14",
                 "notes": "JAG1 expression by astrocytes activates Notch in endothelial cells promoting angiogenesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0060853",
+            "ontology_label": "Notch signaling pathway involved in arterial endothelial cell fate commitment",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Developmental progenitor differentiation decisions",
@@ -1697,7 +1962,12 @@
                 "source_id": "11",
                 "notes": "JAG1 regulates progenitor cell expansion and differentiation through Notch signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0002244",
+            "ontology_label": "hematopoietic progenitor cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Neural cell identity maintenance",
@@ -1709,7 +1979,12 @@
                 "source_id": "5",
                 "notes": "NRXN1 participates in neural cell identity through adhesion programs"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1723,7 +1998,12 @@
                 "source_id": "5",
                 "notes": "Neurexins form heterophilic adhesion complexes with neuroligins at synapses"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098820",
+            "ontology_label": "trans-synaptic protein complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Notch receptor signaling complexes",
@@ -1735,7 +2015,12 @@
                 "source_id": "14",
                 "notes": "JAG1 engages Notch receptors on target cells"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007219",
+            "ontology_label": "Notch signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

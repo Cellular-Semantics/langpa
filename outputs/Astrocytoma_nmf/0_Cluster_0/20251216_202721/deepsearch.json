@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T20:28:21.364251",
+    "timestamp": "2025-12-17T21:43:55.208452",
     "genes": [
       "FAM189A2",
       "OGFRL1",
@@ -215,12 +215,12 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-reasoning-pro",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "0_Cluster_0",
-    "source_tag": null,
-    "resolve_citations": false,
+    "source_tag": "deepsearch",
+    "resolve_citations": true,
     "citation_flags": {
       "validate": true,
       "scrape": false,
@@ -239,6 +239,6 @@
       "https://www.nature.com/articles/s41467-025-65820-x",
       "the restrictions and query_type_rules:\n- \"If the search results do not provide an answer"
     ],
-    "duration_seconds": 59.88712501525879
+    "duration_seconds": null
   }
 }

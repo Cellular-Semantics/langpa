@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T22:44:32.982468",
+    "timestamp": "2025-12-17T21:58:07.991342",
     "genes": [
       "FGFR3",
       "SDC4",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_10",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -287,7 +287,7 @@
       "https://www.nature.com/articles/s42003-025-09119-z",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 294.08352494239807
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -523,7 +523,12 @@
                 "source_id": "7",
                 "notes": "Down syndrome astrocytes show reduced SLC1A3 and SLC1A2 glutamate transporter expression"
               }
-            ]
+            ],
+            "ontology_id": "GO:0051935",
+            "ontology_label": "glutamate reuptake",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Glutamate-glutamine cycle and metabolism",
@@ -540,7 +545,12 @@
                 "source_id": "14",
                 "notes": "Neuronal glutamine synthetase expression occurs in response to reduced astrocyte glutamine availability"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006541",
+            "ontology_label": "glutamine metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Metabotropic glutamate receptor signaling",
@@ -557,7 +567,12 @@
                 "source_id": "34",
                 "notes": "Blockade of mGluR5 in astrocytes modulates astrocytic function and increases phagocytosis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007216",
+            "ontology_label": "G protein-coupled glutamate receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Intercellular gap junction communication",
@@ -570,7 +585,12 @@
                 "source_id": "5",
                 "notes": "Gap junction proteins enable astrocytic intercellular communication under hypoxic conditions"
               }
-            ]
+            ],
+            "ontology_id": "GO:1990349",
+            "ontology_label": "gap junction-mediated intercellular transport",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           }
         ],
         "atomic_cellular_components": [
@@ -585,7 +605,12 @@
                 "source_id": "9",
                 "notes": "SLC1A3 encodes member of high affinity glutamate transporter family"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098712",
+            "ontology_label": "L-glutamate import across plasma membrane",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Na+/K+-ATPase pump",
@@ -598,7 +623,12 @@
                 "source_id": "3",
                 "notes": "ATP1A2 and ATP1B2 are involved in ion homeostasis regulation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005391",
+            "ontology_label": "P-type sodium:potassium-exchanging transporter activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Gap junction channels",
@@ -611,7 +641,12 @@
                 "source_id": "5",
                 "notes": "GJA1 and GJB6 gap junction proteins mediate intercellular communication"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005243",
+            "ontology_label": "gap junction channel activity",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -686,7 +721,12 @@
                 "source_id": "6",
                 "notes": "AQP4 water channel abundance in astrocytic endfeet, with M23 isoform forming orthogonal arrays targeted by autoantibodies in NMOSD"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006833",
+            "ontology_label": "water transport",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Ion gradient establishment and maintenance",
@@ -699,7 +739,12 @@
                 "source_id": "3",
                 "notes": "ATP1A2 and ATP1B2 involved in ion homeostasis regulation in astrocytes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0010248",
+            "ontology_label": "establishment or maintenance of transmembrane electrochemical gradient",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -714,7 +759,12 @@
                 "source_id": "8",
                 "notes": "AQP4 encoded on chromosome 18, facilitates water transport"
               }
-            ]
+            ],
+            "ontology_id": "GO:0015250",
+            "ontology_label": "water channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Astrocytic endfeet",
@@ -726,7 +776,12 @@
                 "source_id": "6",
                 "notes": "AQP4M23 isoform abundant at astrocytic foot processes, forms orthogonal arrays of particles"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -785,7 +840,12 @@
                 "source_id": "3",
                 "notes": "Metabolic shift consistent with neuronal differentiation includes changes in glycolytic gene expression"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006096",
+            "ontology_label": "glycolytic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lipogenic fatty acid and acetyl-CoA metabolism",
@@ -801,7 +861,12 @@
                 "source_id": "20",
                 "notes": "Extracellular matrix drives guanylate production through IMPDH and GMPS, supporting enhanced biosynthesis and chemotherapy resistance"
               }
-            ]
+            ],
+            "ontology_id": "GO:0019367",
+            "ontology_label": "fatty acid elongation, saturated fatty acid",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Retinoic acid biosynthesis",
@@ -813,7 +878,12 @@
                 "source_id": "12",
                 "notes": "ALDH1A2 involved in retinoic acid biosynthesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0002138",
+            "ontology_label": "retinoic acid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Oxidative phosphorylation and mitochondrial function",
@@ -826,7 +896,12 @@
                 "source_id": "37",
                 "notes": "ROS generation and antioxidant defenses regulated by SOD enzymes and related proteins"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006119",
+            "ontology_label": "oxidative phosphorylation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -844,7 +919,12 @@
                 "source_id": "20",
                 "notes": "Metabolic enzymes localize to cytoplasm and mitochondria"
               }
-            ]
+            ],
+            "ontology_id": "GO:0019899",
+            "ontology_label": "enzyme binding",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial antioxidant defense proteins",
@@ -857,7 +937,12 @@
                 "source_id": "37",
                 "notes": "Mitochondrial ROS management through multiple enzymatic systems"
               }
-            ]
+            ],
+            "ontology_id": "GO:0016209",
+            "ontology_label": "antioxidant activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -937,7 +1022,12 @@
                 "source_id": "6",
                 "notes": "Inflammatory stress response in astrocytes following anti-AQP4 antibody treatment including NF-κB signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0002534",
+            "ontology_label": "cytokine production involved in inflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Acute phase protein and protease inhibitor production",
@@ -949,7 +1039,12 @@
                 "source_id": "3",
                 "notes": "CST3 upregulation in acute and subacute TBI astrocytes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006953",
+            "ontology_label": "acute-phase response",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Injury-induced neurogenesis support",
@@ -961,7 +1056,12 @@
                 "source_id": "3",
                 "notes": "DKK3 associated with neuroprotection and downregulated in chronic TBI"
               }
-            ]
+            ],
+            "ontology_id": "GO:0050769",
+            "ontology_label": "positive regulation of neurogenesis",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lipid transport and neuroinflammatory signaling",
@@ -977,7 +1077,12 @@
                 "source_id": "10",
                 "notes": "APOE ε4 exerts direct effects on delirium risk through neuroinflammatory mechanisms"
               }
-            ]
+            ],
+            "ontology_id": "GO:0150076",
+            "ontology_label": "neuroinflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -992,7 +1097,12 @@
                 "source_id": "3",
                 "notes": "Astrocyte secretion of neuroinflammatory factors in reactive state"
               }
-            ]
+            ],
+            "ontology_id": "GO:0099503",
+            "ontology_label": "secretory vesicle",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1062,7 +1172,12 @@
                 "source_id": "42",
                 "notes": "Actin dynamics regulated through specialized nucleation complexes and polymerization factors"
               }
-            ]
+            ],
+            "ontology_id": "GO:0008154",
+            "ontology_label": "actin polymerization or depolymerization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Rho family GTPase signaling and activation",
@@ -1078,7 +1193,12 @@
                 "source_id": "60",
                 "notes": "SOX9 recruits AP-1 factors to injury-responsive enhancers regulating Rho signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0160221",
+            "ontology_label": "Rho-activating G protein-coupled receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Myosin-mediated contractility and force generation",
@@ -1091,7 +1211,12 @@
                 "source_id": "42",
                 "notes": "Myosin-actin interactions generate mechanical forces reshaping cell morphology"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Focal adhesion assembly and integrin signaling coupling",
@@ -1103,7 +1228,12 @@
                 "source_id": "60",
                 "notes": "Focal adhesion assembly couples integrin signaling to cytoskeletal reorganization"
               }
-            ]
+            ],
+            "ontology_id": "GO:0048041",
+            "ontology_label": "focal adhesion assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1119,7 +1249,12 @@
                 "source_id": "42",
                 "notes": "Actin filaments organized through specialized nucleation and regulatory proteins"
               }
-            ]
+            ],
+            "ontology_id": "GO:0032432",
+            "ontology_label": "actin filament bundle",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Rho GTPase signaling complexes",
@@ -1133,7 +1268,12 @@
                 "source_id": "60",
                 "notes": "Rho family GTPases regulate actin dynamics through downstream effectors"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007266",
+            "ontology_label": "Rho protein signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1205,7 +1345,12 @@
                 "source_id": "30",
                 "notes": "CADM2 member of synaptic cell adhesion molecule family, immunoglobulin superfamily"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007156",
+            "ontology_label": "homophilic cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Heterophilic adhesion through protocadherin and contactin interactions",
@@ -1219,7 +1364,12 @@
                 "source_id": "41",
                 "notes": "Intercellular signaling and synaptic deconstruction involving adhesion molecules"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007157",
+            "ontology_label": "heterophilic cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Intracellular signaling cascades triggered by adhesion engagement",
@@ -1233,7 +1383,12 @@
                 "source_id": "41",
                 "notes": "Adhesion molecule engagement triggers downstream signaling affecting synaptic function"
               }
-            ]
+            ],
+            "ontology_id": "GO:0035556",
+            "ontology_label": "intracellular signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.75,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1251,7 +1406,12 @@
                 "source_id": "29",
                 "notes": "Cell adhesion molecule 1 mediates cell recognition and interaction"
               }
-            ]
+            ],
+            "ontology_id": "GO:0071183",
+            "ontology_label": "protocadherin-alpha-protocadherin-gamma complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Contactin-associated protein complexes",
@@ -1264,7 +1424,12 @@
                 "source_id": "57",
                 "notes": "Contactin-associated proteins mediate cell-cell interactions in developing brain"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098733",
+            "ontology_label": "hemidesmosome associated protein complex",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1334,7 +1499,12 @@
                 "source_id": "49",
                 "notes": "Spatial transcriptomic atlas reveals non-overlapping ECM expression signatures across GBM and stromal cells"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           },
           {
             "name": "ECM proteoglycan modification and growth factor bioavailability regulation",
@@ -1346,7 +1516,12 @@
                 "source_id": "26",
                 "notes": "ECM signaling pathways dysregulated in brain pathologies including glioblastoma"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           },
           {
             "name": "Mechanical properties and cellular mechanotransduction",
@@ -1359,7 +1534,12 @@
                 "source_id": "20",
                 "notes": "Extracellular matrix rigidity influences metabolic alterations and drug resistance"
               }
-            ]
+            ],
+            "ontology_id": "GO:0071260",
+            "ontology_label": "cellular response to mechanical stimulus",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1374,7 +1554,12 @@
                 "source_id": "26",
                 "notes": "ECM spatial distribution in tumor versus normal brain"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098645",
+            "ontology_label": "collagen network",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Secreted ECM-modifying enzymes",
@@ -1386,7 +1571,12 @@
                 "source_id": "26",
                 "notes": "ECM remodeling through protease activity"
               }
-            ]
+            ],
+            "ontology_id": "GO:0070278",
+            "ontology_label": "extracellular matrix constituent secretion",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1454,7 +1644,12 @@
                 "source_id": "10",
                 "notes": "APOE ε4 direct effects on disease risk through lipid transport and neuroinflammatory pathways"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006869",
+            "ontology_label": "lipid transport",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Fatty acid oxidation and synthesis",
@@ -1467,7 +1662,12 @@
                 "source_id": "20",
                 "notes": "Fatty acid metabolism supports both energy production and membrane synthesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0019395",
+            "ontology_label": "fatty acid oxidation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Polyamine metabolism affecting membrane fluidity",
@@ -1479,7 +1679,12 @@
                 "source_id": "37",
                 "notes": "Polyamine metabolism regulates cell biology including membrane dynamics"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006595",
+            "ontology_label": "polyamine metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Lipid-mediated immune signaling",
@@ -1491,7 +1696,12 @@
                 "source_id": "25",
                 "notes": "APOE affects immune cell infiltration and polarization through lipid signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0002757",
+            "ontology_label": "immune response-activating signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1506,7 +1716,12 @@
                 "source_id": "25",
                 "notes": "APOE as major CNS lipid transporter protein"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006869",
+            "ontology_label": "lipid transport",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Peroxisomal and mitochondrial fatty acid oxidation machinery",
@@ -1518,7 +1733,12 @@
                 "source_id": "20",
                 "notes": "Fatty acid oxidation compartmentalization"
               }
-            ]
+            ],
+            "ontology_id": "GO:0016507",
+            "ontology_label": "mitochondrial fatty acid beta-oxidation multienzyme complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1585,7 +1805,12 @@
                 "source_id": "42",
                 "notes": "Specialized signaling centers direct cell fate and spatial organization"
               }
-            ]
+            ],
+            "ontology_id": "GO:0021797",
+            "ontology_label": "forebrain anterior/posterior pattern specification",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Sonic hedgehog pathway signaling in developmental specification",
@@ -1597,7 +1822,12 @@
                 "source_id": "42",
                 "notes": "Sonic hedgehog pathway agonists enable ventral progenitor emergence"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007224",
+            "ontology_label": "smoothened signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Hypoxic stress response and metabolic programming",
@@ -1609,7 +1839,12 @@
                 "source_id": "37",
                 "notes": "Hypoxia-inducible factors regulate metabolic adaptation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0001666",
+            "ontology_label": "response to hypoxia",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Circadian rhythm and metabolic regulation",
@@ -1621,7 +1856,12 @@
                 "source_id": "60",
                 "notes": "Transcription factor activity in developmental and metabolic programming"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007623",
+            "ontology_label": "circadian rhythm",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1637,7 +1877,12 @@
                 "source_id": "42",
                 "notes": "Transcription factors form regulatory complexes at target genes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005667",
+            "ontology_label": "transcription regulator complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Chromatin accessible regions at developmental genes",
@@ -1650,7 +1895,12 @@
                 "source_id": "60",
                 "notes": "Injury-responsive enhancers control developmental gene accessibility"
               }
-            ]
+            ],
+            "ontology_id": "GO:0000785",
+            "ontology_label": "chromatin",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1713,7 +1963,12 @@
                 "source_id": "9",
                 "notes": "SLC1A3 member of high-affinity glutamate transporter family"
               }
-            ]
+            ],
+            "ontology_id": "GO:0051939",
+            "ontology_label": "gamma-aminobutyric acid import",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial amino acid and metabolite transport",
@@ -1725,7 +1980,12 @@
                 "source_id": "3",
                 "notes": "Mitochondrial metabolite transport in astrocyte metabolism"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006865",
+            "ontology_label": "amino acid transport",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Zinc homeostasis and signaling",
@@ -1737,7 +1997,12 @@
                 "source_id": "20",
                 "notes": "Zinc transport and homeostasis regulate protein function"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006882",
+            "ontology_label": "intracellular zinc ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Endolysosomal calcium signaling",
@@ -1749,7 +2014,12 @@
                 "source_id": "37",
                 "notes": "Two-pore channels enable endolysosomal calcium release"
               }
-            ]
+            ],
+            "ontology_id": "GO:0050848",
+            "ontology_label": "regulation of calcium-mediated signaling",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "GABAergic inhibitory signaling",
@@ -1761,7 +2031,12 @@
                 "source_id": "50",
                 "notes": "GABA-A receptor signaling in neuronal inhibition"
               }
-            ]
+            ],
+            "ontology_id": "GO:0048861",
+            "ontology_label": "leukemia inhibitory factor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1776,7 +2051,12 @@
                 "source_id": "9",
                 "notes": "Amino acid transporters mediate coupled substrate-ion transport"
               }
-            ]
+            ],
+            "ontology_id": "GO:0089718",
+            "ontology_label": "amino acid import across plasma membrane",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial transporter proteins",
@@ -1788,7 +2068,12 @@
                 "source_id": "3",
                 "notes": "Mitochondrial solute carriers enable substrate oxidation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0008566",
+            "ontology_label": "mitochondrial protein-transporting ATPase activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Endolysosomal two-pore channel complexes",
@@ -1800,7 +2085,12 @@
                 "source_id": "37",
                 "notes": "Two-pore channels form ion-selective channels on endolysosomal membranes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0046930",
+            "ontology_label": "pore complex",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1864,7 +2154,12 @@
                 "source_id": "37",
                 "notes": "Oxidative phosphorylation ATP synthesis coupled to proton gradient"
               }
-            ]
+            ],
+            "ontology_id": "GO:0042775",
+            "ontology_label": "mitochondrial ATP synthesis coupled electron transport",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Reactive oxygen species generation and disposal",
@@ -1881,7 +2176,12 @@
                 "source_id": "40",
                 "notes": "Superoxide dismutase and related antioxidant enzymes protect against oxidative damage"
               }
-            ]
+            ],
+            "ontology_id": "GO:0072593",
+            "ontology_label": "reactive oxygen species metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial calcium uptake and release",
@@ -1894,7 +2194,12 @@
                 "source_id": "37",
                 "notes": "Calcium accumulation in mitochondria regulates metabolic state and stress signaling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006851",
+            "ontology_label": "mitochondrial calcium ion transmembrane transport",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Glutathione-dependent detoxification",
@@ -1906,7 +2211,12 @@
                 "source_id": "37",
                 "notes": "Glutathione S-transferases catalyze detoxification of electrophilic compounds"
               }
-            ]
+            ],
+            "ontology_id": "GO:0098869",
+            "ontology_label": "cellular oxidant detoxification",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1920,7 +2230,12 @@
                 "source_id": "37",
                 "notes": "ETC complexes establish proton gradient for ATP synthesis"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006119",
+            "ontology_label": "oxidative phosphorylation",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial calcium handling proteins",
@@ -1933,7 +2248,12 @@
                 "source_id": "37",
                 "notes": "MCU and related transporters enable calcium uptake and release"
               }
-            ]
+            ],
+            "ontology_id": "GO:0051560",
+            "ontology_label": "mitochondrial calcium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Antioxidant defense enzyme complexes",
@@ -1945,7 +2265,12 @@
                 "source_id": "37",
                 "notes": "Glutathione and related systems provide antioxidant defense"
               }
-            ]
+            ],
+            "ontology_id": "GO:0016209",
+            "ontology_label": "antioxidant activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

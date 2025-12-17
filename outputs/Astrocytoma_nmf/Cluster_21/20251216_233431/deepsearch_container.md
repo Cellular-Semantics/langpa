@@ -412,46 +412,46 @@ Eight lncRNA genes are present in the input list, representing a substantial com
 - long non-coding RNA molecules. Genes: LINC01677, ENTPD1-AS1, POT1-AS1, LINC01748, MIR99AHG, LINC01117, LINC00461, SLC8A1-AS1
 
 ## Bibliography
-1. 1. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-2. 2. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
-3. 3. DeSouza PA, Ishahak M, Qu X, McCornack C, Annamalai D, Mao DD, et al.. INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model. Nature Communications [Internet]. 2025Dec7;. Available from: https://www.nature.com/articles/s41467-025-66371-x
-4. 4. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
-5. 5. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/93986
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/114142
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/6507
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/3480
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/20512
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/16001
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/57447
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/2247
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/5728
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/gene/23236
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/207
-17. 17. Available from: https://www.nature.com/subjects/cell-adhesion/ncomms
-18. 18. Liu Y, Hu J-J, Cao B, Chen P, Peng B, Yao H, et al.. EphB1-NR2B receptor signaling in glutamatergic neurons of the ventroposteromedial thalamic nucleus regulates emergence from anesthesia. Science Advances [Internet]. 2025Dec5;11(49). Available from: https://www.science.org/doi/10.1126/sciadv.adw7972
-19. 19. Murillo-Rincón AP, Seton LWG, Escamilla-Vega E, Damatac A, Fuß J, Fortmann-Grote C, et al.. Positional programs in early murine facial development and their role in human facial shape variability. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-66017-y
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/13641
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/9510
-22. 22. Available from: https://www.ncbi.nlm.nih.gov/gene/8038
-23. 23. Available from: https://www.ncbi.nlm.nih.gov/gene/16193
-24. 24. Available from: https://www.ncbi.nlm.nih.gov/gene/7223
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
-26. 26. Veo B, Wang D, DeSisto J, Pierce A, Brunt B, Bompada PC, et al.. Single-cell multi-omics identifies metabolism-linked epigenetic reprogramming as a driver of therapy-resistant medulloblastoma. Nature Communications [Internet]. 2025Nov25;16(1). Available from: https://www.nature.com/articles/s41467-025-65466-9
-27. 27. Qiu X, Liu Y, Vera-Licona P, Agmon E, Kshitiz, Suhail Y. Hif-1 responsive IFFLs to explain specific transcriptional responses to cycling hypoxia in cancers. npj Systems Biology and Applications [Internet]. 2025Nov24;11(1). Available from: https://www.nature.com/articles/s41540-025-00612-z
-28. 28. Makwana K, Tilley L, Chakravarty P, Thompson J, Baillie-Benson P, Rodriguez-Polo I, et al.. Modelling co-development between the somites and neural tube in human trunk-like structures. Nature Cell Biology [Internet]. 2025Dec16;. Available from: https://www.nature.com/articles/s41556-025-01813-8
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/27086
-30. 30. Soliman E, de JC, Smith K, Ju J, Willison A, Mills J, et al.. Hematopoietic EphA4 deficiency alters microglial heterogeneity and improves chronic spatial memory after brain injury. Scientific Reports [Internet]. 2025Dec5;. Available from: https://www.nature.com/articles/s41598-025-30648-4
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/2321
-32. 32. Available from: https://www.ncbi.nlm.nih.gov/gene/2308
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/558
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/3952
-35. 35. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
-36. 36. Josip C, Wen-Lu T, Tao J, Zheng Z. Glioma tumor microenvironment and immunotherapy: past, present, and future.. Biomarker research [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41272822/
-37. 37. Available from: https://www.ncbi.nlm.nih.gov/gene/22339
-38. 38. Niovi N, Maria SA, Christiana MN, Panagiotis P. Emerging insights into the immunosuppressive tumor microenvironment and its implications for glioblastoma immunotherapy.. Frontiers in immunology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41208963/?fc=None&ff=20251116185347&v=2.18.0.post22+67771e2
-39. 39. Hanashima A, Kimoto M, Ujihara Y, Hashimoto K, Usui Y, Ohira M, et al.. CCDC141 is a Connectin/Titin and Nesprin-1 binding protein that adapts cardiomyocytes to mechanical stress. Communications Biology [Internet]. 2025Nov26;8(1). Available from: https://www.nature.com/articles/s42003-025-09093-6
-40. 40. Available from: https://www.ncbi.nlm.nih.gov/gene/7273
-41. 41. Available from: https://www.ncbi.nlm.nih.gov/gene/1432
-42. 42. Available from: https://www.ncbi.nlm.nih.gov/gene/6249
-43. 43. Available from: https://www.ncbi.nlm.nih.gov/gene/5594
+1. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+2. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
+3. DeSouza PA, Ishahak M, Qu X, McCornack C, Annamalai D, Mao DD, et al.. INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model. Nature Communications [Internet]. 2025Dec7;. Available from: https://www.nature.com/articles/s41467-025-66371-x
+4. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
+5. Brandl S, Yu Q, Hagenbuchner J, Endmayr V, Höftberger R, Bradl M, et al.. Inflammatory transcriptomic signatures in a human cellular NMOSD model reveal upregulation of NF-κB and IL6 pathways. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-27335-9
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/93986
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/114142
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/6507
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/3480
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/20512
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/16001
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/57447
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/2247
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/5728
+15. Available from: https://www.ncbi.nlm.nih.gov/gene/23236
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/207
+17. Available from: https://www.nature.com/subjects/cell-adhesion/ncomms
+18. Liu Y, Hu J-J, Cao B, Chen P, Peng B, Yao H, et al.. EphB1-NR2B receptor signaling in glutamatergic neurons of the ventroposteromedial thalamic nucleus regulates emergence from anesthesia. Science Advances [Internet]. 2025Dec5;11(49). Available from: https://www.science.org/doi/10.1126/sciadv.adw7972
+19. Murillo-Rincón AP, Seton LWG, Escamilla-Vega E, Damatac A, Fuß J, Fortmann-Grote C, et al.. Positional programs in early murine facial development and their role in human facial shape variability. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-66017-y
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/13641
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/9510
+22. Available from: https://www.ncbi.nlm.nih.gov/gene/8038
+23. Available from: https://www.ncbi.nlm.nih.gov/gene/16193
+24. Available from: https://www.ncbi.nlm.nih.gov/gene/7223
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
+26. Veo B, Wang D, DeSisto J, Pierce A, Brunt B, Bompada PC, et al.. Single-cell multi-omics identifies metabolism-linked epigenetic reprogramming as a driver of therapy-resistant medulloblastoma. Nature Communications [Internet]. 2025Nov25;16(1). Available from: https://www.nature.com/articles/s41467-025-65466-9
+27. Qiu X, Liu Y, Vera-Licona P, Agmon E, Kshitiz, Suhail Y. Hif-1 responsive IFFLs to explain specific transcriptional responses to cycling hypoxia in cancers. npj Systems Biology and Applications [Internet]. 2025Nov24;11(1). Available from: https://www.nature.com/articles/s41540-025-00612-z
+28. Makwana K, Tilley L, Chakravarty P, Thompson J, Baillie-Benson P, Rodriguez-Polo I, et al.. Modelling co-development between the somites and neural tube in human trunk-like structures. Nature Cell Biology [Internet]. 2025Dec16;. Available from: https://www.nature.com/articles/s41556-025-01813-8
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/27086
+30. Soliman E, de JC, Smith K, Ju J, Willison A, Mills J, et al.. Hematopoietic EphA4 deficiency alters microglial heterogeneity and improves chronic spatial memory after brain injury. Scientific Reports [Internet]. 2025Dec5;. Available from: https://www.nature.com/articles/s41598-025-30648-4
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/2321
+32. Available from: https://www.ncbi.nlm.nih.gov/gene/2308
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/558
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/3952
+35. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
+36. Josip C, Wen-Lu T, Tao J, Zheng Z. Glioma tumor microenvironment and immunotherapy: past, present, and future.. Biomarker research [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41272822/
+37. Available from: https://www.ncbi.nlm.nih.gov/gene/22339
+38. Niovi N, Maria SA, Christiana MN, Panagiotis P. Emerging insights into the immunosuppressive tumor microenvironment and its implications for glioblastoma immunotherapy.. Frontiers in immunology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41208963/?fc=None&ff=20251116185347&v=2.18.0.post22+67771e2
+39. Hanashima A, Kimoto M, Ujihara Y, Hashimoto K, Usui Y, Ohira M, et al.. CCDC141 is a Connectin/Titin and Nesprin-1 binding protein that adapts cardiomyocytes to mechanical stress. Communications Biology [Internet]. 2025Nov26;8(1). Available from: https://www.nature.com/articles/s42003-025-09093-6
+40. Available from: https://www.ncbi.nlm.nih.gov/gene/7273
+41. Available from: https://www.ncbi.nlm.nih.gov/gene/1432
+42. Available from: https://www.ncbi.nlm.nih.gov/gene/6249
+43. Available from: https://www.ncbi.nlm.nih.gov/gene/5594

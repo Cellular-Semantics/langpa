@@ -349,50 +349,50 @@ SOX10, NKX6-2, and MYRF represent the core transcriptional cascade regulating ol
 - [46]: Distinct transcriptomic and epigenomic responses characterize oligodendrocyte development
 
 ## Bibliography
-1. 1. Soares-Ferreira B, Peixoto J, Ferro A, Esteves B, Pinheiro J, Silva R, et al.. Patient-derived tumoroids recapitulate the morphologic and molecular features of pediatric brain tumors. npj Precision Oncology [Internet]. 2025Nov20;9(1). Available from: https://www.nature.com/articles/s41698-025-01151-w
-2. 2. Available from: https://www.ncbi.nlm.nih.gov/gene/4155
-3. 3. Available from: https://www.nature.com/subjects/cns-cancer/ncomms
-4. 4. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
-5. 5. Available from: https://www.ncbi.nlm.nih.gov/gene/65078
-6. 6. Schoof M, Zheng T, Sill M, Imle R, Cais A, Altendorf L, et al.. Investigation of a global mouse methylome atlas reveals subtype-specific copy number alterations in pediatric cancer models. Nature Genetics [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41588-025-02419-4
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/4336
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/84504
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/10215
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/5010
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/481
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/5743
-14. 14. Miao C, Ding Z, Wu J, An Q, Shu Y, Jiang H, et al.. Identification and targeting oxidative phosphorylation/glycolysis to overcome anti-CSF-1R therapy resistance in glioblastoma. Cell Death &amp; Disease [Internet]. 2025Dec10;. Available from: https://www.nature.com/articles/s41419-025-08288-3
-15. 15. Sims SL, Lu T-H, Weiss BE, Lin R-L, Galopin LB, Wright NA, et al.. Central cytometabolic functional vascular coupling in health and disease. npj Metabolic Health and Disease [Internet]. 2025Dec2;3(1). Available from: https://www.nature.com/articles/s44324-025-00090-1
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/85445
-17. 17. Monster JL, Manzato C, van der BJA, Pannekoek W-J, Hummelink JA, Hadders MA, et al.. β-catenin condensation facilitates clustering of the cadherin/catenin complex and formation of nascent cell-cell junctions. Nature Communications [Internet]. 2025Dec6;. Available from: https://www.nature.com/articles/s41467-025-66984-2
-18. 18. Available from: http://connect.biorxiv.org/archive/index.php?dt
-19. 19. Available from: https://www.ncbi.nlm.nih.gov/gene/999
-20. 20. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
-21. 21. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-22. 22. Raikes AC, Dyke JP, Nerattini M, Boneu C, Ajila T, Fauci F, et al.. White matter microstructural and macrostructural profiles during midlife reveal sex differences between men and women at different menopausal stages. Scientific Reports [Internet]. 2025Nov17;15(1). Available from: https://www.nature.com/articles/s41598-025-24136-y
-23. 23. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
-24. 24. Zhang Z, Wang C, Sun Z, Shi X, Shuai Y, Wang Y, et al.. CAV2-expressing nerves induce metabolic switch toward mitochondrial oxidative phosphorylation to promote cancer stemness. Nature Communications [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41467-025-66914-2
-25. 25. Jamann N, Montijn JS, Petersen N, Lokhorst R, van den BD, Balemans M, et al.. Layer 5 myelination gates corticothalamic coincidence detection. Nature Communications [Internet]. 2025Dec11;16(1). Available from: https://www.nature.com/articles/s41467-025-66157-1
-26. 26. Jester HM, Nicol N, Yang Q, Zhang Y, Suhocki A, Zhou X, et al.. Overactive Neuronal eEF2K/eEF2 signaling is associated with cognitive impairment and apathy-like behavior. Molecular Psychiatry [Internet]. 2025Dec14;. Available from: https://www.nature.com/articles/s41380-025-03408-z
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/83619
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/2247
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/4137
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/18024
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/627
-32. 32. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
-33. 33. Ni H, Zhou Z, Estill M, Halawani D, Junqueira AC, Shen L, et al.. Plexin-B1 safeguards astrocyte agility and glial alignment to facilitate wound corralling and axon pathfinding in mouse spinal cord injury model. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-65095-2
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/3458
-35. 35. Available from: https://www.ncbi.nlm.nih.gov/gene/5354
-36. 36. Available from: https://www.ncbi.nlm.nih.gov/gene/18053
-37. 37. Available from: https://www.ncbi.nlm.nih.gov/gene/24943
-38. 38. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
-39. 39. Fernandez RF, Fallatah W, Ji Y, Jones JW, Johnson CC, Tressler CM, et al.. Dysregulated hippocampal fatty acid metabolism following intermittent hypoxemia-induced neonatal brain injury is rescued by treatment with acetate. Nature Communications [Internet]. 2025Dec14;. Available from: https://www.nature.com/articles/s41467-025-67542-6_reference.pdf
-40. 40. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
-41. 41. Available from: https://www.ncbi.nlm.nih.gov/gene/11816
-42. 42. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
-43. 43. Available from: https://www.ncbi.nlm.nih.gov/gene/1277
-44. 44. Liu T-T, Li H-Y, Gu S-Y, Sun L, Zhang R-W, Zu J-L, et al.. NMDA receptors coordinate brain vascular development via neuron-to-endothelial tip cell crosstalk in zebrafish. Nature Communications [Internet]. 2025Dec9;16(1). Available from: https://www.nature.com/articles/s41467-025-66543-9
-45. 45. Available from: https://www.ncbi.nlm.nih.gov/gene/100130776
-46. 46. Available from: https://www.ncbi.nlm.nih.gov/gene/6667
-47. 47. González-Gallego J, Todorov-Völgyi K, Müller SA, Antesberger S, Todorov MI, Malik R, et al.. A fully iPS-cell-derived 3D model of the human blood–brain barrier for exploring neurovascular disease mechanisms and therapeutic interventions. Nature Neuroscience [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41593-025-02123-w
+1. Soares-Ferreira B, Peixoto J, Ferro A, Esteves B, Pinheiro J, Silva R, et al.. Patient-derived tumoroids recapitulate the morphologic and molecular features of pediatric brain tumors. npj Precision Oncology [Internet]. 2025Nov20;9(1). Available from: https://www.nature.com/articles/s41698-025-01151-w
+2. Available from: https://www.ncbi.nlm.nih.gov/gene/4155
+3. Available from: https://www.nature.com/subjects/cns-cancer/ncomms
+4. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
+5. Available from: https://www.ncbi.nlm.nih.gov/gene/65078
+6. Schoof M, Zheng T, Sill M, Imle R, Cais A, Altendorf L, et al.. Investigation of a global mouse methylome atlas reveals subtype-specific copy number alterations in pediatric cancer models. Nature Genetics [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41588-025-02419-4
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/4336
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/84504
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/10215
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/5010
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/481
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/5743
+14. Miao C, Ding Z, Wu J, An Q, Shu Y, Jiang H, et al.. Identification and targeting oxidative phosphorylation/glycolysis to overcome anti-CSF-1R therapy resistance in glioblastoma. Cell Death &amp; Disease [Internet]. 2025Dec10;. Available from: https://www.nature.com/articles/s41419-025-08288-3
+15. Sims SL, Lu T-H, Weiss BE, Lin R-L, Galopin LB, Wright NA, et al.. Central cytometabolic functional vascular coupling in health and disease. npj Metabolic Health and Disease [Internet]. 2025Dec2;3(1). Available from: https://www.nature.com/articles/s44324-025-00090-1
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/85445
+17. Monster JL, Manzato C, van der BJA, Pannekoek W-J, Hummelink JA, Hadders MA, et al.. β-catenin condensation facilitates clustering of the cadherin/catenin complex and formation of nascent cell-cell junctions. Nature Communications [Internet]. 2025Dec6;. Available from: https://www.nature.com/articles/s41467-025-66984-2
+18. Available from: http://connect.biorxiv.org/archive/index.php?dt
+19. Available from: https://www.ncbi.nlm.nih.gov/gene/999
+20. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
+21. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+22. Raikes AC, Dyke JP, Nerattini M, Boneu C, Ajila T, Fauci F, et al.. White matter microstructural and macrostructural profiles during midlife reveal sex differences between men and women at different menopausal stages. Scientific Reports [Internet]. 2025Nov17;15(1). Available from: https://www.nature.com/articles/s41598-025-24136-y
+23. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
+24. Zhang Z, Wang C, Sun Z, Shi X, Shuai Y, Wang Y, et al.. CAV2-expressing nerves induce metabolic switch toward mitochondrial oxidative phosphorylation to promote cancer stemness. Nature Communications [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41467-025-66914-2
+25. Jamann N, Montijn JS, Petersen N, Lokhorst R, van den BD, Balemans M, et al.. Layer 5 myelination gates corticothalamic coincidence detection. Nature Communications [Internet]. 2025Dec11;16(1). Available from: https://www.nature.com/articles/s41467-025-66157-1
+26. Jester HM, Nicol N, Yang Q, Zhang Y, Suhocki A, Zhou X, et al.. Overactive Neuronal eEF2K/eEF2 signaling is associated with cognitive impairment and apathy-like behavior. Molecular Psychiatry [Internet]. 2025Dec14;. Available from: https://www.nature.com/articles/s41380-025-03408-z
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/83619
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/2247
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/4137
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/18024
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/627
+32. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
+33. Ni H, Zhou Z, Estill M, Halawani D, Junqueira AC, Shen L, et al.. Plexin-B1 safeguards astrocyte agility and glial alignment to facilitate wound corralling and axon pathfinding in mouse spinal cord injury model. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-65095-2
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/3458
+35. Available from: https://www.ncbi.nlm.nih.gov/gene/5354
+36. Available from: https://www.ncbi.nlm.nih.gov/gene/18053
+37. Available from: https://www.ncbi.nlm.nih.gov/gene/24943
+38. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
+39. Fernandez RF, Fallatah W, Ji Y, Jones JW, Johnson CC, Tressler CM, et al.. Dysregulated hippocampal fatty acid metabolism following intermittent hypoxemia-induced neonatal brain injury is rescued by treatment with acetate. Nature Communications [Internet]. 2025Dec14;. Available from: https://www.nature.com/articles/s41467-025-67542-6_reference.pdf
+40. Zheng C, Hervé B, Meijer M, Rubio R-KLA, Guerreiro CAO, Kukanja P, et al.. Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis. Nature Neuroscience [Internet]. 2025Nov17;28(12). Available from: https://www.nature.com/articles/s41593-025-02100-3
+41. Available from: https://www.ncbi.nlm.nih.gov/gene/11816
+42. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
+43. Available from: https://www.ncbi.nlm.nih.gov/gene/1277
+44. Liu T-T, Li H-Y, Gu S-Y, Sun L, Zhang R-W, Zu J-L, et al.. NMDA receptors coordinate brain vascular development via neuron-to-endothelial tip cell crosstalk in zebrafish. Nature Communications [Internet]. 2025Dec9;16(1). Available from: https://www.nature.com/articles/s41467-025-66543-9
+45. Available from: https://www.ncbi.nlm.nih.gov/gene/100130776
+46. Available from: https://www.ncbi.nlm.nih.gov/gene/6667
+47. González-Gallego J, Todorov-Völgyi K, Müller SA, Antesberger S, Todorov MI, Malik R, et al.. A fully iPS-cell-derived 3D model of the human blood–brain barrier for exploring neurovascular disease mechanisms and therapeutic interventions. Nature Neuroscience [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41593-025-02123-w

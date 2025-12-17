@@ -374,44 +374,44 @@ Astrocytomas frequently display characteristics of neural progenitor cells, incl
 - [39]: Nestin expression in neural progenitor and stem cells
 
 ## Bibliography
-1. 1. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
-2. 2. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
-3. 3. Available from: https://www.ncbi.nlm.nih.gov/gene/1277
-4. 4. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
-5. 5. Available from: https://www.ncbi.nlm.nih.gov/gene/2065
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/20682
-7. 7. Soares-Ferreira B, Peixoto J, Ferro A, Esteves B, Pinheiro J, Silva R, et al.. Patient-derived tumoroids recapitulate the morphologic and molecular features of pediatric brain tumors. npj Precision Oncology [Internet]. 2025Nov20;9(1). Available from: https://www.nature.com/articles/s41698-025-01151-w
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/2066
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/5156
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/6323
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/6326
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/2260
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/207
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/gene/2247
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/18033
-17. 17. Philipp K, Jacob SY, Maarten MJW, Tommaso S, Nico T, Alba C, et al.. A prognostic classification system for extent of resection in IDH-mutant grade 2 glioma: an international, multicentre, retrospective cohort study with external validation by the RANO resect group.. The Lancet Oncology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41308678/
-18. 18. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
-19. 19. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/140885
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
-22. 22. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
-23. 23. Available from: https://www.ncbi.nlm.nih.gov/gene/22339
-24. 24. Available from: https://www.ncbi.nlm.nih.gov/gene/3845
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/9839
-26. 26. Available from: https://www.ncbi.nlm.nih.gov/gene/22601
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/2146
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/25937
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/3569
-31. 31. H HJ, S ZZ, S L. [Molecular subtype-driven surgical concepts and clinical application in gliomas].. Zhonghua wai ke za zhi [Chinese journal of surgery] [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41292395/
-32. 32. Niu R-Z, Xue L-L, Tian X-H, Huangfu L-R, Chen L, Zhai C-Y, et al.. Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome. Nature Communications [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41467-025-66109-9_reference.pdf
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/8842
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
-35. 35. Available from: https://www.ncbi.nlm.nih.gov/gene/10763
-36. 36. Available from: https://www.ncbi.nlm.nih.gov/gene/2064
-37. 37. Available from: https://www.ncbi.nlm.nih.gov/gene/4854
-38. 38. Available from: https://www.ncbi.nlm.nih.gov/gene/5175
-39. 39. Available from: https://www.ncbi.nlm.nih.gov/gene/18128
-40. 40. Available from: https://www.ncbi.nlm.nih.gov/gene/177
-41. 41. Available from: their known roles in astrocyte development
+1. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
+2. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
+3. Available from: https://www.ncbi.nlm.nih.gov/gene/1277
+4. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
+5. Available from: https://www.ncbi.nlm.nih.gov/gene/2065
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/20682
+7. Soares-Ferreira B, Peixoto J, Ferro A, Esteves B, Pinheiro J, Silva R, et al.. Patient-derived tumoroids recapitulate the morphologic and molecular features of pediatric brain tumors. npj Precision Oncology [Internet]. 2025Nov20;9(1). Available from: https://www.nature.com/articles/s41698-025-01151-w
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/2066
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/5156
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/6323
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/6326
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/2260
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/207
+15. Available from: https://www.ncbi.nlm.nih.gov/gene/2247
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/18033
+17. Philipp K, Jacob SY, Maarten MJW, Tommaso S, Nico T, Alba C, et al.. A prognostic classification system for extent of resection in IDH-mutant grade 2 glioma: an international, multicentre, retrospective cohort study with external validation by the RANO resect group.. The Lancet Oncology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41308678/
+18. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
+19. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/140885
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
+22. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
+23. Available from: https://www.ncbi.nlm.nih.gov/gene/22339
+24. Available from: https://www.ncbi.nlm.nih.gov/gene/3845
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/9839
+26. Available from: https://www.ncbi.nlm.nih.gov/gene/22601
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/2146
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/25937
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/3569
+31. H HJ, S ZZ, S L. [Molecular subtype-driven surgical concepts and clinical application in gliomas].. Zhonghua wai ke za zhi [Chinese journal of surgery] [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41292395/
+32. Niu R-Z, Xue L-L, Tian X-H, Huangfu L-R, Chen L, Zhai C-Y, et al.. Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome. Nature Communications [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41467-025-66109-9_reference.pdf
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/8842
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/7015
+35. Available from: https://www.ncbi.nlm.nih.gov/gene/10763
+36. Available from: https://www.ncbi.nlm.nih.gov/gene/2064
+37. Available from: https://www.ncbi.nlm.nih.gov/gene/4854
+38. Available from: https://www.ncbi.nlm.nih.gov/gene/5175
+39. Available from: https://www.ncbi.nlm.nih.gov/gene/18128
+40. Available from: https://www.ncbi.nlm.nih.gov/gene/177
+41. Available from: their known roles in astrocyte development

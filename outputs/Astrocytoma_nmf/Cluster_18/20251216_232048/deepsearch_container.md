@@ -383,34 +383,34 @@ The solute transport program represents a fundamental aspect of astrocytoma meta
 - [31]: Metabolic transporter expression patterns reflect tumor microenvironmental heterogeneity
 
 ## Bibliography
-1. 1. Available from: https://www.ncbi.nlm.nih.gov/gene/3824
-2. 2. Available from: https://www.ncbi.nlm.nih.gov/gene/16643
-3. 3. Liu L, Zhang Y, Huang Y, Zhao X, Fu H, Chen L, et al.. IGF2BP3 regulates EMP1 stability in an m6A-dependent manner and activates the TGF-β pathway to promote pancreatic cancer invasion. Cell Death &amp; Disease [Internet]. 2025Nov24;16(1). Available from: https://www.nature.com/articles/s41419-025-08155-1
-4. 4. Available from: https://www.ncbi.nlm.nih.gov/gene/4128
-5. 5. Klinkhammer K, Warren R, Knopp J, Nguyen T, De LSP. Epithelial-mesenchymal cell competition coordinates fate transitions across tissue compartments during lung development and fibrosis. Nature Communications [Internet]. 2025Nov21;16(1). Available from: https://www.nature.com/articles/s41467-025-66690-z
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/25937
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/9173
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/3554
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/5733
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/353376
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/7098
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/148022
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/7057
-14. 14. Liu J, Dong R, Yuan B, Xie Y, Feng Z, Zhou S, et al.. Immune cells dying from ferroptosis: mechanisms and therapeutic opportunities. Cell Death &amp; Disease [Internet]. 2025Dec1;16(1). Available from: https://www.nature.com/articles/s41419-025-08204-9
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/gene/23657
-16. 16. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
-17. 17. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/8651
-19. 19. Yang S, Yang Y, Fang Y, Zhou Q, Sun W, Zhang Z, et al.. Targeting tumour-infiltrating B cells: mechanisms and advances in cancer therapy. Cell Death &amp; Disease [Internet]. 2025Nov24;. Available from: https://www.nature.com/articles/s41419-025-08254-z
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/6777
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/6678
-22. 22. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
-23. 23. Available from: https://www.ncbi.nlm.nih.gov/gene/4015
-24. 24. Ren Y, Zhang Z, Lei X, Shi L. Long non-coding RNAs in cancer glycolysis and metabolism: mechanisms and translational opportunities. Cell Death &amp; Disease [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41419-025-08289-2
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/8678
-26. 26. Available from: https://www.ncbi.nlm.nih.gov/gene/4780
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/3569
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/7103
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/977
-30. 30. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-31. 31. Mao Q, Liu H, Liu S, Wang W, Wang Y, Lou K, et al.. Uncovering the prognostic implications and immunological roles of transmembrane protein 208 in bladder cancer by multi omics analysis and experimental verification. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-11796-z
+1. Available from: https://www.ncbi.nlm.nih.gov/gene/3824
+2. Available from: https://www.ncbi.nlm.nih.gov/gene/16643
+3. Liu L, Zhang Y, Huang Y, Zhao X, Fu H, Chen L, et al.. IGF2BP3 regulates EMP1 stability in an m6A-dependent manner and activates the TGF-β pathway to promote pancreatic cancer invasion. Cell Death &amp; Disease [Internet]. 2025Nov24;16(1). Available from: https://www.nature.com/articles/s41419-025-08155-1
+4. Available from: https://www.ncbi.nlm.nih.gov/gene/4128
+5. Klinkhammer K, Warren R, Knopp J, Nguyen T, De LSP. Epithelial-mesenchymal cell competition coordinates fate transitions across tissue compartments during lung development and fibrosis. Nature Communications [Internet]. 2025Nov21;16(1). Available from: https://www.nature.com/articles/s41467-025-66690-z
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/25937
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/9173
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/3554
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/5733
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/353376
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/7098
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/148022
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/7057
+14. Liu J, Dong R, Yuan B, Xie Y, Feng Z, Zhou S, et al.. Immune cells dying from ferroptosis: mechanisms and therapeutic opportunities. Cell Death &amp; Disease [Internet]. 2025Dec1;16(1). Available from: https://www.nature.com/articles/s41419-025-08204-9
+15. Available from: https://www.ncbi.nlm.nih.gov/gene/23657
+16. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
+17. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/8651
+19. Yang S, Yang Y, Fang Y, Zhou Q, Sun W, Zhang Z, et al.. Targeting tumour-infiltrating B cells: mechanisms and advances in cancer therapy. Cell Death &amp; Disease [Internet]. 2025Nov24;. Available from: https://www.nature.com/articles/s41419-025-08254-z
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/6777
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/6678
+22. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
+23. Available from: https://www.ncbi.nlm.nih.gov/gene/4015
+24. Ren Y, Zhang Z, Lei X, Shi L. Long non-coding RNAs in cancer glycolysis and metabolism: mechanisms and translational opportunities. Cell Death &amp; Disease [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41419-025-08289-2
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/8678
+26. Available from: https://www.ncbi.nlm.nih.gov/gene/4780
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/3569
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/7103
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/977
+30. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+31. Mao Q, Liu H, Liu S, Wang W, Wang Y, Lou K, et al.. Uncovering the prognostic implications and immunological roles of transmembrane protein 208 in bladder cancer by multi omics analysis and experimental verification. Scientific Reports [Internet]. 2025Dec8;15(1). Available from: https://www.nature.com/articles/s41598-025-11796-z

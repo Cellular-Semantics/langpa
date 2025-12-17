@@ -405,62 +405,62 @@ A striking feature of astrocytoma biology is the retention of developmental neur
 - [14]: JAG1 and astrocyte-endothelial interactions
 
 ## Bibliography
-1. 1. Schoof M, Zheng T, Sill M, Imle R, Cais A, Altendorf L, et al.. Investigation of a global mouse methylome atlas reveals subtype-specific copy number alterations in pediatric cancer models. Nature Genetics [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41588-025-02419-4
-2. 2. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
-3. 3. Available from: https://www.ncbi.nlm.nih.gov/clinvar/variation/VCV000012374
-4. 4. Anamaria S, Cristian-Ionut O, Raluca IV, Madalina B, Manuela E, Sorin V, et al.. Unpredictable Evolution of Pilocytic Astrocytoma in Adults: A Case Series and Diagnostic Challenges.. The American journal of case reports [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41382984/?fc=None&ff=20251213032813&v=2.18.0.post22+67771e2
-5. 5. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/10419
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/16414
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/234779
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/207
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/18126
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/16449
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/15978
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/18128
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/gene/5894
-16. 16. Zamboni M, Martínez-Martín A, Rydholm G, Häneke T, Pintado AL, Seçilmiş D, et al.. The regulatory code of injury-responsive enhancers enables precision cell-state targeting in the CNS. Nature Neuroscience [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41593-025-02131-w
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/5156
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/6660
-19. 19. Available from: https://www.ncbi.nlm.nih.gov/gene/4325
-20. 20. Joun GL, Kempe EG, Chen B, Sterling JR, Abbassi RH, Friess D, et al.. Histone methyltransferase PRDM9 promotes survival of drug-tolerant persister cells in glioblastoma. Nature Communications [Internet]. 2025Dec15;16(1). Available from: https://www.nature.com/articles/s41467-025-65888-5
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/406942
-22. 22. Available from: https://www.ncbi.nlm.nih.gov/gene/64754
-23. 23. Available from: https://www.ncbi.nlm.nih.gov/gene/6615
-24. 24. Available from: https://www.ncbi.nlm.nih.gov/gene/6092
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/6935
-26. 26. Available from: https://www.ncbi.nlm.nih.gov/gene/9353
-27. 27. Dang X, Gong D, Dai S-S, Teng Z, Luo X-J. Genetic and functional insights into long noncoding RNAs in schizophrenia. Molecular Psychiatry [Internet]. 2025Dec14;. Available from: https://www.nature.com/articles/s41380-025-03421-2
-28. 28. Soeung M, Yan X, Zanca C, Qian J, Karki M, Duan F, et al.. Nivolumab plus ipilimumab induce hyper-progression in renal medullary carcinoma: results of a phase II trial and preclinical evidence. Nature Communications [Internet]. 2025Nov25;16(1). Available from: https://www.nature.com/articles/s41467-025-65462-z
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/27185
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/26401
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/3485
-32. 32. Liu Y, Hill HA, Li Y, McIntosh J, Jiang V, Yan F, et al.. Integrative profiling strategies to guide personalized therapy in mantle cell lymphoma: a pilot study. npj Precision Oncology [Internet]. 2025Nov21;9(1). Available from: https://www.nature.com/articles/s41698-025-01158-3
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/3487
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=10683
-35. 35. Available from: https://www.ncbi.nlm.nih.gov/gene/103
-36. 36. Available from: https://www.ncbi.nlm.nih.gov/gene/14025
-37. 37. Available from: https://www.ncbi.nlm.nih.gov/gene/56288
-38. 38. Available from: https://www.ncbi.nlm.nih.gov/gene/283120
-39. 39. Available from: https://www.ncbi.nlm.nih.gov/gene/53335
-40. 40. Available from: https://www.ncbi.nlm.nih.gov/gene/93742
-41. 41. Available from: https://www.ncbi.nlm.nih.gov/gene/57504
-42. 42. Available from: https://www.ncbi.nlm.nih.gov/gene/54611
-43. 43. Available from: https://www.ncbi.nlm.nih.gov/gene/1390
-44. 44. Available from: https://www.ncbi.nlm.nih.gov/gene/12550
-45. 45. Available from: https://www.ncbi.nlm.nih.gov/gene/5139
-46. 46. Available from: https://www.ncbi.nlm.nih.gov/gene/1385
-47. 47. Available from: https://www.ncbi.nlm.nih.gov/gene/18033
-48. 48. Available from: https://www.ncbi.nlm.nih.gov/gene/12140
-49. 49. Kang M, Zhan X, Huang X, Zhao Y, Wang X, Li Q, et al.. Elovl7 sensitizes podocytes to ferroptosis in podocytopathy by elongating polyunsaturated fatty acids. Cell Death &amp; Disease [Internet]. 2025Nov24;16(1). Available from: https://www.nature.com/articles/s41419-025-08144-4
-50. 50. Available from: https://www.ncbi.nlm.nih.gov/gene/5971
-51. 51. Available from: https://www.ncbi.nlm.nih.gov/gene/80036
-52. 52. Available from: https://www.ncbi.nlm.nih.gov/gene/54898
-53. 53. Available from: https://www.ncbi.nlm.nih.gov/gene/5970
-54. 54. Available from: https://www.ncbi.nlm.nih.gov/gene/801
-55. 55. Ni H, Zhou Z, Estill M, Halawani D, Junqueira AC, Shen L, et al.. Plexin-B1 safeguards astrocyte agility and glial alignment to facilitate wound corralling and axon pathfinding in mouse spinal cord injury model. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-65095-2
-56. 56. Available from: https://www.ncbi.nlm.nih.gov/gene/5591
-57. 57. Available from: https://www.ncbi.nlm.nih.gov/gene/5154
-58. 58. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
-59. 59. Available from: http://json-schema.org/draft-07/schema#",
+1. Schoof M, Zheng T, Sill M, Imle R, Cais A, Altendorf L, et al.. Investigation of a global mouse methylome atlas reveals subtype-specific copy number alterations in pediatric cancer models. Nature Genetics [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41588-025-02419-4
+2. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
+3. Available from: https://www.ncbi.nlm.nih.gov/clinvar/variation/VCV000012374
+4. Anamaria S, Cristian-Ionut O, Raluca IV, Madalina B, Manuela E, Sorin V, et al.. Unpredictable Evolution of Pilocytic Astrocytoma in Adults: A Case Series and Diagnostic Challenges.. The American journal of case reports [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41382984/?fc=None&ff=20251213032813&v=2.18.0.post22+67771e2
+5. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/10419
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/16414
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/234779
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/207
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/18126
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/16449
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/15978
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/18128
+15. Available from: https://www.ncbi.nlm.nih.gov/gene/5894
+16. Zamboni M, Martínez-Martín A, Rydholm G, Häneke T, Pintado AL, Seçilmiş D, et al.. The regulatory code of injury-responsive enhancers enables precision cell-state targeting in the CNS. Nature Neuroscience [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41593-025-02131-w
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/5156
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/6660
+19. Available from: https://www.ncbi.nlm.nih.gov/gene/4325
+20. Joun GL, Kempe EG, Chen B, Sterling JR, Abbassi RH, Friess D, et al.. Histone methyltransferase PRDM9 promotes survival of drug-tolerant persister cells in glioblastoma. Nature Communications [Internet]. 2025Dec15;16(1). Available from: https://www.nature.com/articles/s41467-025-65888-5
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/406942
+22. Available from: https://www.ncbi.nlm.nih.gov/gene/64754
+23. Available from: https://www.ncbi.nlm.nih.gov/gene/6615
+24. Available from: https://www.ncbi.nlm.nih.gov/gene/6092
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/6935
+26. Available from: https://www.ncbi.nlm.nih.gov/gene/9353
+27. Dang X, Gong D, Dai S-S, Teng Z, Luo X-J. Genetic and functional insights into long noncoding RNAs in schizophrenia. Molecular Psychiatry [Internet]. 2025Dec14;. Available from: https://www.nature.com/articles/s41380-025-03421-2
+28. Soeung M, Yan X, Zanca C, Qian J, Karki M, Duan F, et al.. Nivolumab plus ipilimumab induce hyper-progression in renal medullary carcinoma: results of a phase II trial and preclinical evidence. Nature Communications [Internet]. 2025Nov25;16(1). Available from: https://www.nature.com/articles/s41467-025-65462-z
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/27185
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/26401
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/3485
+32. Liu Y, Hill HA, Li Y, McIntosh J, Jiang V, Yan F, et al.. Integrative profiling strategies to guide personalized therapy in mantle cell lymphoma: a pilot study. npj Precision Oncology [Internet]. 2025Nov21;9(1). Available from: https://www.nature.com/articles/s41698-025-01158-3
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/3487
+34. Available from: https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=10683
+35. Available from: https://www.ncbi.nlm.nih.gov/gene/103
+36. Available from: https://www.ncbi.nlm.nih.gov/gene/14025
+37. Available from: https://www.ncbi.nlm.nih.gov/gene/56288
+38. Available from: https://www.ncbi.nlm.nih.gov/gene/283120
+39. Available from: https://www.ncbi.nlm.nih.gov/gene/53335
+40. Available from: https://www.ncbi.nlm.nih.gov/gene/93742
+41. Available from: https://www.ncbi.nlm.nih.gov/gene/57504
+42. Available from: https://www.ncbi.nlm.nih.gov/gene/54611
+43. Available from: https://www.ncbi.nlm.nih.gov/gene/1390
+44. Available from: https://www.ncbi.nlm.nih.gov/gene/12550
+45. Available from: https://www.ncbi.nlm.nih.gov/gene/5139
+46. Available from: https://www.ncbi.nlm.nih.gov/gene/1385
+47. Available from: https://www.ncbi.nlm.nih.gov/gene/18033
+48. Available from: https://www.ncbi.nlm.nih.gov/gene/12140
+49. Kang M, Zhan X, Huang X, Zhao Y, Wang X, Li Q, et al.. Elovl7 sensitizes podocytes to ferroptosis in podocytopathy by elongating polyunsaturated fatty acids. Cell Death &amp; Disease [Internet]. 2025Nov24;16(1). Available from: https://www.nature.com/articles/s41419-025-08144-4
+50. Available from: https://www.ncbi.nlm.nih.gov/gene/5971
+51. Available from: https://www.ncbi.nlm.nih.gov/gene/80036
+52. Available from: https://www.ncbi.nlm.nih.gov/gene/54898
+53. Available from: https://www.ncbi.nlm.nih.gov/gene/5970
+54. Available from: https://www.ncbi.nlm.nih.gov/gene/801
+55. Ni H, Zhou Z, Estill M, Halawani D, Junqueira AC, Shen L, et al.. Plexin-B1 safeguards astrocyte agility and glial alignment to facilitate wound corralling and axon pathfinding in mouse spinal cord injury model. Nature Communications [Internet]. 2025Nov18;16(1). Available from: https://www.nature.com/articles/s41467-025-65095-2
+56. Available from: https://www.ncbi.nlm.nih.gov/gene/5591
+57. Available from: https://www.ncbi.nlm.nih.gov/gene/5154
+58. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
+59. Available from: http://json-schema.org/draft-07/schema#",

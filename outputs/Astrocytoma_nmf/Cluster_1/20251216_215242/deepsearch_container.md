@@ -293,69 +293,69 @@ The cellular senescence program represents an important and often overlooked asp
 - [71]: ITPR2 and MERCS regulate senescence through calcium-mediated mitochondrial dysfunction
 
 ## Bibliography
-1. 1. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
-2. 2. Available from: https://www.ncbi.nlm.nih.gov/gene/10401
-3. 3. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-4. 4. Available from: https://www.ncbi.nlm.nih.gov/gene/8651
-5. 5. Available from: https://www.ncbi.nlm.nih.gov/gene/24387
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/22352
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
-8. 8. Zamboni M, Martínez-Martín A, Rydholm G, Häneke T, Pintado AL, Seçilmiş D, et al.. The regulatory code of injury-responsive enhancers enables precision cell-state targeting in the CNS. Nature Neuroscience [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41593-025-02131-w
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/407050
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/3569
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/16176
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/87
-13. 13. Dong R, Srikanth A, Tharehalli U, Seufferlein T, Schirmbeck R, Lechel A. CD44 upregulation in chronic liver disease marks the transition to hepatocellular carcinoma and portends poor prognosis. British Journal of Cancer [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41416-025-03284-y
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/3845
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/gene/81
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/12505
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/24330
-19. 19. Available from: https://www.ncbi.nlm.nih.gov/gene/3553
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/768
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/25389
-22. 22. Available from: https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=3569
-23. 23. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
-24. 24. Hruby AJ, Higuchi-Sanabria R. Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease. npj Aging [Internet]. 2025Dec16;11(1). Available from: https://www.nature.com/articles/s41514-025-00291-4
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/7538
-26. 26. Available from: https://www.ncbi.nlm.nih.gov/gene/20656
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/10135
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/22695
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/gene/546
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/604
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/20296
-32. 32. Available from: https://www.ncbi.nlm.nih.gov/gene/10419
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/51564
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/6347
-35. 35. Yu J-tao, Hu X-wei, Wang J-nan, Yang Q, Li X-yu, Shan R-run, et al.. Renal insulin-like growth factor binding-protein 7 is a critical promoter of progressive diabetic kidney disease. Nature Communications [Internet]. 2025Dec1;. Available from: https://www.nature.com/articles/s41467-025-66490-5
-36. 36. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
-37. 37. Available from: https://www.ncbi.nlm.nih.gov/gene/2633
-38. 38. Available from: https://www.ncbi.nlm.nih.gov/gene/29817
-39. 39. Available from: https://www.ncbi.nlm.nih.gov/gene/3576
-40. 40. Available from: https://www.ncbi.nlm.nih.gov/gene/14468
-41. 41. Available from: https://www.ncbi.nlm.nih.gov/gene/7187
-42. 42. Erin F, Alexandra L, Sehoon W, Kai C, Yan L, Katherine WR. Trio and CRMP2 regulate axon branching and Semaphorin3A signaling.. Communications biology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41291162/
-43. 43. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
-44. 44. Kamiyama D, Kamiyama R, Nishida Y, Sego A, Vining GB, Bui KC, et al.. The Vap33 signaling axis precisely coordinates the timing of motoneuron dendritogenesis in neural map development. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-65900-y
-45. 45. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
-46. 46. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
-47. 47. Ksenia A, Micha D. Phylogenetic Analysis of NEAT1 and MALAT1 Long Non-coding RNAs Highlights Structure-Function Relationships in Paraspeckle Biology.. Molecular biology and evolution [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41363149/?fc=None&ff=20251211190652&v=2.18.0.post22+67771e2
-48. 48. Available from: https://www.ncbi.nlm.nih.gov/gene/6777
-49. 49. Available from: https://www.ncbi.nlm.nih.gov/gene/283131
-50. 50. Lara N, Javier M, Irene S-S, Moisés S-P, Esther R-S, Teresa S-M. Next-Generation Sequencing Reveals a Diagnostic and Prognostic Role of the . International journal of molecular sciences [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41373636/?fc=None&ff=20251211105245&v=2.18.0.post22+67771e2
-51. 51. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
-52. 52. Li S, Chu C. Senescence in Aging and Alzheimer's Disease.. Aging and disease [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41296937/
-53. 53. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
-54. 54. Available from: https://www.ncbi.nlm.nih.gov/gene/18787
-55. 55. Li R, Huang S, Hanna A, Hernandez SC, Kubota A, Humeres C, et al.. Macrophage ITGAV is dispensable for post-infarction remodeling in mice and does not mediate fibronectin responses. Communications Biology [Internet]. 2025Nov29;. Available from: https://www.nature.com/articles/s42003-025-09295-y
-56. 56. Available from: https://www.ncbi.nlm.nih.gov/gene/6678
-57. 57. Available from: https://www.ncbi.nlm.nih.gov/gene/5054
-58. 58. Available from: https://www.ncbi.nlm.nih.gov/gene/4088
-59. 59. Available from: https://www.ncbi.nlm.nih.gov/gene/2597
-60. 60. Available from: https://www.ncbi.nlm.nih.gov/gene/4851
-61. 61. Available from: https://www.ncbi.nlm.nih.gov/gene/9518
-62. 62. Available from: https://www.ncbi.nlm.nih.gov/gene/817
-63. 63. Soares-Ferreira B, Peixoto J, Ferro A, Esteves B, Pinheiro J, Silva R, et al.. Patient-derived tumoroids recapitulate the morphologic and molecular features of pediatric brain tumors. npj Precision Oncology [Internet]. 2025Nov20;9(1). Available from: https://www.nature.com/articles/s41698-025-01151-w
-64. 64. Available from: https://www.ncbi.nlm.nih.gov/gene/3709
-65. 65. Available from: https://www.ncbi.nlm.nih.gov/gene/108058
-66. 66. Available from: http://json-schema.org/draft-07/schema#",
+1. Available from: https://www.ncbi.nlm.nih.gov/gene/2670
+2. Available from: https://www.ncbi.nlm.nih.gov/gene/10401
+3. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+4. Available from: https://www.ncbi.nlm.nih.gov/gene/8651
+5. Available from: https://www.ncbi.nlm.nih.gov/gene/24387
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/22352
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/7124
+8. Zamboni M, Martínez-Martín A, Rydholm G, Häneke T, Pintado AL, Seçilmiş D, et al.. The regulatory code of injury-responsive enhancers enables precision cell-state targeting in the CNS. Nature Neuroscience [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41593-025-02131-w
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/407050
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/3569
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/16176
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/87
+13. Dong R, Srikanth A, Tharehalli U, Seufferlein T, Schirmbeck R, Lechel A. CD44 upregulation in chronic liver disease marks the transition to hepatocellular carcinoma and portends poor prognosis. British Journal of Cancer [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41416-025-03284-y
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/3845
+15. Available from: https://www.ncbi.nlm.nih.gov/gene/81
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/12505
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/1499
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/24330
+19. Available from: https://www.ncbi.nlm.nih.gov/gene/3553
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/768
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/25389
+22. Available from: https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=3569
+23. Available from: https://www.ncbi.nlm.nih.gov/gene/29126
+24. Hruby AJ, Higuchi-Sanabria R. Mitochondrial dysfunction in cellular senescence: a bridge to neurodegenerative disease. npj Aging [Internet]. 2025Dec16;11(1). Available from: https://www.nature.com/articles/s41514-025-00291-4
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/7538
+26. Available from: https://www.ncbi.nlm.nih.gov/gene/20656
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/10135
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/22695
+29. Available from: https://www.ncbi.nlm.nih.gov/gene/546
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/604
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/20296
+32. Available from: https://www.ncbi.nlm.nih.gov/gene/10419
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/51564
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/6347
+35. Yu J-tao, Hu X-wei, Wang J-nan, Yang Q, Li X-yu, Shan R-run, et al.. Renal insulin-like growth factor binding-protein 7 is a critical promoter of progressive diabetic kidney disease. Nature Communications [Internet]. 2025Dec1;. Available from: https://www.nature.com/articles/s41467-025-66490-5
+36. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
+37. Available from: https://www.ncbi.nlm.nih.gov/gene/2633
+38. Available from: https://www.ncbi.nlm.nih.gov/gene/29817
+39. Available from: https://www.ncbi.nlm.nih.gov/gene/3576
+40. Available from: https://www.ncbi.nlm.nih.gov/gene/14468
+41. Available from: https://www.ncbi.nlm.nih.gov/gene/7187
+42. Erin F, Alexandra L, Sehoon W, Kai C, Yan L, Katherine WR. Trio and CRMP2 regulate axon branching and Semaphorin3A signaling.. Communications biology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41291162/
+43. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
+44. Kamiyama D, Kamiyama R, Nishida Y, Sego A, Vining GB, Bui KC, et al.. The Vap33 signaling axis precisely coordinates the timing of motoneuron dendritogenesis in neural map development. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-65900-y
+45. Keane S, Sjöberg I, Deland L, Lindlöf A, Bontell TO, Kling T, et al.. Comprehensive characterization and targeted treatment of a pediatric epithelioid glioblastoma with a rare TRIM24-NTRK2 fusion. npj Precision Oncology [Internet]. 2025Dec2;9(1). Available from: https://www.nature.com/articles/s41698-025-01190-3
+46. Braun S, Bolivar P, Oudenaarden C, Sjölund J, Bocci M, Harbst K, et al.. Pericytes orchestrate a tumor-restraining microenvironment in glioblastoma. Nature Communications [Internet]. 2025Dec4;16(1). Available from: https://www.nature.com/articles/s41467-025-66985-1
+47. Ksenia A, Micha D. Phylogenetic Analysis of NEAT1 and MALAT1 Long Non-coding RNAs Highlights Structure-Function Relationships in Paraspeckle Biology.. Molecular biology and evolution [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41363149/?fc=None&ff=20251211190652&v=2.18.0.post22+67771e2
+48. Available from: https://www.ncbi.nlm.nih.gov/gene/6777
+49. Available from: https://www.ncbi.nlm.nih.gov/gene/283131
+50. Lara N, Javier M, Irene S-S, Moisés S-P, Esther R-S, Teresa S-M. Next-Generation Sequencing Reveals a Diagnostic and Prognostic Role of the . International journal of molecular sciences [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41373636/?fc=None&ff=20251211105245&v=2.18.0.post22+67771e2
+51. William D, Ryan A. Prognostic and predictive determinants in high-grade gliomas: integrating tumor-intrinsic biology with patient and system-level factors.. Frontiers in neurology [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41346390/?fc=None&ff=20251206024217&v=2.18.0.post22+67771e2
+52. Li S, Chu C. Senescence in Aging and Alzheimer's Disease.. Aging and disease [Internet].. Available from: https://pubmed.ncbi.nlm.nih.gov/41296937/
+53. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
+54. Available from: https://www.ncbi.nlm.nih.gov/gene/18787
+55. Li R, Huang S, Hanna A, Hernandez SC, Kubota A, Humeres C, et al.. Macrophage ITGAV is dispensable for post-infarction remodeling in mice and does not mediate fibronectin responses. Communications Biology [Internet]. 2025Nov29;. Available from: https://www.nature.com/articles/s42003-025-09295-y
+56. Available from: https://www.ncbi.nlm.nih.gov/gene/6678
+57. Available from: https://www.ncbi.nlm.nih.gov/gene/5054
+58. Available from: https://www.ncbi.nlm.nih.gov/gene/4088
+59. Available from: https://www.ncbi.nlm.nih.gov/gene/2597
+60. Available from: https://www.ncbi.nlm.nih.gov/gene/4851
+61. Available from: https://www.ncbi.nlm.nih.gov/gene/9518
+62. Available from: https://www.ncbi.nlm.nih.gov/gene/817
+63. Soares-Ferreira B, Peixoto J, Ferro A, Esteves B, Pinheiro J, Silva R, et al.. Patient-derived tumoroids recapitulate the morphologic and molecular features of pediatric brain tumors. npj Precision Oncology [Internet]. 2025Nov20;9(1). Available from: https://www.nature.com/articles/s41698-025-01151-w
+64. Available from: https://www.ncbi.nlm.nih.gov/gene/3709
+65. Available from: https://www.ncbi.nlm.nih.gov/gene/108058
+66. Available from: http://json-schema.org/draft-07/schema#",

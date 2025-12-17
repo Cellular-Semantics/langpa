@@ -290,35 +290,35 @@ PAK3 and PAK5 are members of the p21-activated kinase family that function as do
 - [10]: PAK proteins regulate actin dynamics and cell morphology through GTPase-dependent signaling
 
 ## Bibliography
-1. 1. Niu R-Z, Xue L-L, Tian X-H, Huangfu L-R, Chen L, Zhai C-Y, et al.. Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome. Nature Communications [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41467-025-66109-9_reference.pdf
-2. 2. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-3. 3. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
-4. 4. Available from: https://www.ncbi.nlm.nih.gov/gene/20677
-5. 5. Available from: https://www.ncbi.nlm.nih.gov/gene/20666
-6. 6. Zhang Z, Wang C, Sun Z, Shi X, Shuai Y, Wang Y, et al.. CAV2-expressing nerves induce metabolic switch toward mitochondrial oxidative phosphorylation to promote cancer stemness. Nature Communications [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41467-025-66914-2
-7. 7. DeSouza PA, Ishahak M, Qu X, McCornack C, Annamalai D, Mao DD, et al.. INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model. Nature Communications [Internet]. 2025Dec7;. Available from: https://www.nature.com/articles/s41467-025-66371-x
-8. 8. Tao L, Teng L, Ge M, Wang Y, Hu C, Chen J, et al.. Slc22a17 governs postnatal neurogenesis by maintaining the iron homeostasis in hippocampus. Nature Communications [Internet]. 2025Dec15;16(1). Available from: https://www.nature.com/articles/s41467-025-66108-w
-9. 9. Available from: https://www.ncbi.nlm.nih.gov/gene/10298
-10. 10. Darko-Boateng A, Afriyie E, Morgenstern TJ, Shanmugam SK, Zou X, Laloudakis YD, et al.. Ion channel inhibition by targeted recruitment of NEDD4-2 with divalent nanobodies. Nature Communications [Internet]. 2025Dec6;. Available from: https://www.nature.com/articles/s41467-025-67068-x
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/23327
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/2475
-13. 13. Bai Y, Zhang X, Wang X, Wang M, Shen T. Characterizing and decoding ultraconserved regions uncovers their regulatory significance in human brain development and disorders. Communications Biology [Internet]. 2025Nov27;8(1). Available from: https://www.nature.com/articles/s42003-025-09115-3
-14. 14. Available from: https://www.ncbi.nlm.nih.gov/gene/4613
-15. 15. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
-16. 16. Available from: https://www.ncbi.nlm.nih.gov/gene/8829
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/18186
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/93986
-19. 19. Available from: https://www.ncbi.nlm.nih.gov/gene/114142
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/12571
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/5071
-22. 22. Ma L, Huang Y, Han M, Wang B, Guo X, Wang Z, et al.. ZFP612 controls neuropathic pain through epigenetic repression of Il1rl1 within the silencer–promoter loop in primary sensory neurons of male mice. Nature Communications [Internet]. 2025Nov28;16(1). Available from: https://www.nature.com/articles/s41467-025-65935-1
-23. 23. Ji JX, Giles BL, Bhattacharjee S, Kautzmann M-AI, P. MA, Do CS, et al.. Intercellular signaling and synaptic deconstruction uncovered by single-cell and spatial transcriptomics in an AD tauopathy model. Communications Biology [Internet]. 2025Nov17;8(1). Available from: https://www.nature.com/articles/s42003-025-08959-z
-24. 24. Available from: https://www.ncbi.nlm.nih.gov/gene/146713
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/2893
-26. 26. Available from: https://www.ncbi.nlm.nih.gov/gene/2048
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/1948
-28. 28. Veo B, Wang D, DeSisto J, Pierce A, Brunt B, Bompada PC, et al.. Single-cell multi-omics identifies metabolism-linked epigenetic reprogramming as a driver of therapy-resistant medulloblastoma. Nature Communications [Internet]. 2025Nov25;16(1). Available from: https://www.nature.com/articles/s41467-025-65466-9
-29. 29. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
-30. 30. Liu Z, Lim S-H, Jung S. Targeting tumor metabolic flexibility enhances radiotherapeutic efficacy via mitochondrial complex I Inhibition in an intracranial S180 sarcoma mouse model. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-29326-2
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/10419
-32. 32. Available from: http://json-schema.org/draft-07/schema#",
+1. Niu R-Z, Xue L-L, Tian X-H, Huangfu L-R, Chen L, Zhai C-Y, et al.. Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome. Nature Communications [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41467-025-66109-9_reference.pdf
+2. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+3. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
+4. Available from: https://www.ncbi.nlm.nih.gov/gene/20677
+5. Available from: https://www.ncbi.nlm.nih.gov/gene/20666
+6. Zhang Z, Wang C, Sun Z, Shi X, Shuai Y, Wang Y, et al.. CAV2-expressing nerves induce metabolic switch toward mitochondrial oxidative phosphorylation to promote cancer stemness. Nature Communications [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41467-025-66914-2
+7. DeSouza PA, Ishahak M, Qu X, McCornack C, Annamalai D, Mao DD, et al.. INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model. Nature Communications [Internet]. 2025Dec7;. Available from: https://www.nature.com/articles/s41467-025-66371-x
+8. Tao L, Teng L, Ge M, Wang Y, Hu C, Chen J, et al.. Slc22a17 governs postnatal neurogenesis by maintaining the iron homeostasis in hippocampus. Nature Communications [Internet]. 2025Dec15;16(1). Available from: https://www.nature.com/articles/s41467-025-66108-w
+9. Available from: https://www.ncbi.nlm.nih.gov/gene/10298
+10. Darko-Boateng A, Afriyie E, Morgenstern TJ, Shanmugam SK, Zou X, Laloudakis YD, et al.. Ion channel inhibition by targeted recruitment of NEDD4-2 with divalent nanobodies. Nature Communications [Internet]. 2025Dec6;. Available from: https://www.nature.com/articles/s41467-025-67068-x
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/23327
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/2475
+13. Bai Y, Zhang X, Wang X, Wang M, Shen T. Characterizing and decoding ultraconserved regions uncovers their regulatory significance in human brain development and disorders. Communications Biology [Internet]. 2025Nov27;8(1). Available from: https://www.nature.com/articles/s42003-025-09115-3
+14. Available from: https://www.ncbi.nlm.nih.gov/gene/4613
+15. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7
+16. Available from: https://www.ncbi.nlm.nih.gov/gene/8829
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/18186
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/93986
+19. Available from: https://www.ncbi.nlm.nih.gov/gene/114142
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/12571
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/5071
+22. Ma L, Huang Y, Han M, Wang B, Guo X, Wang Z, et al.. ZFP612 controls neuropathic pain through epigenetic repression of Il1rl1 within the silencer–promoter loop in primary sensory neurons of male mice. Nature Communications [Internet]. 2025Nov28;16(1). Available from: https://www.nature.com/articles/s41467-025-65935-1
+23. Ji JX, Giles BL, Bhattacharjee S, Kautzmann M-AI, P. MA, Do CS, et al.. Intercellular signaling and synaptic deconstruction uncovered by single-cell and spatial transcriptomics in an AD tauopathy model. Communications Biology [Internet]. 2025Nov17;8(1). Available from: https://www.nature.com/articles/s42003-025-08959-z
+24. Available from: https://www.ncbi.nlm.nih.gov/gene/146713
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/2893
+26. Available from: https://www.ncbi.nlm.nih.gov/gene/2048
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/1948
+28. Veo B, Wang D, DeSisto J, Pierce A, Brunt B, Bompada PC, et al.. Single-cell multi-omics identifies metabolism-linked epigenetic reprogramming as a driver of therapy-resistant medulloblastoma. Nature Communications [Internet]. 2025Nov25;16(1). Available from: https://www.nature.com/articles/s41467-025-65466-9
+29. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0
+30. Liu Z, Lim S-H, Jung S. Targeting tumor metabolic flexibility enhances radiotherapeutic efficacy via mitochondrial complex I Inhibition in an intracranial S180 sarcoma mouse model. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-29326-2
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/10419
+32. Available from: http://json-schema.org/draft-07/schema#",

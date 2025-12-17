@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T21:56:57.535247",
+    "timestamp": "2025-12-17T21:43:55.200074",
     "genes": [
       "TNC",
       "CD44",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_1",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -298,7 +298,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/108058",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 224.6480770111084
+    "duration_seconds": null
   },
   "report": {
     "title": "Gene Program Functional Analysis",
@@ -536,7 +536,12 @@
                 "source_id": "55",
                 "notes": "Pan-reactive astrocyte subsets express high levels of both GFAP and VIM, indicating coordinated intermediate filament network reorganization"
               }
-            ]
+            ],
+            "ontology_id": "GO:0045107",
+            "ontology_label": "intermediate filament polymerization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell-surface adhesion and hyaluronic acid binding",
@@ -556,7 +561,12 @@
                 "source_id": "55",
                 "notes": "CD44 is a key pan-reactive astrocyte marker, prominently expressed in chronic reactive states"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005540",
+            "ontology_label": "hyaluronic acid binding",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -575,7 +585,12 @@
                 "source_id": "6",
                 "notes": "Vimentin intermediate filaments interact with GFAP in reactive astrocytes during neurotrauma"
               }
-            ]
+            ],
+            "ontology_id": "GO:0045111",
+            "ontology_label": "intermediate filament cytoskeleton",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -654,7 +669,12 @@
                 "source_id": "36",
                 "notes": "IGFBP7 interacts with STAT3 promoting its acetylation/dimerization in kidney disease models"
               }
-            ]
+            ],
+            "ontology_id": "GO:0033141",
+            "ontology_label": "positive regulation of peptidyl-serine phosphorylation of STAT protein",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Chemokine-mediated immune cell recruitment",
@@ -676,7 +696,12 @@
                 "source_id": "32",
                 "notes": "Resident stroma-secreted chemokine CCL2 governs myeloid-derived suppressor cell recruitment"
               }
-            ]
+            ],
+            "ontology_id": "GO:0070098",
+            "ontology_label": "chemokine-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [
@@ -697,7 +722,12 @@
                 "source_id": "22",
                 "notes": "IL-6 and IL-1β regulate STAT3 signaling through JAK activation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005896",
+            "ontology_label": "interleukin-6 receptor complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -782,7 +812,12 @@
                 "source_id": "49",
                 "notes": "Pericyte-expressed GAS6 reinforces pro-tumor macrophage polarization in glioma microenvironment; pericyte loss alters ECM composition"
               }
-            ]
+            ],
+            "ontology_id": "GO:0007229",
+            "ontology_label": "integrin-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Collagen-mediated basement membrane function",
@@ -796,7 +831,12 @@
                 "source_id": "49",
                 "notes": "Type IV collagen maintains tumor vasculature integrity and provides integrin signaling cues in glioma microenvironment"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005604",
+            "ontology_label": "basement membrane",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Focal adhesion assembly and mechanotransduction",
@@ -815,7 +855,12 @@
                 "source_id": "15",
                 "notes": "ACTN4 and ZYX regulate focal adhesion formation and maturation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0048041",
+            "ontology_label": "focal adhesion assembly",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Matrix metalloproteinase regulation and ECM proteolysis",
@@ -828,7 +873,12 @@
                 "source_id": "64",
                 "notes": "SERPINE1 (PAI-1) regulates plasminogen activation and ECM remodeling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0030162",
+            "ontology_label": "regulation of proteolysis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -844,7 +894,12 @@
                 "source_id": "12",
                 "notes": "Focal adhesion proteins including actinin mediate integrin-actin coupling"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005925",
+            "ontology_label": "focal adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Integrin-ligand complexes",
@@ -863,7 +918,12 @@
                 "source_id": "62",
                 "notes": "ITGAV integrin engagement with fibronectin activates downstream signaling in macrophages and other cell types"
               }
-            ]
+            ],
+            "ontology_id": "GO:0008305",
+            "ontology_label": "integrin complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -944,7 +1004,12 @@
                 "source_id": "21",
                 "notes": "ATF3 expression marks cellular injury/stress response in sensory neurons"
               }
-            ]
+            ],
+            "ontology_id": "GO:0030121",
+            "ontology_label": "AP-1 adaptor complex",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "ATF/CEBP-mediated stress transcription",
@@ -957,7 +1022,12 @@
                 "source_id": "8",
                 "notes": "CEBPD motif enrichment in astrocyte injury-responsive enhancers; ATF3 shows early and sustained induction post-injury"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Early growth response gene activation",
@@ -979,7 +1049,12 @@
                 "source_id": "55",
                 "notes": "EGR1 prominently expressed in acute astrocyte reactivity phase"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -997,7 +1072,12 @@
                 "source_id": "8",
                 "notes": "AP-1 transcription factors recruit lineage-specific factors including SOX9 to regulate astrocyte-specific target genes"
               }
-            ]
+            ],
+            "ontology_id": "GO:0035976",
+            "ontology_label": "transcription factor AP-1 complex",
+            "ontology_source": "GO",
+            "confidence": 0.95,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1065,7 +1145,12 @@
                 "source_id": "52",
                 "notes": "VEGFA and HIF1A regulate metabolic reprogramming in glioblastoma supporting differentiation of myeloid-derived suppressor cells"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006096",
+            "ontology_label": "glycolytic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "NAD biosynthesis and salvage pathway activation",
@@ -1077,7 +1162,12 @@
                 "source_id": "28",
                 "notes": "NAMPT, the rate-limiting enzyme of NAD biosynthesis, increases tumorigenic properties and induces colon cancer stem cell-like characteristics"
               }
-            ]
+            ],
+            "ontology_id": "GO:0034355",
+            "ontology_label": "NAD+ biosynthetic process via the salvage pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial reactive oxygen species buffering",
@@ -1093,7 +1183,12 @@
                 "source_id": "56",
                 "notes": "SOD2 expression regulation by IGFBP7 and related factors influences mitochondrial function and senescence"
               }
-            ]
+            ],
+            "ontology_id": "GO:0072593",
+            "ontology_label": "reactive oxygen species metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial dysfunction and senescence linkage",
@@ -1111,7 +1206,12 @@
                 "source_id": "71",
                 "notes": "ITPR2 and calcium-mediated mitochondrial dysfunction promote cellular senescence"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [
@@ -1125,7 +1225,12 @@
                 "source_id": "52",
                 "notes": "PFKFB3 regulates glycolytic flux in tumor cells"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006096",
+            "ontology_label": "glycolytic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Mitochondrial matrix and ROS handling",
@@ -1138,7 +1243,12 @@
                 "source_id": "71",
                 "notes": "Mitochondrial calcium accumulation through ITPR2 reduces membrane potential and increases ROS production"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005759",
+            "ontology_label": "mitochondrial matrix",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1203,7 +1313,12 @@
                 "source_id": "55",
                 "notes": "KCNJ10 is among commonly dysregulated genes in chronic astrocyte dysfunction shared with neurodegenerative diseases"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005267",
+            "ontology_label": "potassium channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Lipid metabolism and apolipoprotein signaling",
@@ -1219,7 +1334,12 @@
                 "source_id": "55",
                 "notes": "APOE prominently expressed in chronic reactive astrocytes; APOE ε4 allele confers enhanced risk for Alzheimer disease"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006629",
+            "ontology_label": "lipid metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Microtubule dynamics and tau pathology association",
@@ -1235,7 +1355,12 @@
                 "source_id": "55",
                 "notes": "MAP1B shares regulatory elements with genes upregulated in chronic neurodegeneration"
               }
-            ]
+            ],
+            "ontology_id": "GO:0038027",
+            "ontology_label": "apolipoprotein A-I-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "BDNF signaling and neuroprotection",
@@ -1255,7 +1380,12 @@
                 "source_id": "55",
                 "notes": "NTRK2 expression in chronic astrocytes supports neurons but may be dysregulated in tumor context"
               }
-            ]
+            ],
+            "ontology_id": "GO:0031109",
+            "ontology_label": "microtubule polymerization or depolymerization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Proteostasis and chaperone dysfunction",
@@ -1271,7 +1401,12 @@
                 "source_id": "55",
                 "notes": "SERPINA3 is key pan-reactive astrocyte marker elevated in chronic states, suggesting proteostasis dysfunction"
               }
-            ]
+            ],
+            "ontology_id": "GO:0099191",
+            "ontology_label": "trans-synaptic signaling by BDNF",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1285,7 +1420,12 @@
                 "source_id": "3",
                 "notes": "KCNJ10 channel dysfunction impairs astrocyte ion buffering capacity"
               }
-            ]
+            ],
+            "ontology_id": "GO:0034705",
+            "ontology_label": "potassium channel complex",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1352,7 +1492,12 @@
                 "source_id": "55",
                 "notes": "GADD45A prominently expressed in astrocyte reactivity suggesting DNA damage checkpoints"
               }
-            ]
+            ],
+            "ontology_id": "GO:0030330",
+            "ontology_label": "DNA damage response, signal transduction by p53 class mediator",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Mitochondrial calcium handling and senescence",
@@ -1373,7 +1518,12 @@
                 "source_id": "72",
                 "notes": "CAMK2D activates NF-κB-mediated inflammatory responses including SASP production in senescent cells"
               }
-            ]
+            ],
+            "ontology_id": "GO:0051560",
+            "ontology_label": "mitochondrial calcium ion homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "SASP cytokine and chemokine production",
@@ -1388,7 +1538,12 @@
                 "source_id": "56",
                 "notes": "TNF, IL-1β, and IL-6 are SASP factors produced by senescent cells that drive paracrine tumor-promoting inflammation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0001816",
+            "ontology_label": "cytokine production",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Chromatin remodeling and transcriptional dysregulation",
@@ -1401,7 +1556,12 @@
                 "source_id": "3",
                 "notes": "ARID5 family proteins involved in chromatin accessibility changes associated with senescence and inflammation"
               }
-            ]
+            ],
+            "ontology_id": "GO:0006338",
+            "ontology_label": "chromatin remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Tumor suppressor function and differentiation inhibition",
@@ -1413,7 +1573,12 @@
                 "source_id": "3",
                 "notes": "BTG2 upregulation indicates differentiation-driving signals or stress responses"
               }
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1427,7 +1592,12 @@
                 "source_id": "56",
                 "notes": "mPTP opening through calcium accumulation represents key mechanism of senescence-associated mitochondrial dysfunction"
               }
-            ]
+            ],
+            "ontology_id": "GO:0005757",
+            "ontology_label": "mitochondrial permeability transition pore complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "ER-mitochondria contact sites (MERCS)",
@@ -1439,7 +1609,12 @@
                 "source_id": "71",
                 "notes": "MERCS mediate calcium handling and calcium accumulation driving senescence"
               }
-            ]
+            ],
+            "ontology_id": "GO:0044233",
+            "ontology_label": "mitochondria-associated endoplasmic reticulum membrane contact site",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

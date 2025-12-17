@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T20:44:35.207316",
+    "timestamp": "2025-12-17T21:42:28.373752",
     "genes": [
       "TNC",
       "CD44",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_1",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -287,7 +287,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/2247",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 292.62795972824097
+    "duration_seconds": null
   },
   "report": {
     "context": {
@@ -525,7 +525,12 @@
               "STAT3",
               "TNF",
               "CCL2"
-            ]
+            ],
+            "ontology_id": "GO:0019221",
+            "ontology_label": "cytokine-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Complement cascade activation",
@@ -547,7 +552,12 @@
               "C1R",
               "C3",
               "CFI"
-            ]
+            ],
+            "ontology_id": "GO:0006956",
+            "ontology_label": "complement activation",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Immediate early response transcription",
@@ -573,7 +583,12 @@
               "FOSL2",
               "ATF3",
               "EGR3"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Toll-like receptor signaling",
@@ -589,7 +604,12 @@
             ],
             "genes": [
               "C1R"
-            ]
+            ],
+            "ontology_id": "GO:0002224",
+            "ontology_label": "toll-like receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "atomic_cellular_components": [
@@ -608,7 +628,12 @@
             "genes": [
               "CCL2",
               "CXCL2"
-            ]
+            ],
+            "ontology_id": "GO:0070098",
+            "ontology_label": "chemokine-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -712,7 +737,12 @@
               "COL4A2",
               "COL8A1",
               "EFEMP1"
-            ]
+            ],
+            "ontology_id": "GO:0030198",
+            "ontology_label": "extracellular matrix organization",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Matrix metalloproteinase inhibition and regulation",
@@ -728,7 +758,12 @@
             ],
             "genes": [
               "TIMP3"
-            ]
+            ],
+            "ontology_id": "GO:1904464",
+            "ontology_label": "regulation of matrix metallopeptidase secretion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Synapse-associated matrix protein expression",
@@ -750,7 +785,12 @@
               "SPARC",
               "SPARCL1",
               "CLU"
-            ]
+            ],
+            "ontology_id": "GO:0099535",
+            "ontology_label": "synapse-associated extracellular matrix",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Matrix proteoglycan synthesis and modification",
@@ -768,7 +808,12 @@
               "ADAMTS9",
               "SULF1",
               "HAS2"
-            ]
+            ],
+            "ontology_id": "GO:0030166",
+            "ontology_label": "proteoglycan biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -787,7 +832,12 @@
             "genes": [
               "COL4A1",
               "COL4A2"
-            ]
+            ],
+            "ontology_id": "GO:0071711",
+            "ontology_label": "basement membrane organization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell-ECM interaction zones",
@@ -806,7 +856,12 @@
               "VCL",
               "ITGA3",
               "ITGAV"
-            ]
+            ],
+            "ontology_id": "GO:0140047",
+            "ontology_label": "specialized extracellular matrix",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -898,7 +953,12 @@
             ],
             "genes": [
               "SOD2"
-            ]
+            ],
+            "ontology_id": "GO:0004784",
+            "ontology_label": "superoxide dismutase activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Stress-responsive protein synthesis and chaperone activity",
@@ -921,7 +981,12 @@
               "GADD45A",
               "GADD45B",
               "NR4A3"
-            ]
+            ],
+            "ontology_id": "GO:0044183",
+            "ontology_label": "protein folding chaperone",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "NAD+-dependent stress adaptation",
@@ -941,7 +1006,12 @@
             ],
             "genes": [
               "NAMPT"
-            ]
+            ],
+            "ontology_id": "GO:0017136",
+            "ontology_label": "histone deacetylase activity, NAD-dependent",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -959,7 +1029,12 @@
             ],
             "genes": [
               "SOD2"
-            ]
+            ],
+            "ontology_id": "GO:0016209",
+            "ontology_label": "antioxidant activity",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1046,7 +1121,12 @@
               "CNN3",
               "TPM4",
               "VCL"
-            ]
+            ],
+            "ontology_id": "GO:0007015",
+            "ontology_label": "actin filament organization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Focal adhesion complex assembly and signaling",
@@ -1068,7 +1148,12 @@
               "VCL",
               "ACTN1",
               "NEDD9"
-            ]
+            ],
+            "ontology_id": "GO:0048041",
+            "ontology_label": "focal adhesion assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Microtubule dynamics and organization",
@@ -1085,7 +1170,12 @@
             "genes": [
               "MAP1B",
               "CLIP1"
-            ]
+            ],
+            "ontology_id": "GO:0000226",
+            "ontology_label": "microtubule cytoskeleton organization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell migration and invasion",
@@ -1110,7 +1200,12 @@
               "NEDD9",
               "ITGA3",
               "ITGAV"
-            ]
+            ],
+            "ontology_id": "GO:0016477",
+            "ontology_label": "cell migration",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1131,7 +1226,12 @@
               "VIM",
               "TPM4",
               "VCL"
-            ]
+            ],
+            "ontology_id": "GO:0097517",
+            "ontology_label": "contractile actin filament bundle",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Focal adhesion plaques",
@@ -1149,7 +1249,12 @@
               "VCL",
               "NEDD9",
               "SORBS1"
-            ]
+            ],
+            "ontology_id": "GO:0005925",
+            "ontology_label": "focal adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1243,7 +1348,12 @@
               "CD44",
               "SERPINA3",
               "CHI3L1"
-            ]
+            ],
+            "ontology_id": "GO:0048143",
+            "ontology_label": "astrocyte activation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell-cell communication and adhesion",
@@ -1260,7 +1370,12 @@
             "genes": [
               "CD44",
               "NRCAM"
-            ]
+            ],
+            "ontology_id": "GO:0007154",
+            "ontology_label": "cell communication",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Immune-regulatory protein expression",
@@ -1277,7 +1392,12 @@
             "genes": [
               "SERPINA3",
               "CHI3L1"
-            ]
+            ],
+            "ontology_id": "GO:0010467",
+            "ontology_label": "gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [],
@@ -1364,7 +1484,12 @@
             "genes": [
               "PFKFB3",
               "GLUL"
-            ]
+            ],
+            "ontology_id": "GO:0006089",
+            "ontology_label": "lactate metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Amino acid metabolism and glutamate homeostasis",
@@ -1380,7 +1505,12 @@
             ],
             "genes": [
               "GLUL"
-            ]
+            ],
+            "ontology_id": "GO:0006520",
+            "ontology_label": "amino acid metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "NAD+ biosynthesis and SIRT-dependent signaling",
@@ -1400,7 +1530,12 @@
             ],
             "genes": [
               "NAMPT"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Polyamine metabolism",
@@ -1416,7 +1551,12 @@
             ],
             "genes": [
               "SAT1"
-            ]
+            ],
+            "ontology_id": "GO:0006595",
+            "ontology_label": "polyamine metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Lipid synthesis and membrane remodeling",
@@ -1433,7 +1573,12 @@
             "genes": [
               "ELOVL5",
               "PFKFB3"
-            ]
+            ],
+            "ontology_id": "GO:0046467",
+            "ontology_label": "membrane lipid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1452,7 +1597,12 @@
             "genes": [
               "NAMPT",
               "PFKFB3"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -1538,7 +1688,12 @@
               "SPARC",
               "SPARCL1",
               "CLU"
-            ]
+            ],
+            "ontology_id": "GO:0098883",
+            "ontology_label": "synapse pruning",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Astrocyte-neuron contact and synaptic stabilization",
@@ -1555,7 +1710,12 @@
             "genes": [
               "NRCAM",
               "CLCF1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           },
           {
             "name": "Neuroprotective signaling and cytokine-mediated synaptic support",
@@ -1571,7 +1731,12 @@
             ],
             "genes": [
               "CLCF1"
-            ]
+            ],
+            "ontology_id": "GO:0019221",
+            "ontology_label": "cytokine-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1590,7 +1755,12 @@
             "genes": [
               "SPARC",
               "SPARCL1"
-            ]
+            ],
+            "ontology_id": "GO:0072534",
+            "ontology_label": "perineuronal net",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1676,7 +1846,12 @@
               "JUNB",
               "FOS",
               "FOSL2"
-            ]
+            ],
+            "ontology_id": "GO:0035976",
+            "ontology_label": "transcription factor AP-1 complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Early growth response factors in rapid transcriptional response",
@@ -1697,7 +1872,12 @@
             "genes": [
               "EGR1",
               "EGR3"
-            ]
+            ],
+            "ontology_id": "GO:0070848",
+            "ontology_label": "response to growth factor",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Integrative stress response through ATF family factors",
@@ -1713,7 +1893,12 @@
             ],
             "genes": [
               "ATF3"
-            ]
+            ],
+            "ontology_id": "GO:0140467",
+            "ontology_label": "integrated stress response signaling",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
           },
           {
             "name": "STAT-mediated cytokine signaling responses",
@@ -1734,7 +1919,12 @@
             "genes": [
               "STAT3",
               "SOCS3"
-            ]
+            ],
+            "ontology_id": "GO:0019221",
+            "ontology_label": "cytokine-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Krüppel-like factor-mediated differentiation and inflammation control",
@@ -1751,7 +1941,12 @@
             "genes": [
               "KLF6",
               "KLF7"
-            ]
+            ],
+            "ontology_id": "GO:0010803",
+            "ontology_label": "regulation of tumor necrosis factor-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1774,7 +1969,12 @@
               "FOSL2",
               "EGR1",
               "STAT3"
-            ]
+            ],
+            "ontology_id": "GO:0000976",
+            "ontology_label": "transcription cis-regulatory region binding",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1860,7 +2060,12 @@
             "genes": [
               "TGFB2",
               "TGFBR2"
-            ]
+            ],
+            "ontology_id": "GO:0007179",
+            "ontology_label": "transforming growth factor beta receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Insulin-like growth factor pathway modulation",
@@ -1876,7 +2081,12 @@
             ],
             "genes": [
               "IGFBP7"
-            ]
+            ],
+            "ontology_id": "GO:0048009",
+            "ontology_label": "insulin-like growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cell cycle checkpoint control and proliferation limitation",
@@ -1898,7 +2108,12 @@
               "GADD45A",
               "GADD45B",
               "NR4A3"
-            ]
+            ],
+            "ontology_id": "GO:0000075",
+            "ontology_label": "cell cycle checkpoint signaling",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1917,7 +2132,12 @@
             "genes": [
               "TGFBR2",
               "IGFBP7"
-            ]
+            ],
+            "ontology_id": "GO:0036454",
+            "ontology_label": "growth factor complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -2003,7 +2223,12 @@
               "ITGAV",
               "VCL",
               "NEDD9"
-            ]
+            ],
+            "ontology_id": "GO:0007229",
+            "ontology_label": "integrin-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Cadherin-mediated cell-cell adhesion",
@@ -2023,7 +2248,12 @@
             ],
             "genes": [
               "CDH11"
-            ]
+            ],
+            "ontology_id": "GO:0044331",
+            "ontology_label": "cell-cell adhesion mediated by cadherin",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           },
           {
             "name": "Hyaluronic acid-mediated adhesion and immune signaling",
@@ -2044,7 +2274,12 @@
             "genes": [
               "CD44",
               "HAS2"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
           },
           {
             "name": "Cell migration and invasion",
@@ -2063,7 +2298,12 @@
               "ARHGEF3",
               "SORBS1",
               "NEDD9"
-            ]
+            ],
+            "ontology_id": "GO:0016477",
+            "ontology_label": "cell migration",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -2085,7 +2325,12 @@
               "FN1",
               "COL4A1",
               "COL4A2"
-            ]
+            ],
+            "ontology_id": "GO:0005178",
+            "ontology_label": "integrin binding",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Focal adhesion-cytoskeleton linkage",
@@ -2103,7 +2348,12 @@
               "VCL",
               "ACTN1",
               "NEDD9"
-            ]
+            ],
+            "ontology_id": "GO:0005925",
+            "ontology_label": "focal adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -2190,7 +2440,12 @@
             ],
             "genes": [
               "PDPN"
-            ]
+            ],
+            "ontology_id": "GO:0001946",
+            "ontology_label": "lymphangiogenesis",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Immune cell recruitment and infiltration",
@@ -2217,7 +2472,12 @@
               "CXCL2",
               "IL6R",
               "IL1RAP"
-            ]
+            ],
+            "ontology_id": "GO:0006955",
+            "ontology_label": "immune response",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Immunosuppressive microenvironment establishment",
@@ -2239,7 +2499,12 @@
               "IL6R",
               "TGFB2",
               "TGFBR2"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           },
           {
             "name": "Myeloid cell infiltration and polarization",
@@ -2256,7 +2521,12 @@
             "genes": [
               "CCL2",
               "IL6R"
-            ]
+            ],
+            "ontology_id": "GO:0061515",
+            "ontology_label": "myeloid cell development",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Perivascular niche formation and vascular co-option",
@@ -2275,7 +2545,12 @@
               "COL4A1",
               "COL4A2",
               "PDPN"
-            ]
+            ],
+            "ontology_id": "UBERON:0014930",
+            "ontology_label": "perivascular space",
+            "ontology_source": "UBERON",
+            "confidence": 0.6,
+            "mapping_method": "exact_match in UBERON"
           }
         ],
         "atomic_cellular_components": [
@@ -2296,7 +2571,12 @@
               "COL4A1",
               "COL4A2",
               "PDPN"
-            ]
+            ],
+            "ontology_id": "UBERON:0014930",
+            "ontology_label": "perivascular space",
+            "ontology_source": "UBERON",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [

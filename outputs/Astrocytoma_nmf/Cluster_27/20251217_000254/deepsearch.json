@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-17T00:06:38.859207",
+    "timestamp": "2025-12-17T22:06:26.073201",
     "genes": [
       "ABCB5",
       "MOXD1",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_27",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -291,6 +291,6 @@
       "https://www.ncbi.nlm.nih.gov/gene/2670",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 224.4642298221588
+    "duration_seconds": null
   }
 }

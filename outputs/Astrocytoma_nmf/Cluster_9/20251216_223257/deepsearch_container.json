@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T22:38:56.855416",
+    "timestamp": "2025-12-17T21:55:35.063108",
     "genes": [
       "UNC5D",
       "DAB1",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_9",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -286,7 +286,7 @@
       "https://www.ncbi.nlm.nih.gov/gene/5594",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 325.9295709133148
+    "duration_seconds": null
   },
   "report": {
     "version": "1.0",
@@ -519,7 +519,12 @@
               "CACNA1D",
               "CACNA1E",
               "CAMK2B"
-            ]
+            ],
+            "ontology_id": "GO:0048167",
+            "ontology_label": "regulation of synaptic plasticity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Dopamine-dependent neuromodulation of learning",
@@ -531,7 +536,12 @@
             ],
             "genes": [
               "CACNA1C"
-            ]
+            ],
+            "ontology_id": "GO:0007612",
+            "ontology_label": "learning",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -551,7 +561,12 @@
               "CACNA1C",
               "CACNA1D",
               "CACNA1E"
-            ]
+            ],
+            "ontology_id": "GO:1990454",
+            "ontology_label": "L-type voltage-gated calcium channel complex",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -623,7 +638,12 @@
               "GRIN1",
               "GRIN2B",
               "GRIN2A"
-            ]
+            ],
+            "ontology_id": "GO:0048167",
+            "ontology_label": "regulation of synaptic plasticity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Glutamate excitotoxicity and pathological calcium overload",
@@ -640,7 +660,12 @@
             "genes": [
               "GRIN1",
               "GRIN2B"
-            ]
+            ],
+            "ontology_id": "GO:0022849",
+            "ontology_label": "glutamate-gated calcium ion channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -660,7 +685,12 @@
               "GRIN1",
               "GRIN2B",
               "GRIN2A"
-            ]
+            ],
+            "ontology_id": "GO:0017146",
+            "ontology_label": "NMDA selective glutamate receptor complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -729,7 +759,12 @@
               "GRIP1",
               "GRIP2",
               "DLG2"
-            ]
+            ],
+            "ontology_id": "GO:2000311",
+            "ontology_label": "regulation of AMPA receptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "GluA2 AMPAR endocytosis and synaptic strength decrease",
@@ -747,7 +782,12 @@
               "GRIA2",
               "DPYSL5",
               "NEDD4L"
-            ]
+            ],
+            "ontology_id": "GO:1900242",
+            "ontology_label": "regulation of synaptic vesicle endocytosis",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -770,7 +810,12 @@
               "GRIP2",
               "DLG2",
               "DLG4"
-            ]
+            ],
+            "ontology_id": "GO:0032281",
+            "ontology_label": "AMPA glutamate receptor complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -839,7 +884,12 @@
               "GABRG2",
               "GABRA2",
               "GABBR2"
-            ]
+            ],
+            "ontology_id": "GO:0098818",
+            "ontology_label": "hyperpolarization of postsynaptic membrane",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "GABAergic interneuron specification and migration",
@@ -858,7 +908,12 @@
               "RBFOX1",
               "CELF4",
               "SRRM4"
-            ]
+            ],
+            "ontology_id": "GO:0021853",
+            "ontology_label": "cerebral cortex GABAergic interneuron migration",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -878,7 +933,12 @@
               "GABRB1",
               "GABRG2",
               "GABRA2"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": "no_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -947,7 +1007,12 @@
               "GKAP",
               "SHANK2",
               "LRRC7"
-            ]
+            ],
+            "ontology_id": "GO:0097106",
+            "ontology_label": "postsynaptic density organization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Activity-dependent PSD remodeling and synaptic plasticity",
@@ -967,7 +1032,12 @@
               "GKAP",
               "SHANK2",
               "CAMK2B"
-            ]
+            ],
+            "ontology_id": "GO:0048167",
+            "ontology_label": "regulation of synaptic plasticity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -990,7 +1060,12 @@
               "SHANK2",
               "LRRC7",
               "EDIL3"
-            ]
+            ],
+            "ontology_id": "GO:0014069",
+            "ontology_label": "postsynaptic density",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1063,7 +1138,12 @@
               "KCNMA1",
               "KCNMB2",
               "DPP10"
-            ]
+            ],
+            "ontology_id": "GO:0086011",
+            "ontology_label": "membrane repolarization during action potential",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Subthreshold membrane potential regulation and M-current",
@@ -1075,7 +1155,12 @@
             ],
             "genes": [
               "KCNQ3"
-            ]
+            ],
+            "ontology_id": "GO:0042391",
+            "ontology_label": "regulation of membrane potential",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1094,7 +1179,12 @@
               "KCNJ3",
               "KCNMA1",
               "KCNMB2"
-            ]
+            ],
+            "ontology_id": "GO:0008076",
+            "ontology_label": "voltage-gated potassium channel complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1147,7 +1237,12 @@
             ],
             "genes": [
               "MYT1L"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.2,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Intermediate progenitor cell specification and self-renewal",
@@ -1163,7 +1258,12 @@
             ],
             "genes": [
               "INSM1"
-            ]
+            ],
+            "ontology_id": "GO:0002244",
+            "ontology_label": "hematopoietic progenitor cell differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "BDNF/TRKB signaling and stress response pathway regulation",
@@ -1175,7 +1275,12 @@
             ],
             "genes": [
               "RBFOX1"
-            ]
+            ],
+            "ontology_id": "GO:0048011",
+            "ontology_label": "neurotrophin TRK receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Neuronal-specific alternative splicing and exon inclusion",
@@ -1193,7 +1298,12 @@
               "SRRM4",
               "RBFOX1",
               "CELF4"
-            ]
+            ],
+            "ontology_id": "GO:0000380",
+            "ontology_label": "alternative mRNA splicing, via spliceosome",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1208,7 +1318,12 @@
             "genes": [
               "MYT1L",
               "INSM1"
-            ]
+            ],
+            "ontology_id": "GO:0021780",
+            "ontology_label": "glial cell fate specification",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "RNA splicing regulatory complex and neuronal exon inclusion machinery",
@@ -1222,7 +1337,12 @@
               "SRRM4",
               "RBFOX1",
               "CELF4"
-            ]
+            ],
+            "ontology_id": "GO:0000378",
+            "ontology_label": "RNA exon ligation",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1287,7 +1407,12 @@
             ],
             "genes": [
               "DCC"
-            ]
+            ],
+            "ontology_id": "GO:0038007",
+            "ontology_label": "netrin-activated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Slit-mediated axonal repulsion and ROBO signaling",
@@ -1300,7 +1425,12 @@
             "genes": [
               "ROBO1",
               "ROBO2"
-            ]
+            ],
+            "ontology_id": "GO:0035385",
+            "ontology_label": "Roundabout signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "synonym_match"
           },
           {
             "name": "Cell adhesion-mediated neurite outgrowth and axonal fasciculation",
@@ -1319,7 +1449,12 @@
               "CHL1",
               "NTM",
               "CNTNAP2"
-            ]
+            ],
+            "ontology_id": "GO:0007413",
+            "ontology_label": "axonal fasciculation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1333,7 +1468,12 @@
             ],
             "genes": [
               "DCC"
-            ]
+            ],
+            "ontology_id": "GO:0098802",
+            "ontology_label": "plasma membrane signaling receptor complex",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Roundabout receptor-slit signaling complex",
@@ -1346,7 +1486,12 @@
             "genes": [
               "ROBO1",
               "ROBO2"
-            ]
+            ],
+            "ontology_id": "GO:0071666",
+            "ontology_label": "Slit-Robo signaling complex",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1406,7 +1551,12 @@
             "genes": [
               "VAV3",
               "MYO16"
-            ]
+            ],
+            "ontology_id": "GO:0030041",
+            "ontology_label": "actin filament polymerization",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Tubulin-DPYSL5 interaction and microtubule dynamics",
@@ -1418,7 +1568,12 @@
             ],
             "genes": [
               "DPYSL5"
-            ]
+            ],
+            "ontology_id": "GO:0031109",
+            "ontology_label": "microtubule polymerization or depolymerization",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Dendritic spine formation and stabilization",
@@ -1433,7 +1588,12 @@
               "VAV3",
               "SHANK2",
               "LRRC7"
-            ]
+            ],
+            "ontology_id": "GO:0060996",
+            "ontology_label": "dendritic spine development",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1448,7 +1608,12 @@
             "genes": [
               "VAV3",
               "MYO16"
-            ]
+            ],
+            "ontology_id": "GO:0098938",
+            "ontology_label": "actin cytoskeleton of dendritic spine",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Microtubule-associated protein complexes in dendrites",
@@ -1460,7 +1625,12 @@
             ],
             "genes": [
               "DPYSL5"
-            ]
+            ],
+            "ontology_id": "GO:0005875",
+            "ontology_label": "microtubule associated complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1523,7 +1693,12 @@
               "NRG1",
               "NRG3",
               "ERBB4"
-            ]
+            ],
+            "ontology_id": "GO:0021853",
+            "ontology_label": "cerebral cortex GABAergic interneuron migration",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Trans-synaptic signaling and activity-dependent synaptic remodeling",
@@ -1536,7 +1711,12 @@
             "genes": [
               "NRG1",
               "ERBB4"
-            ]
+            ],
+            "ontology_id": "GO:0099537",
+            "ontology_label": "trans-synaptic signaling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Microglia phenotype conversion and immune regulation",
@@ -1549,7 +1729,12 @@
             "genes": [
               "NRG1",
               "ERBB4"
-            ]
+            ],
+            "ontology_id": "GO:0014006",
+            "ontology_label": "regulation of microglia differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1565,7 +1750,12 @@
               "NRG1",
               "NRG3",
               "ERBB4"
-            ]
+            ],
+            "ontology_id": "GO:0038141",
+            "ontology_label": "ERBB4-ERBB4 complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1619,7 +1809,12 @@
             ],
             "genes": [
               "PPP2R2C"
-            ]
+            ],
+            "ontology_id": "GO:0006470",
+            "ontology_label": "protein dephosphorylation",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Development-dependent modulation of neuronal excitability",
@@ -1632,7 +1827,12 @@
             "genes": [
               "PPP2R2C",
               "ANK3"
-            ]
+            ],
+            "ontology_id": "GO:0098815",
+            "ontology_label": "modulation of excitatory postsynaptic potential",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1646,7 +1846,12 @@
             ],
             "genes": [
               "PPP2R2C"
-            ]
+            ],
+            "ontology_id": "GO:0043194",
+            "ontology_label": "axon initial segment",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1699,7 +1904,12 @@
             ],
             "genes": [
               "INSM1"
-            ]
+            ],
+            "ontology_id": "GO:0001708",
+            "ontology_label": "cell fate specification",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Tumor cell plasticity and response to environmental pressures",
@@ -1711,7 +1921,12 @@
             ],
             "genes": [
               "INSM1"
-            ]
+            ],
+            "ontology_id": "GO:0048167",
+            "ontology_label": "regulation of synaptic plasticity",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Stress-related metabolic reprogramming",
@@ -1723,7 +1938,12 @@
             ],
             "genes": [
               "INSM1"
-            ]
+            ],
+            "ontology_id": "GO:0006950",
+            "ontology_label": "response to stress",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1737,7 +1957,12 @@
             ],
             "genes": [
               "INSM1"
-            ]
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": "GO",
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "predicted_cellular_impact": [
@@ -1792,7 +2017,12 @@
             ],
             "genes": [
               "RBFOX1"
-            ]
+            ],
+            "ontology_id": "GO:0150103",
+            "ontology_label": "reactive gliosis",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Synaptogenic and neuroprotective astrocyte function",
@@ -1804,7 +2034,12 @@
             ],
             "genes": [
               "RBFOX1"
-            ]
+            ],
+            "ontology_id": "GO:0002534",
+            "ontology_label": "cytokine production involved in inflammatory response",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Astrocyte-derived regenerative programs and neurogenesis support",
@@ -1816,7 +2051,12 @@
             ],
             "genes": [
               "RBFOX1"
-            ]
+            ],
+            "ontology_id": "GO:0048708",
+            "ontology_label": "astrocyte differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
           }
         ],
         "atomic_cellular_components": [
@@ -1830,7 +2070,12 @@
             ],
             "genes": [
               "RBFOX1"
-            ]
+            ],
+            "ontology_id": "GO:0150098",
+            "ontology_label": "glial cell-neuron signaling",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
           }
         ],
         "predicted_cellular_impact": [
@@ -1882,7 +2127,12 @@
                 "notes": "Oxidative phosphorylation dysregulation identified as key resistance mechanism in glioblastoma"
               }
             ],
-            "genes": []
+            "genes": [],
+            "ontology_id": "GO:0006119",
+            "ontology_label": "oxidative phosphorylation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Glycolytic reprogramming and Warburg effect",
@@ -1892,7 +2142,12 @@
                 "notes": "Glycolysis dysregulation contributes to glioma resistance mechanisms"
               }
             ],
-            "genes": []
+            "genes": [],
+            "ontology_id": "GO:0006096",
+            "ontology_label": "glycolytic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
           },
           {
             "name": "Metabolic plasticity enabling therapeutic resistance",
@@ -1902,7 +2157,12 @@
                 "notes": "Targeting metabolic dysregulation with HDAC inhibitors or polyphenols improves therapeutic response"
               }
             ],
-            "genes": []
+            "genes": [],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
           }
         ],
         "atomic_cellular_components": [],

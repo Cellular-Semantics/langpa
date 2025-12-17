@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "timestamp": "2025-12-16T21:21:10.249720",
+    "timestamp": "2025-12-17T21:31:39.460024",
     "genes": [
       "CARNS1",
       "MOBP",
@@ -207,7 +207,7 @@
     "provider": "perplexity",
     "model": "sonar-deep-research",
     "source": "scripts/run_deepsearch.py",
-    "preset": "perplexity-sonar-schema-embedded",
+    "preset": null,
     "template": null,
     "custom_prompt_used": false,
     "provider_override": null,
@@ -215,11 +215,11 @@
     "reasoning_effort_override": null,
     "search_recency_override": null,
     "timeout_seconds": 180,
-    "effective_provider": "perplexity",
-    "effective_model": "sonar-deep-research",
+    "effective_provider": "offline",
+    "effective_model": "offline",
     "project": "Astrocytoma_nmf",
     "query": "Cluster_8",
-    "source_tag": null,
+    "source_tag": "deepsearch",
     "resolve_citations": true,
     "citation_flags": {
       "validate": true,
@@ -251,6 +251,6 @@
       "https://www.ncbi.nlm.nih.gov/gene/65078",
       "http://json-schema.org/draft-07/schema#\","
     ],
-    "duration_seconds": 277.16770792007446
+    "duration_seconds": null
   }
 }

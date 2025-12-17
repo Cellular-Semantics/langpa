@@ -475,57 +475,57 @@ Gene expression in astrocytoma is not simply regulated at the transcriptional le
 - [51]: FUS recruits cofactors for transcriptional activation
 
 ## Bibliography
-1. 1. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
-2. 2. Available from: https://www.ncbi.nlm.nih.gov/gene/51147
-3. 3. Ren Y, Zhang Z, Lei X, Shi L. Long non-coding RNAs in cancer glycolysis and metabolism: mechanisms and translational opportunities. Cell Death &amp; Disease [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41419-025-08289-2
-4. 4. Available from: https://www.ncbi.nlm.nih.gov/gene/1277
-5. 5. Available from: https://www.ncbi.nlm.nih.gov/gene/768
-6. 6. Available from: https://www.ncbi.nlm.nih.gov/gene/5315
-7. 7. Available from: https://www.ncbi.nlm.nih.gov/gene/4312
-8. 8. Available from: https://www.ncbi.nlm.nih.gov/gene/207
-9. 9. González-Gallego J, Todorov-Völgyi K, Müller SA, Antesberger S, Todorov MI, Malik R, et al.. A fully iPS-cell-derived 3D model of the human blood–brain barrier for exploring neurovascular disease mechanisms and therapeutic interventions. Nature Neuroscience [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41593-025-02123-w
-10. 10. Available from: https://www.ncbi.nlm.nih.gov/gene/1052
-11. 11. Available from: https://www.ncbi.nlm.nih.gov/gene/7248
-12. 12. Available from: https://www.ncbi.nlm.nih.gov/gene/16835
-13. 13. Available from: https://www.ncbi.nlm.nih.gov/gene/1869
-14. 14. Berkamp S, Jungbluth L, Katranidis A, Mostafavi S, Korculanin O, Lu P-H, et al.. Structural organization of p62 filaments and the cellular ultrastructure of calcium-rich p62-enwrapped lipid droplet cargo. Nature Communications [Internet]. 2025Nov28;16(1). Available from: https://www.nature.com/articles/s41467-025-66785-7
-15. 15. Available from: https://www.ncbi.nlm.nih.gov/gene/7082
-16. 16. Almaguer-Mederos LE, Key J, Sen N-E, Canet-Pons J, Döring C, Meierhofer D, et al.. Multiomics approach identifies SERPINB1 as candidate biomarker for spinocerebellar ataxia type 2. Scientific Reports [Internet]. 2025Nov26;15(1). Available from: https://www.nature.com/articles/s41598-025-29070-7
-17. 17. Available from: https://www.ncbi.nlm.nih.gov/gene/12389
-18. 18. Available from: https://www.ncbi.nlm.nih.gov/gene/627
-19. 19. Available from: https://www.ncbi.nlm.nih.gov/gene/999
-20. 20. Available from: https://www.ncbi.nlm.nih.gov/gene/12064
-21. 21. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
-22. 22. Li W, Zhang Q, Yin H, Li Q, Liu S, Wang J, et al.. Knockdown of SUCLG2 inhibits glioblastoma proliferation and promotes apoptosis through LMNA acetylation and the mediation of H4K16la lactylation. Cell Death Discovery [Internet]. 2025Nov17;11(1). Available from: https://www.nature.com/articles/s41420-025-02856-4
-23. 23. Available from: https://www.ncbi.nlm.nih.gov/gene/6288
-24. 24. Lin LM, Febo M, Bruijnzeel AW, Phan L, Gopinath A, Seibold J, et al.. TNF-α signaling mediates the dopaminergic effects of methamphetamine by stimulating dopamine transporters and L-type Ca
+1. Available from: https://www.ncbi.nlm.nih.gov/gene/7422
+2. Available from: https://www.ncbi.nlm.nih.gov/gene/51147
+3. Ren Y, Zhang Z, Lei X, Shi L. Long non-coding RNAs in cancer glycolysis and metabolism: mechanisms and translational opportunities. Cell Death &amp; Disease [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41419-025-08289-2
+4. Available from: https://www.ncbi.nlm.nih.gov/gene/1277
+5. Available from: https://www.ncbi.nlm.nih.gov/gene/768
+6. Available from: https://www.ncbi.nlm.nih.gov/gene/5315
+7. Available from: https://www.ncbi.nlm.nih.gov/gene/4312
+8. Available from: https://www.ncbi.nlm.nih.gov/gene/207
+9. González-Gallego J, Todorov-Völgyi K, Müller SA, Antesberger S, Todorov MI, Malik R, et al.. A fully iPS-cell-derived 3D model of the human blood–brain barrier for exploring neurovascular disease mechanisms and therapeutic interventions. Nature Neuroscience [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41593-025-02123-w
+10. Available from: https://www.ncbi.nlm.nih.gov/gene/1052
+11. Available from: https://www.ncbi.nlm.nih.gov/gene/7248
+12. Available from: https://www.ncbi.nlm.nih.gov/gene/16835
+13. Available from: https://www.ncbi.nlm.nih.gov/gene/1869
+14. Berkamp S, Jungbluth L, Katranidis A, Mostafavi S, Korculanin O, Lu P-H, et al.. Structural organization of p62 filaments and the cellular ultrastructure of calcium-rich p62-enwrapped lipid droplet cargo. Nature Communications [Internet]. 2025Nov28;16(1). Available from: https://www.nature.com/articles/s41467-025-66785-7
+15. Available from: https://www.ncbi.nlm.nih.gov/gene/7082
+16. Almaguer-Mederos LE, Key J, Sen N-E, Canet-Pons J, Döring C, Meierhofer D, et al.. Multiomics approach identifies SERPINB1 as candidate biomarker for spinocerebellar ataxia type 2. Scientific Reports [Internet]. 2025Nov26;15(1). Available from: https://www.nature.com/articles/s41598-025-29070-7
+17. Available from: https://www.ncbi.nlm.nih.gov/gene/12389
+18. Available from: https://www.ncbi.nlm.nih.gov/gene/627
+19. Available from: https://www.ncbi.nlm.nih.gov/gene/999
+20. Available from: https://www.ncbi.nlm.nih.gov/gene/12064
+21. Available from: https://www.ncbi.nlm.nih.gov/gene/4790
+22. Li W, Zhang Q, Yin H, Li Q, Liu S, Wang J, et al.. Knockdown of SUCLG2 inhibits glioblastoma proliferation and promotes apoptosis through LMNA acetylation and the mediation of H4K16la lactylation. Cell Death Discovery [Internet]. 2025Nov17;11(1). Available from: https://www.nature.com/articles/s41420-025-02856-4
+23. Available from: https://www.ncbi.nlm.nih.gov/gene/6288
+24. Lin LM, Febo M, Bruijnzeel AW, Phan L, Gopinath A, Seibold J, et al.. TNF-α signaling mediates the dopaminergic effects of methamphetamine by stimulating dopamine transporters and L-type Ca
                     <sup>2+</sup>
                     channels. Science Signaling [Internet]. 2025Dec16;18(917). Available from: https://www.science.org/doi/10.1126/scisignal.ady8676
-25. 25. Available from: https://www.ncbi.nlm.nih.gov/gene/3569
-26. 26. Huang Y, Zhou C, Qu S. MIF downregulation attenuates neuroinflammation via TLR4/MyD88/TRAF6/NF-κB pathway to protect dopaminergic neurons in Parkinson’s disease model. Communications Biology [Internet]. 2025Nov18;8(1). Available from: https://www.nature.com/articles/s42003-025-08997-7
-27. 27. Available from: https://www.ncbi.nlm.nih.gov/gene/2146
-28. 28. Available from: https://www.ncbi.nlm.nih.gov/gene/18024
-29. 29. Available from: https://www.ncbi.nlm.nih.gov/clinvar/variation/VCV000012374
-30. 30. Available from: https://www.ncbi.nlm.nih.gov/gene/4204
-31. 31. Available from: https://www.ncbi.nlm.nih.gov/gene/24842
-32. 32. Available from: https://www.ncbi.nlm.nih.gov/gene/19015
-33. 33. Available from: https://www.ncbi.nlm.nih.gov/gene/19013
-34. 34. Available from: https://www.ncbi.nlm.nih.gov/gene/283131
-35. 35. Available from: https://www.ncbi.nlm.nih.gov/gene/406992
-36. 36. Available from: https://www.ncbi.nlm.nih.gov/gene/407050
-37. 37. Wang J, Wang H, Wang T, Zhang P, Cao Y, Yu T. The protective role of nuclear Heme oxygenase-1 in blood-spinal cord barrier after hypoxia in vitro. Scientific Reports [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41598-025-30888-4
-38. 38. Available from: https://www.ncbi.nlm.nih.gov/gene/7465
-39. 39. Available from: https://www.ncbi.nlm.nih.gov/gene/545
-40. 40. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
-41. 41. Liu Z, Lim S-H, Jung S. Targeting tumor metabolic flexibility enhances radiotherapeutic efficacy via mitochondrial complex I Inhibition in an intracranial S180 sarcoma mouse model. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-29326-2
-42. 42. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
-43. 43. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
-44. 44. Chinopoulos C. Catabolic rewiring in cancer impacts dietary interventions. Communications Biology [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s42003-025-09333-9
-45. 45. Available from: https://www.ncbi.nlm.nih.gov/gene/8842
-46. 46. Wang D, Ritz C, Luo Y, Suresh A, Pierce A, Veo B, et al.. Transcriptional regulation of protein synthesis by mediator kinase represents a therapeutic vulnerability in MYC-driven medulloblastoma. Nature Communications [Internet]. 2025Dec16;16(1). Available from: https://www.nature.com/articles/s41467-025-64937-3
-47. 47. Available from: https://www.ncbi.nlm.nih.gov/gene/1649
-48. 48. Available from: https://www.ncbi.nlm.nih.gov/gene/2521
-49. 49. Available from: https://www.ncbi.nlm.nih.gov/gene/3309
-50. 50. Yao X, Chen R, Zhu J, Hou R, Xiang S, Jia T, et al.. Downregulation of integrin α3 in ADHD mirrored in mutant mouse model by dopamine-dependent hippocampal AMPAR expression. Molecular Psychiatry [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41380-025-03399-x
-51. 51. Available from: https://www.ncbi.nlm.nih.gov/gene/3845
-52. 52. Available from: http://json-schema.org/draft-07/schema#",
+25. Available from: https://www.ncbi.nlm.nih.gov/gene/3569
+26. Huang Y, Zhou C, Qu S. MIF downregulation attenuates neuroinflammation via TLR4/MyD88/TRAF6/NF-κB pathway to protect dopaminergic neurons in Parkinson’s disease model. Communications Biology [Internet]. 2025Nov18;8(1). Available from: https://www.nature.com/articles/s42003-025-08997-7
+27. Available from: https://www.ncbi.nlm.nih.gov/gene/2146
+28. Available from: https://www.ncbi.nlm.nih.gov/gene/18024
+29. Available from: https://www.ncbi.nlm.nih.gov/clinvar/variation/VCV000012374
+30. Available from: https://www.ncbi.nlm.nih.gov/gene/4204
+31. Available from: https://www.ncbi.nlm.nih.gov/gene/24842
+32. Available from: https://www.ncbi.nlm.nih.gov/gene/19015
+33. Available from: https://www.ncbi.nlm.nih.gov/gene/19013
+34. Available from: https://www.ncbi.nlm.nih.gov/gene/283131
+35. Available from: https://www.ncbi.nlm.nih.gov/gene/406992
+36. Available from: https://www.ncbi.nlm.nih.gov/gene/407050
+37. Wang J, Wang H, Wang T, Zhang P, Cao Y, Yu T. The protective role of nuclear Heme oxygenase-1 in blood-spinal cord barrier after hypoxia in vitro. Scientific Reports [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41598-025-30888-4
+38. Available from: https://www.ncbi.nlm.nih.gov/gene/7465
+39. Available from: https://www.ncbi.nlm.nih.gov/gene/545
+40. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3
+41. Liu Z, Lim S-H, Jung S. Targeting tumor metabolic flexibility enhances radiotherapeutic efficacy via mitochondrial complex I Inhibition in an intracranial S180 sarcoma mouse model. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-29326-2
+42. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5
+43. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w
+44. Chinopoulos C. Catabolic rewiring in cancer impacts dietary interventions. Communications Biology [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s42003-025-09333-9
+45. Available from: https://www.ncbi.nlm.nih.gov/gene/8842
+46. Wang D, Ritz C, Luo Y, Suresh A, Pierce A, Veo B, et al.. Transcriptional regulation of protein synthesis by mediator kinase represents a therapeutic vulnerability in MYC-driven medulloblastoma. Nature Communications [Internet]. 2025Dec16;16(1). Available from: https://www.nature.com/articles/s41467-025-64937-3
+47. Available from: https://www.ncbi.nlm.nih.gov/gene/1649
+48. Available from: https://www.ncbi.nlm.nih.gov/gene/2521
+49. Available from: https://www.ncbi.nlm.nih.gov/gene/3309
+50. Yao X, Chen R, Zhu J, Hou R, Xiang S, Jia T, et al.. Downregulation of integrin α3 in ADHD mirrored in mutant mouse model by dopamine-dependent hippocampal AMPAR expression. Molecular Psychiatry [Internet]. 2025Dec15;. Available from: https://www.nature.com/articles/s41380-025-03399-x
+51. Available from: https://www.ncbi.nlm.nih.gov/gene/3845
+52. Available from: http://json-schema.org/draft-07/schema#",
