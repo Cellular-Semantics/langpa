@@ -1,0 +1,95 @@
+query,run,program_name
+0_Gliosis,20251126_125238,AXL-Mediated Mesenchymal Programming
+0_Gliosis,20251126_125238,Extracellular Matrix Composition and Immunomodulation
+0_Gliosis,20251126_125238,Immune Checkpoint and T Cell Suppression
+0_Gliosis,20251126_125238,Innate Immune Pattern Recognition
+0_Gliosis,20251126_125238,MET-Driven Stemness and Invasiveness
+0_Gliosis,20251126_125238,Stemness Maintenance and Self-Renewal
+0_Gliosis,20251126_125238,Tryptophan-Pathway Immune Evasion
+0_Gliosis,20251126_125238,VEGFA-Driven Tumor Angiogenesis
+0_Gliosis,20251126_125238,mRNA-Based Mesenchymal Signaling
+10_AC_gliosis_like_2,20251126_132637,Angiogenesis and Vascular Remodeling
+10_AC_gliosis_like_2,20251126_132637,Hypoxia Response and Metabolic Adaptation
+10_AC_gliosis_like_2,20251126_132637,Wnt/β-catenin Pathway Activation
+11_OPC_like_1,20251126_133059,Cell cycle progression and proliferation
+11_OPC_like_1,20251126_133059,Developmental transcriptional regulation and cell fate specification
+11_OPC_like_1,20251126_133059,Integrin-mediated cell adhesion and migration
+11_OPC_like_1,20251126_133059,Lin28-let-7 axis regulating stemness and differentiation
+11_OPC_like_1,20251126_133059,Synaptic adhesion and neuronal crosstalk
+12_NPC_neuronal_like_3,20251126_133359,Extracellular Matrix Remodeling & Cell Migration
+12_NPC_neuronal_like_3,20251126_133359,G-Protein-Coupled Receptor & Neuroendocrine Signaling
+12_NPC_neuronal_like_3,20251126_133359,Ion Channel & Electrolyte Homeostasis Dysregulation
+12_NPC_neuronal_like_3,20251126_133359,Metabolic Reprogramming & Warburg Effect Activation
+12_NPC_neuronal_like_3,20251126_133359,Retinoic Acid & MAPK-CaMKII Signaling Integration
+12_NPC_neuronal_like_3,20251126_133359,Synaptic Plasticity & Dendritic Maturation
+1_OPC_AC_like_1,20251126_125736,Calcium-dependent Cell Adhesion
+1_OPC_AC_like_1,20251126_125736,Ganglioside and Glycosylation-based Signaling
+1_OPC_AC_like_1,20251126_125736,Heparan Sulfate Proteoglycan Signaling
+1_OPC_AC_like_1,20251126_125736,Histamine Receptor Signaling
+1_OPC_AC_like_1,20251126_125736,Integrin-mediated Migration and EMT
+1_OPC_AC_like_1,20251126_125736,Long Non-Coding RNA Regulatory Networks
+1_OPC_AC_like_1,20251126_125736,Metabolic Reprogramming and Redox Homeostasis
+1_OPC_AC_like_1,20251126_125736,N-cadherin-dependent Context-specific Migration
+1_OPC_AC_like_1,20251126_125736,Neural-like Developmental Signaling
+1_OPC_AC_like_1,20251126_125736,PI3K/AKT Signaling Modulation
+1_OPC_AC_like_1,20251126_125736,Transcriptional Co-regulator Activity
+2_NPC_neuronal_like_1,20251126_130034,BMP-Mediated Developmental Signaling
+2_NPC_neuronal_like_1,20251126_130034,IL-6-Mediated Immunosuppression
+2_NPC_neuronal_like_1,20251126_130034,Neurotransmitter Signaling and Synaptic Communication
+2_NPC_neuronal_like_1,20251126_130034,Tumor-Suppressive Chromatin Remodeling
+3_NPC_neuronal_like_2,20251126_130035,Axon Guidance and Repulsive Signaling
+3_NPC_neuronal_like_2,20251126_130035,Glioma Stem Cell Maintenance and Stemness
+3_NPC_neuronal_like_2,20251126_130035,Metabolic Reprogramming and Lipid Synthesis
+3_NPC_neuronal_like_2,20251126_130035,RNA Binding and Post-transcriptional Regulation
+3_NPC_neuronal_like_2,20251126_130035,Spatial Gene Expression Heterogeneity
+5_AC_neuronal_like,20251126_130844,Angiogenesis and Vascular Development
+5_AC_neuronal_like,20251126_130844,Epithelial-Mesenchymal Transition and Invasion
+5_AC_neuronal_like,20251126_130844,GTPase Activation and Cytoskeletal Remodeling
+5_AC_neuronal_like,20251126_130844,Hypoxia-Responsive Transcription
+5_AC_neuronal_like,20251126_130844,Lipid Metabolism and Signaling
+5_AC_neuronal_like,20251126_130844,Receptor Tyrosine Kinase Signaling
+5_AC_neuronal_like,20251126_130844,Wnt/β-Catenin Self-Renewal Signaling
+0_Gliosis,20251126_135814,Angiogenesis and Vascular Signaling
+0_Gliosis,20251126_135814,Cellularity and Structural Organization
+0_Gliosis,20251126_135814,DNA Damage Response and Genomic Stability
+0_Gliosis,20251126_135814,Extracellular Matrix Proteolysis
+0_Gliosis,20251126_135814,Glioma Stem Cell Maintenance
+0_Gliosis,20251126_135814,Growth Factor and Receptor Signaling
+0_Gliosis,20251126_135814,Hypoxia Adaptation and Response
+0_Gliosis,20251126_135814,Immune Evasion and Checkpoint Activation
+0_Gliosis,20251126_135814,Inflammatory Lipid Mediator Signaling
+0_Gliosis,20251126_135814,Macrophage/Microglia Reprogramming
+0_Gliosis,20251126_135814,Metabolic Adaptation and Nutrient Sensing
+0_Gliosis,20251126_135814,Transcriptional Master Regulation
+10_AC_gliosis_like_2,20251126_144326,Cuproptosis and Metabolic Reprogramming
+10_AC_gliosis_like_2,20251126_144326,Integrin-Mediated Cell Invasion
+10_AC_gliosis_like_2,20251126_144326,Tetraspanin-Mediated Cell Adhesion
+10_AC_gliosis_like_2,20251126_144326,Transcriptional Regulation of Differentiation
+11_OPC_like_1,20251126_144843,Cell Migration and Invasion Machinery
+11_OPC_like_1,20251126_144843,Endosomal Recycling and Receptor Trafficking
+11_OPC_like_1,20251126_144843,Mesenchymal Transition and Invasion Program
+11_OPC_like_1,20251126_144843,Proteolytic Processing and Proteasomal Activity
+11_OPC_like_1,20251126_144843,Signal Transduction Modulation and cAMP/Calcium Signaling
+12_NPC_neuronal_like_3,20251126_145428,GABAergic inhibitory neurotransmission
+12_NPC_neuronal_like_3,20251126_145428,Long non-coding RNA and RNA processing
+12_NPC_neuronal_like_3,20251126_145428,Neuronal activity-sensing signaling cascade
+12_NPC_neuronal_like_3,20251126_145428,Thrombospondin-mediated synaptogenesis and immune regulation
+1_OPC_AC_like_1,20251126_140224,Cell-Cell Adhesion and Migration Plasticity
+1_OPC_AC_like_1,20251126_140224,Cytoskeletal Dynamics and Cell Motility
+1_OPC_AC_like_1,20251126_140224,Ferroptosis Suppression and Redox Defense
+1_OPC_AC_like_1,20251126_140224,Metabolic Reprogramming for Proliferation
+1_OPC_AC_like_1,20251126_140224,Neural Guidance Cues and Developmental Plasticity
+1_OPC_AC_like_1,20251126_140224,Signaling Pathway Integration and Crosstalk
+2_NPC_neuronal_like_1,20251126_140831,Cell Adhesion Molecule-Mediated Neural Development and Migration
+2_NPC_neuronal_like_1,20251126_140831,GABAergic Neuron-to-Glioma Synaptic Communication
+2_NPC_neuronal_like_1,20251126_140831,Glioma Stem Cell Self-Renewal and Differentiation
+2_NPC_neuronal_like_1,20251126_140831,Immune Evasion and T-Cell Exhaustion
+2_NPC_neuronal_like_1,20251126_140831,Metabolic Adaptation and Nutrient Uptake
+3_NPC_neuronal_like_2,20251126_141307,Cyclic Nucleotide Signaling and Cell Motility
+3_NPC_neuronal_like_2,20251126_141307,Neuropeptide and Neurosecretion Pathways
+3_NPC_neuronal_like_2,20251126_141307,RNA-Binding and Post-Transcriptional Control
+3_NPC_neuronal_like_2,20251126_141307,Synaptic Development and Adhesion
+5_AC_neuronal_like,20251126_142015,Cholinergic immune modulation
+5_AC_neuronal_like,20251126_142015,DOCK protein-mediated immune synapse formation
+5_AC_neuronal_like,20251126_142015,Long non-coding RNA regulation of GBM processes
+5_AC_neuronal_like,20251126_142015,Wnt/β-catenin pathway and stemness maintenance
