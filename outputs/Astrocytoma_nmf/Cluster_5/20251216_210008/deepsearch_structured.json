@@ -1,0 +1,1822 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T21:04:31.714682",
+    "genes": [
+      "ID4",
+      "DOCK7",
+      "LIFR",
+      "ANKFN1",
+      "GLIS3",
+      "ARHGEF26-AS1",
+      "DCLK1",
+      "MIR99AHG",
+      "ADCY2",
+      "SORBS1",
+      "RNF19A",
+      "PARD3B",
+      "GRAMD2B",
+      "DCLK2",
+      "GFAP",
+      "WLS",
+      "ABLIM1",
+      "TNIK",
+      "AC093535.1",
+      "BMPR1B",
+      "NTRK2",
+      "RFX4",
+      "PACRG",
+      "NKAIN3",
+      "LHFPL6",
+      "AHCYL1",
+      "LRIG1",
+      "BBOX1",
+      "VCL",
+      "EDNRB",
+      "SPARCL1",
+      "DTNA",
+      "ASTN2",
+      "DNAH7",
+      "ANOS1",
+      "LINC01088",
+      "PTCHD1-AS",
+      "SYTL4",
+      "GALNT15",
+      "AC073941.1",
+      "AC012405.1",
+      "ARAP2",
+      "PLEKHA5",
+      "WDR49",
+      "ID3",
+      "RGMA",
+      "RETREG1",
+      "GNG12-AS1",
+      "DAPK1",
+      "KCNN3",
+      "CLU",
+      "PITPNC1",
+      "COL28A1",
+      "CD99",
+      "ADGRV1",
+      "RASSF4",
+      "APOE",
+      "AC103923.1",
+      "TMEM232",
+      "SSBP2",
+      "LIMCH1",
+      "ITPR2",
+      "PPP2R2B",
+      "NT5DC3",
+      "NEBL",
+      "AC068587.4",
+      "RTN1",
+      "SEMA6A",
+      "NOS1AP",
+      "AQP4-AS1",
+      "GAREM1",
+      "EEPD1",
+      "EFEMP1",
+      "OSBPL11",
+      "FRMD5",
+      "PLTP",
+      "SLC4A4",
+      "LINC01138",
+      "TLN2",
+      "TPST1",
+      "CD44",
+      "CFAP54",
+      "IL33",
+      "FMN2",
+      "LINC01117",
+      "MASP1",
+      "NRG3",
+      "CNN3",
+      "SPON1",
+      "ADCY8",
+      "VIM",
+      "TENM4",
+      "AC091826.2",
+      "AC234582.1",
+      "AC091078.1",
+      "AC079385.1",
+      "LINC01748",
+      "FAM135B",
+      "AC092902.4",
+      "DPY19L1",
+      "AC092924.2",
+      "STON2",
+      "C8ORF34",
+      "CACHD1",
+      "SPAG1",
+      "KANK1",
+      "PRRX1",
+      "LINC00882",
+      "MAP3K5",
+      "C1ORF61",
+      "CDH11",
+      "ARHGEF26",
+      "LIX1",
+      "BMP2K",
+      "TIMP3",
+      "ALDH1L1",
+      "ARHGEF4",
+      "BCL2",
+      "KCNQ5",
+      "OBI1-AS1",
+      "IFI44L",
+      "YAP1",
+      "RFX2",
+      "NCKAP5",
+      "NAA11",
+      "VWA3B",
+      "FADS2",
+      "DMD",
+      "SLC16A9",
+      "SLC1A3",
+      "FAM189A2",
+      "MMD2",
+      "CTDSPL",
+      "PLSCR4",
+      "CSGALNACT1",
+      "PTPRT",
+      "SERPINI2",
+      "SNX31",
+      "TMTC2",
+      "PDE8B",
+      "ROBO2",
+      "IMMP2L",
+      "FIGN",
+      "ITGB4",
+      "GABRB1",
+      "AKAP6",
+      "ABCA1",
+      "FAT3",
+      "FOXO1",
+      "SCARA3",
+      "GINS3",
+      "GALNT17",
+      "LINC00836",
+      "FAM182B",
+      "GJA1",
+      "RMST",
+      "GPM6A",
+      "ITPKB",
+      "SLC14A1",
+      "ELL2",
+      "CCDC80",
+      "CFAP43",
+      "PRUNE2",
+      "CHST9",
+      "PSAP",
+      "IQGAP2",
+      "SLCO1C1",
+      "PTPRG",
+      "CCDC136",
+      "GRIK1",
+      "CADPS",
+      "HRH1",
+      "SLC24A4",
+      "SORL1",
+      "DNAJC1",
+      "HES4",
+      "DOK5",
+      "ATP1B2",
+      "LINC00609",
+      "ADCYAP1R1",
+      "NPAS3",
+      "NFIA-AS2",
+      "AC026316.5",
+      "PAM",
+      "PAPPA",
+      "AC099792.1",
+      "AC124254.2",
+      "PARD3",
+      "LYST",
+      "TTYH2",
+      "MAN2A1",
+      "MARCH3",
+      "TNC",
+      "PDE8A",
+      "AL022068.1",
+      "PCDH9",
+      "PLCE1",
+      "AC093305.1",
+      "ZFP36L2",
+      "LINC01094"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_5/20251216_210008/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_5",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "context": {
+      "cell_type": "Astrocytes",
+      "disease": "Astrocytoma",
+      "tissue": "Central nervous system (brain)"
+    },
+    "input_genes": [
+      "ID4",
+      "DOCK7",
+      "LIFR",
+      "ANKFN1",
+      "GLIS3",
+      "ARHGEF26-AS1",
+      "DCLK1",
+      "MIR99AHG",
+      "ADCY2",
+      "SORBS1",
+      "RNF19A",
+      "PARD3B",
+      "GRAMD2B",
+      "DCLK2",
+      "GFAP",
+      "WLS",
+      "ABLIM1",
+      "TNIK",
+      "AC093535.1",
+      "BMPR1B",
+      "NTRK2",
+      "RFX4",
+      "PACRG",
+      "NKAIN3",
+      "LHFPL6",
+      "AHCYL1",
+      "LRIG1",
+      "BBOX1",
+      "VCL",
+      "EDNRB",
+      "SPARCL1",
+      "DTNA",
+      "ASTN2",
+      "DNAH7",
+      "ANOS1",
+      "LINC01088",
+      "PTCHD1-AS",
+      "SYTL4",
+      "GALNT15",
+      "AC073941.1",
+      "AC012405.1",
+      "ARAP2",
+      "PLEKHA5",
+      "WDR49",
+      "ID3",
+      "RGMA",
+      "RETREG1",
+      "GNG12-AS1",
+      "DAPK1",
+      "KCNN3",
+      "CLU",
+      "PITPNC1",
+      "COL28A1",
+      "CD99",
+      "ADGRV1",
+      "RASSF4",
+      "APOE",
+      "AC103923.1",
+      "TMEM232",
+      "SSBP2",
+      "LIMCH1",
+      "ITPR2",
+      "PPP2R2B",
+      "NT5DC3",
+      "NEBL",
+      "AC068587.4",
+      "RTN1",
+      "SEMA6A",
+      "NOS1AP",
+      "AQP4-AS1",
+      "GAREM1",
+      "EEPD1",
+      "EFEMP1",
+      "OSBPL11",
+      "FRMD5",
+      "PLTP",
+      "SLC4A4",
+      "LINC01138",
+      "TLN2",
+      "TPST1",
+      "CD44",
+      "CFAP54",
+      "IL33",
+      "FMN2",
+      "LINC01117",
+      "MASP1",
+      "NRG3",
+      "CNN3",
+      "SPON1",
+      "ADCY8",
+      "VIM",
+      "TENM4",
+      "AC091826.2",
+      "AC234582.1",
+      "AC091078.1",
+      "AC079385.1",
+      "LINC01748",
+      "FAM135B",
+      "AC092902.4",
+      "DPY19L1",
+      "AC092924.2",
+      "STON2",
+      "C8ORF34",
+      "CACHD1",
+      "SPAG1",
+      "KANK1",
+      "PRRX1",
+      "LINC00882",
+      "MAP3K5",
+      "C1ORF61",
+      "CDH11",
+      "ARHGEF26",
+      "LIX1",
+      "BMP2K",
+      "TIMP3",
+      "ALDH1L1",
+      "ARHGEF4",
+      "BCL2",
+      "KCNQ5",
+      "OBI1-AS1",
+      "IFI44L",
+      "YAP1",
+      "RFX2",
+      "NCKAP5",
+      "NAA11",
+      "VWA3B",
+      "FADS2",
+      "DMD",
+      "SLC16A9",
+      "SLC1A3",
+      "FAM189A2",
+      "MMD2",
+      "CTDSPL",
+      "PLSCR4",
+      "CSGALNACT1",
+      "PTPRT",
+      "SERPINI2",
+      "SNX31",
+      "TMTC2",
+      "PDE8B",
+      "ROBO2",
+      "IMMP2L",
+      "FIGN",
+      "ITGB4",
+      "GABRB1",
+      "AKAP6",
+      "ABCA1",
+      "FAT3",
+      "FOXO1",
+      "SCARA3",
+      "GINS3",
+      "GALNT17",
+      "LINC00836",
+      "FAM182B",
+      "GJA1",
+      "RMST",
+      "GPM6A",
+      "ITPKB",
+      "SLC14A1",
+      "ELL2",
+      "CCDC80",
+      "CFAP43",
+      "PRUNE2",
+      "CHST9",
+      "PSAP",
+      "IQGAP2",
+      "SLCO1C1",
+      "PTPRG",
+      "CCDC136",
+      "GRIK1",
+      "CADPS",
+      "HRH1",
+      "SLC24A4",
+      "SORL1",
+      "DNAJC1",
+      "HES4",
+      "DOK5",
+      "ATP1B2",
+      "LINC00609",
+      "ADCYAP1R1",
+      "NPAS3",
+      "NFIA-AS2",
+      "AC026316.5",
+      "PAM",
+      "PAPPA",
+      "AC099792.1",
+      "AC124254.2",
+      "PARD3",
+      "LYST",
+      "TTYH2",
+      "MAN2A1",
+      "MARCH3",
+      "TNC",
+      "PDE8A",
+      "AL022068.1",
+      "PCDH9",
+      "PLCE1",
+      "AC093305.1",
+      "ZFP36L2",
+      "LINC01094"
+    ],
+    "programs": [
+      {
+        "program_name": "Astrocyte Identity and Maturation",
+        "description": "Core program governing astrocytic lineage determination, differentiation, and maintenance of astrocyte-specific cellular identity through expression of canonical astrocyte markers and transcriptional regulators of astrocyte development. Dysregulation of this program in astrocytomas leads to altered differentiation capacity, acquisition of intermediate phenotypes, and expansion of progenitor-like tumor cells.",
+        "atomic_biological_processes": [
+          {
+            "name": "Astrocyte differentiation and lineage commitment",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "GFAP functions as structural constituent of cytoskeleton and regulates glial cell proliferation and autophagy"
+              },
+              {
+                "source_id": "6",
+                "notes": "ALDH1L1 serves as complementary astrocyte marker in lineage tracing studies"
+              },
+              {
+                "source_id": "3",
+                "notes": "ASCL1-mediated astrocyte-to-neuron conversion reveals fundamental plasticity of astrocytic lineage"
+              }
+            ],
+            "genes": [
+              "GFAP",
+              "ALDH1L1",
+              "VIM",
+              "FOXO1",
+              "HES4"
+            ]
+          },
+          {
+            "name": "Transcriptional regulation of astrocyte fate",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "FOXO1 controls cell fate specification and metabolic homeostasis"
+              },
+              {
+                "source_id": "25",
+                "notes": "HES4 functions as downstream effector of Notch signaling promoting astrocyte proliferation"
+              }
+            ],
+            "genes": [
+              "FOXO1",
+              "RFX2",
+              "RFX4",
+              "NPAS3",
+              "HES4"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Intermediate filament cytoskeleton",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "GFAP is structural constituent of cytoskeleton"
+              }
+            ],
+            "genes": [
+              "GFAP",
+              "VIM"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Shift toward immature, proliferative astrocytic phenotypes",
+          "Enhanced stemness characteristics and reduced terminal differentiation",
+          "Dysregulation of developmental plasticity programs",
+          "Acquisition of hybrid phenotypes combining astrocyte and progenitor features"
+        ],
+        "evidence_summary": "GFAP and ALDH1L1 serve as canonical astrocyte markers whose dysregulation fundamentally compromises normal astrocyte identity. Recent research demonstrates that astrocytes retain substantial developmental plasticity and can be reprogrammed toward neuronal fates. In astrocytomas, dysregulation of lineage-determining transcription factors including FOXO1, RFX proteins, and HES4 predicts exploitation of these developmental plasticity programs to maintain tumor-initiating populations.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "6",
+            "notes": "Comprehensive characterization of astrocyte transcriptional programs across injury phases"
+          },
+          {
+            "source_id": "13",
+            "notes": "GFAP gene description and function"
+          },
+          {
+            "source_id": "3",
+            "notes": "MicroRNA-mediated neuronal detargeting and astrocyte-to-neuron conversion studies"
+          }
+        ],
+        "supporting_genes": [
+          "GFAP",
+          "ALDH1L1",
+          "VIM",
+          "FOXO1",
+          "RFX2",
+          "RFX4",
+          "NPAS3",
+          "HES4"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SOX9",
+            "SOX10",
+            "OLIG2",
+            "NFIA",
+            "NFIB"
+          ],
+          "citations": [
+            {
+              "source_id": "6",
+              "notes": "SOX transcription factors regulate astrocyte differentiation and identity"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Metabolic Reprogramming and Lipid Homeostasis",
+        "description": "Comprehensive dysregulation of lipid metabolism, apolipoprotein signaling, and fatty acid synthesis that promotes tumor metabolic flexibility, chemotherapy resistance, and enhanced biosynthetic capacity. This program enables astrocytomas to utilize diverse nutrient sources and activate DNA repair pathways despite exposure to genotoxic stress.",
+        "atomic_biological_processes": [
+          {
+            "name": "Apolipoprotein and lipid transport",
+            "citations": [
+              {
+                "source_id": "28",
+                "notes": "APOE-mediated lipid uptake through SCARB1 activates homologous recombination repair and confers chemoresistance"
+              },
+              {
+                "source_id": "64",
+                "notes": "ABCA1 dysfunction in reactive astrocytes impairs cholesterol efflux"
+              }
+            ],
+            "genes": [
+              "APOE",
+              "ABCA1",
+              "PLTP",
+              "SCARA3"
+            ]
+          },
+          {
+            "name": "Polyunsaturated fatty acid synthesis",
+            "citations": [
+              {
+                "source_id": "28",
+                "notes": "Lipid metabolism reprogramming supports tumor progression and treatment resistance"
+              }
+            ],
+            "genes": [
+              "FADS2"
+            ]
+          },
+          {
+            "name": "Cyclic AMP signaling and metabolic adaptation",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "ADCY signaling regulates metabolic gene expression in response to nutrient availability"
+              }
+            ],
+            "genes": [
+              "ADCY2",
+              "ADCY8",
+              "NOS1AP"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Lipid droplets and lipid storage compartments",
+            "citations": [
+              {
+                "source_id": "28",
+                "notes": "Enhanced lipid accumulation in tumor cells supports biosynthesis and signaling"
+              }
+            ],
+            "genes": [
+              "APOE",
+              "ABCA1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced chemotherapy resistance through DNA repair pathway activation",
+          "Metabolic flexibility enabling survival in diverse microenvironmental conditions",
+          "Increased biosynthetic capacity for rapid tumor cell proliferation",
+          "Generation of signaling lipids promoting pro-tumoral inflammatory responses"
+        ],
+        "evidence_summary": "Recent 2025 research demonstrates that tumor-derived APOE promotes chemoresistance through SCARB1-mediated lipid uptake and activation of homologous recombination repair via the β-catenin-BRCA1/2 axis. ABCA1 dysfunction in reactive astrocytes leads to lipid accumulation and impaired cholesterol efflux. Coordinate dysregulation of lipid transporters, fatty acid desaturases, and cAMP signaling molecules predicts fundamental rewiring of astrocytoma lipid metabolism toward enhanced accumulation and utilization for both structural support and signaling lipid generation.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "28",
+            "notes": "Tumor-derived apolipoprotein E confers resistance to chemotherapy through lipid metabolism reprogramming"
+          },
+          {
+            "source_id": "64",
+            "notes": "ABCA1 dysfunction in reactive astrocytes and cholesterol efflux impairment"
+          }
+        ],
+        "supporting_genes": [
+          "APOE",
+          "ABCA1",
+          "PLTP",
+          "FADS2",
+          "ADCY2",
+          "ADCY8",
+          "NOS1AP",
+          "SCARA3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SREBP1",
+            "SREBP2",
+            "FASN",
+            "ACC1",
+            "CHPT1"
+          ],
+          "citations": [
+            {
+              "source_id": "28",
+              "notes": "Sterol regulatory element-binding proteins control lipid synthesis gene expression"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "NTRK2 Receptor Tyrosine Kinase Signaling",
+        "description": "Dysregulation of NTRK2-mediated neurotrophic signaling through gene fusions and altered receptor activity, leading to constitutive activation of MAPK and PI3K/AKT survival pathways. This program drives tumor proliferation, altered differentiation, and survival signaling independent of BDNF ligand availability.",
+        "atomic_biological_processes": [
+          {
+            "name": "NTRK2-mediated receptor tyrosine kinase signaling",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "TRIM24::NTRK2 fusion in astrocytomas displays oncogenic capacity activating MAPK and PI3K pathways"
+              },
+              {
+                "source_id": "26",
+                "notes": "BDNF/TrkB signaling activates Akt and Erk1/2 phosphorylation supporting pericyte homeostasis"
+              }
+            ],
+            "genes": [
+              "NTRK2"
+            ]
+          },
+          {
+            "name": "Neurotrophic factor-mediated cell survival",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "BDNF regulates pericyte and vascular homeostasis through TrkB signaling"
+              },
+              {
+                "source_id": "6",
+                "notes": "BDNF/TrkB pathway dysregulation in chronic pathological states"
+              }
+            ],
+            "genes": [
+              "NTRK2"
+            ]
+          },
+          {
+            "name": "Neuregulin and ErbB signaling",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "Neuregulin signaling regulates neonatal muscle growth and nervous system development via ErbB4"
+              }
+            ],
+            "genes": [
+              "NRG3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Neurotrophic receptor complexes",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "NTRK2 gene fusions generate constitutively active receptor tyrosine kinases"
+              }
+            ],
+            "genes": [
+              "NTRK2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Constitutive activation of MAPK and PI3K/AKT survival pathways",
+          "Enhanced proliferation independent of growth factor ligands",
+          "Resistance to apoptotic signals and enhanced cell survival",
+          "Acquired resistance through activation of alternative oncogenic drivers"
+        ],
+        "evidence_summary": "Recent molecular characterization of astrocytomas identified TRIM24::NTRK2 fusion genes that generate constitutively active receptors independent of BDNF ligand availability. These fusions activate both MAPK and PI3K/AKT pathways, driving tumor proliferation. Patient-derived cells from NTRK2-fusion astrocytomas initially respond to TRK inhibitors but develop resistance through acquisition of additional oncogenic drivers including FGFR2, RUNX1T1, and VEGFR signaling. This suggests NTRK2 represents one of multiple cooperating pathways in astrocytoma biology.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "21",
+            "notes": "Comprehensive characterization and targeted treatment of TRIM24::NTRK2 astrocytomas"
+          },
+          {
+            "source_id": "26",
+            "notes": "BDNF supports pericyte and vascular homeostasis through TrkB signaling"
+          }
+        ],
+        "supporting_genes": [
+          "NTRK2",
+          "NRG3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MAPK1",
+            "MAPK3",
+            "PIK3CA",
+            "AKT1",
+            "BDNF"
+          ],
+          "citations": [
+            {
+              "source_id": "21",
+              "notes": "MAPK and PI3K/AKT pathways downstream of NTRK2 signaling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cytoskeletal Organization and Focal Adhesion",
+        "description": "Coordinated dysregulation of focal adhesion proteins, integrin signaling components, and actin-binding proteins that reduce cell-matrix adhesion strength, facilitate cell migration and invasion, and enable remodeling of cellular morphology. This program predicts enhanced tumor cell invasiveness and metastatic potential.",
+        "atomic_biological_processes": [
+          {
+            "name": "Focal adhesion assembly and remodeling",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "Vinculin couples integrin signaling to actin cytoskeletal dynamics"
+              }
+            ],
+            "genes": [
+              "VCL",
+              "ITGB4",
+              "NCKAP5"
+            ]
+          },
+          {
+            "name": "Integrin-mediated cell-matrix interactions",
+            "citations": [
+              {
+                "source_id": "43",
+                "notes": "ITGB4 mediates cell-matrix interactions and hemidesmosomes"
+              },
+              {
+                "source_id": "46",
+                "notes": "ITGB4 regulates vascular endothelial adhesion and DNA damage response"
+              }
+            ],
+            "genes": [
+              "ITGB4",
+              "VCL"
+            ]
+          },
+          {
+            "name": "Actin polymerization and cell migration",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "Rac1 GTPase and WAVE complexes regulate actin polymerization driving cell migration"
+              }
+            ],
+            "genes": [
+              "NCKAP5"
+            ]
+          },
+          {
+            "name": "Dystrophin complex-mediated cytoskeletal linkage",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "DMD and DTNA mediate mechanical coupling between intracellular and extracellular structures"
+              }
+            ],
+            "genes": [
+              "DTNA",
+              "DMD"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Focal adhesion complexes",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "Vinculin localizes to focal adhesions and adherens junctions"
+              }
+            ],
+            "genes": [
+              "VCL",
+              "ITGB4"
+            ]
+          },
+          {
+            "name": "Dystrophin-associated protein complex",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "DMD-associated proteins link cytoskeleton to extracellular matrix"
+              }
+            ],
+            "genes": [
+              "DTNA",
+              "DMD"
+            ]
+          },
+          {
+            "name": "Actin polymerization machinery",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "Rac1 and WAVE complexes drive actin dynamics"
+              }
+            ],
+            "genes": [
+              "NCKAP5"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Reduced cell-matrix adhesion strength and increased detachment capacity",
+          "Enhanced cell migration and invasion through brain tissue",
+          "Altered cell morphology and increased deformability",
+          "Disrupted mechanotransduction signaling affecting growth and survival"
+        ],
+        "evidence_summary": "Multiple genes encoding focal adhesion proteins, integrin components, and actin regulatory proteins show dysregulation in astrocytomas. Vinculin couples integrin signaling to actin dynamics; ITGB4 mediates cell-matrix interactions; dystrophin and DTNA link the cytoskeleton to extracellular matrix; NCKAP5 promotes Rac1-mediated actin polymerization. Coordinate dysregulation predicts profound alterations in tumor cell adhesion and migration capacity, enabling invasion and dissemination through restrictive brain microenvironments.",
+        "significance_score": 0.87,
+        "citations": [
+          {
+            "source_id": "45",
+            "notes": "MCAM and cell adhesion molecule roles in vascular and tumor biology"
+          },
+          {
+            "source_id": "43",
+            "notes": "ITGB4 mediates cell-matrix interactions and regulates migratory capacity"
+          }
+        ],
+        "supporting_genes": [
+          "VCL",
+          "ITGB4",
+          "DTNA",
+          "DMD",
+          "NCKAP5"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "FAK",
+            "SRC",
+            "PXN",
+            "ACTN4",
+            "ARP2"
+          ],
+          "citations": [
+            {
+              "source_id": "45",
+              "notes": "Focal adhesion kinase and Src family kinases regulate focal adhesion dynamics"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cell-Cell Adhesion and Polarity",
+        "description": "Dysregulation of cadherins, polarity complexes, and gap junction proteins that disrupt normal cell-cell contacts, reduce intercellular communication, and compromise epithelial organization. This program predicts reduced adhesive constraints on tumor cell behavior and enhanced capacity for dissemination.",
+        "atomic_biological_processes": [
+          {
+            "name": "Cadherin-mediated cell-cell adhesion",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "CDH11 mediates cell-cell adhesion and is involved in TGF-beta-stimulated migration"
+              }
+            ],
+            "genes": [
+              "CDH11"
+            ]
+          },
+          {
+            "name": "Cell polarity establishment and maintenance",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "PARD3 regulates invasion and metastasis through control of tight junction assembly"
+              },
+              {
+                "source_id": "35",
+                "notes": "PARD3 in PAR complex for functional tight junctions"
+              }
+            ],
+            "genes": [
+              "PARD3",
+              "PARD3B"
+            ]
+          },
+          {
+            "name": "Gap junction-mediated intercellular communication",
+            "citations": [
+              {
+                "source_id": "60",
+                "notes": "GJA1/connexin-43 forms gap junctions for direct intercellular communication"
+              }
+            ],
+            "genes": [
+              "GJA1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Adherens junctions",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "CDH11 participates in adherens junction assembly and stability"
+              }
+            ],
+            "genes": [
+              "CDH11"
+            ]
+          },
+          {
+            "name": "Polarity complexes",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "PAR3-containing protein complexes regulate tight junction formation"
+              }
+            ],
+            "genes": [
+              "PARD3",
+              "PARD3B"
+            ]
+          },
+          {
+            "name": "Gap junctions",
+            "citations": [
+              {
+                "source_id": "60",
+                "notes": "GJA1 forms connexons that mediate cell-cell channel communication"
+              }
+            ],
+            "genes": [
+              "GJA1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Reduced cell-cell adhesion and increased cellular independence",
+          "Disrupted epithelial organization and loss of contact inhibition",
+          "Impaired intercellular communication and reduced transmission of anti-proliferative signals",
+          "Enhanced capability for single-cell dissemination and invasion"
+        ],
+        "evidence_summary": "CDH11 mediates cell-cell adhesion and participates in TGF-β-dependent epithelial-to-mesenchymal transition. PARD3 and PARD3B regulate cell polarity and tight junction assembly; their dysfunction disrupts organized cell-cell contacts and promotes invasion. GJA1 forms gap junctions mediating direct intercellular communication; reduced GJA1 function frequently occurs in gliomas and associates with enhanced proliferation. Coordinate dysregulation of these cell-cell adhesion and polarity genes predicts fundamental disruption of epithelial organization and enhanced tumor cell independence.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "15",
+            "notes": "CDH11 role in glioblastoma cell migration"
+          },
+          {
+            "source_id": "33",
+            "notes": "PARD3 regulation of tight junction assembly and metastasis"
+          }
+        ],
+        "supporting_genes": [
+          "CDH11",
+          "PARD3",
+          "PARD3B",
+          "GJA1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CDH1",
+            "CTNNB1",
+            "CTNND1",
+            "OCLN",
+            "CLDN"
+          ],
+          "citations": [
+            {
+              "source_id": "15",
+              "notes": "E-cadherin and catenins regulate cell adhesion; claudins and occludin mediate tight junctions"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Ion Homeostasis and Calcium Signaling",
+        "description": "Dysregulation of ion channels, transporters, and calcium signaling machinery that disrupts normal astrocytic ion buffering, pH regulation, and calcium oscillations. This program predicts altered cellular excitability, impaired metabolic coupling to neuronal activity, and dysregulation of calcium-dependent gene expression.",
+        "atomic_biological_processes": [
+          {
+            "name": "Sodium-bicarbonate cotransport and pH regulation",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "SLC4A4 participates in pH regulation and ion homeostasis in astrocytes"
+              }
+            ],
+            "genes": [
+              "SLC4A4"
+            ]
+          },
+          {
+            "name": "Potassium channel activity and excitability",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Potassium channels regulate astrocyte and neuronal excitability"
+              }
+            ],
+            "genes": [
+              "KCNQ5",
+              "KCNN3"
+            ]
+          },
+          {
+            "name": "Inositol 1,4,5-trisphosphate-mediated calcium release",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "ITPR2 mediates IP3-dependent calcium mobilization and astrocyte calcium oscillations"
+              }
+            ],
+            "genes": [
+              "ITPR2"
+            ]
+          },
+          {
+            "name": "Calcium-dependent signaling and gene expression",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Astrocyte calcium oscillations coordinate activation and metabolic coupling"
+              }
+            ],
+            "genes": [
+              "ITPR2",
+              "KCNN3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Ion transport proteins",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "SLC4A4 and potassium channels mediate ion homeostasis"
+              }
+            ],
+            "genes": [
+              "SLC4A4",
+              "KCNQ5",
+              "KCNN3"
+            ]
+          },
+          {
+            "name": "Calcium release channels",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "ITPR represents endoplasmic reticulum calcium release channel"
+              }
+            ],
+            "genes": [
+              "ITPR2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired ion buffering capacity and altered pH homeostasis",
+          "Dysregulated cellular excitability and altered response to neuronal activity",
+          "Disrupted calcium oscillations and loss of coupled astrocyte activation",
+          "Altered calcium-dependent gene expression affecting proliferation and differentiation"
+        ],
+        "evidence_summary": "Astrocytes maintain specialized ion buffering capacity critical for normal CNS function. SLC4A4 participates in pH regulation; potassium channels including KCNQ5 and KCNN3 regulate excitability; ITPR2 mediates calcium release from endoplasmic reticulum. Dysregulation of these ion homeostasis genes in astrocytomas would predictably impair the buffering capacity that characterizes normal astrocytes, with consequent alterations in osmoregulation, pH control, and calcium signaling that favor tumor cell proliferation while reducing metabolic support for neurons.",
+        "significance_score": 0.79,
+        "citations": [
+          {
+            "source_id": "6",
+            "notes": "Comprehensive characterization of astrocyte activation and ion homeostasis"
+          },
+          {
+            "source_id": "10",
+            "notes": "Astrocyte-specific functions in ion buffering and homeostasis"
+          }
+        ],
+        "supporting_genes": [
+          "SLC4A4",
+          "KCNQ5",
+          "KCNN3",
+          "ITPR2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SLC1A2",
+            "GLUL",
+            "GS",
+            "GluN2B",
+            "GRIN2B"
+          ],
+          "citations": [
+            {
+              "source_id": "10",
+              "notes": "Glutamate transporters and NMDA receptors participate in astrocyte ion homeostasis"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Extracellular Matrix Remodeling",
+        "description": "Dysregulation of matricellular proteins, ECM structural components, and matrix-degrading enzymes that fundamentally reorganizes the tumor microenvironment. This program facilitates angiogenesis, immune cell recruitment, and tumor cell invasion while simultaneously altering cell-ECM interactions that normally constrain cell behavior.",
+        "atomic_biological_processes": [
+          {
+            "name": "Matricellular protein regulation of cell-ECM interactions",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "EFEMP1 (fibulin-3) regulates cell adhesion, differentiation, and angiogenesis as matricellular protein"
+              }
+            ],
+            "genes": [
+              "EFEMP1",
+              "SPARCL1"
+            ]
+          },
+          {
+            "name": "Angiogenesis regulation and blood vessel formation",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "Matricellular proteins restrict angiogenesis while ECM remodeling promotes neovascularization"
+              }
+            ],
+            "genes": [
+              "EFEMP1",
+              "SPARCL1",
+              "TNC",
+              "COL28A1"
+            ]
+          },
+          {
+            "name": "Epithelial-to-mesenchymal transition and invasion",
+            "citations": [
+              {
+                "source_id": "55",
+                "notes": "TNC promotes glioma cell malignancy and inhibits chemosensitivity through PI3K/AKT activation"
+              }
+            ],
+            "genes": [
+              "TNC"
+            ]
+          },
+          {
+            "name": "Matrix metalloproteinase regulation and ECM degradation",
+            "citations": [
+              {
+                "source_id": "55",
+                "notes": "TIMP3 inhibits matrix metalloproteinases regulating ECM degradation"
+              }
+            ],
+            "genes": [
+              "TIMP3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Structural ECM proteins",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "Collagen and other structural proteins provide mechanical support"
+              }
+            ],
+            "genes": [
+              "COL28A1"
+            ]
+          },
+          {
+            "name": "Matricellular proteins",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "EFEMP1 and SPARCL1 serve as matricellular proteins regulating cell-ECM interactions"
+              }
+            ],
+            "genes": [
+              "EFEMP1",
+              "SPARCL1"
+            ]
+          },
+          {
+            "name": "Protease inhibitors and ECM-degrading enzymes",
+            "citations": [
+              {
+                "source_id": "55",
+                "notes": "TIMP3 inhibits matrix metalloproteinases"
+              }
+            ],
+            "genes": [
+              "TIMP3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced angiogenesis and neovascularization of tumors",
+          "Increased immune cell infiltration into tumor microenvironment",
+          "Facilitated tumor cell invasion and dissemination",
+          "Altered cell-ECM signaling affecting proliferation and survival"
+        ],
+        "evidence_summary": "The input gene list includes matricellular proteins EFEMP1 (fibulin-3) and SPARCL1 (hevin) that typically restrict angiogenesis and promote cell adhesion, plus ECM components TNC (tenascin C) and COL28A1. Dysregulation of these genes predicts fundamentally remodeled tumor microenvironment. Importantly, TNC exhibits complex pro-tumoral roles, promoting invasion and EMT-like transitions while inhibiting chemosensitivity through PI3K/AKT signaling. TIMP3 regulates matrix metalloproteinase activity; loss of TIMP3 permits enhanced ECM degradation and invasion capacity. The balance between matricellular proteins restricting angiogenesis and ECM remodeling promoting tumor progression represents a critical determinant of astrocytoma aggressiveness.",
+        "significance_score": 0.84,
+        "citations": [
+          {
+            "source_id": "55",
+            "notes": "TNC promotes glioma cell malignancy and chemoresistance"
+          },
+          {
+            "source_id": "27",
+            "notes": "Matricellular proteins and angiogenesis regulation in tumor biology"
+          }
+        ],
+        "supporting_genes": [
+          "EFEMP1",
+          "SPARCL1",
+          "TNC",
+          "COL28A1",
+          "TIMP3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MMP2",
+            "MMP9",
+            "ADAMTS",
+            "VEGF",
+            "FGF"
+          ],
+          "citations": [
+            {
+              "source_id": "55",
+              "notes": "Matrix metalloproteinases and growth factors regulate ECM remodeling and angiogenesis"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Glutamate Metabolism and Neurotransmitter Transport",
+        "description": "Dysregulation of glutamate transporters, glutamine cycling machinery, and neurotransmitter handling that disrupts the specialized metabolic relationship between astrocytes and neurons. This program predicts impaired extracellular glutamate clearance, glutamate-mediated excitotoxicity in surrounding neurons, and altered paracrine glutamate signaling supporting tumor cell proliferation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Extracellular glutamate clearance",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "SLC1A3 (EAAT1/GLAST) represents primary astrocytic glutamate transporter"
+              },
+              {
+                "source_id": "6",
+                "notes": "SLC1A3 downregulation in reactive astrocytes impairs glutamate clearance"
+              },
+              {
+                "source_id": "18",
+                "notes": "Glutamate transporters SLC1A3 and SLC1A2 dysregulation in disease"
+              }
+            ],
+            "genes": [
+              "SLC1A3"
+            ]
+          },
+          {
+            "name": "Glutamate-glutamine cycle",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "Astrocytes accumulate glutamate and convert to glutamine for neuronal recycling"
+              }
+            ],
+            "genes": [
+              "SLC1A3"
+            ]
+          },
+          {
+            "name": "Stress response and lipid metabolism in astrocytes",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Clusterin participates in lipid transport and stress response in astrocytes"
+              }
+            ],
+            "genes": [
+              "CLU"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Glutamate transporter proteins",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "SLC1A3 represents plasma membrane glutamate transporter"
+              }
+            ],
+            "genes": [
+              "SLC1A3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired extracellular glutamate clearance and elevated extracellular glutamate",
+          "Glutamate-mediated excitotoxicity in surrounding neurons",
+          "Paracrine glutamate signaling supporting tumor proliferation through autocrine receptors",
+          "Disrupted glutamate-glutamine cycle compromising neuronal neurotransmitter synthesis"
+        ],
+        "evidence_summary": "SLC1A3 (EAAT1/GLAST) represents the primary astrocytic glutamate transporter responsible for removing glutamate from extracellular space. Recent research demonstrates that SLC1A3 expression is significantly downregulated in astrocytes responding to traumatic brain injury and other stressful stimuli, resulting in impaired glutamate clearance and elevated extracellular glutamate. In astrocytomas, dysregulation of SLC1A3 would similarly impair glutamate clearance while potentially creating paracrine glutamate signaling that supports tumor cell proliferation through activation of glutamate receptors. The presence of CLU encoding clusterin, a secreted chaperone involved in stress response and lipid transport, suggests integration of glutamate metabolism with broader stress response and metabolic programs.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "10",
+            "notes": "Astrocyte-specific glutamate transporter SLC1A3 and glutamate-glutamine cycle"
+          },
+          {
+            "source_id": "6",
+            "notes": "SLC1A3 downregulation in reactive and injured astrocytes"
+          }
+        ],
+        "supporting_genes": [
+          "SLC1A3",
+          "CLU"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GLUL",
+            "GS",
+            "GRIN1",
+            "GRIN2A",
+            "GRIN2B"
+          ],
+          "citations": [
+            {
+              "source_id": "10",
+              "notes": "Glutamine synthetase and NMDA receptors participate in glutamate metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Developmental Signaling and Stemness",
+        "description": "Dysregulation of developmental signaling pathways including Notch and Wnt/β-catenin that promote maintenance of progenitor-like tumor cells with enhanced self-renewal capacity. This program connects transcriptional regulation to stemness acquisition and supports tumor-initiating cell populations.",
+        "atomic_biological_processes": [
+          {
+            "name": "Notch signaling and progenitor maintenance",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Notch1 pathway regulates glioma stem cell characteristics"
+              }
+            ],
+            "genes": [
+              "HES4"
+            ]
+          },
+          {
+            "name": "YAP/Hippo signaling and transcriptional regulation",
+            "citations": [
+              {
+                "source_id": "36",
+                "notes": "KSR1 scaffolds the Hippo pathway regulating YAP transcriptional activity"
+              },
+              {
+                "source_id": "39",
+                "notes": "Piezo1-mediated mechanotransduction controls YAP signaling and cell fate"
+              }
+            ],
+            "genes": [
+              "YAP1"
+            ]
+          },
+          {
+            "name": "Wnt/β-catenin signaling in tumor stemness",
+            "citations": [
+              {
+                "source_id": "49",
+                "notes": "RGS20 regulates glioma stemness through WNT/β-catenin pathway"
+              }
+            ],
+            "genes": [
+              "YAP1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Transcriptional machinery",
+            "citations": [
+              {
+                "source_id": "36",
+                "notes": "YAP functions as transcriptional co-activator binding TEAD family"
+              }
+            ],
+            "genes": [
+              "YAP1",
+              "HES4"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced self-renewal capacity and stemness acquisition",
+          "Expansion of tumor-initiating cell populations",
+          "Reduced terminal differentiation and increased progenitor maintenance",
+          "Enhanced tumorigenic potential and resistance to differentiation therapy"
+        ],
+        "evidence_summary": "HES4 functions as a direct target of Notch signaling promoting astrocyte progenitor proliferation while inhibiting differentiation. YAP1 represents a critical downstream effector of both Hippo and Wnt/β-catenin pathways, controlling proliferation, survival, and stemness through multiple effector networks. Recent 2025 research demonstrates that YAP1 dysregulation through Hippo pathway inactivation or enhanced Wnt/β-catenin signaling promotes nuclear YAP1 localization and increased transcriptional activity. In astrocytomas, dysregulation of developmental signaling through HES4 and YAP1 would predictably promote maintenance of progenitor-like phenotypes with enhanced self-renewal capacity but reduced differentiation capacity, expanding the tumor-initiating cell pool.",
+        "significance_score": 0.81,
+        "citations": [
+          {
+            "source_id": "36",
+            "notes": "KSR1 scaffolds Hippo signaling and regulates YAP function"
+          },
+          {
+            "source_id": "49",
+            "notes": "RGS20 regulates glioma stemness through WNT/β-catenin signaling"
+          }
+        ],
+        "supporting_genes": [
+          "YAP1",
+          "HES4"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "NOTCH1",
+            "JAG1",
+            "DLL1",
+            "WNT3A",
+            "CTNNB1"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Notch ligands and canonical Wnt pathway components regulate stemness"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Synaptic Organization and Neural Circuit Formation",
+        "description": "Expression of genes encoding synaptic proteins, vesicular transport machinery, and neurotransmitter receptors that may reflect aberrant expression of neuronal genes due to transformation or alternatively represent altered astrocyte-neuron communication within the tumor microenvironment. This program predicts dysregulation of normal astrocyte-neuron metabolic coupling.",
+        "atomic_biological_processes": [
+          {
+            "name": "Vesicular neurotransmitter transport",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "SYTL4 (granuphilin) participates in vesicle docking and exocytosis"
+              }
+            ],
+            "genes": [
+              "SYTL4",
+              "CADPS"
+            ]
+          },
+          {
+            "name": "Cytoskeletal regulation of synaptic assembly",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "PRUNE2 participates in cytoskeletal regulation and vesicular trafficking"
+              }
+            ],
+            "genes": [
+              "PRUNE2"
+            ]
+          },
+          {
+            "name": "Glutamate receptor signaling",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "GRIK1 encodes kainate receptor subtype with astrocyte roles"
+              }
+            ],
+            "genes": [
+              "GRIK1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Synaptic vesicles and docking machinery",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "SYTL4 and CADPS regulate exocytosis and vesicle release"
+              }
+            ],
+            "genes": [
+              "SYTL4",
+              "CADPS"
+            ]
+          },
+          {
+            "name": "Neurotransmitter receptors",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "GRIK1 represents glutamate receptor subtype"
+              }
+            ],
+            "genes": [
+              "GRIK1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Aberrant expression of neuronal genes in non-neuronal tumor cells",
+          "Altered astrocyte-neuron communication and reduced metabolic coupling",
+          "Dysregulation of paracrine signaling between tumor and neurons",
+          "Potential acquisition of neuronal-like properties in transformed astrocytes"
+        ],
+        "evidence_summary": "While astrocytomas are non-neuronal tumors, the input gene list includes multiple genes encoding synaptic proteins (SYTL4, CADPS, PRUNE2) and neurotransmitter receptors (GRIK1). This dysregulation may reflect either aberrant expression of neuronal genes due to transformation-associated loss of cell-type specificity, or alternatively, may represent expression of synaptic-associated genes that contribute to altered astrocyte-neuron communication within the tumor microenvironment. Recent research demonstrates that astrocytes express non-synaptic neurotransmitter receptors and participate in complex signaling with neuronal and other glial cells. Dysregulation of synaptic gene expression in astrocytomas may facilitate paracrine signaling that simultaneously promotes tumor proliferation while disrupting normal astrocyte support functions.",
+        "significance_score": 0.71,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "Synaptic protein expression in astrocyte-to-neuron conversion studies"
+          },
+          {
+            "source_id": "12",
+            "notes": "GRIK1 and other glutamate receptor roles in astrocytes"
+          }
+        ],
+        "supporting_genes": [
+          "SYTL4",
+          "CADPS",
+          "PRUNE2",
+          "GRIK1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SNAP25",
+            "VAMP2",
+            "STX1A",
+            "SYNAPSIN",
+            "SPECTRIN"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "Core synaptic proteins mediating vesicle release and synaptic transmission"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Inflammatory and Immune Response",
+        "description": "Dysregulation of inflammatory signaling, pattern recognition receptors, and cytokine/chemokine networks that creates a pro-tumoral inflammatory microenvironment. This program predicts recruitment of immune cells, establishment of immunosuppressive niches, and paracrine signaling supporting tumor growth.",
+        "atomic_biological_processes": [
+          {
+            "name": "Complement pathway activation",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "MASP1 participates in complement activation through the lectin pathway"
+              }
+            ],
+            "genes": [
+              "MASP1"
+            ]
+          },
+          {
+            "name": "IL-33 signaling and astrocyte-immune interactions",
+            "citations": [
+              {
+                "source_id": "23",
+                "notes": "IL33 upregulation in astrocytes participates in neuron-astrocyte interactions during injury"
+              }
+            ],
+            "genes": [
+              "IL33"
+            ]
+          },
+          {
+            "name": "Interferon and cytokine signaling",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Astrocytes upregulate interferon and inflammatory cytokines in response to injury"
+              }
+            ],
+            "genes": [
+              "IFI44L"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Pattern recognition receptors",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "MASP1 and complement components recognize pathogen-associated patterns"
+              }
+            ],
+            "genes": [
+              "MASP1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced local complement activation and recruitment of immune cells",
+          "Establishment of pro-tumoral type 2 immune responses",
+          "Increased immune infiltration into tumor microenvironment",
+          "Altered balance between pro-tumoral and anti-tumor immune responses"
+        ],
+        "evidence_summary": "Recent research on astrocyte biology reveals that astrocytes undergo profound transcriptional reprogramming in response to injury and inflammatory stimuli, acquiring pro-inflammatory phenotypes characterized by upregulation of interferons, complement components, and cytokine/chemokine networks. MASP1 participates in complement activation through the lectin pathway; IL33 represents an IL-1 family cytokine participating in type 2 immune responses and astrocyte-immune cell interactions; IFI44L participates in interferon-mediated immune responses. In astrocytomas, dysregulation of these inflammatory genes would promote local complement activation, recruitment of pro-tumoral immune cells, and creation of an immunosuppressive microenvironment supporting tumor growth.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "27",
+            "notes": "Complement pathway and inflammatory response in tumor biology"
+          },
+          {
+            "source_id": "6",
+            "notes": "IL33 and inflammatory signaling in astrocytes"
+          }
+        ],
+        "supporting_genes": [
+          "MASP1",
+          "IL33",
+          "IFI44L"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "TNF",
+            "IL1B",
+            "IL6",
+            "CXCL10",
+            "CCL2"
+          ],
+          "citations": [
+            {
+              "source_id": "6",
+              "notes": "Pro-inflammatory cytokines and chemokines upregulated in reactive astrocytes"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Treatment Resistance and Genomic Instability",
+        "description": "Dysregulation of metabolic plasticity, DNA repair pathways, autophagy, and checkpoint control that collectively enables astrocytomas to survive genotoxic chemotherapy and accumulate genomic alterations. This program connects metabolic reprogramming to genomic instability and predicts enhanced treatment resistance.",
+        "atomic_biological_processes": [
+          {
+            "name": "DNA damage and repair pathway activation",
+            "citations": [
+              {
+                "source_id": "28",
+                "notes": "APOE-mediated lipid uptake activates homologous recombination repair via β-catenin-BRCA1/2 axis"
+              },
+              {
+                "source_id": "21",
+                "notes": "NTRK2-fusion astrocytomas acquire additional oncogenic drivers in response to TRK inhibitor treatment"
+              }
+            ],
+            "genes": [
+              "APOE",
+              "NTRK2"
+            ]
+          },
+          {
+            "name": "Metabolic flexibility and chemotherapy resistance",
+            "citations": [
+              {
+                "source_id": "28",
+                "notes": "Enhanced lipid metabolism confers chemotherapy resistance"
+              }
+            ],
+            "genes": [
+              "APOE",
+              "ABCA1",
+              "PLTP",
+              "FADS2"
+            ]
+          },
+          {
+            "name": "Autophagy and lysosomal function",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Dysregulated autophagy in astrocytes participates in stress response"
+              }
+            ],
+            "genes": [
+              "LYST"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "DNA repair machinery",
+            "citations": [
+              {
+                "source_id": "28",
+                "notes": "β-catenin-BRCA1/2 complexes mediate homologous recombination repair"
+              }
+            ],
+            "genes": [
+              "APOE"
+            ]
+          },
+          {
+            "name": "Autophagy and lysosomal compartments",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Lysosomes and autophagy machinery regulate cellular stress responses"
+              }
+            ],
+            "genes": [
+              "LYST"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced chemotherapy resistance through DNA repair pathway activation",
+          "Metabolic plasticity enabling survival under diverse nutrient-stressed conditions",
+          "Accumulated genomic alterations and clonal evolution",
+          "Activation of alternative oncogenic drivers upon single-pathway inhibition"
+        ],
+        "evidence_summary": "Recent 2025 research demonstrates that tumor-derived APOE promotes chemoresistance through SCARB1-mediated lipid uptake and activation of homologous recombination repair pathways via the β-catenin-BRCA1/2 axis. The coordinate dysregulation of lipid metabolism genes (APOE, ABCA1, PLTP, FADS2) enables metabolic flexibility and enhanced DNA repair capacity. Patient-derived cells from NTRK2-fusion astrocytomas initially respond to TRK inhibitors but develop resistance through acquisition of additional oncogenic drivers including FGFR2, RUNX1T1, and VEGFR signaling. This suggests that astrocytomas exploit multiple interconnected pathways, and disruption of any single pathway triggers compensatory activation of alternative pathways. Enhanced autophagy capacity through dysregulation of genes like LYST (lysosomal trafficking regulator) supports tumor cell survival under therapy-induced stress.",
+        "significance_score": 0.89,
+        "citations": [
+          {
+            "source_id": "28",
+            "notes": "APOE and metabolic plasticity in chemotherapy resistance"
+          },
+          {
+            "source_id": "21",
+            "notes": "NTRK2-fusion astrocytomas and acquired treatment resistance"
+          }
+        ],
+        "supporting_genes": [
+          "APOE",
+          "ABCA1",
+          "PLTP",
+          "FADS2",
+          "NTRK2",
+          "YAP1",
+          "LYST"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "BRCA1",
+            "BRCA2",
+            "RAD51",
+            "TP53",
+            "MDM2"
+          ],
+          "citations": [
+            {
+              "source_id": "28",
+              "notes": "Core DNA repair and checkpoint control genes"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Gene Ontology biological process and molecular function annotations",
+        "Recent 2025 research on astrocyte biology and inflammatory signaling",
+        "Pathway database integration (REACTOME, KEGG)",
+        "Co-citation analysis and known protein-protein interactions",
+        "Contextual relevance to astrocytoma pathobiology"
+      ],
+      "notes": "Programs were identified by integrating functional genomics data with disease-specific knowledge. Genes were clustered based on participation in shared biological processes, regulatory pathways, and cellular components. Each program represents a coherent set of genes acting together to accomplish related biological functions relevant to astrocytoma transformation and progression. Programs were validated for internal consistency and contextual relevance to astrocytoma biology through literature review and cross-referencing of supporting evidence."
+    },
+    "version": "1.0"
+  }
+}

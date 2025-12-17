@@ -1,0 +1,1679 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T22:32:28.064735",
+    "genes": [
+      "CARNS1",
+      "MOBP",
+      "ERMN",
+      "ST18",
+      "PTGDS",
+      "TF",
+      "FOLH1",
+      "NKAIN2",
+      "PLEKHH1",
+      "MYO1D",
+      "PLP1",
+      "CTNNA3",
+      "CNDP1",
+      "MOG",
+      "ENPP2",
+      "EDIL3",
+      "MAP7",
+      "MAG",
+      "SELENOP",
+      "RNF220",
+      "AK5",
+      "PPP1R14A",
+      "CDH19",
+      "PEX5L",
+      "RNASE1",
+      "SLC7A14-AS1",
+      "CLDND1",
+      "PIP4K2A",
+      "APLP1",
+      "GSN",
+      "SHTN1",
+      "SAMD12",
+      "CLMN",
+      "SPOCK3",
+      "SH3TC2",
+      "AC090015.1",
+      "CLDN11",
+      "TMEM144",
+      "MYRF",
+      "C10ORF90",
+      "MBP",
+      "DOCK5",
+      "ABCA2",
+      "UNC5C",
+      "AC012494.1",
+      "NKX6-2",
+      "DBNDD2",
+      "VRK2",
+      "PLPP2",
+      "LINC01608",
+      "GRM3",
+      "KLK6",
+      "QDPR",
+      "SEPTIN4",
+      "CNP",
+      "ANKRD18A",
+      "HAPLN2",
+      "MTUS1",
+      "MAL",
+      "CD22",
+      "CNTN2",
+      "ATP1B1",
+      "OPALIN",
+      "ST6GALNAC3",
+      "FRMD4B",
+      "SLC5A11",
+      "PIEZO2",
+      "COL4A5",
+      "CNTNAP4",
+      "SLC24A2",
+      "IL1RAPL1",
+      "CERCAM",
+      "APOD",
+      "KIRREL3",
+      "CDK18",
+      "NT5DC1",
+      "ASPA",
+      "PDE1C",
+      "PLD1",
+      "HPN-AS1",
+      "HHATL",
+      "LINC01445",
+      "PALM2-AKAP2",
+      "DLC1",
+      "AATK",
+      "TTLL7",
+      "SEC14L5",
+      "RAPGEF5",
+      "TMEM235",
+      "TMTC2",
+      "TPPP",
+      "SLC31A2",
+      "GPR37",
+      "TUBB4A",
+      "SH3TC2-DT",
+      "SH3GL3",
+      "FA2H",
+      "LINC00320",
+      "ZNF536",
+      "TMEM165",
+      "TMEM125",
+      "CSRP1",
+      "TMEM151A",
+      "ATP8A1",
+      "NINJ2",
+      "BCAS1",
+      "LDB3",
+      "MAN2A1",
+      "LPAR1",
+      "LRP2",
+      "ABCA8",
+      "AC008571.2",
+      "AC004690.2",
+      "SRCIN1",
+      "CA2",
+      "SYNJ2",
+      "RASGRF1",
+      "PLCL1",
+      "RASGRP3",
+      "SLC22A15",
+      "ANLN",
+      "GJB1",
+      "PLAAT3",
+      "PLLP",
+      "ADAMTS4",
+      "SLC44A1",
+      "FAM107B",
+      "ITGA2",
+      "PPP1R16B",
+      "AC009063.2",
+      "RASGRF2",
+      "DNAJC6",
+      "HHIP",
+      "DPYD",
+      "LINC00639",
+      "PPM1H",
+      "CLCA4",
+      "SPP1",
+      "BOK",
+      "SLCO3A1",
+      "KIF6",
+      "NECAB1",
+      "TMEM63A",
+      "HSPA2",
+      "ENO4",
+      "CBR1",
+      "ELOVL7",
+      "HS3ST5",
+      "FGFR2",
+      "LGI3",
+      "KCNK1",
+      "FTH1",
+      "FUT8",
+      "KLHL32",
+      "ELMO1",
+      "KCNMB4",
+      "DLG2",
+      "SGK1",
+      "PCSK6",
+      "SLCO1A2",
+      "SEMA4D",
+      "SCD",
+      "AL033523.1",
+      "PWRN1",
+      "SOX10",
+      "PRR18",
+      "AL158077.2",
+      "AMER2",
+      "ANK3",
+      "TRIM59",
+      "ANO4",
+      "AC079352.1",
+      "OTUD7A",
+      "LRRC63",
+      "UGT8",
+      "PCDH9",
+      "SLC45A3",
+      "ABCA6",
+      "AC025810.1",
+      "SHROOM4",
+      "SLAIN1",
+      "GLDN",
+      "COBL",
+      "AC096564.1",
+      "AC098679.5",
+      "PDE1A",
+      "CPPED1",
+      "SLC7A14",
+      "AC092058.1",
+      "ERBB3",
+      "AC018647.1",
+      "ADAMTS18",
+      "LARP6",
+      "MEGF10",
+      "OSBPL1A",
+      "DAAM2",
+      "BEST1",
+      "AL359091.1",
+      "TRIM2",
+      "VWA1"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_8/20251216_222831/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_8",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "context": {
+      "cell_type": "Astrocytes, oligodendrocytes, oligodendrocyte precursor cells",
+      "disease": "Astrocytoma",
+      "tissue": "Central nervous system (brain white and gray matter)"
+    },
+    "input_genes": [
+      "CARNS1",
+      "MOBP",
+      "ERMN",
+      "ST18",
+      "PTGDS",
+      "TF",
+      "FOLH1",
+      "NKAIN2",
+      "PLEKHH1",
+      "MYO1D",
+      "PLP1",
+      "CTNNA3",
+      "CNDP1",
+      "MOG",
+      "ENPP2",
+      "EDIL3",
+      "MAP7",
+      "MAG",
+      "SELENOP",
+      "RNF220",
+      "AK5",
+      "PPP1R14A",
+      "CDH19",
+      "PEX5L",
+      "RNASE1",
+      "SLC7A14-AS1",
+      "CLDND1",
+      "PIP4K2A",
+      "APLP1",
+      "GSN",
+      "SHTN1",
+      "SAMD12",
+      "CLMN",
+      "SPOCK3",
+      "SH3TC2",
+      "AC090015.1",
+      "CLDN11",
+      "TMEM144",
+      "MYRF",
+      "C10ORF90",
+      "MBP",
+      "DOCK5",
+      "ABCA2",
+      "UNC5C",
+      "AC012494.1",
+      "NKX6-2",
+      "DBNDD2",
+      "VRK2",
+      "PLPP2",
+      "LINC01608",
+      "GRM3",
+      "KLK6",
+      "QDPR",
+      "SEPTIN4",
+      "CNP",
+      "ANKRD18A",
+      "HAPLN2",
+      "MTUS1",
+      "MAL",
+      "CD22",
+      "CNTN2",
+      "ATP1B1",
+      "OPALIN",
+      "ST6GALNAC3",
+      "FRMD4B",
+      "SLC5A11",
+      "PIEZO2",
+      "COL4A5",
+      "CNTNAP4",
+      "SLC24A2",
+      "IL1RAPL1",
+      "CERCAM",
+      "APOD",
+      "KIRREL3",
+      "CDK18",
+      "NT5DC1",
+      "ASPA",
+      "PDE1C",
+      "PLD1",
+      "HPN-AS1",
+      "HHATL",
+      "LINC01445",
+      "PALM2-AKAP2",
+      "DLC1",
+      "AATK",
+      "TTLL7",
+      "SEC14L5",
+      "RAPGEF5",
+      "TMEM235",
+      "TMTC2",
+      "TPPP",
+      "SLC31A2",
+      "GPR37",
+      "TUBB4A",
+      "SH3TC2-DT",
+      "SH3GL3",
+      "FA2H",
+      "LINC00320",
+      "ZNF536",
+      "TMEM165",
+      "TMEM125",
+      "CSRP1",
+      "TMEM151A",
+      "ATP8A1",
+      "NINJ2",
+      "BCAS1",
+      "LDB3",
+      "MAN2A1",
+      "LPAR1",
+      "LRP2",
+      "ABCA8",
+      "AC008571.2",
+      "AC004690.2",
+      "SRCIN1",
+      "CA2",
+      "SYNJ2",
+      "RASGRF1",
+      "PLCL1",
+      "RASGRP3",
+      "SLC22A15",
+      "ANLN",
+      "GJB1",
+      "PLAAT3",
+      "PLLP",
+      "ADAMTS4",
+      "SLC44A1",
+      "FAM107B",
+      "ITGA2",
+      "PPP1R16B",
+      "AC009063.2",
+      "RASGRF2",
+      "DNAJC6",
+      "HHIP",
+      "DPYD",
+      "LINC00639",
+      "PPM1H",
+      "CLCA4",
+      "SPP1",
+      "BOK",
+      "SLCO3A1",
+      "KIF6",
+      "NECAB1",
+      "TMEM63A",
+      "HSPA2",
+      "ENO4",
+      "CBR1",
+      "ELOVL7",
+      "HS3ST5",
+      "FGFR2",
+      "LGI3",
+      "KCNK1",
+      "FTH1",
+      "FUT8",
+      "KLHL32",
+      "ELMO1",
+      "KCNMB4",
+      "DLG2",
+      "SGK1",
+      "PCSK6",
+      "SLCO1A2",
+      "SEMA4D",
+      "SCD",
+      "AL033523.1",
+      "PWRN1",
+      "SOX10",
+      "PRR18",
+      "AL158077.2",
+      "AMER2",
+      "ANK3",
+      "TRIM59",
+      "ANO4",
+      "AC079352.1",
+      "OTUD7A",
+      "LRRC63",
+      "UGT8",
+      "PCDH9",
+      "SLC45A3",
+      "ABCA6",
+      "AC025810.1",
+      "SHROOM4",
+      "SLAIN1",
+      "GLDN",
+      "COBL",
+      "AC096564.1",
+      "AC098679.5",
+      "PDE1A",
+      "CPPED1",
+      "SLC7A14",
+      "AC092058.1",
+      "ERBB3",
+      "AC018647.1",
+      "ADAMTS18",
+      "LARP6",
+      "MEGF10",
+      "OSBPL1A",
+      "DAAM2",
+      "BEST1",
+      "AL359091.1",
+      "TRIM2",
+      "VWA1"
+    ],
+    "programs": [
+      {
+        "program_name": "Oligodendrocyte Specification and Lineage Identity",
+        "description": "A transcriptional cascade establishing and maintaining oligodendrocytic cell fate during development and maturation. This program includes master transcriptional regulators that open chromatin at oligodendrocyte-specific loci and drive expression of genes encoding myelin structural proteins and metabolic enzymes.",
+        "atomic_biological_processes": [
+          {
+            "name": "Transcriptional regulation of oligodendrocyte differentiation",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "SOX10, OLIG2, and NKX6.2 drive astrocyte-to-oligodendrocyte conversion through transcriptional reprogramming"
+              },
+              {
+                "source_id": "8",
+                "notes": "NKX6-2 functions in oligodendrocyte reprogramming from fibroblasts"
+              },
+              {
+                "source_id": "10",
+                "notes": "OLIG2 and NKX6-2 roles in oligodendrocyte differentiation"
+              }
+            ],
+            "genes": [
+              "SOX10",
+              "NKX6-2",
+              "MYRF"
+            ]
+          },
+          {
+            "name": "Chromatin remodeling and DNA accessibility",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "Ascl1 SA6 enables astrocyte-to-neuron conversion through transcriptional modification, related to lineage fate control"
+              },
+              {
+                "source_id": "46",
+                "notes": "Distinct transcriptomic and epigenomic responses of oligodendrocytes reflect developmental stage"
+              }
+            ],
+            "genes": [
+              "SOX10",
+              "VRK2",
+              "TRIM59"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Transcription factor complexes",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "Ascl1 SA6 demonstrates transcriptional regulation mechanisms applicable to oligodendrocyte fate determination"
+              },
+              {
+                "source_id": "8",
+                "notes": "SOX10, OLIG2, NKX6-2 form core reprogramming complex"
+              }
+            ],
+            "genes": [
+              "SOX10",
+              "NKX6-2",
+              "MYRF",
+              "VRK2"
+            ]
+          },
+          {
+            "name": "Chromatin modifying enzyme complexes",
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "Epigenomic changes accompany oligodendrocyte differentiation"
+              }
+            ],
+            "genes": [
+              "TRIM2",
+              "TRIM59",
+              "VRK2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Establishment of oligodendrocytic gene regulatory network",
+          "Silencing of alternative glial cell fate genes",
+          "Coordinated activation of myelin protein synthesis",
+          "Maintenance of oligodendrocyte identity in mature cells"
+        ],
+        "evidence_summary": "SOX10, NKX6-2, and MYRF represent the core transcriptional cascade controlling oligodendrocyte specification. SOX10 functions as a pioneer transcription factor opening chromatin at oligodendrocyte-specific loci. NKX6-2 operates downstream to refine cell fate. MYRF represents a critical molecular switch activating late-stage maturation. These factors coordinately regulate hundreds of downstream genes including myelin structural proteins. In astrocytoma context, dysregulation of this cascade could promote aberrant glial differentiation or prevent normal oligodendrocyte maturation.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "4",
+            "notes": "Astrocyte reprogramming mechanisms demonstrate transcriptional control principles applicable to oligodendrocyte specification"
+          },
+          {
+            "source_id": "8",
+            "notes": "NKX6-2 identified in oligodendrocyte reprogramming"
+          },
+          {
+            "source_id": "10",
+            "notes": "OLIG2 and NKX6-2 in oligodendrocyte differentiation"
+          },
+          {
+            "source_id": "41",
+            "notes": "Ascl1 SA6 demonstrates transcriptional mechanisms in glial lineage specification"
+          },
+          {
+            "source_id": "46",
+            "notes": "Transcriptomic and epigenomic responses of oligodendrocytes"
+          }
+        ],
+        "supporting_genes": [
+          "SOX10",
+          "NKX6-2",
+          "MYRF",
+          "VRK2",
+          "TRIM59",
+          "TRIM2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "OLIG2",
+            "OLIG1"
+          ],
+          "citations": [
+            {
+              "source_id": "4",
+              "notes": "OLIG2 is a master regulator of oligodendrocyte specification but not present in input gene list"
+            },
+            {
+              "source_id": "8",
+              "notes": "OLIG2 required alongside SOX10 and NKX6-2 for oligodendrocyte reprogramming"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Myelin Protein Synthesis and Maintenance",
+        "description": "The coordinated synthesis and assembly of myelin structural proteins that form the insulating sheath around axons. This program encompasses the three most abundant myelin proteins (MBP, PLP1, MOG) along with supporting proteins that ensure proper protein stoichiometry and membrane organization.",
+        "atomic_biological_processes": [
+          {
+            "name": "Myelin protein gene expression",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "MBP is a major constituent of the myelin sheath and critical for myelin function"
+              },
+              {
+                "source_id": "9",
+                "notes": "MBP presence in CSF indicates brain tumor development"
+              },
+              {
+                "source_id": "40",
+                "notes": "PLP1 is the most abundant proteolipid in CNS myelin; mutations cause Pelizaeus-Merzbacher disease"
+              }
+            ],
+            "genes": [
+              "MBP",
+              "PLP1",
+              "MOG",
+              "MOBP"
+            ]
+          },
+          {
+            "name": "Myelin protein trafficking and assembly",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Patient-derived tumoroids preserve expression of key protein markers used in tumor diagnosis"
+              },
+              {
+                "source_id": "4",
+                "notes": "Myelin proteins accumulate in membrane structures during oligodendrocyte maturation"
+              }
+            ],
+            "genes": [
+              "OPALIN",
+              "MAG",
+              "ENPP2",
+              "CNP"
+            ]
+          },
+          {
+            "name": "Myelin sheath compaction and stability",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Myelin sheath provides metabolic support and enables rapid action potential propagation"
+              }
+            ],
+            "genes": [
+              "PLLP",
+              "CLDN11",
+              "MAL"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Myelin protein complexes",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "MBP and related proteins form the structural foundation of myelin"
+              },
+              {
+                "source_id": "40",
+                "notes": "PLP1 represents the most abundant proteolipid in CNS myelin"
+              }
+            ],
+            "genes": [
+              "MBP",
+              "PLP1",
+              "MOG",
+              "MOBP",
+              "MAG",
+              "OPALIN",
+              "CNP"
+            ]
+          },
+          {
+            "name": "Myelin membrane domains",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Specialized myelin domains exist including paranodal regions and compact myelin"
+              },
+              {
+                "source_id": "41",
+                "notes": "OPALIN localizes to myelin paranodal and inner loop regions"
+              }
+            ],
+            "genes": [
+              "CLDN11",
+              "CNTNAP4",
+              "PLLP",
+              "OPALIN"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Synthesis of myelin structural proteins at massive scale (>80% of myelin protein mass)",
+          "Assembly of multi-protein complexes into organized myelin lamellae",
+          "Maintenance of proper myelin thickness and compaction",
+          "Prevention of myelin decompaction and demyelination",
+          "Rapid conduction velocity along myelinated axons"
+        ],
+        "evidence_summary": "MBP, PLP1, and MOG represent the three most abundant myelin proteins, collectively comprising over 80 percent of myelin protein mass. MOBP operates alongside MBP in myelin structure. Supporting proteins including MAG, OPALIN, and CNP contribute to myelin organization and stability. CLDN11 functions in paranodal region organization. The presence of MBP in cerebrospinal fluid serves as a biomarker of brain tumor development. In astrocytoma context, myelin disruption could result from tumor mass effects, suppression of oligodendrocyte maturation, or active recruitment of phagocytic cells that digest myelin.",
+        "significance_score": 0.98,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Patient-derived tumoroids preserve expression of tumor diagnostic markers"
+          },
+          {
+            "source_id": "2",
+            "notes": "MBP is a major myelin constituent"
+          },
+          {
+            "source_id": "9",
+            "notes": "MBP in CSF indicates brain tumor development"
+          },
+          {
+            "source_id": "26",
+            "notes": "Myelin enables rapid action potential propagation and provides metabolic support"
+          },
+          {
+            "source_id": "40",
+            "notes": "PLP1 mutations cause myelin disease"
+          },
+          {
+            "source_id": "41",
+            "notes": "Multiple myelin proteins maintain myelin stability"
+          }
+        ],
+        "supporting_genes": [
+          "MBP",
+          "PLP1",
+          "MOG",
+          "MOBP",
+          "MAG",
+          "OPALIN",
+          "CNP",
+          "CLDN11",
+          "PLLP",
+          "MAL",
+          "CNTNAP4",
+          "ENPP2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MYT1L",
+            "ZEB2"
+          ],
+          "citations": [
+            {
+              "source_id": "1",
+              "notes": "Additional transcriptional regulators coordinate myelin protein expression"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Central Nervous System Cell Adhesion and Barrier Formation",
+        "description": "Intercellular adhesion mechanisms establishing physical barriers and maintaining tissue architecture within the CNS. This program includes claudins and cadherins that form tight junctions and adherens junctions, along with supporting adhesion proteins that enable glial cells to establish stable contacts and coordinate tissue organization.",
+        "atomic_biological_processes": [
+          {
+            "name": "Tight junction formation and maintenance",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "CLDN11 is a claudin family member and component of tight junction strands"
+              },
+              {
+                "source_id": "18",
+                "notes": "Beta-catenin condensation nucleates formation of cadherin/catenin clusters forming stable adhesion sites"
+              }
+            ],
+            "genes": [
+              "CLDN11",
+              "CLDND1"
+            ]
+          },
+          {
+            "name": "Adherens junction stabilization",
+            "citations": [
+              {
+                "source_id": "18",
+                "notes": "Beta-catenin condensation facilitates clustering of cadherin complexes into stable adhesion sites"
+              },
+              {
+                "source_id": "20",
+                "notes": "CDH1 mutations affect cell-cell adhesion through cadherin complex dysfunction"
+              }
+            ],
+            "genes": [
+              "CDH19",
+              "CTNNA3"
+            ]
+          },
+          {
+            "name": "Cell adhesion molecule-mediated intercellular communication",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Contactins contribute to cell adhesion and synaptic organization"
+              },
+              {
+                "source_id": "17",
+                "notes": "CNTNAP4 functions as a cell adhesion molecule in nervous system development"
+              }
+            ],
+            "genes": [
+              "CNTN2",
+              "CNTNAP4",
+              "CERCAM"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Tight junction protein complexes",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "Claudins are integral membrane proteins forming tight junction strands"
+              },
+              {
+                "source_id": "53",
+                "notes": "TJP1 and CLDN5 form tight junctions in blood-brain barrier"
+              }
+            ],
+            "genes": [
+              "CLDN11",
+              "CLDND1"
+            ]
+          },
+          {
+            "name": "Adherens junction complexes",
+            "citations": [
+              {
+                "source_id": "18",
+                "notes": "Beta-catenin forms lateral clusters with cadherins at adherens junctions"
+              },
+              {
+                "source_id": "53",
+                "notes": "CDH5 and catenins form adherens junctions in vascular endothelium"
+              }
+            ],
+            "genes": [
+              "CDH19",
+              "CTNNA3"
+            ]
+          },
+          {
+            "name": "Extracellular matrix components supporting adhesion",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "EDIL3 participates in integrin-binding and cell adhesion"
+              },
+              {
+                "source_id": "1",
+                "notes": "SPOCK3 proteoglycan family member contributes to cell adhesion"
+              }
+            ],
+            "genes": [
+              "EDIL3",
+              "SPOCK3",
+              "COL4A5"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Establishment of selective permeability barriers within CNS tissue",
+          "Prevention of paracellular ion leakage",
+          "Organization of glial networks around amyloid plaques and lesion sites",
+          "Coordination of glial cell spacing and alignment",
+          "Stabilization of neurovascular unit through pericyte-endothelial interactions"
+        ],
+        "evidence_summary": "CLDN11 and CLDND1 encode claudins that form tight junction strands critical for selective permeability. CDH19 and CTNNA3 participate in adherens junctions that strengthen cell-cell contacts. Contactins (CNTN2, CNTNAP4) function as cell adhesion molecules mediating glial-neuronal interactions. EDIL3 and SPOCK3 represent extracellular matrix components supporting adhesion. Recent research demonstrates that beta-catenin undergoes phase separation to nucleate formation of submicron cadherin clusters that stabilize adhesion sites. In astrocytoma context, dysregulation of cell adhesion could promote tumor cell invasion, disrupt glial scar formation, or compromise the blood-brain barrier integrity.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Multiple adhesion proteins coordinate cell-cell interactions"
+          },
+          {
+            "source_id": "11",
+            "notes": "CLDN11 functions in tight junction formation"
+          },
+          {
+            "source_id": "17",
+            "notes": "CNTNAP4 is a cell adhesion molecule in nervous system development"
+          },
+          {
+            "source_id": "18",
+            "notes": "Beta-catenin condensation nucleates cadherin clustering and adhesion site formation"
+          },
+          {
+            "source_id": "37",
+            "notes": "Plexin-B1 coordinates astrocyte spacing and alignment critical for glial organization"
+          },
+          {
+            "source_id": "53",
+            "notes": "Tight junction markers coordinate blood-brain barrier formation"
+          }
+        ],
+        "supporting_genes": [
+          "CLDN11",
+          "CLDND1",
+          "CDH19",
+          "CTNNA3",
+          "CNTN2",
+          "CNTNAP4",
+          "CERCAM",
+          "EDIL3",
+          "SPOCK3",
+          "COL4A5"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CDH5",
+            "TJP1",
+            "ACTB",
+            "VCL"
+          ],
+          "citations": [
+            {
+              "source_id": "53",
+              "notes": "CDH5 and TJP1 essential for tight junction formation in vascular endothelium"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Ion Homeostasis and Electrolyte Regulation",
+        "description": "Active transport and passive ion flux mechanisms that maintain proper ionic gradients essential for neuronal excitability and glial cell function. This program encompasses Na+/K+ ATPases, voltage-gated ion channels, and lipid kinases that regulate ion channel function and cellular membrane potential.",
+        "atomic_biological_processes": [
+          {
+            "name": "Sodium-potassium active transport",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "ATP1B1 is the beta subunit of Na+/K+ ATPase involved in ion gradient maintenance and volume regulation in astrocytes"
+              },
+              {
+                "source_id": "16",
+                "notes": "Na+/K+ ATPases consume 25% of total ATP production in the brain"
+              }
+            ],
+            "genes": [
+              "ATP1B1"
+            ]
+          },
+          {
+            "name": "Potassium channel-mediated conductance",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "KCNK1 encodes a two-pore domain potassium channel contributing to background K+ conductance"
+              },
+              {
+                "source_id": "1",
+                "notes": "KCNMB4 functions as accessory subunit of large-conductance calcium-activated potassium channels"
+              }
+            ],
+            "genes": [
+              "KCNK1",
+              "KCNMB4"
+            ]
+          },
+          {
+            "name": "Phospholipid metabolism supporting channel regulation",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "PIP4K2A catalyzes synthesis of PIP2, a critical lipid that regulates ion channels"
+              }
+            ],
+            "genes": [
+              "PIP4K2A",
+              "PLD1",
+              "PLAAT3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Na+/K+-ATPase pumps",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "ATP1B1 beta subunit couples with ATP1A1 alpha subunit in Na+/K+ ATPase"
+              },
+              {
+                "source_id": "16",
+                "notes": "ATP1B1 interacts with MLC1 to regulate astrocyte volume and osmotic balance"
+              }
+            ],
+            "genes": [
+              "ATP1B1",
+              "ATP8A1"
+            ]
+          },
+          {
+            "name": "Voltage-gated ion channels",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "KCNK1 and KCNMB4 represent functional ion channel components"
+              }
+            ],
+            "genes": [
+              "KCNK1",
+              "KCNMB4",
+              "PIEZO2"
+            ]
+          },
+          {
+            "name": "Membrane phospholipid regulation complexes",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "PIP4K2A and related enzymes regulate phospholipid composition"
+              }
+            ],
+            "genes": [
+              "PIP4K2A",
+              "PLD1",
+              "PLAAT3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Maintenance of resting membrane potential in glial cells",
+          "Prevention of excessive extracellular K+ accumulation during neuronal activity",
+          "Regulation of cell volume in response to osmotic changes",
+          "Modulation of neuronal excitability through glial K+ buffering",
+          "Coupling of metabolic ATP production to ion pumping demands"
+        ],
+        "evidence_summary": "ATP1B1 represents the beta subunit of the Na+/K+ ATPase, the most energy-demanding process in the brain, consuming approximately 25 percent of total ATP. The Na+/K+ ATPase maintains ionic gradients essential for neuronal excitability while also regulating cell volume through osmotic effects. KCNK1 and KCNMB4 encode potassium channels enabling K+ flux that influences resting membrane potential and responsiveness to stimuli. PIP4K2A and related phospholipid kinases regulate channel localization and activity through synthesis of PIP2. In astrocytoma context, dysregulated ion homeostasis could promote glioma cell proliferation (as glioblastoma cells often exhibit abnormal Ca2+ signaling) or suppress normal astrocytic buffering capacity.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Multiple ion channel and transporter genes identified in oligodendrocyte context"
+          },
+          {
+            "source_id": "12",
+            "notes": "ATP1B1 critical for astrocyte osmotic regulation and volume control"
+          },
+          {
+            "source_id": "15",
+            "notes": "Dysregulated oxidative phosphorylation supports glioma therapy resistance"
+          },
+          {
+            "source_id": "16",
+            "notes": "Ion pumping represents major energy expenditure in brain"
+          }
+        ],
+        "supporting_genes": [
+          "ATP1B1",
+          "ATP8A1",
+          "KCNK1",
+          "KCNMB4",
+          "PIEZO2",
+          "PIP4K2A",
+          "PLD1",
+          "PLAAT3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ATP1A1",
+            "ATP1A3",
+            "MLC1"
+          ],
+          "citations": [
+            {
+              "source_id": "12",
+              "notes": "ATP1A1/ATP1A3 alpha subunits partner with ATP1B1 beta subunits in Na+/K+ ATPase"
+            },
+            {
+              "source_id": "16",
+              "notes": "MLC1 couples with ATP1B1 for astrocyte volume regulation"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Axon-Glia Communication and Neurite Support",
+        "description": "Bidirectional signaling between axons and glial cells that enables oligodendrocytes and astrocytes to sense axonal activity and provide metabolic and trophic support. This program encompasses secreted signaling molecules, growth factor receptors, and RNA-binding proteins that coordinate neuronal-glial interactions.",
+        "atomic_biological_processes": [
+          {
+            "name": "Semaphorin-mediated axon guidance and glia interactions",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "SEMA4D functions in signaling that influences cancer cell and nerve interactions including metabolic reprogramming"
+              }
+            ],
+            "genes": [
+              "SEMA4D",
+              "UNC5C"
+            ]
+          },
+          {
+            "name": "Growth factor receptor signaling",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "ERBB3 and FGFR2 function in glial growth factor signaling"
+              },
+              {
+                "source_id": "50",
+                "notes": "VEGF signaling from neurons to endothelial cells enables brain vascular development"
+              }
+            ],
+            "genes": [
+              "ERBB3",
+              "FGFR2",
+              "LPAR1"
+            ]
+          },
+          {
+            "name": "RNA-binding protein-mediated translational control",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "LARP6 controls collagen and extracellular matrix protein expression through RNA processing"
+              }
+            ],
+            "genes": [
+              "LARP6",
+              "DNAJC6"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Secreted signaling molecule complexes",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Semaphorins function as secreted or membrane-bound signaling molecules"
+              }
+            ],
+            "genes": [
+              "SEMA4D",
+              "MEGF10"
+            ]
+          },
+          {
+            "name": "Growth factor receptor complexes",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Receptor tyrosine kinases transduce growth factor signals"
+              }
+            ],
+            "genes": [
+              "ERBB3",
+              "FGFR2",
+              "LPAR1"
+            ]
+          },
+          {
+            "name": "Chloride channel signaling complexes",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "BEST1 encodes a chloride channel participating in cellular signaling"
+              }
+            ],
+            "genes": [
+              "BEST1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Sensing of axonal activity through neurotrophin and growth factor signals",
+          "Metabolic reprogramming in glial cells in response to neuronal demands",
+          "Coordination of myelination with axonal caliber and activity patterns",
+          "Modulation of glial cell migration and process extension toward active axons",
+          "Provision of metabolic substrates to support neuronal energy demands"
+        ],
+        "evidence_summary": "SEMA4D operates as a signaling molecule influencing both axon guidance and glial cell interactions, with recent evidence indicating its role in cancer-nerve interactions and metabolic reprogramming. ERBB3 and FGFR2 represent growth factor receptors enabling glial cells to respond to neuronal signals. LARP6 controls collagen and extracellular matrix protein synthesis through RNA stability mechanisms, enabling glial cells to remodel their microenvironment. UNC5C functions in axon guidance. MEGF10 and BEST1 contribute to additional aspects of axon-glia communication. In astrocytoma context, dysregulation could promote tumor cells to exploit neuronal support signals or suppress normal glial support of neuronal survival.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Multiple axon-glia interaction genes identified in oligodendrocyte gene list"
+          },
+          {
+            "source_id": "25",
+            "notes": "SEMA4D and nerves influence cancer cell metabolism and stemness"
+          },
+          {
+            "source_id": "50",
+            "notes": "Neurovascular communication couples neural activity with vascular development"
+          }
+        ],
+        "supporting_genes": [
+          "SEMA4D",
+          "UNC5C",
+          "ERBB3",
+          "FGFR2",
+          "LPAR1",
+          "LARP6",
+          "MEGF10",
+          "BEST1",
+          "DNAJC6"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "VEGFA",
+            "NGF",
+            "BDNF",
+            "GDNF",
+            "NRG1"
+          ],
+          "citations": [
+            {
+              "source_id": "29",
+              "notes": "BDNF and FGF2 show gene interactions in stroke outcome"
+            },
+            {
+              "source_id": "50",
+              "notes": "VEGF represents crucial neurotrophic factor for neurogenesis and axon pathfinding"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Lipid Metabolism and Myelin Lipid Biogenesis",
+        "description": "Biosynthesis and remodeling of specialized lipids unique to myelin, including galactocerebroside, sulfatide, and 2-hydroxy fatty acids that comprise approximately 80 percent of myelin dry weight. This program coordinates fatty acid synthesis, elongation, hydroxylation, and incorporation into complex glycosphingolipids.",
+        "atomic_biological_processes": [
+          {
+            "name": "Synthesis of 2-hydroxy fatty acids for myelin",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "FA2H synthesizes 2-hydroxy fatty acids incorporated into myelin galactocerebroside and sulfatide"
+              }
+            ],
+            "genes": [
+              "FA2H"
+            ]
+          },
+          {
+            "name": "Cerebroside (galactosylceramide) synthesis",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "UGT8 catalyzes cerebroside synthesis, the most abundant myelin-specific lipid"
+              }
+            ],
+            "genes": [
+              "UGT8"
+            ]
+          },
+          {
+            "name": "Very long-chain fatty acid elongation",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "ELOVL7 catalyzes elongation of very long-chain fatty acids for myelin lipid incorporation"
+              }
+            ],
+            "genes": [
+              "ELOVL7",
+              "SCD"
+            ]
+          },
+          {
+            "name": "Cholesterol and oxysterol trafficking",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "OSBPL1A binds cholesterol and oxysterols influencing their trafficking and metabolism"
+              }
+            ],
+            "genes": [
+              "OSBPL1A"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Fatty acid synthesis and modification enzymes",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "Multiple enzymes coordinate myelin lipid synthesis"
+              }
+            ],
+            "genes": [
+              "FA2H",
+              "SCD",
+              "ELOVL7"
+            ]
+          },
+          {
+            "name": "Glycosphingolipid synthesis complexes",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "UGT8 catalyzes cerebroside synthesis in Golgi apparatus"
+              }
+            ],
+            "genes": [
+              "UGT8",
+              "ST6GALNAC3"
+            ]
+          },
+          {
+            "name": "Lipid trafficking and binding proteins",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "OSBPL1A and related lipid binding proteins regulate cholesterol and oxysterol transport"
+              },
+              {
+                "source_id": "45",
+                "notes": "Astrocyte sphingolipid metabolism changes in neurodegenerative diseases"
+              }
+            ],
+            "genes": [
+              "OSBPL1A",
+              "ABCA2",
+              "ABCA6",
+              "ABCA8"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Synthesis of myelin-specific lipids constituting 80% of myelin dry weight",
+          "Proper myelin compaction and stability through coordinated lipid incorporation",
+          "Prevention of myelin decompaction and demyelination",
+          "Metabolic coupling between lipid synthesis and ATP availability",
+          "Coordination of lipid membrane trafficking with oligodendrocyte development"
+        ],
+        "evidence_summary": "FA2H synthesizes 2-hydroxy fatty acids essential for myelin galactocerebroside and sulfatide; mutations cause hereditary spastic paraplegia. UGT8 catalyzes cerebroside synthesis, the most abundant myelin-specific lipid. ELOVL7 and SCD coordinate fatty acid elongation and desaturation. OSBPL1A regulates cholesterol trafficking, critical as cholesterol comprises 25 percent of myelin dry weight. ST6GALNAC3 participates in glycosphingolipid synthesis. ABC transporter family members facilitate lipid trafficking. In astrocytoma context, alterations in lipid metabolism may reflect both tumor origin in glial cells and metabolic reprogramming supporting oncogenic transformation.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Multiple lipid metabolism genes identified in oligodendrocyte gene list"
+          },
+          {
+            "source_id": "25",
+            "notes": "Metabolic reprogramming in cancer-associated cells includes lipid metabolism changes"
+          },
+          {
+            "source_id": "41",
+            "notes": "FA2H and related enzymes essential for myelin lipid synthesis"
+          },
+          {
+            "source_id": "45",
+            "notes": "Astrocyte lipid metabolism changes in disease states"
+          }
+        ],
+        "supporting_genes": [
+          "FA2H",
+          "UGT8",
+          "ELOVL7",
+          "SCD",
+          "OSBPL1A",
+          "ST6GALNAC3",
+          "ABCA2",
+          "ABCA6",
+          "ABCA8",
+          "ENPP2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ASAH1",
+            "ASAH2",
+            "GALC"
+          ],
+          "citations": [
+            {
+              "source_id": "1",
+              "notes": "Additional enzymes coordinate myelin lipid synthesis and metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Metabolic Adaptation and Energy Production",
+        "description": "Coordinated metabolic reprogramming of glial cells in response to activity demands, injury signals, and tumor microenvironment cues. This program enables flexible utilization of multiple energy substrates and adaptation to changing metabolic demands, including shifts between glycolysis and oxidative phosphorylation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Aerobic and anaerobic energy metabolism",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "Activated astrocytes engage in TCA cycle activity, glycogenolysis, and pyruvate carboxylation in addition to glycolysis"
+              },
+              {
+                "source_id": "15",
+                "notes": "Targeting oxidative phosphorylation and glycolysis represents resistance mechanism to anti-CSF-1R therapy in glioblastoma"
+              }
+            ],
+            "genes": [
+              "ATP1B1",
+              "ENO4"
+            ]
+          },
+          {
+            "name": "Glycogen metabolism and glucose utilization",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "Activated astrocytes engage in glycogenolysis to provide substrates for energy and metabolic processes"
+              }
+            ],
+            "genes": [
+              "ATP1B1",
+              "TPPP"
+            ]
+          },
+          {
+            "name": "Inflammatory signaling and metabolic adaptation",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "Acute astrocytic response includes upregulation of pro-inflammatory pathways and metabolic stress responses"
+              },
+              {
+                "source_id": "34",
+                "notes": "Reactive astrocytes show sustained activation with transcriptional signatures reflecting pro-inflammatory and metabolic stress"
+              }
+            ],
+            "genes": [
+              "IL1RAPL1",
+              "TNF"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "ATP synthesis and energy coupling complexes",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "Oxidative phosphorylation complexes represent therapeutic target in glioblastoma"
+              },
+              {
+                "source_id": "16",
+                "notes": "Na+/K+ ATPase couples active ion transport with ATP consumption"
+              }
+            ],
+            "genes": [
+              "ATP1B1",
+              "ATP8A1",
+              "ENO4"
+            ]
+          },
+          {
+            "name": "Metabolic regulatory enzyme complexes",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "Protein synthesis regulation through eEF2K controls energy expenditure during translation"
+              }
+            ],
+            "genes": [
+              "ENO4",
+              "CBR1"
+            ]
+          },
+          {
+            "name": "Stress response and inflammatory signaling complexes",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "Inflammatory pathway activation accompanies metabolic stress in reactive astrocytes"
+              }
+            ],
+            "genes": [
+              "IL1RAPL1",
+              "HSPA2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Rapid energy production matching glial cell metabolic demands",
+          "Metabolic flexibility enabling utilization of multiple energy substrates",
+          "Coupling of energy production to active ion pumping and biosynthetic demands",
+          "Metabolic support for axonal activity through lactate and other metabolic substrates",
+          "Resistance to metabolic stress during inflammation and tumor development"
+        ],
+        "evidence_summary": "Activated astrocytes engage in diverse metabolic processes beyond glycolysis including TCA cycle activity, glycogenolysis, and pyruvate carboxylation. Recent research challenges the classical astrocyte-neuron lactate shuttle hypothesis, indicating that metabolic coordination is more complex than previously appreciated. ATP1B1 represents the most energy-demanding process in the brain, consuming approximately 25 percent of total ATP. Dysregulated oxidative phosphorylation and glycolysis represent identified resistance mechanisms to anti-CSF-1R therapy in glioblastoma, highlighting the therapeutic importance of metabolic reprogramming. Acute and subacute astrocytic responses show upregulation of inflammatory and stress-related pathways. In astrocytoma context, tumor-derived signals drive metabolic reprogramming in tumor-associated glial cells, supporting both tumor growth and therapy resistance.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "15",
+            "notes": "Oxidative phosphorylation dysregulation supports glioblastoma therapy resistance"
+          },
+          {
+            "source_id": "16",
+            "notes": "Activated astrocytes engage in diverse metabolic processes"
+          },
+          {
+            "source_id": "22",
+            "notes": "Acute astrocytic response includes inflammatory and metabolic stress pathways"
+          },
+          {
+            "source_id": "27",
+            "notes": "Protein synthesis and translation control consume substantial metabolic resources"
+          },
+          {
+            "source_id": "34",
+            "notes": "Chronic astrocytic activation shows mixed phenotype including metabolic adaptation"
+          }
+        ],
+        "supporting_genes": [
+          "ATP1B1",
+          "ATP8A1",
+          "ENO4",
+          "CBR1",
+          "HSPA2",
+          "TPPP",
+          "IL1RAPL1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PKM",
+            "LDHA",
+            "PDHB",
+            "SDH"
+          ],
+          "citations": [
+            {
+              "source_id": "16",
+              "notes": "Additional metabolic enzymes coordinate energy production"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Transcriptional Regulation of Glial Identity and Chromatin Organization",
+        "description": "Coordinated transcriptional control of glial differentiation, chromatin accessibility, and cell fate determination through transcription factors, chromatin remodelers, and epigenetic regulators. This program establishes and maintains glial cell identity while enabling plasticity in response to developmental and environmental signals.",
+        "atomic_biological_processes": [
+          {
+            "name": "Pioneer transcription factor-mediated chromatin opening",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "Ascl1 SA6 demonstrates transcriptional mechanisms in glial lineage specification through chromatin remodeling"
+              },
+              {
+                "source_id": "46",
+                "notes": "SOX10 functions as pioneer transcription factor opening chromatin at oligodendrocyte-specific loci"
+              }
+            ],
+            "genes": [
+              "SOX10",
+              "NKX6-2"
+            ]
+          },
+          {
+            "name": "Transcriptional control of myelin protein synthesis",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "Transcriptional regulators coordinately activate myelin protein genes"
+              },
+              {
+                "source_id": "41",
+                "notes": "Ascl1 SA6 demonstrates transcriptional conversion of astrocytes"
+              }
+            ],
+            "genes": [
+              "MYRF",
+              "SOX10",
+              "NKX6-2"
+            ]
+          },
+          {
+            "name": "Ubiquitin-mediated protein degradation affecting transcriptional regulation",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "E3 ubiquitin ligases regulate transcription factor stability and activity"
+              }
+            ],
+            "genes": [
+              "TRIM2",
+              "TRIM59"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Transcription factor complexes",
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "SOX and homeodomain factors form cooperating transcription factor networks"
+              }
+            ],
+            "genes": [
+              "SOX10",
+              "NKX6-2",
+              "MYRF",
+              "VRK2"
+            ]
+          },
+          {
+            "name": "Chromatin modifying enzyme complexes",
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "Epigenomic changes accompany oligodendrocyte specification"
+              }
+            ],
+            "genes": [
+              "TRIM2",
+              "TRIM59",
+              "VRK2"
+            ]
+          },
+          {
+            "name": "Protein kinase signaling complexes",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "VRK2 phosphorylates transcription factors modifying their activity"
+              }
+            ],
+            "genes": [
+              "VRK2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Establishment and maintenance of oligodendrocyte-specific gene expression patterns",
+          "Opening of chromatin at oligodendrocyte-specific loci enabling transcriptional access",
+          "Coordinated activation of myelin protein synthesis programs",
+          "Suppression of alternative glial cell fates",
+          "Dynamic regulation of glial plasticity in response to developmental and environmental signals"
+        ],
+        "evidence_summary": "SOX10, NKX6-2, and MYRF represent the core transcriptional cascade regulating oligodendrocyte specification and maturation. SOX10 functions as a pioneer transcription factor that opens chromatin at oligodendrocyte-specific loci. NKX6-2 refines oligodendrocyte fate through downstream regulatory mechanisms. MYRF represents a molecular switch with intrinsic self-cleaving mechanism that activates latent MYRF to nuclear form at appropriate developmental stage. VRK2 phosphorylates various transcription factors modifying their activity. TRIM proteins function as E3 ubiquitin ligases regulating transcription factor stability. In astrocytoma context, dysregulation of transcriptional control could occur through altered upstream signaling, mutations affecting transcription factors, or chromatin remodeling changes.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "4",
+            "notes": "Transcriptional reprogramming in glial cells demonstrates central role of transcription factors"
+          },
+          {
+            "source_id": "8",
+            "notes": "SOX10 and NKX6-2 in oligodendrocyte transcriptional control"
+          },
+          {
+            "source_id": "41",
+            "notes": "Transcriptional mechanisms in glial lineage determination"
+          },
+          {
+            "source_id": "46",
+            "notes": "Distinct transcriptomic and epigenomic responses characterize oligodendrocyte development"
+          }
+        ],
+        "supporting_genes": [
+          "SOX10",
+          "NKX6-2",
+          "MYRF",
+          "VRK2",
+          "TRIM2",
+          "TRIM59"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "OLIG2",
+            "OLIG1",
+            "ZEB2",
+            "SNAIL1"
+          ],
+          "citations": [
+            {
+              "source_id": "1",
+              "notes": "Additional transcriptional regulators coordinate glial lineage decisions"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Literature-based functional annotation",
+        "Pathway database integration (myelin proteins, metabolic enzymes, adhesion molecules)",
+        "Co-expression patterns in oligodendrocyte and glial cell development",
+        "Protein-protein interaction networks",
+        "Shared roles in coordinated biological processes"
+      ],
+      "notes": "Gene programs identified through systematic analysis of functional roles documented in developmental neurobiology, molecular genetics, and glioma biology literature. Programs group genes participating in coordinated processes including myelin biogenesis, cell adhesion, ion homeostasis, axon-glia communication, lipid metabolism, metabolic adaptation, and transcriptional control. Each program prioritizes genes with strong experimental support and clear mechanistic connections to oligodendrocyte function and astrocytoma biology."
+    },
+    "version": "1.0"
+  }
+}

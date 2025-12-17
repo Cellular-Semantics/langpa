@@ -1,0 +1,2195 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T19:18:20.711638",
+    "genes": [
+      "LINC02235",
+      "AC037486.1",
+      "PCDH11X",
+      "LINC01829",
+      "AL591043.2",
+      "ZNF423",
+      "ADAMTS18",
+      "AL133538.1",
+      "DOCK2",
+      "SCN1A-AS1",
+      "AL022068.1",
+      "SEPTIN14",
+      "SGCZ",
+      "ADAM28",
+      "RYR2",
+      "DOCK8",
+      "ACER2",
+      "AC128687.3",
+      "AC120193.1",
+      "OLR1",
+      "AC110296.1",
+      "AC109466.1",
+      "SPOCK3",
+      "ST6GALNAC5",
+      "AL136441.1",
+      "MLIP",
+      "AL158077.2",
+      "AP001021.3",
+      "CCDC85A",
+      "CD96",
+      "NRK",
+      "C8orf37-AS1",
+      "PCDH7",
+      "PLD1",
+      "CHRNA7",
+      "CLRN1",
+      "MYO1D",
+      "RMST",
+      "CNTNAP2",
+      "PURPL",
+      "RALYL",
+      "AL445426.1",
+      "RCAN2",
+      "AL392023.2",
+      "RELN",
+      "AL360091.3",
+      "AC091946.1",
+      "LRRIQ1",
+      "CD163",
+      "SYN3",
+      "IL1RAPL1",
+      "LINC01122",
+      "LINC01091",
+      "AC009126.1",
+      "LINC00944",
+      "LINC01467",
+      "LINC01725",
+      "KCNH7",
+      "AC069228.1",
+      "GNA14-AS1",
+      "KCNIP4",
+      "LINC00504",
+      "AC006299.1",
+      "TPRG1",
+      "AC003092.1",
+      "AC083855.2",
+      "FXYD5",
+      "SYK",
+      "XK",
+      "LINC02006",
+      "KLF5",
+      "WNT16",
+      "NIBAN1",
+      "LINC00355",
+      "LINC01135",
+      "MSR1",
+      "MT2A",
+      "LINC00299",
+      "MX2",
+      "NLGN4X",
+      "LINC00886",
+      "LINC00607",
+      "NHSL2",
+      "MYO1E",
+      "NKAIN2",
+      "NIPAL2",
+      "MYO1F",
+      "LINC01163",
+      "NCMAP",
+      "NHS",
+      "MYRFL",
+      "LINC02234",
+      "LINC01182",
+      "LINC01923",
+      "LINC02246",
+      "LINC02300",
+      "LINC02306",
+      "LINC02378",
+      "LINC02664",
+      "LINC02775",
+      "LINC02798",
+      "LINC02821",
+      "LMNTD1",
+      "LRRTM4",
+      "LURAP1L-AS1",
+      "LINC01934",
+      "LY96",
+      "MAP3K6",
+      "LINC01877",
+      "LINC01208",
+      "LINC01876",
+      "MCTP2",
+      "LINC01842",
+      "LINC01798",
+      "LINC01579",
+      "ME1",
+      "MEGF11",
+      "LINC01357",
+      "MEOX2",
+      "LINC01277",
+      "MGAT4C",
+      "LINC02055",
+      "LINC01241",
+      "MIR548XHG",
+      "MIR222HG",
+      "PTPN14",
+      "OTP",
+      "TAFA2",
+      "TG",
+      "TENT5A",
+      "TENM2",
+      "TEK",
+      "TDO2",
+      "TBX19",
+      "TAPT1-AS1",
+      "SYTL3",
+      "THSD4",
+      "SYT1",
+      "SULF1",
+      "SUCLG2-AS1",
+      "STAT4",
+      "STARD13",
+      "STAC",
+      "SPRY4-AS1",
+      "TGM2",
+      "TLR2",
+      "SPATA48",
+      "VEGFD",
+      "WWTR1",
+      "WIPF1",
+      "WDR49",
+      "VSTM2A-OT1",
+      "VSTM2A",
+      "VSIG4",
+      "VLDLR-AS1",
+      "UTY",
+      "TMEM164",
+      "UNC5C",
+      "UNC13C",
+      "TRPV4",
+      "TRPM8",
+      "TRPM3",
+      "TRIM22",
+      "TMEM63A",
+      "SPINK5",
+      "SPAG17",
+      "PCA3",
+      "POSTN",
+      "RARRES1",
+      "PTPRR",
+      "LINC00158",
+      "PTCHD4",
+      "PTCHD1-AS",
+      "PRSS48",
+      "POU6F2",
+      "PLIN2",
+      "RNF6",
+      "PLAC1",
+      "PKD1L1",
+      "PIP5K1B",
+      "PGLYRP1",
+      "PDE1C",
+      "PCED1B",
+      "PCDH11Y",
+      "RASSF8",
+      "RREB1",
+      "SORCS1",
+      "SLC18A1",
+      "SOCS2-AS1",
+      "SNTG1",
+      "SMOC2",
+      "SLIT2",
+      "SLCO1B1",
+      "SLC35G1",
+      "SLC35E4",
+      "SLC10A6",
+      "RUNX1T1",
+      "SIDT1",
+      "SHOC1",
+      "SAPCD2",
+      "SAMD3",
+      "SAA1",
+      "RYR3",
+      "RXRG",
+      "LINC00278",
+      "AC002074.1",
+      "LGALS1",
+      "AL117329.1",
+      "ADAMTS3",
+      "ADAMTS14",
+      "ACOXL",
+      "AC244472.1",
+      "AC138409.3",
+      "AC124947.1",
+      "AC122697.1",
+      "AC117464.1",
+      "AC114689.3",
+      "AC110023.1",
+      "AC106845.1",
+      "AC097518.2",
+      "AC097462.3",
+      "AC093535.1",
+      "AC093523.1",
+      "AC092958.2",
+      "AC092957.1",
+      "AGMO",
+      "AL121904.2",
+      "AC092131.1",
+      "AL132633.1",
+      "AP000446.1",
+      "ALPK2",
+      "ALDH1A2",
+      "AL732509.1",
+      "AL590608.1",
+      "AL589935.1",
+      "AL512452.1",
+      "AL392086.3",
+      "AL360178.1",
+      "AL354696.2",
+      "AL163636.1",
+      "AL158195.1",
+      "AL158058.1",
+      "AL157911.1",
+      "AL138824.1",
+      "AL137139.2",
+      "AL136038.5",
+      "AC092819.3",
+      "AC091078.1",
+      "AP002495.1",
+      "AC023095.1",
+      "AC022325.2",
+      "AC018616.1",
+      "AC012404.1",
+      "AC012063.1",
+      "AC011246.1",
+      "AC009646.2",
+      "AC008080.4",
+      "AC007681.1",
+      "AC007389.1",
+      "AC007364.1",
+      "AC006994.2",
+      "AC006387.1",
+      "AC006206.2",
+      "AC006041.2",
+      "AC005162.3",
+      "AC004943.2",
+      "AC004879.1",
+      "AC023051.1",
+      "AC024145.1",
+      "AC090578.1",
+      "AC026202.2",
+      "AC090403.1",
+      "AC090337.2",
+      "AC087627.1",
+      "AC087473.1",
+      "AC079950.1",
+      "AC079763.1",
+      "AC079465.1",
+      "AC079298.3",
+      "AC073529.1",
+      "AC073050.1",
+      "AC072062.1",
+      "AC068305.2",
+      "AC067956.1",
+      "AC062022.2",
+      "AC051619.6",
+      "AC040174.1",
+      "AC027097.2",
+      "AP001025.1",
+      "AP002813.1",
+      "LCP2",
+      "GPC3",
+      "GNA14",
+      "GLRA2",
+      "GDNF-AS1",
+      "GCNT2",
+      "FYB1",
+      "FXN",
+      "FRG1-DT",
+      "FRAS1",
+      "FHIT",
+      "FAR2",
+      "FAP",
+      "FAM189A1",
+      "FAAH2",
+      "ERI2",
+      "EPSTI1",
+      "EPHA3",
+      "EPB41L4A",
+      "GNGT1",
+      "GREB1L",
+      "EMILIN2",
+      "GRIN2B",
+      "LANCL3",
+      "KREMEN1",
+      "KCNMB4",
+      "KCNE4",
+      "ITK",
+      "ITGAL",
+      "INPP5D",
+      "IL7",
+      "IL12RB2",
+      "IGSF10",
+      "IAPP",
+      "HS3ST3A1",
+      "HRH1",
+      "AC002429.2",
+      "HMGB2",
+      "HMGA2",
+      "GRIP2",
+      "ENOX2",
+      "ELDR",
+      "AP003066.1",
+      "CFAP77",
+      "CERNA2",
+      "CDH18",
+      "CDH13",
+      "CD247",
+      "CASC9",
+      "C9orf153",
+      "C9orf147",
+      "BX284613.2",
+      "BIRC3",
+      "BEND6",
+      "BCL2L14",
+      "ATP8B4",
+      "ASB18",
+      "ARSJ",
+      "ARRDC3-AS1",
+      "ARHGAP11B",
+      "APBB1IP",
+      "CFAP47",
+      "CFH",
+      "EDN1",
+      "CGNL1",
+      "EBF2",
+      "DOCK5",
+      "DNAH3",
+      "DIPK2A",
+      "DANT2",
+      "CPNE4",
+      "COX8A",
+      "COL4A6",
+      "COL19A1",
+      "COL12A1",
+      "COBLL1",
+      "CNTNAP3B",
+      "CNDP1",
+      "CNBD1",
+      "CHRM3",
+      "CHODL",
+      "CHL1-AS2",
+      "HNF4G"
+    ],
+    "context": "malignant glioblastoma cells",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/glioblastoma_ds_auto/5_AC_neuronal_like/20251126_130844/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": null,
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "offline",
+    "effective_model": "offline",
+    "project": "glioblastoma_ds_auto",
+    "query": "5_AC_neuronal_like",
+    "source_tag": "deepsearch",
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "context": {
+      "cell_type": "glioblastoma cells",
+      "disease": "malignant glioblastoma (WHO grade IV)",
+      "tissue": "brain"
+    },
+    "input_genes": [
+      "LINC02235",
+      "AC037486.1",
+      "PCDH11X",
+      "LINC01829",
+      "AL591043.2",
+      "ZNF423",
+      "ADAMTS18",
+      "AL133538.1",
+      "DOCK2",
+      "SCN1A-AS1",
+      "AL022068.1",
+      "SEPTIN14",
+      "SGCZ",
+      "ADAM28",
+      "RYR2",
+      "DOCK8",
+      "ACER2",
+      "AC128687.3",
+      "AC120193.1",
+      "OLR1",
+      "AC110296.1",
+      "AC109466.1",
+      "SPOCK3",
+      "ST6GALNAC5",
+      "AL136441.1",
+      "MLIP",
+      "AL158077.2",
+      "AP001021.3",
+      "CCDC85A",
+      "CD96",
+      "NRK",
+      "C8orf37-AS1",
+      "PCDH7",
+      "PLD1",
+      "CHRNA7",
+      "CLRN1",
+      "MYO1D",
+      "RMST",
+      "CNTNAP2",
+      "PURPL",
+      "RALYL",
+      "AL445426.1",
+      "RCAN2",
+      "AL392023.2",
+      "RELN",
+      "AL360091.3",
+      "AC091946.1",
+      "LRRIQ1",
+      "CD163",
+      "SYN3",
+      "IL1RAPL1",
+      "LINC01122",
+      "LINC01091",
+      "AC009126.1",
+      "LINC00944",
+      "LINC01467",
+      "LINC01725",
+      "KCNH7",
+      "AC069228.1",
+      "GNA14-AS1",
+      "KCNIP4",
+      "LINC00504",
+      "AC006299.1",
+      "TPRG1",
+      "AC003092.1",
+      "AC083855.2",
+      "FXYD5",
+      "SYK",
+      "XK",
+      "LINC02006",
+      "KLF5",
+      "WNT16",
+      "NIBAN1",
+      "LINC00355",
+      "LINC01135",
+      "MSR1",
+      "MT2A",
+      "LINC00299",
+      "MX2",
+      "NLGN4X",
+      "LINC00886",
+      "LINC00607",
+      "NHSL2",
+      "MYO1E",
+      "NKAIN2",
+      "NIPAL2",
+      "MYO1F",
+      "LINC01163",
+      "NCMAP",
+      "NHS",
+      "MYRFL",
+      "LINC02234",
+      "LINC01182",
+      "LINC01923",
+      "LINC02246",
+      "LINC02300",
+      "LINC02306",
+      "LINC02378",
+      "LINC02664",
+      "LINC02775",
+      "LINC02798",
+      "LINC02821",
+      "LMNTD1",
+      "LRRTM4",
+      "LURAP1L-AS1",
+      "LINC01934",
+      "LY96",
+      "MAP3K6",
+      "LINC01877",
+      "LINC01208",
+      "LINC01876",
+      "MCTP2",
+      "LINC01842",
+      "LINC01798",
+      "LINC01579",
+      "ME1",
+      "MEGF11",
+      "LINC01357",
+      "MEOX2",
+      "LINC01277",
+      "MGAT4C",
+      "LINC02055",
+      "LINC01241",
+      "MIR548XHG",
+      "MIR222HG",
+      "PTPN14",
+      "OTP",
+      "TAFA2",
+      "TG",
+      "TENT5A",
+      "TENM2",
+      "TEK",
+      "TDO2",
+      "TBX19",
+      "TAPT1-AS1",
+      "SYTL3",
+      "THSD4",
+      "SYT1",
+      "SULF1",
+      "SUCLG2-AS1",
+      "STAT4",
+      "STARD13",
+      "STAC",
+      "SPRY4-AS1",
+      "TGM2",
+      "TLR2",
+      "SPATA48",
+      "VEGFD",
+      "WWTR1",
+      "WIPF1",
+      "WDR49",
+      "VSTM2A-OT1",
+      "VSTM2A",
+      "VSIG4",
+      "VLDLR-AS1",
+      "UTY",
+      "TMEM164",
+      "UNC5C",
+      "UNC13C",
+      "TRPV4",
+      "TRPM8",
+      "TRPM3",
+      "TRIM22",
+      "TMEM63A",
+      "SPINK5",
+      "SPAG17",
+      "PCA3",
+      "POSTN",
+      "RARRES1",
+      "PTPRR",
+      "LINC00158",
+      "PTCHD4",
+      "PTCHD1-AS",
+      "PRSS48",
+      "POU6F2",
+      "PLIN2",
+      "RNF6",
+      "PLAC1",
+      "PKD1L1",
+      "PIP5K1B",
+      "PGLYRP1",
+      "PDE1C",
+      "PCED1B",
+      "PCDH11Y",
+      "RASSF8",
+      "RREB1",
+      "SORCS1",
+      "SLC18A1",
+      "SOCS2-AS1",
+      "SNTG1",
+      "SMOC2",
+      "SLIT2",
+      "SLCO1B1",
+      "SLC35G1",
+      "SLC35E4",
+      "SLC10A6",
+      "RUNX1T1",
+      "SIDT1",
+      "SHOC1",
+      "SAPCD2",
+      "SAMD3",
+      "SAA1",
+      "RYR3",
+      "RXRG",
+      "LINC00278",
+      "AC002074.1",
+      "LGALS1",
+      "AL117329.1",
+      "ADAMTS3",
+      "ADAMTS14",
+      "ACOXL",
+      "AC244472.1",
+      "AC138409.3",
+      "AC124947.1",
+      "AC122697.1",
+      "AC117464.1",
+      "AC114689.3",
+      "AC110023.1",
+      "AC106845.1",
+      "AC097518.2",
+      "AC097462.3",
+      "AC093535.1",
+      "AC093523.1",
+      "AC092958.2",
+      "AC092957.1",
+      "AGMO",
+      "AL121904.2",
+      "AC092131.1",
+      "AL132633.1",
+      "AP000446.1",
+      "ALPK2",
+      "ALDH1A2",
+      "AL732509.1",
+      "AL590608.1",
+      "AL589935.1",
+      "AL512452.1",
+      "AL392086.3",
+      "AL360178.1",
+      "AL354696.2",
+      "AL163636.1",
+      "AL158195.1",
+      "AL158058.1",
+      "AL157911.1",
+      "AL138824.1",
+      "AL137139.2",
+      "AL136038.5",
+      "AC092819.3",
+      "AC091078.1",
+      "AP002495.1",
+      "AC023095.1",
+      "AC022325.2",
+      "AC018616.1",
+      "AC012404.1",
+      "AC012063.1",
+      "AC011246.1",
+      "AC009646.2",
+      "AC008080.4",
+      "AC007681.1",
+      "AC007389.1",
+      "AC007364.1",
+      "AC006994.2",
+      "AC006387.1",
+      "AC006206.2",
+      "AC006041.2",
+      "AC005162.3",
+      "AC004943.2",
+      "AC004879.1",
+      "AC023051.1",
+      "AC024145.1",
+      "AC090578.1",
+      "AC026202.2",
+      "AC090403.1",
+      "AC090337.2",
+      "AC087627.1",
+      "AC087473.1",
+      "AC079950.1",
+      "AC079763.1",
+      "AC079465.1",
+      "AC079298.3",
+      "AC073529.1",
+      "AC073050.1",
+      "AC072062.1",
+      "AC068305.2",
+      "AC067956.1",
+      "AC062022.2",
+      "AC051619.6",
+      "AC040174.1",
+      "AC027097.2",
+      "AP001025.1",
+      "AP002813.1",
+      "LCP2",
+      "GPC3",
+      "GNA14",
+      "GLRA2",
+      "GDNF-AS1",
+      "GCNT2",
+      "FYB1",
+      "FXN",
+      "FRG1-DT",
+      "FRAS1",
+      "FHIT",
+      "FAR2",
+      "FAP",
+      "FAM189A1",
+      "FAAH2",
+      "ERI2",
+      "EPSTI1",
+      "EPHA3",
+      "EPB41L4A",
+      "GNGT1",
+      "GREB1L",
+      "EMILIN2",
+      "GRIN2B",
+      "LANCL3",
+      "KREMEN1",
+      "KCNMB4",
+      "KCNE4",
+      "ITK",
+      "ITGAL",
+      "INPP5D",
+      "IL7",
+      "IL12RB2",
+      "IGSF10",
+      "IAPP",
+      "HS3ST3A1",
+      "HRH1",
+      "AC002429.2",
+      "HMGB2",
+      "HMGA2",
+      "GRIP2",
+      "ENOX2",
+      "ELDR",
+      "AP003066.1",
+      "CFAP77",
+      "CERNA2",
+      "CDH18",
+      "CDH13",
+      "CD247",
+      "CASC9",
+      "C9orf153",
+      "C9orf147",
+      "BX284613.2",
+      "BIRC3",
+      "BEND6",
+      "BCL2L14",
+      "ATP8B4",
+      "ASB18",
+      "ARSJ",
+      "ARRDC3-AS1",
+      "ARHGAP11B",
+      "APBB1IP",
+      "CFAP47",
+      "CFH",
+      "EDN1",
+      "CGNL1",
+      "EBF2",
+      "DOCK5",
+      "DNAH3",
+      "DIPK2A",
+      "DANT2",
+      "CPNE4",
+      "COX8A",
+      "COL4A6",
+      "COL19A1",
+      "COL12A1",
+      "COBLL1",
+      "CNTNAP3B",
+      "CNDP1",
+      "CNBD1",
+      "CHRM3",
+      "CHODL",
+      "CHL1-AS2",
+      "HNF4G"
+    ],
+    "programs": [
+      {
+        "program_name": "Immune Checkpoint Signaling",
+        "description": "A gene program mediating immune escape through checkpoint molecule expression and T-cell exhaustion pathways. CD96 functions as an immune checkpoint regulating CD8+ T-cell antitumor function. STAT4 regulates PD-L1 expression and immune evasion. CD163 and MSR1 mark pro-tumoral macrophage populations. OLR1 associates with immune cell infiltration and immunosuppression. TLR2 initiates pathogen recognition signaling in innate immune cells. This program collectively enables glioblastoma immune evasion via checkpoint activation and immunosuppressive microenvironment establishment.",
+        "atomic_biological_processes": [
+          {
+            "name": "CD8+ T-cell exhaustion and anergy",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "CD96 demonstrated to regulate CD8+ T-cell antitumor function and suppress primary tumor growth in combination with other checkpoint inhibitors"
+              },
+              {
+                "source_id": "39",
+                "notes": "High CD96+ cell infiltration predicts exhausted CD8+ T-cell phenotype and poor prognosis in gastric cancer"
+              }
+            ],
+            "genes": [
+              "CD96",
+              "STAT4"
+            ]
+          },
+          {
+            "name": "PD-L1 transcriptional regulation",
+            "citations": [
+              {
+                "source_id": "54",
+                "notes": "STAT4 enrichment at PD-L1 DNA promoter; MET-STAT4-PD-L1 axis enforces glioma immune evasion"
+              }
+            ],
+            "genes": [
+              "STAT4",
+              "CD96"
+            ]
+          },
+          {
+            "name": "Macrophage-mediated immunosuppression",
+            "citations": [
+              {
+                "source_id": "49",
+                "notes": "MSR1 expressed on macrophages and dendritic cells; role in pro-inflammatory phenotype switching"
+              },
+              {
+                "source_id": "31",
+                "notes": "CD163 marks M2-like macrophage polarization in glioblastoma; TAMs promote immunosuppression and anti-inflammatory phenotype"
+              }
+            ],
+            "genes": [
+              "CD163",
+              "MSR1",
+              "OLR1"
+            ]
+          },
+          {
+            "name": "Toll-like receptor signaling",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "TLR2 cooperates with MSR1 to promote pathogen recognition and phagocytosis; activates NF-κB signaling"
+              }
+            ],
+            "genes": [
+              "TLR2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Enhanced CD8+ T-cell exhaustion and reduced anti-tumor immunity",
+          "Increased PD-L1 expression on tumor cells and immune cells",
+          "Macrophage skewing toward pro-tumoral M2 phenotype",
+          "Reduced interferon-gamma production and T-cell activation",
+          "Increased IL-10 and TGF-β secretion"
+        ],
+        "evidence_summary": "CD96, STAT4, and CD163 are consistently associated with immune evasion in glioblastoma and other cancers. CD96 directly suppresses CD8+ T-cell function through DNAM-1 inhibition. STAT4 phosphorylation increases PD-L1 transcription. CD163 and MSR1 identify pro-tumoral macrophages enriched in the glioblastoma microenvironment. This convergent pathway enables immune checkpoint activation and T-cell exhaustion, hallmarks of glioblastoma's immunosuppressive microenvironment.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "42",
+            "notes": "CD96 immune checkpoint regulates CD8+ T-cell function and metastasis"
+          },
+          {
+            "source_id": "54",
+            "notes": "MET-STAT4-PD-L1 axis in glioma immune evasion"
+          },
+          {
+            "source_id": "31",
+            "notes": "CD163 and Iba1 in TAM-mediated glioma progression"
+          },
+          {
+            "source_id": "49",
+            "notes": "MSR1 in immune regulation and macrophage phenotype"
+          }
+        ],
+        "supporting_genes": [
+          "CD96",
+          "STAT4",
+          "CD163",
+          "MSR1",
+          "OLR1",
+          "TLR2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PD-L1",
+            "PD-1",
+            "CTLA4",
+            "TIGIT",
+            "DNAM-1",
+            "FCER1G"
+          ],
+          "citations": [
+            {
+              "source_id": "42",
+              "notes": "PD-1, PD-L1, and TIGIT are canonical immune checkpoint molecules that interact with CD96"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Receptor Tyrosine Kinase Signaling",
+        "description": "A gene program comprising components of receptor tyrosine kinase (RTK) signaling pathways that drive glioblastoma proliferation, survival, and invasion. TEK (Tie2) mediates angiopoietin signaling and vessel maturation. DOCK2, DOCK8, and downstream SYK coordinate Rho GTPase activation for cytoskeletal reorganization. WIPF1 facilitates FAK-mediated actin polymerization. This program collectively enhances receptor-mediated signaling critical for glioblastoma growth and angiogenesis.",
+        "atomic_biological_processes": [
+          {
+            "name": "Angiopoietin-Tie2 signaling",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "Angiopoietin-1 binds Tie2 receptor to enhance tumor vessel maturation and regulate vascular growth in gliomas"
+              },
+              {
+                "source_id": "48",
+                "notes": "Tie2/TEK modulates interaction between glioma and brain tumor stem cells"
+              }
+            ],
+            "genes": [
+              "TEK"
+            ]
+          },
+          {
+            "name": "DOCK-mediated Rho GTPase activation",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "DOCK8 deficiency inhibits BCR signaling and B-cell development; DOCK8 mutation impairs Cdc42-dependent cell migration"
+              },
+              {
+                "source_id": "10",
+                "notes": "DOCK2 is Rac GEF critical for leukocyte migration; DOCK8 is Cdc42-specific GEF regulating dendritic cell interstitial migration"
+              }
+            ],
+            "genes": [
+              "DOCK2",
+              "DOCK8"
+            ]
+          },
+          {
+            "name": "Spleen tyrosine kinase (SYK) signaling",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "SYK kinases initiate signaling downstream of Fc receptors and integrins in innate immune cells; activate MAPK and NF-κB"
+              },
+              {
+                "source_id": "47",
+                "notes": "SYK phosphorylation activates NLRP3 inflammasome and IL-1β secretion via NF-κB pathway"
+              }
+            ],
+            "genes": [
+              "SYK"
+            ]
+          },
+          {
+            "name": "Actin polymerization and cytoskeletal dynamics",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "TRPV4 colocalizes with F-actin at cellular protrusions; activates Cdc42/N-wasp axis for invadopodia formation"
+              },
+              {
+                "source_id": "10",
+                "notes": "WIPF1 and FAK mediate Rho/WASP pathway of actin polymerization for cell adhesion and migration"
+              }
+            ],
+            "genes": [
+              "WIPF1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Cell membrane receptor complexes",
+            "citations": [
+              {
+                "source_id": "55",
+                "notes": "RTK/Ras/PI3K signaling altered in 86-90% of GBM cases; RTK dimerization activates downstream signaling"
+              }
+            ],
+            "genes": [
+              "TEK",
+              "DOCK2",
+              "DOCK8"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced angiogenic signaling through Tie2 activation",
+          "Increased Rac and Cdc42 GTPase activity driving cell migration",
+          "Enhanced focal adhesion signaling and invasive capacity",
+          "Elevated MAPK and PI3K/AKT pathway activation",
+          "Increased cytoskeletal remodeling and invadopodia formation"
+        ],
+        "evidence_summary": "TEK/Tie2 signaling promotes glioblastoma angiogenesis and vessel maturation. DOCK2 and DOCK8 act as guanine nucleotide exchange factors (GEFs) for Rac and Cdc42, respectively, driving cytoskeletal reorganization essential for tumor cell migration. SYK couples downstream to both MAPK and PI3K/AKT pathways. WIPF1 coordinates FAK-mediated actin polymerization. Collectively, this program amplifies RTK signaling strength and transduces it into enhanced migration and invasion phenotypes characteristic of malignant glioblastoma.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "55",
+            "notes": "RTK/Ras/PI3K pathway altered in 86-90% of GBM; critical for GBM pathogenesis"
+          },
+          {
+            "source_id": "7",
+            "notes": "DOCK8 mutation impairs B-cell and T-cell immune responses relevant to glioma microenvironment"
+          },
+          {
+            "source_id": "21",
+            "notes": "TRPV4/Cdc42/N-wasp signaling axis regulates invasion-growth in glioblastoma"
+          }
+        ],
+        "supporting_genes": [
+          "TEK",
+          "DOCK2",
+          "DOCK8",
+          "SYK",
+          "WIPF1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "RAF",
+            "MEK",
+            "ERK1/2",
+            "PI3K",
+            "AKT",
+            "mTOR",
+            "RAC1",
+            "CDC42"
+          ],
+          "citations": [
+            {
+              "source_id": "55",
+              "notes": "RAF, MEK, ERK, PI3K, AKT, and mTOR are canonical downstream effectors of RTK signaling in glioblastoma"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Synaptic Adhesion and Neuronal Communication",
+        "description": "A gene program mediating cell-cell adhesion at synapses and neuron-neuron interactions through adhesion molecules and signaling proteins. CNTNAP2 is essential for synaptic function and neuronal migration; loss impairs E/I balance and cortical development. IL1RAPL1 is a synaptic adhesion molecule recruiting PTPδ and inducing excitatory synapse formation. NLGN4X encodes neuroligin-4, crucial for synaptic organization and neurotransmission. PCDH7 and PCDH11X are protocadherins involved in cell-cell recognition. SYT1 and SYN3 mediate neurotransmitter release and synaptic plasticity. This program regulates the synaptic connectivity landscape that glioma cells aberrantly reactivate.",
+        "atomic_biological_processes": [
+          {
+            "name": "Synaptic adhesion molecule expression",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "CNTNAP2 is essential for synaptic function; deficiency results in decreased interneurons, impaired cortical layer modeling, and aberrant neuronal migration"
+              },
+              {
+                "source_id": "17",
+                "notes": "IL1RAPL1 is a synaptic adhesion molecule localized at postsynaptic membrane; recruits PTPδ for synapse formation"
+              },
+              {
+                "source_id": "12",
+                "notes": "NLGN4X mutations disrupt synaptic connectivity and synaptic organization; associated with autism and neurodevelopmental disorders"
+              }
+            ],
+            "genes": [
+              "CNTNAP2",
+              "IL1RAPL1",
+              "NLGN4X",
+              "PCDH7",
+              "PCDH11X"
+            ]
+          },
+          {
+            "name": "Neurotransmitter release and synaptic transmission",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "CNTNAP2 involved in neuron-glia adhesion complex with contactin 2 (TAG-1) and clustering of potassium channels"
+              }
+            ],
+            "genes": [
+              "SYT1",
+              "SYN3",
+              "CNTNAP2"
+            ]
+          },
+          {
+            "name": "Neuronal migration and axon guidance",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "SLIT2 is a secretory glycoprotein binding Robo receptors; acts as axon guidance molecule and regulates radial migration of cortical neurons via autocrine signaling"
+              },
+              {
+                "source_id": "16",
+                "notes": "CNTNAP2 implicated in neuronal migration, neuronal network activity, and synaptic spine development"
+              }
+            ],
+            "genes": [
+              "CNTNAP2",
+              "SLIT2",
+              "RELN"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Synaptic membrane proteins",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "CHRNA7 mutations reduce receptor function; CNTNAP2 clusters at synapses with postsynaptic markers"
+              }
+            ],
+            "genes": [
+              "SYT1",
+              "SYN3",
+              "CNTNAP2",
+              "IL1RAPL1",
+              "NLGN4X"
+            ]
+          },
+          {
+            "name": "Extracellular matrix anchoring proteins",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "SLIT2 binds to heparan sulfate proteoglycans and interacts with extracellular matrix; localizes within basement membrane"
+              }
+            ],
+            "genes": [
+              "SLIT2",
+              "RELN"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Aberrant reactivation of synaptic adhesion programs in glioma cells",
+          "Enhanced intercellular communication and adhesion between tumor cells",
+          "Altered calcium signaling through synaptic-like connections",
+          "Increased neurotransmitter-like signaling in tumor microenvironment",
+          "Formation of tumor cell-neuron hybrid synaptic structures"
+        ],
+        "evidence_summary": "CNTNAP2, IL1RAPL1, NLGN4X, and protocadherins (PCDH7, PCDH11X) are canonical synaptic adhesion molecules critical for neuronal connectivity. CNTNAP2 mutations associate with neurodevelopmental disorders through disruption of cortical lamination and E/I imbalance—hallmarks of altered neural circuit function. IL1RAPL1 recruits PTPδ to drive postsynaptic density formation. SYT1 and SYN3 mediate presynaptic vesicle dynamics. Notably, glioma cells express synaptic proteins and form tumor-neuron hybrid synapses, facilitating invasion and seizure activity. This program captures the re-expression of synaptic machinery in malignant glioblastoma.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "13",
+            "notes": "CNTNAP2 deficiency in ASD and neurodevelopmental disorders; role in E/I balance"
+          },
+          {
+            "source_id": "17",
+            "notes": "IL1RAPL1 synaptic adhesion and postsynaptic density formation"
+          },
+          {
+            "source_id": "12",
+            "notes": "NLGN4X mutations in autism; synaptic organization and neurotransmission"
+          },
+          {
+            "source_id": "38",
+            "notes": "IGSF3 interaction with Kir4.1 and glioma-related epileptiform activity"
+          }
+        ],
+        "supporting_genes": [
+          "CNTNAP2",
+          "IL1RAPL1",
+          "NLGN4X",
+          "PCDH7",
+          "PCDH11X",
+          "SYT1",
+          "SYN3",
+          "SLIT2",
+          "RELN",
+          "CHRNA7"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CONTACTIN",
+            "PTPN",
+            "PTPRO",
+            "CONTACTIN-2",
+            "STARGAZIN"
+          ],
+          "citations": [
+            {
+              "source_id": "13",
+              "notes": "CONTACTIN and PTPN family members are essential partners for CNTNAP2 function in synaptic adhesion"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Ion Channel Dysregulation and Excitotoxicity",
+        "description": "A gene program mediating alterations in ion channel expression and calcium homeostasis that promote glioma proliferation and seizure activity. TRPV4 elevates intracellular calcium and promotes invadopodia formation via Cdc42/N-wasp signaling. TRPM8 and TRPM3 modulate calcium and cation fluxes. KCNH7, KCNIP4, RYR2, and RYR3 regulate potassium and ryanodine-sensitive calcium channels. GRIN2B encodes NMDA receptor subunit 2B, contributing to glutamate-mediated calcium signaling. FXYD5 regulates Na+/K+-ATPase. This program collectively dysregulates ion homeostasis, promoting both tumor progression and neuronal hyperexcitability manifesting as glioma-related epilepsy.",
+        "atomic_biological_processes": [
+          {
+            "name": "Calcium influx and intracellular calcium elevation",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "TRPV4 stimulation promotes glioblastoma cell migration and invasion; TRPV4 regulates invadopodia and filopodia formation via Cdc42/N-wasp axis"
+              },
+              {
+                "source_id": "11",
+                "notes": "Alterations in Ca2+ toolkit (TRPC and TRPV channels) in glioblastoma; increased expression of TRPC1, TRPC6, TRPV1, TRPV2"
+              },
+              {
+                "source_id": "8",
+                "notes": "Glutamate-mediated calcium signaling provides positive feedback to promote glioma formation; enhanced Ca2+ activates nitric oxide synthase"
+              }
+            ],
+            "genes": [
+              "TRPV4",
+              "TRPM8",
+              "TRPM3",
+              "RYR2",
+              "RYR3",
+              "GRIN2B"
+            ]
+          },
+          {
+            "name": "Potassium channel dysregulation and ion imbalance",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "IGSF3 interacts with Kir4.1 to suppress potassium buffering; impaired K+ handling linked to glioma proliferation and seizure activity"
+              }
+            ],
+            "genes": [
+              "KCNH7",
+              "KCNIP4",
+              "FXYD5"
+            ]
+          },
+          {
+            "name": "Glutamate-mediated excitotoxicity",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "Glutamatergic and calcium signaling provides positive feedback for glioma formation; upregulation of GluRs and enhanced glutamate release facilitate seizure-like activity"
+              }
+            ],
+            "genes": [
+              "GRIN2B"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Calcium-activated signaling complexes",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "CaMK2A intimately interacts with GluRs; elevated intracellular Ca2+ activates downstream kinases and promotes metabolic reprogramming"
+              }
+            ],
+            "genes": [
+              "TRPV4",
+              "TRPM8",
+              "RYR2",
+              "GRIN2B"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Increased intracellular free calcium concentration",
+          "Enhanced invadopodia formation and invasion capacity",
+          "Dysregulated potassium buffering and loss of ion homeostasis",
+          "Amplified glutamate-mediated excitatory signaling",
+          "Glioma-related seizures and epileptiform activity",
+          "Metabolic reprogramming via calcium-dependent kinases"
+        ],
+        "evidence_summary": "TRPV4 channel activation directly promotes glioblastoma invasion by elevating intracellular calcium and activating the Cdc42/N-wasp axis. TRPV4 expression is elevated in malignant glioma compared to low-grade glioma and correlates with poor prognosis. KCNH7, KCNIP4, and related potassium channels are downregulated in glioma, impairing potassium buffering. IGSF3-mediated suppression of Kir4.1 potassium channel function links ion dysregulation to proliferation and seizure activity. GRIN2B and glutamate receptor upregulation contribute to Ca2+-mediated excitotoxicity and formation of tumor-neuron hybrid synapses. RYR2 and RYR3 release calcium from intracellular stores. This convergent program dysregulates ion homeostasis, driving both invasion and glioma-related epileptic activity.",
+        "significance_score": 0.81,
+        "citations": [
+          {
+            "source_id": "21",
+            "notes": "TRPV4 elevated in malignant glioma; TRPV4/Cdc42/N-wasp axis regulates invasion and invadopodia formation"
+          },
+          {
+            "source_id": "38",
+            "notes": "IGSF3-Kir4.1 interaction impairs potassium buffering; dysregulation linked to glioma proliferation and seizures"
+          },
+          {
+            "source_id": "8",
+            "notes": "Glutamate-calcium signaling provides positive feedback for glioma progression"
+          },
+          {
+            "source_id": "11",
+            "notes": "Calcium channel alterations in glioblastoma stem cells and glioma tissue"
+          }
+        ],
+        "supporting_genes": [
+          "TRPV4",
+          "TRPM8",
+          "TRPM3",
+          "KCNH7",
+          "KCNIP4",
+          "RYR2",
+          "RYR3",
+          "GRIN2B",
+          "FXYD5"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "STIM1",
+            "ORAI1",
+            "CAMK2A",
+            "CAMK2D",
+            "KNCJ10"
+          ],
+          "citations": [
+            {
+              "source_id": "11",
+              "notes": "STIM1 and ORAI1 mediate store-operated calcium entry; CAMK2A couples calcium to downstream signaling in glioma"
+            },
+            {
+              "source_id": "38",
+              "notes": "KNCJ10 (Kir4.1) is essential for potassium buffering but suppressed by IGSF3 in glioma"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Extracellular Matrix Remodeling and Invasion",
+        "description": "A gene program controlling extracellular matrix (ECM) degradation, remodeling, and production that facilitates glioma invasion and infiltration into normal brain parenchyma. ADAMTS3, ADAMTS14, and ADAMTS18 are metalloproteases cleaving lecticans and other ECM components. POSTN (periostin) is upregulated in cancer-associated fibroblasts and promotes ECM remodeling and invasion. SULF1 modifies heparan sulfate proteoglycans. COL4A6, COL12A1, COL19A1 are collagen scaffolds. SMOC2 and other matricellular proteins regulate cell-matrix interactions. This program collectively restructures the brain microenvironment to enable glioma cell dissemination.",
+        "atomic_biological_processes": [
+          {
+            "name": "Lectin cleavage and ECM degradation",
+            "citations": [
+              {
+                "source_id": "18",
+                "notes": "BEHAB/brevican proteolytic processing by ADAMTS family at specific sites is necessary for pro-invasive effect in glioma"
+              }
+            ],
+            "genes": [
+              "ADAMTS3",
+              "ADAMTS14",
+              "ADAMTS18"
+            ]
+          },
+          {
+            "name": "Periostin-mediated matrix remodeling",
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "POSTN exclusively upregulated in cancer-associated fibroblasts (matCAFs); promotes fibroblast proliferation, migration, and ECM remodeling"
+              },
+              {
+                "source_id": "35",
+                "notes": "POSTN mediates collagen production and ECM remodeling in tissue fibrosis and cancer"
+              }
+            ],
+            "genes": [
+              "POSTN"
+            ]
+          },
+          {
+            "name": "Heparan sulfate proteoglycan modification",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "SLIT2 is a ligand of heparan sulfate proteoglycan glypican-1; proper localization within basement membrane is key for axon guidance"
+              }
+            ],
+            "genes": [
+              "SULF1"
+            ]
+          },
+          {
+            "name": "Collagen fiber organization",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "Collagen density and organization in ECM profoundly influence glioma invasion; intermediate collagen concentrations maximize invasion in vitro"
+              }
+            ],
+            "genes": [
+              "COL4A6",
+              "COL12A1",
+              "COL19A1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Extracellular matrix scaffold",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "ECM composition includes fibrous collagen and afibrous components; glioma cells interact with both via cell-cell and cell-ECM contacts"
+              }
+            ],
+            "genes": [
+              "POSTN",
+              "ADAMTS3",
+              "COL4A6",
+              "COL12A1",
+              "SMOC2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced ECM degradation and proteolytic remodeling",
+          "Increased invasive capacity into surrounding brain parenchyma",
+          "Altered collagen fiber alignment facilitating migration",
+          "Enhanced cell-matrix interactions promoting dissemination",
+          "Reduced ECM mechanical impedance to tumor infiltration"
+        ],
+        "evidence_summary": "ADAMTS metalloproteases are the predominant ECM-degrading enzymes in glioma. BEHAB/brevican, a CNS-specific lecticans, requires ADAMTS-mediated cleavage at specific sites (396SRG398) to promote glioma invasion in vitro and in vivo. Periostin (POSTN) is highly expressed in matrix-remodeling cancer-associated fibroblasts (matCAFs) and promotes both CAF migration and ECM remodeling. SULF1 modifies heparan sulfate, altering growth factor availability and cell-matrix interactions. Collagen organization influences glioma invasiveness—intermediate collagen density maximizes invasion. This program collectively restructures the neural ECM, reducing mechanical resistance to glioma infiltration and creating pro-invasive microenvironment.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "18",
+            "notes": "ADAMTS-mediated BEHAB/brevican cleavage necessary for glioma invasion"
+          },
+          {
+            "source_id": "32",
+            "notes": "POSTN upregulation in cancer-associated fibroblasts; promotes ECM remodeling and invasion"
+          },
+          {
+            "source_id": "15",
+            "notes": "ECM composition and organization profoundly influence glioma invasion patterns"
+          }
+        ],
+        "supporting_genes": [
+          "ADAMTS3",
+          "ADAMTS14",
+          "ADAMTS18",
+          "POSTN",
+          "SULF1",
+          "COL4A6",
+          "COL12A1",
+          "COL19A1",
+          "SMOC2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MMP2",
+            "MMP9",
+            "TIMP1",
+            "TIMP2",
+            "ADAMTS1",
+            "ADAMTS2"
+          ],
+          "citations": [
+            {
+              "source_id": "18",
+              "notes": "MMP2 and MMP9 are major ECM-degrading enzymes; TIMP1/2 are natural inhibitors"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Angiogenesis and Vascular Development",
+        "description": "A gene program regulating blood vessel formation and vascular endothelial cell function that supports glioma growth. VEGFD (VEGF-D) is secreted by tumor cells and activates VEGFR-2 and VEGFR-3 on endothelial cells. TEK (Tie2) mediates angiopoietin signaling for vessel maturation and stabilization. KLF5 promotes glioblastoma angiogenesis by inducing AGGF1 gene transcription in glioma-associated endothelial cells. This program collectively drives pathological neovascularization that perfuses the tumor and enables growth beyond diffusion limits.",
+        "atomic_biological_processes": [
+          {
+            "name": "VEGF-D signaling and vascular proliferation",
+            "citations": [
+              {
+                "source_id": "50",
+                "notes": "VEGF-D is a secreted glycoprotein binding VEGFR-2 and VEGFR-3; higher mitogenic ability than VEGF-A; upregulated in glioblastoma"
+              },
+              {
+                "source_id": "53",
+                "notes": "VEGF-D mature form strongly supports angiogenesis and lymphangiogenesis; dual functionality in coordinating vascular and lymphatic growth"
+              }
+            ],
+            "genes": [
+              "VEGFD"
+            ]
+          },
+          {
+            "name": "Tie2-angiopoietin vascular stabilization",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "Angiopoietin-1 activates Tie2 to enhance tumor vessel maturation; inhibits vascular leakage"
+              }
+            ],
+            "genes": [
+              "TEK"
+            ]
+          },
+          {
+            "name": "KLF5-mediated angiogenic factor expression",
+            "citations": [
+              {
+                "source_id": "19",
+                "notes": "KLF5 promotes glioblastoma angiogenesis by inducing AGGF1 transcription in glioma-associated endothelial cells"
+              }
+            ],
+            "genes": [
+              "KLF5"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Vascular endothelial cell surface receptors",
+            "citations": [
+              {
+                "source_id": "53",
+                "notes": "VEGFR2 and VEGFR3 are primary receptors for VEGF-D; expressed on endothelial cells and lymphatic endothelial cells"
+              }
+            ],
+            "genes": [
+              "VEGFD",
+              "TEK"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Increased endothelial cell proliferation and vascular sprouting",
+          "Enhanced vascular permeability and blood-brain barrier dysfunction",
+          "Vessel stabilization and reduced hemorrhagic necrosis",
+          "Increased oxygen and nutrient delivery to tumor",
+          "Promotion of glioma cell intravasation and dissemination"
+        ],
+        "evidence_summary": "VEGF-D exhibits higher mitogenic potency than VEGF-A and is upregulated in glioblastoma in response to anti-VEGF-A therapy, enabling antiangiogenic resistance. VEGF-D activates both VEGFR-2 (blood angiogenesis) and VEGFR-3 (lymphangiogenesis), providing dual-pathway vascular stimulation. TEK/Tie2 signaling complements VEGF-D by stabilizing nascent vessels through angiopoietin binding. KLF5-driven AGGF1 expression in glioma-associated endothelial cells further amplifies angiogenic signals. This convergent program overcomes anti-VEGF-A therapy and sustains the neovascular network essential for glioma progression.",
+        "significance_score": 0.77,
+        "citations": [
+          {
+            "source_id": "50",
+            "notes": "VEGF-D role in glioblastoma angiogenesis and resistance to anti-VEGF therapy"
+          },
+          {
+            "source_id": "45",
+            "notes": "Angiopoietin-Tie2 signaling in glioma vessel maturation"
+          },
+          {
+            "source_id": "19",
+            "notes": "KLF5 promotes glioblastoma angiogenesis via AGGF1"
+          }
+        ],
+        "supporting_genes": [
+          "VEGFD",
+          "TEK",
+          "KLF5"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "VEGFA",
+            "VEGFR1",
+            "VEGFR2",
+            "ANGPT1",
+            "ANGPT2",
+            "FLT1"
+          ],
+          "citations": [
+            {
+              "source_id": "50",
+              "notes": "VEGF-A and angiopoietins are canonical angiogenic factors; VEGFR1/2 are essential receptors"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Wnt/β-Catenin Self-Renewal Signaling",
+        "description": "A gene program mediating Wnt signaling pathway activation that promotes glioma stem cell self-renewal and inhibits differentiation. WNT16 is a Wnt ligand activating canonical β-catenin signaling. This program drives stemness maintenance and chemotherapy resistance characteristic of glioblastoma stem cells (GSCs), which are responsible for tumor recurrence.",
+        "atomic_biological_processes": [
+          {
+            "name": "Canonical Wnt/β-catenin pathway activation",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "WNT signaling involved in maintaining stemness of normal stem cells; aberrant activation in GBM promotes GSC growth and invasion"
+              },
+              {
+                "source_id": "30",
+                "notes": "Dysregulation of Wnt pathway supports onset of cancer stem cells (CSCs); alterations in Wnt components discriminate normal from malignant cells in adult brain"
+              }
+            ],
+            "genes": [
+              "WNT16"
+            ]
+          },
+          {
+            "name": "Stemness maintenance and self-renewal",
+            "citations": [
+              {
+                "source_id": "30",
+                "notes": "β-catenin nuclear localization and TCF4 expression significantly higher in glioma than normal brain tissue; positively correlates with WHO grade"
+              }
+            ],
+            "genes": [
+              "WNT16"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Increased glioma stem cell self-renewal capacity",
+          "Enhanced resistance to differentiation signals",
+          "Improved tumor growth and propagation",
+          "Enhanced chemotherapy and radiotherapy resistance",
+          "Tumor recurrence and regrowth after standard therapy"
+        ],
+        "evidence_summary": "WNT/β-catenin signaling is aberrantly activated in glioblastoma and drives GSC self-renewal. β-catenin and TCF4 nuclear accumulation correlates with glioma grade and poor prognosis. Inhibition of WNT signaling via β-catenin modulation impedes glioma stem cell clonogenic growth. WNT signaling activation promotes GSC stemness while inhibiting differentiation, enabling indefinite self-renewal and tumor propagation. This program captures the dysregulated developmental pathway that maintains glioma stem cell identity.",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "27",
+            "notes": "WNT signaling roles in GSC self-renewal and glioma progression"
+          },
+          {
+            "source_id": "30",
+            "notes": "Wnt/β-catenin pathway dysregulation in glioblastoma; correlation with WHO grade and poor prognosis"
+          }
+        ],
+        "supporting_genes": [
+          "WNT16"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "FZD",
+            "LRP5",
+            "LRP6",
+            "GSK3B",
+            "APC",
+            "AXIN",
+            "TCF",
+            "LEF1",
+            "β-CATENIN"
+          ],
+          "citations": [
+            {
+              "source_id": "30",
+              "notes": "FZD, LRP, GSK3B, APC, AXIN, TCF, and β-catenin are canonical Wnt pathway components"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Epithelial-Mesenchymal Transition and Invasion",
+        "description": "A gene program regulating epithelial-mesenchymal transition (EMT) that enables glioma cell migration, invasion, and dissemination. EMT transcription factors (TWIST-family, SNAIL-family, ZEB-family, SOX2) promote acquisition of mesenchymal phenotype and down-regulation of epithelial markers. TGM2 (tissue transglutaminase) is upregulated during EMT and promotes invasion. POSTN supports EMT through CAF interactions. This program collectively drives the phenotypic plasticity enabling glioma cells to invade adjacent brain tissue and metastasize.",
+        "atomic_biological_processes": [
+          {
+            "name": "EMT transcription factor activation",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "TWIST1 mediates EMT by inhibiting E-cadherin and promoting N-cadherin expression; drives invasive glioma phenotype"
+              },
+              {
+                "source_id": "59",
+                "notes": "SNAIL, TWIST, and ZEB families are major EMT regulators; overexpression associated with invasive ability and chemotherapy resistance"
+              }
+            ],
+            "genes": [
+              "TGM2"
+            ]
+          },
+          {
+            "name": "E-cadherin to N-cadherin switch",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "Loss of E-cadherin often accompanied by increased N-cadherin; N-cadherin overexpression linked to invasion and metastasis"
+              }
+            ],
+            "genes": [
+              "TGM2"
+            ]
+          },
+          {
+            "name": "Vimentin upregulation and EMT markers",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "Overexpression of vimentin linked to enhanced invasiveness and metastasis in glioblastoma; EMT marker"
+              }
+            ],
+            "genes": [
+              "TGM2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Adherens junction remodeling",
+            "citations": [
+              {
+                "source_id": "59",
+                "notes": "EMT involves disruption of E-cadherin/catenin complexes; remodeling of adherens junctions enabling migration"
+              }
+            ],
+            "genes": [
+              "TGM2",
+              "POSTN"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Increased cell motility and migration capacity",
+          "Enhanced invasive capability into surrounding brain parenchyma",
+          "Reduced intercellular adhesion and increased dissemination",
+          "Acquisition of stem cell-like properties",
+          "Increased resistance to chemotherapy and radiotherapy"
+        ],
+        "evidence_summary": "EMT is fundamentally linked to glioma invasion and stemness. TWIST, SNAIL, and ZEB transcription factors suppress E-cadherin and promote mesenchymal marker expression. TGM2 (transglutaminase-2) catalyzes cross-linking of EMT-related proteins and supports invasion. POSTN from cancer-associated fibroblasts promotes EMT through YAP1/TEAD1 signaling. Notably, the E-cadherin to N-cadherin switch is not universally required in glioblastoma EMT, suggesting context-dependent mechanisms. This program captures the phenotypic plasticity enabling glioma dissemination and therapy resistance.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "56",
+            "notes": "EMT and E-cadherin/N-cadherin switching in glioblastoma invasion"
+          },
+          {
+            "source_id": "59",
+            "notes": "EMT transcription factors and stemness maintenance in glioma"
+          },
+          {
+            "source_id": "32",
+            "notes": "POSTN promotes EMT and invasion in gastric cancer; relevant to glioma microenvironment"
+          }
+        ],
+        "supporting_genes": [
+          "TGM2",
+          "POSTN"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "TWIST",
+            "SNAIL",
+            "ZEB",
+            "SOX2",
+            "CDH1",
+            "CDH2",
+            "VIM"
+          ],
+          "citations": [
+            {
+              "source_id": "56",
+              "notes": "TWIST, SNAIL, ZEB, SOX2 are canonical EMT transcription factors; CDH1/2 and VIM are marker genes"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Hypoxia-Responsive Transcription",
+        "description": "A gene program activated under hypoxic conditions (low oxygen) in glioblastoma that drives metabolic reprogramming, angiogenesis, and stemness maintenance. This program includes HIF-1α and HIF-2α-dependent transcriptional responses, though HIFs themselves are not in the input list. VEGFD, TEK, and KLF5 are key HIF-target genes promoting angiogenesis. Downstream metabolic enzymes (ME1 for gluconeogenesis; SUCLG2 for TCA cycle) support hypoxic metabolism. This program collectively enables tumor survival and growth in the hypoxic glioblastoma microenvironment.",
+        "atomic_biological_processes": [
+          {
+            "name": "Angiogenic factor upregulation",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "Under hypoxia, HIF1α upregulates expression of VEGF and other pro-angiogenic factors; essential for glioblastoma vascularization"
+              },
+              {
+                "source_id": "60",
+                "notes": "HIF-1α and HIF-2α regulate VEGF expression; HIF-2α promotes stem cell phenotype in glioblastoma stem cells"
+              }
+            ],
+            "genes": [
+              "VEGFD",
+              "TEK",
+              "KLF5"
+            ]
+          },
+          {
+            "name": "Metabolic reprogramming and glycolysis",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "Under hypoxia, HIF1α promotes glycolysis via upregulation of HK2 and PDK1; shift from glucose to glutamine metabolism"
+              },
+              {
+                "source_id": "60",
+                "notes": "HIF-regulated metabolic reprogramming essential for glioblastoma survival and proliferation in hypoxic microenvironment"
+              }
+            ],
+            "genes": [
+              "ME1",
+              "SUCLG2"
+            ]
+          },
+          {
+            "name": "Cancer stem cell maintenance",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "Hypoxia-induced HIF1α promotes stemness and self-renewal of GSCs; maintains pluripotency markers"
+              },
+              {
+                "source_id": "60",
+                "notes": "HIF-2α serves unique role in GSC development and maintenance; induces pluripotent stem cell markers (OCT4, NANOG, SOX2)"
+              }
+            ],
+            "genes": [
+              "VEGFD",
+              "KLF5"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Enhanced survival under hypoxic stress",
+          "Increased VEGF production and angiogenesis",
+          "Metabolic shift toward glycolysis and amino acid metabolism",
+          "Enhanced glioma stem cell self-renewal",
+          "Resistance to hypoxia-induced apoptosis"
+        ],
+        "evidence_summary": "Hypoxia is endemic to glioblastoma due to rapid growth outpacing oxygen diffusion. HIF-1α and HIF-2α accumulation activates transcriptional programs supporting glioma survival, proliferation, and stemness. VEGFD is a canonical HIF-target gene promoting angiogenesis that partially circumvents hypoxic stress. TEK-mediated vessel maturation further improves perfusion. KLF5 drives glioma-associated endothelial cell angiogenic programs. ME1 and SUCLG2 support hypoxic metabolic reprogramming. Notably, IDH-mutant gliomas exhibit altered HIF signaling, suggesting context-dependent hypoxic responses. This program captures the transcriptional adaptation enabling glioblastoma survival in its oxygen-poor microenvironment.",
+        "significance_score": 0.74,
+        "citations": [
+          {
+            "source_id": "57",
+            "notes": "Hypoxia-induced HIF signaling in glioblastoma; metabolic reprogramming and GSC maintenance"
+          },
+          {
+            "source_id": "60",
+            "notes": "HIF-1α and HIF-2α in stemness and metabolic adaptation in glioblastoma"
+          }
+        ],
+        "supporting_genes": [
+          "VEGFD",
+          "TEK",
+          "KLF5",
+          "ME1",
+          "SUCLG2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "HIF1A",
+            "HIF2A",
+            "HIF3A",
+            "PHD2",
+            "PHD3",
+            "VHL",
+            "HK2",
+            "PDK1",
+            "GLUT1"
+          ],
+          "citations": [
+            {
+              "source_id": "57",
+              "notes": "HIF1A, HIF2A, PHD, and VHL are central to hypoxic signaling; HK2, PDK1, GLUT1 are HIF-target metabolic genes"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Lipid Metabolism and Signaling",
+        "description": "A gene program regulating lipid metabolism, storage, and signaling that supports glioblastoma proliferation and stemness. PLD1 (phospholipase D1) catalyzes phosphatidic acid production, acting as both an enzymatic catalyst and scaffolding protein in Wnt/β-catenin, PI3K/Akt, and HIF signaling. OLR1 (LOX-1) is a scavenger receptor mediating oxidized lipid uptake and promoting EMT and stemness. ACER2 (alkaline ceramidase 2) regulates ceramide metabolism. This program collectively integrates lipid signaling into core oncogenic pathways.",
+        "atomic_biological_processes": [
+          {
+            "name": "Phospholipase D signaling",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "PLD1 catalyzes PA production; acts as scaffold protein in Wnt/β-catenin and PI3K/Akt pathways; dual roles in HIF-1α regulation"
+              }
+            ],
+            "genes": [
+              "PLD1"
+            ]
+          },
+          {
+            "name": "Oxidized lipid uptake and scavenging",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "OLR1 expression associated with cancer immune escape and targeting OLR1 increases tumor T-cell infiltration"
+              },
+              {
+                "source_id": "52",
+                "notes": "MSR1 mediates uptake of modified lipoprotein; involved in metabolic inflammation and cancer progression"
+              }
+            ],
+            "genes": [
+              "OLR1"
+            ]
+          },
+          {
+            "name": "Cancer stem cell self-renewal via lipid signaling",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "PLD1 governs self-renewal of cancer-initiating cells through E2F1–miR-4496–β-catenin axis"
+              }
+            ],
+            "genes": [
+              "PLD1",
+              "OLR1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Plasma membrane lipid microdomains",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "PLD1 acts as scaffold protein to increase signaling efficiency and coordinate complex upstream signals"
+              }
+            ],
+            "genes": [
+              "PLD1",
+              "OLR1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced PI3K/Akt and mTOR signaling",
+          "Increased Wnt/β-catenin pathway activation",
+          "Enhanced stemness and self-renewal capacity",
+          "Improved metabolic flexibility under diverse nutrient conditions",
+          "Reduced immune cell infiltration and T-cell activation"
+        ],
+        "evidence_summary": "PLD1 operates as both an enzymatic catalyst and scaffolding platform in glioblastoma oncogenic signaling. PLD1 catalyzes production of phosphatidic acid (PA), a signaling lipid, while its protein domains scaffold Wnt/β-catenin and PI3K/Akt pathway components. PLD1-mediated HIF-1α translation and protein stabilization supports hypoxic survival. Targeting PLD1 decreases RB1 and promotes E2F1-dependent apoptosis via miR-192/4465. OLR1 is a scavenger receptor mediating oxidized lipid uptake; high OLR1 expression correlates with EMT, stemness, and immune escape. This convergent program integrates lipid signaling into core stem cell renewal and metabolic adaptation pathways.",
+        "significance_score": 0.71,
+        "citations": [
+          {
+            "source_id": "20",
+            "notes": "PLD1 as key player in cancer stemness and Wnt/PI3K cross-talk"
+          },
+          {
+            "source_id": "25",
+            "notes": "OLR1 in cancer immune escape and EMT"
+          }
+        ],
+        "supporting_genes": [
+          "PLD1",
+          "OLR1",
+          "ACER2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PTEN",
+            "PI3K",
+            "AKT",
+            "mTOR",
+            "WNT",
+            "FZD",
+            "GSK3B"
+          ],
+          "citations": [
+            {
+              "source_id": "20",
+              "notes": "PLD1 scaffolds and coordinates PI3K/Akt and Wnt pathway signaling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Tumor-Associated Macrophage Polarization",
+        "description": "A gene program regulating polarization and activation of tumor-associated macrophages (TAMs) that create an immunosuppressive microenvironment. CD163 identifies M2-like pro-tumor macrophages enriched in glioblastoma. MSR1 (CD204) is a macrophage-specific receptor involved in pro-inflammatory phenotype. OLR1 is overexpressed in myeloid-derived suppressor cells (MDSCs) and promotes immunosuppression. LCP2 and FYB1 facilitate leukocyte signaling. VSIG4 is an immunosuppressive receptor on macrophages. This program collectively recruits and polarizes TAMs toward anti-tumor immunity suppression.",
+        "atomic_biological_processes": [
+          {
+            "name": "M2 macrophage polarization",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "CD163 marks M2-like macrophage polarization; IL-33 produced by Iba1+ TAMs feeds back to GSCs to maintain stemness"
+              },
+              {
+                "source_id": "34",
+                "notes": "IL-6 promotes macrophage transition to pro-tumor phenotype and secretion of IL-10 and TGF-β"
+              }
+            ],
+            "genes": [
+              "CD163",
+              "MSR1"
+            ]
+          },
+          {
+            "name": "Immunosuppressive cell recruitment",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "OLR1 expression associated with T-cell exhaustion and immunosuppressive cell infiltration"
+              },
+              {
+                "source_id": "34",
+                "notes": "CCL8 secreted by TAMs binds CCR5/CCR1 to activate ERK1/2 in glioma cells"
+              }
+            ],
+            "genes": [
+              "OLR1",
+              "LCP2"
+            ]
+          },
+          {
+            "name": "Leukocyte adhesion and migration",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "DOCK2 critical for leukocyte migration and trafficking; DOCK8 deficiency impairs immune cell development"
+              }
+            ],
+            "genes": [
+              "LCP2",
+              "FYB1"
+            ]
+          },
+          {
+            "name": "Immunosuppressive checkpoint signaling",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "VSIG4 is B7 family member functioning as immunosuppressive receptor on macrophages"
+              }
+            ],
+            "genes": [
+              "VSIG4"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Macrophage surface receptors",
+            "citations": [
+              {
+                "source_id": "49",
+                "notes": "MSR1 and CD163 are macrophage-specific scavenger receptors; CD36 also involved in lipid uptake"
+              }
+            ],
+            "genes": [
+              "CD163",
+              "MSR1",
+              "OLR1",
+              "VSIG4"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Increased macrophage infiltration into glioblastoma",
+          "Polarization toward pro-tumor M2 phenotype",
+          "Enhanced IL-10 and TGF-β secretion",
+          "Reduced CD8+ T-cell activation and infiltration",
+          "Increased glioma stem cell maintenance via IL-33"
+        ],
+        "evidence_summary": "CD163, a marker of M2-like pro-tumor macrophages, is highly expressed in glioblastoma-associated macrophages (Iba1+ cells). CD163-positive macrophages secrete anti-inflammatory cytokines (IL-10, TGF-β) that suppress CD8+ T-cell responses. IL-6 promotes CD40 expression and M2 polarization via Stat3/HIF-1α. Notably, Iba1+ TAMs produce IL-33, which feeds back to glioma stem cells to maintain stemness and support tumor progression. MSR1 (CD204) mediates lipid uptake and links lipid metabolism to macrophage polarization. OLR1 is enriched in pro-tumor PMN-MDSCs. VSIG4 on macrophages delivers immunosuppressive signals. This convergent program shapes the TAM-rich immunosuppressive microenvironment enabling glioblastoma immune evasion.",
+        "significance_score": 0.79,
+        "citations": [
+          {
+            "source_id": "31",
+            "notes": "CD163, Iba1, and IL-33 in TAM-mediated glioma progression"
+          },
+          {
+            "source_id": "34",
+            "notes": "TAM polarization and CCL8 secretion in glioma immune evasion"
+          },
+          {
+            "source_id": "25",
+            "notes": "OLR1 in immunosuppressive cell infiltration"
+          },
+          {
+            "source_id": "49",
+            "notes": "MSR1 in macrophage-mediated immune regulation"
+          }
+        ],
+        "supporting_genes": [
+          "CD163",
+          "MSR1",
+          "OLR1",
+          "LCP2",
+          "FYB1",
+          "VSIG4"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "IL10",
+            "TGFB1",
+            "IL6",
+            "CCL2",
+            "CSF1",
+            "M-CSFR"
+          ],
+          "citations": [
+            {
+              "source_id": "31",
+              "notes": "IL-10, TGF-β, IL-6, and CCL2 are key cytokines in macrophage polarization and immune suppression"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "GTPase Activation and Cytoskeletal Remodeling",
+        "description": "A gene program regulating small GTPase (Rho, Rac, Cdc42) activation and actin cytoskeleton reorganization that enables glioma cell migration and invasion. DOCK2 and DOCK8 are guanine nucleotide exchange factors (GEFs) that activate Rac (DOCK2) and Cdc42 (DOCK8). Downstream effectors (N-WASP, WAVE) nucleate actin filaments. WIPF1 facilitates FAK-Rac coupling. STAC and RCAN2 coordinate Cdc42 and calcium signaling. This program collectively enables rapid morphological changes and invasion-promoting cellular protrusions.",
+        "atomic_biological_processes": [
+          {
+            "name": "Rac1 GTPase activation",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "DOCK2 mediates GDP-GTP exchange for Rac; crystal structure shows DHR-2 domain binds Rac exclusively at lobes B and C"
+              }
+            ],
+            "genes": [
+              "DOCK2"
+            ]
+          },
+          {
+            "name": "Cdc42 GTPase activation",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "DOCK8 is Cdc42-specific GEF; different lobe orientation than DOCK2-Rac1 complex"
+              },
+              {
+                "source_id": "21",
+                "notes": "TRPV4 activates Cdc42/N-wasp axis in glioblastoma; promotes invadopodia and filopodia formation"
+              }
+            ],
+            "genes": [
+              "DOCK8",
+              "TRPV4"
+            ]
+          },
+          {
+            "name": "Actin filament nucleation and polymerization",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "DOCK8 couples to LRAP35a and MRCKα to phosphorylate myosin II regulatory light chain (MLC2)"
+              }
+            ],
+            "genes": [
+              "WIPF1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Guanine nucleotide exchange factor complexes",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "DOCK DHR-2 domain is core GEF module; DOCK8 associates with adaptor proteins like LRAP35a"
+              }
+            ],
+            "genes": [
+              "DOCK2",
+              "DOCK8",
+              "STAC"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced Rac1 activation and lamellipodia formation",
+          "Enhanced Cdc42 activation and filopodia formation",
+          "Increased actin polymerization and cytoskeletal reorganization",
+          "Enhanced cell migration velocity and invasiveness",
+          "Increased invadopodia formation for ECM degradation"
+        ],
+        "evidence_summary": "DOCK2 and DOCK8 are non-canonical GEFs lacking DH domains but retaining GDP-GTP exchange activity via DHR-2 domains. DOCK2-Rac coupling promotes lymphocyte migration; DOCK8-Cdc42 coupling regulates interstitial dendritic cell migration. In glioblastoma, TRPV4 activates Cdc42 downstream to N-WASP, promoting invadopodia formation and invasion. WIPF1 links FAK to Rho/WASP pathway actin polymerization. STAC coordinates Cdc42 signaling. Collectively, this program enables rapid GTPase cycling and actin dynamics underlying glioma cell motility and invasive morphology.",
+        "significance_score": 0.76,
+        "citations": [
+          {
+            "source_id": "10",
+            "notes": "DOCK2 and DOCK8 as Rho GTPase GEFs in immune cell migration"
+          },
+          {
+            "source_id": "21",
+            "notes": "TRPV4-Cdc42-N-wasp axis in glioblastoma invasion"
+          }
+        ],
+        "supporting_genes": [
+          "DOCK2",
+          "DOCK8",
+          "WIPF1",
+          "STAC",
+          "RCAN2",
+          "TRPV4"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "RAC1",
+            "CDC42",
+            "NWASP",
+            "WAVE",
+            "ARPC",
+            "ARP2",
+            "ARP3",
+            "FAK"
+          ],
+          "citations": [
+            {
+              "source_id": "10",
+              "notes": "RAC1, CDC42, N-WASP, and WAVE are canonical downstream effectors of DOCK GEFs"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Pathway databases (KEGG, Reactome) for signaling pathways",
+        "Co-citation analysis of genes in glioblastoma literature",
+        "Protein-protein interaction networks for physical associations",
+        "Shared cellular functions and biological processes",
+        "Tissue-specific expression patterns in glioblastoma"
+      ],
+      "notes": "Genes were clustered into programs by identifying convergent functions relevant to glioblastoma pathobiology: immune evasion, receptor signaling, synaptic reactivation, ion dysregulation, ECM remodeling, angiogenesis, EMT/invasion, metabolic adaptation, and cytoskeletal dynamics. Many genes appear in multiple programs reflecting pathway cross-talk (e.g., TRPV4 in both ion channels and GTPase programs; PLD1 in lipid metabolism and Wnt signaling). Programs were prioritized by literature support, number of supporting genes, and functional coherence within glioblastoma context. Long non-coding RNAs with limited functional annotation were not assigned to specific programs."
+    },
+    "version": "1.0"
+  }
+}

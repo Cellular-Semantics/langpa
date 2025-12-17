@@ -18,7 +18,7 @@ outputs/proj
 test_outputs/
 !test_outputs/README.md
 # Timestamp-based output directories (e.g., 20251212_121027/)
-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_*/
+#[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_*/
 .idea/
 tmp/
 # Distribution / packaging

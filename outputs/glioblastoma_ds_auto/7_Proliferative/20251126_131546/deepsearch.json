@@ -1,0 +1,381 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T19:11:57.183469",
+    "genes": [
+      "DLGAP5",
+      "CKAP2L",
+      "CDCA2",
+      "CDC25C",
+      "TTK",
+      "BUB1",
+      "HMMR",
+      "CDCA8",
+      "TOP2A",
+      "GTSE1",
+      "KIF23",
+      "BUB1B",
+      "ASPM",
+      "AURKA",
+      "KIF14",
+      "CEP55",
+      "KIF18A",
+      "CDK1",
+      "TROAP",
+      "DEPDC1",
+      "CENPE",
+      "TPX2",
+      "KIF2C",
+      "KNL1",
+      "KIF20A",
+      "AURKB",
+      "NEIL3",
+      "CCNB1",
+      "ESPL1",
+      "APOLD1",
+      "HJURP",
+      "PIMREG",
+      "KIF11",
+      "PIF1",
+      "UBE2C",
+      "NDC80",
+      "CDC20",
+      "PBK",
+      "ARHGAP11A",
+      "NUSAP1",
+      "PRR11",
+      "ESCO2",
+      "PTTG1",
+      "MELK",
+      "KIF4A",
+      "CDKN3",
+      "NMU",
+      "BORA",
+      "KIF18B",
+      "KIFC1",
+      "CCNF",
+      "BIRC5",
+      "MKI67",
+      "ARHGAP11B",
+      "IQGAP3",
+      "NCAPG",
+      "SGO1",
+      "SKA3",
+      "GAS2L3",
+      "SGO2",
+      "RRM2",
+      "DIAPH3",
+      "CDCA3",
+      "CENPF",
+      "FAM83D",
+      "NUF2",
+      "POLQ",
+      "RACGAP1",
+      "KPNA2",
+      "MIR924HG",
+      "FBXO43",
+      "TACC3",
+      "WDR62",
+      "E2F7",
+      "PCLAF",
+      "ASF1B",
+      "ECT2",
+      "SHCBP1",
+      "PLK1",
+      "FAM111B",
+      "DEPDC1B",
+      "MXD3",
+      "NCAPH",
+      "PRC1",
+      "EXO1",
+      "KIF15",
+      "FOXM1",
+      "CCNB2",
+      "RTKN2",
+      "NOSTRIN",
+      "AC010173.1",
+      "SPC25",
+      "FOXN4",
+      "HMGB2",
+      "CKS2",
+      "CENPI",
+      "BRIP1",
+      "MYBL2",
+      "LMO7",
+      "KIF24",
+      "AC073529.1",
+      "STIL",
+      "AC090159.1",
+      "PLK4"
+    ],
+    "context": "malignant glioblastoma cells",
+    "provider": "perplexity",
+    "model": "sonar-deep-research",
+    "source": "scripts/run_deepsearch.py",
+    "preset": null,
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "offline",
+    "effective_model": "offline",
+    "project": "glioblastoma_ds_auto",
+    "query": "7_Proliferative",
+    "source_tag": "deepsearch",
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "raw_response": {
+    "markdown": "## Question\n\nPerform comprehensive literature analysis for the following gene list in the specified biological context.\n\n**Gene List**: [\"DLGAP5\", \"CKAP2L\", \"CDCA2\", \"CDC25C\", \"TTK\", \"BUB1\", \"HMMR\", \"CDCA8\", \"TOP2A\", \"GTSE1\", \"KIF23\", \"BUB1B\", \"ASPM\", \"AURKA\", \"KIF14\", \"CEP55\", \"KIF18A\", \"CDK1\", \"TROAP\", \"DEPDC1\", \"CENPE\", \"TPX2\", \"KIF2C\", \"KNL1\", \"KIF20A\", \"AURKB\", \"NEIL3\", \"CCNB1\", \"ESPL1\", \"APOLD1\", \"HJURP\", \"PIMREG\", \"KIF11\", \"PIF1\", \"UBE2C\", \"NDC80\", \"CDC20\", \"PBK\", \"ARHGAP11A\", \"NUSAP1\", \"PRR11\", \"ESCO2\", \"PTTG1\", \"MELK\", \"KIF4A\", \"CDKN3\", \"NMU\", \"BORA\", \"KIF18B\", \"KIFC1\", \"CCNF\", \"BIRC5\", \"MKI67\", \"ARHGAP11B\", \"IQGAP3\", \"NCAPG\", \"SGO1\", \"SKA3\", \"GAS2L3\", \"SGO2\", \"RRM2\", \"DIAPH3\", \"CDCA3\", \"CENPF\", \"FAM83D\", \"NUF2\", \"POLQ\", \"RACGAP1\", \"KPNA2\", \"MIR924HG\", \"FBXO43\", \"TACC3\", \"WDR62\", \"E2F7\", \"PCLAF\", \"ASF1B\", \"ECT2\", \"SHCBP1\", \"PLK1\", \"FAM111B\", \"DEPDC1B\", \"MXD3\", \"NCAPH\", \"PRC1\", \"EXO1\", \"KIF15\", \"FOXM1\", \"CCNB2\", \"RTKN2\", \"NOSTRIN\", \"AC010173.1\", \"SPC25\", \"FOXN4\", \"HMGB2\", \"CKS2\", \"CENPI\", \"BRIP1\", \"MYBL2\", \"LMO7\", \"KIF24\", \"AC073529.1\", \"STIL\", \"AC090159.1\", \"PLK4\"]\n\n**Biological Context**: malignant glioblastoma cells\n\n**Analysis Strategy**:\n1. Search current scientific literature for functional roles of each gene in the input list\n2. Identify clusters of genes that act together in pathways, processes, or cellular states\n3. Treat each cluster as a potential gene program within the list\n4. Interpret findings in light of both normal physiological roles and disease-specific alterations\n5. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant.\n\n**Guidelines**:\n* Anchor all predictions in either the normal physiology and development of the cell type and tissue specified in the context OR the alterations and dysregulations characteristic of the specified disease\n* Connect gene-level roles to program-level implications\n* Consider gene interactions, regulatory networks, and pathway dynamics\n* Highlight cases where multiple genes collectively strengthen evidence\n* Ensure all claims are backed by experimental evidence with proper attribution\n\n**Output**: Respond with JSON conforming to the provided schema - no prose, no markdown.  If you are unable to respond with JSON alone, make sure the text includes tables or fragments of schema compliant that unambiguously capture the elements and their associations that would be captured if returning JSON schema.\n\n```json\n{\n    \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n    \"title\": \"Gene Program Functional Analysis\",\n    \"description\": \"Comprehensive literature-based functional analysis of gene lists in specific biological contexts. Perform systematic analysis to identify gene programs - clusters of genes acting together in pathways, processes, or cellular states. For each program, predict functional implications for the specified cell type in the context of the provided disease and tissue environment. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant. Rank predictions higher when multiple genes from input list act in same process and when most/all required pathway components are present.\",\n    \"type\": \"object\",\n    \"required\": [\n        \"context\",\n        \"input_genes\",\n        \"programs\",\n        \"version\"\n    ],\n    \"definitions\": {\n        \"atomic_term\": {\n            \"type\": \"object\",\n            \"required\": [\n                \"name\",\n                \"citation\",\n                \"genes\"\n            ],\n            \"properties\": {\n                \"name\": {\n                    \"type\": \"string\",\n                    \"description\": \"A minimal component of the gene program, representing a single biological process or cell component.\"\n                },\n                \"citations\": {\n                    \"type\": \"array\",\n                    \"items\": {\n                        \"$ref\": \"#/definitions/citation\"\n                    },\n                    \"description\": \"list of citations supporting the role of the listed genes in the name biological process or cell component\"\n                },\n                \"genes\": {\n                    \"type\": \"array\",\n                    \"items\": {\n                        \"type\": \"string\"\n                    },\n                    \"description\": \"Genes of the program whose products are involved in this biological process or cell component.\"\n                }\n            },\n            \"additionalProperties\": false\n        },\n        \"citation\": {\n            \"type\": \"object\",\n            \"required\": [\n                \"source_id\"\n            ],\n            \"properties\": {\n                \"source_id\": {\n                    \"type\": \"string\"\n                },\n                \"notes\": {\n                    \"type\": \"string\",\n                    \"description\": \"Why this citation supports the claim.\"\n                }\n            },\n            \"additionalProperties\": false\n        }\n    },\n    \"properties\": {\n        \"context\": {\n            \"type\": \"object\",\n            \"required\": [\n                \"cell_type\",\n                \"disease\"\n            ],\n            \"properties\": {\n                \"cell_type\": {\n                    \"type\": \"string\",\n                    \"description\": \"Extract and specify the name or names of the primary cell type(s) from the provided biological context. Use standard cell type terminology. Leave blank if not specified.\"\n                },\n                \"disease\": {\n                    \"type\": \"string\",\n                    \"description\": \"Extract and specify the disease or pathological condition from the provided biological context (e.g., 'IDH-mutant astrocytoma', 'Alzheimer disease', 'multiple sclerosis'). Use standard disease terminology. Leave blank if not specified.\"\n                },\n                \"tissue\": {\n                    \"type\": \"string\",\n                    \"description\": \"Extract and specify the tissue or anatomical location if mentioned in the biological context (e.g., 'brain', 'cerebral cortex', 'hippocampus'). Leave blank if not specified.\"\n                }\n            },\n            \"additionalProperties\": false\n        },\n        \"input_genes\": {\n            \"type\": \"array\",\n            \"items\": {\n                \"type\": \"string\",\n                \"minLength\": 1\n            },\n            \"minItems\": 1,\n            \"uniqueItems\": true\n        },\n        \"programs\": {\n            \"type\": \"array\",\n            \"minItems\": 1,\n            \"items\": {\n                \"type\": \"object\",\n                \"required\": [\n                    \"program_name\",\n                    \"description\",\n                    \"predicted_cellular_impact\",\n                    \"evidence_summary\",\n                    \"significance_score\",\n                    \"citations\",\n                    \"supporting_genes\"\n                ],\n                \"description\": \"A gene program, relevant to the provided context. Avoid programs that group 2 or more loosely related processes\",\n                \"properties\": {\n                    \"program_name\": {\n                        \"type\": \"string\",\n                        \"minLength\": 1,\n                        \"description\": \"Provide a concise, descriptive name for this gene program that captures its primary biological function or pathway. Use 2-5 words maximum.\"\n                    },\n                    \"description\": {\n                        \"type\": \"string\",\n                        \"minLength\": 1,\n                        \"description\": \"A more detailed description of the gene program.\"\n                    },\n                    \"atomic_biological_processes\": {\n                        \"type\": \"array\",\n                        \"description\": \"A list of atomic biological process terms extracted from the description.\",\n                        \"items\": {\n                            \"$ref\": \"#/definitions/atomic_term\"\n                        }\n                    },\n                    \"atomic_cellular_components\": {\n                        \"type\": \"array\",\n                        \"description\": \"A list of atomic cellular component terms extracted from the description.\",\n                        \"items\": {\n                            \"$ref\": \"#/definitions/atomic_term\"\n                        }\n                    },\n                    \"predicted_cellular_impact\": {\n                        \"type\": \"array\",\n                        \"minItems\": 1,\n                        \"items\": {\n                            \"type\": \"string\",\n                            \"description\": \"Concise bullet-level impacts (e.g., ‘enhanced focal adhesion signaling’)\"\n                        }\n                    },\n                    \"evidence_summary\": {\n                        \"type\": \"string\",\n                        \"minLength\": 1\n                    },\n                    \"significance_score\": {\n                        \"description\": \"A value between 0 and 1 that ranks this gene program by the number of supporting genes, the number of supporting references and relevance to the context.\",\n                        \"type\": \"number\",\n                        \"minimum\": 0.0,\n                        \"maximum\": 1.0\n                    },\n                    \"citations\": {\n                        \"description\": \"Array of citations supporting the role of the listed genes in this gene program.\",\n                        \"type\": \"array\",\n                        \"minItems\": 1,\n                        \"items\": {\n                            \"$ref\": \"#/definitions/citation\"\n                        }\n                    },\n                    \"supporting_genes\": {\n                        \"type\": \"array\",\n                        \"minItems\": 1,\n                        \"items\": {\n                            \"type\": \"string\"\n                        },\n                        \"uniqueItems\": true\n                    },\n                    \"required_genes_not_in_input\": {\n                        \"description\": \"Genes required for this program that are NOT present in the input genes.\",\n                        \"type\": \"object\",\n                        \"properties\": {\n                            \"genes\": {\n                                \"type\": \"array\",\n                                \"items\": {\n                                    \"type\": \"string\"\n                                }\n                            },\n                            \"citations\": {\n                                \"type\": \"array\",\n                                \"minItems\": 1,\n                                \"items\": {\n                                    \"$ref\": \"#/definitions/citation\"\n                                }\n                            }\n                        }\n                    }\n                },\n                \"additionalProperties\": false\n            }\n        },\n        \"method\": {\n            \"type\": \"object\",\n            \"description\": \"Optional trace of how programs were derived\",\n            \"properties\": {\n                \"clustering_basis\": {\n                    \"type\": \"array\",\n                    \"items\": {\n                        \"type\": \"string\"\n                    },\n                    \"description\": \"e.g., pathway databases, co-citation, PPI, co-expression\"\n                },\n                \"notes\": {\n                    \"type\": \"string\"\n                }\n            },\n            \"additionalProperties\": false\n        },\n        \"version\": {\n            \"type\": \"string\"\n        }\n    },\n    \"additionalProperties\": false\n}\n\n```\n\n## Output\n\n<think>\nThis is a complex request asking me to analyze a large gene list in the context of malignant glioblastoma cells using the provided search results and generate comprehensive JSON output following a specific schema.\n\nLet me analyze the genes and the search results to identify gene programs:\n\nFrom the search results, I can identify several key functional clusters:\n\n1. **Mitotic Cell Cycle Machinery** - genes involved in cell cycle progression, mitotic entry, and mitosis\n   - References [1] discusses a comprehensive parts list of human mitotic cell cycle machinery identifying 701 cell cycle-associated genes\n   - References [7], [8], [10] discuss FOXM1, CCNB1, and cell cycle regulation\n\n2. **Spindle Assembly and Microtubule Dynamics** - genes involved in mitotic spindle assembly, microtubule organization\n   - References [24], [31], [32], [35] discuss kinesin motors (KIF11, KIF15, KIF23, etc.) and spindle assembly\n   - References [21], [25] discuss KIF23 and spindle pole organization\n\n3. **Chromosome Segregation and Kinetochore Function** - genes for proper chromosome separation\n   - References [13], [16], [26], [29] discuss BUB1, NDC80, ESPL1, CDC20, and chromosome segregation\n   - References [33], [36] discuss kinetochore assembly (HJURP, CENP-A)\n\n4. **Cytokinesis and Cleavage Furrow Formation** - genes involved in cell division completion\n   - References [20], [43] discuss PRC1, ECT2, RACGAP1, and cytokinesis\n\n5. **Aurora Kinase Signaling and G2/M Transition** - genes for mitotic entry and progression\n   - References [38], [41] discuss AURKA, PLK1, and the AURKA/PLK1 axis\n   - References [15], [18] discuss AURKB, survivin, and their roles in chromosome segregation\n\n6. **DNA Repair and Replication** - genes involved in DNA synthesis and damage response\n   - References [25], [28] discuss RRM2 and DNA replication/repair\n   - References [55] discusses PCLAF and DNA replication/repair\n\n7. **Cell Cycle Checkpoints and SAC** - spindle assembly checkpoint genes\n   - References [13], [48], [56] discuss BUB1, BUB1B, MAD2, and spindle checkpoint\n\n8. **Glioblastoma-Specific Alterations** - genes associated with malignant transformation and glioblastoma progression\n\n## Citations\n\n1. https://pmc.ncbi.nlm.nih.gov/articles/PMC6788831/\n2. https://onlinelibrary.wiley.com/doi/10.1155/2022/6320828\n3. https://pmc.ncbi.nlm.nih.gov/articles/PMC7520292/\n4. https://www.kaggle.com/code/alexandervc/deepcycle-mesc-cell-cycle-with-pooling/notebook\n5. https://pmc.ncbi.nlm.nih.gov/articles/PMC8977321/\n6. https://papers.ssrn.com/sol3/Delivery.cfm/EBIOM-D-19-02112.pdf?abstractid=3420381&mirid=1\n7. https://pmc.ncbi.nlm.nih.gov/articles/PMC3842991/\n8. https://pmc.ncbi.nlm.nih.gov/articles/PMC6781518/\n9. https://e-century.us/files/ijcem/11/8/ijcem0070283.pdf\n10. https://www.tandfonline.com/doi/full/10.1080/10409238.2017.1360836\n11. https://pmc.ncbi.nlm.nih.gov/articles/PMC8799923/\n12. https://pmc.ncbi.nlm.nih.gov/articles/PMC9480797/\n13. https://www.nature.com/articles/s41598-024-55080-y\n14. https://cdn.amegroups.cn/journals/pbpc/files/journals/3/articles/33930/public/33930-PB9-6809-R3.pdf\n15. https://www.nature.com/articles/s41419-022-05539-5\n16. https://pmc.ncbi.nlm.nih.gov/articles/PMC3058099/\n17. https://pmc.ncbi.nlm.nih.gov/articles/PMC8799097/\n18. https://pubmed.ncbi.nlm.nih.gov/12221116/\n19. https://pubmed.ncbi.nlm.nih.gov/38844135/\n20. https://pmc.ncbi.nlm.nih.gov/articles/PMC8243214/\n21. https://pmc.ncbi.nlm.nih.gov/articles/PMC11729872/\n22. https://academic.oup.com/plcell/article/37/7/koaf164/8173900\n23. https://www.molbiolcell.org/doi/10.1091/mbc.E15-02-0101\n24. https://pmc.ncbi.nlm.nih.gov/articles/PMC2844474/\n25. https://e-century.us/files/ijcep/9/11/ijcep0033610.pdf\n26. https://maayanlab.cloud/Harmonizome/gene/ESPL1\n27. https://www.spandidos-publications.com/10.3892/ol.2019.10335\n28. https://pmc.ncbi.nlm.nih.gov/articles/PMC10191446/\n29. https://www.ncbi.nlm.nih.gov/gene/9700\n30. https://pubmed.ncbi.nlm.nih.gov/18383832/\n31. https://pmc.ncbi.nlm.nih.gov/articles/PMC2175143/\n32. https://pmc.ncbi.nlm.nih.gov/articles/PMC7317059/\n33. https://www.molbiolcell.org/doi/10.1091/mbc.e15-02-0094\n34. https://www.embopress.org/doi/10.1038/s44318-024-00240-z\n35. https://www.molbiolcell.org/doi/10.1091/mbc.E22-06-0225\n36. https://pmc.ncbi.nlm.nih.gov/articles/PMC3144403/\n37. https://pmc.ncbi.nlm.nih.gov/articles/PMC10672788/\n38. https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2015.00283/full\n39. https://pmc.ncbi.nlm.nih.gov/articles/PMC3077332/\n40. https://www.nature.com/articles/s41598-024-71275-9\n41. https://pmc.ncbi.nlm.nih.gov/articles/PMC9142558/\n42. https://www.embopress.org/doi/10.1038/emboj.2011.217\n43. https://www.nature.com/articles/s41467-024-49427-2\n44. https://pmc.ncbi.nlm.nih.gov/articles/PMC3356048/\n45. https://pmc.ncbi.nlm.nih.gov/articles/PMC3903200/\n46. https://pmc.ncbi.nlm.nih.gov/articles/PMC5691081/\n47. https://www.molbiolcell.org/doi/10.1091/mbc.11.8.2821\n48. https://www.molbiolcell.org/doi/10.1091/mbc.e05-03-0190\n49. https://www.embopress.org/doi/10.15252/embj.201797150\n50. https://pmc.ncbi.nlm.nih.gov/articles/PMC291854/\n51. https://pmc.ncbi.nlm.nih.gov/articles/PMC3627536/\n52. https://www.ncbi.nlm.nih.gov/gene/157570\n53. https://maayanlab.cloud/Harmonizome/gene/E2F7\n54. https://www.oncotarget.com/article/12670/text/\n55. https://pmc.ncbi.nlm.nih.gov/articles/PMC8529917/\n56. https://www.molbiolcell.org/doi/10.1091/mbc.e13-07-0421\n57. https://www.nature.com/articles/ncomms5588\n58. https://www.nature.com/articles/s41419-022-04635-w\n59. https://pubmed.ncbi.nlm.nih.gov/24403607/\n60. https://pmc.ncbi.nlm.nih.gov/articles/PMC5088565/",
+    "citations": [
+      {
+        "source_id": "1",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6788831/"
+      },
+      {
+        "source_id": "2",
+        "source_url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/6320828"
+      },
+      {
+        "source_id": "3",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7520292/"
+      },
+      {
+        "source_id": "4",
+        "source_url": "https://www.kaggle.com/code/alexandervc/deepcycle-mesc-cell-cycle-with-pooling/notebook"
+      },
+      {
+        "source_id": "5",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8977321/"
+      },
+      {
+        "source_id": "6",
+        "source_url": "https://papers.ssrn.com/sol3/Delivery.cfm/EBIOM-D-19-02112.pdf?abstractid=3420381&mirid=1"
+      },
+      {
+        "source_id": "7",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3842991/"
+      },
+      {
+        "source_id": "8",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6781518/"
+      },
+      {
+        "source_id": "9",
+        "source_url": "https://e-century.us/files/ijcem/11/8/ijcem0070283.pdf"
+      },
+      {
+        "source_id": "10",
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/10409238.2017.1360836"
+      },
+      {
+        "source_id": "11",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799923/"
+      },
+      {
+        "source_id": "12",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9480797/"
+      },
+      {
+        "source_id": "13",
+        "source_url": "https://www.nature.com/articles/s41598-024-55080-y"
+      },
+      {
+        "source_id": "14",
+        "source_url": "https://cdn.amegroups.cn/journals/pbpc/files/journals/3/articles/33930/public/33930-PB9-6809-R3.pdf"
+      },
+      {
+        "source_id": "15",
+        "source_url": "https://www.nature.com/articles/s41419-022-05539-5"
+      },
+      {
+        "source_id": "16",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3058099/"
+      },
+      {
+        "source_id": "17",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799097/"
+      },
+      {
+        "source_id": "18",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/12221116/"
+      },
+      {
+        "source_id": "19",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/38844135/"
+      },
+      {
+        "source_id": "20",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8243214/"
+      },
+      {
+        "source_id": "21",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11729872/"
+      },
+      {
+        "source_id": "22",
+        "source_url": "https://academic.oup.com/plcell/article/37/7/koaf164/8173900"
+      },
+      {
+        "source_id": "23",
+        "source_url": "https://www.molbiolcell.org/doi/10.1091/mbc.E15-02-0101"
+      },
+      {
+        "source_id": "24",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2844474/"
+      },
+      {
+        "source_id": "25",
+        "source_url": "https://e-century.us/files/ijcep/9/11/ijcep0033610.pdf"
+      },
+      {
+        "source_id": "26",
+        "source_url": "https://maayanlab.cloud/Harmonizome/gene/ESPL1"
+      },
+      {
+        "source_id": "27",
+        "source_url": "https://www.spandidos-publications.com/10.3892/ol.2019.10335"
+      },
+      {
+        "source_id": "28",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191446/"
+      },
+      {
+        "source_id": "29",
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/9700"
+      },
+      {
+        "source_id": "30",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/18383832/"
+      },
+      {
+        "source_id": "31",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2175143/"
+      },
+      {
+        "source_id": "32",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7317059/"
+      },
+      {
+        "source_id": "33",
+        "source_url": "https://www.molbiolcell.org/doi/10.1091/mbc.e15-02-0094"
+      },
+      {
+        "source_id": "34",
+        "source_url": "https://www.embopress.org/doi/10.1038/s44318-024-00240-z"
+      },
+      {
+        "source_id": "35",
+        "source_url": "https://www.molbiolcell.org/doi/10.1091/mbc.E22-06-0225"
+      },
+      {
+        "source_id": "36",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144403/"
+      },
+      {
+        "source_id": "37",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10672788/"
+      },
+      {
+        "source_id": "38",
+        "source_url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2015.00283/full"
+      },
+      {
+        "source_id": "39",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3077332/"
+      },
+      {
+        "source_id": "40",
+        "source_url": "https://www.nature.com/articles/s41598-024-71275-9"
+      },
+      {
+        "source_id": "41",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9142558/"
+      },
+      {
+        "source_id": "42",
+        "source_url": "https://www.embopress.org/doi/10.1038/emboj.2011.217"
+      },
+      {
+        "source_id": "43",
+        "source_url": "https://www.nature.com/articles/s41467-024-49427-2"
+      },
+      {
+        "source_id": "44",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3356048/"
+      },
+      {
+        "source_id": "45",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3903200/"
+      },
+      {
+        "source_id": "46",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5691081/"
+      },
+      {
+        "source_id": "47",
+        "source_url": "https://www.molbiolcell.org/doi/10.1091/mbc.11.8.2821"
+      },
+      {
+        "source_id": "48",
+        "source_url": "https://www.molbiolcell.org/doi/10.1091/mbc.e05-03-0190"
+      },
+      {
+        "source_id": "49",
+        "source_url": "https://www.embopress.org/doi/10.15252/embj.201797150"
+      },
+      {
+        "source_id": "50",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC291854/"
+      },
+      {
+        "source_id": "51",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3627536/"
+      },
+      {
+        "source_id": "52",
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/157570"
+      },
+      {
+        "source_id": "53",
+        "source_url": "https://maayanlab.cloud/Harmonizome/gene/E2F7"
+      },
+      {
+        "source_id": "54",
+        "source_url": "https://www.oncotarget.com/article/12670/text/"
+      },
+      {
+        "source_id": "55",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8529917/"
+      },
+      {
+        "source_id": "56",
+        "source_url": "https://www.molbiolcell.org/doi/10.1091/mbc.e13-07-0421"
+      },
+      {
+        "source_id": "57",
+        "source_url": "https://www.nature.com/articles/ncomms5588"
+      },
+      {
+        "source_id": "58",
+        "source_url": "https://www.nature.com/articles/s41419-022-04635-w"
+      },
+      {
+        "source_id": "59",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/24403607/"
+      },
+      {
+        "source_id": "60",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5088565/"
+      }
+    ],
+    "duration_seconds": null
+  }
+}

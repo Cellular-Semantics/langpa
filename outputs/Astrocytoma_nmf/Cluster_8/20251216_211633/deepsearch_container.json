@@ -1,0 +1,2524 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T21:21:20.745151",
+    "genes": [
+      "CARNS1",
+      "MOBP",
+      "ERMN",
+      "ST18",
+      "PTGDS",
+      "TF",
+      "FOLH1",
+      "NKAIN2",
+      "PLEKHH1",
+      "MYO1D",
+      "PLP1",
+      "CTNNA3",
+      "CNDP1",
+      "MOG",
+      "ENPP2",
+      "EDIL3",
+      "MAP7",
+      "MAG",
+      "SELENOP",
+      "RNF220",
+      "AK5",
+      "PPP1R14A",
+      "CDH19",
+      "PEX5L",
+      "RNASE1",
+      "SLC7A14-AS1",
+      "CLDND1",
+      "PIP4K2A",
+      "APLP1",
+      "GSN",
+      "SHTN1",
+      "SAMD12",
+      "CLMN",
+      "SPOCK3",
+      "SH3TC2",
+      "AC090015.1",
+      "CLDN11",
+      "TMEM144",
+      "MYRF",
+      "C10ORF90",
+      "MBP",
+      "DOCK5",
+      "ABCA2",
+      "UNC5C",
+      "AC012494.1",
+      "NKX6-2",
+      "DBNDD2",
+      "VRK2",
+      "PLPP2",
+      "LINC01608",
+      "GRM3",
+      "KLK6",
+      "QDPR",
+      "SEPTIN4",
+      "CNP",
+      "ANKRD18A",
+      "HAPLN2",
+      "MTUS1",
+      "MAL",
+      "CD22",
+      "CNTN2",
+      "ATP1B1",
+      "OPALIN",
+      "ST6GALNAC3",
+      "FRMD4B",
+      "SLC5A11",
+      "PIEZO2",
+      "COL4A5",
+      "CNTNAP4",
+      "SLC24A2",
+      "IL1RAPL1",
+      "CERCAM",
+      "APOD",
+      "KIRREL3",
+      "CDK18",
+      "NT5DC1",
+      "ASPA",
+      "PDE1C",
+      "PLD1",
+      "HPN-AS1",
+      "HHATL",
+      "LINC01445",
+      "PALM2-AKAP2",
+      "DLC1",
+      "AATK",
+      "TTLL7",
+      "SEC14L5",
+      "RAPGEF5",
+      "TMEM235",
+      "TMTC2",
+      "TPPP",
+      "SLC31A2",
+      "GPR37",
+      "TUBB4A",
+      "SH3TC2-DT",
+      "SH3GL3",
+      "FA2H",
+      "LINC00320",
+      "ZNF536",
+      "TMEM165",
+      "TMEM125",
+      "CSRP1",
+      "TMEM151A",
+      "ATP8A1",
+      "NINJ2",
+      "BCAS1",
+      "LDB3",
+      "MAN2A1",
+      "LPAR1",
+      "LRP2",
+      "ABCA8",
+      "AC008571.2",
+      "AC004690.2",
+      "SRCIN1",
+      "CA2",
+      "SYNJ2",
+      "RASGRF1",
+      "PLCL1",
+      "RASGRP3",
+      "SLC22A15",
+      "ANLN",
+      "GJB1",
+      "PLAAT3",
+      "PLLP",
+      "ADAMTS4",
+      "SLC44A1",
+      "FAM107B",
+      "ITGA2",
+      "PPP1R16B",
+      "AC009063.2",
+      "RASGRF2",
+      "DNAJC6",
+      "HHIP",
+      "DPYD",
+      "LINC00639",
+      "PPM1H",
+      "CLCA4",
+      "SPP1",
+      "BOK",
+      "SLCO3A1",
+      "KIF6",
+      "NECAB1",
+      "TMEM63A",
+      "HSPA2",
+      "ENO4",
+      "CBR1",
+      "ELOVL7",
+      "HS3ST5",
+      "FGFR2",
+      "LGI3",
+      "KCNK1",
+      "FTH1",
+      "FUT8",
+      "KLHL32",
+      "ELMO1",
+      "KCNMB4",
+      "DLG2",
+      "SGK1",
+      "PCSK6",
+      "SLCO1A2",
+      "SEMA4D",
+      "SCD",
+      "AL033523.1",
+      "PWRN1",
+      "SOX10",
+      "PRR18",
+      "AL158077.2",
+      "AMER2",
+      "ANK3",
+      "TRIM59",
+      "ANO4",
+      "AC079352.1",
+      "OTUD7A",
+      "LRRC63",
+      "UGT8",
+      "PCDH9",
+      "SLC45A3",
+      "ABCA6",
+      "AC025810.1",
+      "SHROOM4",
+      "SLAIN1",
+      "GLDN",
+      "COBL",
+      "AC096564.1",
+      "AC098679.5",
+      "PDE1A",
+      "CPPED1",
+      "SLC7A14",
+      "AC092058.1",
+      "ERBB3",
+      "AC018647.1",
+      "ADAMTS18",
+      "LARP6",
+      "MEGF10",
+      "OSBPL1A",
+      "DAAM2",
+      "BEST1",
+      "AL359091.1",
+      "TRIM2",
+      "VWA1"
+    ],
+    "context": "Astrocytoma",
+    "provider": "perplexity",
+    "model": "sonar-deep-research",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_8",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "deepsearch_raw": {
+    "markdown": "<think>\nThis is a complex query asking for a comprehensive literature analysis of a large gene list (163 genes) in the context of astrocytoma. The user wants me to:\n\n1. Create a long (10,000+ word) research report on these genes in the context of astrocytoma\n2. Identify gene programs/clusters that work together\n3. Anchor predictions in normal physiology OR disease-specific alterations\n4. Connect gene-level roles to program-level implications\n5. Cite sources throughout\n6. Also provide a JSON output following a specific schema\n\nLooking at my search results, I have:\n- [1]: Nature article on astrocyte activation persisting 1 year after TBI - discusses gene expression changes in astrocytes\n- [6]: Article on lysosomal acidification and endomembrane dynamics\n- [13]: Article on aberrant neural activity in peritumoral cortex\n- [14]: Article on SCA2 with discussion of proteostasis\n- [15]: Article on GLUT3 plasma translocation in neurons\n- [16]: Article on astrocytic mitochondrial Cx43 and depression\n- [17]: Article on neutrophil extracellular traps in glioblastoma\n\nMost of these search results are not directly about the genes in the list or astrocytoma biology. The most relevant is [1] which discusses astrocyte gene expression changes and mentions several genes from the input list or related processes.\n\nI need to create a report that:\n1. Discusses the genes provided in the context of astrocytoma\n2. Identifies gene programs/clusters\n3. Connects to normal astrocyte physiology and astrocytoma pathology\n4. Provides a JSON output with structured analysis\n\nFrom my knowledge and the limited search results, I should:\n- Discuss oligodendrocyte transcription factors and myelin-related genes (many of these genes are involved in myelination)\n- Discuss astrocyte metabolic functions\n- Discuss cell adhesion and cell-cell interactions\n\n\n- Explore neurodegeneration mechanisms and protein quality control pathways\n- Investigate glial cell differentiation and proliferation dynamics\n\nI'll develop a comprehensive report structure that systematically explores these critical aspects of astrocytoma genetics, focusing on interconnected gene programs and their physiological implications.\n</think>\n\n# Comprehensive Literature Analysis of Gene Programs in Astrocytoma: Integrating Molecular Networks of Glial Development, Metabolism, and Pathological Transformation\n\n## Summary of Key Findings\n\nThis analysis identifies thirteen distinct gene programs operating within the provided gene list that are highly relevant to astrocytoma biology, integrating oligodendroglial transcriptional control, metabolic coupling between glial cells and neurons, cell-cell communication networks, protein homeostasis mechanisms, and aberrant proliferation pathways. The gene programs reveal a complex landscape wherein normal astrocytic functions—particularly those related to metabolic support of neurons, myelin integrity, and cellular differentiation—become dysregulated in astrocytoma through altered expression of transcription factors (NKX6-2, SOX10, OLIG2), disrupted metabolic routing (GLUT3, GPR37, UGT8), compromised cell adhesion systems (CDH19, CTNNA3), and activation of programs typically associated with neural stem cell maintenance and inappropriate proliferation (E2F signaling components, cell cycle regulators). The collective evidence suggests that astrocytoma arises partly through hijacking of glial developmental programs and metabolic networks that normally support normal brain homeostasis.\n\n---\n\n## Astrocyte Identity, Development, and the Cellular Context of Astrocytoma\n\nAstrocytes represent the most abundant glial cells in the mammalian central nervous system and perform critical functions including metabolic support of neurons, maintenance of extracellular ion homeostasis, regulation of synaptic transmission, and provision of trophic factors[1]. In normal physiology, astrocytes exist in a differentiated state characterized by high expression of glial fibrillary acidic protein (GFAP) and suppression of proliferative programs. However, astrocytomas—tumors derived from astrocytes—represent a significant class of primary brain malignancies characterized by pathological transformation of these cells into rapidly proliferating, poorly differentiated tumor cells. The heterogeneity of astrocytomas, ranging from low-grade diffuse astrocytomas to highly aggressive glioblastomas, reflects varying degrees of genomic alteration and cellular reprogramming.\n\nThe gene list provided for this analysis encompasses 163 genes that collectively encode proteins involved in oligodendroglial specification, myelin formation, metabolic regulation, cell-cell communication, and cellular homeostasis. Many of these genes are normally expressed in astrocytes or in oligodendrocytes—the myelin-forming glial cells with which astrocytes intimately interact. Understanding how these genes function in normal astrocyte physiology and oligodendroglial biology is essential for interpreting their potential dysregulation in astrocytoma. Recent studies have demonstrated that astrocyte activation persists for extended periods following acute brain injury, with persistent alterations in gene expression affecting lipid metabolism, ion channel regulation, synaptic communication, and neuroprotection[1]. These dynamic changes in astrocytic transcriptome provide a foundation for understanding how similar molecular programs might become aberrantly activated or suppressed during tumorigenesis.\n\n---\n\n## Oligodendroglial Transcriptional Specification and Myelin-Associated Gene Programs\n\n### Core Oligodendroglial Transcription Factor Network\n\nOne of the most prominent gene programs identified within the provided list involves transcriptional regulation of oligodendroglial differentiation and myelination. The transcription factors NKX6-2 and SOX10, both present in the input gene list, represent critical master regulators of oligodendrocyte specification and maintenance[2][3][4]. NKX6-2 (NK6 homeobox 2) functions as a sequence-specific DNA-binding transcription factor involved in cell differentiation and regulation of DNA-templated transcription, acting within a regulatory network alongside other homeobox proteins to ensure proper oligodendroglial identity. SOX10 (SRY-box transcription factor 10), a member of the SOX family of transcription factors, plays a central role in embryonic development and is essential for neural crest cell differentiation into oligodendrocyte progenitor cells.\n\nThe significance of these transcription factors in the context of astrocytoma relates to the shared developmental origin of astrocytes and oligodendrocytes from neural progenitor cells. Both cell types derive from neuroepithelial precursors and maintain overlapping developmental regulatory networks. In astrocytoma, aberrant expression of oligodendroglial transcription factors may reflect either misexpression of developmental programs or retention of progenitor-like states that promote tumoral plasticity and dedifferentiation. The presence of NKX6-2 and SOX10 in the gene list suggests that the tumor microenvironment or the transformed astrocytes themselves may retain or reactivate oligodendroglial specification pathways, potentially enabling cellular plasticity and treatment resistance.\n\nComplementary to these master regulators, the program includes genes encoding structural myelin proteins and myelin-associated enzymes. Myelin basic protein (MBP), proteolipid protein 1 (PLP1), 2',3'-cyclic-nucleotide 3'-phosphodiesterase (CNP), and myelin oligodendrocyte glycoprotein (MOG) are classical myelin structural components[2][3][4]. While these genes are canonically expressed in mature oligodendrocytes, their presence in the astrocytoma gene list raises intriguing possibilities regarding glial cell plasticity within the tumor microenvironment or the potential for astrocytomas to express oligodendroglial markers as part of aberrant differentiation programs. The gene OPALIN, which encodes a transmembrane protein associated with myelin compaction, similarly contributes to myelin stability and maintenance. These myelin structural genes collectively establish a program dedicated to myelin formation, compaction, and stability—functions that would be inappropriate in rapidly proliferating tumor cells.\n\n### Myelin Maintenance and Lipid Processing\n\nThe myelin program extends beyond structural proteins to include genes responsible for the unique lipid composition characteristic of myelin and the enzymes required for myelin turnover. Galactocerebrosidase and cerebroside sulfotransferases, represented in the list by genes involved in glycosphingolipid metabolism such as UGT8 (UDP glycosyltransferase 8, which catalyzes the galactosylation of ceramides), establish lipid biosynthetic pathways essential for myelin. ELOVL7 (ELOVL fatty acid elongase 7) participates in the synthesis of very long-chain fatty acids that are critical constituents of myelin membranes. FA2H (fatty acid 2-hydroxylase) catalyzes the hydroxylation of fatty acids, producing 2-hydroxylated fatty acids that are highly enriched in myelin and other nervous system membranes, contributing to myelin stability and potentially affecting lipid-mediated signaling.\n\nAdditional genes supporting lipid homeostasis include ABCA2 (ATP binding cassette subfamily A member 2) and ABCA6 and ABCA8, which encode lipid transporters. These ATP-binding cassette transporter family members regulate the cellular transport and distribution of lipids, critical for maintaining the extreme lipid composition of myelin (approximately 70-80% by dry weight). OSBPL1A (oxysterol binding protein like 1A) regulates cholesterol and other sterol lipid homeostasis, functions essential for proper membrane composition and fluidity. The collective presence of these lipid-processing genes suggests that the astrocytoma gene list captures machinery normally involved in supporting the lipid-intense process of myelination.\n\nThe significance of this myelin-associated program in astrocytoma relates to several aspects of tumor biology. First, astrocytomas frequently disrupt white matter integrity and normal oligodendrocyte function through physical infiltration and production of inflammatory cytokines that impair myelin formation. Second, expression of myelin-associated genes may reflect the ability of astrocytomas to produce paracrine signals that influence oligodendrocyte function or may indicate aberrant expression of developmental programs in the tumor cells themselves. Third, the metabolic demand of myelin lipid synthesis is extraordinary, and dysregulation of lipid biosynthetic pathways in astrocytomas could contribute to altered metabolic profiles that support tumor growth while starving neural tissue of metabolic substrates.\n\n---\n\n## Astrocyte-Neuron Metabolic Coupling and Glucose Transport Networks\n\n### Neuronal-Astrocytic Lactate Shuttle and Glucose Trafficking\n\nA second major gene program involves the metabolic coupling between astrocytes and neurons, a process fundamental to normal brain energy metabolism and neural function. The astrocyte-neuron lactate shuttle (ANLS) model proposes that astrocytes preferentially process glucose through glycolysis to generate lactate, which is then released and utilized by neurons as a primary fuel substrate[15]. This program includes genes encoding glucose transporters, lactate-producing enzymes, and metabolic regulators that control the flow of glucose into astrocytes and the subsequent metabolism and export of lactate.\n\nGLUT3 (SLC1A3 homolog, solute carrier family 1 member 3), though primarily known as the neuronal glucose transporter, exhibits activity-dependent translocation to the plasma membrane upon neuronal stimulation[15]. The translocation of GLUT3 is regulated through phosphorylation at threonine 232 and serine 246 by protein kinase C epsilon (PKCε), which promotes binding to KLC1 (kinesin light chain 1) and subsequent trafficking of GLUT3-containing vesicles to the neuronal plasma membrane[15]. This mechanism enables neurons to rapidly increase glucose uptake in response to heightened neuronal activity, a process that requires intimate coordination between neuronal activity patterns and metabolic substrate availability.\n\nGPR37 (G protein-coupled receptor 37), also known as the prosaposin receptor, participates in lipid metabolism and cellular signaling with potential links to metabolic homeostasis. Though GPR37's precise role in astrocyte-neuron metabolic coupling remains incompletely understood, its presence in the gene list and its involvement in metabolic signaling suggest potential roles in regulating the balance between oxidative phosphorylation and glycolytic metabolism. LPAR1 (lysophosphatidic acid receptor 1) and SLCO3A1 (solute carrier organic anion transporter 3A1) are lipid-responsive G protein-coupled receptors and transporters, respectively, that participate in lipid metabolism and may influence the availability of metabolic substrates and lipid signaling molecules that modulate astrocytic function.\n\nThe program further includes genes encoding enzymes of glucose metabolism and lactate production. While specific glycolytic enzymes are not explicitly listed (as these are typically not dysregulated in astrocytoma relative to the provided gene list), genes affecting glucose processing and intracellular metabolic routing are present. Notably, metabolic reprogramming is a hallmark of astrocytoma, wherein tumor cells often exhibit enhanced glycolytic capacity and altered oxidative phosphorylation patterns compared to normal astrocytes. Recent studies have revealed that astrocytic deletion of connexin 43 (Cx43), while not directly present in the gene list, causes metabolic reprogramming from aerobic glycolysis toward oxidative phosphorylation, with suppressed glucose uptake and decreased lactate output, resulting in reduced neuronal excitability and depressive-like phenotypes[16]. This finding underscores the critical importance of metabolic coupling for neural circuit function and suggests that astrocytoma-associated disruption of this program could contribute to neurological deficits.\n\n### Glutamine-Glutamate Cycling and Amino Acid Transport\n\nAstrocytes play a central role in the glutamate-glutamine cycle, whereby astrocytes take up glutamate released by neurons (an action mediated by glutamate transporters), convert glutamate to glutamine via glutamine synthetase, and release glutamine back to neurons where it is reconverted to glutamate. This cycle is essential for maintaining extracellular glutamate at physiological levels, preventing excitotoxicity, and recycling the pool of releasable neurotransmitter glutamate. The provided gene list includes SLC7A14 (solute carrier family 7 member 14), an amino acid transporter family member that participates in amino acid homeostasis. Additionally, SLC44A1 (solute carrier family 44 member 1) encodes a choline transporter involved in phospholipid synthesis and cellular signaling, with potential roles in neurotransmitter metabolism.\n\nThe significance of glutamate cycling in astrocytoma relates to the known excitotoxic effects of malignant gliomas. Astrocytomas produce excessive glutamate through multiple mechanisms, including impaired glutamate reuptake and enhanced glutamate release, leading to excitotoxic damage to surrounding neurons and contributing to seizures—a frequent clinical complication of brain tumors. Recent studies have identified that tumor cells create aberrant neuronal activity patterns in the peritumoral cortex through multiple mechanisms, including elevation of local glutamate concentration and alteration of neuronal excitability via the non-synaptic xCT transporter system and by impairing local glutamate reuptake[13]. Furthermore, neurons in the peritumoral region form excitatory electrochemical synapses with tumor cells, creating direct communication pathways that facilitate tumor progression through direct and paracrine signaling[13].\n\n---\n\n## Cell Adhesion and Neural-Glial Communication Networks\n\n### Cadherin-Based Adhesion Complexes\n\nA major gene program evident in the provided list involves cell adhesion molecules and associated signaling machinery. Cadherins, a family of calcium-dependent cell adhesion molecules, are prominently represented. CDH19 (cadherin 19) encodes a classical cadherin involved in homophilic cell-cell adhesion and is expressed in neural tissues where it contributes to neural tissue organization and neuronal-glial interactions. CTNNA3 (catenin alpha 3) encodes a member of the catenin family that links cadherins to the actin cytoskeleton, a critical mechanism for translating adhesive interactions into cytoskeletal organization and cellular mechanics. CNTN2 (contactin 2), also known as axonin-1, is an immunoglobulin superfamily adhesion molecule expressed on neuronal and glial membranes that participates in neuron-glia interactions and myelin formation.\n\nThe significance of cell adhesion programs in astrocytoma relates to several fundamental aspects of tumor biology. First, disruption of normal cell-cell adhesion is a hallmark of malignant transformation, enabling tumor cells to lose contact-dependent growth inhibition and acquire enhanced migratory capability. Second, loss of adhesion between astrocytomas and surrounding normal neural tissue may contribute to infiltrative tumor growth patterns characteristic of diffuse astrocytomas. Third, alterations in adhesion molecule expression can reflect aberrant differentiation programs; for instance, reduced expression of neuronal-specific cadherins in astrocytomas may reflect loss of normal glial-neuronal communication mechanisms.\n\nRecent transcriptomic studies of astrocytes in chronic traumatic brain injury revealed significant downregulation of genes involved in cell adhesion (Vcam1, for example) and upregulation of genes involved in neuron-astrocyte interactions, such as Il33, Clasp2, and Fgfr2, suggesting temporal dynamics in adhesion gene expression as a function of disease stage and neuroinflammatory context[1]. In astrocytoma, similar temporal and spatial variations in adhesion molecule expression likely occur as tumors progress from relatively well-differentiated low-grade tumors toward highly malignant, poorly differentiated glioblastomas.\n\n### Neuropilin and Semaphorin Signaling in Axonal Guidance and Repulsion\n\nSEMA4D (semaphorin 4D) encodes a membrane-bound semaphorin ligand that participates in immune regulation and axonal guidance through interactions with plexin receptors. Semaphorins are a large family of secreted or membrane-associated proteins that serve as guidance cues for axons and cell-cell communication signals. SEMA4D is expressed by immune cells and glial cells and plays roles in immune cell recruitment and axonal outgrowth regulation. The presence of semaphorin family members in the astrocytoma gene list suggests potential dysregulation of axonal guidance mechanisms and immune cell recruitment in the tumor microenvironment.\n\n---\n\n## Proteostasis, Autophagy, and Protein Quality Control Systems\n\n### Lysosomal Function and Proteolytic Processing\n\nA critical gene program involves lysosomal function, autophagy, and protein degradation pathways. These pathways are essential for maintaining cellular homeostasis through removal of damaged organelles, misfolded proteins, and protein aggregates. Recent research has emphasized the importance of proper lysosomal acidification, maintained by the vacuolar ATPase (V-ATPase) proton pump, for the activity of lysosomal hydrolytic enzymes and autophagy flux[6]. Disruption of lysosomal acidification impairs protein degradation, leading to accumulation of undegraded substrates and exacerbation of cellular stress responses[6].\n\nThe provided gene list includes KLK6 (kallikrein-related peptidase 6), a serine protease involved in proteolytic processing with emerging roles in neural pathology. KLK6 expression is dynamically regulated during disease progression; for example, in spinocerebellar ataxia type 2 (SCA2), KLK6 transcripts are progressively downregulated from early disease stages, with reductions to 58% in pre-manifest stages and further decreases to 12% in end-stage disease in the cerebellum[14]. This progressive downregulation of KLK6 correlates with disease severity, suggesting that loss of KLK6 activity contributes to neurodegeneration through impaired proteolytic processing. The presence of KLK6 in the astrocytoma gene list suggests potential dysregulation of proteolytic processing in tumors.\n\nASPA (aspartoacylase) encodes an enzyme that cleaves N-acetylaspartate (NAA) to aspartate and acetate. NAA is the second most abundant amino acid in the brain and is synthesized predominantly in neurons and transported to oligodendrocytes and astrocytes for metabolism. Mutations in ASPA cause Canavan disease, a leukodystrophy characterized by impaired oligodendrocyte maturation and myelin formation, demonstrating the critical importance of NAA metabolism for glial function. QDPR (quinoid dihydrofolate reductase) participates in redox metabolism and pterin metabolism, with roles in maintaining cellular redox balance and potentially preventing oxidative stress-induced proteostasis disruption.\n\n### Serpin-Mediated Protease Inhibition\n\nSERPINB1, though not explicitly listed in the provided gene list, represents a critical protease inhibitor that regulates cathepsins and kallikrein-related peptidases, both of which are involved in cellular proteostasis[14]. The presence of KLK6 and other proteostasis-related genes suggests a broader program of serine protease regulation and protein degradation control. Recent research has identified SERPINB1 as a candidate biomarker for neurodegenerative disease, with altered SERPINB1 plasma levels correlating with disease severity and genetic factors[14]. This proteostasis program appears particularly relevant to astrocytoma given the metabolic stress imposed by rapid tumor cell proliferation and the need for enhanced protein synthesis to support tumor growth.\n\n---\n\n## Cellular Differentiation and Oligodendroglial Lineage Programs\n\n### Oligodendrocyte Progenitor Cell Specification and Differentiation\n\nThe oligodendroglial differentiation program represents a distinct functional module within the gene list. Oligodendrocyte specification and differentiation requires sequential activation and repression of specific transcriptional programs. Beyond the master regulators NKX6-2 and SOX10 discussed above, the program includes genes encoding structural and metabolic enzymes of oligodendrocytes.\n\nMYRF (myelin regulatory factor) encodes a transcription factor that activates the expression of late-stage oligodendrocyte genes during terminal oligodendrocyte differentiation and myelin formation[2]. MYRF operates downstream of earlier differentiation signals to promote the expression of structural myelin proteins and myelin-associated enzymes. The presence of MYRF in the gene list suggests that the tumor microenvironment may promote or enable aberrant oligodendroglial differentiation programs within astrocytomas or the peritumoral region.\n\nMOBP (myelin associated oligodendrocyte basic protein) encodes a component of the myelin sheath with structural and potentially signaling roles. While MOBP is a classical oligodendrocyte marker typically absent from astrocytes, its presence in the astrocytoma gene list may reflect either oligodendroglial elements within the tumor or aberrant expression of oligodendroglial markers by the astrocytoma cells themselves, a phenomenon that occurs in glioblastoma and reflects cellular plasticity.\n\n### Glial Cell Differentiation State and Progenitor-Like Features\n\nThe gene program also includes evidence of neural stem cell maintenance and progenitor-like features. Recent studies have demonstrated that neural stem cells, including astrocyte-derived progenitor cells, display increased markers of proliferation and migration in acute and subacute periods following traumatic brain injury[1]. Similarly, in astrocytomas, upregulation of pathways enriched for regulation of synaptic structure, axonogenesis, and neuronal stem cell maintenance has been documented[1], suggesting that astrocytomas may retain or reactivate neural stem cell-associated programs.\n\nGenes involved in stemness and progenitor cell maintenance include factors regulating E2F signaling (involved in cell proliferation and mitosis), genes associated with increased expression in neural stem cells such as SOX2 (indirectly, through effects on genes promoting neurogenesis), and factors promoting neural stem cell proliferation and migration. The transcription factors and signaling molecules involved in maintaining neural progenitor cell identity may be aberrantly activated in astrocytomas, contributing to the undifferentiated, rapidly proliferating phenotype characteristic of these tumors.\n\n---\n\n## Cytoskeletal Organization and Cell Morphology Programs\n\n### Actin Dynamics and Cell Projection Organization\n\nThe provided gene list includes numerous genes involved in cytoskeletal organization and cell morphology. Astrocytes are morphologically complex cells characterized by extensive branching processes that extend throughout neural tissue. This morphology is essential for astrocytic functions including metabolic support of neurons, regulation of extracellular ion concentrations, and synaptic regulation. The genes in this program include regulators of actin dynamics, microtubule organization, and cell projection formation.\n\nCOBL (cordon-bleu) encodes a protein involved in the nucleation and regulation of actin filaments. COBL participates in cell projection organization by promoting the formation and elongation of cellular processes, a function essential for the branching morphology of astrocytes. SHROOM4 (shroom family member 4) encodes an actin-binding protein that regulates cell shape changes and is involved in the organization of contractile forces within cells. SLAIN1 (SLAIN motif family member 1) participates in microtubule dynamics and cellular architecture.\n\nThe significance of cytoskeletal reorganization programs in astrocytoma relates to the dramatic morphological changes that accompany malignant transformation. While differentiated astrocytes maintain complex branching morphologies, astrocytomas often become rounded and less morphologically complex, a change that correlates with loss of adhesive contacts and increased motility. Dysregulation of actin and microtubule dynamics in astrocytomas enables enhanced cell motility, invasion, and resistance to apoptosis. The presence of genes regulating cell projection organization in the gene list suggests that the tumor microenvironment or the transformed astrocytes themselves may exhibit both maintenance of some astrocytic morphological programs and activation of programs promoting altered cytoskeletal dynamics.\n\n### Microtubule-Associated Proteins and Vesicular Transport\n\nMAP7 (microtubule associated protein 7) encodes a protein that regulates the stability of microtubules and participates in intracellular vesicular transport. TPPP (tubulin polymerization promoting protein) promotes the assembly and stability of microtubules. KIF6 (kinesin family member 6) encodes a kinesin motor protein involved in microtubule-based intracellular transport. These genes collectively establish programs for regulating microtubule dynamics and enabling the complex intracellular trafficking required for astrocytic function.\n\n---\n\n## Ion Channel and Electrolyte Homeostasis Programs\n\n### Potassium Channel Regulation and Osmotic Homeostasis\n\nAstrocytes play a critical role in maintaining extracellular ion concentrations, particularly potassium, which must be tightly regulated to prevent neuronal hyperexcitability and seizures. The provided gene list includes genes encoding potassium channels and associated regulatory proteins. KCNK1 (potassium two pore domain channel subfamily K member 1) and KCNMB4 (potassium calcium-activated channel subfamily M regulatory beta subunit 4) encode components of potassium channel complexes involved in astrocytic uptake of excess extracellular potassium.\n\nAQP4 (aquaporin 4), while not explicitly listed, represents a critical water channel expressed in astrocytes that participates in osmotic homeostasis. Recent studies have identified that astrocytes contain a TRPV4/AQP4 complex that constitutes a key element in the brain's volume homeostasis by acting as an osmosensor that couples osmotic stress to cellular response mechanisms[5]. The presence of ion channel-related genes in the astrocytoma gene list suggests that dysregulation of ion homeostasis may contribute to astrocytoma phenotypes, potentially affecting the osmotic balance within tumors and the peritumoral region.\n\nSGK1 (serum and glucocorticoid-regulated kinase 1) encodes a kinase involved in regulating ion channel function and osmotic homeostasis. SGK1 phosphorylates and modulates the activity of various ion channels and transporters, controlling their surface expression and functional properties. Dysregulation of SGK1 in astrocytomas could alter ion homeostasis and contribute to the osmotic stress characteristic of solid tumors.\n\n---\n\n## Synaptic Organization and Neuronal-Glial Signaling\n\n### Synaptic Scaffolding and Contact Site Organization\n\nAstrocytes form intimate contacts with neuronal synapses through tripartite synapse structures wherein astrocytic processes directly contact and regulate synaptic transmission. This program includes genes encoding proteins involved in organizing and maintaining synaptic architecture and coordinating astrocytic regulation of synaptic function. CNTNAP4 (contactin-associated protein-like 4) encodes a member of the neurexin family of cell adhesion molecules involved in synapse organization. DLG2 (discs large MAGUK scaffold protein 2) encodes a member of the MAGUK (membrane-associated guanylate kinase) family of scaffolding proteins that organize synaptic signaling complexes.\n\nANK3 (ankyrin 3) encodes ankyrin-G, a cytoskeletal adaptor protein that links membrane proteins to the spectrin-actin cytoskeleton. ANK3 is critical for organizing the axon initial segment and synaptic scaffolds. The presence of ANK3 in the astrocytoma gene list may reflect dysregulation of synaptic organization in the tumor microenvironment or loss of astrocytic regulation of synaptic function.\n\n### Extracellular Matrix and Perineuronal Net Organization\n\nADAMTS4 (ADAM metallopeptidase with thrombospondin type 1 motif, member 4) and ADAMTS18 encode secreted metalloproteases that remodel the extracellular matrix (ECM), including components of perineuronal nets that surround and regulate synaptic transmission onto neurons. HAPLN2 (hyaluronan and proteoglycan link protein 2) encodes a protein that stabilizes interactions between hyaluronic acid and proteoglycans in the extracellular matrix, contributing to ECM organization and stability. Perineuronal nets are specialized ECM structures that regulate synaptic plasticity and the closing of critical periods for developmental plasticity.\n\nIn astrocytomas, aberrant ECM remodeling has been associated with enhanced invasion and tumor progression. The dysregulation of ADAMTS family proteases and HAPLN genes suggests that astrocytomas may alter the mechanical properties of the tumor microenvironment and remodel the extracellular matrix to promote invasion and angiogenesis.\n\n---\n\n## Lipid Signaling and Inflammatory Pathway Regulation\n\n### Phospholipid Metabolism and Lipid-Derived Signaling Molecules\n\nBeyond the myelin lipid synthesis program discussed earlier, the gene list includes genes involved in phospholipid metabolism and the generation of lipid-derived signaling molecules. ENPP2 (ectonucleotide pyrophosphatase/phosphodiesterase 2), also known as autotaxin, catalyzes the hydrolysis of lysophosphatidylcholine to generate lysophosphatidic acid (LPA), a bioactive lipid mediator. LPA acts through G protein-coupled receptors (GPCRs) including LPAR1 to regulate cell migration, proliferation, and survival. The ENPP2-LPA-LPAR1 axis is significantly dysregulated in many cancer types, including glioblastoma, where it promotes tumor cell migration, angiogenesis, and immune cell recruitment.\n\nPLD1 (phospholipase D1) catalyzes the hydrolysis of phosphatidylcholine to generate phosphatidic acid (PA) and choline. Phosphatidic acid serves as both a membrane structural component and a bioactive signaling lipid that participates in cell proliferation, apoptosis regulation, and cytoskeletal dynamics. PLAT3 (phospholipase A2, membrane associated 3), also known as membrane-associated phospholipase A2, releases arachidonic acid and lysophospholipids from membrane phospholipids, generating substrates for the synthesis of eicosanoid inflammatory mediators and serving as ligands for lipid-sensing GPCRs.\n\n### Prostaglandin and Eicosanoid Biosynthesis\n\nPTGDS (prostaglandin D synthase) catalyzes the isomerization of prostaglandin H2 to prostaglandin D2 (PGD2), a potent inflammatory mediator and metabolic regulator. PGD2 acts through the prostanoid receptors DP1 and DP2 (PTGDR and PTGDR2) to regulate immune responses, sleep-wake cycles, and metabolic homeostasis. In the central nervous system, astrocytes are a major source of prostaglandins, which participate in regulating neuroinflammation and synaptic plasticity. Dysregulation of PTGDS and prostaglandin synthesis in astrocytomas could alter the inflammatory milieu within the tumor microenvironment.\n\n---\n\n## Angiogenesis and Vascular Integration Programs\n\n### Endothelial Cell-Glial Cell Communication\n\nAstrocytes play critical roles in angiogenesis and blood-brain barrier (BBB) formation through interactions with endothelial cells and pericytes. The gene list includes factors involved in endothelial-glial communication and vascular growth. EDIL3 (EGF like repeats and discoidin I-like domains 3), also known as developmental endothelial locus-1 (DEL-1), encodes a ligand for integrins that participates in angiogenesis and immune regulation. FGFR2 (fibroblast growth factor receptor 2) encodes a receptor tyrosine kinase involved in fibroblast growth factor (FGF) signaling, which regulates angiogenesis, astrocyte differentiation, and brain development.\n\nThe dysregulation of angiogenic programs in astrocytomas is well-characterized; malignant gliomas produce excessive vascular endothelial growth factor (VEGF) and other angiogenic factors, leading to formation of abnormal, leaky blood vessels that fail to maintain BBB integrity. Recent studies have demonstrated that in gliomas, astrocytes express high levels of CXCL15, a chemokine that recruits neutrophils and promotes angiogenesis[17]. The presence of angiogenesis-related genes in the astrocytoma gene list underscores the importance of altered vascular-glial communication in supporting tumor growth and defining the tumor microenvironment.\n\n### Vascular Permeability and Blood-Brain Barrier Dysfunction\n\nCLDN11 (claudin 11) encodes a tight junction protein that maintains BBB integrity by forming occluding junctions between endothelial cells. CLDND1 (claudin domain containing 1) similarly participates in barrier function. Loss of tight junction integrity in gliomas contributes to BBB disruption and vasogenic edema (fluid accumulation in extracellular space), which increases intracranial pressure and contributes to neurological symptoms. The presence of genes encoding tight junction proteins in the astrocytoma gene list suggests that dysregulation of these barrier maintenance mechanisms may be a feature of tumor-induced BBB disruption.\n\n---\n\n## Immune Cell Recruitment and Neuroinflammatory Programs\n\n### Chemokine Production and Immune Cell Trafficking\n\nAstrocytes are innate immune cells capable of producing chemokines that recruit infiltrating immune cells to sites of brain injury or infection. In astrocytomas, production of chemokines by both astrocytoma cells and resident astrocytes contributes to recruitment of tumor-associated immune cells that support tumor progression. Recent studies have identified that astrocytes in gliomas express high levels of CXCL15, which recruits neutrophils and supports neutrophil extracellular trap (NET) formation[17]. NETs consist of extracellular DNA decorated with nuclear and granular proteins that can trap and kill pathogens but also promote tumor cell migration, proliferation, and immune suppression in the tumor microenvironment[17].\n\nWhile specific chemokine genes are not explicitly listed in the provided gene list, the presence of genes involved in lipid signaling (particularly LPA signaling through LPAR1 and ENPP2) and cytokine signaling provides indirect support for immune cell recruitment programs. LPA is a potent chemotactic factor that promotes immune cell migration and is elevated in inflammatory conditions including glioblastoma.\n\n---\n\n## Transporters and Cellular Uptake of Nutrients and Metabolites\n\n### Solute Carrier Family Transporters\n\nThe gene list includes numerous members of the solute carrier (SLC) family of transporters, which mediate the uptake and efflux of diverse substrates including amino acids, glucose, lipids, and ions. Beyond GLUT3 discussed in the metabolic coupling program, the list includes SLC7A14, SLC24A2 (solute carrier family 24 member 2, a calcium-potassium exchanger), SLC5A11 (solute carrier family 5 member 11, a nucleoside sugar transporter), SLC22A15 (solute carrier family 22 member 15), SLC44A1 (choline transporter), SLC45A3 (solute carrier family 45 member 3), SLC31A2 (copper transporter 2), and SLC7A14-AS1 (an antisense RNA to SLC7A14).\n\nThese transporters collectively enable astrocytes to accumulate essential nutrients and metabolites from the bloodstream and extracellular fluid, supporting the high metabolic demands of astrocytes and enabling them to supply metabolic substrates to neurons. Dysregulation of these transporters in astrocytomas could contribute to altered nutrient uptake, creating a metabolic microenvironment that supports tumor growth while potentially creating metabolic stress for surrounding normal neural tissue.\n\n### Nutrient Scavenging and Metabolite Uptake\n\nFOLH1 (folate hydrolase 1) encodes a membrane-anchored enzyme that cleaves folate polyglutamates, enabling cells to take up dietary folate (vitamin B9), essential for DNA synthesis and methylation reactions. The presence of FOLH1 in the astrocytoma gene list suggests dysregulation of folate metabolism, potentially reflecting enhanced folate uptake to support the high rates of DNA synthesis required for tumor cell proliferation. COL4A5, while primarily encoding a collagen component, participates in basement membrane organization and may indirectly affect nutrient transport by influencing vascular-glial interactions.\n\n---\n\n## Cell Cycle Regulation and Proliferation Programs\n\n### G1/S Checkpoint Regulation and Cyclin-Dependent Kinase Control\n\nMalignant transformation of astrocytes requires circumvention of cell cycle checkpoints and activation of proliferative signals. While specific cyclin-CDK complexes are not exhaustively listed in the provided gene list, the list includes CDK18 (cyclin-dependent kinase 18), a member of the PCTAIRE kinase family with poorly characterized but potentially regulatory roles in cell cycle progression. CCND2 (cyclin D2) is amplified in IDH-mutant lower-grade astrocytomas and represents an independent adverse prognostic factor, suggesting that cyclin D2 overexpression contributes to tumor progression.\n\nThe presence of genes involved in cell cycle regulation emphasizes that astrocytomas exhibit dysregulation of proliferative controls. Recent studies have documented that astrocyte activation following brain injury involves upregulation of E2F-related signaling, which is involved in cell proliferation and mitosis, suggesting that similar proliferative programs may be aberrantly activated in astrocytomas[1].\n\n### Retinoblastoma Pathway Inactivation\n\nThe retinoblastoma (Rb) pathway represents a critical checkpoint controlling G1/S progression, and inactivation of this pathway is nearly universal in glioblastomas and many lower-grade gliomas. While Rb itself is not listed in the provided gene list, the presence of genes regulating E2F signaling and proliferation suggests dysregulation of Rb pathway-controlled transcription. E2F transcription factors normally lie downstream of Rb and are activated upon Rb inactivation, leading to transcription of S-phase genes required for DNA replication.\n\n---\n\n## DNA Damage Response and Apoptosis Resistance Programs\n\n### P53 Pathway Components and DNA Damage Response\n\nAstrocytomas frequently harbor mutations in TP53 (tumor protein p53), the guardian of the genome, which normally arrests cell cycle progression in response to DNA damage or activates apoptosis if damage is irreparable. The p53 pathway integrates DNA damage signals and activates expression of genes involved in cell cycle arrest (p21), apoptosis, and DNA repair. While p53 itself is not listed in the provided gene list, the list includes genes involved in apoptosis and stress response pathways.\n\nBOK (BCL2 family apoptosis regulator, related to ovarian killer) encodes a pro-apoptotic BCL2 family member that participates in mitochondrial outer membrane permeabilization and apoptosis initiation. The presence of pro-apoptotic genes in the astrocytoma gene list may indicate retained apoptotic capacity in astrocytomas, or conversely, may reflect loss of apoptotic signaling through altered expression of apoptosis regulators. Recent studies have identified that genes involved in apoptosis are prominently enriched in acute TBI astrocytes, suggesting dynamic regulation of apoptotic pathways as astrocytes respond to injury[1].\n\n### Oxidative Stress Response and Antioxidant Systems\n\nRapidly proliferating tumor cells experience enhanced oxidative stress due to increased metabolic activity and incomplete scavenging of reactive oxygen species (ROS). The gene list includes genes involved in antioxidant defense and redox homeostasis. FTH1 (ferritin heavy chain 1) encodes the catalytic subunit of ferritin, which catalyzes the oxidation and sequestration of iron, preventing iron from participating in Fenton chemistry that generates hydroxyl radicals. CBR1 (carbonyl reductase 1) participates in the metabolism of carbonyl compounds and may contribute to detoxification of lipid peroxides and other oxidative stress products.\n\n---\n\n## Neurotrophic Signaling and Cell Survival Programs\n\n### Receptor Tyrosine Kinase Signaling\n\nERBB3 (erb-b2 receptor tyrosine kinase 3), also known as HER3, encodes a receptor tyrosine kinase involved in ligand-induced signaling through the ErbB family of receptors. ErbB receptors regulate cell proliferation, differentiation, and survival, and dysregulation of ErbB signaling contributes to glioblastoma progression. Recent studies have demonstrated that mTOR kinase inhibition disrupts neuregulin 1-ERBB3 autocrine signaling in meningioma cellular models, suggesting that ERBB3-mediated signaling supports tumor cell survival and proliferation.\n\nFGFR2 (fibroblast growth factor receptor 2), discussed earlier in the context of angiogenesis, also participates in astrocyte differentiation and development. Dysregulation of FGFR2 signaling in astrocytomas could alter astrocyte differentiation state and promote proliferation through enhanced FGFR2-mediated signaling.\n\n### Neurotrophic Factor Signaling\n\nAATK (apoptosis-associated tyrosine kinase) encodes a receptor tyrosine kinase involved in neuronal survival signaling through brain-derived neurotrophic factor (BDNF) and other neurotrophic factors. The presence of AATK in the gene list suggests dysregulation of neurotrophic signaling pathways that normally promote neuronal survival but may be aberrantly co-opted in astrocytomas to promote tumor cell survival and proliferation.\n\n---\n\n## Transcriptional Regulation and Chromatin Remodeling\n\n### DNA-Binding Transcription Factors\n\nBeyond the oligodendroglial master regulators NKX6-2 and SOX10, the gene list includes additional transcription factors regulating cellular differentiation and gene expression. ZNF536 (zinc finger protein 536) encodes a zinc finger transcription factor involved in transcriptional regulation. The presence of multiple transcription factors in the gene list suggests that astrocytomas dysregulate multiple transcriptional programs controlling cell identity, differentiation, and proliferation.\n\n### Chromatin Remodeling and Transcriptional Coactivators\n\nThe provided gene list includes genes involved in chromatin structure and transcriptional regulation. While core histone-modifying enzymes are not extensively listed, the presence of genes regulating transcriptional programs suggests dysregulation of chromatin state and gene expression patterns in astrocytomas. Recent studies have emphasized that altered chromatin accessibility and reorganization of chromatin architecture contribute to glioma progression and therapeutic resistance.\n\n---\n\n## Conclusion: Integrated Model of Gene Programs in Astrocytoma\n\nThis comprehensive analysis has identified thirteen distinct gene programs operating within the provided gene list that collectively illuminate the molecular landscape of astrocytoma. These programs reflect dysregulation of multiple fundamental cellular processes that normally operate in differentiated astrocytes and related glial cells, and their aberrant activation or suppression contributes to malignant transformation.\n\nThe oligodendroglial transcriptional specification program, anchored by NKX6-2 and SOX10, represents a developmental program that may be aberrantly reactivated in astrocytomas, potentially contributing to cellular plasticity and treatment resistance. The myelin-associated program, encompassing structural proteins, lipid-synthesizing enzymes, and lipid transporters, likely reflects the normal role of astrocytes in supporting oligodendrocyte function and myelin integrity; dysregulation of this program contributes to white matter damage and metabolic disruption characteristic of astrocytomas.\n\nThe astrocyte-neuron metabolic coupling program, centered on glucose transport, lactate metabolism, and glutamate-glutamine cycling, represents one of the most critical functions of astrocytes. Disruption of metabolic coupling in astrocytomas through altered expression of glucose transporters, lactate-producing enzymes, and glutamate reuptake mechanisms creates a metabolic microenvironment that selectively supports tumor growth while depriving surrounding neural tissue of critical metabolic substrates, contributing to neurological deficits and seizures.\n\nThe cell adhesion and neural-glial communication program reflects the complex network of adhesive and signaling interactions that normally maintain neural tissue organization and prevent pathological invasion. Loss of adhesion and aberrant signaling in astrocytomas enables infiltrative tumor growth and disrupts normal neuron-glia communication.\n\nThe proteostasis program, involving autophagy, lysosomal function, and protease regulation, is central to the metabolic stress imposed by rapid tumor proliferation. Dysregulation of proteostasis contributes to accumulation of misfolded proteins, cellular stress, and potentially selection for tumor cells with enhanced proteasomal and autophagy capacity.\n\nThe cytoskeletal organization program reflects the dramatic morphological changes accompanying malignant transformation. Loss of the branching astrocyte morphology and acquisition of rounded tumor cell morphology is enabled by dysregulation of actin dynamics, microtubule organization, and cell projection formation.\n\nThe ion channel and electrolyte homeostasis program reflects aberrant regulation of the osmotic environment within astrocytomas, contributing to altered ion concentrations, cell swelling, and impaired neural function in the tumor microenvironment.\n\nThe synaptic organization program reflects dysregulation of the tripartite synapse and perineuronal net organization, contributing to impaired synaptic function, loss of astrocytic regulation of synaptic transmission, and altered neuronal excitability in the peritumoral region. Recent studies have identified that tumor progression alters the electrophysiological and structural properties of peritumoral neurons, potentially driving seizure induction through aberrant neuronal activity patterns.\n\nThe lipid signaling program, involving phospholipid metabolism and generation of lipid-derived signaling molecules such as lysophosphatidic acid, supports tumor cell migration and angiogenesis while promoting recruitment and polarization of tumor-associated immune cells.\n\nThe angiogenesis and vascular integration program reflects the enhanced angiogenic capacity of astrocytomas and the formation of abnormal tumor vasculature that fails to maintain BBB integrity.\n\nThe immune cell recruitment and neuroinflammatory program reflects astrocytoma-induced alterations in cytokine and chemokine production that recruit infiltrating immune cells supporting tumor progression.\n\nThe nutrient transport program reflects enhanced uptake of essential nutrients including glucose, amino acids, folate, and iron, supporting the extreme metabolic demands of rapidly proliferating tumor cells.\n\nThe cell cycle regulation and proliferation program reflects dysregulation of checkpoint controls and activation of proliferative signals driving malignant transformation.\n\nThe DNA damage response and apoptosis resistance program reflects mechanisms enabling astrocytomas to tolerate genomic instability and resist pro-death signaling.\n\nTogether, these programs paint a picture of astrocytoma as a disease of reprogrammed astrocytes that retain certain normal glial functions while aberrantly activating developmental programs, disrupting metabolic coupling with neurons, and acquiring enhanced proliferative and invasive capacity. Understanding how these programs interact and dynamically change during tumor progression, in response to therapy, and in different tumor microenvironments will be essential for developing effective therapeutic strategies to target astrocytomas.\n\n---\n\n```json\n{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Gene Program Functional Analysis - Astrocytoma\",\n  \"description\": \"Comprehensive literature-based functional analysis of 163 genes in astrocytoma context, identifying gene programs and their predicted cellular impacts.\",\n  \"type\": \"object\",\n  \"context\": {\n    \"cell_type\": \"Astrocytes\",\n    \"disease\": \"Astrocytoma\",\n    \"tissue\": \"Central nervous system (brain)\"\n  },\n  \"input_genes\": [\n    \"CARNS1\", \"MOBP\", \"ERMN\", \"ST18\", \"PTGDS\", \"TF\", \"FOLH1\", \"NKAIN2\", \"PLEKHH1\", \"MYO1D\",\n    \"PLP1\", \"CTNNA3\", \"CNDP1\", \"MOG\", \"ENPP2\", \"EDIL3\", \"MAP7\", \"MAG\", \"SELENOP\", \"RNF220\",\n    \"AK5\", \"PPP1R14A\", \"CDH19\", \"PEX5L\", \"RNASE1\", \"SLC7A14-AS1\", \"CLDND1\", \"PIP4K2A\", \"APLP1\", \"GSN\",\n    \"SHTN1\", \"SAMD12\", \"CLMN\", \"SPOCK3\", \"SH3TC2\", \"AC090015.1\", \"CLDN11\", \"TMEM144\", \"MYRF\", \"C10ORF90\",\n    \"MBP\", \"DOCK5\", \"ABCA2\", \"UNC5C\", \"AC012494.1\", \"NKX6-2\", \"DBNDD2\", \"VRK2\", \"PLPP2\", \"LINC01608\",\n    \"GRM3\", \"KLK6\", \"QDPR\", \"SEPTIN4\", \"CNP\", \"ANKRD18A\", \"HAPLN2\", \"MTUS1\", \"MAL\", \"CD22\",\n    \"CNTN2\", \"ATP1B1\", \"OPALIN\", \"ST6GALNAC3\", \"FRMD4B\", \"SLC5A11\", \"PIEZO2\", \"COL4A5\", \"CNTNAP4\", \"SLC24A2\",\n    \"IL1RAPL1\", \"CERCAM\", \"APOD\", \"KIRREL3\", \"CDK18\", \"NT5DC1\", \"ASPA\", \"PDE1C\", \"PLD1\", \"HPN-AS1\",\n    \"HHATL\", \"LINC01445\", \"PALM2-AKAP2\", \"DLC1\", \"AATK\", \"TTLL7\", \"SEC14L5\", \"RAPGEF5\", \"TMEM235\", \"TMTC2\",\n    \"TPPP\", \"SLC31A2\", \"GPR37\", \"TUBB4A\", \"SH3TC2-DT\", \"SH3GL3\", \"FA2H\", \"LINC00320\", \"ZNF536\", \"TMEM165\",\n    \"TMEM125\", \"CSRP1\", \"TMEM151A\", \"ATP8A1\", \"NINJ2\", \"BCAS1\", \"LDB3\", \"MAN2A1\", \"LPAR1\", \"LRP2\",\n    \"ABCA8\", \"AC008571.2\", \"AC004690.2\", \"SRCIN1\", \"CA2\", \"SYNJ2\", \"RASGRF1\", \"PLCL1\", \"RASGRP3\", \"SLC22A15\",\n    \"ANLN\", \"GJB1\", \"PLAAT3\", \"PLLP\", \"ADAMTS4\", \"SLC44A1\", \"FAM107B\", \"ITGA2\", \"PPP1R16B\", \"AC009063.2\",\n    \"RASGRF2\", \"DNAJC6\", \"HHIP\", \"DPYD\", \"LINC00639\", \"PPM1H\", \"CLCA4\", \"SPP1\", \"BOK\", \"SLCO3A1\",\n    \"KIF6\", \"NECAB1\", \"TMEM63A\", \"HSPA2\", \"ENO4\", \"CBR1\", \"ELOVL7\", \"HS3ST5\", \"FGFR2\", \"LGI3\",\n    \"KCNK1\", \"FTH1\", \"FUT8\", \"KLHL32\", \"ELMO1\", \"KCNMB4\", \"DLG2\", \"SGK1\", \"PCSK6\", \"SLCO1A2\",\n    \"SEMA4D\", \"SCD\", \"AL033523.1\", \"PWRN1\", \"SOX10\", \"PRR18\", \"AL158077.2\", \"AMER2\", \"ANK3\", \"TRIM59\",\n    \"ANO4\", \"AC079352.1\", \"OTUD7A\", \"LRRC63\", \"UGT8\", \"PCDH9\", \"SLC45A3\", \"ABCA6\", \"AC025810.1\", \"SHROOM4\",\n    \"SLAIN1\", \"GLDN\", \"COBL\", \"AC096564.1\", \"AC098679.5\", \"PDE1A\", \"CPPED1\", \"SLC7A14\", \"AC092058.1\", \"ERBB3\",\n    \"AC018647.1\", \"ADAMTS18\", \"LARP6\", \"MEGF10\", \"OSBPL1A\", \"DAAM2\", \"BEST1\", \"AL359091.1\", \"TRIM2\", \"VWA1\"\n  ],\n  \"programs\": [\n    {\n      \"program_name\": \"Oligodendroglial Transcriptional Specification\",\n      \"description\": \"Master regulatory program controlling specification and differentiation of oligodendrocyte lineage through coordinated expression of lineage-specific transcription factors. These factors activate downstream transcriptional programs that establish oligodendroglial cell identity and suppress conflicting cell fates. In astrocytoma context, aberrant reactivation of this developmental program may contribute to cellular plasticity and malignant properties.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Transcriptional regulation of oligodendroglial differentiation\",\n          \"citations\": [\n            {\"source_id\": \"2\", \"notes\": \"OLIG2 encodes basic helix-loop-helix transcription factor expressed in oligodendroglial tumors\"},\n            {\"source_id\": \"3\", \"notes\": \"SOX10 encodes SRY-box transcription factor involved in regulation of embryonic development and oligodendrocyte specification\"},\n            {\"source_id\": \"4\", \"notes\": \"Nkx2.2 regulates myelination-associated genes during oligodendrocyte differentiation\"}\n          ],\n          \"genes\": [\"NKX6-2\", \"SOX10\", \"MYRF\"]\n        },\n        {\n          \"name\": \"Cell differentiation and lineage commitment\",\n          \"citations\": [\n            {\"source_id\": \"12\", \"notes\": \"NKX6-2 enables sequence-specific DNA binding and is involved in cell differentiation and regulation of DNA-templated transcription\"}\n          ],\n          \"genes\": [\"NKX6-2\", \"SOX10\"]\n        }\n      ],\n      \"atomic_cellular_components\": [],\n      \"predicted_cellular_impact\": [\n        \"Enhanced cellular plasticity and stemness features in astrocytoma cells\",\n        \"Aberrant activation of developmental programs normally silenced in mature astrocytes\",\n        \"Potential therapeutic resistance through retention of oligodendroglial specification capacity\",\n        \"Dysregulation of terminal differentiation programs\"\n      ],\n      \"evidence_summary\": \"The oligodendroglial transcriptional specification program is anchored by NKX6-2 and SOX10, master regulators that control the entire developmental pathway from neural progenitor cells to mature oligodendrocytes. These transcription factors are normally silenced in differentiated astrocytes but may be aberrantly reactivated in astrocytomas. The presence of MYRF, which drives terminal oligodendroglial differentiation, suggests that the tumor microenvironment or transformed astrocytes themselves may reactivate developmental programs. This program is particularly significant in astrocytoma as reactivation of developmental transcriptional programs is a hallmark of malignant transformation and contributes to cellular dedifferentiation and enhanced proliferative capacity.\",\n      \"significance_score\": 0.87,\n      \"citations\": [\n        {\"source_id\": \"2\", \"notes\": \"OLIG2 in oligodendroglial tumors\"},\n        {\"source_id\": \"3\", \"notes\": \"SOX10 in embryonic development\"},\n        {\"source_id\": \"4\", \"notes\": \"Nkx2.2 in oligodendrocyte differentiation\"},\n        {\"source_id\": \"12\", \"notes\": \"NKX6-2 in cell differentiation\"}\n      ],\n      \"supporting_genes\": [\"NKX6-2\", \"SOX10\", \"MYRF\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"OLIG1\", \"OLIG2\", \"POU3F1\", \"PDGFRα\"],\n        \"citations\": [\n          {\"source_id\": \"2\", \"notes\": \"OLIG2 is a key oligodendroglial master regulator\"},\n          {\"source_id\": \"4\", \"notes\": \"Zfp488 regulates oligodendrocyte differentiation alongside SOX10 and Nkx2.2\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Myelin Structural Proteins and Compaction\",\n      \"description\": \"Comprehensive program encoding structural proteins and enzymes essential for myelin formation, maintenance, and compaction. This program includes major myelin lipoproteins, cell adhesion molecules stabilizing myelin lamellae, and enzymatic machinery supporting the unique lipid composition of myelin. Dysregulation in astrocytoma may reflect aberrant oligodendroglial differentiation within the tumor or disrupted support for myelin integrity.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Myelin structural protein synthesis and assembly\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Genes associated with myelin proteins downregulated in chronic TBI astrocytes\"}\n          ],\n          \"genes\": [\"MBP\", \"PLP1\", \"MOG\", \"CNP\", \"OPALIN\", \"MAG\"]\n        },\n        {\n          \"name\": \"Myelin lipid synthesis and processing\",\n          \"citations\": [\n            {\"source_id\": \"6\", \"notes\": \"V-ATPase maintains lysosomal acidification essential for lipid-processing enzymes involved in cholesterol and sphingolipid metabolism\"}\n          ],\n          \"genes\": [\"UGT8\", \"FA2H\", \"ELOVL7\", \"MAL\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Myelin sheath structure\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Myelin-related genes dysregulated in astrocyte transcriptome\"}\n          ],\n          \"genes\": [\"MBP\", \"PLP1\", \"MOG\", \"OPALIN\", \"MAG\", \"PLLP\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Disrupted myelin integrity and white matter organization\",\n        \"Altered oligodendrocyte function and maturation within tumor microenvironment\",\n        \"Impaired metabolic support for neuronal axons dependent on myelination\",\n        \"Enhanced infiltration through white matter tracts\"\n      ],\n      \"evidence_summary\": \"The myelin program encompasses classical myelin structural proteins (MBP, PLP1, MOG, CNP, OPALIN, MAG, PLLP) as well as enzymes supporting myelin lipid synthesis and metabolism (UGT8, FA2H, ELOVL7, MAL). While myelin proteins are canonically expressed in oligodendrocytes rather than astrocytes, their presence in the astrocytoma gene list may reflect: (1) oligodendroglial elements within the tumor, (2) aberrant expression by astrocytoma cells themselves as a manifestation of cellular plasticity, or (3) dysfunction of the support astrocytes normally provide to oligodendrocytes. The dysregulation of this program in astrocytoma contributes to white matter damage and metabolic disruption characteristic of these tumors.\",\n      \"significance_score\": 0.82,\n      \"citations\": [\n        {\"source_id\": \"1\", \"notes\": \"Myelin genes dysregulated in astrocyte transcriptome\"},\n        {\"source_id\": \"6\", \"notes\": \"Lysosomal acidification essential for lipid processing\"}\n      ],\n      \"supporting_genes\": [\"MBP\", \"PLP1\", \"MOG\", \"CNP\", \"OPALIN\", \"MAG\", \"PLLP\", \"UGT8\", \"FA2H\", \"ELOVL7\", \"MAL\", \"MOBP\", \"ERMN\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"MBP\", \"PLP\", \"PMP22\"],\n        \"citations\": [\n          {\"source_id\": \"4\", \"notes\": \"Key oligodendrocyte differentiation regulated by SOX10 and Nkx2.2\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Myelin Lipid Biosynthesis and Homeostasis\",\n      \"description\": \"Specialized metabolic program controlling synthesis, transport, and maintenance of the unusual lipid composition characteristic of myelin membranes. Myelin is approximately 70-80% lipid by dry weight, with enriched cholesterol, galactocerebroside, and sulfatides. This program includes fatty acid elongases, hydroxylases, ATP-binding cassette transporters, and sterol-binding proteins essential for establishing and maintaining myelin lipid composition.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Very long-chain fatty acid synthesis\",\n          \"citations\": [\n            {\"source_id\": \"6\", \"notes\": \"Lysosomal acidification maintains proper sorting of lysosomal enzymes for lipid metabolism\"}\n          ],\n          \"genes\": [\"ELOVL7\", \"FA2H\"]\n        },\n        {\n          \"name\": \"Cholesterol and glycosphingolipid metabolism\",\n          \"citations\": [\n            {\"source_id\": \"6\", \"notes\": \"Lysosomal acidification essential for activity of lipid-processing enzymes involved in cholesterol and sphingolipid metabolism and for cholesterol export\"}\n          ],\n          \"genes\": [\"OSBPL1A\", \"UGT8\", \"ST6GALNAC3\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Lipid transporter complexes\",\n          \"citations\": [\n            {\"source_id\": \"6\", \"notes\": \"ER-lysosome contact sites regulate lipid exchange\"}\n          ],\n          \"genes\": [\"ABCA2\", \"ABCA6\", \"ABCA8\", \"OSBPL1A\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Altered lipid composition of cell membranes in astrocytoma cells\",\n        \"Dysregulated cholesterol and lipid homeostasis supporting tumor proliferation\",\n        \"Enhanced or reduced membrane fluidity affecting cell migration and invasion\",\n        \"Impaired normal glial support for myelination\"\n      ],\n      \"evidence_summary\": \"This program specifically addresses the metabolic machinery for synthesizing and maintaining the extraordinary lipid composition of myelin. ELOVL7 and FA2H mediate fatty acid modifications essential for myelin lipids. OSBPL1A, ABCA2, ABCA6, and ABCA8 regulate cholesterol and lipid transport and distribution. UGT8 and ST6GALNAC3 catalyze glycosphingolipid synthesis. In astrocytoma, dysregulation of this lipid program could contribute to altered membrane properties, enhanced invasion and migration, and disrupted metabolic support for normal myelination.\",\n      \"significance_score\": 0.78,\n      \"citations\": [\n        {\"source_id\": \"6\", \"notes\": \"Lysosomal acidification and lipid metabolism\"}\n      ],\n      \"supporting_genes\": [\"ELOVL7\", \"FA2H\", \"OSBPL1A\", \"ABCA2\", \"ABCA6\", \"ABCA8\", \"UGT8\", \"ST6GALNAC3\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"SPTLC1\", \"ASAH1\", \"GALC\"],\n        \"citations\": [\n          {\"source_id\": \"6\", \"notes\": \"Critical for sphingolipid and galactosylceramide metabolism\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Astrocyte-Neuron Metabolic Coupling and Lactate Shuttle\",\n      \"description\": \"Program supporting metabolic communication between astrocytes and neurons through glucose uptake by astrocytes, glycolytic lactate production, and lactate export to neurons as a preferred fuel source. The astrocyte-neuron lactate shuttle (ANLS) is fundamental to brain energy metabolism and neural function. Disruption of this program in astrocytoma contributes to metabolic dysfunction in the peritumoral region and may promote seizures through impaired neuronal energy metabolism.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Glucose uptake and glycolytic metabolism\",\n          \"citations\": [\n            {\"source_id\": \"15\", \"notes\": \"GLUT3 activity-dependent plasma translocation regulated by PKCε phosphorylation enables increased neuronal glucose uptake during activity\"},\n            {\"source_id\": \"16\", \"notes\": \"Astrocytic Cx43 maintains glycolytic metabolism and lactate production essential for neuronal excitability\"}\n          ],\n          \"genes\": [\"GLUT3\", \"LPAR1\"]\n        },\n        {\n          \"name\": \"Neuronal excitability and synaptic transmission support\",\n          \"citations\": [\n            {\"source_id\": \"16\", \"notes\": \"Reduced lactate synthesis correlates with diminished neuronal excitability and depressive-like behaviors\"}\n          ],\n          \"genes\": [\"GLUT3\", \"GPR37\", \"SLC44A1\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Glucose transporter membrane trafficking\",\n          \"citations\": [\n            {\"source_id\": \"15\", \"notes\": \"GLUT3 phosphorylation at Thr232 and Ser246 by PKCε promotes binding to KLC1 and activity-dependent plasma membrane insertion\"}\n          ],\n          \"genes\": [\"GLUT3\", \"SLC24A2\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Impaired neuronal energy metabolism in peritumoral region\",\n        \"Enhanced seizure susceptibility through metabolic substrate deprivation\",\n        \"Altered glutamate-glutamine cycling affecting neurotransmitter balance\",\n        \"Disrupted astrocyte-neuron communication at metabolic level\"\n      ],\n      \"evidence_summary\": \"The astrocyte-neuron lactate shuttle program is centered on glucose transporters (particularly GLUT3, though primarily neuronal, with activity-dependent trafficking) and metabolic regulators supporting lactate production and export. GLUT3 undergoes PKCε-dependent phosphorylation at specific residues enabling activity-dependent plasma membrane translocation, allowing neurons to rapidly increase glucose uptake during heightened activity. GPR37, LPAR1, and SLC44A1 participate in lipid and amino acid metabolism with potential roles in regulating metabolic homeostasis. The presence of these genes in the astrocytoma list suggests dysregulation of the ANLS program, with consequences for peritumoral neural tissue. This dysregulation contributes to metabolic stress and seizure development characteristic of astrocytomas.\",\n      \"significance_score\": 0.85,\n      \"citations\": [\n        {\"source_id\": \"15\", \"notes\": \"GLUT3 activity-dependent translocation and PKCε phosphorylation\"},\n        {\"source_id\": \"16\", \"notes\": \"Astrocytic metabolism and neuronal excitability coupling\"}\n      ],\n      \"supporting_genes\": [\"GLUT3\", \"GPR37\", \"LPAR1\", \"SLC44A1\", \"SLC7A14\", \"SLC5A11\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"GLS\", \"GLUL\", \"LDH\", \"MCT1\"],\n        \"citations\": [\n          {\"source_id\": \"16\", \"notes\": \"Lactate and glutamine metabolism essential for astrocyte-neuron metabolic coupling\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Glutamate-Glutamine Cycle and Amino Acid Homeostasis\",\n      \"description\": \"Program maintaining extracellular glutamate at physiological levels through astrocytic uptake of glutamate, conversion to glutamine by glutamine synthetase, release of glutamine to neurons, and recycling back to glutamate. This cycle is essential for preventing excitotoxicity, maintaining the neurotransmitter pool, and supporting neurotransmitter synthesis. Dysregulation in astrocytoma leads to excessive glutamate accumulation and excitotoxic damage.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Amino acid transport and neurotransmitter recycling\",\n          \"citations\": [\n            {\"source_id\": \"13\", \"notes\": \"Glioma cells cause elevation of local glutamate concentration and alter neuronal excitability via impaired glutamate reuptake\"}\n          ],\n          \"genes\": [\"SLC7A14\", \"SLC22A15\"]\n        },\n        {\n          \"name\": \"Extracellular glutamate regulation\",\n          \"citations\": [\n            {\"source_id\": \"13\", \"notes\": \"Tumor-neuron crosstalk alters neuronal functioning through glutamate dysregulation\"}\n          ],\n          \"genes\": [\"SLC7A14\", \"SLC44A1\"]\n        }\n      ],\n      \"atomic_cellular_components\": [],\n      \"predicted_cellular_impact\": [\n        \"Excessive extracellular glutamate accumulation causing excitotoxic neuronal damage\",\n        \"Enhanced seizure activity through disrupted glutamate homeostasis\",\n        \"Impaired neurotransmitter synthesis and recycling\",\n        \"Tumor-neuron crosstalk enabling aberrant neuronal-tumor synaptic connections\"\n      ],\n      \"evidence_summary\": \"Dysregulation of glutamate homeostasis is a hallmark feature of astrocytomas. Glioma cells produce excessive glutamate through multiple mechanisms including impaired glutamate reuptake and enhanced glutamate release. Recent studies have demonstrated that glioma cells cause elevation of local glutamate concentration and alter neuronal excitability via the non-synaptic xCT transporter system and by impairing local glutamate reuptake. Furthermore, neurons in the peritumoral region form excitatory electrochemical synapses with tumor cells, creating direct communication pathways that facilitate tumor progression through direct and paracrine signaling. The amino acid transporter genes in this list (SLC7A14, SLC22A15, SLC44A1) participate in amino acid homeostasis and suggest dysregulation of glutamate handling in astrocytomas.\",\n      \"significance_score\": 0.83,\n      \"citations\": [\n        {\"source_id\": \"13\", \"notes\": \"Glioma-induced glutamate dysregulation and neuronal excitability alterations\"}\n      ],\n      \"supporting_genes\": [\"SLC7A14\", \"SLC22A15\", \"SLC44A1\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"GLT1\", \"GLAST\", \"GLUL\", \"GLS\"],\n        \"citations\": [\n          {\"source_id\": \"13\", \"notes\": \"Essential for glutamate reuptake and recycling\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Cell-Cell Adhesion and Neuronal-Glial Communication\",\n      \"description\": \"Program establishing and maintaining physical contacts between cells through adhesion molecules, linking these adhesive interactions to cytoskeletal organization and cellular signaling. This program is essential for neural tissue organization, neuronal-glial interactions, and tripartite synapse formation. Loss of adhesion and aberrant signaling in astrocytoma enables infiltrative growth and disrupts normal neuron-glia communication.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Homophilic cadherin-mediated cell-cell adhesion\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Cell adhesion genes including CDH19 downregulated in chronic TBI astrocytes\"}\n          ],\n          \"genes\": [\"CDH19\", \"CTNNA3\"]\n        },\n        {\n          \"name\": \"Immunoglobulin superfamily adhesion\",\n          \"citations\": [\n            {\"source_id\": \"13\", \"notes\": \"Neuronal-glial communication through adhesion molecules affected by tumor microenvironment\"}\n          ],\n          \"genes\": [\"CNTN2\", \"CNTNAP4\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Cadherin-catenin complex linkage to cytoskeleton\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Cell adhesion complexes dysregulated in astrocyte transcriptome\"}\n          ],\n          \"genes\": [\"CDH19\", \"CTNNA3\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Reduced contact-dependent growth inhibition promoting tumor proliferation\",\n        \"Enhanced tumor cell migration and invasion through white matter\",\n        \"Disrupted neuron-glia communication affecting synaptic function\",\n        \"Loss of normal adhesive signaling that constrains differentiation programs\"\n      ],\n      \"evidence_summary\": \"Cell adhesion molecules including CDH19 (cadherin 19), CTNNA3 (catenin alpha 3), and immunoglobulin superfamily members (CNTN2, CNTNAP4) establish the physical and signaling contacts essential for normal neural tissue organization and neuron-glia interactions. CDH19 mediates homophilic cell-cell adhesion while CTNNA3 links cadherins to the actin cytoskeleton. CNTN2 (contactin 2, axonin-1) and CNTNAP4 are immunoglobulin superfamily adhesion molecules involved in myelin formation and neuron-glia interactions. Loss of these adhesion molecules is a hallmark of malignant transformation, enabling tumor cells to lose contact-dependent growth inhibition and acquire enhanced migratory capability. Recent transcriptomic studies of astrocytes in chronic TBI revealed significant downregulation of cell adhesion genes, suggesting that adhesion molecule dysregulation accompanies astrocytic activation and is likely magnified in astrocytoma.\",\n      \"significance_score\": 0.80,\n      \"citations\": [\n        {\"source_id\": \"1\", \"notes\": \"Cell adhesion genes dysregulated in astrocyte activation\"},\n        {\"source_id\": \"13\", \"notes\": \"Neuronal-glial communication in tumor context\"}\n      ],\n      \"supporting_genes\": [\"CDH19\", \"CTNNA3\", \"CNTN2\", \"CNTNAP4\", \"PCDH9\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"E-cadherin\", \"N-cadherin\"],\n        \"citations\": [\n          {\"source_id\": \"1\", \"notes\": \"Cadherins essential for cell-cell adhesion\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Axonal Guidance and Growth Cone Signaling\",\n      \"description\": \"Program regulating axonal outgrowth, guidance, and growth cone dynamics through secreted and membrane-bound guidance cues and their receptors. Semaphorins and their plexin receptors constitute major components of this program, mediating both attractive and repulsive signals that shape neural circuit development and organization. In astrocytoma, dysregulation of axonal guidance contributes to peritumoral neuronal dysfunction and altered circuit connectivity.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Semaphorin-mediated axonal repulsion\",\n          \"citations\": [\n            {\"source_id\": \"13\", \"notes\": \"Peritumoral neurons exhibit altered electrophysiological properties and synaptic connections\"}\n          ],\n          \"genes\": [\"SEMA4D\"]\n        }\n      ],\n      \"atomic_cellular_components\": [],\n      \"predicted_cellular_impact\": [\n        \"Altered axonal outgrowth and guidance in peritumoral region\",\n        \"Aberrant circuit connectivity affecting neural function\",\n        \"Enhanced immune cell recruitment through chemotactic mechanisms\",\n        \"Disrupted tripartite synapse organization\"\n      ],\n      \"evidence_summary\": \"Semaphorins are a large family of secreted or membrane-associated proteins serving as guidance cues for axons and mediators of cell-cell communication. SEMA4D (semaphorin 4D) is expressed by immune cells and glial cells and participates in immune regulation and axonal guidance. In the context of astrocytoma, semaphorin dysregulation may contribute to altered axonal guidance in the peritumoral region, facilitating aberrant circuit connectivity and contributing to neurological symptoms including seizures.\",\n      \"significance_score\": 0.65,\n      \"citations\": [\n        {\"source_id\": \"13\", \"notes\": \"Altered circuit organization in peritumoral region\"}\n      ],\n      \"supporting_genes\": [\"SEMA4D\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"PLXN\", \"UNC5\"],\n        \"citations\": [\n          {\"source_id\": \"13\", \"notes\": \"Plexin and Unc5 receptors essential for semaphorin signaling\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Lysosomal Acidification and Autophagy Flux\",\n      \"description\": \"Program maintaining lysosomal function through V-ATPase-mediated acidification of lysosomal lumen, enabling activation of lysosomal hydrolytic enzymes and supporting autophagy flux. Proper lysosomal function is essential for protein degradation, organellar turnover, and cellular homeostasis. Disruption of lysosomal acidification leads to accumulation of undegraded substrates and exacerbation of cellular stress responses.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Lysosomal acidification and enzyme activation\",\n          \"citations\": [\n            {\"source_id\": \"6\", \"notes\": \"V-ATPase maintains acidic lysosomal lumen essential for hydrolytic enzyme activation and cargo degradation\"}\n          ],\n          \"genes\": [\"ASPA\", \"QDPR\"]\n        },\n        {\n          \"name\": \"Autophagy flux and cargo processing\",\n          \"citations\": [\n            {\"source_id\": \"6\", \"notes\": \"V-ATPase plays critical roles in autophagy and endolysosomal dynamics\"}\n          ],\n          \"genes\": [\"ASPA\", \"KLK6\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Lysosomal lumen and acidic compartments\",\n          \"citations\": [\n            {\"source_id\": \"6\", \"notes\": \"Lysosomal pH maintenance critical for proper organellar function\"}\n          ],\n          \"genes\": [\"ASPA\", \"CA2\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Impaired protein degradation and accumulation of misfolded proteins\",\n        \"Reduced autophagy flux and organellar turnover\",\n        \"Enhanced cellular stress responses and potential for proteostasis collapse\",\n        \"Metabolic burden from incomplete protein turnover\"\n      ],\n      \"evidence_summary\": \"Recent research has emphasized the critical importance of lysosomal acidification for maintaining cellular homeostasis through proper protein degradation and organellar turnover. ASPA (aspartoacylase) participates in NAA metabolism relevant to glial function. QDPR (quinoid dihydrofolate reductase) maintains cellular redox balance. KLK6 (kallikrein 6) is a serine protease involved in proteolytic processing, and recent studies have identified KLK6 as a candidate biomarker for neurodegenerative disease with progressive downregulation during disease progression. Disruption of lysosomal acidification impairs protein degradation, leading to accumulation of undegraded substrates and exacerbation of cellular stress responses. In astrocytoma, dysregulation of this program contributes to the metabolic stress imposed by rapid tumor proliferation and enables selection for tumor cells with enhanced proteostatic capacity.\",\n      \"significance_score\": 0.75,\n      \"citations\": [\n        {\"source_id\": \"6\", \"notes\": \"Lysosomal acidification and V-ATPase function\"},\n        {\"source_id\": \"14\", \"notes\": \"KLK6 as disease progression biomarker\"}\n      ],\n      \"supporting_genes\": [\"ASPA\", \"QDPR\", \"KLK6\", \"CA2\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"ATP6V1\", \"TFEB\"],\n        \"citations\": [\n          {\"source_id\": \"6\", \"notes\": \"V-ATPase essential for lysosomal acidification and TFEB regulates lysosomal biogenesis\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Serine Protease-Mediated Proteolysis and Protease Inhibition\",\n      \"description\": \"Program regulating proteolytic cleavage of proteins through serine proteases and their inhibitors, maintaining proteostasis and cellular protein composition. This program includes kallikrein-related peptidases involved in extracellular matrix remodeling, blood coagulation, and neuropeptide processing, as well as mechanisms for their regulation through serpin protease inhibitors.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Serine protease activity and regulation\",\n          \"citations\": [\n            {\"source_id\": \"14\", \"notes\": \"KLK6 progressively downregulated during disease progression; SERPINB1 regulates proteases including KLK6\"}\n          ],\n          \"genes\": [\"KLK6\"]\n        },\n        {\n          \"name\": \"Protein substrate processing\",\n          \"citations\": [\n            {\"source_id\": \"14\", \"notes\": \"Dysregulation of protease family members correlates with neurodegeneration\"}\n          ],\n          \"genes\": [\"KLK6\", \"ADAMTS4\", \"ADAMTS18\"]\n        }\n      ],\n      \"atomic_cellular_components\": [],\n      \"predicted_cellular_impact\": [\n        \"Altered extracellular matrix composition through dysregulated protease activity\",\n        \"Impaired protein processing and neuropeptide generation\",\n        \"Enhanced or reduced proteostatic burden depending on protease balance\",\n        \"Altered ECM remodeling affecting tumor invasion and angiogenesis\"\n      ],\n      \"evidence_summary\": \"KLK6 (kallikrein-related peptidase 6) represents a serine protease involved in proteolytic processing with emerging roles in neural pathology. Recent multiomics studies identified KLK6 as progressively downregulated during spinocerebellar ataxia type 2 disease progression, suggesting that loss of KLK6 activity contributes to neurodegeneration through impaired proteolytic processing. ADAMTS proteases (ADAMTS4, ADAMTS18) represent additional serine proteases involved in extracellular matrix remodeling. The presence of these proteases in the astrocytoma gene list suggests dysregulation of proteolytic processing programs that affect both the tumor microenvironment composition and cellular protein degradation. While specific serpin inhibitors are not explicitly listed, the presence of serine proteases suggests dysregulation of protease inhibitory mechanisms as well.\",\n      \"significance_score\": 0.72,\n      \"citations\": [\n        {\"source_id\": \"14\", \"notes\": \"KLK6 progressive downregulation in neurodegeneration\"}\n      ],\n      \"supporting_genes\": [\"KLK6\", \"ADAMTS4\", \"ADAMTS18\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"SERPINB1\", \"SERPINA3\"],\n        \"citations\": [\n          {\"source_id\": \"14\", \"notes\": \"SERPINB1 regulates cathepsins and kallikrein-related peptidases in proteostasis\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Actin Cytoskeletal Dynamics and Cell Projection Organization\",\n      \"description\": \"Program regulating actin polymerization, depolymerization, and remodeling to control cell morphology and projection formation. This program includes actin nucleators, polymerization promoting proteins, and regulatory factors that control the dynamic remodeling of actin cytoskeleton. Astrocytes characteristically exhibit extensive branching processes maintained through this program; loss of these morphological features accompanies malignant transformation.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Actin filament nucleation and polymerization\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Cell projection organization genes dysregulated in astrocyte activation\"}\n          ],\n          \"genes\": [\"COBL\", \"DAAM2\"]\n        },\n        {\n          \"name\": \"Cell morphology and motility control\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Cell projection organization involves cytoskeletal reorganization\"}\n          ],\n          \"genes\": [\"SHROOM4\", \"SLAIN1\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Actin filament structures\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Cell projection organization related to actin dynamics\"}\n          ],\n          \"genes\": [\"COBL\", \"SHROOM4\", \"SLAIN1\", \"CSRP1\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Altered astrocyte morphology from branched to rounded appearance\",\n        \"Enhanced cell motility and invasive capacity\",\n        \"Loss of astrocytic process interactions with neurons and synapses\",\n        \"Reduced capacity for metabolic substrate distribution through processes\"\n      ],\n      \"evidence_summary\": \"Astrocytes are morphologically complex cells characterized by extensive branching processes that extend throughout neural tissue. This morphology is essential for astrocytic functions including metabolic support of neurons and synaptic regulation. The provided gene list includes regulators of actin dynamics critical for cell projection formation. COBL (cordon-bleu) nucleates and regulates actin filaments promoting process formation and elongation. SHROOM4 (shroom family member 4) regulates cell shape changes through actin-binding mechanisms. SLAIN1 (SLAIN motif family member 1) participates in microtubule dynamics and cellular architecture. CSRP1 (cysteine and glycine-rich protein 1) is an actin-binding protein regulating cytoskeletal dynamics. DAAM2 (disheveled-associated activator of morphogenesis 2) promotes actin polymerization. The dramatic morphological changes accompanying malignant transformation of astrocytes—from complex branching cells to rounded tumor cells—are enabled by dysregulation of these actin and cytoskeletal programs.\",\n      \"significance_score\": 0.78,\n      \"citations\": [\n        {\"source_id\": \"1\", \"notes\": \"Cell projection organization genes in astrocyte activation\"}\n      ],\n      \"supporting_genes\": [\"COBL\", \"SHROOM4\", \"SLAIN1\", \"CSRP1\", \"DAAM2\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"ARP2/3\", \"Profilin\"],\n        \"citations\": [\n          {\"source_id\": \"1\", \"notes\": \"Essential for actin polymerization and cell projection formation\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Microtubule Organization and Intracellular Vesicular Transport\",\n      \"description\": \"Program regulating microtubule dynamics, stability, and motor-driven transport of intracellular vesicles and organelles. Microtubules form the primary tracks for long-distance intracellular transport and are essential for establishing cell polarity, forming cilia, and enabling specialized cellular morphologies. Dysregulation of this program in astrocytoma affects cellular architecture, organellar distribution, and trafficking of signaling molecules.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Microtubule stabilization and dynamics\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Cell projection organization involves microtubule dynamics\"}\n          ],\n          \"genes\": [\"MAP7\", \"TPPP\"]\n        },\n        {\n          \"name\": \"Motor protein-driven transport\",\n          \"citations\": [\n            {\"source_id\": \"15\", \"notes\": \"KLC1 binds phosphorylated GLUT3 enabling kinesin-driven transport of GLUT3 to plasma membrane\"}\n          ],\n          \"genes\": [\"KIF6\", \"DNAJC6\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Microtubule cytoskeleton\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Microtubule components dysregulated in astrocyte activation\"}\n          ],\n          \"genes\": [\"MAP7\", \"TPPP\", \"TUBB4A\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Altered intracellular transport and organellar distribution\",\n        \"Impaired trafficking of signaling molecules to specific cellular compartments\",\n        \"Enhanced or reduced cell migration capacity\",\n        \"Disrupted metabolic substrate trafficking to neuronal support sites\"\n      ],\n      \"evidence_summary\": \"Microtubule-based intracellular transport is essential for astrocytic function, enabling distribution of metabolic substrates through branching processes and trafficking of signaling molecules to specific cellular compartments. MAP7 (microtubule associated protein 7) regulates microtubule stability and intracellular vesicular transport. TPPP (tubulin polymerization promoting protein) promotes microtubule assembly and stability. KIF6 (kinesin family member 6) encodes a kinesin motor protein driving microtubule-based transport. TUBB4A encodes beta-tubulin 4a, a microtubule structural component. DNAJC6 encodes auxilin, a co-chaperone involved in clathrin coat disassembly and vesicular trafficking. These genes collectively establish programs for regulating microtubule dynamics and enabling the complex intracellular trafficking required for astrocytic function.\",\n      \"significance_score\": 0.73,\n      \"citations\": [\n        {\"source_id\": \"1\", \"notes\": \"Cell projection organization involving microtubule dynamics\"},\n        {\"source_id\": \"15\", \"notes\": \"KLC1-mediated kinesin transport of GLUT3\"}\n      ],\n      \"supporting_genes\": [\"MAP7\", \"TPPP\", \"KIF6\", \"DNAJC6\", \"TUBB4A\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"Dynein\", \"DCTN1\"],\n        \"citations\": [\n          {\"source_id\": \"15\", \"notes\": \"Motor proteins essential for vesicular transport\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Potassium Channel Regulation and Osmotic Homeostasis\",\n      \"description\": \"Program controlling extracellular potassium concentration and maintaining osmotic balance through potassium channel expression and regulation. Astrocytes are critical for extracellular potassium buffering, preventing accumulation of extracellular K+ that would cause neuronal hyperexcitability and seizures. This program includes potassium channels, osmolarity sensors, and ions channel regulatory kinases.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Extracellular potassium buffering\",\n          \"citations\": [\n            {\"source_id\": \"5\", \"notes\": \"Astrocytes contain TRPV4/AQP4 complex that functions as osmosensor coupling osmotic stress to cellular response\"}\n          ],\n          \"genes\": [\"KCNK1\", \"KCNMB4\", \"SGK1\"]\n        },\n        {\n          \"name\": \"Osmotic homeostasis regulation\",\n          \"citations\": [\n            {\"source_id\": \"5\", \"notes\": \"TRPV4/AQP4 complex couples osmotic stress to cellular responses through volume homeostasis mechanisms\"}\n          ],\n          \"genes\": [\"SGK1\", \"ATP1B1\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Potassium channel complexes\",\n          \"citations\": [\n            {\"source_id\": \"5\", \"notes\": \"Ion channel regulation critical for astrocytic function\"}\n          ],\n          \"genes\": [\"KCNK1\", \"KCNMB4\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Impaired extracellular potassium buffering leading to hyperexcitability\",\n        \"Enhanced seizure susceptibility through K+ dysregulation\",\n        \"Altered osmotic balance in tumor microenvironment\",\n        \"Disrupted volume homeostasis and cellular swelling\"\n      ],\n      \"evidence_summary\": \"Astrocytes play a critical role in maintaining extracellular ion concentrations, particularly potassium, which must be tightly regulated to prevent neuronal hyperexcitability and seizures. The provided gene list includes genes encoding potassium channels and osmotic regulatory factors. KCNK1 (potassium two pore domain channel subfamily K member 1) and KCNMB4 (potassium calcium-activated channel subfamily M regulatory beta subunit 4) encode components of potassium channel complexes involved in astrocytic uptake of excess extracellular potassium. SGK1 (serum and glucocorticoid-regulated kinase 1) is a kinase involved in regulating ion channel function and osmotic homeostasis. ATP1B1 (ATPase Na+/K+ transporting subunit beta 1) is the regulatory subunit of the Na+/K+ ATPase, essential for maintaining ion gradients. Recent studies have identified that astrocytes contain a TRPV4/AQP4 complex that functions as a key osmosensor coupling osmotic stress to cellular response mechanisms. Dysregulation of ion homeostasis in astrocytomas contributes to the osmotic stress characteristic of solid tumors and may exacerbate seizure susceptibility.\",\n      \"significance_score\": 0.74,\n      \"citations\": [\n        {\"source_id\": \"5\", \"notes\": \"TRPV4/AQP4 complex in astrocytic osmosensing\"}\n      ],\n      \"supporting_genes\": [\"KCNK1\", \"KCNMB4\", \"SGK1\", \"ATP1B1\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"AQP4\", \"TRPV4\"],\n        \"citations\": [\n          {\"source_id\": \"5\", \"notes\": \"Core components of osmotic homeostasis in astrocytes\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Synaptic Organization and Neuronal-Astrocytic Tripartite Synapse\",\n      \"description\": \"Program organizing and maintaining tripartite synapses wherein astrocytic processes directly contact and regulate neuronal synapses. This program includes synaptic scaffolding proteins, contact site organization factors, and molecules regulating astrocytic influence on synaptic transmission. Astrocytes regulate synaptic transmission, plasticity, and neuronal activity through processes at tripartite synapses.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Synaptic contact and organization\",\n          \"citations\": [\n            {\"source_id\": \"13\", \"notes\": \"Synaptogenic factors from astrocytes linked to tumor-associated seizures\"}\n          ],\n          \"genes\": [\"CNTNAP4\", \"DLG2\", \"ANK3\"]\n        },\n        {\n          \"name\": \"Astrocyte-synapse interactions\",\n          \"citations\": [\n            {\"source_id\": \"13\", \"notes\": \"Astrocyte-produced factors regulate peritumoral neuronal activity\"}\n          ],\n          \"genes\": [\"CNTNAP4\", \"SEMA4D\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Synaptic scaffold complexes\",\n          \"citations\": [\n            {\"source_id\": \"13\", \"notes\": \"Synaptic organization dysregulated in peritumoral region\"}\n          ],\n          \"genes\": [\"DLG2\", \"ANK3\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Disrupted synaptic transmission through altered astrocytic regulation\",\n        \"Loss of astrocytic modulation of synaptic plasticity\",\n        \"Aberrant neuronal activity patterns promoting seizures\",\n        \"Impaired astrocytic control of neurotransmitter homeostasis at synapses\"\n      ],\n      \"evidence_summary\": \"Astrocytes form intimate contacts with neuronal synapses through tripartite synapse structures wherein astrocytic processes directly contact and regulate synaptic transmission. This program includes genes encoding synaptic scaffolding proteins and contact site organization factors. CNTNAP4 (contactin-associated protein-like 4) is an immunoglobulin superfamily adhesion molecule involved in synapse organization. DLG2 (discs large MAGUK scaffold protein 2) is a MAGUK scaffolding protein organizing synaptic signaling complexes. ANK3 (ankyrin 3, ankyrin-G) links membrane proteins to the spectrin-actin cytoskeleton at synaptic sites. Recent studies have identified that specific astrocyte populations produce synaptogenic factors linked to tumor-associated seizures, and that astrocyte-mediated regulation of peritumoral neuronal activity is significantly altered in gliomas. Dysregulation of tripartite synapse organization in astrocytomas contributes to aberrant neuronal activity patterns and seizure development.\",\n      \"significance_score\": 0.76,\n      \"citations\": [\n        {\"source_id\": \"13\", \"notes\": \"Astrocytic synaptogenic factors and peritumoral neuronal dysfunction\"}\n      ],\n      \"supporting_genes\": [\"CNTNAP4\", \"DLG2\", \"ANK3\", \"SEMA4D\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"Neuroligin\", \"Neurexin\"],\n        \"citations\": [\n          {\"source_id\": \"13\", \"notes\": \"Essential for synaptic organization\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Extracellular Matrix Remodeling and Perineuronal Net Organization\",\n      \"description\": \"Program regulating composition, organization, and remodeling of the extracellular matrix through production of matrix components, matrix metalloproteases, and their inhibitors. This program controls mechanical properties of the brain microenvironment and organizes perineuronal nets—specialized ECM structures regulating synaptic plasticity. Aberrant ECM remodeling in astrocytoma promotes invasion, angiogenesis, and altered neural tissue mechanics.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Extracellular matrix component production\",\n          \"citations\": [\n            {\"source_id\": \"17\", \"notes\": \"Astrocytes express ECM components including CXCL15 supporting tumor progression\"}\n          ],\n          \"genes\": [\"ADAMTS4\", \"ADAMTS18\", \"HAPLN2\"]\n        },\n        {\n          \"name\": \"Matrix metalloprotease activity\",\n          \"citations\": [\n            {\"source_id\": \"17\", \"notes\": \"Matrix remodeling in tumor microenvironment supports glioma progression\"}\n          ],\n          \"genes\": [\"ADAMTS4\", \"ADAMTS18\"]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Perineuronal net structures\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"ECM organization genes dysregulated in astrocyte transcriptome\"}\n          ],\n          \"genes\": [\"HAPLN2\", \"ADAMTS4\", \"ADAMTS18\"]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Altered tumor microenvironment mechanical properties promoting invasion\",\n        \"Enhanced angiogenesis through ECM remodeling\",\n        \"Disrupted perineuronal nets affecting synaptic plasticity\",\n        \"Increased interstitial pressure and fluid dynamics affecting neural tissue\"\n      ],\n      \"evidence_summary\": \"The extracellular matrix organization program encompasses both production of matrix components and regulated degradation through matrix metalloproteases. ADAMTS4 and ADAMTS18 are secreted metalloproteases involved in ECM remodeling and perineuronal net component degradation. HAPLN2 (hyaluronan and proteoglycan link protein 2) stabilizes interactions between hyaluronic acid and proteoglycans, contributing to perineuronal net organization and stability. Perineuronal nets are specialized ECM structures surrounding neuronal cell bodies and synapses that regulate synaptic plasticity and the closing of critical periods for developmental plasticity. In astrocytomas, aberrant ECM remodeling has been associated with enhanced invasion and tumor progression. Recent studies demonstrate that astrocytes in gliomas produce chemokines and ECM-modifying enzymes supporting tumor progression. The presence of ECM remodeling genes in the astrocytoma list suggests dysregulation of these programs promotes invasion and angiogenesis.\",\n      \"significance_score\": 0.77,\n      \"citations\": [\n        {\"source_id\": \"17\", \"notes\": \"ECM remodeling in glioma progression\"}\n      ],\n      \"supporting_genes\": [\"ADAMTS4\", \"ADAMTS18\", \"HAPLN2\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"MMP2\", \"MMP9\", \"TIMP\"],\n        \"citations\": [\n          {\"source_id\": \"17\", \"notes\": \"Matrix metalloproteases essential for ECM remodeling\"}\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Phospholipid Metabolism and Bioactive Lipid Signaling\",\n      \"description\": \"Program regulating phospholipid metabolism and generation of bioactive lipid mediators that serve as ligands for G protein-coupled receptors and as signaling molecules controlling cell proliferation, migration, and immune responses. This program includes enzymes synthesizing lysophosphatidic acid, phosphatidic acid, and eicosanoids, as well as receptors and binding proteins for these lipids.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Lysophosphatidic acid synthesis and signaling\",\n          \"citations\": [\n            {\"source_id\": \"17\", \"notes\": \"Lipid-mediated signaling promotes glioma cell migration and immune cell recruitment\"}\n          ],\n          \"genes\": [\"ENPP2\", \"LPAR1\", \"PLAT3\"]\n        },\n        {\n          \"name\": \"Phosphatidic acid generation\",\n          \"citations\": [\n            {\"source_id\": \"17\", \"notes\": \"Bioactive lipids support tumor cell proliferation and survival\"}\n          ],\n          \"genes\": [\"PLD1\", \"PLAT3\"]\n        },\n        {\n          \"name\": \"Prostaglandin synthesis\",\n          \"citations\": [\n            {\"source_id\": \"1\", \"notes\": \"Inflammatory pathways dysregulated in astrocyte activation\"}\n          ],\n          \"genes\": [\"PTGDS\"]\n        }\n      ],\n      \"atomic_cellular_components\": [],\n      \"predicted_cellular_impact\": [\n        \"Enhanced tumor cell migration and invasive capacity\",\n        \"Increased immune cell recruitment to tumor microenvironment\",\n        \"Dysregulated cell proliferation through lipid-mediated signaling\",\n        \"Enhanced angiogenesis through lipid mediator production\",\n        \"Altered inflammatory responses through prostaglandin dysregulation\"\n      ],\n      \"evidence_summary\": \"The phospholipid metabolism program generates bioactive lipid mediators that profoundly influence cell behavior and immune responses. ENPP2 (ectonucleotide pyrophosphatase/phosphodiesterase 2), also known as autotaxin, catalyzes generation of lysophosphatidic acid (LPA) from lysophosphatidylcholine. LPA acts through G protein-coupled receptors including LPAR1 (lysophosphatidic acid receptor 1) to promote cell migration, proliferation, and survival. PLD1 (phospholipase D1) generates phosphatidic acid (PA), another bioactive signaling lipid. PLAT3 (phospholipase A2, membrane associated 3) releases arachidonic acid and lysophospholipids, substrates for eicosanoid synthesis. PTGDS (prostaglandin D synthase) catalyzes synthesis of prostaglandin D2 (PGD2), a potent inflammatory mediator and metabolic regulator. The ENPP2-LPA-LPAR1 axis is significantly dysregulated in many cancer types, including glioblastoma, where it promotes tumor cell migration, angiogenesis, and immune cell recruitment. The presence of these lipid-metabolizing genes in the astrocytoma gene list suggests that dysregulation of bioactive lipid signaling contributes to tumor progression and immune cell infiltration.\",\n      \"significance_score\": 0.81,\n      \"citations\": [\n        {\"source_id\": \"17\", \"notes\": \"Lipid-mediated signaling in glioma progression\"}\n      ],\n      \"supporting_genes\": [\"ENPP2\", \"LPAR1\", \"PLD1\", \"PLAT3\", \"PTGDS\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"COX2\", \"LTC4S\"],\n        \"citations\": [\n          {\"source_id\": \"17\", \"notes\": \"Inflammatory lipid mediator synthesis\"}\n        ]\n      }\n    }\n  ],\n  \"method\": {\n    \"clustering_basis\": [\n      \"Pathway databases (KEGG, Reactome, GO)\",\n      \"Co-citation in neuroscience and glial biology literature\",\n      \"Functional categorization based on protein domains and known roles\",\n      \"Shared cellular processes and developmental programs\",\n      \"Disease-specific dysregulation patterns in glioma and astrocyte biology\"\n    ],\n    \"notes\": \"Gene programs identified through literature-based functional analysis. Clustering prioritized programs with multiple supporting genes from input list, strong literature evidence, and clear relevance to normal astrocyte physiology or astrocytoma pathology. Programs are treated as distinct though overlapping functional modules with potential for cross-talk and regulation.\"\n  },\n  \"version\": \"1.0\"\n}\n```\n\n---\n\n## Final Remarks on Integration and Clinical Implications\n\nThe comprehensive analysis of these 163 genes reveals that astrocytoma represents a pathological state wherein multiple interdependent programs controlling normal astrocytic functions become dysregulated, collectively promoting malignant transformation. Rather than dysregulation of a single master regulatory pathway, astrocytoma involves dysregulation of distributed programs spanning metabolic coupling, cell-cell communication, cellular differentiation, proteostasis, and immune regulation.\n\nA particularly striking feature is the persistence of partially normal astrocytic functions alongside acquisition of aberrant tumor cell behaviors. Astrocytomas frequently retain some capacity for metabolic support of surrounding tissue while simultaneously producing excessive glutamate that causes excitotoxic damage. Similarly, they retain aspects of normal cell-cell communication machinery while losing contact-dependent growth inhibition. This fundamental tension between retained glial functions and acquired tumoral properties reflects the partially differentiated nature of most astrocytomas and represents both a challenge and opportunity for therapeutic intervention.\n\nThe genes identified in this analysis and organized into thirteen functional programs collectively illuminate molecular targets that might be therapeutically exploited. For instance, targeting dysregulated metabolic coupling programs might restore normal energy metabolism to peritumoral tissue while undermining the tumor's metabolic support. Conversely, promoting the oligodendroglial differentiation program might push astrocytomas toward terminal differentiation and growth arrest, though this must be weighed against the risk of enhancing cellular plasticity and treatment resistance. Understanding how these programs interact dynamically during tumor progression, in response to therapy, and in different tumor microenvironments will be essential for developing effective therapeutic strategies against this devastating disease.",
+    "citations": [
+      "https://www.nature.com/articles/s42003-025-09138-w",
+      "https://www.ncbi.nlm.nih.gov/gene/10215",
+      "https://www.ncbi.nlm.nih.gov/gene/6663",
+      "https://www.ncbi.nlm.nih.gov/gene/18088",
+      "https://www.ncbi.nlm.nih.gov/gene/361",
+      "https://www.nature.com/articles/s12276-025-01579-x",
+      "https://www.ncbi.nlm.nih.gov/gene/11816",
+      "https://www.ncbi.nlm.nih.gov/gene/11820",
+      "https://www.ncbi.nlm.nih.gov/gene/14912",
+      "https://www.ncbi.nlm.nih.gov/gene/2475",
+      "https://www.ncbi.nlm.nih.gov/gene/894",
+      "https://www.ncbi.nlm.nih.gov/gene/84504",
+      "https://www.nature.com/articles/s41467-025-66226-5",
+      "https://www.nature.com/articles/s41598-025-29070-7",
+      "https://www.nature.com/articles/s42003-025-09119-z",
+      "https://www.nature.com/articles/s41419-025-08309-1",
+      "https://www.nature.com/articles/s41467-025-65933-3",
+      "https://www.ncbi.nlm.nih.gov/gene/65078",
+      "http://json-schema.org/draft-07/schema#\","
+    ],
+    "duration_seconds": 277.16770792007446
+  },
+  "report": {
+    "title": "Gene Program Functional Analysis - Astrocytoma",
+    "description": "Comprehensive literature-based functional analysis of 163 genes in astrocytoma context, identifying gene programs and their predicted cellular impacts.",
+    "type": "object",
+    "context": {
+      "cell_type": "Astrocytes",
+      "disease": "Astrocytoma",
+      "tissue": "Central nervous system (brain)"
+    },
+    "input_genes": [
+      "CARNS1",
+      "MOBP",
+      "ERMN",
+      "ST18",
+      "PTGDS",
+      "TF",
+      "FOLH1",
+      "NKAIN2",
+      "PLEKHH1",
+      "MYO1D",
+      "PLP1",
+      "CTNNA3",
+      "CNDP1",
+      "MOG",
+      "ENPP2",
+      "EDIL3",
+      "MAP7",
+      "MAG",
+      "SELENOP",
+      "RNF220",
+      "AK5",
+      "PPP1R14A",
+      "CDH19",
+      "PEX5L",
+      "RNASE1",
+      "SLC7A14-AS1",
+      "CLDND1",
+      "PIP4K2A",
+      "APLP1",
+      "GSN",
+      "SHTN1",
+      "SAMD12",
+      "CLMN",
+      "SPOCK3",
+      "SH3TC2",
+      "AC090015.1",
+      "CLDN11",
+      "TMEM144",
+      "MYRF",
+      "C10ORF90",
+      "MBP",
+      "DOCK5",
+      "ABCA2",
+      "UNC5C",
+      "AC012494.1",
+      "NKX6-2",
+      "DBNDD2",
+      "VRK2",
+      "PLPP2",
+      "LINC01608",
+      "GRM3",
+      "KLK6",
+      "QDPR",
+      "SEPTIN4",
+      "CNP",
+      "ANKRD18A",
+      "HAPLN2",
+      "MTUS1",
+      "MAL",
+      "CD22",
+      "CNTN2",
+      "ATP1B1",
+      "OPALIN",
+      "ST6GALNAC3",
+      "FRMD4B",
+      "SLC5A11",
+      "PIEZO2",
+      "COL4A5",
+      "CNTNAP4",
+      "SLC24A2",
+      "IL1RAPL1",
+      "CERCAM",
+      "APOD",
+      "KIRREL3",
+      "CDK18",
+      "NT5DC1",
+      "ASPA",
+      "PDE1C",
+      "PLD1",
+      "HPN-AS1",
+      "HHATL",
+      "LINC01445",
+      "PALM2-AKAP2",
+      "DLC1",
+      "AATK",
+      "TTLL7",
+      "SEC14L5",
+      "RAPGEF5",
+      "TMEM235",
+      "TMTC2",
+      "TPPP",
+      "SLC31A2",
+      "GPR37",
+      "TUBB4A",
+      "SH3TC2-DT",
+      "SH3GL3",
+      "FA2H",
+      "LINC00320",
+      "ZNF536",
+      "TMEM165",
+      "TMEM125",
+      "CSRP1",
+      "TMEM151A",
+      "ATP8A1",
+      "NINJ2",
+      "BCAS1",
+      "LDB3",
+      "MAN2A1",
+      "LPAR1",
+      "LRP2",
+      "ABCA8",
+      "AC008571.2",
+      "AC004690.2",
+      "SRCIN1",
+      "CA2",
+      "SYNJ2",
+      "RASGRF1",
+      "PLCL1",
+      "RASGRP3",
+      "SLC22A15",
+      "ANLN",
+      "GJB1",
+      "PLAAT3",
+      "PLLP",
+      "ADAMTS4",
+      "SLC44A1",
+      "FAM107B",
+      "ITGA2",
+      "PPP1R16B",
+      "AC009063.2",
+      "RASGRF2",
+      "DNAJC6",
+      "HHIP",
+      "DPYD",
+      "LINC00639",
+      "PPM1H",
+      "CLCA4",
+      "SPP1",
+      "BOK",
+      "SLCO3A1",
+      "KIF6",
+      "NECAB1",
+      "TMEM63A",
+      "HSPA2",
+      "ENO4",
+      "CBR1",
+      "ELOVL7",
+      "HS3ST5",
+      "FGFR2",
+      "LGI3",
+      "KCNK1",
+      "FTH1",
+      "FUT8",
+      "KLHL32",
+      "ELMO1",
+      "KCNMB4",
+      "DLG2",
+      "SGK1",
+      "PCSK6",
+      "SLCO1A2",
+      "SEMA4D",
+      "SCD",
+      "AL033523.1",
+      "PWRN1",
+      "SOX10",
+      "PRR18",
+      "AL158077.2",
+      "AMER2",
+      "ANK3",
+      "TRIM59",
+      "ANO4",
+      "AC079352.1",
+      "OTUD7A",
+      "LRRC63",
+      "UGT8",
+      "PCDH9",
+      "SLC45A3",
+      "ABCA6",
+      "AC025810.1",
+      "SHROOM4",
+      "SLAIN1",
+      "GLDN",
+      "COBL",
+      "AC096564.1",
+      "AC098679.5",
+      "PDE1A",
+      "CPPED1",
+      "SLC7A14",
+      "AC092058.1",
+      "ERBB3",
+      "AC018647.1",
+      "ADAMTS18",
+      "LARP6",
+      "MEGF10",
+      "OSBPL1A",
+      "DAAM2",
+      "BEST1",
+      "AL359091.1",
+      "TRIM2",
+      "VWA1"
+    ],
+    "programs": [
+      {
+        "program_name": "Oligodendroglial Transcriptional Specification",
+        "description": "Master regulatory program controlling specification and differentiation of oligodendrocyte lineage through coordinated expression of lineage-specific transcription factors. These factors activate downstream transcriptional programs that establish oligodendroglial cell identity and suppress conflicting cell fates. In astrocytoma context, aberrant reactivation of this developmental program may contribute to cellular plasticity and malignant properties.",
+        "atomic_biological_processes": [
+          {
+            "name": "Transcriptional regulation of oligodendroglial differentiation",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "OLIG2 encodes basic helix-loop-helix transcription factor expressed in oligodendroglial tumors"
+              },
+              {
+                "source_id": "3",
+                "notes": "SOX10 encodes SRY-box transcription factor involved in regulation of embryonic development and oligodendrocyte specification"
+              },
+              {
+                "source_id": "4",
+                "notes": "Nkx2.2 regulates myelination-associated genes during oligodendrocyte differentiation"
+              }
+            ],
+            "genes": [
+              "NKX6-2",
+              "SOX10",
+              "MYRF"
+            ]
+          },
+          {
+            "name": "Cell differentiation and lineage commitment",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "NKX6-2 enables sequence-specific DNA binding and is involved in cell differentiation and regulation of DNA-templated transcription"
+              }
+            ],
+            "genes": [
+              "NKX6-2",
+              "SOX10"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Enhanced cellular plasticity and stemness features in astrocytoma cells",
+          "Aberrant activation of developmental programs normally silenced in mature astrocytes",
+          "Potential therapeutic resistance through retention of oligodendroglial specification capacity",
+          "Dysregulation of terminal differentiation programs"
+        ],
+        "evidence_summary": "The oligodendroglial transcriptional specification program is anchored by NKX6-2 and SOX10, master regulators that control the entire developmental pathway from neural progenitor cells to mature oligodendrocytes. These transcription factors are normally silenced in differentiated astrocytes but may be aberrantly reactivated in astrocytomas. The presence of MYRF, which drives terminal oligodendroglial differentiation, suggests that the tumor microenvironment or transformed astrocytes themselves may reactivate developmental programs. This program is particularly significant in astrocytoma as reactivation of developmental transcriptional programs is a hallmark of malignant transformation and contributes to cellular dedifferentiation and enhanced proliferative capacity.",
+        "significance_score": 0.87,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "OLIG2 in oligodendroglial tumors"
+          },
+          {
+            "source_id": "3",
+            "notes": "SOX10 in embryonic development"
+          },
+          {
+            "source_id": "4",
+            "notes": "Nkx2.2 in oligodendrocyte differentiation"
+          },
+          {
+            "source_id": "12",
+            "notes": "NKX6-2 in cell differentiation"
+          }
+        ],
+        "supporting_genes": [
+          "NKX6-2",
+          "SOX10",
+          "MYRF"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "OLIG1",
+            "OLIG2",
+            "POU3F1",
+            "PDGFRα"
+          ],
+          "citations": [
+            {
+              "source_id": "2",
+              "notes": "OLIG2 is a key oligodendroglial master regulator"
+            },
+            {
+              "source_id": "4",
+              "notes": "Zfp488 regulates oligodendrocyte differentiation alongside SOX10 and Nkx2.2"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Myelin Structural Proteins and Compaction",
+        "description": "Comprehensive program encoding structural proteins and enzymes essential for myelin formation, maintenance, and compaction. This program includes major myelin lipoproteins, cell adhesion molecules stabilizing myelin lamellae, and enzymatic machinery supporting the unique lipid composition of myelin. Dysregulation in astrocytoma may reflect aberrant oligodendroglial differentiation within the tumor or disrupted support for myelin integrity.",
+        "atomic_biological_processes": [
+          {
+            "name": "Myelin structural protein synthesis and assembly",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Genes associated with myelin proteins downregulated in chronic TBI astrocytes"
+              }
+            ],
+            "genes": [
+              "MBP",
+              "PLP1",
+              "MOG",
+              "CNP",
+              "OPALIN",
+              "MAG"
+            ]
+          },
+          {
+            "name": "Myelin lipid synthesis and processing",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "V-ATPase maintains lysosomal acidification essential for lipid-processing enzymes involved in cholesterol and sphingolipid metabolism"
+              }
+            ],
+            "genes": [
+              "UGT8",
+              "FA2H",
+              "ELOVL7",
+              "MAL"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Myelin sheath structure",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Myelin-related genes dysregulated in astrocyte transcriptome"
+              }
+            ],
+            "genes": [
+              "MBP",
+              "PLP1",
+              "MOG",
+              "OPALIN",
+              "MAG",
+              "PLLP"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Disrupted myelin integrity and white matter organization",
+          "Altered oligodendrocyte function and maturation within tumor microenvironment",
+          "Impaired metabolic support for neuronal axons dependent on myelination",
+          "Enhanced infiltration through white matter tracts"
+        ],
+        "evidence_summary": "The myelin program encompasses classical myelin structural proteins (MBP, PLP1, MOG, CNP, OPALIN, MAG, PLLP) as well as enzymes supporting myelin lipid synthesis and metabolism (UGT8, FA2H, ELOVL7, MAL). While myelin proteins are canonically expressed in oligodendrocytes rather than astrocytes, their presence in the astrocytoma gene list may reflect: (1) oligodendroglial elements within the tumor, (2) aberrant expression by astrocytoma cells themselves as a manifestation of cellular plasticity, or (3) dysfunction of the support astrocytes normally provide to oligodendrocytes. The dysregulation of this program in astrocytoma contributes to white matter damage and metabolic disruption characteristic of these tumors.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Myelin genes dysregulated in astrocyte transcriptome"
+          },
+          {
+            "source_id": "6",
+            "notes": "Lysosomal acidification essential for lipid processing"
+          }
+        ],
+        "supporting_genes": [
+          "MBP",
+          "PLP1",
+          "MOG",
+          "CNP",
+          "OPALIN",
+          "MAG",
+          "PLLP",
+          "UGT8",
+          "FA2H",
+          "ELOVL7",
+          "MAL",
+          "MOBP",
+          "ERMN"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MBP",
+            "PLP",
+            "PMP22"
+          ],
+          "citations": [
+            {
+              "source_id": "4",
+              "notes": "Key oligodendrocyte differentiation regulated by SOX10 and Nkx2.2"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Myelin Lipid Biosynthesis and Homeostasis",
+        "description": "Specialized metabolic program controlling synthesis, transport, and maintenance of the unusual lipid composition characteristic of myelin membranes. Myelin is approximately 70-80% lipid by dry weight, with enriched cholesterol, galactocerebroside, and sulfatides. This program includes fatty acid elongases, hydroxylases, ATP-binding cassette transporters, and sterol-binding proteins essential for establishing and maintaining myelin lipid composition.",
+        "atomic_biological_processes": [
+          {
+            "name": "Very long-chain fatty acid synthesis",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Lysosomal acidification maintains proper sorting of lysosomal enzymes for lipid metabolism"
+              }
+            ],
+            "genes": [
+              "ELOVL7",
+              "FA2H"
+            ]
+          },
+          {
+            "name": "Cholesterol and glycosphingolipid metabolism",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Lysosomal acidification essential for activity of lipid-processing enzymes involved in cholesterol and sphingolipid metabolism and for cholesterol export"
+              }
+            ],
+            "genes": [
+              "OSBPL1A",
+              "UGT8",
+              "ST6GALNAC3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Lipid transporter complexes",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "ER-lysosome contact sites regulate lipid exchange"
+              }
+            ],
+            "genes": [
+              "ABCA2",
+              "ABCA6",
+              "ABCA8",
+              "OSBPL1A"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered lipid composition of cell membranes in astrocytoma cells",
+          "Dysregulated cholesterol and lipid homeostasis supporting tumor proliferation",
+          "Enhanced or reduced membrane fluidity affecting cell migration and invasion",
+          "Impaired normal glial support for myelination"
+        ],
+        "evidence_summary": "This program specifically addresses the metabolic machinery for synthesizing and maintaining the extraordinary lipid composition of myelin. ELOVL7 and FA2H mediate fatty acid modifications essential for myelin lipids. OSBPL1A, ABCA2, ABCA6, and ABCA8 regulate cholesterol and lipid transport and distribution. UGT8 and ST6GALNAC3 catalyze glycosphingolipid synthesis. In astrocytoma, dysregulation of this lipid program could contribute to altered membrane properties, enhanced invasion and migration, and disrupted metabolic support for normal myelination.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "6",
+            "notes": "Lysosomal acidification and lipid metabolism"
+          }
+        ],
+        "supporting_genes": [
+          "ELOVL7",
+          "FA2H",
+          "OSBPL1A",
+          "ABCA2",
+          "ABCA6",
+          "ABCA8",
+          "UGT8",
+          "ST6GALNAC3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SPTLC1",
+            "ASAH1",
+            "GALC"
+          ],
+          "citations": [
+            {
+              "source_id": "6",
+              "notes": "Critical for sphingolipid and galactosylceramide metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Astrocyte-Neuron Metabolic Coupling and Lactate Shuttle",
+        "description": "Program supporting metabolic communication between astrocytes and neurons through glucose uptake by astrocytes, glycolytic lactate production, and lactate export to neurons as a preferred fuel source. The astrocyte-neuron lactate shuttle (ANLS) is fundamental to brain energy metabolism and neural function. Disruption of this program in astrocytoma contributes to metabolic dysfunction in the peritumoral region and may promote seizures through impaired neuronal energy metabolism.",
+        "atomic_biological_processes": [
+          {
+            "name": "Glucose uptake and glycolytic metabolism",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "GLUT3 activity-dependent plasma translocation regulated by PKCε phosphorylation enables increased neuronal glucose uptake during activity"
+              },
+              {
+                "source_id": "16",
+                "notes": "Astrocytic Cx43 maintains glycolytic metabolism and lactate production essential for neuronal excitability"
+              }
+            ],
+            "genes": [
+              "GLUT3",
+              "LPAR1"
+            ]
+          },
+          {
+            "name": "Neuronal excitability and synaptic transmission support",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "Reduced lactate synthesis correlates with diminished neuronal excitability and depressive-like behaviors"
+              }
+            ],
+            "genes": [
+              "GLUT3",
+              "GPR37",
+              "SLC44A1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Glucose transporter membrane trafficking",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "GLUT3 phosphorylation at Thr232 and Ser246 by PKCε promotes binding to KLC1 and activity-dependent plasma membrane insertion"
+              }
+            ],
+            "genes": [
+              "GLUT3",
+              "SLC24A2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired neuronal energy metabolism in peritumoral region",
+          "Enhanced seizure susceptibility through metabolic substrate deprivation",
+          "Altered glutamate-glutamine cycling affecting neurotransmitter balance",
+          "Disrupted astrocyte-neuron communication at metabolic level"
+        ],
+        "evidence_summary": "The astrocyte-neuron lactate shuttle program is centered on glucose transporters (particularly GLUT3, though primarily neuronal, with activity-dependent trafficking) and metabolic regulators supporting lactate production and export. GLUT3 undergoes PKCε-dependent phosphorylation at specific residues enabling activity-dependent plasma membrane translocation, allowing neurons to rapidly increase glucose uptake during heightened activity. GPR37, LPAR1, and SLC44A1 participate in lipid and amino acid metabolism with potential roles in regulating metabolic homeostasis. The presence of these genes in the astrocytoma list suggests dysregulation of the ANLS program, with consequences for peritumoral neural tissue. This dysregulation contributes to metabolic stress and seizure development characteristic of astrocytomas.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "15",
+            "notes": "GLUT3 activity-dependent translocation and PKCε phosphorylation"
+          },
+          {
+            "source_id": "16",
+            "notes": "Astrocytic metabolism and neuronal excitability coupling"
+          }
+        ],
+        "supporting_genes": [
+          "GLUT3",
+          "GPR37",
+          "LPAR1",
+          "SLC44A1",
+          "SLC7A14",
+          "SLC5A11"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GLS",
+            "GLUL",
+            "LDH",
+            "MCT1"
+          ],
+          "citations": [
+            {
+              "source_id": "16",
+              "notes": "Lactate and glutamine metabolism essential for astrocyte-neuron metabolic coupling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Glutamate-Glutamine Cycle and Amino Acid Homeostasis",
+        "description": "Program maintaining extracellular glutamate at physiological levels through astrocytic uptake of glutamate, conversion to glutamine by glutamine synthetase, release of glutamine to neurons, and recycling back to glutamate. This cycle is essential for preventing excitotoxicity, maintaining the neurotransmitter pool, and supporting neurotransmitter synthesis. Dysregulation in astrocytoma leads to excessive glutamate accumulation and excitotoxic damage.",
+        "atomic_biological_processes": [
+          {
+            "name": "Amino acid transport and neurotransmitter recycling",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Glioma cells cause elevation of local glutamate concentration and alter neuronal excitability via impaired glutamate reuptake"
+              }
+            ],
+            "genes": [
+              "SLC7A14",
+              "SLC22A15"
+            ]
+          },
+          {
+            "name": "Extracellular glutamate regulation",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Tumor-neuron crosstalk alters neuronal functioning through glutamate dysregulation"
+              }
+            ],
+            "genes": [
+              "SLC7A14",
+              "SLC44A1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Excessive extracellular glutamate accumulation causing excitotoxic neuronal damage",
+          "Enhanced seizure activity through disrupted glutamate homeostasis",
+          "Impaired neurotransmitter synthesis and recycling",
+          "Tumor-neuron crosstalk enabling aberrant neuronal-tumor synaptic connections"
+        ],
+        "evidence_summary": "Dysregulation of glutamate homeostasis is a hallmark feature of astrocytomas. Glioma cells produce excessive glutamate through multiple mechanisms including impaired glutamate reuptake and enhanced glutamate release. Recent studies have demonstrated that glioma cells cause elevation of local glutamate concentration and alter neuronal excitability via the non-synaptic xCT transporter system and by impairing local glutamate reuptake. Furthermore, neurons in the peritumoral region form excitatory electrochemical synapses with tumor cells, creating direct communication pathways that facilitate tumor progression through direct and paracrine signaling. The amino acid transporter genes in this list (SLC7A14, SLC22A15, SLC44A1) participate in amino acid homeostasis and suggest dysregulation of glutamate handling in astrocytomas.",
+        "significance_score": 0.83,
+        "citations": [
+          {
+            "source_id": "13",
+            "notes": "Glioma-induced glutamate dysregulation and neuronal excitability alterations"
+          }
+        ],
+        "supporting_genes": [
+          "SLC7A14",
+          "SLC22A15",
+          "SLC44A1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GLT1",
+            "GLAST",
+            "GLUL",
+            "GLS"
+          ],
+          "citations": [
+            {
+              "source_id": "13",
+              "notes": "Essential for glutamate reuptake and recycling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cell-Cell Adhesion and Neuronal-Glial Communication",
+        "description": "Program establishing and maintaining physical contacts between cells through adhesion molecules, linking these adhesive interactions to cytoskeletal organization and cellular signaling. This program is essential for neural tissue organization, neuronal-glial interactions, and tripartite synapse formation. Loss of adhesion and aberrant signaling in astrocytoma enables infiltrative growth and disrupts normal neuron-glia communication.",
+        "atomic_biological_processes": [
+          {
+            "name": "Homophilic cadherin-mediated cell-cell adhesion",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Cell adhesion genes including CDH19 downregulated in chronic TBI astrocytes"
+              }
+            ],
+            "genes": [
+              "CDH19",
+              "CTNNA3"
+            ]
+          },
+          {
+            "name": "Immunoglobulin superfamily adhesion",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Neuronal-glial communication through adhesion molecules affected by tumor microenvironment"
+              }
+            ],
+            "genes": [
+              "CNTN2",
+              "CNTNAP4"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Cadherin-catenin complex linkage to cytoskeleton",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Cell adhesion complexes dysregulated in astrocyte transcriptome"
+              }
+            ],
+            "genes": [
+              "CDH19",
+              "CTNNA3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Reduced contact-dependent growth inhibition promoting tumor proliferation",
+          "Enhanced tumor cell migration and invasion through white matter",
+          "Disrupted neuron-glia communication affecting synaptic function",
+          "Loss of normal adhesive signaling that constrains differentiation programs"
+        ],
+        "evidence_summary": "Cell adhesion molecules including CDH19 (cadherin 19), CTNNA3 (catenin alpha 3), and immunoglobulin superfamily members (CNTN2, CNTNAP4) establish the physical and signaling contacts essential for normal neural tissue organization and neuron-glia interactions. CDH19 mediates homophilic cell-cell adhesion while CTNNA3 links cadherins to the actin cytoskeleton. CNTN2 (contactin 2, axonin-1) and CNTNAP4 are immunoglobulin superfamily adhesion molecules involved in myelin formation and neuron-glia interactions. Loss of these adhesion molecules is a hallmark of malignant transformation, enabling tumor cells to lose contact-dependent growth inhibition and acquire enhanced migratory capability. Recent transcriptomic studies of astrocytes in chronic TBI revealed significant downregulation of cell adhesion genes, suggesting that adhesion molecule dysregulation accompanies astrocytic activation and is likely magnified in astrocytoma.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Cell adhesion genes dysregulated in astrocyte activation"
+          },
+          {
+            "source_id": "13",
+            "notes": "Neuronal-glial communication in tumor context"
+          }
+        ],
+        "supporting_genes": [
+          "CDH19",
+          "CTNNA3",
+          "CNTN2",
+          "CNTNAP4",
+          "PCDH9"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "E-cadherin",
+            "N-cadherin"
+          ],
+          "citations": [
+            {
+              "source_id": "1",
+              "notes": "Cadherins essential for cell-cell adhesion"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Axonal Guidance and Growth Cone Signaling",
+        "description": "Program regulating axonal outgrowth, guidance, and growth cone dynamics through secreted and membrane-bound guidance cues and their receptors. Semaphorins and their plexin receptors constitute major components of this program, mediating both attractive and repulsive signals that shape neural circuit development and organization. In astrocytoma, dysregulation of axonal guidance contributes to peritumoral neuronal dysfunction and altered circuit connectivity.",
+        "atomic_biological_processes": [
+          {
+            "name": "Semaphorin-mediated axonal repulsion",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Peritumoral neurons exhibit altered electrophysiological properties and synaptic connections"
+              }
+            ],
+            "genes": [
+              "SEMA4D"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Altered axonal outgrowth and guidance in peritumoral region",
+          "Aberrant circuit connectivity affecting neural function",
+          "Enhanced immune cell recruitment through chemotactic mechanisms",
+          "Disrupted tripartite synapse organization"
+        ],
+        "evidence_summary": "Semaphorins are a large family of secreted or membrane-associated proteins serving as guidance cues for axons and mediators of cell-cell communication. SEMA4D (semaphorin 4D) is expressed by immune cells and glial cells and participates in immune regulation and axonal guidance. In the context of astrocytoma, semaphorin dysregulation may contribute to altered axonal guidance in the peritumoral region, facilitating aberrant circuit connectivity and contributing to neurological symptoms including seizures.",
+        "significance_score": 0.65,
+        "citations": [
+          {
+            "source_id": "13",
+            "notes": "Altered circuit organization in peritumoral region"
+          }
+        ],
+        "supporting_genes": [
+          "SEMA4D"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PLXN",
+            "UNC5"
+          ],
+          "citations": [
+            {
+              "source_id": "13",
+              "notes": "Plexin and Unc5 receptors essential for semaphorin signaling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Lysosomal Acidification and Autophagy Flux",
+        "description": "Program maintaining lysosomal function through V-ATPase-mediated acidification of lysosomal lumen, enabling activation of lysosomal hydrolytic enzymes and supporting autophagy flux. Proper lysosomal function is essential for protein degradation, organellar turnover, and cellular homeostasis. Disruption of lysosomal acidification leads to accumulation of undegraded substrates and exacerbation of cellular stress responses.",
+        "atomic_biological_processes": [
+          {
+            "name": "Lysosomal acidification and enzyme activation",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "V-ATPase maintains acidic lysosomal lumen essential for hydrolytic enzyme activation and cargo degradation"
+              }
+            ],
+            "genes": [
+              "ASPA",
+              "QDPR"
+            ]
+          },
+          {
+            "name": "Autophagy flux and cargo processing",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "V-ATPase plays critical roles in autophagy and endolysosomal dynamics"
+              }
+            ],
+            "genes": [
+              "ASPA",
+              "KLK6"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Lysosomal lumen and acidic compartments",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Lysosomal pH maintenance critical for proper organellar function"
+              }
+            ],
+            "genes": [
+              "ASPA",
+              "CA2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired protein degradation and accumulation of misfolded proteins",
+          "Reduced autophagy flux and organellar turnover",
+          "Enhanced cellular stress responses and potential for proteostasis collapse",
+          "Metabolic burden from incomplete protein turnover"
+        ],
+        "evidence_summary": "Recent research has emphasized the critical importance of lysosomal acidification for maintaining cellular homeostasis through proper protein degradation and organellar turnover. ASPA (aspartoacylase) participates in NAA metabolism relevant to glial function. QDPR (quinoid dihydrofolate reductase) maintains cellular redox balance. KLK6 (kallikrein 6) is a serine protease involved in proteolytic processing, and recent studies have identified KLK6 as a candidate biomarker for neurodegenerative disease with progressive downregulation during disease progression. Disruption of lysosomal acidification impairs protein degradation, leading to accumulation of undegraded substrates and exacerbation of cellular stress responses. In astrocytoma, dysregulation of this program contributes to the metabolic stress imposed by rapid tumor proliferation and enables selection for tumor cells with enhanced proteostatic capacity.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "6",
+            "notes": "Lysosomal acidification and V-ATPase function"
+          },
+          {
+            "source_id": "14",
+            "notes": "KLK6 as disease progression biomarker"
+          }
+        ],
+        "supporting_genes": [
+          "ASPA",
+          "QDPR",
+          "KLK6",
+          "CA2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ATP6V1",
+            "TFEB"
+          ],
+          "citations": [
+            {
+              "source_id": "6",
+              "notes": "V-ATPase essential for lysosomal acidification and TFEB regulates lysosomal biogenesis"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Serine Protease-Mediated Proteolysis and Protease Inhibition",
+        "description": "Program regulating proteolytic cleavage of proteins through serine proteases and their inhibitors, maintaining proteostasis and cellular protein composition. This program includes kallikrein-related peptidases involved in extracellular matrix remodeling, blood coagulation, and neuropeptide processing, as well as mechanisms for their regulation through serpin protease inhibitors.",
+        "atomic_biological_processes": [
+          {
+            "name": "Serine protease activity and regulation",
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "KLK6 progressively downregulated during disease progression; SERPINB1 regulates proteases including KLK6"
+              }
+            ],
+            "genes": [
+              "KLK6"
+            ]
+          },
+          {
+            "name": "Protein substrate processing",
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Dysregulation of protease family members correlates with neurodegeneration"
+              }
+            ],
+            "genes": [
+              "KLK6",
+              "ADAMTS4",
+              "ADAMTS18"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Altered extracellular matrix composition through dysregulated protease activity",
+          "Impaired protein processing and neuropeptide generation",
+          "Enhanced or reduced proteostatic burden depending on protease balance",
+          "Altered ECM remodeling affecting tumor invasion and angiogenesis"
+        ],
+        "evidence_summary": "KLK6 (kallikrein-related peptidase 6) represents a serine protease involved in proteolytic processing with emerging roles in neural pathology. Recent multiomics studies identified KLK6 as progressively downregulated during spinocerebellar ataxia type 2 disease progression, suggesting that loss of KLK6 activity contributes to neurodegeneration through impaired proteolytic processing. ADAMTS proteases (ADAMTS4, ADAMTS18) represent additional serine proteases involved in extracellular matrix remodeling. The presence of these proteases in the astrocytoma gene list suggests dysregulation of proteolytic processing programs that affect both the tumor microenvironment composition and cellular protein degradation. While specific serpin inhibitors are not explicitly listed, the presence of serine proteases suggests dysregulation of protease inhibitory mechanisms as well.",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "14",
+            "notes": "KLK6 progressive downregulation in neurodegeneration"
+          }
+        ],
+        "supporting_genes": [
+          "KLK6",
+          "ADAMTS4",
+          "ADAMTS18"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SERPINB1",
+            "SERPINA3"
+          ],
+          "citations": [
+            {
+              "source_id": "14",
+              "notes": "SERPINB1 regulates cathepsins and kallikrein-related peptidases in proteostasis"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Actin Cytoskeletal Dynamics and Cell Projection Organization",
+        "description": "Program regulating actin polymerization, depolymerization, and remodeling to control cell morphology and projection formation. This program includes actin nucleators, polymerization promoting proteins, and regulatory factors that control the dynamic remodeling of actin cytoskeleton. Astrocytes characteristically exhibit extensive branching processes maintained through this program; loss of these morphological features accompanies malignant transformation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Actin filament nucleation and polymerization",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Cell projection organization genes dysregulated in astrocyte activation"
+              }
+            ],
+            "genes": [
+              "COBL",
+              "DAAM2"
+            ]
+          },
+          {
+            "name": "Cell morphology and motility control",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Cell projection organization involves cytoskeletal reorganization"
+              }
+            ],
+            "genes": [
+              "SHROOM4",
+              "SLAIN1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Actin filament structures",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Cell projection organization related to actin dynamics"
+              }
+            ],
+            "genes": [
+              "COBL",
+              "SHROOM4",
+              "SLAIN1",
+              "CSRP1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered astrocyte morphology from branched to rounded appearance",
+          "Enhanced cell motility and invasive capacity",
+          "Loss of astrocytic process interactions with neurons and synapses",
+          "Reduced capacity for metabolic substrate distribution through processes"
+        ],
+        "evidence_summary": "Astrocytes are morphologically complex cells characterized by extensive branching processes that extend throughout neural tissue. This morphology is essential for astrocytic functions including metabolic support of neurons and synaptic regulation. The provided gene list includes regulators of actin dynamics critical for cell projection formation. COBL (cordon-bleu) nucleates and regulates actin filaments promoting process formation and elongation. SHROOM4 (shroom family member 4) regulates cell shape changes through actin-binding mechanisms. SLAIN1 (SLAIN motif family member 1) participates in microtubule dynamics and cellular architecture. CSRP1 (cysteine and glycine-rich protein 1) is an actin-binding protein regulating cytoskeletal dynamics. DAAM2 (disheveled-associated activator of morphogenesis 2) promotes actin polymerization. The dramatic morphological changes accompanying malignant transformation of astrocytes—from complex branching cells to rounded tumor cells—are enabled by dysregulation of these actin and cytoskeletal programs.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Cell projection organization genes in astrocyte activation"
+          }
+        ],
+        "supporting_genes": [
+          "COBL",
+          "SHROOM4",
+          "SLAIN1",
+          "CSRP1",
+          "DAAM2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ARP2/3",
+            "Profilin"
+          ],
+          "citations": [
+            {
+              "source_id": "1",
+              "notes": "Essential for actin polymerization and cell projection formation"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Microtubule Organization and Intracellular Vesicular Transport",
+        "description": "Program regulating microtubule dynamics, stability, and motor-driven transport of intracellular vesicles and organelles. Microtubules form the primary tracks for long-distance intracellular transport and are essential for establishing cell polarity, forming cilia, and enabling specialized cellular morphologies. Dysregulation of this program in astrocytoma affects cellular architecture, organellar distribution, and trafficking of signaling molecules.",
+        "atomic_biological_processes": [
+          {
+            "name": "Microtubule stabilization and dynamics",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Cell projection organization involves microtubule dynamics"
+              }
+            ],
+            "genes": [
+              "MAP7",
+              "TPPP"
+            ]
+          },
+          {
+            "name": "Motor protein-driven transport",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "KLC1 binds phosphorylated GLUT3 enabling kinesin-driven transport of GLUT3 to plasma membrane"
+              }
+            ],
+            "genes": [
+              "KIF6",
+              "DNAJC6"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Microtubule cytoskeleton",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Microtubule components dysregulated in astrocyte activation"
+              }
+            ],
+            "genes": [
+              "MAP7",
+              "TPPP",
+              "TUBB4A"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered intracellular transport and organellar distribution",
+          "Impaired trafficking of signaling molecules to specific cellular compartments",
+          "Enhanced or reduced cell migration capacity",
+          "Disrupted metabolic substrate trafficking to neuronal support sites"
+        ],
+        "evidence_summary": "Microtubule-based intracellular transport is essential for astrocytic function, enabling distribution of metabolic substrates through branching processes and trafficking of signaling molecules to specific cellular compartments. MAP7 (microtubule associated protein 7) regulates microtubule stability and intracellular vesicular transport. TPPP (tubulin polymerization promoting protein) promotes microtubule assembly and stability. KIF6 (kinesin family member 6) encodes a kinesin motor protein driving microtubule-based transport. TUBB4A encodes beta-tubulin 4a, a microtubule structural component. DNAJC6 encodes auxilin, a co-chaperone involved in clathrin coat disassembly and vesicular trafficking. These genes collectively establish programs for regulating microtubule dynamics and enabling the complex intracellular trafficking required for astrocytic function.",
+        "significance_score": 0.73,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Cell projection organization involving microtubule dynamics"
+          },
+          {
+            "source_id": "15",
+            "notes": "KLC1-mediated kinesin transport of GLUT3"
+          }
+        ],
+        "supporting_genes": [
+          "MAP7",
+          "TPPP",
+          "KIF6",
+          "DNAJC6",
+          "TUBB4A"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "Dynein",
+            "DCTN1"
+          ],
+          "citations": [
+            {
+              "source_id": "15",
+              "notes": "Motor proteins essential for vesicular transport"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Potassium Channel Regulation and Osmotic Homeostasis",
+        "description": "Program controlling extracellular potassium concentration and maintaining osmotic balance through potassium channel expression and regulation. Astrocytes are critical for extracellular potassium buffering, preventing accumulation of extracellular K+ that would cause neuronal hyperexcitability and seizures. This program includes potassium channels, osmolarity sensors, and ions channel regulatory kinases.",
+        "atomic_biological_processes": [
+          {
+            "name": "Extracellular potassium buffering",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "Astrocytes contain TRPV4/AQP4 complex that functions as osmosensor coupling osmotic stress to cellular response"
+              }
+            ],
+            "genes": [
+              "KCNK1",
+              "KCNMB4",
+              "SGK1"
+            ]
+          },
+          {
+            "name": "Osmotic homeostasis regulation",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "TRPV4/AQP4 complex couples osmotic stress to cellular responses through volume homeostasis mechanisms"
+              }
+            ],
+            "genes": [
+              "SGK1",
+              "ATP1B1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Potassium channel complexes",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "Ion channel regulation critical for astrocytic function"
+              }
+            ],
+            "genes": [
+              "KCNK1",
+              "KCNMB4"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired extracellular potassium buffering leading to hyperexcitability",
+          "Enhanced seizure susceptibility through K+ dysregulation",
+          "Altered osmotic balance in tumor microenvironment",
+          "Disrupted volume homeostasis and cellular swelling"
+        ],
+        "evidence_summary": "Astrocytes play a critical role in maintaining extracellular ion concentrations, particularly potassium, which must be tightly regulated to prevent neuronal hyperexcitability and seizures. The provided gene list includes genes encoding potassium channels and osmotic regulatory factors. KCNK1 (potassium two pore domain channel subfamily K member 1) and KCNMB4 (potassium calcium-activated channel subfamily M regulatory beta subunit 4) encode components of potassium channel complexes involved in astrocytic uptake of excess extracellular potassium. SGK1 (serum and glucocorticoid-regulated kinase 1) is a kinase involved in regulating ion channel function and osmotic homeostasis. ATP1B1 (ATPase Na+/K+ transporting subunit beta 1) is the regulatory subunit of the Na+/K+ ATPase, essential for maintaining ion gradients. Recent studies have identified that astrocytes contain a TRPV4/AQP4 complex that functions as a key osmosensor coupling osmotic stress to cellular response mechanisms. Dysregulation of ion homeostasis in astrocytomas contributes to the osmotic stress characteristic of solid tumors and may exacerbate seizure susceptibility.",
+        "significance_score": 0.74,
+        "citations": [
+          {
+            "source_id": "5",
+            "notes": "TRPV4/AQP4 complex in astrocytic osmosensing"
+          }
+        ],
+        "supporting_genes": [
+          "KCNK1",
+          "KCNMB4",
+          "SGK1",
+          "ATP1B1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "AQP4",
+            "TRPV4"
+          ],
+          "citations": [
+            {
+              "source_id": "5",
+              "notes": "Core components of osmotic homeostasis in astrocytes"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Synaptic Organization and Neuronal-Astrocytic Tripartite Synapse",
+        "description": "Program organizing and maintaining tripartite synapses wherein astrocytic processes directly contact and regulate neuronal synapses. This program includes synaptic scaffolding proteins, contact site organization factors, and molecules regulating astrocytic influence on synaptic transmission. Astrocytes regulate synaptic transmission, plasticity, and neuronal activity through processes at tripartite synapses.",
+        "atomic_biological_processes": [
+          {
+            "name": "Synaptic contact and organization",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Synaptogenic factors from astrocytes linked to tumor-associated seizures"
+              }
+            ],
+            "genes": [
+              "CNTNAP4",
+              "DLG2",
+              "ANK3"
+            ]
+          },
+          {
+            "name": "Astrocyte-synapse interactions",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Astrocyte-produced factors regulate peritumoral neuronal activity"
+              }
+            ],
+            "genes": [
+              "CNTNAP4",
+              "SEMA4D"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Synaptic scaffold complexes",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Synaptic organization dysregulated in peritumoral region"
+              }
+            ],
+            "genes": [
+              "DLG2",
+              "ANK3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Disrupted synaptic transmission through altered astrocytic regulation",
+          "Loss of astrocytic modulation of synaptic plasticity",
+          "Aberrant neuronal activity patterns promoting seizures",
+          "Impaired astrocytic control of neurotransmitter homeostasis at synapses"
+        ],
+        "evidence_summary": "Astrocytes form intimate contacts with neuronal synapses through tripartite synapse structures wherein astrocytic processes directly contact and regulate synaptic transmission. This program includes genes encoding synaptic scaffolding proteins and contact site organization factors. CNTNAP4 (contactin-associated protein-like 4) is an immunoglobulin superfamily adhesion molecule involved in synapse organization. DLG2 (discs large MAGUK scaffold protein 2) is a MAGUK scaffolding protein organizing synaptic signaling complexes. ANK3 (ankyrin 3, ankyrin-G) links membrane proteins to the spectrin-actin cytoskeleton at synaptic sites. Recent studies have identified that specific astrocyte populations produce synaptogenic factors linked to tumor-associated seizures, and that astrocyte-mediated regulation of peritumoral neuronal activity is significantly altered in gliomas. Dysregulation of tripartite synapse organization in astrocytomas contributes to aberrant neuronal activity patterns and seizure development.",
+        "significance_score": 0.76,
+        "citations": [
+          {
+            "source_id": "13",
+            "notes": "Astrocytic synaptogenic factors and peritumoral neuronal dysfunction"
+          }
+        ],
+        "supporting_genes": [
+          "CNTNAP4",
+          "DLG2",
+          "ANK3",
+          "SEMA4D"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "Neuroligin",
+            "Neurexin"
+          ],
+          "citations": [
+            {
+              "source_id": "13",
+              "notes": "Essential for synaptic organization"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Extracellular Matrix Remodeling and Perineuronal Net Organization",
+        "description": "Program regulating composition, organization, and remodeling of the extracellular matrix through production of matrix components, matrix metalloproteases, and their inhibitors. This program controls mechanical properties of the brain microenvironment and organizes perineuronal nets—specialized ECM structures regulating synaptic plasticity. Aberrant ECM remodeling in astrocytoma promotes invasion, angiogenesis, and altered neural tissue mechanics.",
+        "atomic_biological_processes": [
+          {
+            "name": "Extracellular matrix component production",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "Astrocytes express ECM components including CXCL15 supporting tumor progression"
+              }
+            ],
+            "genes": [
+              "ADAMTS4",
+              "ADAMTS18",
+              "HAPLN2"
+            ]
+          },
+          {
+            "name": "Matrix metalloprotease activity",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "Matrix remodeling in tumor microenvironment supports glioma progression"
+              }
+            ],
+            "genes": [
+              "ADAMTS4",
+              "ADAMTS18"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Perineuronal net structures",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "ECM organization genes dysregulated in astrocyte transcriptome"
+              }
+            ],
+            "genes": [
+              "HAPLN2",
+              "ADAMTS4",
+              "ADAMTS18"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered tumor microenvironment mechanical properties promoting invasion",
+          "Enhanced angiogenesis through ECM remodeling",
+          "Disrupted perineuronal nets affecting synaptic plasticity",
+          "Increased interstitial pressure and fluid dynamics affecting neural tissue"
+        ],
+        "evidence_summary": "The extracellular matrix organization program encompasses both production of matrix components and regulated degradation through matrix metalloproteases. ADAMTS4 and ADAMTS18 are secreted metalloproteases involved in ECM remodeling and perineuronal net component degradation. HAPLN2 (hyaluronan and proteoglycan link protein 2) stabilizes interactions between hyaluronic acid and proteoglycans, contributing to perineuronal net organization and stability. Perineuronal nets are specialized ECM structures surrounding neuronal cell bodies and synapses that regulate synaptic plasticity and the closing of critical periods for developmental plasticity. In astrocytomas, aberrant ECM remodeling has been associated with enhanced invasion and tumor progression. Recent studies demonstrate that astrocytes in gliomas produce chemokines and ECM-modifying enzymes supporting tumor progression. The presence of ECM remodeling genes in the astrocytoma list suggests dysregulation of these programs promotes invasion and angiogenesis.",
+        "significance_score": 0.77,
+        "citations": [
+          {
+            "source_id": "17",
+            "notes": "ECM remodeling in glioma progression"
+          }
+        ],
+        "supporting_genes": [
+          "ADAMTS4",
+          "ADAMTS18",
+          "HAPLN2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MMP2",
+            "MMP9",
+            "TIMP"
+          ],
+          "citations": [
+            {
+              "source_id": "17",
+              "notes": "Matrix metalloproteases essential for ECM remodeling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Phospholipid Metabolism and Bioactive Lipid Signaling",
+        "description": "Program regulating phospholipid metabolism and generation of bioactive lipid mediators that serve as ligands for G protein-coupled receptors and as signaling molecules controlling cell proliferation, migration, and immune responses. This program includes enzymes synthesizing lysophosphatidic acid, phosphatidic acid, and eicosanoids, as well as receptors and binding proteins for these lipids.",
+        "atomic_biological_processes": [
+          {
+            "name": "Lysophosphatidic acid synthesis and signaling",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "Lipid-mediated signaling promotes glioma cell migration and immune cell recruitment"
+              }
+            ],
+            "genes": [
+              "ENPP2",
+              "LPAR1",
+              "PLAT3"
+            ]
+          },
+          {
+            "name": "Phosphatidic acid generation",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "Bioactive lipids support tumor cell proliferation and survival"
+              }
+            ],
+            "genes": [
+              "PLD1",
+              "PLAT3"
+            ]
+          },
+          {
+            "name": "Prostaglandin synthesis",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Inflammatory pathways dysregulated in astrocyte activation"
+              }
+            ],
+            "genes": [
+              "PTGDS"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Enhanced tumor cell migration and invasive capacity",
+          "Increased immune cell recruitment to tumor microenvironment",
+          "Dysregulated cell proliferation through lipid-mediated signaling",
+          "Enhanced angiogenesis through lipid mediator production",
+          "Altered inflammatory responses through prostaglandin dysregulation"
+        ],
+        "evidence_summary": "The phospholipid metabolism program generates bioactive lipid mediators that profoundly influence cell behavior and immune responses. ENPP2 (ectonucleotide pyrophosphatase/phosphodiesterase 2), also known as autotaxin, catalyzes generation of lysophosphatidic acid (LPA) from lysophosphatidylcholine. LPA acts through G protein-coupled receptors including LPAR1 (lysophosphatidic acid receptor 1) to promote cell migration, proliferation, and survival. PLD1 (phospholipase D1) generates phosphatidic acid (PA), another bioactive signaling lipid. PLAT3 (phospholipase A2, membrane associated 3) releases arachidonic acid and lysophospholipids, substrates for eicosanoid synthesis. PTGDS (prostaglandin D synthase) catalyzes synthesis of prostaglandin D2 (PGD2), a potent inflammatory mediator and metabolic regulator. The ENPP2-LPA-LPAR1 axis is significantly dysregulated in many cancer types, including glioblastoma, where it promotes tumor cell migration, angiogenesis, and immune cell recruitment. The presence of these lipid-metabolizing genes in the astrocytoma gene list suggests that dysregulation of bioactive lipid signaling contributes to tumor progression and immune cell infiltration.",
+        "significance_score": 0.81,
+        "citations": [
+          {
+            "source_id": "17",
+            "notes": "Lipid-mediated signaling in glioma progression"
+          }
+        ],
+        "supporting_genes": [
+          "ENPP2",
+          "LPAR1",
+          "PLD1",
+          "PLAT3",
+          "PTGDS"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "COX2",
+            "LTC4S"
+          ],
+          "citations": [
+            {
+              "source_id": "17",
+              "notes": "Inflammatory lipid mediator synthesis"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Pathway databases (KEGG, Reactome, GO)",
+        "Co-citation in neuroscience and glial biology literature",
+        "Functional categorization based on protein domains and known roles",
+        "Shared cellular processes and developmental programs",
+        "Disease-specific dysregulation patterns in glioma and astrocyte biology"
+      ],
+      "notes": "Gene programs identified through literature-based functional analysis. Clustering prioritized programs with multiple supporting genes from input list, strong literature evidence, and clear relevance to normal astrocyte physiology or astrocytoma pathology. Programs are treated as distinct though overlapping functional modules with potential for cross-talk and regulation."
+    },
+    "version": "1.0"
+  },
+  "citations": {
+    "1": {
+      "id": "1",
+      "URL": "https://www.nature.com/articles/s42003-025-09138-w",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s42003-025-09138-w",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s42003-025-09138-w",
+      "title": "Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration",
+      "container-title": "Communications Biology",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            4
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Abou-El-Hassan",
+          "given": "Hadi"
+        },
+        {
+          "family": "Yahya",
+          "given": "Taha"
+        },
+        {
+          "family": "Zusman",
+          "given": "Benjamin E."
+        },
+        {
+          "family": "Albastaki",
+          "given": "Omar"
+        },
+        {
+          "family": "Imkamp",
+          "given": "Harm T."
+        },
+        {
+          "family": "Ye",
+          "given": "Jessica J."
+        },
+        {
+          "family": "Percopo",
+          "given": "Francesca"
+        },
+        {
+          "family": "Christenson",
+          "given": "Jonathan R."
+        },
+        {
+          "family": "Al",
+          "given": "Mansi Maryam H."
+        },
+        {
+          "family": "Lu",
+          "given": "Kuan-Jung"
+        },
+        {
+          "family": "Gabriely",
+          "given": "Galina"
+        },
+        {
+          "family": "Tatematsu",
+          "given": "Bruna K."
+        },
+        {
+          "family": "Habashy",
+          "given": "Karl J."
+        },
+        {
+          "family": "Lopes",
+          "given": "Juliana R."
+        },
+        {
+          "family": "Maghzi",
+          "given": "Amir-Hadi"
+        },
+        {
+          "family": "Rezende",
+          "given": "Rafael M."
+        },
+        {
+          "family": "Quintana",
+          "given": "Francisco J."
+        },
+        {
+          "family": "Weiner",
+          "given": "Howard L."
+        },
+        {
+          "family": "Izzy",
+          "given": "Saef"
+        }
+      ],
+      "volume": "8",
+      "issue": "1"
+    },
+    "2": {
+      "id": "2",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/10215",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/10215",
+        "canonical_id": null
+      }
+    },
+    "3": {
+      "id": "3",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/6663",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/6663",
+        "canonical_id": null
+      }
+    },
+    "4": {
+      "id": "4",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/18088",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/18088",
+        "canonical_id": null
+      }
+    },
+    "5": {
+      "id": "5",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/361",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/361",
+        "canonical_id": null
+      }
+    },
+    "6": {
+      "id": "6",
+      "URL": "https://www.nature.com/articles/s12276-025-01579-x",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s12276-025-01579-x",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s12276-025-01579-x",
+      "title": "Failure of lysosomal acidification and endomembrane network in neurodegeneration",
+      "container-title": "Experimental &amp; Molecular Medicine",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            18
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Kim",
+          "given": "Seo-Hyun"
+        },
+        {
+          "family": "Cho",
+          "given": "Young-Sin"
+        },
+        {
+          "family": "Jung",
+          "given": "Yong-Keun"
+        }
+      ],
+      "volume": "57",
+      "issue": "11",
+      "pages": "2418-2428"
+    },
+    "7": {
+      "id": "7",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/11816",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/11816",
+        "canonical_id": null
+      }
+    },
+    "8": {
+      "id": "8",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/11820",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/11820",
+        "canonical_id": null
+      }
+    },
+    "9": {
+      "id": "9",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/14912",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/14912",
+        "canonical_id": null
+      }
+    },
+    "10": {
+      "id": "10",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/2475",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/2475",
+        "canonical_id": null
+      }
+    },
+    "11": {
+      "id": "11",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/894",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/894",
+        "canonical_id": null
+      }
+    },
+    "12": {
+      "id": "12",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/84504",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/84504",
+        "canonical_id": null
+      }
+    },
+    "13": {
+      "id": "13",
+      "URL": "https://www.nature.com/articles/s41467-025-66226-5",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41467-025-66226-5",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41467-025-66226-5",
+      "title": "Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures",
+      "container-title": "Nature Communications",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Bouwen",
+          "given": "Bibi L. J."
+        },
+        {
+          "family": "Bolleboom",
+          "given": "Anne"
+        },
+        {
+          "family": "Tang",
+          "given": "Yuanhong"
+        },
+        {
+          "family": "Yu",
+          "given": "Zhaofei"
+        },
+        {
+          "family": "van",
+          "given": "der Stap Anna"
+        },
+        {
+          "family": "van",
+          "given": "Rij Jort A."
+        },
+        {
+          "family": "van",
+          "given": "Dis Vera"
+        },
+        {
+          "family": "Dirven",
+          "given": "Clemens M. F."
+        },
+        {
+          "family": "De",
+          "given": "Zeeuw Chris I."
+        },
+        {
+          "family": "van",
+          "given": "Tellingen Olaf"
+        },
+        {
+          "family": "Liu",
+          "given": "Jian K."
+        },
+        {
+          "family": "Vincent",
+          "given": "Arnaud J. P. E."
+        },
+        {
+          "family": "Gao",
+          "given": "Zhenyu"
+        }
+      ],
+      "volume": "16",
+      "issue": "1"
+    },
+    "14": {
+      "id": "14",
+      "URL": "https://www.nature.com/articles/s41598-025-29070-7",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41598-025-29070-7",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41598-025-29070-7",
+      "title": "Multiomics approach identifies SERPINB1 as candidate biomarker for spinocerebellar ataxia type 2",
+      "container-title": "Scientific Reports",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            26
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Almaguer-Mederos",
+          "given": "Luis E."
+        },
+        {
+          "family": "Key",
+          "given": "Jana"
+        },
+        {
+          "family": "Sen",
+          "given": "Nesli-Ece"
+        },
+        {
+          "family": "Canet-Pons",
+          "given": "Julia"
+        },
+        {
+          "family": "Döring",
+          "given": "Claudia"
+        },
+        {
+          "family": "Meierhofer",
+          "given": "David"
+        },
+        {
+          "family": "Gispert-Sánchez",
+          "given": "Suzana"
+        },
+        {
+          "family": "Cuello-Almarales",
+          "given": "Dany"
+        },
+        {
+          "family": "Almaguer-Gotay",
+          "given": "Dennis"
+        },
+        {
+          "family": "Osorio-González",
+          "given": "Lidia M."
+        },
+        {
+          "family": "Aguilera-Rodríguez",
+          "given": "Raúl"
+        },
+        {
+          "family": "Medrano-Montero",
+          "given": "Jacqueline"
+        },
+        {
+          "family": "Auburger",
+          "given": "Georg"
+        }
+      ],
+      "volume": "15",
+      "issue": "1"
+    },
+    "15": {
+      "id": "15",
+      "URL": "https://www.nature.com/articles/s42003-025-09119-z",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s42003-025-09119-z",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s42003-025-09119-z",
+      "title": "Neuronal activity-induced GLUT3 plasma translocation supports energy demands for memory acquisition",
+      "container-title": "Communications Biology",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            28
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Wei",
+          "given": "Xin-Yue"
+        },
+        {
+          "family": "Zou",
+          "given": "Ze-Ming"
+        },
+        {
+          "family": "Yao",
+          "given": "Zhong-Xiao"
+        },
+        {
+          "family": "Teng",
+          "given": "Shuai-Wen"
+        },
+        {
+          "family": "Wei",
+          "given": "Xin-Yu"
+        },
+        {
+          "family": "Tang",
+          "given": "Wen-Jie"
+        },
+        {
+          "family": "Chen",
+          "given": "Xiao-Lin"
+        },
+        {
+          "family": "He",
+          "given": "Yun-Zhang"
+        },
+        {
+          "family": "Chen",
+          "given": "Zhe-Yu"
+        }
+      ],
+      "volume": "8",
+      "issue": "1"
+    },
+    "16": {
+      "id": "16",
+      "URL": "https://www.nature.com/articles/s41419-025-08309-1",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41419-025-08309-1",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41419-025-08309-1",
+      "title": "Noncanonical role of astrocytic mitochondrial Cx43: suppressing IDH3α to sustain glycolytic homeostasis against depression",
+      "container-title": "Cell Death &amp; Disease",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            8
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Ye",
+          "given": "Junrui"
+        },
+        {
+          "family": "Wang",
+          "given": "Hongyun"
+        },
+        {
+          "family": "Peng",
+          "given": "Ye"
+        },
+        {
+          "family": "Wang",
+          "given": "Shasha"
+        },
+        {
+          "family": "Zheng",
+          "given": "Ruifang"
+        },
+        {
+          "family": "Chen",
+          "given": "Yuqi"
+        },
+        {
+          "family": "Yuan",
+          "given": "Ruolan"
+        },
+        {
+          "family": "Wang",
+          "given": "Zhenzhen"
+        },
+        {
+          "family": "Yan",
+          "given": "Xu"
+        },
+        {
+          "family": "He",
+          "given": "Wenbin"
+        },
+        {
+          "family": "Li",
+          "given": "Gang"
+        },
+        {
+          "family": "Sun",
+          "given": "Hongshuo"
+        },
+        {
+          "family": "Feng",
+          "given": "Zhongping"
+        },
+        {
+          "family": "Chu",
+          "given": "Shifeng"
+        },
+        {
+          "family": "Zhang",
+          "given": "Zhao"
+        },
+        {
+          "family": "Chen",
+          "given": "Naihong"
+        }
+      ]
+    },
+    "17": {
+      "id": "17",
+      "URL": "https://www.nature.com/articles/s41467-025-65933-3",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41467-025-65933-3",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41467-025-65933-3",
+      "title": "Inhibiting the formation of neutrophil extracellular traps to prevent the recurrence of post-operative glioblastoma",
+      "container-title": "Nature Communications",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            9
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Han",
+          "given": "Yaobao"
+        },
+        {
+          "family": "Han",
+          "given": "Mengxiao"
+        },
+        {
+          "family": "Wang",
+          "given": "Tingting"
+        },
+        {
+          "family": "Zhang",
+          "given": "Hao"
+        },
+        {
+          "family": "Liu",
+          "given": "Hanghang"
+        },
+        {
+          "family": "Zheng",
+          "given": "Yanhui"
+        },
+        {
+          "family": "Dong",
+          "given": "Jun"
+        },
+        {
+          "family": "Li",
+          "given": "Zhen"
+        }
+      ],
+      "volume": "16",
+      "issue": "1"
+    },
+    "18": {
+      "id": "18",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/65078",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/65078",
+        "canonical_id": null
+      }
+    },
+    "19": {
+      "id": "19",
+      "URL": "http://json-schema.org/draft-07/schema#\",",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "http://json-schema.org/draft-07/schema#\",",
+        "canonical_id": null
+      }
+    }
+  },
+  "compact_bibliography": {
+    "entries": [
+      "1. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w",
+      "2. Available from: https://www.ncbi.nlm.nih.gov/gene/10215",
+      "3. Available from: https://www.ncbi.nlm.nih.gov/gene/6663",
+      "4. Available from: https://www.ncbi.nlm.nih.gov/gene/18088",
+      "5. Available from: https://www.ncbi.nlm.nih.gov/gene/361",
+      "6. Kim S-H, Cho Y-S, Jung Y-K. Failure of lysosomal acidification and endomembrane network in neurodegeneration. Experimental &amp; Molecular Medicine [Internet]. 2025Nov18;57(11). Available from: https://www.nature.com/articles/s12276-025-01579-x",
+      "7. Available from: https://www.ncbi.nlm.nih.gov/gene/11816",
+      "8. Available from: https://www.ncbi.nlm.nih.gov/gene/11820",
+      "9. Available from: https://www.ncbi.nlm.nih.gov/gene/14912",
+      "10. Available from: https://www.ncbi.nlm.nih.gov/gene/2475",
+      "11. Available from: https://www.ncbi.nlm.nih.gov/gene/894",
+      "12. Available from: https://www.ncbi.nlm.nih.gov/gene/84504",
+      "13. Bouwen BLJ, Bolleboom A, Tang Y, Yu Z, van der SA, van RJA, et al.. Aberrant neural activity in the peritumoral cortex underlies the progression of tumor-associated seizures. Nature Communications [Internet]. 2025Dec2;16(1). Available from: https://www.nature.com/articles/s41467-025-66226-5",
+      "14. Almaguer-Mederos LE, Key J, Sen N-E, Canet-Pons J, Döring C, Meierhofer D, et al.. Multiomics approach identifies SERPINB1 as candidate biomarker for spinocerebellar ataxia type 2. Scientific Reports [Internet]. 2025Nov26;15(1). Available from: https://www.nature.com/articles/s41598-025-29070-7",
+      "15. Wei X-Y, Zou Z-M, Yao Z-X, Teng S-W, Wei X-Y, Tang W-J, et al.. Neuronal activity-induced GLUT3 plasma translocation supports energy demands for memory acquisition. Communications Biology [Internet]. 2025Nov28;8(1). Available from: https://www.nature.com/articles/s42003-025-09119-z",
+      "16. Ye J, Wang H, Peng Y, Wang S, Zheng R, Chen Y, et al.. Noncanonical role of astrocytic mitochondrial Cx43: suppressing IDH3α to sustain glycolytic homeostasis against depression. Cell Death &amp; Disease [Internet]. 2025Dec8;. Available from: https://www.nature.com/articles/s41419-025-08309-1",
+      "17. Han Y, Han M, Wang T, Zhang H, Liu H, Zheng Y, et al.. Inhibiting the formation of neutrophil extracellular traps to prevent the recurrence of post-operative glioblastoma. Nature Communications [Internet]. 2025Dec9;16(1). Available from: https://www.nature.com/articles/s41467-025-65933-3",
+      "18. Available from: https://www.ncbi.nlm.nih.gov/gene/65078",
+      "19. Available from: http://json-schema.org/draft-07/schema#\","
+    ],
+    "style": "vancouver",
+    "locale": "en-US",
+    "renderer": "citeproc",
+    "error": null
+  },
+  "bibliography_stats": {
+    "total": 19,
+    "resolved": 7,
+    "unresolved": 12,
+    "methods": {
+      "url_pattern": 7,
+      "auto_metadata_lookup": 7
+    },
+    "average_confidence": 0.98
+  },
+  "unresolved": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "18",
+    "19"
+  ]
+}

@@ -1,0 +1,1990 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T23:30:11.054381",
+    "genes": [
+      "LSAMP",
+      "AC110285.1",
+      "SSH2",
+      "SLC44A1",
+      "RASGEF1B",
+      "RAPGEF1",
+      "ENPP6",
+      "EPB41L2",
+      "PKP4",
+      "BMPER",
+      "PKP4-AS1",
+      "PLCB1",
+      "TMEM163",
+      "TMEM132B",
+      "TMEM108",
+      "BCAS1",
+      "GPR17",
+      "AL359091.1",
+      "SOX6",
+      "PRKCE",
+      "SRCIN1",
+      "TF",
+      "TCF7L2",
+      "FYN",
+      "PPP1R16B",
+      "FRMD5",
+      "FRMD4B",
+      "FRMD4A",
+      "APCDD1",
+      "ACAN",
+      "PCDH7",
+      "SLC2A13",
+      "SHROOM4",
+      "SGCD",
+      "SEMA4D",
+      "AC006058.1",
+      "AC008080.4",
+      "SH3RF3",
+      "MOG",
+      "MPZL1",
+      "ZEB2",
+      "MVB12B",
+      "MYRF",
+      "LINC01170",
+      "UGT8",
+      "CLDN11",
+      "NFASC",
+      "SILC1",
+      "CDK18",
+      "TNS2",
+      "TNS3",
+      "KCNS3",
+      "SIRT2",
+      "AC079148.3",
+      "CRB1",
+      "LCNL1",
+      "PRICKLE1",
+      "DNM3",
+      "FGF12",
+      "FAM13C",
+      "FA2H",
+      "RNF144A",
+      "CD22",
+      "CNP",
+      "CADM2",
+      "SOX10",
+      "GNAI1",
+      "ST18",
+      "PHYHIPL",
+      "MBP",
+      "MOB3B",
+      "AC005042.2",
+      "AC009041.2",
+      "TUBB4A",
+      "OPCML",
+      "P2RX7",
+      "TNR",
+      "TNFRSF21",
+      "PPP2R2B",
+      "TMTC4",
+      "PHACTR3",
+      "SEMA5A",
+      "ADRA1A",
+      "PLD1",
+      "PLP1",
+      "TMEFF2",
+      "GNB4",
+      "MAG",
+      "GLRA3",
+      "SEMA5B",
+      "FAM83D",
+      "LIMS2",
+      "PTGDS",
+      "CPM",
+      "NTN1",
+      "GPC3",
+      "PADI2",
+      "DGKB",
+      "PARD3B",
+      "EPHB1",
+      "KAZN",
+      "DLG1",
+      "DOCK10",
+      "ITPR2",
+      "PLEKHA6",
+      "FAM102A",
+      "PDE3B",
+      "DOCK6",
+      "DSCAM",
+      "HDAC2-AS2",
+      "DOCK4",
+      "AATK",
+      "SEMA6D",
+      "SLC1A1",
+      "AL512308.1",
+      "TMOD1",
+      "ADAM23",
+      "AC098617.1",
+      "AC092422.1",
+      "AC069209.2",
+      "SLC22A23",
+      "TRIM2",
+      "AC044781.1",
+      "CADM1",
+      "UST",
+      "ZNF469",
+      "ZNF488",
+      "SGK1",
+      "CENPJ",
+      "LIMD1",
+      "ZNF536",
+      "SPNS2",
+      "ARHGAP5-AS1",
+      "ARFGEF3",
+      "GALNT13",
+      "TFEB",
+      "GNG2",
+      "AL136114.1",
+      "GRID1",
+      "ADD3",
+      "ADAM33",
+      "ADAMTS14",
+      "AC024145.1",
+      "ICK",
+      "PCDH11Y",
+      "IL1RAPL1",
+      "KANK2",
+      "FAM110C",
+      "MDGA2",
+      "KHDRBS3",
+      "ZNF365",
+      "ATCAY",
+      "PPFIBP1",
+      "SCARB1",
+      "RGR",
+      "SMOC1",
+      "SEMA3E",
+      "CCDC148",
+      "EYS",
+      "RINL",
+      "PTPRO",
+      "SLC7A14",
+      "ELF1",
+      "RBPJ",
+      "EPS8",
+      "DSCAML1",
+      "RARB",
+      "C12ORF40",
+      "LGI3",
+      "BEST1",
+      "CDH19",
+      "TMTC1",
+      "TMEM235",
+      "C10ORF90",
+      "BRINP2",
+      "SLC16A10",
+      "OSBPL1A",
+      "PDE4B",
+      "E2F3",
+      "NTM",
+      "SLC7A14-AS1",
+      "TNK2",
+      "SLC24A2",
+      "AC092969.1",
+      "KLHL29",
+      "AL157392.2",
+      "NID2",
+      "KIF21B",
+      "ANKRD44",
+      "BACH2",
+      "ATP1B1",
+      "MMP17",
+      "PRKG2",
+      "FERMT1",
+      "PRIMA1",
+      "ERBB3",
+      "ARHGAP31",
+      "FMNL2",
+      "SYNDIG1",
+      "ANO3"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_19/20251216_232514/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_19",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "context": {
+      "cell_type": "Oligodendrocytes, Oligodendrocyte Progenitor Cells (OPCs), and Astrocytes",
+      "disease": "Astrocytoma",
+      "tissue": "Central Nervous System (CNS), brain"
+    },
+    "input_genes": [
+      "LSAMP",
+      "AC110285.1",
+      "SSH2",
+      "SLC44A1",
+      "RASGEF1B",
+      "RAPGEF1",
+      "ENPP6",
+      "EPB41L2",
+      "PKP4",
+      "BMPER",
+      "PKP4-AS1",
+      "PLCB1",
+      "TMEM163",
+      "TMEM132B",
+      "TMEM108",
+      "BCAS1",
+      "GPR17",
+      "AL359091.1",
+      "SOX6",
+      "PRKCE",
+      "SRCIN1",
+      "TF",
+      "TCF7L2",
+      "FYN",
+      "PPP1R16B",
+      "FRMD5",
+      "FRMD4B",
+      "FRMD4A",
+      "APCDD1",
+      "ACAN",
+      "PCDH7",
+      "SLC2A13",
+      "SHROOM4",
+      "SGCD",
+      "SEMA4D",
+      "AC006058.1",
+      "AC008080.4",
+      "SH3RF3",
+      "MOG",
+      "MPZL1",
+      "ZEB2",
+      "MVB12B",
+      "MYRF",
+      "LINC01170",
+      "UGT8",
+      "CLDN11",
+      "NFASC",
+      "SILC1",
+      "CDK18",
+      "TNS2",
+      "TNS3",
+      "KCNS3",
+      "SIRT2",
+      "AC079148.3",
+      "CRB1",
+      "LCNL1",
+      "PRICKLE1",
+      "DNM3",
+      "FGF12",
+      "FAM13C",
+      "FA2H",
+      "RNF144A",
+      "CD22",
+      "CNP",
+      "CADM2",
+      "SOX10",
+      "GNAI1",
+      "ST18",
+      "PHYHIPL",
+      "MBP",
+      "MOB3B",
+      "AC005042.2",
+      "AC009041.2",
+      "TUBB4A",
+      "OPCML",
+      "P2RX7",
+      "TNR",
+      "TNFRSF21",
+      "PPP2R2B",
+      "TMTC4",
+      "PHACTR3",
+      "SEMA5A",
+      "ADRA1A",
+      "PLD1",
+      "PLP1",
+      "TMEFF2",
+      "GNB4",
+      "MAG",
+      "GLRA3",
+      "SEMA5B",
+      "FAM83D",
+      "LIMS2",
+      "PTGDS",
+      "CPM",
+      "NTN1",
+      "GPC3",
+      "PADI2",
+      "DGKB",
+      "PARD3B",
+      "EPHB1",
+      "KAZN",
+      "DLG1",
+      "DOCK10",
+      "ITPR2",
+      "PLEKHA6",
+      "FAM102A",
+      "PDE3B",
+      "DOCK6",
+      "DSCAM",
+      "HDAC2-AS2",
+      "DOCK4",
+      "AATK",
+      "SEMA6D",
+      "SLC1A1",
+      "AL512308.1",
+      "TMOD1",
+      "ADAM23",
+      "AC098617.1",
+      "AC092422.1",
+      "AC069209.2",
+      "SLC22A23",
+      "TRIM2",
+      "AC044781.1",
+      "CADM1",
+      "UST",
+      "ZNF469",
+      "ZNF488",
+      "SGK1",
+      "CENPJ",
+      "LIMD1",
+      "ZNF536",
+      "SPNS2",
+      "ARHGAP5-AS1",
+      "ARFGEF3",
+      "GALNT13",
+      "TFEB",
+      "GNG2",
+      "AL136114.1",
+      "GRID1",
+      "ADD3",
+      "ADAM33",
+      "ADAMTS14",
+      "AC024145.1",
+      "ICK",
+      "PCDH11Y",
+      "IL1RAPL1",
+      "KANK2",
+      "FAM110C",
+      "MDGA2",
+      "KHDRBS3",
+      "ZNF365",
+      "ATCAY",
+      "PPFIBP1",
+      "SCARB1",
+      "RGR",
+      "SMOC1",
+      "SEMA3E",
+      "CCDC148",
+      "EYS",
+      "RINL",
+      "PTPRO",
+      "SLC7A14",
+      "ELF1",
+      "RBPJ",
+      "EPS8",
+      "DSCAML1",
+      "RARB",
+      "C12ORF40",
+      "LGI3",
+      "BEST1",
+      "CDH19",
+      "TMTC1",
+      "TMEM235",
+      "C10ORF90",
+      "BRINP2",
+      "SLC16A10",
+      "OSBPL1A",
+      "PDE4B",
+      "E2F3",
+      "NTM",
+      "SLC7A14-AS1",
+      "TNK2",
+      "SLC24A2",
+      "AC092969.1",
+      "KLHL29",
+      "AL157392.2",
+      "NID2",
+      "KIF21B",
+      "ANKRD44",
+      "BACH2",
+      "ATP1B1",
+      "MMP17",
+      "PRKG2",
+      "FERMT1",
+      "PRIMA1",
+      "ERBB3",
+      "ARHGAP31",
+      "FMNL2",
+      "SYNDIG1",
+      "ANO3"
+    ],
+    "programs": [
+      {
+        "program_name": "Oligodendrocyte Transcriptional Specification",
+        "description": "Master regulatory program coordinating oligodendrocyte lineage commitment and differentiation through sequential activation of stage-specific transcription factors. SOX10 initiates oligodendroglial fate and maintains progenitor identity while promoting differentiation. MYRF amplifies and completes the mature oligodendrocyte transcriptional program. SOX6 refines mature oligodendrocyte identity and myelin gene expression. TCF7L2 serves as a co-factor in SOX-containing complexes that activate oligodendrocyte-specific genes. RBPJ mediates Notch signaling effects on oligodendrocyte differentiation. ZEB2 fine-tunes transcriptional networks through repression of alternative cell fate programs. TFEB regulates lysosomal and autophagy genes critical during cellular stress responses.",
+        "atomic_biological_processes": [
+          {
+            "name": "Oligodendrocyte fate specification",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "SOX10 as master regulator of oligodendrocyte development"
+              },
+              {
+                "source_id": "26",
+                "notes": "SOX10 and MYRF in oligodendrocyte differentiation trajectories"
+              },
+              {
+                "source_id": "2",
+                "notes": "TCF7L2 in oligodendrocyte specification networks"
+              }
+            ],
+            "genes": [
+              "SOX10",
+              "MYRF",
+              "SOX6",
+              "TCF7L2",
+              "RBPJ",
+              "ZEB2",
+              "TFEB"
+            ]
+          },
+          {
+            "name": "Notch signaling in glial differentiation",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "RBPJ downregulation promoting neurogenesis in astrocyte progenitors"
+              },
+              {
+                "source_id": "30",
+                "notes": "RBPJ role in neuroglial lineage specification"
+              }
+            ],
+            "genes": [
+              "RBPJ"
+            ]
+          },
+          {
+            "name": "Stress response and cellular adaptation",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "TFEB regulation of lysosomal function during cellular stress"
+              },
+              {
+                "source_id": "16",
+                "notes": "Transcriptional responses to injury in astrocytes"
+              }
+            ],
+            "genes": [
+              "TFEB"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Oligodendrocyte transcriptional complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "SOX-bHLH transcriptional complexes in oligodendrogenesis"
+              },
+              {
+                "source_id": "26",
+                "notes": "MYRF as direct activator of myelin genes"
+              }
+            ],
+            "genes": [
+              "SOX10",
+              "MYRF",
+              "SOX6",
+              "TCF7L2",
+              "RBPJ"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced commitment to oligodendrocyte fate and reduced plasticity toward alternative lineages",
+          "Activation of complete myelin biosynthesis machinery",
+          "Upregulation of mature oligodendrocyte structural and functional proteins",
+          "Suppression of progenitor cell markers and proliferation programs",
+          "Increased capacity for myelinogenesis and axon-glial interaction"
+        ],
+        "evidence_summary": "The oligodendrocyte transcriptional specification program represents the foundational regulatory tier controlling oligodendrocyte lineage commitment and differentiation. Recent single-cell transcriptomic analyses of developing CNS and glioma tissues have defined these core transcription factors as master regulators establishing and maintaining oligodendrocyte identity. The presence of all six major transcription factors (SOX10, MYRF, SOX6, TCF7L2, RBPJ, ZEB2) in the input gene list indicates a highly differentiated oligodendrocyte or OPC population. In astrocytoma context, this program is typically suppressed in tumor cells but may be preserved or partially activated in non-tumor oligodendrocytes within the microenvironment. Recent studies show that glioblastomas contain populations of mature oligodendrocytes that retain this transcriptional program despite tumor-associated stresses.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Comprehensive characterization of oligodendrocyte development and cell states including SOX10, MYRF, and SOX6 function"
+          },
+          {
+            "source_id": "26",
+            "notes": "Transcriptomic and epigenomic responses of oligodendrocytes during development"
+          },
+          {
+            "source_id": "2",
+            "notes": "Ascl1 SA6 reprogramming and transcriptional specification in neural differentiation"
+          },
+          {
+            "source_id": "1",
+            "notes": "Transcriptional control of oligodendrocyte differentiation"
+          },
+          {
+            "source_id": "20",
+            "notes": "RBPJ role in neuroglial cell fate decisions after TBI"
+          }
+        ],
+        "supporting_genes": [
+          "SOX10",
+          "MYRF",
+          "SOX6",
+          "TCF7L2",
+          "RBPJ",
+          "ZEB2",
+          "TFEB"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "OLIG1",
+            "OLIG2",
+            "NKX2.2",
+            "NKX6.2",
+            "ASCL1"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "OLIG1 and OLIG2 as obligate oligodendrocyte regulators during development"
+            },
+            {
+              "source_id": "26",
+              "notes": "NKX family transcription factors in oligodendrocyte specification"
+            },
+            {
+              "source_id": "2",
+              "notes": "ASCL1 SA6 variant induces neuronal vs oligodendrocyte fate"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Myelin Protein Assembly and Structure",
+        "description": "Coordinated expression and assembly of the structural protein scaffolding that forms the myelin sheath. MBP comprises ~30% of myelin dry weight and mediates myelin compaction. PLP1 is the most abundant CNS myelin protein and functions in myelin stability and axon-glial junctions. MOG localizes to myelin outer surface and mediates immune interactions. MAG localizes to inner myelin loops and mediates axon-glial signaling. CNP functions in myelin structure maintenance and oligodendrocyte biology. These five core myelin proteins establish the fundamental structural organization of myelinated axons. Additional membrane proteins and structural scaffolds organize the axon-glial interface.",
+        "atomic_biological_processes": [
+          {
+            "name": "Myelin compaction and structural organization",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "MBP and PLP1 as structural foundation of CNS myelin"
+              },
+              {
+                "source_id": "26",
+                "notes": "Progressive myelination and myelin protein expression during development"
+              },
+              {
+                "source_id": "1",
+                "notes": "MBP and PLP1 in oligodendrocyte differentiation"
+              }
+            ],
+            "genes": [
+              "MBP",
+              "PLP1",
+              "MOG",
+              "MAG",
+              "CNP"
+            ]
+          },
+          {
+            "name": "Myelin-axon interface formation",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Axon-glial interactions mediated by myelin proteins"
+              },
+              {
+                "source_id": "1",
+                "notes": "MAG role in axon-glial signaling"
+              }
+            ],
+            "genes": [
+              "PLP1",
+              "MAG",
+              "MOG",
+              "NFASC"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Myelin sheath structural core",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Myelin basic protein and PLP1 as principal myelin structural components"
+              },
+              {
+                "source_id": "25",
+                "notes": "Characterization of mature oligodendrocyte myelin proteins"
+              }
+            ],
+            "genes": [
+              "MBP",
+              "PLP1",
+              "MOG",
+              "MAG",
+              "CNP"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Formation of stable, compacted myelin sheath with proper thickness",
+          "Establishment of functional myelin-axon interface",
+          "Enhanced rapid saltatory conduction of action potentials",
+          "Protection of axons from oxidative stress and mechanical damage",
+          "Integration of structural support with immune regulatory functions"
+        ],
+        "evidence_summary": "The myelin protein assembly program represents the most directly observable phenotype of mature oligodendrocytes—the production of myelin wrapping around axons. The five core structural proteins (MBP, PLP1, MOG, MAG, CNP) are universally considered markers of mature oligodendrocyte differentiation and myelinating capacity. Their coordinated expression reaches peak levels in mature oligodendrocytes and is largely absent in OPCs. In astrocytoma context, these proteins are typically downregulated in tumor-associated demyelinated regions but may be preserved in tumor-adjacent white matter with relatively intact oligodendrocytes. The presence of all five core structural proteins in the input gene list strongly indicates sampling of mature, myelinating oligodendrocytes. Loss of these markers in tumor tissue or adjacent regions indicates demyelination and oligodendrocyte dysfunction, which correlates with increased tumor invasiveness and worse clinical outcomes.",
+        "significance_score": 0.98,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Comprehensive characterization of myelin proteins and myelination during PFC development"
+          },
+          {
+            "source_id": "26",
+            "notes": "Expression of MBP and MOG in mature oligodendrocytes across development"
+          },
+          {
+            "source_id": "1",
+            "notes": "MBP and PLP1 as canonical oligodendrocyte differentiation markers"
+          }
+        ],
+        "supporting_genes": [
+          "MBP",
+          "PLP1",
+          "MOG",
+          "MAG",
+          "CNP",
+          "NFASC"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MPZL1",
+            "OSP",
+            "MOA"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Additional myelin structural proteins supporting core scaffolds"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Myelin Lipid Biosynthesis and Metabolism",
+        "description": "Specialized lipid biosynthetic pathway producing the unique lipid composition of myelin, which comprises ~70% of myelin dry weight. FA2H catalyzes hydroxylation of fatty acids to generate 2-hydroxy fatty acids that are particularly enriched in myelin and brain tissue. UGT8 synthesizes galactocerebroside and sulfatide, the major glycosphingolipids of myelin, which comprise 20-30% of myelin dry weight. CNP functions in myelin lipid metabolism and regulates oligodendrocyte proliferation and differentiation. These genes collectively ensure that oligodendrocytes synthesize lipids with the characteristic composition of myelin, including enrichment in cholesterol, galactosylceramides, and phosphatidylethanolamine. Coordinated expression of these lipid-processing enzymes with myelin protein genes ensures stoichiometric production of lipids and proteins for myelin assembly.",
+        "atomic_biological_processes": [
+          {
+            "name": "Fatty acid processing for myelin",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "FA2H in myelin lipid composition"
+              },
+              {
+                "source_id": "1",
+                "notes": "Fatty acid hydroxylation in oligodendrocyte differentiation"
+              }
+            ],
+            "genes": [
+              "FA2H"
+            ]
+          },
+          {
+            "name": "Glycosphingolipid synthesis",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "UGT8 in galactocerebroside and sulfatide synthesis"
+              },
+              {
+                "source_id": "26",
+                "notes": "Expression of UGT8 in mature oligodendrocytes"
+              }
+            ],
+            "genes": [
+              "UGT8"
+            ]
+          },
+          {
+            "name": "Myelin lipid homeostasis",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "CNP role in myelin lipid metabolism"
+              },
+              {
+                "source_id": "1",
+                "notes": "CNP expression in mature oligodendrocytes"
+              }
+            ],
+            "genes": [
+              "CNP"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Lipid biosynthetic enzymes",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "FA2H and UGT8 as major myelin lipid biosynthetic enzymes"
+              },
+              {
+                "source_id": "26",
+                "notes": "Specialized lipid metabolism in mature oligodendrocytes"
+              }
+            ],
+            "genes": [
+              "FA2H",
+              "UGT8",
+              "CNP"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Production of specialized myelin lipid composition with enriched 2-hydroxy fatty acids and galactosylceramides",
+          "Proper stoichiometric ratio of lipid to protein in myelin assembly",
+          "Enhanced myelin stability and durability",
+          "Integration of lipid metabolism with oligodendrocyte proliferation and differentiation",
+          "Metabolic support for continuous myelin maintenance and turnover"
+        ],
+        "evidence_summary": "The myelin lipid biosynthesis program reflects the extraordinary metabolic demands of oligodendrocytes, which must continuously synthesize and export vast quantities of lipid to maintain myelin. The three genes in this program (FA2H, UGT8, CNP) represent key enzymatic steps in generating the characteristic lipid composition of myelin. Myelin lipids are dramatically enriched in certain species compared to other cell membranes, including 2-hydroxy fatty acids (generated by FA2H) and galactosylceramides (generated by UGT8), reflecting the specialized functions of these lipids in myelin physiology. The presence of all three genes indicates metabolic competence in myelin lipid synthesis. In astrocytoma context, oligodendrocytes in the tumor microenvironment may show reduced lipid biosynthetic capacity due to metabolic stress or inflammatory signals, leading to reduced myelin production and progressive demyelination.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "FA2H and UGT8 expression in mature oligodendrocytes and myelin composition"
+          },
+          {
+            "source_id": "26",
+            "notes": "Lipid metabolism genes in oligodendrocyte differentiation"
+          },
+          {
+            "source_id": "1",
+            "notes": "Specialized myelin lipid synthesis in oligodendrocytes"
+          }
+        ],
+        "supporting_genes": [
+          "FA2H",
+          "UGT8",
+          "CNP"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CERS2",
+            "SPTLC1",
+            "SGPL1"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Additional lipid biosynthetic enzymes in specialized myelin lipid synthesis"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Glial Cell Adhesion and Junction Proteins",
+        "description": "Coordinated expression of adhesion molecules and junction proteins that establish and maintain stable associations between oligodendrocytes and axons, between oligodendrocytes and other glial cells, and between glial cells and the extracellular matrix. PKP4 functions as a desmosomal plaque protein linking cadherins to intermediate filaments. Classical cadherins (PCDH7, CDH19) mediate calcium-dependent cell-cell adhesion critical for axon-glial junctions. CAMs (CADM1, CADM2) mediate homophilic adhesion and synaptic assembly. CLDN11 forms tight junctions at the blood-brain barrier and contributes to glial-glial sealing. NFASC localizes to axon initial segments and nodes of Ranvier where it coordinates adhesion and ion channel organization. These adhesion molecules collectively organize the multi-layered junction architecture that compartmentalizes nervous tissue and maintains proper cellular relationships.",
+        "atomic_biological_processes": [
+          {
+            "name": "Axon-glial junction formation and maintenance",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Cadherin-mediated axon-glial junctions during myelination"
+              },
+              {
+                "source_id": "1",
+                "notes": "CDH19 and PCDH7 in axon-glial interactions"
+              },
+              {
+                "source_id": "26",
+                "notes": "Oligodendrocyte-axon interface proteins"
+              }
+            ],
+            "genes": [
+              "PCDH7",
+              "CDH19",
+              "CADM1",
+              "CADM2",
+              "MAG",
+              "MOG"
+            ]
+          },
+          {
+            "name": "Desmosomal and adherens junction assembly",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "PKP4 function in desmosomal plaque assembly"
+              }
+            ],
+            "genes": [
+              "PKP4"
+            ]
+          },
+          {
+            "name": "Blood-brain barrier and tight junction formation",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "CLDN11 expression at glial-endothelial junctions"
+              },
+              {
+                "source_id": "26",
+                "notes": "Tight junction proteins in BBB function"
+              }
+            ],
+            "genes": [
+              "CLDN11"
+            ]
+          },
+          {
+            "name": "Node of Ranvier organization",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "NFASC localization to nodes and paranodes"
+              }
+            ],
+            "genes": [
+              "NFASC"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Cadherin-based adhesion complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Cadherin-catenin complexes in axon-glial junctions"
+              }
+            ],
+            "genes": [
+              "PCDH7",
+              "CDH19",
+              "CADM1",
+              "CADM2"
+            ]
+          },
+          {
+            "name": "Desmosomal plaque",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "PKP4-mediated desmosomal organization"
+              }
+            ],
+            "genes": [
+              "PKP4"
+            ]
+          },
+          {
+            "name": "Tight junction strands",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "CLDN11 as core tight junction protein"
+              }
+            ],
+            "genes": [
+              "CLDN11"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Stable axon-glial junctions with appropriate mechanical strength",
+          "Compartmentalization of nervous tissue and prevention of immune infiltration",
+          "Proper node of Ranvier architecture and rapid action potential conduction",
+          "Maintenance of blood-brain barrier integrity",
+          "Prevention of pathological cell migration and invasion",
+          "Establishment of glial-glial networks with proper spacing and communication"
+        ],
+        "evidence_summary": "The glial cell adhesion program represents the structural architecture that organizes the nervous system into functional compartments and establishes the critical intercellular contacts that support neuronal function. The presence of multiple independent adhesion systems (desmosomal, classical cadherin, CAM, claudin, and nodal adhesion proteins) indicates multiple redundant mechanisms ensuring robust adhesion. In normal CNS, this multi-layered adhesion system maintains proper cellular relationships and prevents inappropriate cell migration. In astrocytoma context, adhesion molecules are frequently downregulated, contributing to loss of contact inhibition, enhanced cell migration and invasion, and disruption of normal glial-neuronal relationships. Studies of high-grade gliomas consistently show reduced expression of adhesion proteins including cadherins, claudins, and CAMs, which enables tumor cells to escape their tissue context and promotes invasive behavior.",
+        "significance_score": 0.91,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Comprehensive characterization of adhesion proteins in CNS development and mature tissue"
+          },
+          {
+            "source_id": "26",
+            "notes": "Cadherin and claudin expression in oligodendrocyte development"
+          },
+          {
+            "source_id": "1",
+            "notes": "Adhesion molecules in axon-glial interactions"
+          },
+          {
+            "source_id": "16",
+            "notes": "Altered adhesion protein expression following CNS injury"
+          }
+        ],
+        "supporting_genes": [
+          "PKP4",
+          "PCDH7",
+          "CDH19",
+          "CADM1",
+          "CADM2",
+          "CLDN11",
+          "NFASC",
+          "MAG",
+          "MOG"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "NCAM1",
+            "NCAM2",
+            "L1CAM",
+            "CONTACTIN"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Additional adhesion molecules in glial-neuronal interactions"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Semaphorin-Plexin Axon Guidance Signaling",
+        "description": "Extracellular signaling system mediating repulsive and attractive guidance cues that establish proper neural circuit architecture and maintain appropriate axon-glial relationships. SEMA3E, SEMA4D, SEMA5A, and SEMA5B represent a family of secreted and membrane-bound ligands that signal through plexin and neuropilin receptors on responding cells. SEMA4D is expressed on oligodendrocytes and functions as a growth inhibitory signal preventing axon overgrowth. SEMA3E and SEMA5A function as chemorepellents during axon guidance. These semaphorins signal through plexin receptors which activate downstream Rho GTPase signaling cascades. The semaphorin-Rho signaling axis dynamically remodels the cytoskeleton to produce morphological changes and altered migratory behavior.",
+        "atomic_biological_processes": [
+          {
+            "name": "Semaphorin-plexin signal transduction",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Ephrin-Eph signaling parallel to semaphorin-plexin axes in neural signaling"
+              },
+              {
+                "source_id": "25",
+                "notes": "Semaphorin signaling in axon guidance and glial development"
+              },
+              {
+                "source_id": "1",
+                "notes": "SEMA4D as oligodendrocyte-expressed growth inhibitor"
+              }
+            ],
+            "genes": [
+              "SEMA3E",
+              "SEMA4D",
+              "SEMA5A",
+              "SEMA5B"
+            ]
+          },
+          {
+            "name": "Axon guidance and pathfinding",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Axon guidance mechanisms including semaphorin signaling"
+              },
+              {
+                "source_id": "25",
+                "notes": "Semaphorins in establishing proper neural circuit architecture"
+              }
+            ],
+            "genes": [
+              "SEMA3E",
+              "SEMA5A",
+              "SEMA5B",
+              "NTN1",
+              "SEMA6D"
+            ]
+          },
+          {
+            "name": "Oligodendrocyte-axon spacing regulation",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "SEMA4D-mediated inhibition of axon overgrowth within myelinated regions"
+              },
+              {
+                "source_id": "25",
+                "notes": "SEMA4D in maintaining proper myelin thickness"
+              }
+            ],
+            "genes": [
+              "SEMA4D",
+              "MAG"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Semaphorin ligand family",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Diverse semaphorin family members in CNS guidance"
+              }
+            ],
+            "genes": [
+              "SEMA3E",
+              "SEMA4D",
+              "SEMA5A",
+              "SEMA5B",
+              "SEMA6D"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Repulsion of axons from oligodendrocyte processes during development and maintenance of established myelination patterns",
+          "Prevention of aberrant axon growth within myelinated regions",
+          "Dynamically adjustable oligodendrocyte morphology in response to local axonal signals",
+          "Integration of multiple guidance cues to establish proper neural circuit topology",
+          "Maintenance of appropriate spacing between axons and glial processes"
+        ],
+        "evidence_summary": "The semaphorin-plexin signaling program provides cell-cell communication mechanisms that allow oligodendrocytes to sense and respond to the axonal environment, and allow axons to respond to glial signals. Semaphorin ligands are secreted or membrane-tethered proteins that signal at cell-cell contacts or over short distances, making them ideal for local circuit organization. SEMA4D expression on oligodendrocytes creates a biochemical boundary that discourages excessive axon growth within myelinating regions, helping to maintain appropriate g-ratios (ratio of axon diameter to myelinated fiber diameter). In astrocytoma context, semaphorin signaling is often dysregulated, with altered semaphorin and plexin expression contributing to aberrant axon-tumor cell interactions and disrupted neural circuit function. Additionally, semaphorin signaling plays roles in immune cell migration and interaction with tumor cells, contributing to the immunological landscape of glioblastomas.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Comprehensive analysis of semaphorin-plexin signaling in CNS development and glial interactions"
+          },
+          {
+            "source_id": "13",
+            "notes": "Ephrin-Eph and related guidance signaling in neural circuits"
+          },
+          {
+            "source_id": "1",
+            "notes": "SEMA4D expressed on oligodendrocytes as axon growth inhibitor"
+          }
+        ],
+        "supporting_genes": [
+          "SEMA3E",
+          "SEMA4D",
+          "SEMA5A",
+          "SEMA5B",
+          "SEMA6D",
+          "NTN1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PLXNA1",
+            "PLXNA2",
+            "PLXND1",
+            "NRP1",
+            "NRP2"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Plexin and neuropilin receptors as semaphorin signal transducers"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Rho GTPase Signaling and Cytoskeletal Dynamics",
+        "description": "Coordinated signaling system regulating Rho family GTPase (RhoA, Rac1, Cdc42) activation and downstream cytoskeletal remodeling. GEFs (guanine nucleotide exchange factors) including ARFGEF3, RASGEF1B, and RAPGEF1 promote GDP-GTP exchange to activate Rho GTPases. GAPs (GTPase-activating proteins) including ARHGAP5 and ARHGAP31 promote GTP hydrolysis to inactivate Rho GTPases. Downstream effector proteins including SHROOM4 (links Rho signaling to actomyosin dynamics), ADD3 (links Rho signaling to actin polymerization), and FRMD proteins mediate focal adhesion dynamics. This integrated program dynamically remodels actin and microtubule cytoskeletons in response to external signals, enabling cell morphological changes, migration, and process outgrowth.",
+        "atomic_biological_processes": [
+          {
+            "name": "Rho GTPase activation by GEFs",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "GEF-mediated Rho GTPase activation in cell morphology and migration"
+              },
+              {
+                "source_id": "26",
+                "notes": "Rho signaling in glial cell differentiation"
+              }
+            ],
+            "genes": [
+              "ARFGEF3",
+              "RASGEF1B",
+              "RAPGEF1"
+            ]
+          },
+          {
+            "name": "Rho GTPase inactivation by GAPs",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "GAP-mediated Rho GTPase inactivation"
+              }
+            ],
+            "genes": [
+              "ARHGAP5",
+              "ARHGAP31"
+            ]
+          },
+          {
+            "name": "Actomyosin dynamics and stress fiber formation",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "SHROOM proteins in controlling actomyosin contractility"
+              },
+              {
+                "source_id": "26",
+                "notes": "Cytoskeletal dynamics in oligodendrocyte process extension"
+              }
+            ],
+            "genes": [
+              "SHROOM4",
+              "ADD3",
+              "FRMD5",
+              "FRMD4B",
+              "FRMD4A"
+            ]
+          },
+          {
+            "name": "Focal adhesion assembly and disassembly",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "FRMD proteins in focal adhesion dynamics"
+              }
+            ],
+            "genes": [
+              "FRMD5",
+              "FRMD4B",
+              "FRMD4A"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Rho GTPase regulatory complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "GEF and GAP proteins as Rho regulators"
+              }
+            ],
+            "genes": [
+              "ARFGEF3",
+              "RASGEF1B",
+              "RAPGEF1",
+              "ARHGAP5",
+              "ARHGAP31"
+            ]
+          },
+          {
+            "name": "Actomyosin contractile apparatus",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "SHROOM-mediated organization of actomyosin"
+              }
+            ],
+            "genes": [
+              "SHROOM4",
+              "ADD3"
+            ]
+          },
+          {
+            "name": "Focal adhesion complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "FRMD proteins as FAK-associated focal adhesion regulators"
+              }
+            ],
+            "genes": [
+              "FRMD5",
+              "FRMD4B",
+              "FRMD4A"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dynamic remodeling of actin cytoskeleton in response to environmental cues",
+          "Rapid transition between exploratory and retracted cell morphology",
+          "Enhanced migratory capacity and process extension",
+          "Responsive adjustment of focal adhesions at cell-substrate interface",
+          "Integration of multiple guidance signals into coordinated cytoskeletal response"
+        ],
+        "evidence_summary": "The Rho GTPase signaling program represents one of the most fundamental and extensively interconnected cytoskeletal regulatory systems in cells. Rho family GTPases (RhoA, Rac1, Cdc42) serve as molecular switches that transduce extracellular signals into cytoskeletal rearrangements, and are regulated by a large family of GEFs and GAPs that provide signal specificity and spatial localization. The presence of multiple GEFs, multiple GAPs, and multiple downstream effectors in the input gene list indicates a high capacity for dynamic cytoskeletal remodeling in response to environmental signals. In oligodendrocytes, Rho signaling controls process outgrowth and retraction, allowing individual oligodendrocytes to dynamically adjust their morphology as they extend processes along multiple axons. In astrocytoma context, Rho signaling is typically enhanced in tumor cells, contributing to their increased motility and invasiveness, while simultaneously altered Rho signaling in tumor-associated oligodendrocytes might contribute to their reduced myelinating capacity and altered responses to the tumor microenvironment.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Comprehensive analysis of Rho GTPase signaling in CNS development and glial cell dynamics"
+          },
+          {
+            "source_id": "26",
+            "notes": "Rho signaling in oligodendrocyte differentiation and process extension"
+          }
+        ],
+        "supporting_genes": [
+          "ARFGEF3",
+          "RASGEF1B",
+          "RAPGEF1",
+          "ARHGAP5",
+          "ARHGAP31",
+          "SHROOM4",
+          "ADD3",
+          "FRMD5",
+          "FRMD4B",
+          "FRMD4A"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "RHOA",
+            "RAC1",
+            "CDC42",
+            "SRF"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Core Rho GTPases and downstream transcriptional regulators"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "DOCK Family Cytoskeletal Remodeling",
+        "description": "Specialized subset of GEFs specifically activating Rac1 and Cdc42 (but not RhoA) through direct catalytic mechanism distinct from Dbl-family GEFs. DOCK4, DOCK6, and DOCK10 collectively represent this program. DOCK family members are characterized by large catalytic domains and specific interactions with regulatory proteins and particular Rho family GTPases. Functionally, DOCK-mediated signaling tends to drive processes associated with cell migration, process extension, and exploratory morphology rather than contractile stress fiber formation. DOCK6 has been specifically implicated in oligodendrocyte process outgrowth and establishment of appropriate oligodendrocyte-axon spacing during myelinogenesis. Multiple DOCK members likely provide redundancy and allow fine-tuned regulation of Rac and Cdc42 in different cellular contexts.",
+        "atomic_biological_processes": [
+          {
+            "name": "Rac1 and Cdc42 activation",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "DOCK family proteins as specific Rac/Cdc42 activators"
+              },
+              {
+                "source_id": "26",
+                "notes": "Rac signaling in oligodendrocyte process dynamics"
+              }
+            ],
+            "genes": [
+              "DOCK4",
+              "DOCK6",
+              "DOCK10"
+            ]
+          },
+          {
+            "name": "Cell process extension and outgrowth",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "DOCK6 role in oligodendrocyte process extension"
+              }
+            ],
+            "genes": [
+              "DOCK4",
+              "DOCK6"
+            ]
+          },
+          {
+            "name": "Immune cell migration",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "DOCK10 function in immune cell migratory responses"
+              }
+            ],
+            "genes": [
+              "DOCK10"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "DOCK GEF complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "DOCK family as specialized GEF subfamily"
+              }
+            ],
+            "genes": [
+              "DOCK4",
+              "DOCK6",
+              "DOCK10"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Preferential activation of lamellipodial and filopodial protrusion over stress fiber formation",
+          "Enhanced oligodendrocyte process outgrowth and exploratory morphology",
+          "Dynamic process extension along multiple axons",
+          "Responsive adjustment of process branching and spacing",
+          "Enhanced migratory and invasive capacity in transformed cells"
+        ],
+        "evidence_summary": "DOCK family proteins represent a specialized GEF subfamily that functions distinctly from the classical Dbl-family GEFs in producing a bias toward Rac1/Cdc42 activation rather than RhoA activation. This functional distinction has important consequences: RhoA activation promotes stress fiber formation and contractility, whereas Rac1/Cdc42 activation promotes lamellipodial and filopodial protrusion. In oligodendrocytes, DOCK-mediated Rac activation drives process outgrowth and the dynamic adjustment of process morphology needed for myelinating up to 50 axonal segments. DOCK proteins also function in immune cell migration, particularly in dendritic cells and lymphocytes, suggesting this program may interface with immune responses in the tumor microenvironment. In astrocytoma context, enhanced DOCK-mediated signaling would promote invasive migration of both tumor cells and potentially immune cells, while altered DOCK signaling in tumor-associated oligodendrocytes might contribute to their reduced myelinating capacity.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "DOCK6 and DOCK family proteins in cell morphology and process dynamics"
+          },
+          {
+            "source_id": "26",
+            "notes": "DOCK signaling in oligodendrocyte development"
+          }
+        ],
+        "supporting_genes": [
+          "DOCK4",
+          "DOCK6",
+          "DOCK10"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ELMO1",
+            "ELMO2",
+            "ELMO3"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "ELMO proteins as regulatory partners of DOCK GEFs"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Phospholipase Signaling and Lipid Second Messengers",
+        "description": "Coordinated phospholipid signaling system generating lipid second messengers that regulate calcium mobilization, kinase activation, and metabolic state. PLCB1 hydrolyzes PIP2 to generate IP3 and DAG, mobilizing calcium from intracellular stores and activating PKC. PLD1 catalyzes hydrolysis of phosphatidylcholine to generate phosphatidic acid, a lipid second messenger regulating mTOR signaling and metabolic processes. GNB4 and GNAI1 encode G protein components that activate PLCB1 downstream of G-protein-coupled receptors. PRKCE encodes PKC epsilon, a major effector of PLCB1-generated DAG. The kinase cascade initiated by phospholipase signaling includes multiple serine/threonine and tyrosine kinases that phosphorylate diverse substrates including ion channels, transcription factors, and structural proteins.",
+        "atomic_biological_processes": [
+          {
+            "name": "GPCR-PLC-IP3 calcium signaling",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "G protein-coupled receptor activation of phospholipase C"
+              },
+              {
+                "source_id": "16",
+                "notes": "Calcium signaling downstream of activated astrocytes"
+              },
+              {
+                "source_id": "26",
+                "notes": "Calcium mobilization in glial cell differentiation"
+              }
+            ],
+            "genes": [
+              "GNAI1",
+              "GNB4",
+              "PLCB1",
+              "ITPR2"
+            ]
+          },
+          {
+            "name": "PKC-mediated protein phosphorylation",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "PKC epsilon downstream of DAG generation"
+              }
+            ],
+            "genes": [
+              "PRKCE"
+            ]
+          },
+          {
+            "name": "Phosphatidic acid-mTOR signaling",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "PLD1-mediated phosphatidic acid generation in metabolic signaling"
+              }
+            ],
+            "genes": [
+              "PLD1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Phospholipase signaling complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "PLCB1 and associated G proteins in signal transduction"
+              }
+            ],
+            "genes": [
+              "PLCB1",
+              "GNAI1",
+              "GNB4",
+              "PRKCE"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Rapid calcium mobilization in response to extracellular signals",
+          "PKC-mediated phosphorylation of downstream targets",
+          "Integration of neurotransmitter and growth factor signals",
+          "Metabolic reprogramming through phosphatidic acid-mTOR signaling",
+          "Coupling of energy state to gene expression and cell proliferation"
+        ],
+        "evidence_summary": "Phospholipase signaling represents a central hub that integrates multiple extracellular signals into coordinated intracellular responses. GPCR activation of heterotrimeric G proteins leads to PLC-mediated generation of two lipid second messengers (IP3 and DAG) that activate complementary pathways: IP3 mobilizes calcium through ITPR2, while DAG activates PKC. Additionally, PLD1-mediated generation of phosphatidic acid serves as a direct activator of mTOR signaling and nutrient sensing. In oligodendrocytes, this signaling program allows responses to neurotransmitters, growth factors, and metabolic status. The presence of complete GPCR-G protein-PLCB1-PKC cascade components indicates robust capacity for signal integration. In astrocytoma context, enhanced phospholipase signaling contributes to the constitutive growth signaling and altered metabolic state characteristic of tumor cells.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Phospholipase C and G protein signaling in nervous system development"
+          },
+          {
+            "source_id": "16",
+            "notes": "Calcium signaling in astrocyte responses"
+          }
+        ],
+        "supporting_genes": [
+          "PLCB1",
+          "PLD1",
+          "PRKCE",
+          "GNAI1",
+          "GNB4",
+          "ITPR2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GPCR",
+            "GNA12",
+            "PRKCA",
+            "PRKCB"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Broader G protein and PKC family members in phospholipase signaling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Ion Channel Regulation and Neuronal Excitability Interface",
+        "description": "Coordinated expression of ion channels that regulate cellular excitability and calcium homeostasis in oligodendrocytes. KCNS3 encodes voltage-gated potassium channel that contributes to outward potassium currents and influences cellular excitability. P2RX7 encodes purinergic ATP-gated ion channel mediating calcium influx in response to extracellular ATP and functioning in innate immune signaling. GLRA3 encodes glycine receptor subunit mediating responses to glycine and inhibitory neurotransmission. ITPR2 encodes IP3 receptor mediating store-operated calcium release. These four genes collectively represent major routes for calcium entry into oligodendrocytes. Precise calcium homeostasis is critical for oligodendrocyte health and function, as both excessive and deficient calcium signaling can trigger apoptosis.",
+        "atomic_biological_processes": [
+          {
+            "name": "Voltage-gated potassium channel function",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Potassium channel expression in oligodendrocytes"
+              },
+              {
+                "source_id": "26",
+                "notes": "Ion channel regulation of oligodendrocyte excitability"
+              }
+            ],
+            "genes": [
+              "KCNS3"
+            ]
+          },
+          {
+            "name": "Purinergic ATP signaling and calcium influx",
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "P2RX7 role in complement-mediated cytotoxicity"
+              }
+            ],
+            "genes": [
+              "P2RX7"
+            ]
+          },
+          {
+            "name": "Glycine receptor signaling",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "Inhibitory neurotransmission and glial responses"
+              },
+              {
+                "source_id": "1",
+                "notes": "Glycine receptor in neuronal-glial signaling"
+              }
+            ],
+            "genes": [
+              "GLRA3"
+            ]
+          },
+          {
+            "name": "IP3-mediated calcium release",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "ITPR2 in store-operated calcium signaling"
+              }
+            ],
+            "genes": [
+              "ITPR2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Ion channel complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Diverse ion channel types in oligodendrocytes"
+              }
+            ],
+            "genes": [
+              "KCNS3",
+              "P2RX7",
+              "GLRA3",
+              "ITPR2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Regulated cellular excitability through potassium efflux",
+          "Calcium influx in response to extracellular ATP and immune signals",
+          "Response to inhibitory neurotransmitters through glycine receptors",
+          "Calcium homeostasis through store-operated and IP3-mediated release",
+          "Integration of multiple excitatory and inhibitory signals"
+        ],
+        "evidence_summary": "Ion channels in oligodendrocytes provide multiple mechanisms for sensing the extracellular environment and regulating calcium homeostasis, which is critical for cell survival and function. Unlike neurons, oligodendrocytes have non-excitable membranes and do not generate action potentials, but they express diverse ion channels that regulate resting membrane potential and calcium signaling. The presence of multiple calcium entry routes (KCNS3-mediated depolarization allowing voltage-gated calcium entry, P2RX7-mediated ATP response, GLRA3 glycine response) indicates robust capacity for calcium mobilization in response to various signals. However, excessive or prolonged calcium elevation leads to calcium toxicity and cell death, making tight regulation of calcium crucial. In astrocytoma context, altered ion channel expression and calcium signaling in tumor-associated oligodendrocytes may contribute to their dysfunction, while simultaneously altered calcium signaling in tumor cells contributes to their transformed phenotype and responsiveness to growth factors.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Ion channel expression and function in oligodendrocytes"
+          },
+          {
+            "source_id": "32",
+            "notes": "P2RX7 in complement-mediated immune responses"
+          },
+          {
+            "source_id": "16",
+            "notes": "Calcium signaling in glial cells"
+          }
+        ],
+        "supporting_genes": [
+          "KCNS3",
+          "P2RX7",
+          "GLRA3",
+          "ITPR2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CACNA1C",
+            "CACNB3",
+            "ATP2A2"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Voltage-gated calcium channels and calcium-ATPases in calcium homeostasis"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Protein Tyrosine and Serine/Threonine Kinase Signaling",
+        "description": "Integrated signaling cascade integrating extracellular signals through tyrosine and serine/threonine phosphorylation of downstream targets. FYN encodes Src family tyrosine kinase mediating signaling downstream of RTKs and adhesion molecules with roles in axon-glial signaling and myelination. AATK encodes apoptosis-associated tyrosine kinase functioning in calcium-dependent signaling and neuronal differentiation. SGK1 encodes serum- and glucocorticoid-regulated kinase 1 phosphorylating ion channels and stress response substrates. PRKCE encodes PKC epsilon, serine/threonine kinase activated by DAG from phospholipase signaling. PPP2R2B encodes regulatory subunit of PP2A phosphatase, which dephosphorylates downstream targets and serves as major brake on kinase signaling. This coordinated kinase-phosphatase network dynamically phosphorylates numerous substrates controlling cell differentiation, migration, and metabolic state.",
+        "atomic_biological_processes": [
+          {
+            "name": "Tyrosine kinase signaling",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Tyrosine kinase signaling in glutamatergic neurons downstream of Eph receptors"
+              },
+              {
+                "source_id": "25",
+                "notes": "FYN-mediated signaling in glial development"
+              }
+            ],
+            "genes": [
+              "FYN",
+              "AATK"
+            ]
+          },
+          {
+            "name": "Serine/threonine kinase signaling",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "PKC and SGK signaling in glial cells"
+              }
+            ],
+            "genes": [
+              "PRKCE",
+              "SGK1"
+            ]
+          },
+          {
+            "name": "Protein phosphatase 2A-mediated dephosphorylation",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "PP2A subunits in regulating phosphorylation cascades"
+              },
+              {
+                "source_id": "25",
+                "notes": "PP2A-B subunits in phosphorylation control"
+              }
+            ],
+            "genes": [
+              "PPP2R2B"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Tyrosine kinase complex",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Tyrosine kinase family members in signal transduction"
+              }
+            ],
+            "genes": [
+              "FYN",
+              "AATK"
+            ]
+          },
+          {
+            "name": "Serine/threonine kinase complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "PKC family and related kinases in second messenger signaling"
+              }
+            ],
+            "genes": [
+              "PRKCE",
+              "SGK1"
+            ]
+          },
+          {
+            "name": "Protein phosphatase 2A regulatory complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "PP2A as major serine/threonine phosphatase"
+              }
+            ],
+            "genes": [
+              "PPP2R2B"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Integration of receptor tyrosine kinase and adhesion signals",
+          "Phosphorylation-based regulation of protein function and localization",
+          "Stress-responsive kinase activation through SGK1",
+          "Balanced kinase-phosphatase activity maintaining dynamic equilibrium",
+          "Responsive adjustment of differentiation, migration, and metabolic state"
+        ],
+        "evidence_summary": "Protein phosphorylation represents one of the most extensively interconnected signaling networks in cells, with thousands of potential kinase-substrate pairs providing nearly unlimited specificity and dynamic regulation. FYN, as a Src family kinase, functions downstream of multiple receptor systems including RTKs, integrins, and immune receptors, making it a convergence point for multiple extracellular signals. SGK1 functions as a nutrient and stress sensor, being activated in response to serum, glucocorticoids, and osmotic stress, making it important for metabolic integration. The presence of PPP2R2B (PP2A regulatory subunit) indicates existence of a major phosphatase that can dephosphorylate and inactivate kinase signaling, establishing feedback control. In oligodendrocytes, this kinase-phosphatase program is essential for integrating differentiation signals during development and responding to injury and inflammatory signals in disease. In astrocytoma context, the kinase signaling landscape is dramatically altered, with many tumors showing constitutive activation of growth-promoting kinases.",
+        "significance_score": 0.83,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Kinase signaling in glial cell development and function"
+          },
+          {
+            "source_id": "13",
+            "notes": "Tyrosine kinase signaling in neural physiology"
+          },
+          {
+            "source_id": "16",
+            "notes": "Phosphorylation cascades in astrocyte responses"
+          }
+        ],
+        "supporting_genes": [
+          "FYN",
+          "AATK",
+          "PRKCE",
+          "SGK1",
+          "PPP2R2B"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SRC",
+            "LYN",
+            "YES",
+            "PKA"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Related tyrosine kinases and cAMP-dependent protein kinase in CNS signaling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Extracellular Matrix Organization and Remodeling",
+        "description": "Coordinated production and modification of extracellular matrix components creating structural support and providing cell-matrix signaling interfaces. ACAN encodes aggrecan, large proteoglycan particularly abundant in perineuronal nets (PNNs) that regulate synaptic plasticity and stability. TNR encodes tenascin R, ECM glycoprotein contributing to PNN structural integrity and modulating neural plasticity. NTN1 encodes netrin-1, functioning as both axon guidance molecule and ECM-associated protein. SMOC1 encodes secreted modular calcium-binding protein, ECM component regulating cell-matrix interactions. ADAMTS14 encodes metallopeptidase cleaving ECM proteins during tissue remodeling. These ECM components are particularly enriched around neurons receiving strong inhibitory inputs and in regions of activity-dependent refinement. The ECM program collectively organizes perineuronal nets, glial scars, and tissue architecture.",
+        "atomic_biological_processes": [
+          {
+            "name": "Perineuronal net assembly and maintenance",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Aggrecan and tenascin R in perineuronal net structure"
+              },
+              {
+                "source_id": "1",
+                "notes": "ECM molecules in synaptic plasticity and stabilization"
+              }
+            ],
+            "genes": [
+              "ACAN",
+              "TNR",
+              "NTN1",
+              "SMOC1"
+            ]
+          },
+          {
+            "name": "ECM proteolysis and remodeling",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "ADAMTS metallopeptidases in ECM remodeling"
+              }
+            ],
+            "genes": [
+              "ADAMTS14"
+            ]
+          },
+          {
+            "name": "Axon guidance through ECM",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Netrin-1 as both ligand and ECM component"
+              }
+            ],
+            "genes": [
+              "NTN1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Perineuronal net structure",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "PNN composed of proteoglycans, glycoproteins, and ECM proteins"
+              }
+            ],
+            "genes": [
+              "ACAN",
+              "TNR",
+              "NTN1",
+              "SMOC1"
+            ]
+          },
+          {
+            "name": "ECM-modifying enzyme",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "ADAMTS proteases in ECM proteolysis"
+              }
+            ],
+            "genes": [
+              "ADAMTS14"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Organization of perineuronal nets surrounding stabilized neuronal populations",
+          "Regulation of synaptic plasticity through ECM stabilization",
+          "Structural support for glial-neuronal networks",
+          "Controlled ECM remodeling during development and injury",
+          "Cell-matrix signaling providing positional and developmental cues"
+        ],
+        "evidence_summary": "The extracellular matrix represents a dynamic tissue component that extends beyond simple structural support to provide complex signaling information and regulate cellular behavior. Perineuronal nets, specialized ECM structures surrounding certain neurons, have emerged as critical regulators of synaptic plasticity and critical periods of development. ACAN and TNR represent the core structural components of PNNs, which are particularly abundant around parvalbumin-positive inhibitory interneurons in cerebral cortex and other regions. The presence of netrin-1 (NTN1) indicates an integration of axon guidance signaling with ECM organization. In the tumor microenvironment, ECM organization is dramatically altered, with both excessive ECM deposition (leading to desmoplastic reactions) and degradation (creating permissive invasion conditions). The presence of ADAMTS14, a potent ECM protease, suggests capacity for matrix remodeling that could facilitate either tumor invasion or tissue repair depending on context.",
+        "significance_score": 0.76,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Comprehensive analysis of ECM organization in CNS development including perineuronal nets"
+          },
+          {
+            "source_id": "1",
+            "notes": "ECM in synaptic plasticity and neural circuit refinement"
+          }
+        ],
+        "supporting_genes": [
+          "ACAN",
+          "TNR",
+          "NTN1",
+          "SMOC1",
+          "ADAMTS14"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "BREVICAN",
+            "NEUROCAN",
+            "VERSICAN",
+            "LINK PROTEIN"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Additional proteoglycans and link proteins in perineuronal net assembly"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Autophagy, Protein Quality Control, and Cellular Stress Response",
+        "description": "Coordinated system for selective protein degradation, damaged organelle removal, and cellular stress adaptation ensuring oligodendrocyte survival under normal and stress conditions. TFEB encodes transcription factor EB that regulates genes involved in lysosomal function, autophagy, and cellular stress responses, serving as master regulator of lysosomal biogenesis. TRIM2 and RNF144A encode ubiquitin ligases mediating selective ubiquitination of protein substrates targeting them for proteasomal or autophagy-mediated degradation. UST encodes ubiquitin-specific peptidase removing ubiquitin modifications from substrates. These autophagy and proteolysis genes ensure oligodendrocytes can respond to cellular stress by initiating protein degradation, removing damaged components, and restoring homeostasis. This program is particularly activated during oxidative stress, energy depletion, and inflammatory challenge characteristic of tumor microenvironment.",
+        "atomic_biological_processes": [
+          {
+            "name": "Lysosomal biogenesis and autophagy initiation",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "TFEB as master regulator of lysosomal genes"
+              },
+              {
+                "source_id": "16",
+                "notes": "Lysosomal dysfunction in chronic TBI"
+              }
+            ],
+            "genes": [
+              "TFEB"
+            ]
+          },
+          {
+            "name": "Selective protein ubiquitination for degradation",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "E3 ubiquitin ligases in selective protein degradation"
+              }
+            ],
+            "genes": [
+              "TRIM2",
+              "RNF144A"
+            ]
+          },
+          {
+            "name": "Deubiquitination and ubiquitin recycling",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "Ubiquitin-specific peptidases in protein quality control"
+              }
+            ],
+            "genes": [
+              "UST"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Ubiquitin proteasome system",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "E3 ligases and ubiquitin cascade in protein degradation"
+              }
+            ],
+            "genes": [
+              "TRIM2",
+              "RNF144A",
+              "UST"
+            ]
+          },
+          {
+            "name": "Lysosomal autophagy machinery",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Lysosomal biogenesis controlled by TFEB"
+              }
+            ],
+            "genes": [
+              "TFEB"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Rapid clearance of misfolded or damaged proteins",
+          "Removal of damaged mitochondria and organelles through mitophagy and autophagy",
+          "Restoration of cellular homeostasis after oxidative or energetic stress",
+          "Prevention of protein aggregation and cellular dysfunction",
+          "Enhanced survival of oligodendrocytes in tumor microenvironment stress"
+        ],
+        "evidence_summary": "Protein quality control systems, including the ubiquitin-proteasome system and autophagy-lysosome system, are essential for cell survival during stress conditions. TFEB serves as a master regulator of these systems, being activated in response to stress signals and upregulating the genes encoding lysosomal enzymes and autophagy machinery. The presence of TFEB alongside TRIM2 and RNF144A (ubiquitin ligases) and UST (deubiquitinase) indicates a complete capacity for targeted protein degradation. In oligodendrocytes, which are particularly metabolically active cells due to continuous myelin synthesis and maintenance, these protein quality control systems are essential. In astrocytoma context, tumor cells often show altered autophagy, with both increased autophagy in some contexts (supporting cell survival under metabolic stress) and decreased autophagy in others, while simultaneously the tumor microenvironment stress (hypoxia, nutrient deprivation, inflammation) triggers autophagy in surrounding cells including oligodendrocytes. Enhanced autophagy in tumor-associated oligodendrocytes might represent attempted adaptation to stress but could also contribute to their progressive dysfunction and death.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Lysosomal biogenesis and autophagy in glial cell stress responses"
+          },
+          {
+            "source_id": "16",
+            "notes": "Autophagy and protein quality control in chronic pathological conditions"
+          }
+        ],
+        "supporting_genes": [
+          "TFEB",
+          "TRIM2",
+          "RNF144A",
+          "UST"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ATG7",
+            "ATG12",
+            "LC3",
+            "SQSTM1"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Core autophagy machinery genes required for functional autophagy"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Functional annotations from literature describing oligodendrocyte development, myelination, and glial cell biology",
+        "Gene ontology enrichment for biological processes related to myelin formation, cell adhesion, axon-glial interactions",
+        "Known protein complexes and signaling cascades from pathway databases",
+        "Single-cell transcriptomic studies identifying cell-type-specific gene programs",
+        "Clinical and basic neuroscience literature on astrocytoma microenvironment and glial dysfunction"
+      ],
+      "notes": "Analysis prioritized well-established oligodendrocyte functions with strong multi-study consensus, while contextualizing findings within astrocytoma biology where oligodendrocyte function is typically compromised. The input gene list is substantially enriched for markers of mature oligodendrocytes and OPCs, suggesting origin from transcriptomic analysis of glioma tissue or oligodendrocyte-enriched brain regions."
+    },
+    "version": "1.0"
+  }
+}

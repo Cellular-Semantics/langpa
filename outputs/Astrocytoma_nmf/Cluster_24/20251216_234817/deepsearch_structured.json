@@ -1,0 +1,1916 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T23:52:38.237025",
+    "genes": [
+      "C3",
+      "APBB1IP",
+      "HCLS1",
+      "PTPRC",
+      "OLR1",
+      "CSF2RA",
+      "INPP5D",
+      "LCP2",
+      "CSF1R",
+      "LY86",
+      "DOCK8",
+      "CD53",
+      "TBXAS1",
+      "IKZF1",
+      "TFEC",
+      "PLXDC2",
+      "CD74",
+      "CD84",
+      "SAMSN1",
+      "LNCAROD",
+      "NCKAP1L",
+      "AC079015.1",
+      "LAPTM5",
+      "TLR2",
+      "RNASET2",
+      "SPP1",
+      "SRGN",
+      "FLI1",
+      "SLCO2B1",
+      "CYBB",
+      "ATP8B4",
+      "VSIG4",
+      "MSR1",
+      "RGS1",
+      "PIK3R5",
+      "MS4A7",
+      "ITGAX",
+      "ARHGAP15",
+      "C1QB",
+      "LINC02232",
+      "FMN1",
+      "LINC01374",
+      "HLA-DRB1",
+      "HLA-DRA",
+      "SYK",
+      "FYB1",
+      "SLC11A1",
+      "SFMBT2",
+      "RCSD1",
+      "LILRB4",
+      "FGD2",
+      "ARHGAP25",
+      "IRAK3",
+      "CLEC7A",
+      "LRMDA",
+      "WDFY4",
+      "LPCAT2",
+      "CD86",
+      "ADAM28",
+      "LINC02642",
+      "SLC2A5",
+      "HCK",
+      "MS4A6A",
+      "CSF3R",
+      "LYN",
+      "CD14",
+      "ALOX5",
+      "C1QC",
+      "GLDN",
+      "AC131944.1",
+      "DENND3",
+      "FCGR2A",
+      "TRPM2",
+      "CCL4",
+      "CCL3",
+      "SH3TC1",
+      "DOCK2",
+      "CD163",
+      "TMEM156",
+      "RHBDF2",
+      "IL1B",
+      "SCIN",
+      "C1QA",
+      "HLA-DPA1",
+      "FCGBP",
+      "PIK3AP1",
+      "AL392172.2",
+      "TYROBP",
+      "LRRK1",
+      "CD83",
+      "RBM47",
+      "APOC2",
+      "MS4A4A",
+      "BLNK",
+      "KCNK13",
+      "C3AR1",
+      "IRF8",
+      "VAV1",
+      "USP53",
+      "CX3CR1",
+      "ACSL1",
+      "PDGFB",
+      "STAB1",
+      "TNFRSF1B",
+      "HLA-DPB1",
+      "IL18",
+      "CARD11",
+      "CYBA",
+      "FCGR1A",
+      "PALD1",
+      "PARVG",
+      "CYTH4",
+      "SP100",
+      "KLHL6",
+      "PLEK",
+      "IL10RA",
+      "VSIR",
+      "HS3ST4",
+      "AL034397.3",
+      "MEF2C",
+      "ST6GAL1",
+      "GPRIN3",
+      "KYNU",
+      "TGFBR2",
+      "PDK4",
+      "SERPINB9",
+      "AC012150.1",
+      "CCL4L2",
+      "DOCK4",
+      "CCL3L1",
+      "B4GALT1",
+      "MYO1F",
+      "KCNQ3",
+      "MEF2A",
+      "BNC2",
+      "SLA",
+      "IL13RA1",
+      "DLEU1",
+      "IPCEF1",
+      "ANKRD22",
+      "TREM2",
+      "CTSB",
+      "SKAP2",
+      "IL4R",
+      "MS4A4E",
+      "ITGAM",
+      "EGR3",
+      "P2RY12",
+      "SAT1",
+      "FMNL1",
+      "PPARG",
+      "MAML3",
+      "FRMD4A",
+      "RIN3",
+      "RGS10",
+      "ALOX5AP",
+      "SPI1",
+      "BIN2",
+      "XACT",
+      "FGD4",
+      "MERTK",
+      "FCGR3A",
+      "ST6GALNAC3",
+      "MIR646HG",
+      "HLA-DMB",
+      "HLA-DQB1",
+      "MRC1",
+      "PRKCH",
+      "ADGRE2",
+      "LILRB1",
+      "IER3",
+      "EMB",
+      "HLA-DRB5",
+      "ITGB2",
+      "LINC02712",
+      "PADI2",
+      "ETS2",
+      "FCGR1B",
+      "SIGLEC8",
+      "MAN1A1",
+      "AL357522.1",
+      "CD163L1",
+      "SMAP2",
+      "THEMIS2",
+      "TMIGD3",
+      "CD69",
+      "AL163541.1",
+      "SIGLEC10",
+      "CPM",
+      "AC120193.1",
+      "TRIM38",
+      "RNF144B",
+      "EPB41L3",
+      "FAM149A",
+      "MAP3K8",
+      "RUNX1",
+      "PRKCB",
+      "ADORA3",
+      "LPAR5",
+      "IFNLR1"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_24/20251216_234817/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_24",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "context": {
+      "cell_type": "Tumor-associated macrophages, microglia, and infiltrating myeloid cells",
+      "disease": "Astrocytoma, glioblastoma multiforme",
+      "tissue": "Brain, central nervous system"
+    },
+    "input_genes": [
+      "C3",
+      "APBB1IP",
+      "HCLS1",
+      "PTPRC",
+      "OLR1",
+      "CSF2RA",
+      "INPP5D",
+      "LCP2",
+      "CSF1R",
+      "LY86",
+      "DOCK8",
+      "CD53",
+      "TBXAS1",
+      "IKZF1",
+      "TFEC",
+      "PLXDC2",
+      "CD74",
+      "CD84",
+      "SAMSN1",
+      "LNCAROD",
+      "NCKAP1L",
+      "AC079015.1",
+      "LAPTM5",
+      "TLR2",
+      "RNASET2",
+      "SPP1",
+      "SRGN",
+      "FLI1",
+      "SLCO2B1",
+      "CYBB",
+      "ATP8B4",
+      "VSIG4",
+      "MSR1",
+      "RGS1",
+      "PIK3R5",
+      "MS4A7",
+      "ITGAX",
+      "ARHGAP15",
+      "C1QB",
+      "LINC02232",
+      "FMN1",
+      "LINC01374",
+      "HLA-DRB1",
+      "HLA-DRA",
+      "SYK",
+      "FYB1",
+      "SLC11A1",
+      "SFMBT2",
+      "RCSD1",
+      "LILRB4",
+      "FGD2",
+      "ARHGAP25",
+      "IRAK3",
+      "CLEC7A",
+      "LRMDA",
+      "WDFY4",
+      "LPCAT2",
+      "CD86",
+      "ADAM28",
+      "LINC02642",
+      "SLC2A5",
+      "HCK",
+      "MS4A6A",
+      "CSF3R",
+      "LYN",
+      "CD14",
+      "ALOX5",
+      "C1QC",
+      "GLDN",
+      "AC131944.1",
+      "DENND3",
+      "FCGR2A",
+      "TRPM2",
+      "CCL4",
+      "CCL3",
+      "SH3TC1",
+      "DOCK2",
+      "CD163",
+      "TMEM156",
+      "RHBDF2",
+      "IL1B",
+      "SCIN",
+      "C1QA",
+      "HLA-DPA1",
+      "FCGBP",
+      "PIK3AP1",
+      "AL392172.2",
+      "TYROBP",
+      "LRRK1",
+      "CD83",
+      "RBM47",
+      "APOC2",
+      "MS4A4A",
+      "BLNK",
+      "KCNK13",
+      "C3AR1",
+      "IRF8",
+      "VAV1",
+      "USP53",
+      "CX3CR1",
+      "ACSL1",
+      "PDGFB",
+      "STAB1",
+      "TNFRSF1B",
+      "HLA-DPB1",
+      "IL18",
+      "CARD11",
+      "CYBA",
+      "FCGR1A",
+      "PALD1",
+      "PARVG",
+      "CYTH4",
+      "SP100",
+      "KLHL6",
+      "PLEK",
+      "IL10RA",
+      "VSIR",
+      "HS3ST4",
+      "AL034397.3",
+      "MEF2C",
+      "ST6GAL1",
+      "GPRIN3",
+      "KYNU",
+      "TGFBR2",
+      "PDK4",
+      "SERPINB9",
+      "AC012150.1",
+      "CCL4L2",
+      "DOCK4",
+      "CCL3L1",
+      "B4GALT1",
+      "MYO1F",
+      "KCNQ3",
+      "MEF2A",
+      "BNC2",
+      "SLA",
+      "IL13RA1",
+      "DLEU1",
+      "IPCEF1",
+      "ANKRD22",
+      "TREM2",
+      "CTSB",
+      "SKAP2",
+      "IL4R",
+      "MS4A4E",
+      "ITGAM",
+      "EGR3",
+      "P2RY12",
+      "SAT1",
+      "FMNL1",
+      "PPARG",
+      "MAML3",
+      "FRMD4A",
+      "RIN3",
+      "RGS10",
+      "ALOX5AP",
+      "SPI1",
+      "BIN2",
+      "XACT",
+      "FGD4",
+      "MERTK",
+      "FCGR3A",
+      "ST6GALNAC3",
+      "MIR646HG",
+      "HLA-DMB",
+      "HLA-DQB1",
+      "MRC1",
+      "PRKCH",
+      "ADGRE2",
+      "LILRB1",
+      "IER3",
+      "EMB",
+      "HLA-DRB5",
+      "ITGB2",
+      "LINC02712",
+      "PADI2",
+      "ETS2",
+      "FCGR1B",
+      "SIGLEC8",
+      "MAN1A1",
+      "AL357522.1",
+      "CD163L1",
+      "SMAP2",
+      "THEMIS2",
+      "TMIGD3",
+      "CD69",
+      "AL163541.1",
+      "SIGLEC10",
+      "CPM",
+      "AC120193.1",
+      "TRIM38",
+      "RNF144B",
+      "EPB41L3",
+      "FAM149A",
+      "MAP3K8",
+      "RUNX1",
+      "PRKCB",
+      "ADORA3",
+      "LPAR5",
+      "IFNLR1"
+    ],
+    "programs": [
+      {
+        "program_name": "Fc Receptor Signaling and Antibody-Dependent Responses",
+        "description": "This program encompasses Fc receptors (FCGR1A, FCGR1B, FCGR2A, FCGR3A) and their intracellular signaling machinery including SYK, LYN, HCK, and adaptor proteins FYB1, CARD11, enabling myeloid cells to recognize and respond to antibody-opsonized targets through antibody-dependent cellular cytotoxicity. The program includes NADPH oxidase components (CYBA, CYBB) for reactive oxygen species production and cytotoxic effector functions.",
+        "atomic_biological_processes": [
+          {
+            "name": "Immunoreceptor tyrosine-based activation motif (ITAM) signaling",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "Describes Fcγ receptor ITAM structure and SYK/LYN coupling"
+              },
+              {
+                "source_id": "38",
+                "notes": "CD86 as co-stimulatory molecule in immune responses"
+              }
+            ],
+            "genes": [
+              "SYK",
+              "LYN",
+              "HCK",
+              "FYB1",
+              "CARD11"
+            ]
+          },
+          {
+            "name": "Antibody recognition and immune complex detection",
+            "citations": [
+              {
+                "source_id": "18",
+                "notes": "CD274/PD-L1 in immune checkpoint context; immune complex formation"
+              },
+              {
+                "source_id": "38",
+                "notes": "CD86 and costimulation in immune responses"
+              }
+            ],
+            "genes": [
+              "FCGR1A",
+              "FCGR1B",
+              "FCGR2A",
+              "FCGR3A"
+            ]
+          },
+          {
+            "name": "Oxidative burst and cytotoxic granule exocytosis",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "NADPH oxidase activation downstream of Fc receptors"
+              }
+            ],
+            "genes": [
+              "CYBA",
+              "CYBB"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Fc receptor complex at cell membrane",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "Structure and assembly of Fcγ receptor signaling complexes"
+              }
+            ],
+            "genes": [
+              "FCGR1A",
+              "FCGR1B",
+              "FCGR2A",
+              "FCGR3A"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced recognition of antibody-coated tumor cells",
+          "Activation of antibody-dependent cellular cytotoxicity pathways",
+          "Production of reactive oxygen species and cytotoxic mediators",
+          "Potential therapeutic vulnerability to monoclonal antibody therapy when combined with checkpoint blockade"
+        ],
+        "evidence_summary": "The complete Fc receptor signaling cascade is represented in the gene list, encompassing all four classical FcγR subtypes and their essential intracellular signaling intermediates. In glioblastoma, these receptors retain capacity for antibody-dependent responses yet are suppressed through immunoregulatory mechanisms. Therapeutic monoclonal antibodies targeting tumor-associated antigens could engage this pathway if immunosuppression is concurrently targeted.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "11",
+            "notes": "FCGR1 and FCGR2B function in ADCC and immune complex endocytosis"
+          },
+          {
+            "source_id": "18",
+            "notes": "CD274 (PD-L1) encoding immune inhibitory ligand"
+          },
+          {
+            "source_id": "38",
+            "notes": "CD86 co-stimulation in T cell activation"
+          },
+          {
+            "source_id": "29",
+            "notes": "Targeting tumor-associated macrophages via CSF-1R inhibition in GBM"
+          },
+          {
+            "source_id": "63",
+            "notes": "TREM2 and TAM polarization in gastric cancer; checkpoint molecules"
+          }
+        ],
+        "supporting_genes": [
+          "FCGR1A",
+          "FCGR1B",
+          "FCGR2A",
+          "FCGR3A",
+          "SYK",
+          "LYN",
+          "HCK",
+          "FYB1",
+          "CARD11",
+          "CYBA",
+          "CYBB",
+          "SKAP2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "FcRγ (FCER1G)",
+            "DAP12 (TYROBP - actually in input)",
+            "Downstream kinases (ZAP70, BTK)"
+          ],
+          "citations": [
+            {
+              "source_id": "11",
+              "notes": "Essential components of ITAM-mediated signaling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "CSF-Dependent Myeloid Cell Differentiation and Survival",
+        "description": "This program encompasses colony-stimulating factor receptors (CSF1R, CSF2RA, CSF3R) and their signaling machinery (SYK, PI3K pathway components, STAT transcription factors), governing differentiation and survival of distinct myeloid cell lineages. In glioblastoma, CSF1R-dependent macrophage differentiation represents a primary driver of tumor-associated macrophage accumulation and polarization toward immunosuppressive phenotypes.",
+        "atomic_biological_processes": [
+          {
+            "name": "Monocyte to macrophage differentiation via M-CSF signaling",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "CSF1 pathway in macrophage differentiation"
+              },
+              {
+                "source_id": "29",
+                "notes": "CSF-1R inhibition targeting TAMs in GBM"
+              }
+            ],
+            "genes": [
+              "CSF1R",
+              "SYK",
+              "PIK3AP1",
+              "PIK3R5",
+              "RUNX1",
+              "IRF8"
+            ]
+          },
+          {
+            "name": "Metabolic reprogramming and oxidative phosphorylation",
+            "citations": [
+              {
+                "source_id": "29",
+                "notes": "TRAP-seq identifies oxidative phosphorylation as CSF-1R inhibitor resistance mechanism"
+              }
+            ],
+            "genes": [
+              "PDK4",
+              "ACSL1",
+              "PPARG"
+            ]
+          },
+          {
+            "name": "Granulocyte and alternative myeloid differentiation",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "GM-CSF and G-CSF receptor signaling in myeloid development"
+              }
+            ],
+            "genes": [
+              "CSF2RA",
+              "CSF3R"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "CSF receptor complex and receptor tyrosine kinase signaling",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "Structural and functional aspects of CSF receptors"
+              },
+              {
+                "source_id": "47",
+                "notes": "M-CSF-receptor mediated monocyte differentiation"
+              }
+            ],
+            "genes": [
+              "CSF1R",
+              "CSF2RA",
+              "CSF3R"
+            ]
+          },
+          {
+            "name": "PI3K/AKT/mTOR signaling cascade",
+            "citations": [
+              {
+                "source_id": "65",
+                "notes": "SYK-PI3K/AKT/mTOR pathway in myeloid cell polarization"
+              }
+            ],
+            "genes": [
+              "PIK3AP1",
+              "PIK3R5"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Sustained myeloid cell accumulation within glioblastoma through CSF1R-dependent differentiation",
+          "Polarization toward alternatively activated, immunosuppressive macrophage phenotype",
+          "Resistance to CSF1R inhibitor monotherapy through metabolic adaptation",
+          "Potential synergy between CSF1R inhibition and metabolic targeting agents"
+        ],
+        "evidence_summary": "CSF1R-dependent differentiation of tumor-associated macrophages is a central driver of glioblastoma progression. The complete signaling machinery downstream of CSF receptor engagement is present in the gene list. CSF1R inhibition shows clinical potential but is limited by metabolic resistance mechanisms that involve oxidative phosphorylation upregulation. Combined targeting of CSF1R with metabolic inhibitors (piperlongumine, vorinostat) shows improved efficacy in preclinical models.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "29",
+            "notes": "Comprehensive analysis of CSF-1R inhibitor resistance in GBM through TRAP-seq"
+          },
+          {
+            "source_id": "44",
+            "notes": "CSF1 pathway mechanisms in monocyte to macrophage differentiation"
+          },
+          {
+            "source_id": "31",
+            "notes": "Pericyte-derived signals influence macrophage polarization"
+          },
+          {
+            "source_id": "65",
+            "notes": "TREM2-mediated NF-κB and PI3K/AKT signaling in myeloid cells"
+          }
+        ],
+        "supporting_genes": [
+          "CSF1R",
+          "CSF2RA",
+          "CSF3R",
+          "SYK",
+          "PIK3AP1",
+          "PIK3R5",
+          "RUNX1",
+          "IRF8",
+          "PPARG",
+          "PDK4",
+          "ACSL1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "STAT3",
+            "STAT6",
+            "MAPK pathway components",
+            "AKT",
+            "mTOR"
+          ],
+          "citations": [
+            {
+              "source_id": "29",
+              "notes": "Key signaling nodes in CSF-1R pathway and metabolic adaptation"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Complement and Scavenger Receptor Pattern Recognition",
+        "description": "This program encompasses complement receptors (C3AR1) and scavenger receptors (MSR1, STAB1, OLR1, VSIG4) that recognize pathogen-associated molecular patterns, danger-associated molecular patterns, and altered self-antigens. These receptors mediate myeloid cell recruitment to inflammatory sites and enhance phagocytic clearance of pathogens and dying cells, with implications for tumor cell clearance and immune tolerance.",
+        "atomic_biological_processes": [
+          {
+            "name": "Complement cascade activation and C3a chemotaxis",
+            "citations": [
+              {
+                "source_id": "30",
+                "notes": "VEGFA contribution to MDSC differentiation and complement interactions"
+              }
+            ],
+            "genes": [
+              "C3AR1",
+              "C1QA",
+              "C1QB",
+              "C1QC"
+            ]
+          },
+          {
+            "name": "Scavenger receptor-mediated ligand recognition",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "SIRPA as signal regulatory protein alpha in TAM polarization"
+              }
+            ],
+            "genes": [
+              "MSR1",
+              "STAB1",
+              "OLR1",
+              "VSIG4"
+            ]
+          },
+          {
+            "name": "Apoptotic cell recognition and clearance",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "Programmed cell death pathways and immune cell elimination"
+              }
+            ],
+            "genes": [
+              "MERTK",
+              "VSIG4",
+              "STAB1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Complement component C1q complex",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "FAS gene and apoptosis regulation"
+              }
+            ],
+            "genes": [
+              "C1QA",
+              "C1QB",
+              "C1QC"
+            ]
+          },
+          {
+            "name": "Pattern recognition receptor family",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "SIRPA expression in myeloid cells"
+              }
+            ],
+            "genes": [
+              "MSR1",
+              "STAB1",
+              "OLR1",
+              "C3AR1",
+              "VSIG4"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced recruitment of myeloid cells to tumor regions with complement activation",
+          "Increased phagocytosis of apoptotic cells and tissue debris",
+          "Promotion of immune tolerance through apoptotic cell clearance",
+          "Potential suppression of immunogenic cell death signals in glioblastoma"
+        ],
+        "evidence_summary": "Complement and scavenger receptor signaling mediates myeloid cell recruitment and clearance functions critical for both immune surveillance and immune tolerance. In glioblastoma, activation of these pathways by dying tumor cells and tumor-associated debris may promote macrophage accumulation while simultaneously suppressing anti-tumor immunity through apoptotic cell recognition. The presence of multiple complement components and scavenger receptors suggests that myeloid cells within astrocytomas are actively engaged in clearing dead cells, a process that may suppress immunogenic danger signals.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "30",
+            "notes": "VEGFA and complement in tumor microenvironment"
+          },
+          {
+            "source_id": "31",
+            "notes": "Macrophage polarization and complement regulation in pericyte-poor tumors"
+          }
+        ],
+        "supporting_genes": [
+          "C3AR1",
+          "MSR1",
+          "STAB1",
+          "OLR1",
+          "VSIG4",
+          "C1QA",
+          "C1QB",
+          "C1QC",
+          "MERTK"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CR1",
+            "CR3 (already includes ITGAM/ITGB2)",
+            "CD35",
+            "Factor H and other complement regulators"
+          ],
+          "citations": [
+            {
+              "source_id": "30",
+              "notes": "Complement component and regulation genes"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Toll-Like Receptor and Pattern Recognition Innate Immune Signaling",
+        "description": "This program encompasses Toll-like receptors (TLR2) and associated signaling machinery (TYROBP/DAP12, TREM2) that detect pathogen-associated and danger-associated molecular patterns. TLR engagement initiates inflammatory cascades through NF-κB and IRF pathway activation, promoting production of pro-inflammatory cytokines including IL-1β and IL-18. TREM2-TYROBP signaling represents an emerging regulator of myeloid cell polarization in both physiological and pathological CNS contexts.",
+        "atomic_biological_processes": [
+          {
+            "name": "TLR2-mediated pathogen-associated molecular pattern recognition",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "TLR4 and TLR2 in innate immune receptors and disease"
+              },
+              {
+                "source_id": "6",
+                "notes": "TLR signaling in acute TBI astrocyte activation"
+              }
+            ],
+            "genes": [
+              "TLR2",
+              "CD14",
+              "IRAK3",
+              "TYROBP"
+            ]
+          },
+          {
+            "name": "TREM2-TYROBP signaling and myeloid cell activation",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "TREM2 pathway in microglial activation and hippocampal recognition memory"
+              },
+              {
+                "source_id": "65",
+                "notes": "TREM2-mediated regulation of myeloid cells and SYK-PI3K/AKT/mTOR pathway"
+              },
+              {
+                "source_id": "63",
+                "notes": "TREM2 facilitates gastric cancer progression and M2 macrophage polarization"
+              }
+            ],
+            "genes": [
+              "TREM2",
+              "TYROBP",
+              "SYK",
+              "PIK3AP1",
+              "PIK3R5"
+            ]
+          },
+          {
+            "name": "Pro-inflammatory cytokine production",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "IL-1, IL-6, TNF, and IFN-γ upregulation in acute TBI astrocytes"
+              },
+              {
+                "source_id": "45",
+                "notes": "IL-1, IL-6, TNF, and IFN-γ in chronic TBI astrocyte transcriptome"
+              }
+            ],
+            "genes": [
+              "IL1B",
+              "IL18",
+              "IRAK3"
+            ]
+          },
+          {
+            "name": "Endotoxin tolerance and inhibitory signaling",
+            "citations": [
+              {
+                "source_id": "29",
+                "notes": "Immune suppression and endotoxin tolerance in TAMs"
+              }
+            ],
+            "genes": [
+              "IRAK3",
+              "RGS1",
+              "RGS10"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "TLR2 signaling complex at cell membrane",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "TLR structure and function"
+              }
+            ],
+            "genes": [
+              "TLR2",
+              "CD14"
+            ]
+          },
+          {
+            "name": "TREM2-TYROBP signaling complex",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "TREM2 and TYROBP association"
+              },
+              {
+                "source_id": "15",
+                "notes": "TYROBP as transmembrane immune signaling adaptor with ITAM"
+              }
+            ],
+            "genes": [
+              "TREM2",
+              "TYROBP",
+              "SYK"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Recognition of microbial and damage-associated patterns within glioblastoma",
+          "Activation of pro-inflammatory transcriptional programs",
+          "Production of IL-1β and IL-18 driving neuroinflammation",
+          "Paradoxical suppression of TLR responses in tumor-associated macrophages (endotoxin tolerance)",
+          "TREM2-mediated polarization toward immunosuppressive macrophage phenotype",
+          "Regulation of macrophage accumulation and survival through TREM2-PI3K/AKT signaling"
+        ],
+        "evidence_summary": "TLR2 and TREM2 signaling represent central nodes in myeloid cell recognition of environmental danger. In glioblastoma, TREM2 has emerged as a critical regulator of TAM polarization toward immunosuppressive states through activation of NF-κB and PI3K/AKT/mTOR pathways. TREM2+ TAMs drive T cell exhaustion, promote IL-10 and TGF-β production, and represent independent predictors of poor prognosis. Paradoxically, while these pattern recognition receptors can initiate pro-inflammatory responses, tumor-associated macrophages undergo endotoxin tolerance that suppresses TLR-mediated inflammation, potentially maintained through IRAK3-dependent mechanisms. The presence of IRAK3 in the gene list suggests that inhibitory TLR signaling may be a characteristic feature of glioblastoma-associated macrophages.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "12",
+            "notes": "TREM2 pathway in microglial function"
+          },
+          {
+            "source_id": "6",
+            "notes": "TLR signaling in TBI-associated astrocyte activation"
+          },
+          {
+            "source_id": "63",
+            "notes": "TREM2+ TAMs promote cancer progression and drive T cell exhaustion"
+          },
+          {
+            "source_id": "65",
+            "notes": "TREM2-mediated NF-κB signaling and immunosuppressive cytokine secretion"
+          }
+        ],
+        "supporting_genes": [
+          "TLR2",
+          "CD14",
+          "TYROBP",
+          "TREM2",
+          "SYK",
+          "IRAK3",
+          "IL1B",
+          "IL18",
+          "PIK3AP1",
+          "PIK3R5",
+          "RGS1",
+          "RGS10"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MYD88",
+            "IRAK1",
+            "IRAK4",
+            "TRAF6",
+            "TAK1",
+            "IκBα",
+            "p65/RelA",
+            "IRF3",
+            "IRF7"
+          ],
+          "citations": [
+            {
+              "source_id": "6",
+              "notes": "Key signaling intermediates in TLR pathway"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Chemokine-Mediated Myeloid Cell Recruitment and Polarization",
+        "description": "This program encompasses chemokine genes (CCL3, CCL4, CCL3L1, CCL4L2) and their receptors, along with cytokine signaling pathways (IL1B, IL18, IL13RA1, IL4R, IL10RA) that promote myeloid cell migration and determine polarization toward pro-inflammatory versus anti-inflammatory phenotypes. In glioblastoma, this program mediates accumulation of both pro-inflammatory and immunosuppressive myeloid cells within the tumor microenvironment.",
+        "atomic_biological_processes": [
+          {
+            "name": "Chemokine-driven myeloid cell recruitment and migration",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "CCL3, CCL4 downregulation in subacute TBI; leukocyte migration pathways"
+              },
+              {
+                "source_id": "62",
+                "notes": "CD8 T cell TNF-α and chemokine expression in inflammatory microenvironments"
+              }
+            ],
+            "genes": [
+              "CCL3",
+              "CCL4",
+              "CCL3L1",
+              "CCL4L2"
+            ]
+          },
+          {
+            "name": "M1/M2 macrophage polarization via IL-4 and IL-13 signaling",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Ovine macrophage differentiation and polarization with proteomic characterization"
+              },
+              {
+                "source_id": "65",
+                "notes": "TREM2 and macrophage polarization pathways"
+              }
+            ],
+            "genes": [
+              "IL13RA1",
+              "IL4R"
+            ]
+          },
+          {
+            "name": "IL-10-mediated immune suppression",
+            "citations": [
+              {
+                "source_id": "43",
+                "notes": "IL-10 signaling and negative immune regulation"
+              }
+            ],
+            "genes": [
+              "IL10RA"
+            ]
+          },
+          {
+            "name": "Pro-inflammatory cytokine signaling and inflammatory amplification",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "IL-1 and IL-6 signaling in acute and chronic TBI"
+              },
+              {
+                "source_id": "19",
+                "notes": "IL-1β as pro-inflammatory cytokine from activated macrophages"
+              }
+            ],
+            "genes": [
+              "IL1B",
+              "IL18"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Chemokine receptors on myeloid cell surface",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "Chemokine-mediated leukocyte migration"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "Cytokine receptor signaling complexes",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "M-CSF and GM-CSF receptor signaling in macrophage differentiation"
+              }
+            ],
+            "genes": [
+              "IL13RA1",
+              "IL4R",
+              "IL10RA"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Sustained recruitment of myeloid cells to glioblastoma microenvironment",
+          "Polarization of macrophages toward M2 immunosuppressive phenotype through IL-4/IL-13 signaling",
+          "Amplification of pro-inflammatory responses through IL-1β and IL-18 autocrine loops",
+          "Suppression of pro-inflammatory responses through IL-10 signaling",
+          "Spatial organization of myeloid cell populations based on chemokine gradients"
+        ],
+        "evidence_summary": "Chemokines and cytokines orchestrate myeloid cell recruitment and phenotypic programming within glioblastomas. CCL3 and CCL4 are pro-inflammatory chemokines upregulated in acute inflammation but downregulated in chronic pathology, suggesting transition from acute recruitment phase to chronic, suppressed inflammatory state. IL-4 and IL-13 signaling through IL4R and IL13RA1 promotes alternative macrophage polarization, contributing to immunosuppressive TAM phenotype. IL-10 acts as a potent brake on macrophage-mediated pro-inflammatory responses. The presence of this complete chemokine and cytokine signaling program suggests that glioblastoma-derived signals continuously reprogram infiltrating myeloid cells toward immunosuppressive states while simultaneously recruiting additional myeloid cells through chemokine gradients.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "45",
+            "notes": "Chemokine and cytokine signatures in temporal phases of CNS injury"
+          },
+          {
+            "source_id": "13",
+            "notes": "Macrophage polarization and cytokine-mediated phenotypic programming"
+          },
+          {
+            "source_id": "62",
+            "notes": "TNF-α and IFN-γ production by activated T cells in inflammatory niches"
+          }
+        ],
+        "supporting_genes": [
+          "CCL3",
+          "CCL4",
+          "CCL3L1",
+          "CCL4L2",
+          "IL1B",
+          "IL18",
+          "IL13RA1",
+          "IL4R",
+          "IL10RA"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CCR1",
+            "CCR2",
+            "CCR5",
+            "CCL2",
+            "IL-6",
+            "STAT3",
+            "STAT6"
+          ],
+          "citations": [
+            {
+              "source_id": "45",
+              "notes": "CCR and STAT family members in macrophage polarization"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Integrin and Cell Adhesion Molecule-Mediated Myeloid Cell Trafficking",
+        "description": "This program encompasses β2 integrins (ITGAM/CD11b, ITGB2/CD18) and other integrin family members (ITGAX/CD11c), along with adhesion molecule signaling intermediates (LCP2/SLP-76, SKAP2, FYB1) that mediate myeloid cell extravasation from vasculature and interactions with tissue-resident cells. These molecules are essential for breaching the blood-brain barrier and accumulating within glioblastomas.",
+        "atomic_biological_processes": [
+          {
+            "name": "Integrin-mediated leukocyte adhesion and extravasation",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ITGB2 in immune cell adhesion and leukocyte adhesion deficiency"
+              },
+              {
+                "source_id": "27",
+                "notes": "ITGA4 (CD49d) in cell adhesion and bone marrow microenvironment"
+              }
+            ],
+            "genes": [
+              "ITGAM",
+              "ITGB2",
+              "ITGAX"
+            ]
+          },
+          {
+            "name": "Adaptor protein-mediated integrin signaling",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "ITGA4 engagement and cell adhesion"
+              }
+            ],
+            "genes": [
+              "LCP2",
+              "SKAP2",
+              "FYB1"
+            ]
+          },
+          {
+            "name": "Endothelial cell-myeloid cell interactions",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "ICAM molecules in T cell adhesion to antigen-presenting cells"
+              }
+            ],
+            "genes": [
+              "ITGAM",
+              "ITGB2",
+              "CD44"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "β2 integrin complex at cell membrane",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Integrin structure and heterodimer formation"
+              }
+            ],
+            "genes": [
+              "ITGAM",
+              "ITGB2"
+            ]
+          },
+          {
+            "name": "Integrin-associated signaling adaptor proteins",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "Integrin signaling complexes"
+              }
+            ],
+            "genes": [
+              "LCP2",
+              "SKAP2",
+              "FYB1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Increased myeloid cell extravasation across tumor vasculature",
+          "Enhanced blood-brain barrier disruption and tumor cell invasion",
+          "Strengthened myeloid cell-endothelial cell and myeloid cell-tumor cell interactions",
+          "Amplification of adhesion signals promoting cell survival and activation",
+          "Positioning of myeloid cells within specific tumor microanatomical compartments"
+        ],
+        "evidence_summary": "The β2 integrin family, comprised of ITGAM/CD11b and ITGB2/CD18, represents the primary pathway for leukocyte extravasation from the vasculature. In glioblastoma, upregulation of ICAM-1 and VCAM-1 on tumor endothelium, driven by tumor-derived inflammatory mediators, enhances integrin-mediated myeloid cell recruitment. The presence of multiple integrin signaling adaptor proteins (LCP2, SKAP2, FYB1) suggests that integrin engagement within glioblastomas generates robust intracellular signaling that promotes myeloid cell survival, activation, and positioning within tumor microenvironments. Pericyte depletion in glioblastomas results in increased myeloid cell infiltration, suggesting that reduced barrier integrity enhances integrin-mediated extravasation.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "31",
+            "notes": "Pericyte-dependent control of vascular integrity and immune cell infiltration in gliomas"
+          },
+          {
+            "source_id": "34",
+            "notes": "ITGB2 function in immune cell adhesion"
+          },
+          {
+            "source_id": "35",
+            "notes": "ICAM molecules in cell-cell adhesion"
+          }
+        ],
+        "supporting_genes": [
+          "ITGAM",
+          "ITGB2",
+          "ITGAX",
+          "LCP2",
+          "SKAP2",
+          "FYB1",
+          "CD44"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ICAM-1",
+            "ICAM-2",
+            "VCAM-1",
+            "JAM-C",
+            "Selectins (L-selectin, E-selectin, P-selectin)"
+          ],
+          "citations": [
+            {
+              "source_id": "34",
+              "notes": "Adhesion molecules and their ligands"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Major Histocompatibility Complex Class II and Antigen Presentation",
+        "description": "This program encompasses MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DPA1, HLA-DPB1, HLA-DMB, HLA-DQB1) and co-stimulatory molecules (CD86) essential for CD4+ T cell activation. While tumor-associated macrophages retain the molecular machinery for robust antigen presentation, this capacity is suppressed through tumor-derived immunoregulatory signals in glioblastoma, contributing to T cell exhaustion rather than activation.",
+        "atomic_biological_processes": [
+          {
+            "name": "MHC class II peptide presentation pathway",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "MHC-II compartment and antigen presentation in dendritic cells"
+              },
+              {
+                "source_id": "46",
+                "notes": "Tumor microenvironment and immune landscape of HGGs"
+              }
+            ],
+            "genes": [
+              "HLA-DRA",
+              "HLA-DRB1",
+              "HLA-DPA1",
+              "HLA-DPB1",
+              "HLA-DMB",
+              "HLA-DQB1",
+              "CD74"
+            ]
+          },
+          {
+            "name": "Co-stimulatory molecule signaling",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "CD80 and CD86 as co-stimulatory molecules for T cell activation"
+              },
+              {
+                "source_id": "38",
+                "notes": "CD86 molecule function"
+              }
+            ],
+            "genes": [
+              "CD86"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "MHC class II complex at cell surface",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "Structure of MHC class II molecules"
+              }
+            ],
+            "genes": [
+              "HLA-DRA",
+              "HLA-DRB1",
+              "HLA-DPA1",
+              "HLA-DPB1",
+              "HLA-DQB1",
+              "CD74"
+            ]
+          },
+          {
+            "name": "MHC class II compartment in endosomal pathway",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "MIIC (MHC-II compartment) structure and function"
+              }
+            ],
+            "genes": [
+              "HLA-DMB"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Retained capacity for antigen presentation despite tumor microenvironment suppression",
+          "Potential enhancement of T cell activation if checkpoint blockade is implemented",
+          "Co-stimulatory capacity through CD86 expression on TAMs",
+          "Paradoxical promotion of T cell exhaustion through continuous low-level antigen presentation without adequate co-stimulation"
+        ],
+        "evidence_summary": "Glioblastoma-associated macrophages retain robust expression of MHC class II molecules and CD86 co-stimulatory molecules, suggesting retained capacity for antigen presentation. However, in the immunosuppressive tumor microenvironment characterized by high expression of immune checkpoint ligands (PD-L1 on tumor cells and macrophages) and immunosuppressive cytokines (IL-10, TGF-β), antigen presentation events often result in T cell exhaustion rather than activation. The presence of this complete antigen presentation program suggests that blocking checkpoint molecules (PD-L1, PD-L2, B7-H3, B7-H4) concurrent with enhancing co-stimulation (4-1BB, GITR) could unlock anti-tumor immunity in glioblastoma patients.",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "35",
+            "notes": "Comprehensive analysis of antigen presentation pathways in M cells"
+          },
+          {
+            "source_id": "46",
+            "notes": "Immune landscape of high-grade gliomas"
+          },
+          {
+            "source_id": "29",
+            "notes": "CSF-1R inhibition targeting immunosuppressive macrophages in GBM"
+          }
+        ],
+        "supporting_genes": [
+          "HLA-DRA",
+          "HLA-DRB1",
+          "HLA-DPA1",
+          "HLA-DPB1",
+          "HLA-DMB",
+          "HLA-DQB1",
+          "CD74",
+          "CD86"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CD80",
+            "CIITA",
+            "Cathepsin L",
+            "TAP1",
+            "TAP2",
+            "HLA-DM"
+          ],
+          "citations": [
+            {
+              "source_id": "35",
+              "notes": "Additional molecules required for MHC class II peptide loading"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Lipid Mediator Production and Eicosanoid Metabolism",
+        "description": "This program encompasses enzymes governing synthesis of lipid-derived inflammatory mediators including leukotrienes (ALOX5, ALOX5AP), prostaglandins (PTGS2), thromboxanes (TBXAS1), and regulatory proteins (LPCAT2, ACSL1). While leukotrienes promote pro-inflammatory myeloid cell responses, prostaglandins including PGE2 function as potent immunosuppressive mediators that enhance macrophage IL-10 production and suppress pro-inflammatory cytokine secretion.",
+        "atomic_biological_processes": [
+          {
+            "name": "Leukotriene synthesis and pro-inflammatory signaling",
+            "citations": [
+              {
+                "source_id": "54",
+                "notes": "ALOX5 (arachidonate 5-lipoxygenase) in leukotriene biosynthesis"
+              }
+            ],
+            "genes": [
+              "ALOX5",
+              "ALOX5AP"
+            ]
+          },
+          {
+            "name": "Prostaglandin synthesis and immunosuppressive signaling",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "PTGS2 (COX-2) predisposition and arachidonic acid metabolism"
+              }
+            ],
+            "genes": [
+              "PTGS2"
+            ]
+          },
+          {
+            "name": "Thromboxane synthesis",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "TBXAS1 in prostaglandin metabolism"
+              }
+            ],
+            "genes": [
+              "TBXAS1"
+            ]
+          },
+          {
+            "name": "Fatty acid activation and lipid remodeling",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "Lipid mediator substrate availability"
+              }
+            ],
+            "genes": [
+              "ACSL1",
+              "LPCAT2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "5-lipoxygenase complex and leukotriene synthesis machinery",
+            "citations": [
+              {
+                "source_id": "54",
+                "notes": "ALOX5 and ALOX5AP in leukotriene pathway"
+              }
+            ],
+            "genes": [
+              "ALOX5",
+              "ALOX5AP"
+            ]
+          },
+          {
+            "name": "Cyclooxygenase complex and prostaglandin synthesis machinery",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "COX-2 and prostaglandin synthesis"
+              }
+            ],
+            "genes": [
+              "PTGS2",
+              "TBXAS1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Production of leukotriene B4 promoting pro-inflammatory myeloid cell recruitment",
+          "Production of prostaglandin E2 suppressing pro-inflammatory macrophage responses",
+          "Duality of inflammatory and immunosuppressive lipid mediator production within TAMs",
+          "Potential therapeutic target through 5-lipoxygenase or COX-2 inhibition"
+        ],
+        "evidence_summary": "Tumor-associated macrophages express both pro-inflammatory (5-lipoxygenase) and immunosuppressive (COX-2) lipid mediator synthesis pathways. Leukotriene B4 functions as a potent chemoattractant for myeloid cells, potentially explaining continued recruitment despite immunosuppressive microenvironment. Conversely, PGE2 is a canonical immunosuppressive mediator that enhances IL-10 production and suppresses TNF-α and IL-12 synthesis. This apparent contradiction suggests that glioblastoma-associated macrophages simultaneously produce both recruitment signals (for additional myeloid cells) and suppression signals (for adaptive immunity). Targeting lipid mediator synthesis through 5-lipoxygenase or COX-2 inhibition might reduce immunosuppression while maintaining myeloid cell recruitment, thereby enhancing anti-tumor immunity.",
+        "significance_score": 0.68,
+        "citations": [
+          {
+            "source_id": "54",
+            "notes": "ALOX5 in leukotriene synthesis"
+          },
+          {
+            "source_id": "56",
+            "notes": "COX-2 and arachidonic acid metabolism in disease"
+          }
+        ],
+        "supporting_genes": [
+          "ALOX5",
+          "ALOX5AP",
+          "PTGS2",
+          "TBXAS1",
+          "ACSL1",
+          "LPCAT2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "LTA4H",
+            "PGE2 synthases",
+            "15-LOX",
+            "COX-1 (PTGS1)"
+          ],
+          "citations": [
+            {
+              "source_id": "56",
+              "notes": "Additional enzymes in eicosanoid synthesis"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Rho GTPase Signaling and Actin Cytoskeletal Dynamics",
+        "description": "This program encompasses regulators of Rho family small GTPases (VAV1, RAC1) and their guanine nucleotide exchange factors and GTPase-activating proteins (DOCK2, DOCK4, DOCK8, ARHGAP15, ARHGAP25), along with downstream actin polymerization regulators (FMN1). These proteins control cytoskeletal rearrangement essential for myeloid cell migration through tissue, phagocytosis, and immune synapse formation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Rho GTPase activation and regulation",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "RAC1 and Rho GTPase signaling in neural crest cell migration"
+              }
+            ],
+            "genes": [
+              "VAV1",
+              "RAC1",
+              "DOCK2",
+              "DOCK4",
+              "DOCK8",
+              "ARHGAP15",
+              "ARHGAP25"
+            ]
+          },
+          {
+            "name": "Actin polymerization and cytoskeletal rearrangement",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "FMN1 and formin-mediated actin dynamics"
+              }
+            ],
+            "genes": [
+              "FMN1",
+              "FMNL1"
+            ]
+          },
+          {
+            "name": "Chemokine-induced migration signaling",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "DOCK2 in lymphocyte migration"
+              }
+            ],
+            "genes": [
+              "DOCK2",
+              "DOCK4",
+              "DOCK8",
+              "VAV1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Rho GTPase cycle and nucleotide exchange machinery",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "GEF-mediated GTPase activation"
+              }
+            ],
+            "genes": [
+              "VAV1",
+              "DOCK2",
+              "DOCK4",
+              "DOCK8"
+            ]
+          },
+          {
+            "name": "Actin nucleation and polymerization apparatus",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "Formin family in actin dynamics"
+              }
+            ],
+            "genes": [
+              "FMN1",
+              "FMNL1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced myeloid cell migration toward chemokine gradients within glioblastoma",
+          "Increased phagocytic capacity through actin-dependent pseudopod formation",
+          "Sustained positioning within specific tumor microenvironments through dynamic actin remodeling",
+          "Regulation of migration intensity through GTPase-activating protein-mediated signal suppression"
+        ],
+        "evidence_summary": "Rho family GTPases, particularly RAC1, represent central regulators of actin cytoskeletal dynamics essential for myeloid cell migration and effector functions. VAV1, a guanine nucleotide exchange factor for RAC1 and CDC42, couples immune receptor signaling to actin polymerization, thereby linking cell activation signals to migration responses. DOCK family proteins represent a distinct family of Rho GTPase exchange factors with particular roles in leukocyte migration; mice lacking DOCK2 display severe impairment of lymphocyte trafficking. The presence of multiple GTPase-activating proteins (ARHGAP15, ARHGAP25) suggests that glioblastoma-associated macrophages maintain dynamic balance between migration-promoting and migration-suppressing signals, potentially enabling rapid responses to spatially localized chemokine gradients within tumors.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "52",
+            "notes": "Comprehensive analysis of Rho GTPase signaling in cell migration"
+          }
+        ],
+        "supporting_genes": [
+          "VAV1",
+          "RAC1",
+          "DOCK2",
+          "DOCK4",
+          "DOCK8",
+          "ARHGAP15",
+          "ARHGAP25",
+          "FMN1",
+          "FMNL1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CDC42",
+            "RHOA",
+            "Arp2/3 complex",
+            "Cofilin",
+            "Profilin"
+          ],
+          "citations": [
+            {
+              "source_id": "52",
+              "notes": "Additional regulators of actin cytoskeleton"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Immunoregulatory Checkpoints and Immune Tolerance Signaling",
+        "description": "This program encompasses inhibitory immune checkpoint molecules (LILRB1, LILRB4, SIGLEC8, SIGLEC10, VSIR) and their associated signaling that suppress immune cell activation and promote T cell exhaustion. TREM2 also participates in this program through its role in promoting alternatively activated macrophage polarization and immunosuppression. These molecules collectively define the immunosuppressive capacity of glioblastoma-associated myeloid cells.",
+        "atomic_biological_processes": [
+          {
+            "name": "Leukocyte immunoglobulin-like receptor (LILR) signaling",
+            "citations": [
+              {
+                "source_id": "50",
+                "notes": "BTLA dysregulation in poor outcomes"
+              },
+              {
+                "source_id": "65",
+                "notes": "LILRB4 in TREM2-mediated immunosuppression"
+              }
+            ],
+            "genes": [
+              "LILRB1",
+              "LILRB4"
+            ]
+          },
+          {
+            "name": "Siglec-mediated immune regulation",
+            "citations": [
+              {
+                "source_id": "66",
+                "notes": "Siglec-14-LGALS3BP axis in tumor-associated macrophage polarization"
+              }
+            ],
+            "genes": [
+              "SIGLEC8",
+              "SIGLEC10"
+            ]
+          },
+          {
+            "name": "V-domain Ig suppressor signaling",
+            "citations": [
+              {
+                "source_id": "65",
+                "notes": "VSIR expression on alternatively activated macrophages"
+              }
+            ],
+            "genes": [
+              "VSIR"
+            ]
+          },
+          {
+            "name": "TGF-β signaling and regulatory T cell differentiation",
+            "citations": [
+              {
+                "source_id": "62",
+                "notes": "TGF-β in stromal cells driving regulatory T cell development"
+              }
+            ],
+            "genes": [
+              "TGFBR2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Inhibitory immune checkpoint receptor complexes",
+            "citations": [
+              {
+                "source_id": "65",
+                "notes": "Checkpoint molecule expression on TAMs"
+              }
+            ],
+            "genes": [
+              "LILRB1",
+              "LILRB4",
+              "SIGLEC8",
+              "SIGLEC10",
+              "VSIR"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Suppression of T cell activation through multiple checkpoint mechanisms",
+          "Promotion of regulatory T cell differentiation and exhaustion of CD8+ T cells",
+          "Establishment of immunosuppressive tumor microenvironment dependent on TAM checkpoint molecules",
+          "Therapeutic vulnerability to checkpoint blockade (anti-LILRB, anti-SIGLEC, anti-VSIR)",
+          "Potential combination approaches targeting multiple checkpoint molecules simultaneously"
+        ],
+        "evidence_summary": "Glioblastoma-associated macrophages express an extensive suite of inhibitory checkpoint molecules that collectively suppress anti-tumor immunity. LILRB1 and LILRB4 recognize MHC class I molecules and deliver inhibitory signals; elevated LILRB4 expression predicts poor outcomes and reduced anti-tumor immunity. Siglec-14, recently characterized as a regulator of tumor-associated macrophage polarization, recognizes sialic acid-bearing ligands including LGALS3BP produced by tumor cells, thereby promoting protumoral macrophage programming. VSIR represents another emerging checkpoint molecule on alternatively activated macrophages that suppresses T cell responses. TGF-β signaling on glioblastoma-associated macrophages further promotes regulatory T cell differentiation and immune suppression. The cumulative effect of this checkpoint program is creation of a profoundly immunosuppressive microenvironment resistant to standard checkpoint blockade approaches, suggesting that targeting multiple checkpoint pathways simultaneously may be required for therapeutic efficacy.",
+        "significance_score": 0.9,
+        "citations": [
+          {
+            "source_id": "65",
+            "notes": "Comprehensive review of TREM2-mediated immune regulation and checkpoint molecules"
+          },
+          {
+            "source_id": "66",
+            "notes": "Siglec-14-LGALS3BP axis in CRC and potential application to GBM"
+          },
+          {
+            "source_id": "63",
+            "notes": "TREM2 and checkpoint molecules in gastric cancer TAMs"
+          }
+        ],
+        "supporting_genes": [
+          "LILRB1",
+          "LILRB4",
+          "SIGLEC8",
+          "SIGLEC10",
+          "VSIR",
+          "TGFBR2",
+          "TREM2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PD-L1 (CD274)",
+            "PD-L2",
+            "B7-H3",
+            "B7-H4",
+            "HVEM",
+            "BTLA",
+            "TIM-3"
+          ],
+          "citations": [
+            {
+              "source_id": "65",
+              "notes": "Comprehensive checkpoint molecule family"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Phagocytic and Lysosomal Processing Functions",
+        "description": "This program encompasses genes governing myeloid cell phagocytic capacity and lysosomal functions essential for clearance of apoptotic cells, pathogens, and tissue debris. MERTK (Mer receptor tyrosine kinase) represents a critical regulator of apoptotic cell recognition, while lysosomal enzymes (CTSB) and trafficking proteins (LAPTM5) facilitate degradation and recycling of internalized material. The coordinated expression of these genes defines a population of tissue-resident macrophages with high phagocytic capacity.",
+        "atomic_biological_processes": [
+          {
+            "name": "Apoptotic cell recognition and phagocytosis",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "Pericyte-orchestrated tumor-restraining microenvironment; macrophage-mediated clearance"
+              },
+              {
+                "source_id": "63",
+                "notes": "TREM2 and macrophage polarization affecting apoptotic cell clearance"
+              }
+            ],
+            "genes": [
+              "MERTK"
+            ]
+          },
+          {
+            "name": "Lysosomal protein degradation and antigen processing",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "Programmed cell death pathways and immune cell elimination"
+              }
+            ],
+            "genes": [
+              "CTSB",
+              "LAPTM5"
+            ]
+          },
+          {
+            "name": "Regulation of myeloid cell migration and migration suppression",
+            "citations": [
+              {
+                "source_id": "43",
+                "notes": "RGS proteins as negative regulators of GPCR signaling"
+              }
+            ],
+            "genes": [
+              "RGS1",
+              "RGS10"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Apoptotic cell recognition receptor",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "MERTK in recognition of phosphatidylserine"
+              }
+            ],
+            "genes": [
+              "MERTK"
+            ]
+          },
+          {
+            "name": "Lysosomal compartment and proteolytic machinery",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "Cathepsin enzymes in lysosomal proteolysis"
+              }
+            ],
+            "genes": [
+              "CTSB",
+              "LAPTM5"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced clearance of apoptotic tumor cells and dying immune cells",
+          "Suppression of immunogenic signals from dead cells through apoptotic cell recognition",
+          "Efficient antigen processing and presentation of internalized antigens",
+          "Immune tolerance promotion through MERTK-mediated apoptotic cell clearance",
+          "Regulation of migration intensity through RGS-mediated suppression of chemokine receptor signaling"
+        ],
+        "evidence_summary": "MERTK-mediated recognition of apoptotic cells represents a major anti-inflammatory signal on macrophages, promoting IL-10 production and suppressing pro-inflammatory cytokine secretion. In glioblastoma, high rates of cell death generate abundant apoptotic cells that are efficiently cleared by MERTK-expressing macrophages, thereby suppressing immunogenic cell death signals that would otherwise activate anti-tumor immunity. This process paradoxically supports tumor progression by removing death-associated danger signals. The presence of cathepsin B and lysosomal trafficking proteins suggests that glioblastoma-associated macrophages maintain robust degradative capacity for both phagocytosed pathogens and damaged tissues, contributing to tissue remodeling and angiogenic activities within tumors.",
+        "significance_score": 0.65,
+        "citations": [
+          {
+            "source_id": "31",
+            "notes": "Macrophage-mediated immune tolerance through apoptotic cell clearance"
+          },
+          {
+            "source_id": "51",
+            "notes": "Programmed cell death pathways and immune cell fate"
+          }
+        ],
+        "supporting_genes": [
+          "MERTK",
+          "CTSB",
+          "LAPTM5",
+          "CD53",
+          "RGS1",
+          "RGS10",
+          "SCIN"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "TAM receptors (AXL, TYRO3)",
+            "Gas6",
+            "Protein S",
+            "Cathepsins L, S, K",
+            "Lysosomal hydrolases"
+          ],
+          "citations": [
+            {
+              "source_id": "31",
+              "notes": "TAM receptor signaling in macrophage biology"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Pathway databases (KEGG, Reactome)",
+        "Co-citation analysis of gene functions in glioblastoma and immune cell biology",
+        "Literature review of myeloid cell programs in CNS pathology",
+        "Spatial transcriptomic studies of glioblastoma microenvironment",
+        "Gene ontology and functional annotation"
+      ],
+      "notes": "Gene programs were identified through systematic analysis of the provided gene list in the context of astrocytoma and glioblastoma-associated immune cell biology. Programs were defined as clusters of genes whose products participate in coordinated biological processes or cellular states. Each program was anchored in established literature demonstrating roles in normal myeloid cell physiology or dysregulated function in glioblastoma. The ranking reflects both the completeness of the pathway within the provided gene list and the strength of evidence from multiple independent studies."
+    },
+    "version": "1.0"
+  }
+}

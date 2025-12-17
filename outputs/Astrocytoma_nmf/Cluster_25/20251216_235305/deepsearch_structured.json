@@ -1,0 +1,1785 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T23:58:08.130216",
+    "genes": [
+      "ITGA4",
+      "GZMB",
+      "LCP1",
+      "LCK",
+      "KLRC1",
+      "JAML",
+      "ITK",
+      "ITGAL",
+      "AC004687.1",
+      "INPP5D",
+      "IL7R",
+      "IL2RG",
+      "IKZF3",
+      "IKZF1",
+      "GZMK",
+      "GZMH",
+      "GRAP2",
+      "LINC00426",
+      "GPR174",
+      "GNLY",
+      "GIMAP7",
+      "FYB1",
+      "FLI1",
+      "EMB",
+      "DOCK8",
+      "DOCK2",
+      "CYTIP",
+      "CTSW",
+      "CRYBG1",
+      "CORO1A",
+      "CD7",
+      "CD69",
+      "LCP2",
+      "LINC01871",
+      "CD48",
+      "SLAMF6",
+      "TXK",
+      "TRG-AS1",
+      "TRBC2",
+      "TRBC1",
+      "TRAF3IP3",
+      "TRAC",
+      "TNIP3",
+      "TNFSF8",
+      "TMC8",
+      "THEMIS",
+      "TC2N",
+      "SYTL3",
+      "STAT4",
+      "SLFN12L",
+      "SLAMF1",
+      "PARP15",
+      "SKAP1",
+      "SCML4",
+      "RUNX3",
+      "RHOH",
+      "RCSD1",
+      "PYHIN1",
+      "PTPRC",
+      "PTPN22",
+      "PTGDR",
+      "PRKCH",
+      "PRKCB",
+      "PRF1",
+      "PPP1R16B",
+      "PARP8",
+      "CD53",
+      "ZNF831",
+      "ARHGAP15",
+      "AREG",
+      "AC079793.1",
+      "AC010609.1",
+      "CD2",
+      "AOAH",
+      "CD3G",
+      "CCL5",
+      "ARHGDIB",
+      "CARD11",
+      "CD3E",
+      "CD3D",
+      "CD247",
+      "SAMD3",
+      "AKNA",
+      "BATF",
+      "ITGA1",
+      "BCL2",
+      "IL32",
+      "BIN2",
+      "IL2RB",
+      "SPN",
+      "SLFN13",
+      "IL10RA",
+      "GZMA",
+      "ATP2A3",
+      "IFNG-AS1",
+      "ICOS",
+      "SIDT1",
+      "SLA",
+      "NCR1",
+      "HCST",
+      "ACAP1",
+      "IL18R1",
+      "RAB11FIP1",
+      "ITM2A",
+      "PIK3R5",
+      "NKG7",
+      "NLRC3",
+      "P2RY10",
+      "P2RY8",
+      "MCTP2",
+      "PCED1B-AS1",
+      "PDCD1",
+      "LTB",
+      "LSP1",
+      "PIK3CD",
+      "LINC01934",
+      "RASAL3",
+      "LINC00861",
+      "ARHGAP25",
+      "ARHGAP30",
+      "PTPN7",
+      "KLRK1",
+      "KLRD1",
+      "KLRC4",
+      "KLRC2",
+      "AC243960.1",
+      "RAC2",
+      "GIMAP5",
+      "NCKAP1L",
+      "TRAT1",
+      "FCRL6",
+      "DUSP2",
+      "TMEM200A",
+      "TNFAIP8",
+      "CLIC5",
+      "ETS1",
+      "CXCR4",
+      "AC006369.1",
+      "CD96",
+      "CD8B",
+      "TESPA1",
+      "TRGC2",
+      "TES",
+      "AC243829.1",
+      "CD244",
+      "ZAP70",
+      "DENND2D",
+      "CD52",
+      "CD55",
+      "TBC1D10C",
+      "AC024028.1",
+      "CYTH4",
+      "CD6",
+      "CD70",
+      "FGD3",
+      "CST7",
+      "AC013437.1",
+      "PTK2B",
+      "TRPM2",
+      "ALOX5",
+      "PSTPIP1",
+      "AL157402.2",
+      "AL603839.3",
+      "PRKCQ",
+      "PRKY",
+      "AL590764.1",
+      "PRKCQ-AS1",
+      "TREM2",
+      "AC009432.2",
+      "TAGAP",
+      "ALOX5AP",
+      "PDE3B",
+      "NLRP1",
+      "OLR1",
+      "ZBP1",
+      "APOC2",
+      "PARVG",
+      "PCED1B",
+      "WDFY4",
+      "VSIG4",
+      "PHACTR2",
+      "TYMP",
+      "PIK3AP1",
+      "VAV1",
+      "PIK3CG",
+      "UBASH3A",
+      "PLD4",
+      "PLXDC2",
+      "APOBEC3G",
+      "APBB1IP",
+      "TYROBP",
+      "RGS1",
+      "AC022126.1",
+      "SIRPB2",
+      "ADGRE5",
+      "AC124014.1",
+      "ACSL5",
+      "TFEC",
+      "SLAMF7",
+      "SLC11A1"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_25/20251216_235305/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_25",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "title": "Gene Program Functional Analysis: Lymphocyte Biology in Astrocytoma",
+    "description": "Comprehensive literature-based functional analysis identifying ten gene programs relevant to immune surveillance and anti-tumor immunity in astrocytoma. Programs range from basic TCR signaling to complex ecosystem of checkpoint regulation and lymphocyte trafficking.",
+    "type": "object",
+    "version": "1.0.0",
+    "context": {
+      "cell_type": "Lymphocytes (CD8+ T cells, CD4+ T cells, NK cells, B cells)",
+      "disease": "Astrocytoma",
+      "tissue": "Brain, central nervous system"
+    },
+    "input_genes": [
+      "ITGA4",
+      "GZMB",
+      "LCP1",
+      "LCK",
+      "KLRC1",
+      "JAML",
+      "ITK",
+      "ITGAL",
+      "AC004687.1",
+      "INPP5D",
+      "IL7R",
+      "IL2RG",
+      "IKZF3",
+      "IKZF1",
+      "GZMK",
+      "GZMH",
+      "GRAP2",
+      "LINC00426",
+      "GPR174",
+      "GNLY",
+      "GIMAP7",
+      "FYB1",
+      "FLI1",
+      "EMB",
+      "DOCK8",
+      "DOCK2",
+      "CYTIP",
+      "CTSW",
+      "CRYBG1",
+      "CORO1A",
+      "CD7",
+      "CD69",
+      "LCP2",
+      "LINC01871",
+      "CD48",
+      "SLAMF6",
+      "TXK",
+      "TRG-AS1",
+      "TRBC2",
+      "TRBC1",
+      "TRAF3IP3",
+      "TRAC",
+      "TNIP3",
+      "TNFSF8",
+      "TMC8",
+      "THEMIS",
+      "TC2N",
+      "SYTL3",
+      "STAT4",
+      "SLFN12L",
+      "SLAMF1",
+      "PARP15",
+      "SKAP1",
+      "SCML4",
+      "RUNX3",
+      "RHOH",
+      "RCSD1",
+      "PYHIN1",
+      "PTPRC",
+      "PTPN22",
+      "PTGDR",
+      "PRKCH",
+      "PRKCB",
+      "PRF1",
+      "PPP1R16B",
+      "PARP8",
+      "CD53",
+      "ZNF831",
+      "ARHGAP15",
+      "AREG",
+      "AC079793.1",
+      "AC010609.1",
+      "CD2",
+      "AOAH",
+      "CD3G",
+      "CCL5",
+      "ARHGDIB",
+      "CARD11",
+      "CD3E",
+      "CD3D",
+      "CD247",
+      "SAMD3",
+      "AKNA",
+      "BATF",
+      "ITGA1",
+      "BCL2",
+      "IL32",
+      "BIN2",
+      "IL2RB",
+      "SPN",
+      "SLFN13",
+      "IL10RA",
+      "GZMA",
+      "ATP2A3",
+      "IFNG-AS1",
+      "ICOS",
+      "SIDT1",
+      "SLA",
+      "NCR1",
+      "HCST",
+      "ACAP1",
+      "IL18R1",
+      "RAB11FIP1",
+      "ITM2A",
+      "PIK3R5",
+      "NKG7",
+      "NLRC3",
+      "P2RY10",
+      "P2RY8",
+      "MCTP2",
+      "PCED1B-AS1",
+      "PDCD1",
+      "LTB",
+      "LSP1",
+      "PIK3CD",
+      "LINC01934",
+      "RASAL3",
+      "LINC00861",
+      "ARHGAP25",
+      "ARHGAP30",
+      "PTPN7",
+      "KLRK1",
+      "KLRD1",
+      "KLRC4",
+      "KLRC2",
+      "AC243960.1",
+      "RAC2",
+      "GIMAP5",
+      "NCKAP1L",
+      "TRAT1",
+      "FCRL6",
+      "DUSP2",
+      "TMEM200A",
+      "TNFAIP8",
+      "CLIC5",
+      "ETS1",
+      "CXCR4",
+      "AC006369.1",
+      "CD96",
+      "CD8B",
+      "TESPA1",
+      "TRGC2",
+      "TES",
+      "AC243829.1",
+      "CD244",
+      "ZAP70",
+      "DENND2D",
+      "CD52",
+      "CD55",
+      "TBC1D10C",
+      "AC024028.1",
+      "CYTH4",
+      "CD6",
+      "CD70",
+      "FGD3",
+      "CST7",
+      "AC013437.1",
+      "PTK2B",
+      "TRPM2",
+      "ALOX5",
+      "PSTPIP1",
+      "AL157402.2",
+      "AL603839.3",
+      "PRKCQ",
+      "PRKY",
+      "AL590764.1",
+      "PRKCQ-AS1",
+      "TREM2",
+      "AC009432.2",
+      "TAGAP",
+      "ALOX5AP",
+      "PDE3B",
+      "NLRP1",
+      "OLR1",
+      "ZBP1",
+      "APOC2",
+      "PARVG",
+      "PCED1B",
+      "WDFY4",
+      "VSIG4",
+      "PHACTR2",
+      "TYMP",
+      "PIK3AP1",
+      "VAV1",
+      "PIK3CG",
+      "UBASH3A",
+      "PLD4",
+      "PLXDC2",
+      "APOBEC3G",
+      "APBB1IP",
+      "TYROBP",
+      "RGS1",
+      "AC022126.1",
+      "SIRPB2",
+      "ADGRE5",
+      "AC124014.1",
+      "ACSL5",
+      "TFEC",
+      "SLAMF7",
+      "SLC11A1"
+    ],
+    "programs": [
+      {
+        "program_name": "T Cell Receptor Signal Transduction",
+        "description": "Complete molecular machinery for TCR recognition of cognate peptide-MHC complexes and initiation of downstream signaling cascades. TCR complex (CD3D, CD3E, CD3G, CD247, TRAC, TRBC1, TRBC2) directly recognizes antigen; Src family kinase LCK and Syk family kinase ZAP70 phosphorylate ITAM motifs and recruit downstream effectors including adaptor proteins and kinases. Signaling integrates through MAPK/ERK, PI3K/AKT, and NF-κB pathways. Signal termination mediated by phosphatases including PTPN22 and PTPN7. In astrocytoma context, TCR signaling intensity and duration determine T cell differentiation fate.",
+        "atomic_biological_processes": [
+          {
+            "name": "Antigen recognition and TCR engagement",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "CD3 complex structure and ITAM motifs"
+              },
+              {
+                "source_id": "11",
+                "notes": "CD3 delta subunit role in TCR development and signal transduction"
+              }
+            ],
+            "genes": [
+              "CD3D",
+              "CD3E",
+              "CD3G",
+              "CD247",
+              "TRAC",
+              "TRBC1",
+              "TRBC2"
+            ]
+          },
+          {
+            "name": "Proximal kinase activation",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "LCK proto-oncogene Src family tyrosine kinase in T cell activation"
+              },
+              {
+                "source_id": "45",
+                "notes": "ZAP70 T cell kinase role in lymphocyte activation"
+              }
+            ],
+            "genes": [
+              "LCK",
+              "ZAP70"
+            ]
+          },
+          {
+            "name": "Signal amplification through phospholipid metabolism",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "PIK3CG phosphatidylinositol kinase in immune response"
+              },
+              {
+                "source_id": "40",
+                "notes": "PIK3CA catalytic subunit role in cell signaling"
+              }
+            ],
+            "genes": [
+              "PIK3CG",
+              "PIK3CD",
+              "PIK3AP1",
+              "PIK3R5"
+            ]
+          },
+          {
+            "name": "NF-κB pathway activation",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "BCL10 immune signaling adaptor in NF-kappaB activation"
+              },
+              {
+                "source_id": "44",
+                "notes": "CARD11 caspase recruitment domain role in T-cell receptor signaling"
+              }
+            ],
+            "genes": [
+              "CARD11",
+              "BCL10"
+            ]
+          },
+          {
+            "name": "Signal termination and negative feedback",
+            "citations": [
+              {
+                "source_id": "54",
+                "notes": "INPP5D phosphatase role in immune response regulation"
+              },
+              {
+                "source_id": "67",
+                "notes": "PTPN6 protein tyrosine phosphatase in T cell regulation"
+              }
+            ],
+            "genes": [
+              "INPP5D",
+              "PTPN22",
+              "PTPN7",
+              "PTPN6"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "T cell receptor complex",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "CD3 gamma and delta subunits evolved to optimize TCR activation"
+              },
+              {
+                "source_id": "11",
+                "notes": "CD3 delta subunit part of TCR/CD3 complex"
+              }
+            ],
+            "genes": [
+              "CD3D",
+              "CD3E",
+              "CD3G",
+              "CD247"
+            ]
+          },
+          {
+            "name": "Src kinase family members",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "LCK proto-oncogene Src family tyrosine kinase"
+              }
+            ],
+            "genes": [
+              "LCK"
+            ]
+          },
+          {
+            "name": "Signalosome assembly components",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "ZAP70 kinase clustering-dependent signaling switch"
+              }
+            ],
+            "genes": [
+              "ZAP70",
+              "CARD11",
+              "BCL10"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced T cell recognition of tumor-associated antigens presented on MHC molecules",
+          "Sustained proliferation and differentiation of tumor-specific T cell clones upon antigen encounter",
+          "Integration of co-stimulatory and co-inhibitory signals determining T cell developmental fate",
+          "Generation of both long-lived tumor-specific memory T cells and short-lived effector cells",
+          "Activation of transcriptional programs encoding cytotoxic effector molecules and cytokines"
+        ],
+        "evidence_summary": "The complete TCR signaling cascade is essential for T cell activation and is extensively characterized in both physiological contexts and tumor microenvironments. LCK and ZAP70 represent critical early events in TCR signal initiation, with rapid kinase activation and trans-phosphorylation driving recruitment of downstream effectors. The presence of phosphatases including PTPN22 enables precise tuning of signal intensity, preventing excessive or insufficient immune activation. In astrocytoma microenvironments, integration of TCR signals with co-stimulatory signals and checkpoint molecules determines whether T cells mount productive anti-tumor responses or undergo functional exhaustion and apoptosis.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "8",
+            "notes": "CD3 complex and TCR structure"
+          },
+          {
+            "source_id": "11",
+            "notes": "CD3D in T cell development and signal transduction"
+          },
+          {
+            "source_id": "30",
+            "notes": "PD-1 axis maintaining stem-like CD8+ T cells with active TCR signaling"
+          },
+          {
+            "source_id": "45",
+            "notes": "ZAP70 T cell kinase role"
+          },
+          {
+            "source_id": "62",
+            "notes": "Guidelines for T cell nomenclature"
+          },
+          {
+            "source_id": "63",
+            "notes": "T cell differentiation antigens and cytotoxic function"
+          }
+        ],
+        "supporting_genes": [
+          "CD247",
+          "CD3D",
+          "CD3E",
+          "CD3G",
+          "TRAC",
+          "TRBC1",
+          "TRBC2",
+          "LCK",
+          "ZAP70",
+          "PTPN22",
+          "PTPN7",
+          "PIK3CG",
+          "PIK3CD",
+          "INPP5D",
+          "CARD11",
+          "BCL10",
+          "PRKCB",
+          "PRKCQ",
+          "IKZF1",
+          "IKZF3"
+        ]
+      },
+      {
+        "program_name": "Lymphocyte Trafficking and Extravasation",
+        "description": "Comprehensive adhesion molecules, chemokine receptors, and accessory proteins enabling lymphocytes to exit secondary lymphoid organs, migrate through blood, cross the blood-brain barrier, and infiltrate astrocytoma parenchyma. Integrins including α4β1 (VLA-4, encoded by ITGA4 and ITGB1) and αLβ2 (LFA-1, encoded by ITGAL and ITGB2) mediate initial rolling and firm adhesion to endothelial cells expressing VCAM-1 and ICAM-1. Chemokine receptors including CXCR4 respond to chemokine gradients produced by tumor cells and stromal cells. This program is essential for transforming systemic anti-tumor immunity into local tumor-infiltrating lymphocyte responses.",
+        "atomic_biological_processes": [
+          {
+            "name": "Integrin-mediated cell adhesion and extravasation",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "SIRPA signal regulatory protein alpha in cell adhesion"
+              },
+              {
+                "source_id": "10",
+                "notes": "Integrin alpha 4 mediates cell adhesion and differentiation"
+              }
+            ],
+            "genes": [
+              "ITGA4",
+              "ITGAL",
+              "ITGA1"
+            ]
+          },
+          {
+            "name": "Chemokine receptor signaling and migration",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "CXCL12 and integrin signaling in lymphocyte trafficking"
+              }
+            ],
+            "genes": [
+              "CXCR4",
+              "RGS1"
+            ]
+          },
+          {
+            "name": "Immunoglobulin superfamily adhesion",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "CD3G and CD2 in lymphocyte interactions"
+              }
+            ],
+            "genes": [
+              "CD2",
+              "CD48",
+              "CD6"
+            ]
+          },
+          {
+            "name": "Lymphocyte-specific protein regulation of cell migration",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "LSP1 regulates lymphocyte cell migration and adhesion"
+              },
+              {
+                "source_id": "49",
+                "notes": "PECAM-1 expression relates to lymphocyte transendothelial migration"
+              }
+            ],
+            "genes": [
+              "LSP1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Integrin adhesion molecules",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "SIRPA integrin-related adhesion"
+              }
+            ],
+            "genes": [
+              "ITGA4",
+              "ITGAL",
+              "ITGA1"
+            ]
+          },
+          {
+            "name": "Chemokine receptor complexes",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "Chemokine receptor signaling in lymphocyte networks"
+              }
+            ],
+            "genes": [
+              "CXCR4"
+            ]
+          },
+          {
+            "name": "SLAM family immune synaptic molecules",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "SLAMF receptors in lymphocyte compartmentalization"
+              }
+            ],
+            "genes": [
+              "CD48"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Efficient recruitment of tumor-specific T cells and NK cells into astrocytomas across the blood-brain barrier",
+          "Positioning of immune cells in close anatomical proximity to tumor cells for surveillance and effector functions",
+          "Formation of stable immunological synapses between lymphocytes and antigen-presenting cells in tumor microenvironment",
+          "Continuous adaptation of lymphocyte trafficking responses to tumor-induced changes in chemokine and adhesion molecule expression",
+          "Establishment of specialized niches within tumors supporting long-lived tumor-specific lymphocytes"
+        ],
+        "evidence_summary": "Integrins VLA-4 and LFA-1 are well-established as essential mediators of lymphocyte trafficking into peripheral tissues and into the central nervous system. These integrins are redundantly required for efficient T cell infiltration into brain tissues under inflammatory conditions. CXCR4 and its ligand CXCL12 are critical for both recruitment and retention of lymphocytes in specialized tissue microenvironments. Recent spatial transcriptomics studies have demonstrated that plasma cell retention in non-tumor tissue depends on VLA-4 and LFA-1 interactions with stromal fibroblasts expressing their ligands. LSP1 regulates endothelial PECAM-1 expression and facilitates lymphocyte transendothelial migration. In astrocytomas, this trafficking program determines the density and composition of tumor-infiltrating lymphocytes.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "SIRPA adhesion molecule"
+          },
+          {
+            "source_id": "7",
+            "notes": "Integrin and chemokine signaling in lymphocyte networks within secondary lymphoid organs and tissues"
+          },
+          {
+            "source_id": "10",
+            "notes": "Integrin alpha 4 cell adhesion"
+          },
+          {
+            "source_id": "47",
+            "notes": "LSP1 lymphocyte specific protein in cell migration"
+          },
+          {
+            "source_id": "49",
+            "notes": "PECAM-1 endothelial adhesion molecule in LSP1 deficiency"
+          }
+        ],
+        "supporting_genes": [
+          "ITGA4",
+          "ITGAL",
+          "ITGA1",
+          "CD2",
+          "CD48",
+          "CD6",
+          "CXCR4",
+          "RGS1",
+          "LSP1",
+          "GIMAP5",
+          "GIMAP7"
+        ]
+      },
+      {
+        "program_name": "Cytotoxic Granule-Mediated Killing",
+        "description": "Complete molecular machinery for perforin-granzyme-mediated direct killing of tumor cells by CD8+ T cells and NK cells. Granules containing multiple serine proteases (granzymes A, B, K, H), the pore-forming protein perforin, and cytotoxic lymphocyte-specific granule proteins are secreted and polarized onto target cell membranes following immune synapse formation. Perforin oligomerizes to create pores allowing granzyme entry into target cell cytoplasm. Intracellular granzymes cleave multiple pro-apoptotic substrates and cause caspase-independent programmed cell death. This represents the primary direct mechanism by which infiltrating CD8+ T cells and NK cells eliminate glioma cells.",
+        "atomic_biological_processes": [
+          {
+            "name": "Granule priming and secretory pathway",
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "PRF1 perforin cytotoxic protein production"
+              },
+              {
+                "source_id": "16",
+                "notes": "Gzmb granzyme B in cytotoxic T cell function"
+              }
+            ],
+            "genes": [
+              "PRF1",
+              "GZMA",
+              "GZMB",
+              "GZMK",
+              "GZMH",
+              "GNLY",
+              "CTSW"
+            ]
+          },
+          {
+            "name": "Pore formation and membrane disruption",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "GZMA granzyme A from cytolytic T lymphocytes"
+              },
+              {
+                "source_id": "14",
+                "notes": "PRF1 perforin 1 in NK cell cytotoxicity"
+              }
+            ],
+            "genes": [
+              "PRF1"
+            ]
+          },
+          {
+            "name": "Caspase-independent apoptosis induction",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "GZMB granzyme B induces apoptosis"
+              },
+              {
+                "source_id": "66",
+                "notes": "GZMB cytotoxic CD8+ T cells promote adverse cardiac remodeling"
+              }
+            ],
+            "genes": [
+              "GZMA",
+              "GZMB",
+              "GZMK",
+              "GZMH"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Cytotoxic granules and secretory vesicles",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "GZMA in cytolytic granules"
+              },
+              {
+                "source_id": "16",
+                "notes": "Gzmb in granule secretory pathway"
+              }
+            ],
+            "genes": [
+              "GZMA",
+              "GZMB",
+              "GZMK",
+              "GZMH",
+              "PRF1",
+              "GNLY",
+              "CTSW"
+            ]
+          },
+          {
+            "name": "Cytotoxic lymphocyte effector molecules",
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "PRF1 pore-forming protein in cytotoxic lymphocytes"
+              }
+            ],
+            "genes": [
+              "PRF1",
+              "NKG7"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Direct cytotoxic killing of individual glioma cells engaged with immune cells at tumor-immune interface",
+          "Elimination of tumor cells that have evaded other immune mechanisms including checkpoint-resistant cells",
+          "Generation of tumor cell death signals triggering inflammatory cascades and danger-associated molecular pattern (DAMP) release",
+          "Control of glioma growth rate through continuous cytotoxic assault on malignant cells",
+          "Potential generation of cross-presented tumor antigens amplifying anti-tumor immune responses"
+        ],
+        "evidence_summary": "Perforin and granzymes are the primary effector molecules of cytotoxic T cell and NK cell killing, with extensive experimental evidence demonstrating their necessity for in vivo tumor control. Granzyme B is particularly abundant and strongly associated with CD8+ T cell terminal differentiation and effector function. Multiple granzymes provide substrate specialization and redundancy, ensuring robust killing even if individual proteases are inhibited. Perforin is absolutely required for efficient in vivo killing, and mutations in perforin cause familial hemophagocytic lymphohistiocytosis characterized by severe immunodeficiency. In high-grade gliomas, high expression of perforin and granzymes in tumor-infiltrating lymphocytes is associated with improved survival outcomes.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "13",
+            "notes": "GZMA granzyme A cytolytic function"
+          },
+          {
+            "source_id": "14",
+            "notes": "PRF1 perforin 1 cytotoxicity"
+          },
+          {
+            "source_id": "16",
+            "notes": "Gzmb granzyme B in granule pathway"
+          },
+          {
+            "source_id": "17",
+            "notes": "Prf1 perforin pore-forming protein"
+          },
+          {
+            "source_id": "51",
+            "notes": "GZMB granzyme B in apoptosis"
+          },
+          {
+            "source_id": "66",
+            "notes": "GZMB in cytotoxic CD8 T cells"
+          }
+        ],
+        "supporting_genes": [
+          "GZMA",
+          "GZMB",
+          "GZMK",
+          "GZMH",
+          "PRF1",
+          "GNLY",
+          "CTSW",
+          "NKG7"
+        ]
+      },
+      {
+        "program_name": "Natural Killer Cell Activation and Function",
+        "description": "Comprehensive NK cell-specific receptors, adaptors, and effector molecules enabling recognition and killing of transformed cells through both activating receptor-ligand interactions and antibody-dependent cellular cytotoxicity. Natural killer group 2D (NKG2D, encoded by KLRK1) recognizes MHC class I-related chain molecules (MICA and MICB) that are frequently upregulated on transformed cells including gliomas. Inhibitory receptors including NKG2A (encoded by KLRC1, binding HLA-E) and other killer immunoglobulin-like receptors provide 'missing self' recognition. Balance between activation and inhibition determines whether NK cells mount productive anti-tumor responses or remain quiescent.",
+        "atomic_biological_processes": [
+          {
+            "name": "Activating receptor-ligand recognition",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "KLRC1 killer cell lectin-like receptor in NK cell activity"
+              },
+              {
+                "source_id": "25",
+                "notes": "PRDM1 and NK cell function and development"
+              }
+            ],
+            "genes": [
+              "KLRK1",
+              "NCR1"
+            ]
+          },
+          {
+            "name": "Inhibitory receptor signaling",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "KLRC1 NKG2A inhibitory NK cell receptor"
+              },
+              {
+                "source_id": "56",
+                "notes": "ETS1 NK cell terminal differentiation"
+              }
+            ],
+            "genes": [
+              "KLRC1",
+              "KLRC2",
+              "KLRC4"
+            ]
+          },
+          {
+            "name": "NK cell costimulatory interactions",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "CD244 2B4 NK cell costimulation"
+              }
+            ],
+            "genes": [
+              "CD244"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Activating killer cell receptors",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "KLRC1 in killer cell lectin-like receptors"
+              }
+            ],
+            "genes": [
+              "KLRK1",
+              "NCR1",
+              "HCST"
+            ]
+          },
+          {
+            "name": "Inhibitory killer cell receptors",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "KLRC1 KLRC2 inhibitory NK receptors"
+              }
+            ],
+            "genes": [
+              "KLRC1",
+              "KLRC2",
+              "KLRC4",
+              "KLRD1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Recognition of MHC class I-deficient and MICA/MICB-expressing glioma cells by NK cells",
+          "Elimination of glioma cells that have downregulated MHC class I as an immune evasion mechanism",
+          "Regulation of NK cell activation by tumor cell-derived ligands and stromal cell signals",
+          "Prevention of NK-cell-mediated damage to healthy brain parenchyma through inhibitory receptor signaling",
+          "Contribution to innate anti-tumor immunity preceding and complementing adaptive immune responses"
+        ],
+        "evidence_summary": "NKG2D is a major activating receptor for both NK cells and CD8+ T cells, recognizing stress-inducible ligands MICA and MICB that are frequently upregulated on tumors. Inhibitory NK receptors including NKG2A bind MHC-E and related molecules, providing negative regulation that prevents NK cell activation against healthy cells and preserving brain immune tolerance. NK cells with high expression of activating receptors and low expression of inhibitory receptors show enhanced anti-tumor activity in experimental models. In human gliomas, NK cell infiltration is variable and correlates with overall immune response potential and prognosis.",
+        "significance_score": 0.87,
+        "citations": [
+          {
+            "source_id": "22",
+            "notes": "KLRC1 NK cell receptor"
+          },
+          {
+            "source_id": "25",
+            "notes": "PRDM1 regulatory roles in NK cell development and function"
+          },
+          {
+            "source_id": "31",
+            "notes": "CD244 2B4 NK cell function"
+          },
+          {
+            "source_id": "56",
+            "notes": "ETS1 transcription factor in NK cell development"
+          }
+        ],
+        "supporting_genes": [
+          "KLRK1",
+          "KLRD1",
+          "KLRC1",
+          "KLRC2",
+          "KLRC4",
+          "NKG7",
+          "NCR1",
+          "HCST"
+        ]
+      },
+      {
+        "program_name": "Immune Checkpoint Regulation and T Cell Stemness",
+        "description": "Comprehensive checkpoint molecules (PD-1, CTLA-4, TIGIT) and co-stimulatory molecules (ICOS, CD28) regulating T cell activation state and developmental trajectory. Recent evidence reveals that PD-1 (encoded by PDCD1), rather than universally driving exhaustion, maintains stem-like progenitor CD8+ T cells during active antigen presentation by attenuating strong TCR signaling that would drive terminal differentiation. High-PD-1 CD8+ T cells in tumor-draining lymph nodes retain TCF-1 expression, self-renewal capacity, and proliferative potential critical for tumor control. Checkpoint blockade drives these cells toward terminal differentiation or apoptosis, explaining both efficacy and limitations of checkpoint immunotherapy.",
+        "atomic_biological_processes": [
+          {
+            "name": "Inhibitory checkpoint signaling",
+            "citations": [
+              {
+                "source_id": "30",
+                "notes": "PDCD1 PD-1 maintains high-avidity stem-like CD8+ T cells"
+              },
+              {
+                "source_id": "32",
+                "notes": "Pdcd1 programmed cell death 1 protects liver damage"
+              }
+            ],
+            "genes": [
+              "PDCD1"
+            ]
+          },
+          {
+            "name": "Co-stimulatory signaling",
+            "citations": [
+              {
+                "source_id": "48",
+                "notes": "ICOSL inducible T cell costimulator ligand"
+              },
+              {
+                "source_id": "50",
+                "notes": "ICOS inducible T cell costimulator"
+              }
+            ],
+            "genes": [
+              "ICOS"
+            ]
+          },
+          {
+            "name": "Stem cell-like marker expression and maintenance",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "SLAMF6 marks stem-like progenitor CD8+ T cells"
+              }
+            ],
+            "genes": [
+              "SLAMF6"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Checkpoint receptor complexes",
+            "citations": [
+              {
+                "source_id": "30",
+                "notes": "PD-1 inhibitory receptor on T cells"
+              }
+            ],
+            "genes": [
+              "PDCD1"
+            ]
+          },
+          {
+            "name": "Co-stimulatory receptor complexes",
+            "citations": [
+              {
+                "source_id": "50",
+                "notes": "ICOS co-stimulatory receptor"
+              }
+            ],
+            "genes": [
+              "ICOS"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Maintenance of tumor-specific stem-like CD8+ T cell progenitors during continuous tumor antigen exposure",
+          "Attenuation of TCR signaling intensity to promote stemness over terminal differentiation and exhaustion",
+          "Integration of co-stimulatory signals promoting T cell survival and sustained proliferation",
+          "Coordination of T cell fate decisions with critical checkpoints determining response to checkpoint blockade immunotherapy",
+          "Prevention of unwanted terminal differentiation and apoptosis of most functionally important tumor-specific cells"
+        ],
+        "evidence_summary": "PD-1 engagement by its ligands PD-L1 and PD-L2 suppresses TCR signaling through recruitment of the phosphatase SHP-2. Remarkably, recent high-resolution spatial analysis in tumor-draining lymph nodes revealed that the most PD-1-high stem-like CD8+ T cells are preferentially enriched in late antigen presentation niches with high TCR affinity and active antigen encounter. These cells maintain high expression of TCF-1, SLAMF6, and other stemness markers despite active TCR signaling. PD-1 blockade drives these cells toward terminal effector differentiation with increased granzyme expression but substantially decreased stemness marker expression. In astrocytoma patients, checkpoint blockade efficacy and acquired resistance correlate with pre-treatment maintenance of stem-like T cell populations.",
+        "significance_score": 0.89,
+        "citations": [
+          {
+            "source_id": "15",
+            "notes": "Inhibitory PD-1 axis maintains high-avidity stem-like CD8+ cells"
+          },
+          {
+            "source_id": "21",
+            "notes": "Checkpoint blockade and cellular engineering approaches in cancer"
+          },
+          {
+            "source_id": "30",
+            "notes": "PD-1 checkpoint inhibition disrupts stem cell maintenance"
+          },
+          {
+            "source_id": "32",
+            "notes": "Pdcd1 PD-1 function"
+          }
+        ],
+        "supporting_genes": [
+          "PDCD1",
+          "ICOS",
+          "PTGDR",
+          "SLAMF1",
+          "SLAMF6",
+          "SLAMF7",
+          "CD244",
+          "CD48"
+        ]
+      },
+      {
+        "program_name": "Transcriptional Control of Lymphocyte Differentiation",
+        "description": "Master transcription factors determining lymphocyte lineage identity, differentiation state, and effector function capacity. RUNX3 is master regulator of CD8+ T cell identity, driving expression of cytotoxic molecules while repressing CD4 lineage genes. BATF functions as pioneer transcription factor opening chromatin at activation-associated enhancers during T cell differentiation toward effector states. ETS1 regulates NK cell terminal differentiation and cytotoxic potential. IKZF1 and IKZF3 control lymphocyte development and memory T cell formation. Together, these transcription factors orchestrate transcriptional programs transforming naive lymphocytes into activated effectors capable of eliminating tumor cells.",
+        "atomic_biological_processes": [
+          {
+            "name": "CD8+ T cell lineage specification",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "Runx3 runt related transcription factor regulates CD8 T cell differentiation"
+              }
+            ],
+            "genes": [
+              "RUNX3"
+            ]
+          },
+          {
+            "name": "T cell activation and differentiation",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "Comprehensive characterization of epithelioid glioblastoma"
+              },
+              {
+                "source_id": "15",
+                "notes": "BATF mediates epigenetic control of CD8 T cell differentiation"
+              }
+            ],
+            "genes": [
+              "BATF"
+            ]
+          },
+          {
+            "name": "NK cell terminal differentiation",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "ETS1 transcription factor important in NK cell development and terminal differentiation"
+              }
+            ],
+            "genes": [
+              "ETS1"
+            ]
+          },
+          {
+            "name": "Memory T cell formation and maintenance",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "IKZF3 important for memory T cell formation"
+              },
+              {
+                "source_id": "29",
+                "notes": "IKZF1 transcription factor regulates B lymphocyte proliferation and differentiation"
+              }
+            ],
+            "genes": [
+              "IKZF1",
+              "IKZF3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "RUNX family transcription factors",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "Runx3 runt related transcription factor"
+              }
+            ],
+            "genes": [
+              "RUNX3"
+            ]
+          },
+          {
+            "name": "AP-1 family transcription factors",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "BATF basic leucine zipper AP-1 factor"
+              }
+            ],
+            "genes": [
+              "BATF"
+            ]
+          },
+          {
+            "name": "ETS family transcription factors",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "ETS1 ETS proto-oncogene transcription factor"
+              }
+            ],
+            "genes": [
+              "ETS1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Establishment and maintenance of CD8+ T cell identity in face of tumor microenvironment-induced plasticity",
+          "Rapid upregulation of cytotoxic effector genes (granzymes, perforin, NKG7) upon tumor antigen encounter",
+          "Opening of chromatin at activation-associated enhancers enabling rapid transcriptional responses to tumor signals",
+          "Integration of developmental signals with tumor microenvironment cues determining immune response trajectory",
+          "Prevention of inappropriate lineage switching or exhaustion during prolonged tumor antigen exposure"
+        ],
+        "evidence_summary": "RUNX3 is absolutely required for CD8+ T cell development and function, with RUNX3-deficient mice showing complete loss of mature CD8+ T cells despite intact thymic development. BATF functions as pioneer transcription factor, binding to initially closed chromatin regions and recruiting histone acetylases to establish active chromatin landscapes permissive for effector gene expression. ETS1 is essential for NK cell development, with conditional knockout in NK lineage cells resulting in severe NK cell deficiencies. IKZF1 is critical for early T cell development in thymus, while IKZF3 (Aiolos) functions in B cell development and has recently been identified as key regulator of memory T cell formation and survival.",
+        "significance_score": 0.86,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Key regulatory roles of PRDM1 in human NK cell development"
+          },
+          {
+            "source_id": "27",
+            "notes": "Runx3 runt related transcription factor"
+          },
+          {
+            "source_id": "28",
+            "notes": "Gata3 GATA binding protein T cell regulation"
+          },
+          {
+            "source_id": "29",
+            "notes": "IKZF1 IKAROS family zinc finger"
+          },
+          {
+            "source_id": "56",
+            "notes": "ETS1 transcription factor in NK cell development"
+          }
+        ],
+        "supporting_genes": [
+          "RUNX3",
+          "BATF",
+          "ETS1",
+          "IKZF1",
+          "IKZF3"
+        ]
+      },
+      {
+        "program_name": "Immune Synapse Assembly and Co-signaling",
+        "description": "SLAM family receptors and other cell-cell adhesion molecules mediating formation of immune synapses between T cells and dendritic cells, T cells and B cells, and T cells with tumor cells. SLAMF6 marks stem-like CD8+ T progenitors and mediates signaling critical for maintenance of T cell stemness during active antigen presentation. SLAMF1 and SLAMF7 mediate lymphocyte-dendritic cell and T-B cell cooperation. CD244 (2B4) mediates NK cell co-stimulation through interaction with CD48 on target cells. CD2 binds CD58 on antigen-presenting cells. These interactions provide both adhesive forces maintaining cell-cell contact and bi-directional signaling regulating lymphocyte activation and differentiation.",
+        "atomic_biological_processes": [
+          {
+            "name": "SLAM receptor-mediated signaling",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "Lymphocyte networks in secondary lymphoid organs"
+              },
+              {
+                "source_id": "15",
+                "notes": "SLAMF6+ T SL cells uniquely localized to antigen-draining lymph node"
+              }
+            ],
+            "genes": [
+              "SLAMF1",
+              "SLAMF6",
+              "SLAMF7",
+              "CD244"
+            ]
+          },
+          {
+            "name": "Immunoglobulin superfamily cell-cell adhesion",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "SIRPA signal regulatory protein"
+              },
+              {
+                "source_id": "8",
+                "notes": "CD3G in T cell receptor complex"
+              }
+            ],
+            "genes": [
+              "CD2",
+              "CD48",
+              "CD6"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "SLAM family receptor complexes",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "SLAMF and lymphocyte networks"
+              },
+              {
+                "source_id": "31",
+                "notes": "CD244 2B4 in NK cells"
+              }
+            ],
+            "genes": [
+              "SLAMF1",
+              "SLAMF6",
+              "SLAMF7",
+              "CD244"
+            ]
+          },
+          {
+            "name": "Immune synapse scaffolding",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "Immune synapse formation with dendritic cells"
+              }
+            ],
+            "genes": [
+              "CD2",
+              "CD48",
+              "CD6"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Formation of stable immune synapses enabling prolonged antigen recognition and sustained TCR signaling",
+          "Bi-directional communication between immune cells coordinating multi-cellular anti-tumor responses",
+          "Maintenance of stem-like T cell progenitors through SLAMF6-mediated signaling despite active TCR engagement",
+          "Enhancement of NK cell killing through CD244-CD48 co-stimulatory interactions with tumor and stromal cells",
+          "Facilitation of T-B cell cooperation generating both cellular and humoral anti-tumor immunity"
+        ],
+        "evidence_summary": "SLAMF6 has been recently identified as definitive marker of stem-like CD8+ T cells in tumor-draining lymph nodes, with high SLAMF6 expression strongly correlating with TCF-1 expression and proliferative capacity. SLAMF receptors function as switchable receptors capable of delivering either activating or inhibitory signals depending on co-receptor engagement and signaling context. CD244 (2B4) enhances NK cell killing through co-engagement with primary activating receptors on both tumor cells and NK cells. The SLAM family represents critical interface for lymphocyte-lymphocyte and lymphocyte-dendritic cell communication enabling coordinated immune responses.",
+        "significance_score": 0.84,
+        "citations": [
+          {
+            "source_id": "7",
+            "notes": "Lymphocyte networks and SLAMF signaling"
+          },
+          {
+            "source_id": "15",
+            "notes": "SLAMF6 in stem-like CD8 T cell pools"
+          },
+          {
+            "source_id": "30",
+            "notes": "SLAMF6 and high-avidity stem-like CD8 cells"
+          },
+          {
+            "source_id": "31",
+            "notes": "CD244 2B4 costimulation"
+          },
+          {
+            "source_id": "51",
+            "notes": "CD244 in T cell killing"
+          }
+        ],
+        "supporting_genes": [
+          "SLAMF1",
+          "SLAMF6",
+          "SLAMF7",
+          "CD244",
+          "CD48",
+          "CD2",
+          "CD6"
+        ]
+      },
+      {
+        "program_name": "Phosphatidylinositol Signaling and Lipid Metabolism",
+        "description": "Enzymes controlling phosphatidylinositol lipid metabolism serving as molecular platform for plasma membrane signaling complexes and organellar membrane dynamics. Class I and Class II PI3K isoforms (PIK3CG encoding Class IB p110γ, PIK3CD encoding Class IA p110δ) generate phosphatidylinositol-3,4,5-trisphosphate in response to TCR signaling and cytokine receptor engagement. INPP5D (SHIP-1) terminates PI3K signaling through dephosphorylation of this key lipid. These lipid species recruit pleckstrin homology domain-containing proteins including AKT and PDK1 to specific membrane regions, enabling kinase activation and downstream signaling. Dysregulation of this pathway is implicated in lymphocyte dysfunction and lymphoid malignancies.",
+        "atomic_biological_processes": [
+          {
+            "name": "Phosphatidylinositol 3-kinase signaling",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "PIK3CG phosphatidylinositol 3-kinase in immune response"
+              },
+              {
+                "source_id": "40",
+                "notes": "PIK3CA catalytic subunit phosphorylates inositol lipids"
+              }
+            ],
+            "genes": [
+              "PIK3CG",
+              "PIK3CD"
+            ]
+          },
+          {
+            "name": "Phosphatidylinositol phosphatase signaling termination",
+            "citations": [
+              {
+                "source_id": "54",
+                "notes": "INPP5D inositol polyphosphate phosphatase"
+              }
+            ],
+            "genes": [
+              "INPP5D"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "PI3K catalytic subunits",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "PIK3CG Class I phosphoinositide 3-kinase"
+              },
+              {
+                "source_id": "40",
+                "notes": "PIK3CA catalytic subunit"
+              }
+            ],
+            "genes": [
+              "PIK3CG",
+              "PIK3CD"
+            ]
+          },
+          {
+            "name": "PI3K regulatory subunits and adaptors",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "PI3K regulatory subunits"
+              }
+            ],
+            "genes": [
+              "PIK3AP1",
+              "PIK3R5"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced PI3K/AKT signaling in response to TCR and cytokine receptor engagement",
+          "Appropriate termination of PI3K signaling preventing excessive uncontrolled lymphocyte activation",
+          "Generation of docking sites for signaling proteins including AKT, Btk, and phospholipase C-gamma",
+          "Control of lymphocyte proliferation, survival, and differentiation through lipid-dependent mechanisms",
+          "Integration of multiple signaling inputs through lipid platform assembly at membranes"
+        ],
+        "evidence_summary": "Class I PI3K generates PIP3 at plasma membrane and on endosomal membranes, recruiting proteins with pleckstrin homology domains including AKT and PDK1. INPP5D (SHIP-1) is essential for immune homeostasis, with SHIP-1-deficient mice showing severe autoimmunity and enhanced immune activation due to inability to terminate PI3K signaling. PI3K signaling is hyperactivated in certain T cell lymphomas and promotes lymphomagenesis and resistance to checkpoint blockade. In normal T cells, balance between PI3K activation and INPP5D-mediated termination determines magnitude and duration of proliferative signals.",
+        "significance_score": 0.81,
+        "citations": [
+          {
+            "source_id": "38",
+            "notes": "PIK3CG in immune response"
+          },
+          {
+            "source_id": "40",
+            "notes": "PIK3CA phosphatidylinositol kinase"
+          },
+          {
+            "source_id": "54",
+            "notes": "INPP5D phosphatase in immune regulation"
+          }
+        ],
+        "supporting_genes": [
+          "PIK3CG",
+          "PIK3CD",
+          "PIK3AP1",
+          "PIK3R5",
+          "INPP5D"
+        ]
+      },
+      {
+        "program_name": "RhoGTPase Regulation and Actin Dynamics",
+        "description": "Rho family GTPases and their regulators (GAPs, GEFs) controlling actin polymerization at immune synapse and during lymphocyte migration through tissue. RAC GTPases regulate assembly of dense actin scaffold at interface between lymphocytes and target cells, essential for stable immune synapse formation, efficient TCR signaling, and directed granule secretion. RHOH provides RAC-independent mechanisms of TCR signaling regulation. ARHGAP family proteins terminate RAC and RHO signaling through GTPase-activating function, providing negative feedback. Balance between RAC activation and ARHGAP-mediated termination determines immune synapse stability and duration.",
+        "atomic_biological_processes": [
+          {
+            "name": "Actin polymerization at immune synapse",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "RAC1 Rac family small GTPase in cell migration"
+              },
+              {
+                "source_id": "37",
+                "notes": "Astrocyte activation and immune signaling pathways"
+              }
+            ],
+            "genes": [
+              "RAC2",
+              "RHOH"
+            ]
+          },
+          {
+            "name": "Lymphocyte migration through brain tissue",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "RAC GTPase regulation of cell migration"
+              }
+            ],
+            "genes": [
+              "RAC2",
+              "ARHGAP15",
+              "ARHGAP25",
+              "ARHGAP30"
+            ]
+          },
+          {
+            "name": "GTPase-activating protein signaling",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "RAC1 GTPase function"
+              }
+            ],
+            "genes": [
+              "ARHGAP15",
+              "ARHGAP25",
+              "ARHGAP30"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Rho family GTPases",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "RAC1 small GTPase"
+              }
+            ],
+            "genes": [
+              "RAC2",
+              "RHOH"
+            ]
+          },
+          {
+            "name": "RhoGTPase-activating proteins",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ARHGAP proteins regulate GTPases"
+              }
+            ],
+            "genes": [
+              "ARHGAP15",
+              "ARHGAP25",
+              "ARHGAP30"
+            ]
+          },
+          {
+            "name": "Actin regulatory proteins",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "Cytoskeletal dynamics in cell migration"
+              }
+            ],
+            "genes": [
+              "CORO1A",
+              "CYTIP"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Rapid actin polymerization at immune synapses enabling stable lymphocyte-tumor cell contacts and TCR signaling",
+          "Facilitation of granule polarization and directional secretion of cytotoxic mediators toward target cells",
+          "Enhanced lymphocyte migration through dense brain tissue toward glioma cells",
+          "Adaptation of actin dynamics to changing immune synapse formation requirements during prolonged activation",
+          "Prevention of excessive actin dynamics that could disrupt synapse stability or cellular integrity"
+        ],
+        "evidence_summary": "RAC GTPases are essential for immune synapse formation and TCR signaling, with RAC-deficient T cells showing severe impairment in TCR-induced calcium flux and IL-2 production. RHOH regulates LAT complex assembly independent of RAC, providing redundancy in TCR signaling and ensuring robust responses to antigen. The ARHGAP family proteins provide negative feedback on Rho GTPase signaling, with dysregulation implicated in immunodeficiencies and autoimmune diseases. Actin dynamics are particularly important in central nervous system where lymphocytes must navigate through dense, highly structured brain parenchyma and maintain synapses on glioma cells.",
+        "significance_score": 0.79,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "RAC1 and ARHGAP regulation"
+          },
+          {
+            "source_id": "37",
+            "notes": "Astrocyte activation and cell signaling"
+          },
+          {
+            "source_id": "55",
+            "notes": "Ets1 transcription factor in immune regulation"
+          }
+        ],
+        "supporting_genes": [
+          "RAC2",
+          "RHOH",
+          "ARHGAP15",
+          "ARHGAP25",
+          "ARHGAP30",
+          "CORO1A",
+          "CYTIP"
+        ]
+      },
+      {
+        "program_name": "Cytokine Receptor Signaling and Lymphocyte Survival",
+        "description": "Receptors for interleukins critical for lymphocyte development, expansion, and survival, including IL-2, IL-7, IL-15, IL-18. IL2RB and IL2RG form part of high-affinity IL-2 receptor promoting T cell proliferation and activation. IL7R signaling is essential for maintenance of naive T cell pools and memory T cell survival through homeostatic proliferation. IL18R1 enables response to IL-18, pro-inflammatory cytokine promoting IFN-γ production in T cells and NK cells. Collectively, these signaling pathways provide survival and expansion signals that counterbalance terminal differentiation, enabling long-lived anti-tumor immunity.",
+        "atomic_biological_processes": [
+          {
+            "name": "IL-2 receptor signaling and T cell proliferation",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "IL2RA interleukin 2 receptor alpha"
+              },
+              {
+                "source_id": "25",
+                "notes": "Interleukin signaling in NK cell expansion"
+              }
+            ],
+            "genes": [
+              "IL2RB",
+              "IL2RG"
+            ]
+          },
+          {
+            "name": "IL-7 receptor signaling and memory T cell survival",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "IL2RA interleukin receptor complex"
+              }
+            ],
+            "genes": [
+              "IL7R"
+            ]
+          },
+          {
+            "name": "IL-18 receptor signaling and IFN-γ production",
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "IL18 interleukin 18 proinflammatory cytokine"
+              }
+            ],
+            "genes": [
+              "IL18R1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "IL-2 receptor complex",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "IL2RA IL2RB IL2RG receptor chains"
+              }
+            ],
+            "genes": [
+              "IL2RB",
+              "IL2RG"
+            ]
+          },
+          {
+            "name": "IL-7 receptor complex",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "IL7R interleukin 7 receptor"
+              }
+            ],
+            "genes": [
+              "IL7R"
+            ]
+          },
+          {
+            "name": "IL-18 receptor complex",
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "IL18R1 interleukin 18 receptor subunit"
+              }
+            ],
+            "genes": [
+              "IL18R1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "IL-2-driven clonal expansion of tumor-specific T cells following antigen encounter in draining lymph nodes",
+          "IL-7-mediated homeostatic survival of long-lived memory T cells in tumor microenvironment and peripheral tissues",
+          "IL-18-driven IFN-γ production amplifying local inflammatory and anti-tumor responses",
+          "Integration of cytokine signals with TCR signals determining T cell fate toward expansion versus terminal differentiation",
+          "Prevention of lymphocyte apoptosis and maintenance of prolonged anti-tumor immunity"
+        ],
+        "evidence_summary": "IL-2 is critical autocrine and paracrine T cell growth factor promoting both proliferation and terminal differentiation, with balance determined by co-signals and transcription factor activity. IL-7 is constitutively produced by stromal cells and absolutely essential for T cell survival through STAT5 activation, with IL-7 deficiency causing severe T cell lymphopenia. IL-18 synergizes with IL-12 to promote Th1 differentiation and IFN-γ production by both CD4+ and CD8+ T cells and NK cells. In tumors, availability of these cytokines influences sustainability of anti-tumor immune responses and development of durable memory immunity.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "20",
+            "notes": "IL2RA IL7R IL2RG interleukin receptors"
+          },
+          {
+            "source_id": "25",
+            "notes": "IL cytokines in NK cell expansion and function"
+          },
+          {
+            "source_id": "46",
+            "notes": "IL18 proinflammatory cytokine"
+          }
+        ],
+        "supporting_genes": [
+          "IL2RB",
+          "IL2RG",
+          "IL7R",
+          "IL18R1"
+        ]
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Pathway databases (GO, KEGG, Reactome)",
+        "Literature-based functional classification",
+        "Co-expression in lymphocyte populations",
+        "Protein-protein interaction networks",
+        "Shared biological processes and cellular localization"
+      ],
+      "notes": "Programs were derived through systematic literature review of each gene in the input list, identification of common biological processes, and clustering into functionally integrated modules. Programs were validated against recent studies of immune cell biology in gliomas and other brain tumors, with emphasis on checkpoint regulation, lymphocyte trafficking, and cytotoxic function."
+    }
+  }
+}

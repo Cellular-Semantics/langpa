@@ -1,0 +1,2055 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T23:04:55.122394",
+    "genes": [
+      "ADAMTS9",
+      "SLC4A4",
+      "ELOVL2",
+      "CPNE4",
+      "AC092957.1",
+      "TRMT9B",
+      "COL28A1",
+      "LAMA2",
+      "RORA",
+      "CNR1",
+      "AC064875.1",
+      "COL23A1",
+      "POSTN",
+      "TRPM3",
+      "FAT3",
+      "RUBCNL",
+      "ARHGAP26",
+      "ARHGAP18",
+      "SPRY4",
+      "SRPX",
+      "RHOJ",
+      "CCDC175",
+      "CCN4",
+      "KCNE4",
+      "AC092924.2",
+      "SLC8A1-AS1",
+      "ARHGAP6",
+      "SLC1A2",
+      "LINC01949",
+      "RPH3A",
+      "RTN1",
+      "AC109492.1",
+      "LDB2",
+      "SCN7A",
+      "ADAMTS9-AS1",
+      "PTPRG",
+      "DGKG",
+      "PDE3A",
+      "AL356124.1",
+      "PPP2R2B",
+      "FIGN",
+      "ATP13A4",
+      "PALM2-AKAP2",
+      "CHL1",
+      "TENT5A",
+      "ADGRL2",
+      "NOS1AP",
+      "MECOM",
+      "NEAT1",
+      "PCSK5",
+      "AL355306.2",
+      "MED12L",
+      "NOS2",
+      "ARSJ",
+      "AL360178.1",
+      "ARAP2",
+      "NKAIN3",
+      "AL596087.2",
+      "NOVA1",
+      "MYRFL",
+      "ABCA6",
+      "LPL",
+      "GRIK1",
+      "DMD",
+      "ESRRG",
+      "CPEB2",
+      "COL5A2",
+      "FBXL7",
+      "COL25A1",
+      "COL1A2",
+      "CNTNAP3B",
+      "FRMD4B",
+      "CHSY3",
+      "GABRB1",
+      "GALR1",
+      "GAS1",
+      "GPR37",
+      "HIF3A",
+      "LPAR1",
+      "CDK6",
+      "CDH6",
+      "JPH1",
+      "CCDC102B",
+      "CARMIL1",
+      "ABCA8",
+      "KLHL29",
+      "LAMB1",
+      "PDE7B",
+      "LINC01727",
+      "BEST3",
+      "BCAT1",
+      "LINC02300",
+      "LINC02821",
+      "PDE4D",
+      "NPNT",
+      "DCN",
+      "TSHZ2",
+      "ADGRV1",
+      "RGS6",
+      "ROR1",
+      "TMOD1",
+      "ACSS3",
+      "AC124254.2",
+      "RYR3",
+      "SATB2",
+      "TFCP2L1",
+      "TENM4",
+      "TENM1",
+      "SLC1A3",
+      "SLC8A1",
+      "SPATA6",
+      "STARD13",
+      "TRPS1",
+      "TMEM178A",
+      "AC073050.1",
+      "VAV3",
+      "PREX2",
+      "ZNF385D",
+      "PRKG1",
+      "DLG1",
+      "GRIA1",
+      "GRIA4",
+      "GRID2",
+      "DPP4",
+      "HIF1A",
+      "ZEB1",
+      "TAFA1",
+      "HIVEP3",
+      "HTRA1",
+      "HOPX",
+      "THSD7A",
+      "SYBU",
+      "IGF2BP3",
+      "IL1RAP",
+      "INPP4B",
+      "DGKZ",
+      "IQGAP2",
+      "ITPR2",
+      "STIM1",
+      "DENND2A",
+      "TFPI",
+      "FAP",
+      "DPP6",
+      "WIPF3",
+      "FBN1",
+      "TRIO",
+      "TPD52L1",
+      "TPCN1",
+      "EYA2",
+      "ETV1",
+      "TOX",
+      "TNFRSF21",
+      "FGD4",
+      "TNC",
+      "EMP1",
+      "UNC5C",
+      "FKBP5",
+      "FNDC3B",
+      "KCNIP4",
+      "FREM2",
+      "TMEM154",
+      "TMEM108",
+      "YAP1",
+      "FXYD6",
+      "DTNA",
+      "TMCC3",
+      "TLN2",
+      "PDE8B",
+      "STAC",
+      "NR2F2-AS1",
+      "MYBPC1",
+      "ROBO2",
+      "MYO1E",
+      "RMST",
+      "NEO1",
+      "NIBAN1",
+      "RBMS1",
+      "PTPRZ1",
+      "PTPRJ",
+      "PTPN14",
+      "NPAS3",
+      "DCC",
+      "PTN",
+      "RORA-AS1",
+      "NR3C2",
+      "OXR1",
+      "P2RY14",
+      "PARD3B",
+      "PCDH17",
+      "PCDH7",
+      "PCDH9",
+      "PLEKHG1",
+      "PCDH9-AS2",
+      "PLCE1",
+      "PDZD2",
+      "PDGFRA",
+      "MUSK",
+      "MT-ND3",
+      "SPRED1",
+      "LINC02147"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_14/20251216_230012/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_14",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "title": "Gene Program Functional Analysis for Astrocytoma",
+    "description": "Comprehensive literature-based functional analysis of 201 genes in astrocytoma context. Systematically identifies gene programs representing clusters of genes acting in specific pathways, processes, or cellular states dysregulated in astrocytic tumors.",
+    "type": "object",
+    "version": "1.0",
+    "context": {
+      "cell_type": "Astrocytes",
+      "disease": "Astrocytoma",
+      "tissue": "Brain (central nervous system)"
+    },
+    "input_genes": [
+      "ADAMTS9",
+      "SLC4A4",
+      "ELOVL2",
+      "CPNE4",
+      "AC092957.1",
+      "TRMT9B",
+      "COL28A1",
+      "LAMA2",
+      "RORA",
+      "CNR1",
+      "AC064875.1",
+      "COL23A1",
+      "POSTN",
+      "TRPM3",
+      "FAT3",
+      "RUBCNL",
+      "ARHGAP26",
+      "ARHGAP18",
+      "SPRY4",
+      "SRPX",
+      "RHOJ",
+      "CCDC175",
+      "CCN4",
+      "KCNE4",
+      "AC092924.2",
+      "SLC8A1-AS1",
+      "ARHGAP6",
+      "SLC1A2",
+      "LINC01949",
+      "RPH3A",
+      "RTN1",
+      "AC109492.1",
+      "LDB2",
+      "SCN7A",
+      "ADAMTS9-AS1",
+      "PTPRG",
+      "DGKG",
+      "PDE3A",
+      "AL356124.1",
+      "PPP2R2B",
+      "FIGN",
+      "ATP13A4",
+      "PALM2-AKAP2",
+      "CHL1",
+      "TENT5A",
+      "ADGRL2",
+      "NOS1AP",
+      "MECOM",
+      "NEAT1",
+      "PCSK5",
+      "AL355306.2",
+      "MED12L",
+      "NOS2",
+      "ARSJ",
+      "AL360178.1",
+      "ARAP2",
+      "NKAIN3",
+      "AL596087.2",
+      "NOVA1",
+      "MYRFL",
+      "ABCA6",
+      "LPL",
+      "GRIK1",
+      "DMD",
+      "ESRRG",
+      "CPEB2",
+      "COL5A2",
+      "FBXL7",
+      "COL25A1",
+      "COL1A2",
+      "CNTNAP3B",
+      "FRMD4B",
+      "CHSY3",
+      "GABRB1",
+      "GALR1",
+      "GAS1",
+      "GPR37",
+      "HIF3A",
+      "LPAR1",
+      "CDK6",
+      "CDH6",
+      "JPH1",
+      "CCDC102B",
+      "CARMIL1",
+      "ABCA8",
+      "KLHL29",
+      "LAMB1",
+      "PDE7B",
+      "LINC01727",
+      "BEST3",
+      "BCAT1",
+      "LINC02300",
+      "LINC02821",
+      "PDE4D",
+      "NPNT",
+      "DCN",
+      "TSHZ2",
+      "ADGRV1",
+      "RGS6",
+      "ROR1",
+      "TMOD1",
+      "ACSS3",
+      "AC124254.2",
+      "RYR3",
+      "SATB2",
+      "TFCP2L1",
+      "TENM4",
+      "TENM1",
+      "SLC1A3",
+      "SLC8A1",
+      "SPATA6",
+      "STARD13",
+      "TRPS1",
+      "TMEM178A",
+      "AC073050.1",
+      "VAV3",
+      "PREX2",
+      "ZNF385D",
+      "PRKG1",
+      "DLG1",
+      "GRIA1",
+      "GRIA4",
+      "GRID2",
+      "DPP4",
+      "HIF1A",
+      "ZEB1",
+      "TAFA1",
+      "HIVEP3",
+      "HTRA1",
+      "HOPX",
+      "THSD7A",
+      "SYBU",
+      "IGF2BP3",
+      "IL1RAP",
+      "INPP4B",
+      "DGKZ",
+      "IQGAP2",
+      "ITPR2",
+      "STIM1",
+      "DENND2A",
+      "TFPI",
+      "FAP",
+      "DPP6",
+      "WIPF3",
+      "FBN1",
+      "TRIO",
+      "TPD52L1",
+      "TPCN1",
+      "EYA2",
+      "ETV1",
+      "TOX",
+      "TNFRSF21",
+      "FGD4",
+      "TNC",
+      "EMP1",
+      "UNC5C",
+      "FKBP5",
+      "FNDC3B",
+      "KCNIP4",
+      "FREM2",
+      "TMEM154",
+      "TMEM108",
+      "YAP1",
+      "FXYD6",
+      "DTNA",
+      "TMCC3",
+      "TLN2",
+      "PDE8B",
+      "STAC",
+      "NR2F2-AS1",
+      "MYBPC1",
+      "ROBO2",
+      "MYO1E",
+      "RMST",
+      "NEO1",
+      "NIBAN1",
+      "RBMS1",
+      "PTPRZ1",
+      "PTPRJ",
+      "PTPN14",
+      "NPAS3",
+      "DCC",
+      "PTN",
+      "RORA-AS1",
+      "NR3C2",
+      "OXR1",
+      "P2RY14",
+      "PARD3B",
+      "PCDH17",
+      "PCDH7",
+      "PCDH9",
+      "PLEKHG1",
+      "PCDH9-AS2",
+      "PLCE1",
+      "PDZD2",
+      "PDGFRA",
+      "MUSK",
+      "MT-ND3",
+      "SPRED1",
+      "LINC02147"
+    ],
+    "programs": [
+      {
+        "program_name": "Glutamate Transport and Synaptic Homeostasis",
+        "description": "This program encompasses genes mediating excitatory amino acid transport, glutamate receptor signaling, and maintenance of synaptic glutamate homeostasis. SLC1A2 encodes EAAT2, the primary astrocytic glutamate transporter maintaining extracellular glutamate within physiological ranges and preventing excitotoxic neuronal damage. SLC1A3 encodes EAAT1 with complementary glutamate transport function. Ionotropic glutamate receptor genes GRIK1, GRIA1, GRIA4, and GRID2 mediate rapid synaptic transmission and calcium influx, with GRIN1 and related NMDA receptors providing high-conductance calcium channels. SLC8A1 encodes the sodium-calcium exchanger participating in calcium extrusion after synaptic events. Post-transcriptional regulators NOVA1 and CPEB2 control alternative splicing and localization of glutamate receptor transcripts. Signaling integrators including PPP2R2B, PRKG1, and DPP6 modulate receptor trafficking and synaptic strength through phosphorylation cascades. Dysregulation in astrocytomas reduces glutamate buffering capacity and impairs synaptic transmission fidelity, contributing to neuronal dysfunction within the tumor microenvironment.",
+        "atomic_biological_processes": [
+          {
+            "name": "Glutamate uptake and clearance from synaptic cleft",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "Establishes astrocytic transcription factor REST upregulates glutamate transporter EAAT2, protecting dopaminergic neurons from manganese-induced excitotoxicity"
+              },
+              {
+                "source_id": "6",
+                "notes": "Documents astrocyte-specific pathways during acute TBI involving glutamate homeostasis dysfunction"
+              }
+            ],
+            "genes": [
+              "SLC1A2",
+              "SLC1A3"
+            ]
+          },
+          {
+            "name": "Ionotropic glutamate receptor-mediated calcium signaling",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "Describes dysregulation of synaptic plasticity-related genes including GRIN and GRIA in AD tauopathy models"
+              },
+              {
+                "source_id": "37",
+                "notes": "GRIN1 and related NMDA receptor subunits play key roles in synaptic plasticity underlying memory and learning"
+              }
+            ],
+            "genes": [
+              "GRIK1",
+              "GRIA1",
+              "GRIA4",
+              "GRID2"
+            ]
+          },
+          {
+            "name": "Post-transcriptional regulation of synaptic protein expression",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "Gene-specific alterations in synapse-related genes and dysregulation of synaptic plasticity mechanisms in pathological states"
+              }
+            ],
+            "genes": [
+              "NOVA1",
+              "CPEB2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Synaptic cleft and glutamate-binding sites",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "SLC1A2 function maintains glutamate concentration in synaptic extracellular space"
+              }
+            ],
+            "genes": [
+              "SLC1A2",
+              "SLC1A3",
+              "GRIA1",
+              "GRIA4"
+            ]
+          },
+          {
+            "name": "Postsynaptic density and receptor scaffold",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "DLG4 and related scaffolding proteins anchor receptors at synapses"
+              }
+            ],
+            "genes": [
+              "DLG1",
+              "CNTNAP3B"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Reduced glutamate buffering capacity with elevated extracellular glutamate driving excitotoxicity",
+          "Impaired calcium homeostasis through dysregulated ionotropic glutamate receptor signaling",
+          "Disrupted synaptic transmission and plasticity due to altered glutamate receptor trafficking",
+          "Enhanced neuronal death within tumor microenvironment from chronic glutamate elevation"
+        ],
+        "evidence_summary": "Glutamate transporter dysregulation represents a critical feature of astrocytic pathology in tumors and neurodegeneration. SLC1A2 expression is frequently reduced in reactive astrocytes and glioblastomas, impairing glutamate clearance and promoting excitotoxic neuronal damage. Ionotropic glutamate receptors mediate calcium-dependent synaptic transmission and plasticity, with dysregulated expression contributing to synaptic dysfunction. The coordinated dysregulation of these genes impairs glutamate homeostasis and disrupts synaptic transmission in tumor-affected brain regions.",
+        "significance_score": 0.87,
+        "citations": [
+          {
+            "source_id": "11",
+            "notes": "Documents EAAT2 regulation and glutamate transporter function in neuroprotection"
+          },
+          {
+            "source_id": "6",
+            "notes": "Demonstrates astrocyte transcriptomic changes and glutamate homeostasis dysfunction after brain injury"
+          },
+          {
+            "source_id": "35",
+            "notes": "Describes synaptic dysfunction and altered expression of glutamate receptor subunits in disease"
+          },
+          {
+            "source_id": "37",
+            "notes": "Establishes NMDA receptor subunit roles in synaptic plasticity"
+          }
+        ],
+        "supporting_genes": [
+          "SLC1A2",
+          "SLC1A3",
+          "GRIK1",
+          "GRIA1",
+          "GRIA4",
+          "GRID2",
+          "SLC8A1",
+          "NOVA1",
+          "CPEB2",
+          "PPP2R2B",
+          "PRKG1",
+          "DPP6"
+        ]
+      },
+      {
+        "program_name": "Extracellular Matrix Remodeling and Deposition",
+        "description": "This program encompasses genes governing extracellular matrix synthesis, organization, proteolysis, and remodeling—processes fundamentally altered in astrocytomas. Collagen genes COL1A2, COL5A2, COL23A1, COL25A1, and COL28A1 encode distinct collagen isoforms providing structural scaffold and signaling substrate for the tumor stroma. Basement membrane components LAMA2 and LAMB1 encode laminin subunits critical for vascular stability and cellular adhesion. POSTN encodes periostin, a matricellular protein modulating cell-matrix interactions and frequently upregulated in tumor stromal compartments. Matrix metalloprotease genes ADAMTS9 and associated proteases facilitate ECM degradation and remodeling essential for invasion. Protease inhibitors and regulatory proteins including HTRA1 participate in matrix protein processing and proteostatic control. FBN1 encodes fibrillin-1 providing structural scaffolding and regulating TGF-β signaling through latent complex sequestration. Additional proteins including DCN (decorin) and NPNT (nephronectin) fine-tune matrix properties and growth factor availability. Dysregulation in astrocytomas produces enhanced ECM deposition contributing to altered tissue mechanics, modified growth factor bioavailability, and enhanced invasion through increased protease activity.",
+        "atomic_biological_processes": [
+          {
+            "name": "Collagen synthesis and secretion",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "Single-cell spatial profiling reveals ECM gene expression patterns in GBM including collagen genes showing distinct expression profiles"
+              }
+            ],
+            "genes": [
+              "COL1A2",
+              "COL5A2",
+              "COL23A1",
+              "COL25A1",
+              "COL28A1"
+            ]
+          },
+          {
+            "name": "Basement membrane assembly and stability",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "ECM spatial mapping demonstrates expression of vascular ECM components including laminin in GBM samples"
+              }
+            ],
+            "genes": [
+              "LAMA2",
+              "LAMB1"
+            ]
+          },
+          {
+            "name": "Matrix metalloprotease-dependent proteolysis",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "ADAMTS1 serves as potential prognostic biomarker and promotes malignant invasion of glioma"
+              }
+            ],
+            "genes": [
+              "ADAMTS9",
+              "ADAMTS9-AS1"
+            ]
+          },
+          {
+            "name": "Growth factor sequestration and release",
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "LTBP1 product targets latent TGF-beta complexes to extracellular matrix where latent cytokine is subsequently activated"
+              }
+            ],
+            "genes": [
+              "FBN1",
+              "POSTN"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Fibrillar collagen network",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "ECM spatial transcriptomic mapping reveals collagen expression in tumor stromal compartments"
+              }
+            ],
+            "genes": [
+              "COL1A2",
+              "COL5A2",
+              "CHSY3"
+            ]
+          },
+          {
+            "name": "Basement membrane structure",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "Vascular ECM components including laminin show differential expression in GBM"
+              }
+            ],
+            "genes": [
+              "LAMA2",
+              "LAMB1",
+              "HSPG2"
+            ]
+          },
+          {
+            "name": "Matricellular protein compartment",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "ECM atlas identifies ECM-signaling proteins including periostin and thrombospondin family members"
+              }
+            ],
+            "genes": [
+              "POSTN",
+              "TNC",
+              "CCN4"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced extracellular matrix deposition increasing tumor tissue stiffness and biomechanical properties",
+          "Increased matrix proteolysis facilitating local invasion through tissue barriers",
+          "Modified growth factor sequestration altering growth factor signaling magnitude and duration",
+          "Altered mechanotransductive signaling through modified ECM composition and stiffness"
+        ],
+        "evidence_summary": "Extracellular matrix remodeling represents a fundamental feature of astrocytoma progression. Spatial transcriptomic studies demonstrate that glioblastoma exhibits distinct ECM expression profiles compared to normal brain, with enhanced collagen and proteoglycan expression contributing to tumor stiffness. Metalloproteases including ADAMTS enzymes are upregulated in gliomas, facilitating invasion through matrix barriers. The coordinated dysregulation of matrix synthesis and degradation genes establishes an environment supporting tumor cell invasion and altered mechanotransductive signaling.",
+        "significance_score": 0.89,
+        "citations": [
+          {
+            "source_id": "4",
+            "notes": "Comprehensive single-cell spatial profiling of ECM genes in GBM identifies distinct ECM expression signatures"
+          },
+          {
+            "source_id": "38",
+            "notes": "ADAMTS1 promoted malignant glioma invasion through protease activity"
+          },
+          {
+            "source_id": "14",
+            "notes": "LTBP1 regulates latent TGF-beta sequestration and release in extracellular matrix"
+          }
+        ],
+        "supporting_genes": [
+          "COL1A2",
+          "COL5A2",
+          "COL23A1",
+          "COL25A1",
+          "COL28A1",
+          "LAMA2",
+          "LAMB1",
+          "POSTN",
+          "ADAMTS9",
+          "ADAMTS9-AS1",
+          "FBN1",
+          "HTRA1",
+          "DCN",
+          "NPNT",
+          "TNC",
+          "CCN4"
+        ]
+      },
+      {
+        "program_name": "Cell Adhesion and Epithelial-Mesenchymal Transition",
+        "description": "This program encompasses cell adhesion molecules and epithelial-mesenchymal transition regulators controlling cell-cell adhesion, cell polarity, and migratory capacity. Cadherin genes CDH6 and protocadherin genes PCDH7, PCDH9, and PCDH17 mediate homotypic and heterotypic cell-cell adhesion essential for tissue integrity. FAT3 encodes a large cadherin with roles in cell polarization and migration regulation. The transcriptional repressor ZEB1 drives epithelial-mesenchymal transition by suppressing E-cadherin while promoting N-cadherin and pro-migratory gene expression, representing a master regulator of cellular plasticity in tumors. CHL1 (cell adhesion molecule L1) mediates neuron-glia interactions supporting normal astrocyte-neuron physical associations. Junction-associated proteins including DLG1 (discs large homolog 1) and related scaffolding proteins maintain tight junction and adherens junction integrity. The Rho GTPase-activating proteins ARHGAP6, ARHGAP18, and ARHGAP26 regulate Rho family GTPases essential for cytoskeletal dynamics and cell migration, complemented by direct Rho regulators RHOJ, VAV3, and STARD13. The transcriptional regulator ETV1 and other transcription factors coordinate epithelial-mesenchymal transition programs. Dysregulation in astrocytomas promotes partial epithelial-mesenchymal transition, reducing intercellular adhesion, enhancing migratory capacity, and facilitating local invasion.",
+        "atomic_biological_processes": [
+          {
+            "name": "Homotypic cell-cell adhesion through cadherins",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "CDH1 cadherin 1 serves as classical adhesion molecule with roles in tumor differentiation and progression"
+              }
+            ],
+            "genes": [
+              "CDH6",
+              "PCDH7",
+              "PCDH9",
+              "PCDH17"
+            ]
+          },
+          {
+            "name": "Epithelial-mesenchymal transition regulation",
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "ZEB1 mediates EMT/plasticity-associated ferroptosis sensitivity by regulating lipogenic enzyme expression"
+              },
+              {
+                "source_id": "29",
+                "notes": "CM treatment induced epithelial-mesenchymal transition in GBM tumorspheres"
+              }
+            ],
+            "genes": [
+              "ZEB1",
+              "ETV1",
+              "TFCP2L1"
+            ]
+          },
+          {
+            "name": "Rho GTPase-dependent cytoskeletal remodeling",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "ILK (integrin linked kinase) inhibition blocks glioma cell migration, dependent on Rho GTPase signaling"
+              }
+            ],
+            "genes": [
+              "ARHGAP6",
+              "ARHGAP18",
+              "ARHGAP26",
+              "RHOJ",
+              "VAV3",
+              "STARD13"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Adherens junction complex",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "CDH1 and associated adherens junctions mediate cell-cell adhesion and tumor progression"
+              }
+            ],
+            "genes": [
+              "CDH6",
+              "DLG1",
+              "PCDH9"
+            ]
+          },
+          {
+            "name": "Actin cytoskeleton",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "ARHGAP and related proteins regulate actin dynamics through Rho GTPase activity"
+              }
+            ],
+            "genes": [
+              "ARHGAP6",
+              "ARHGAP18",
+              "ARHGAP26",
+              "STARD13"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Reduced cell-cell adhesion through ZEB1-mediated cadherindownregulation",
+          "Enhanced migratory capacity and cytoskeletal plasticity through Rho GTPase dysregulation",
+          "Increased invasive potential facilitating local brain invasion",
+          "Partial epithelial-mesenchymal transition phenotype reducing tissue organization"
+        ],
+        "evidence_summary": "Epithelial-mesenchymal transition regulators represent key drivers of glial tumor progression. ZEB1 functions as a master regulator of epithelial-mesenchymal transition in cancer cells, promoting migratory and invasive phenotypes through transcriptional reprogramming. Rho GTPase-activating proteins modulate cytoskeletal dynamics essential for cell migration, with dysregulation promoting enhanced invasive capacity in gliomas. The coordinated downregulation of adhesion molecules combined with Rho GTPase dysregulation establishes the molecular basis for enhanced migratory and invasive phenotypes characteristic of astrocytic tumors.",
+        "significance_score": 0.84,
+        "citations": [
+          {
+            "source_id": "32",
+            "notes": "ZEB1 regulates epithelial-mesenchymal transition and cancer cell plasticity"
+          },
+          {
+            "source_id": "29",
+            "notes": "Epithelial-mesenchymal transition occurs in glioblastoma tumorspheres"
+          },
+          {
+            "source_id": "42",
+            "notes": "ILK inhibition blocks glioma cell migration through effects on cytoskeletal organization"
+          }
+        ],
+        "supporting_genes": [
+          "CDH6",
+          "PCDH7",
+          "PCDH9",
+          "PCDH17",
+          "FAT3",
+          "ZEB1",
+          "CHL1",
+          "DLG1",
+          "ARHGAP6",
+          "ARHGAP18",
+          "ARHGAP26",
+          "RHOJ",
+          "VAV3",
+          "STARD13",
+          "ETV1",
+          "TFCP2L1"
+        ]
+      },
+      {
+        "program_name": "Ion Channels and Electrolyte Transport",
+        "description": "This program encompasses ion channels and solute carriers governing electrolyte homeostasis, membrane potential, and cellular excitability. SLC1A2 and SLC1A3 encode the glutamate transporters with concurrent sodium and potassium transport coupled to glutamate uptake. SLC8A1 encodes the sodium-calcium exchanger maintaining calcium extrusion essential for calcium homeostasis. SLC4A4 encodes sodium bicarbonate cotransporter 1 (NBCe1) regulating acid-base balance and cellular pH. Multiple potassium channel genes KCNE4 and KCNIP4 regulate potassium conductance and membrane excitability. SCN7A encodes voltage-gated sodium channel 7 contributing to action potential generation and propagation. Voltage-gated calcium channels including CACNA1c mediate calcium influx during electrical stimulation. TRPM3 encodes a transient receptor potential channel with polymodal sensory properties and calcium-permeable characteristics. The ryanodine receptor RYR3 mediates calcium-induced calcium release from sarcoplasmic/endoplasmic reticulum stores. TPCN1 encodes two-pore calcium channels in acidic compartments regulating lysosomal and endolysosomal calcium signaling. ATP13A4 encodes an ATPase potentially participating in metal homeostasis. Dysregulation in astrocytomas impairs normal electrolyte homeostasis, disrupts membrane potential maintenance, and promotes aberrant calcium signaling.",
+        "atomic_biological_processes": [
+          {
+            "name": "Glutamate-coupled sodium and potassium transport",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "SLC1A2 (EAAT2) functions in coupled glutamate-sodium-potassium transport"
+              }
+            ],
+            "genes": [
+              "SLC1A2",
+              "SLC1A3"
+            ]
+          },
+          {
+            "name": "Calcium extrusion and sodium-calcium exchange",
+            "citations": [
+              {
+                "source_id": "48",
+                "notes": "SLC8A1 (sodium-calcium exchanger) participates in activity-dependent calcium dynamics"
+              }
+            ],
+            "genes": [
+              "SLC8A1",
+              "FXYD6"
+            ]
+          },
+          {
+            "name": "Acid-base balance and pH regulation",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "Solute carrier family proteins regulate cellular pH and electrolyte balance"
+              }
+            ],
+            "genes": [
+              "SLC4A4"
+            ]
+          },
+          {
+            "name": "Voltage-gated ion channel function",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "CACNA1c enables calcium channel activity and voltage-dependent regulation"
+              }
+            ],
+            "genes": [
+              "CACNA1c",
+              "SCN7A",
+              "KCNE4",
+              "KCNIP4"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Plasma membrane transport proteins",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "SLC1A2 EAAT2 localization at astrocyte plasma membrane enables glutamate clearance"
+              }
+            ],
+            "genes": [
+              "SLC1A2",
+              "SLC1A3",
+              "SLC8A1",
+              "SLC4A4"
+            ]
+          },
+          {
+            "name": "Voltage-gated channels in plasma membrane",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "CACNA1c represents voltage-dependent L-type calcium channel in plasma membrane"
+              }
+            ],
+            "genes": [
+              "CACNA1c",
+              "SCN7A",
+              "KCNE4",
+              "TRPM3"
+            ]
+          },
+          {
+            "name": "Intracellular calcium release channels",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ITPR2 and RYR channels mediate intracellular calcium release during stress and normal signaling"
+              }
+            ],
+            "genes": [
+              "RYR3",
+              "TPCN1",
+              "ITPR2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired glutamate-coupled sodium uptake reducing glutamate transport efficiency",
+          "Dysregulated calcium homeostasis through altered sodium-calcium exchange",
+          "Altered membrane potential and cellular excitability",
+          "Disrupted acid-base balance affecting cellular metabolism and signaling"
+        ],
+        "evidence_summary": "Ion channel and transporter dysregulation contributes to cellular dysfunction in astrocytic tumors. The coordinated function of glutamate transporters, cation-chloride cotransporters, and sodium-calcium exchangers maintains normal astrocyte electrolyte homeostasis and supports synaptic transmission. Dysregulation of these transporters in tumors impairs glutamate buffering, disrupts calcium homeostasis, and alters membrane potential, collectively contributing to neuronal dysfunction within the tumor microenvironment.",
+        "significance_score": 0.79,
+        "citations": [
+          {
+            "source_id": "11",
+            "notes": "SLC1A2 and related transporters maintain electrolyte homeostasis"
+          },
+          {
+            "source_id": "47",
+            "notes": "Voltage-gated ion channels regulate electrical excitability"
+          },
+          {
+            "source_id": "48",
+            "notes": "Sodium-calcium exchangers regulate activity-dependent calcium dynamics"
+          }
+        ],
+        "supporting_genes": [
+          "SLC1A2",
+          "SLC1A3",
+          "SLC8A1",
+          "SLC4A4",
+          "KCNE4",
+          "KCNIP4",
+          "SCN7A",
+          "CACNA1c",
+          "TRPM3",
+          "RYR3",
+          "TPCN1",
+          "ATP13A4",
+          "FXYD6"
+        ]
+      },
+      {
+        "program_name": "Calcium Signaling and Intracellular Calcium Dynamics",
+        "description": "This program encompasses calcium signaling machinery, intracellular calcium release, calcium-dependent enzymes, and calcium-responsive transcriptional regulators. ITPR2 encodes inositol 1,4,5-trisphosphate receptor type 2, a calcium channel localized to mitochondria-associated endoplasmic reticulum membranes critical for mitochondrial calcium uptake and cell fate decisions. STIM1 encodes stromal interaction molecule 1, functioning as the calcium sensor triggering store-operated calcium entry through ORAI channels when intracellular calcium depletes. The voltage-gated calcium channel CACNA1c mediates sustained L-type calcium signaling regulating gene transcription and metabolic coupling. TPCN1 encodes two-pore calcium channels in acidic compartments regulating lysosomal calcium dynamics. PPP2R2B encodes regulatory subunits of protein phosphatase 2A, participating in calcium-dependent dephosphorylation cascades and transcriptional regulation. PRKG1 encodes cGMP-dependent protein kinase mediating nitric oxide-responsive signaling. RYR3 and related ryanodine receptors mediate calcium-induced calcium release from intracellular stores. NFATC1-related calcineurin-NFAT signaling (implied through pathway context) represents a critical calcium-responsive transcriptional pathway. Dysregulation in astrocytomas drives aberrant calcium oscillations, impairs metabolic coupling, and promotes reactive astrocyte transcriptional programs.",
+        "atomic_biological_processes": [
+          {
+            "name": "Inositol 1,4,5-trisphosphate-mediated calcium release",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ITPR2 mediates calcium release at mitochondria-ER contact sites during stress responses"
+              },
+              {
+                "source_id": "51",
+                "notes": "ITPR2-mediated calcium release at MERCS allows uptake into mitochondria via MCU"
+              }
+            ],
+            "genes": [
+              "ITPR2",
+              "PLCE1"
+            ]
+          },
+          {
+            "name": "Store-operated calcium entry",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "STIM1 regulates store-operated calcium entry enabling sustained calcium signaling"
+              }
+            ],
+            "genes": [
+              "STIM1"
+            ]
+          },
+          {
+            "name": "Voltage-gated calcium channel-mediated influx",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "CACNA1c mediates L-type calcium channel-dependent calcium signaling"
+              }
+            ],
+            "genes": [
+              "CACNA1c"
+            ]
+          },
+          {
+            "name": "Calcium-induced calcium release",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Ryanodine receptors mediate calcium-induced calcium release amplifying calcium signals"
+              }
+            ],
+            "genes": [
+              "RYR3",
+              "TPCN1"
+            ]
+          },
+          {
+            "name": "Calcineurin-NFAT calcium-responsive transcription",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "Suppression of astrocytic calcineurin/NFAT signaling improves neurovascular coupling and cellular function"
+              }
+            ],
+            "genes": [
+              "PPP2R2B",
+              "PRKG1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Mitochondria-associated endoplasmic reticulum membranes (MERCS)",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ITPR2 localizes to MERCS mediating calcium transfer between ER and mitochondria"
+              },
+              {
+                "source_id": "51",
+                "notes": "MERCS represent critical sites for calcium-mediated metabolic coupling"
+              }
+            ],
+            "genes": [
+              "ITPR2"
+            ]
+          },
+          {
+            "name": "Endoplasmic reticulum calcium stores",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "ER calcium release through ITPR2 channels initiates calcium signaling cascades"
+              }
+            ],
+            "genes": [
+              "ITPR2",
+              "PLCE1",
+              "RYR3"
+            ]
+          },
+          {
+            "name": "Lysosomal/endolysosomal compartments",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "TPCN1 encodes two-pore calcium channels in acidic organelles"
+              }
+            ],
+            "genes": [
+              "TPCN1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Elevated cytoplasmic and mitochondrial calcium promoting reactive astrocyte transcriptional programs",
+          "Impaired metabolic coupling between calcium signaling and glycolytic metabolism",
+          "Enhanced mitochondrial dysfunction through excessive calcium accumulation",
+          "Dysregulated calcineurin-NFAT signaling promoting neuroinflammation"
+        ],
+        "evidence_summary": "Calcium signaling dysregulation represents a fundamental feature of reactive astrocytes and astrocytic tumors. ITPR2-mediated calcium release at mitochondria-ER contact sites contributes to both physiological calcium signaling and pathological calcium accumulation in disease. Dysregulation of calcineurin/NFAT calcium-responsive transcription drives reactive astrocyte transformation and impairs normal astrocyte-neuron metabolic coupling. Research demonstrates that calcineurin/NFAT pathway dysregulation compromises cerebrovascular function and neuronal support capacity in disease contexts.",
+        "significance_score": 0.86,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "Comprehensive analysis of mitochondrial calcium accumulation in cellular senescence and disease"
+          },
+          {
+            "source_id": "51",
+            "notes": "Describes astrocytic calcium dysregulation in disease and effects on metabolic coupling"
+          },
+          {
+            "source_id": "47",
+            "notes": "Voltage-gated calcium channels mediate activity-dependent calcium signaling"
+          }
+        ],
+        "supporting_genes": [
+          "ITPR2",
+          "STIM1",
+          "CACNA1c",
+          "TPCN1",
+          "RYR3",
+          "PPP2R2B",
+          "PRKG1",
+          "PLCE1"
+        ]
+      },
+      {
+        "program_name": "Metabolic Reprogramming and Glucose Metabolism",
+        "description": "This program encompasses metabolic enzymes and metabolic regulatory genes governing glucose utilization, lipid metabolism, amino acid metabolism, and energy substrate utilization characteristic of astrocytic tumors. BCAT1 encodes branched-chain amino acid transaminase 1 regulating branched-chain amino acid catabolism and anaplerotic contribution to TCA cycle. Phosphodiesterase genes PDE3A, PDE4D, PDE7B, and PDE8B encode enzymes degrading cAMP and cGMP, thereby modulating energy-sensing cascades and metabolic signaling. ACSS3 encodes acyl-CoA synthetase short chain family member 3 activating short-chain fatty acids for metabolic incorporation. LPL (lipoprotein lipase) catalyzes triglyceride hydrolysis, mobilizing lipid substrates for energy and biosynthesis. ELOVL2 encodes elongation of very long chain fatty acid protein 2 regulating polyunsaturated fatty acid elongation important for membrane composition and signaling. ESRRG encodes estrogen-related receptor gamma, a nuclear receptor governing oxidative metabolism, mitochondrial biogenesis, and metabolic gene expression. HIF1A and HIF3A encode hypoxia-inducible factors promoting glycolytic metabolism under oxygen limitation and in disease contexts. CDK6 and cell cycle checkpoint proteins couple metabolic capacity to proliferative capacity. Dysregulation in astrocytomas establishes enhanced glycolytic metabolism, reduced oxidative phosphorylation (Warburg effect), and altered biosynthetic capacity supporting rapid tumor cell proliferation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Glucose metabolism and glycolytic flux",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Astrocytic mitochondrial Cx43 sustains glycolytic metabolism and lactate production essential for neuronal excitability"
+              },
+              {
+                "source_id": "51",
+                "notes": "Enhanced glycolytic flux in astrocytes during activation represents key metabolic adaptation"
+              }
+            ],
+            "genes": [
+              "HIF1A",
+              "HIF3A",
+              "PDE3A",
+              "PDE4D"
+            ]
+          },
+          {
+            "name": "Branched-chain amino acid metabolism",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "Branched-chain amino acid metabolism and anaplerosis support tumor metabolic demands"
+              }
+            ],
+            "genes": [
+              "BCAT1"
+            ]
+          },
+          {
+            "name": "Fatty acid activation and metabolism",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "Lipid metabolism reprogramming supports tumor biosynthetic demands"
+              }
+            ],
+            "genes": [
+              "ACSS3",
+              "LPL",
+              "ELOVL2"
+            ]
+          },
+          {
+            "name": "Oxidative metabolic gene expression",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "ESRRG regulates oxidative metabolism and mitochondrial biogenesis programs"
+              }
+            ],
+            "genes": [
+              "ESRRG"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Mitochondrial metabolic machinery",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Mitochondrial Cx43 regulates isocitrate dehydrogenase 3α and metabolic fate"
+              },
+              {
+                "source_id": "51",
+                "notes": "Mitochondrial function dysregulation contributes to metabolic reprogramming"
+              }
+            ],
+            "genes": [
+              "ESRRG",
+              "MT-ND3"
+            ]
+          },
+          {
+            "name": "Cytoplasmic metabolic enzymes",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "Cytoplasmic metabolic enzyme expression governs glycolytic capacity"
+              }
+            ],
+            "genes": [
+              "BCAT1",
+              "ACSS3",
+              "LPL"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced glycolytic flux and lactate production supporting biosynthesis and bioenergetics",
+          "Reduced oxidative phosphorylation with metabolic shift toward glycolysis",
+          "Altered biosynthetic precursor availability for nucleotides, lipids, and amino acids",
+          "Impaired metabolic coupling with neurons through altered lactate availability"
+        ],
+        "evidence_summary": "Metabolic reprogramming toward enhanced glycolysis represents a hallmark of cancer cell transformation including astrocytic tumors. The Warburg effect—preferential glycolysis even under normoxic conditions—provides rapid ATP and biosynthetic precursor production supporting rapid proliferation. Astrocytic mitochondrial connexin 43 maintains glycolytic metabolism through inhibition of oxidative phosphorylation, identifying a novel mechanism sustaining the Warburg effect. Dysregulation of metabolic enzyme expression and metabolic transcriptional regulators establishes the enhanced glycolytic phenotype characteristic of astrocytic tumors.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "26",
+            "notes": "Describes noncanonical mitochondrial Cx43 role in sustaining glycolytic metabolism"
+          },
+          {
+            "source_id": "51",
+            "notes": "Comprehensive analysis of astrocytic metabolic adaptation and metabolic coupling"
+          }
+        ],
+        "supporting_genes": [
+          "BCAT1",
+          "PDE3A",
+          "PDE4D",
+          "PDE7B",
+          "PDE8B",
+          "ACSS3",
+          "LPL",
+          "ELOVL2",
+          "ESRRG",
+          "HIF1A",
+          "HIF3A",
+          "CDK6"
+        ]
+      },
+      {
+        "program_name": "Mitochondrial Function and Metabolic Coupling",
+        "description": "This program encompasses mitochondrial structural proteins, electron transport chain components, metabolic enzymes, and metabolic coupling machinery linking energy availability to cellular signaling and gene expression. MT-ND3 encodes mitochondrial NADH dehydrogenase subunit 3, a core component of respiratory complex I essential for oxidative phosphorylation and ATP generation. The noncanonical mitochondrial functions of connexin 43 (GJA1) represent an emerging discovery: astrocytic mitochondrial Cx43 directly inhibits isocitrate dehydrogenase 3α (IDH3α), thereby sustaining glycolytic metabolism and lactate production essential for neuronal excitability and metabolic coupling. This mechanism operates independently of gap junction intercellular communication, establishing a novel mitochondrial scaffold function. Calcium sensing and uptake machinery including ITPR2, STIM1, and related proteins mediate mitochondrial calcium dynamics, with dysregulation causing calcium accumulation and mitochondrial permeability transition pore activation promoting cellular senescence and apoptosis. STARD13 encodes a GTPase-activating protein involved in lipid-dependent signaling regulating mitochondrial function and cellular metabolism. DENND2A encodes a guanine nucleotide exchange factor regulating ARF family GTPases important for vesicular trafficking and mitochondrial dynamics. OXR1 encodes oxidation resistance protein 1 participating in oxidative stress responses and mitochondrial protective mechanisms. Dysregulation in astrocytomas impairs metabolic coupling with neurons, reduces lactate availability for neuronal oxidative metabolism, and promotes mitochondrial dysfunction-driven inflammation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Oxidative phosphorylation and ATP generation",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Mitochondrial Cx43 regulates metabolic fate by inhibiting IDH3α, favoring glycolysis over OXPHOS"
+              }
+            ],
+            "genes": [
+              "MT-ND3"
+            ]
+          },
+          {
+            "name": "Glycolytic metabolism regulation and lactate production",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Astrocytic mitochondrial Cx43 sustains glycolytic metabolism and lactate production essential for neuronal excitability"
+              }
+            ],
+            "genes": [
+              "GJA1"
+            ]
+          },
+          {
+            "name": "Mitochondrial calcium dynamics and homeostasis",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ITPR2-mediated calcium release and MCU-mediated mitochondrial uptake causes calcium accumulation reducing mitochondrial membrane potential"
+              },
+              {
+                "source_id": "51",
+                "notes": "Mitochondrial calcium accumulation through dysregulated ITPR2 promotes cellular dysfunction"
+              }
+            ],
+            "genes": [
+              "ITPR2",
+              "STIM1"
+            ]
+          },
+          {
+            "name": "Oxidative stress responses and mitochondrial protection",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ROS production from dysfunctional mitochondria activates inflammation and senescence pathways"
+              }
+            ],
+            "genes": [
+              "OXR1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Electron transport chain and ATP synthase",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Metabolic reprogramming from OXPHOS to glycolysis alters electron transport chain utilization"
+              }
+            ],
+            "genes": [
+              "MT-ND3"
+            ]
+          },
+          {
+            "name": "Mitochondrial matrix and metabolic enzymes",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Isocitrate dehydrogenase 3α (IDH3α) located in mitochondrial matrix regulates TCA cycle"
+              }
+            ],
+            "genes": [
+              "GJA1"
+            ]
+          },
+          {
+            "name": "Mitochondrial calcium uniporter and related channels",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "MCU and related channels mediate mitochondrial calcium uptake"
+              }
+            ],
+            "genes": [
+              "ITPR2",
+              "STIM1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired oxidative phosphorylation with metabolic shift to glycolysis",
+          "Enhanced lactate production sustaining neuronal support capacity",
+          "Dysregulated mitochondrial calcium handling promoting cell death and senescence",
+          "Reduced metabolic coupling between astrocytes and neurons through impaired lactate supply"
+        ],
+        "evidence_summary": "Mitochondrial dysfunction represents a hallmark of aging, neurodegeneration, and cancer, including astrocytic tumors. The noncanonical mitochondrial function of connexin 43 directly regulating metabolic fate through IDH3α inhibition represents a novel mechanism sustaining glycolytic metabolism characteristic of tumors. Dysregulated calcium handling through ITPR2 and related channels promotes mitochondrial calcium accumulation, triggering permeability transition pore activation and cellular dysfunction. The coordinated dysregulation of mitochondrial oxidative capacity and metabolic coupling machinery establishes the basis for tumor metabolic reprogramming while impairing normal astrocyte-neuron metabolic support.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "26",
+            "notes": "Identifies noncanonical mitochondrial Cx43 role in metabolic regulation and mental health"
+          },
+          {
+            "source_id": "34",
+            "notes": "Comprehensive analysis of mitochondrial dysfunction in cellular senescence and disease"
+          },
+          {
+            "source_id": "51",
+            "notes": "Describes astrocytic metabolic coupling dysregulation in disease states"
+          }
+        ],
+        "supporting_genes": [
+          "MT-ND3",
+          "GJA1",
+          "ITPR2",
+          "STIM1",
+          "STARD13",
+          "DENND2A",
+          "OXR1"
+        ]
+      },
+      {
+        "program_name": "Synaptic Plasticity and Neuronal Interaction",
+        "description": "This program encompasses genes governing synaptic plasticity mechanisms, dendritic complexity, synaptic transmission modulation, and neuron-astrocyte interactions critical for cognitive function. GRIN1, GRIN2A, and GRIN2B encode NMDA receptor subunits mediating high-conductance calcium channels essential for synaptic plasticity, learning, and memory consolidation. GRIA1, GRIA2, and GRIA4 encode AMPA receptor subunits determining synaptic strength through levels of calcium-permeable vs. calcium-impermeable AMPA receptors. GRID2 encodes delta-type glutamate receptors with specialized roles in cerebellar synaptic plasticity. DPP6 (dipeptidyl peptidase-like 6) modulates Kv4 potassium channel function regulating A-type potassium currents essential for dendritic back-propagation of action potentials and plasticity induction. The postsynaptic density scaffolding protein DLG1 (discs large homolog 1) anchors glutamate receptors and associated signaling proteins at synaptic sites. NOS1AP encodes nitric oxide synthase 1 adaptor protein modulating nitric oxide signaling and NMDA receptor-dependent calcium signaling. CNTNAP3B encodes contactin-associated protein-3B, a presynaptic adhesion molecule regulating synaptic transmission. EYA2 (eyes absent homolog 2) participates in synaptic development through transcriptional control of synaptic genes. TOX (thymocyte selection-associated high mobility group box) encodes a transcription factor governing neuronal gene expression programs. NPAS3 (neuronal PAS domain protein 3) regulates clock gene expression and neuronal function with relevance to cognitive processes. Dysregulation in astrocytomas disrupts synaptic plasticity mechanisms, impairs long-term potentiation and depression induction, and contributes to cognitive dysfunction in patients.",
+        "atomic_biological_processes": [
+          {
+            "name": "NMDA receptor-mediated calcium influx and plasticity",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "GRIN1 and NMDA receptor subunits play key roles in synaptic plasticity underlying memory and learning"
+              },
+              {
+                "source_id": "35",
+                "notes": "Dysregulated GRIN and GRIA receptor expression occurs in AD tauopathy affecting synaptic plasticity"
+              }
+            ],
+            "genes": [
+              "GRIN1",
+              "GRIN2A",
+              "GRIN2B"
+            ]
+          },
+          {
+            "name": "AMPA receptor trafficking and synaptic strength",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "AMPA receptor content determines synaptic transmission strength and long-term potentiation"
+              }
+            ],
+            "genes": [
+              "GRIA1",
+              "GRIA2",
+              "GRIA4"
+            ]
+          },
+          {
+            "name": "Action potential back-propagation and dendritic integration",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "DPP6 regulation of Kv4 channels affects dendritic integration and plasticity induction"
+              }
+            ],
+            "genes": [
+              "DPP6"
+            ]
+          },
+          {
+            "name": "Nitric oxide signaling and synaptic plasticity",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "NO-mediated signaling represents key mediator of vasomotor and synaptic responses"
+              }
+            ],
+            "genes": [
+              "NOS1AP"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Postsynaptic density and glutamate receptor complex",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "DLG4 and related scaffolding proteins organize postsynaptic density containing receptors and signaling proteins"
+              }
+            ],
+            "genes": [
+              "DLG1",
+              "GRIN1",
+              "GRIA1",
+              "GRIA4"
+            ]
+          },
+          {
+            "name": "Presynaptic terminal and adhesion molecules",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "Presynaptic proteins regulate neurotransmitter release and synaptic transmission"
+              }
+            ],
+            "genes": [
+              "CNTNAP3B",
+              "GRIA2"
+            ]
+          },
+          {
+            "name": "Dendritic spine and cytoskeleton",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "Dendritic spine morphology reflects synaptic strength and plasticity state"
+              }
+            ],
+            "genes": [
+              "DPP6",
+              "DLG1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired NMDA receptor-dependent calcium signaling reducing plasticity induction capacity",
+          "Dysregulated AMPA receptor trafficking reducing synaptic transmission efficacy",
+          "Impaired dendritic integration and action potential back-propagation",
+          "Reduced plasticity-dependent learning and memory formation"
+        ],
+        "evidence_summary": "Synaptic plasticity dysregulation contributes to cognitive dysfunction in patients with astrocytic tumors. NMDA and AMPA receptor dysregulation reduces synaptic plasticity capacity and long-term potentiation/depression mechanisms essential for learning and memory. Impaired nitric oxide signaling and reduced dendritic integration through altered potassium channel function compromise synaptic transmission fidelity. The combined dysregulation of multiple plasticity-essential genes establishes the molecular basis for cognitive impairment observed in glioma patients.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "35",
+            "notes": "Comprehensive analysis of synaptic dysfunction in tauopathy models"
+          },
+          {
+            "source_id": "37",
+            "notes": "NMDA receptor subunits mediate synaptic plasticity mechanisms"
+          }
+        ],
+        "supporting_genes": [
+          "GRIN1",
+          "GRIN2A",
+          "GRIN2B",
+          "GRIA1",
+          "GRIA2",
+          "GRIA4",
+          "GRID2",
+          "DPP6",
+          "DLG1",
+          "NOS1AP",
+          "CNTNAP3B",
+          "EYA2",
+          "TOX",
+          "NPAS3"
+        ]
+      },
+      {
+        "program_name": "Reactive Astrocyte Activation and Neuroinflammation",
+        "description": "This program encompasses genes characteristic of reactive astrocyte transformation, neuroinflammatory response activation, and transition from homeostatic to reactive phenotypes. GFAP (glial fibrillary acidic protein, though not in input list, is critical context) represents the canonical astrocyte marker with pronounced upregulation upon activation. The transcription factor genes and lineage-defining factors control astrocyte identity and determine reactive phenotype characteristics. NOS2 (nitric oxide synthase 2, inducible NOS) produces nitric oxide that drives inflammatory responses and contributes to neuronal toxicity through NMDA receptor-dependent excitotoxicity. CNR1 encodes cannabinoid receptor 1 mediating neuroprotective endocannabinoid signaling, with reduced expression in activated astrocytes representing a loss of neuroprotection. The complement cascade components including TFPI (tissue factor pathway inhibitor) participate in complement pathway regulation and inflammatory response modulation. TNFRSF21 (TNF receptor superfamily member 21) participates in TNF-α signaling cascades propagating inflammatory responses. HOPX (homeodomain-only protein) marks a specialized astrocyte subtype with specific reactive properties. RGS6 (regulator of G-protein signaling 6) regulates G-protein coupled receptor signaling potentially affecting responses to inflammatory mediators and neurotransmitters. The genes in this program exhibit dynamic upregulation during reactive astrocyte transition in response to brain injury, neuroinflammation, infection, and tumor development. Research demonstrates distinct transcriptional modules within reactive astrocytes: A1-like pro-inflammatory neurotoxic astrocytes expressing elevated NOS2, TNF-α, and IL-1β, and A2-like astrocytes maintaining more homeostatic neuroprotective functions. Dysregulation of this program in astrocytomas promotes pro-inflammatory neurotoxic astrocyte phenotypes.",
+        "atomic_biological_processes": [
+          {
+            "name": "Reactive astrocyte transcriptional transformation",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "RNA-seq profiling of astrocytes after TBI highlights distinct neuroinflammatory signature (A1-like) with separate proliferation module (A2-like)"
+              },
+              {
+                "source_id": "31",
+                "notes": "Injury-responsive enhancers drive reactive astrocyte gene expression through AP-1 and lineage-specific transcription factor cooperation"
+              }
+            ],
+            "genes": [
+              "NOS2",
+              "HOPX",
+              "RGS6"
+            ]
+          },
+          {
+            "name": "Nitric oxide synthesis and pro-inflammatory signaling",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Reactive astrocytes upregulate pro-inflammatory cytokines including TNF-α and IL-6 contributing to neuronal injury"
+              }
+            ],
+            "genes": [
+              "NOS2"
+            ]
+          },
+          {
+            "name": "Neuroprotective endocannabinoid signaling loss",
+            "citations": [
+              {
+                "source_id": "18",
+                "notes": "Perinatal ethanol exposure increased astrogliosis with reduced expression of cannabinoid receptors (Cnr1 and Gpr55) and decreased GRP55/PEA-mediated neuroprotection"
+              }
+            ],
+            "genes": [
+              "CNR1"
+            ]
+          },
+          {
+            "name": "TNF-α and complement pathway regulation",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Upregulated TNF-α signaling and complement activation characterize acute reactive astrocyte response"
+              },
+              {
+                "source_id": "49",
+                "notes": "Chronic neuroinflammation involves TNF receptor signaling amplifying pain and inflammatory responses"
+              }
+            ],
+            "genes": [
+              "TNFRSF21",
+              "TFPI"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Intermediate filament cytoskeleton",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "GFAP encodes major intermediate filament protein of mature astrocytes used as marker distinguishing astrocytes from other glial cells"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "Nuclear transcriptional machinery",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "Injury-responsive enhancers mediate reactive astrocyte transformation through transcriptional reprogramming"
+              }
+            ],
+            "genes": [
+              "HOPX"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced nitric oxide production driving neuronal toxicity through NMDA receptor-dependent mechanisms",
+          "Loss of neuroprotective endocannabinoid signaling through reduced CNR1 expression",
+          "Increased TNF-α signaling amplifying inflammatory cascade propagation",
+          "Chronic pro-inflammatory astrocyte phenotype impairing neuronal support and promoting neurodegeneration"
+        ],
+        "evidence_summary": "Reactive astrocyte activation represents a hallmark response to brain injury, neuroinflammation, and tumor development. The transition from homeostatic to reactive astrocyte phenotypes involves coordinated transcriptional reprogramming driven by injury-responsive enhancers controlled by AP-1 and lineage-specific transcription factors. Pro-inflammatory neurotoxic A1-like astrocytes express elevated NOS2 and TNF-α, contributing to neuronal injury and synaptic dysfunction. Loss of neuroprotective endocannabinoid signaling through CNR1 downregulation represents a critical loss of protective function in activated astrocytes. Research demonstrates that distinct reactive astrocyte subtypes coexist, with pro-inflammatory neurotoxic functions temporally and spatially segregated from partial neuroprotective functions.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "6",
+            "notes": "Comprehensive temporal analysis of reactive astrocyte transcriptome and distinct transcriptional modules after TBI"
+          },
+          {
+            "source_id": "31",
+            "notes": "Mechanistic analysis of injury-responsive enhancer regulation of reactive astrocyte programs"
+          },
+          {
+            "source_id": "18",
+            "notes": "Documents astrogliosis and reduced neuroprotective endocannabinoid signaling in disease model"
+          },
+          {
+            "source_id": "49",
+            "notes": "Describes microglia-astrocyte communication in chronic neuroinflammation"
+          }
+        ],
+        "supporting_genes": [
+          "NOS2",
+          "CNR1",
+          "TNFRSF21",
+          "TFPI",
+          "HOPX",
+          "RGS6"
+        ]
+      },
+      {
+        "program_name": "Extracellular Matrix-Integrin Mechanotransduction",
+        "description": "This program encompasses integrin-based cell-matrix adhesion, mechanotransduction signaling, and mechanically-regulated gene expression critical for cellular responses to microenvironmental stiffness and matrix composition. Integrin family member ITGB1 (integrin subunit beta 1) forms heterodimeric adhesion receptors anchoring cells to extracellular matrix ligands including collagens, fibronectin, and laminin. The focal adhesion complex includes adaptor proteins TLN2 (talin-2) linking integrin cytoplasmic domains to actin cytoskeleton. FRMD4B (FERM domain-containing protein 4B) and related scaffolding proteins organize focal adhesion assembly. Integrin signaling transduction proceeds through focal adhesion kinase and related kinases (implied through pathway context though ILK is related). Cytoskeletal GTPase regulators including ARAP2 (ArfGAP with RhoGAP domain protein 2) and related proteins regulate Arf and Rho GTPases at focal adhesions controlling actin dynamics. Netrin ligands including NTN1 (netrin 1) function as ligands for DCC and UNC5 receptors promoting cell migration and axon guidance, often cooperating with integrin signaling. The Hippo pathway effectors YAP1 (yes-associated protein 1) and TAZ (encoded by WWTR1, WW domain containing transcription regulator 1) transduce mechanotransductive signals in response to matrix stiffness and cell geometry, with LATS2 (large tumor suppressor kinase 2) phosphorylating and inactivating YAP1 within the canonical Hippo pathway. Dysregulation of this program in astrocytomas promotes enhanced integrin signaling, YAP1/TAZ hyperactivation driving proliferation and stemness programs, and cellular adaptation to increased tumor microenvironment stiffness.",
+        "atomic_biological_processes": [
+          {
+            "name": "Integrin-mediated cell-matrix adhesion",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "ITGB1 (integrin beta 1) mediates cellular adhesion to fibronectin and other matrix proteins"
+              },
+              {
+                "source_id": "42",
+                "notes": "ILK and related proteins propagate integrin-dependent signaling cascades affecting cell migration"
+              }
+            ],
+            "genes": [
+              "ITGB1",
+              "TLN2",
+              "FRMD4B"
+            ]
+          },
+          {
+            "name": "Netrin-receptor-mediated migration signaling",
+            "citations": [
+              {
+                "source_id": "40",
+                "notes": "Netrin-1 promotes glioma cell proliferation through NF-kB signaling via UNC5A receptor"
+              },
+              {
+                "source_id": "43",
+                "notes": "NTN1 functions in axon guidance and cell migration during development with roles in cancer progression"
+              }
+            ],
+            "genes": [
+              "NTN1",
+              "DCC",
+              "UNC5C"
+            ]
+          },
+          {
+            "name": "Mechanotransduction through Hippo pathway",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "YAP1 and TAZ (WWTR1) escape Hippo pathway inhibition in human cancers allowing uncontrolled activity"
+              },
+              {
+                "source_id": "27",
+                "notes": "LATS2 inhibits glioma cell proliferation and migration by inactivating YAP1 downstream of Hippo pathway"
+              }
+            ],
+            "genes": [
+              "YAP1",
+              "WWTR1",
+              "LATS2"
+            ]
+          },
+          {
+            "name": "Rho GTPase regulation at focal adhesions",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "ARAP2 and related proteins regulate GTPases at focal adhesion sites controlling cell migration"
+              }
+            ],
+            "genes": [
+              "ARAP2",
+              "STARD13"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Focal adhesion complex",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "Focal adhesions mediate integrin-dependent cell-matrix adhesion and mechanotransduction"
+              }
+            ],
+            "genes": [
+              "ITGB1",
+              "TLN2",
+              "FRMD4B"
+            ]
+          },
+          {
+            "name": "Actin cytoskeleton",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "Rho GTPases regulate actin dynamics at focal adhesions through effector kinases"
+              }
+            ],
+            "genes": [
+              "ARAP2",
+              "STARD13",
+              "RHOJ",
+              "VAV3"
+            ]
+          },
+          {
+            "name": "YAP/TAZ nuclear transcriptional complex",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "YAP1 and TAZ regulate stemness and cell plasticity through transcriptional control"
+              }
+            ],
+            "genes": [
+              "YAP1",
+              "WWTR1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced mechanotransductive signaling promoting proliferation through YAP1/TAZ hyperactivation",
+          "Increased cell migration through netrin receptor and integrin signaling cooperation",
+          "Altered cellular responses to increased tumor microenvironment stiffness",
+          "Upregulation of stemness and self-renewal programs through YAP1-dependent transcription"
+        ],
+        "evidence_summary": "Mechanotransduction represents an emerging oncogenic driver in glioblastoma and astrocytic tumors. Glioma cells exhibit YAP1/TAZ hyperactivation driven by both canonical Hippo pathway dysregulation and mechanotransductive sensing of altered ECM stiffness. LATS2-mediated inhibition of YAP1 reduces glioma proliferation and migration, establishing YAP1 as an important therapeutic target. Integrin-netrin receptor cooperation enhances cell migration and proliferation signaling, with evidence suggesting these pathways cooperate in promoting invasion. The dysregulation of this program in astrocytomas establishes enhanced mechanotransductive signaling supporting proliferation and migration in response to the mechanically altered tumor microenvironment.",
+        "significance_score": 0.83,
+        "citations": [
+          {
+            "source_id": "24",
+            "notes": "Documents YAP1 and TAZ hyperactivation in human cancers"
+          },
+          {
+            "source_id": "27",
+            "notes": "Demonstrates LATS2 inhibition of YAP1 suppresses glioma proliferation and migration"
+          },
+          {
+            "source_id": "40",
+            "notes": "Netrin-1 signaling promotes glioma cell proliferation through NF-kB pathway"
+          },
+          {
+            "source_id": "39",
+            "notes": "ITGB1 mediates cell migration through fibronectin in glioma"
+          }
+        ],
+        "supporting_genes": [
+          "ITGB1",
+          "TLN2",
+          "FRMD4B",
+          "NTN1",
+          "DCC",
+          "UNC5C",
+          "YAP1",
+          "WWTR1",
+          "LATS2",
+          "ARAP2",
+          "STARD13"
+        ]
+      },
+      {
+        "program_name": "Lipid Signaling and Phospholipid Metabolism",
+        "description": "This program encompasses lipid signaling molecules, phospholipid-metabolizing enzymes, and lipid-dependent signaling cascades governing cell migration, inflammatory responses, and calcium mobilization. DGKG and DGKZ encode diacylglycerol kinases catalyzing conversion of diacylglycerol to phosphatidic acid, modulating protein kinase C signaling magnitude and duration. PLCE1 (phospholipase C epsilon) generates inositol 1,4,5-trisphosphate and diacylglycerol from phosphatidylinositol 4,5-bisphosphate during GPCR signaling, triggering calcium mobilization from intracellular stores. Phosphoinositide signaling through ITPR2 and related inositol phosphate receptors governs calcium-dependent processes. P2RY14 encodes nucleotide receptor P2Y14, a G-protein coupled receptor responding to extracellular nucleotides and lysophosphatidic acid (a bioactive lipid mediator). LPAR1 (lysophosphatidic acid receptor 1) directly responds to lysophosphatidic acid, a bioactive lipid mediator abundant in serum and implicated in cell migration, inflammatory responses, and cancer progression. DENND2A (DENN domain containing 2A) encodes a guanine nucleotide exchange factor for ARF family GTPases regulating endosomal trafficking and organizing lipid-signaling complexes. WIPF3 (WASp-interacting protein family member 3) participates in actin dynamics downstream of lipid signaling through Rac/Rho GTPase activation. Dysregulation of this program in astrocytomas alters cellular responses to growth factor and inflammatory lipid mediators, enhances lipid signaling-dependent proliferation and migration, and supports tumor-promoting metabolic and inflammatory phenotypes.",
+        "atomic_biological_processes": [
+          {
+            "name": "Diacylglycerol metabolism and PKC signaling",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Diacylglycerol and phosphatidic acid regulate PKC activation and lipid signaling"
+              }
+            ],
+            "genes": [
+              "DGKG",
+              "DGKZ"
+            ]
+          },
+          {
+            "name": "Phospholipase C-mediated IP3 and DAG generation",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "PLCE1 and related phospholipases generate IP3 driving calcium mobilization from ER stores"
+              }
+            ],
+            "genes": [
+              "PLCE1"
+            ]
+          },
+          {
+            "name": "Lysophosphatidic acid signaling and cell migration",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "Lysophosphatidic acid regulates integrin-mediated cell migration through LPAR signaling"
+              }
+            ],
+            "genes": [
+              "LPAR1",
+              "P2RY14"
+            ]
+          },
+          {
+            "name": "ARF GTPase regulation and vesicular trafficking",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "ARF GTPase regulation organizes membrane trafficking and lipid signaling complexes"
+              }
+            ],
+            "genes": [
+              "DENND2A"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Plasma membrane lipid signaling complexes",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Lipid signaling molecules organize at plasma membrane regulating GPCR activation"
+              }
+            ],
+            "genes": [
+              "LPAR1",
+              "P2RY14",
+              "PLCE1"
+            ]
+          },
+          {
+            "name": "Actin regulatory network",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "Actin polymerization downstream of lipid signaling drives cell migration"
+              }
+            ],
+            "genes": [
+              "WIPF3"
+            ]
+          },
+          {
+            "name": "Endosomal trafficking compartments",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "ARF GTPases regulate endosomal trafficking organizing lipid signaling"
+              }
+            ],
+            "genes": [
+              "DENND2A"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced cell migration through lysophosphatidic acid-LPAR signaling",
+          "Increased inflammatory responses through lipid mediator signaling",
+          "Enhanced protein kinase C signaling supporting proliferation",
+          "Elevated calcium mobilization through PLCE1-mediated IP3 generation"
+        ],
+        "evidence_summary": "Lipid signaling represents an important driver of cancer cell migration and inflammatory responses. Lysophosphatidic acid-LPAR signaling promotes cell migration and tumor progression through G-protein coupled receptor activation and Rho GTPase signaling. Phospholipase C-mediated calcium mobilization supports cellular responses to growth factors and inflammatory stimuli. Diacylglycerol kinase dysregulation alters PKC signaling magnitude, affecting proliferation and migration. The coordinated dysregulation of lipid signaling pathways in astrocytomas enhances responsiveness to bioactive lipid mediators abundant in the tumor microenvironment.",
+        "significance_score": 0.76,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "Comprehensive analysis of lipid signaling in cellular processes"
+          },
+          {
+            "source_id": "39",
+            "notes": "Lysophosphatidic acid and related lipid mediators regulate cell migration"
+          }
+        ],
+        "supporting_genes": [
+          "DGKG",
+          "DGKZ",
+          "PLCE1",
+          "LPAR1",
+          "P2RY14",
+          "DENND2A",
+          "WIPF3"
+        ]
+      },
+      {
+        "program_name": "Cell Cycle Regulation and Proliferative Constraint Bypass",
+        "description": "This program encompasses cell cycle checkpoint genes, proliferation regulators, and genes governing transition from quiescence to proliferation characteristic of tumor transformation. CDK6 (cyclin-dependent kinase 6) functions as a G1/S phase cell cycle checkpoint kinase essential for phosphorylation of retinoblastoma protein (Rb) and progression through G1/S transition. CDKN1A (cyclin-dependent kinase inhibitor 1A, p21) and CDKN2A/CDKN2B (cyclin-dependent kinase inhibitor 2A/2B, p16/p14ARF) represent canonical cell cycle checkpoint inhibitors frequently dysregulated in astrocytomas. TERT (telomerase reverse transcriptase) and related telomere maintenance mechanisms enable unlimited replicative potential by preventing telomere shortening. Loss of CDKN2A/CDKN2B and TERT promoter mutations represent hallmark genetic alterations in astrocytomas and glioblastomas. MYC proto-oncogene (implied through pathway context) drives proliferation and metabolic reprogramming. The transcription factors including MECOM regulate stem cell and progenitor cell expansion. FBXL7 encodes an F-box protein participating in ubiquitin-mediated proteasomal degradation of cell cycle regulators. Dysregulation of this program in astrocytomas bypasses proliferative constraints through genetic alterations affecting checkpoint genes, enabling unlimited proliferation independent of normal growth signal dependence.",
+        "atomic_biological_processes": [
+          {
+            "name": "G1/S cell cycle checkpoint regulation",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "CDKN2A/CDKN2B loss allows GBM formation from astrocytes and enhances tumor incidence"
+              },
+              {
+                "source_id": "30",
+                "notes": "CDKN2A/B homozygous deletion represents a pathogenic alteration in epithelioid glioblastoma"
+              }
+            ],
+            "genes": [
+              "CDK6",
+              "CDKN1A",
+              "CDKN2A",
+              "CDKN2B"
+            ]
+          },
+          {
+            "name": "Telomere maintenance and replicative immortality",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "TERT promoter mutation status predicts glioma characteristics and prognosis"
+              },
+              {
+                "source_id": "30",
+                "notes": "TERT c.-146C>T promoter mutation identified as pathogenic alteration in epithelioid GBM"
+              }
+            ],
+            "genes": [
+              "TERT"
+            ]
+          },
+          {
+            "name": "Proteasomal degradation of cell cycle regulators",
+            "citations": [
+              {
+                "source_id": "54",
+                "notes": "CDKN1A levels regulate cell cycle transitions through ubiquitin-proteasomal mechanisms"
+              }
+            ],
+            "genes": [
+              "FBXL7"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "G1/S checkpoint complex",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "Retinoblastoma protein and CDK6 form checkpoint complex regulating G1/S transition"
+              }
+            ],
+            "genes": [
+              "CDK6",
+              "CDKN1A",
+              "CDKN2A",
+              "CDKN2B"
+            ]
+          },
+          {
+            "name": "Telomerase complex",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "TERT encodes catalytic subunit of telomerase complex"
+              }
+            ],
+            "genes": [
+              "TERT"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Bypass of G1/S checkpoint enabling unlimited proliferation",
+          "Acquisition of replicative immortality through telomerase reactivation",
+          "Loss of p16/p21-mediated growth arrest in response to stress",
+          "Uncoupled proliferation independent of growth signal dependence"
+        ],
+        "evidence_summary": "Cell cycle checkpoint dysregulation represents a fundamental feature of astrocytoma pathogenesis. Loss of CDKN2A/CDKN2B occurs in the majority of high-grade gliomas, abolishing p16-mediated growth arrest at the G1/S checkpoint. TERT promoter mutations occur in approximately 70% of glioblastomas, enabling unlimited replicative potential through telomerase reactivation. The combined dysregulation of checkpoint gene programs establishes the molecular basis for unlimited proliferation characteristic of malignant astrocytic tumors.",
+        "significance_score": 0.81,
+        "citations": [
+          {
+            "source_id": "52",
+            "notes": "CDKN2A/B loss drives GBM formation from astrocytes"
+          },
+          {
+            "source_id": "30",
+            "notes": "CDKN2A/B and TERT alterations represent pathogenic mutations in epithelioid GBM"
+          },
+          {
+            "source_id": "25",
+            "notes": "TERT promoter mutations predict glioma prognosis"
+          }
+        ],
+        "supporting_genes": [
+          "CDK6",
+          "CDKN1A",
+          "CDKN2A",
+          "CDKN2B",
+          "TERT",
+          "FBXL7",
+          "MECOM"
+        ]
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Pathway database integration (KEGG, Reactome, GO terms)",
+        "Co-expression patterns from published astrocyte transcriptomics",
+        "Protein-protein interaction networks from STRING/BioGRID",
+        "Functional annotations from gene ontology and literature mining",
+        "Disease relevance established through glioblastoma and astrocytoma research"
+      ],
+      "notes": "Gene programs were identified through systematic integration of astrocyte biology, tumor biology, and functional genomics. Each program represents a coherent functional unit with multiple genes acting in coordinated fashion within defined biological pathways or cellular processes. Programs were prioritized based on relevance to astrocytoma pathobiology, number of supporting genes from input list, and citation support from provided research literature. Interconnections between programs reflect the complex regulatory and functional relationships underlying astrocytoma transformation and microenvironment remodeling."
+    }
+  }
+}

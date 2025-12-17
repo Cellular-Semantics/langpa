@@ -1,0 +1,2322 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T20:44:20.792977",
+    "genes": [
+      "TNC",
+      "CD44",
+      "VCL",
+      "SAMD4A",
+      "IGFBP7",
+      "DEC1",
+      "ELL2",
+      "CADPS",
+      "ACTN1",
+      "GBP2",
+      "BCL6",
+      "GLIS3",
+      "EMP1",
+      "SERPINA3",
+      "NAMPT",
+      "TPST1",
+      "GAP43",
+      "NEAT1",
+      "SPOCD1",
+      "GFAP",
+      "MAP3K14",
+      "FN1",
+      "CLIC4",
+      "PDE8B",
+      "MAP1B",
+      "TENM4",
+      "SOD2",
+      "SORBS1",
+      "ANXA2",
+      "VMP1",
+      "PGM2L1",
+      "SERPINE1",
+      "FOSL2",
+      "ZFP36",
+      "WWTR1",
+      "GADD45A",
+      "CCN1",
+      "CNN3",
+      "HAS2",
+      "F3",
+      "RASD1",
+      "PRRX1",
+      "BAALC",
+      "TCIM",
+      "LYST",
+      "RFTN1",
+      "FRMD5",
+      "GBP1",
+      "MAN1C1",
+      "NRP2",
+      "TIMP3",
+      "HRH1",
+      "ZFP36L2",
+      "YBX3",
+      "CCL2",
+      "GLUL",
+      "PFKFB3",
+      "JUNB",
+      "MAPK4",
+      "CDH11",
+      "DCLK1",
+      "SPRED1",
+      "NEDD9",
+      "SAT1",
+      "LPAR1",
+      "LMO2",
+      "ARID5B",
+      "ARHGEF3",
+      "STAT3",
+      "ETV6",
+      "LMCD1",
+      "DTNA",
+      "BTBD11",
+      "ARHGAP29",
+      "GEM",
+      "FOS",
+      "TGFB2",
+      "CLU",
+      "KLF6",
+      "COL4A1",
+      "PALLD",
+      "CAMK2D",
+      "TPM4",
+      "TIPARP",
+      "GADD45B",
+      "UBASH3B",
+      "TRIO",
+      "NAV2",
+      "ITPKB",
+      "PRUNE2",
+      "EGR1",
+      "CLCF1",
+      "IFI16",
+      "MYOF",
+      "DPYD",
+      "ABCC3",
+      "CHI3L1",
+      "NRCAM",
+      "SOCS3",
+      "NIBAN1",
+      "RNF19A",
+      "LINC02821",
+      "COL8A1",
+      "A2M",
+      "NFATC2",
+      "MIR4435-2HG",
+      "ARID5A",
+      "PITPNC1",
+      "NR4A3",
+      "CLIP1",
+      "NOS1AP",
+      "CEBPD",
+      "PLSCR1",
+      "PMP2",
+      "ATF3",
+      "NUDT4",
+      "OSMR",
+      "CNR1",
+      "C1R",
+      "RDH10",
+      "PROS1",
+      "RETREG1",
+      "RPE65",
+      "SLC39A14",
+      "FNDC3B",
+      "ANO6",
+      "TANC1",
+      "IQGAP2",
+      "IL6R",
+      "FOSB",
+      "IL1RAP",
+      "ITPR2",
+      "ADAMTS9",
+      "FBXO32",
+      "ITGAV",
+      "IL1R1",
+      "VIM",
+      "SPARCL1",
+      "SLC44A3",
+      "KLF7",
+      "TGFBR2",
+      "ZNF385D",
+      "ELMOD1",
+      "JUN",
+      "GPR158",
+      "MARCH3",
+      "AC092131.1",
+      "EFEMP1",
+      "EDNRA",
+      "AC092691.1",
+      "P3H2",
+      "CITED1",
+      "C11ORF96",
+      "GALNT2",
+      "RCAN1",
+      "ITPKC",
+      "COL4A2",
+      "GPC6",
+      "C3",
+      "CNTNAP3B",
+      "RDH10-AS1",
+      "ADAM12",
+      "CHL1",
+      "BTG2",
+      "GALNT15",
+      "NFIL3",
+      "MYO1E",
+      "DUSP1",
+      "IFFO2",
+      "PHLDB2",
+      "SCARA3",
+      "CYTOR",
+      "AL596087.2",
+      "BAALC-AS1",
+      "FAM20C",
+      "NNMT",
+      "STK40",
+      "LINC01138",
+      "SULF1",
+      "FMN2",
+      "CFI",
+      "PDPN",
+      "IRS2",
+      "HIF1A",
+      "ID1",
+      "HLA-E",
+      "ITGA3",
+      "DOK5",
+      "PDLIM5",
+      "CXCL2",
+      "MRTFB",
+      "DPYD-AS1",
+      "MFHAS1",
+      "MCL1",
+      "EGR3",
+      "ELOVL5",
+      "LTF",
+      "CRISPLD1",
+      "GFPT2",
+      "LINC00698"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_1/20251216_203928/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_1",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "context": {
+      "cell_type": "Astrocytes",
+      "disease": "Astrocytoma (ranging from pilocytic astrocytoma WHO grade 1 to high-grade astrocytoma/glioblastoma WHO grades 3-4)",
+      "tissue": "Brain; central nervous system"
+    },
+    "input_genes": [
+      "TNC",
+      "CD44",
+      "VCL",
+      "SAMD4A",
+      "IGFBP7",
+      "DEC1",
+      "ELL2",
+      "CADPS",
+      "ACTN1",
+      "GBP2",
+      "BCL6",
+      "GLIS3",
+      "EMP1",
+      "SERPINA3",
+      "NAMPT",
+      "TPST1",
+      "GAP43",
+      "NEAT1",
+      "SPOCD1",
+      "GFAP",
+      "MAP3K14",
+      "FN1",
+      "CLIC4",
+      "PDE8B",
+      "MAP1B",
+      "TENM4",
+      "SOD2",
+      "SORBS1",
+      "ANXA2",
+      "VMP1",
+      "PGM2L1",
+      "SERPINE1",
+      "FOSL2",
+      "ZFP36",
+      "WWTR1",
+      "GADD45A",
+      "CCN1",
+      "CNN3",
+      "HAS2",
+      "F3",
+      "RASD1",
+      "PRRX1",
+      "BAALC",
+      "TCIM",
+      "LYST",
+      "RFTN1",
+      "FRMD5",
+      "GBP1",
+      "MAN1C1",
+      "NRP2",
+      "TIMP3",
+      "HRH1",
+      "ZFP36L2",
+      "YBX3",
+      "CCL2",
+      "GLUL",
+      "PFKFB3",
+      "JUNB",
+      "MAPK4",
+      "CDH11",
+      "DCLK1",
+      "SPRED1",
+      "NEDD9",
+      "SAT1",
+      "LPAR1",
+      "LMO2",
+      "ARID5B",
+      "ARHGEF3",
+      "STAT3",
+      "ETV6",
+      "LMCD1",
+      "DTNA",
+      "BTBD11",
+      "ARHGAP29",
+      "GEM",
+      "FOS",
+      "TGFB2",
+      "CLU",
+      "KLF6",
+      "COL4A1",
+      "PALLD",
+      "CAMK2D",
+      "TPM4",
+      "TIPARP",
+      "GADD45B",
+      "UBASH3B",
+      "TRIO",
+      "NAV2",
+      "ITPKB",
+      "PRUNE2",
+      "EGR1",
+      "CLCF1",
+      "IFI16",
+      "MYOF",
+      "DPYD",
+      "ABCC3",
+      "CHI3L1",
+      "NRCAM",
+      "SOCS3",
+      "NIBAN1",
+      "RNF19A",
+      "LINC02821",
+      "COL8A1",
+      "A2M",
+      "NFATC2",
+      "MIR4435-2HG",
+      "ARID5A",
+      "PITPNC1",
+      "NR4A3",
+      "CLIP1",
+      "NOS1AP",
+      "CEBPD",
+      "PLSCR1",
+      "PMP2",
+      "ATF3",
+      "NUDT4",
+      "OSMR",
+      "CNR1",
+      "C1R",
+      "RDH10",
+      "PROS1",
+      "RETREG1",
+      "RPE65",
+      "SLC39A14",
+      "FNDC3B",
+      "ANO6",
+      "TANC1",
+      "IQGAP2",
+      "IL6R",
+      "FOSB",
+      "IL1RAP",
+      "ITPR2",
+      "ADAMTS9",
+      "FBXO32",
+      "ITGAV",
+      "IL1R1",
+      "VIM",
+      "SPARCL1",
+      "SLC44A3",
+      "KLF7",
+      "TGFBR2",
+      "ZNF385D",
+      "ELMOD1",
+      "JUN",
+      "GPR158",
+      "MARCH3",
+      "AC092131.1",
+      "EFEMP1",
+      "EDNRA",
+      "AC092691.1",
+      "P3H2",
+      "CITED1",
+      "C11ORF96",
+      "GALNT2",
+      "RCAN1",
+      "ITPKC",
+      "COL4A2",
+      "GPC6",
+      "C3",
+      "CNTNAP3B",
+      "RDH10-AS1",
+      "ADAM12",
+      "CHL1",
+      "BTG2",
+      "GALNT15",
+      "NFIL3",
+      "MYO1E",
+      "DUSP1",
+      "IFFO2",
+      "PHLDB2",
+      "SCARA3",
+      "CYTOR",
+      "AL596087.2",
+      "BAALC-AS1",
+      "FAM20C",
+      "NNMT",
+      "STK40",
+      "LINC01138",
+      "SULF1",
+      "FMN2",
+      "CFI",
+      "PDPN",
+      "IRS2",
+      "HIF1A",
+      "ID1",
+      "HLA-E",
+      "ITGA3",
+      "DOK5",
+      "PDLIM5",
+      "CXCL2",
+      "MRTFB",
+      "DPYD-AS1",
+      "MFHAS1",
+      "MCL1",
+      "EGR3",
+      "ELOVL5",
+      "LTF",
+      "CRISPLD1",
+      "GFPT2",
+      "LINC00698"
+    ],
+    "programs": [
+      {
+        "program_name": "Acute Neuroinflammatory Activation",
+        "description": "Rapid pro-inflammatory gene expression program characterized by upregulation of pro-inflammatory cytokines, chemokines, and immune signaling molecules within 2 days of astrocyte activation. This program drives immune cell recruitment, complement activation, and establishment of neuroinflammatory microenvironment through coordinated action of immediate early transcription factors, cytokine receptors, and inflammatory effector molecules.",
+        "atomic_biological_processes": [
+          {
+            "name": "Cytokine production and signaling",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Comprehensive analysis of astrocyte cytokine production in acute TBI"
+              },
+              {
+                "source_id": "28",
+                "notes": "RNA-seq analysis showing upregulation of IL-1, IL-6, TNF in acute astrocytes"
+              },
+              {
+                "source_id": "34",
+                "notes": "Temporal analysis revealing pro-inflammatory cytokine signatures in acute phase"
+              }
+            ],
+            "genes": [
+              "IL6R",
+              "IL1R1",
+              "IL1RAP",
+              "STAT3",
+              "TNF",
+              "CCL2"
+            ]
+          },
+          {
+            "name": "Complement cascade activation",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Gene set enrichment reveals complement activation pathways"
+              },
+              {
+                "source_id": "28",
+                "notes": "C1R and complement components enriched in acute TBI astrocytes"
+              },
+              {
+                "source_id": "34",
+                "notes": "Temporal dynamics of complement-related genes"
+              }
+            ],
+            "genes": [
+              "C1R",
+              "C3",
+              "CFI"
+            ]
+          },
+          {
+            "name": "Immediate early response transcription",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "EGR1, JUN, JUNB identified as acute response genes"
+              },
+              {
+                "source_id": "34",
+                "notes": "Temporal dynamics show rapid upregulation of immediate early genes"
+              },
+              {
+                "source_id": "66",
+                "notes": "EGR1 and related immediate early response genes in acute phase"
+              }
+            ],
+            "genes": [
+              "EGR1",
+              "JUN",
+              "JUNB",
+              "FOS",
+              "FOSL2",
+              "ATF3",
+              "EGR3"
+            ]
+          },
+          {
+            "name": "Toll-like receptor signaling",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "TLR2/MYD88 signaling prominent in acute astrocytes"
+              },
+              {
+                "source_id": "28",
+                "notes": "Toll-like receptor pathway enriched in acute TBI"
+              }
+            ],
+            "genes": [
+              "C1R"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Chemokine receptor signaling complexes",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "CCL2-mediated chemokine signaling"
+              },
+              {
+                "source_id": "28",
+                "notes": "Leukocyte migration pathways driven by CCL2 upregulation"
+              }
+            ],
+            "genes": [
+              "CCL2",
+              "CXCL2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Rapid recruitment of microglia and infiltrating immune cells into brain parenchyma",
+          "Enhanced release of pro-inflammatory cytokines (IL-1, IL-6, TNF) amplifying neuroinflammatory cascade",
+          "Activation of complement cascade promoting inflammation and immune cell recruitment",
+          "Transient increases in astrocyte proliferation (within 3 days post-injury)",
+          "Establishment of pro-inflammatory microenvironment exacerbating acute neuronal injury"
+        ],
+        "evidence_summary": "The acute neuroinflammatory activation program comprises canonical immediate early genes (EGR1, JUN, JUNB, FOS), pro-inflammatory cytokine receptors (IL6R, IL1R1, IL1RAP), chemokines (CCL2, CXCL2), and complement components (C1R, C3, CFI). This program demonstrates maximal expression at 2 days post-injury with robust upregulation of TNF, CCL2, IL-6, and IFN-γ signaling pathways. The program is mediated by STAT3-dependent transcriptional responses to IL-6 and IL-1 signaling. Strong literature support from temporal transcriptomic studies of acute brain injury and astrocyte activation demonstrates that this program consistently activates across multiple CNS injury contexts within hours to 2 days of injury onset.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "RNA-seq of acute TBI astrocytes identifies pro-inflammatory signature"
+          },
+          {
+            "source_id": "7",
+            "notes": "Confirms acute neuroinflammatory gene expression patterns"
+          },
+          {
+            "source_id": "28",
+            "notes": "Detailed transcriptomic analysis at 2 days post-injury"
+          },
+          {
+            "source_id": "34",
+            "notes": "Comprehensive temporal analysis of acute phase astrocytes"
+          },
+          {
+            "source_id": "66",
+            "notes": "Validation of acute inflammatory gene expression patterns"
+          }
+        ],
+        "supporting_genes": [
+          "EGR1",
+          "JUN",
+          "JUNB",
+          "FOS",
+          "FOSL2",
+          "ATF3",
+          "IL6R",
+          "IL1R1",
+          "IL1RAP",
+          "STAT3",
+          "CCL2",
+          "CXCL2",
+          "C1R",
+          "C3",
+          "CFI",
+          "EGR3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "TNF",
+            "IL6",
+            "IL1B",
+            "CXCL10",
+            "IRF5",
+            "IRF8",
+            "TLR2",
+            "MYD88",
+            "NFKBIA",
+            "REL",
+            "RELA"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "TNF, IL6, IL1B, CXCL10 major components of acute inflammatory response"
+            },
+            {
+              "source_id": "28",
+              "notes": "IRF5, IRF8, TLR2, MYD88 identified as key regulators"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Extracellular Matrix Remodeling and Microenvironment Sculpting",
+        "description": "Dynamic reorganization of brain extracellular matrix involving upregulation of ECM structural proteins (collagen, fibronectin), proteolytic enzymes, matrix inhibitors, and ECM-associated molecules. This program reshapes the local microenvironment, facilitating cell migration, immune cell infiltration, and influencing neuronal survival through altered ECM-integrin interactions. ECM composition changes across reactive phases from acute inflammation toward chronic neurodegeneration.",
+        "atomic_biological_processes": [
+          {
+            "name": "Extracellular matrix protein synthesis and deposition",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Comprehensive analysis of ECM remodeling during astrocyte activation"
+              },
+              {
+                "source_id": "51",
+                "notes": "Detailed characterization of ECM components in astrocytes"
+              },
+              {
+                "source_id": "67",
+                "notes": "Single-cell spatial transcriptomics reveals ECM heterogeneity in gliomas"
+              }
+            ],
+            "genes": [
+              "FN1",
+              "COL4A1",
+              "COL4A2",
+              "COL8A1",
+              "EFEMP1"
+            ]
+          },
+          {
+            "name": "Matrix metalloproteinase inhibition and regulation",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "TIMP3 upregulation regulates proteolytic activity"
+              },
+              {
+                "source_id": "51",
+                "notes": "Temporal dynamics of TIMP expression"
+              }
+            ],
+            "genes": [
+              "TIMP3"
+            ]
+          },
+          {
+            "name": "Synapse-associated matrix protein expression",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "SPARC upregulation in subacute phase promotes synapse pruning"
+              },
+              {
+                "source_id": "51",
+                "notes": "SPARC and SPARCL1 mediate synapse elimination"
+              },
+              {
+                "source_id": "67",
+                "notes": "ECM-synapse interactions in glioma microenvironment"
+              }
+            ],
+            "genes": [
+              "SPARC",
+              "SPARCL1",
+              "CLU"
+            ]
+          },
+          {
+            "name": "Matrix proteoglycan synthesis and modification",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Temporal upregulation of proteoglycan-modifying enzymes"
+              },
+              {
+                "source_id": "67",
+                "notes": "Spatial heterogeneity of ECM component expression"
+              }
+            ],
+            "genes": [
+              "ADAMTS9",
+              "SULF1",
+              "HAS2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Basement membrane architecture",
+            "citations": [
+              {
+                "source_id": "67",
+                "notes": "Type IV collagen in basement membrane"
+              },
+              {
+                "source_id": "34",
+                "notes": "Basement membrane disruption in reactive astrocytes"
+              }
+            ],
+            "genes": [
+              "COL4A1",
+              "COL4A2"
+            ]
+          },
+          {
+            "name": "Cell-ECM interaction zones",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Focal adhesion involvement in ECM interactions"
+              },
+              {
+                "source_id": "51",
+                "notes": "Integrin-mediated ECM sensing"
+              }
+            ],
+            "genes": [
+              "FN1",
+              "VCL",
+              "ITGA3",
+              "ITGAV"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Reorganization of basement membrane architecture affecting vascular permeability",
+          "Increased ECM protein deposition creating pro-migratory substrate",
+          "Synapse pruning through SPARC-mediated mechanisms eliminating synaptic contacts",
+          "Enhanced infiltration of immune cells through remodeled ECM",
+          "Creation of physically altered microenvironment affecting astrocyte-neuron interactions",
+          "Deposition of ECM components promoting astrocytoma cell invasion"
+        ],
+        "evidence_summary": "The ECM remodeling program includes major structural proteins (FN1, COL4A1, COL4A2, COL8A1, EFEMP1), synapse pruning mediators (SPARC, SPARCL1, CLU), and proteolytic regulators (TIMP3, ADAMTS9, SULF1). FN1 upregulation creates adhesive substrates promoting cell migration. Type IV collagen (COL4A1/COL4A2) composition changes alter basement membrane integrity. SPARC and SPARCL1 upregulation in subacute phases (2 weeks post-injury) correlates with enhanced synapse pruning and transition toward neurodegenerative processes. The program demonstrates dynamic temporal regulation with initial FN1 and collagen upregulation in acute phases transitioning toward SPARC-mediated synapse elimination in subacute phases. Strong representation in both normal reactive astrocyte models and astrocytoma contexts indicates high relevance to disease pathogenesis.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "Comprehensive temporal analysis of ECM remodeling"
+          },
+          {
+            "source_id": "51",
+            "notes": "ECM components in chronic TBI astrocytes"
+          },
+          {
+            "source_id": "67",
+            "notes": "Spatial transcriptomics of ECM in glioma microenvironment"
+          }
+        ],
+        "supporting_genes": [
+          "FN1",
+          "COL4A1",
+          "COL4A2",
+          "COL8A1",
+          "EFEMP1",
+          "SPARC",
+          "SPARCL1",
+          "CLU",
+          "TIMP3",
+          "ADAMTS9",
+          "SULF1",
+          "HAS2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MMP2",
+            "MMP3",
+            "MMP9",
+            "THBS1",
+            "THBS4",
+            "LAMA2",
+            "LAMB1",
+            "LAMC1",
+            "NIDOGEN1",
+            "NIDOGEN2"
+          ],
+          "citations": [
+            {
+              "source_id": "34",
+              "notes": "MMP2, MMP3, MMP9 major matrix-degrading enzymes"
+            },
+            {
+              "source_id": "67",
+              "notes": "Additional ECM components in glioma microenvironment"
+            },
+            {
+              "source_id": "51",
+              "notes": "Thrombospondin variants regulate ECM-integrin interactions"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Oxidative Stress Response and Antioxidant Defense",
+        "description": "Coordinated upregulation of antioxidant enzymes, ROS-scavenging proteins, and stress response mediators balancing reactive oxygen species generation accompanying inflammatory activation. This program reflects astrocytes' simultaneous roles as sources of inflammatory ROS and defenders against oxidative damage to cellular components. Temporal dynamics show enhanced antioxidant responses in subacute and chronic phases as astrocytes transition from acute inflammation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Superoxide dismutation and ROS scavenging",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "SOD2 upregulation in acute TBI astrocytes"
+              },
+              {
+                "source_id": "28",
+                "notes": "Gene set enrichment reveals reactive oxygen species production pathways"
+              },
+              {
+                "source_id": "34",
+                "notes": "SOD2 upregulation maintained in subacute and chronic phases"
+              }
+            ],
+            "genes": [
+              "SOD2"
+            ]
+          },
+          {
+            "name": "Stress-responsive protein synthesis and chaperone activity",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Chaperone genes (CRYAB, HSPB1) upregulated in acute astrocytes"
+              },
+              {
+                "source_id": "34",
+                "notes": "Comprehensive analysis of protein stress response"
+              },
+              {
+                "source_id": "51",
+                "notes": "CRYAB upregulation supports neuroprotective functions"
+              }
+            ],
+            "genes": [
+              "ATF3",
+              "GADD45A",
+              "GADD45B",
+              "NR4A3"
+            ]
+          },
+          {
+            "name": "NAD+-dependent stress adaptation",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "NAMPT upregulation supports NAD+ biosynthesis"
+              },
+              {
+                "source_id": "51",
+                "notes": "Metabolic adaptation in chronic astrocytes"
+              },
+              {
+                "source_id": "56",
+                "notes": "NAMPT catalyzes rate-limiting step in NAD+ biosynthesis"
+              }
+            ],
+            "genes": [
+              "NAMPT"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Mitochondrial antioxidant systems",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "SOD2 localization to mitochondrial matrix"
+              },
+              {
+                "source_id": "28",
+                "notes": "Oxidative phosphorylation pathway enrichment"
+              }
+            ],
+            "genes": [
+              "SOD2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced antioxidant defense protecting cellular macromolecules from ROS-mediated damage",
+          "Balanced ROS production enabling inflammatory signaling while limiting toxicity",
+          "Maintenance of mitochondrial integrity and function during metabolic stress",
+          "NAD+-dependent SIRT activation supporting stress resistance",
+          "Prevention of excessive oxidative damage while preserving protective ROS signaling",
+          "Neuroprotective effects through sustained antioxidant capacity in chronic phases"
+        ],
+        "evidence_summary": "The oxidative stress response program centers upon SOD2 (mitochondrial superoxide dismutase), stress-response transcription factors (ATF3, GADD45A, GADD45B, NR4A3), and metabolic adaptors supporting NAD+ biosynthesis (NAMPT). Gene set enrichment analysis of acute TBI astrocytes reveals concurrent enrichment in both reactive oxygen species production pathways and antioxidant defense mechanisms, reflecting astrocytes' simultaneous roles as inflammatory ROS generators and oxidative stress defenders. SOD2 upregulation demonstrates particular prominence in subacute phases (2 weeks post-injury) and persists in chronic phases, indicating sustained importance for protecting astrocytes from oxidative damage. The program shows temporal evolution from acute phase emphasis on ROS production pathways toward subacute and chronic phase increases in antioxidant enzyme expression, suggesting metabolic stabilization and transition away from acute inflammation.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "Gene set enrichment reveals ROS pathway activation"
+          },
+          {
+            "source_id": "28",
+            "notes": "SOD1/SOD2 upregulation alongside ROS production"
+          },
+          {
+            "source_id": "34",
+            "notes": "Temporal dynamics of antioxidant responses"
+          }
+        ],
+        "supporting_genes": [
+          "SOD2",
+          "ATF3",
+          "GADD45A",
+          "GADD45B",
+          "NR4A3",
+          "NAMPT"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SOD1",
+            "CAT",
+            "GPX1",
+            "PRDX1",
+            "PRDX3",
+            "TXNRD1",
+            "GSR"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "SOD1 in cytosolic compartment alongside mitochondrial SOD2"
+            },
+            {
+              "source_id": "28",
+              "notes": "Glutathione and thioredoxin systems important for ROS detoxification"
+            },
+            {
+              "source_id": "34",
+              "notes": "Comprehensive antioxidant enzyme families"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cytoskeletal Reorganization and Cell Migration",
+        "description": "Coordinated remodeling of actin microfilaments, microtubules, and intermediate filaments enabling rapid astrocyte morphological transformation from resting ramified states to activated hypertrophic states. This program supports enhanced cell motility, process extension/retraction, and migration into areas of injury. Includes regulators of actin polymerization, focal adhesion dynamics, and microtubule-associated protein functions.",
+        "atomic_biological_processes": [
+          {
+            "name": "Actin filament organization and dynamics",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Astrocyte morphological transformation involves actin reorganization"
+              },
+              {
+                "source_id": "34",
+                "notes": "ACTN1, VIM, CNN3 upregulated in reactive astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "Cytoskeletal remodeling supports cell migration"
+              }
+            ],
+            "genes": [
+              "ACTN1",
+              "VIM",
+              "CNN3",
+              "TPM4",
+              "VCL"
+            ]
+          },
+          {
+            "name": "Focal adhesion complex assembly and signaling",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Focal adhesion kinase signaling in reactive astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "Vinculin mediates integrin-actin linkage"
+              },
+              {
+                "source_id": "66",
+                "notes": "Focal adhesion dynamics during astrocyte migration"
+              }
+            ],
+            "genes": [
+              "VCL",
+              "ACTN1",
+              "NEDD9"
+            ]
+          },
+          {
+            "name": "Microtubule dynamics and organization",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "MAP1B in astrocyte process morphology"
+              },
+              {
+                "source_id": "51",
+                "notes": "Microtubule-associated proteins in reactive transformation"
+              }
+            ],
+            "genes": [
+              "MAP1B",
+              "CLIP1"
+            ]
+          },
+          {
+            "name": "Cell migration and invasion",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Enhanced astrocyte migration in reactive states"
+              },
+              {
+                "source_id": "51",
+                "notes": "Multiple genes coordinately support migration"
+              },
+              {
+                "source_id": "67",
+                "notes": "Migration-associated genes in astrocytoma"
+              }
+            ],
+            "genes": [
+              "TRIO",
+              "ARHGEF3",
+              "SORBS1",
+              "NEDD9",
+              "ITGA3",
+              "ITGAV"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Actin-based contractile structures",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Stress fiber formation in reactive astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "Actin crosslinking proteins"
+              }
+            ],
+            "genes": [
+              "ACTN1",
+              "VIM",
+              "TPM4",
+              "VCL"
+            ]
+          },
+          {
+            "name": "Focal adhesion plaques",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Focal adhesion assembly in activated astrocytes"
+              },
+              {
+                "source_id": "66",
+                "notes": "Dynamic focal adhesion remodeling"
+              }
+            ],
+            "genes": [
+              "VCL",
+              "NEDD9",
+              "SORBS1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Rapid morphological transformation from ramified to hypertrophic states",
+          "Enhanced cell motility enabling migration toward injury sites",
+          "Increased mechanotransduction through focal adhesion signaling",
+          "Augmented integrin-mediated ECM sensing and adhesion",
+          "Facilitation of astrocyte infiltration into damaged brain regions",
+          "Support for invasive astrocytoma cell phenotypes"
+        ],
+        "evidence_summary": "The cytoskeletal reorganization program comprises actin-binding proteins (ACTN1, VIM, CNN3, TPM4), focal adhesion components (VCL, NEDD9, SORBS1), microtubule-associated proteins (MAP1B, CLIP1), and migration regulators (TRIO, ARHGEF3). Vimentin (VIM), the major intermediate filament of astrocytes, demonstrates robust upregulation following activation and directly correlates with acquisition of pro-inflammatory and pro-migratory phenotypes. Vinculin (VCL) upregulation supports focal adhesion assembly and mechanotransduction. Alpha-actinin proteins (ACTN1) crosslink actin filaments and enable rapid morphological remodeling. The program demonstrates functional integration with adhesion molecule expression (ITGA3, ITGAV, CD44) enabling astrocyte interaction with ECM components. Enhanced expression of Rho family GTPase activators (TRIO, ARHGEF3) coordinates migration signaling with cytoskeletal dynamics. Multiple lines of evidence from reactive astrocyte models and astrocytoma contexts confirm that this program enables both normal reactive astrocyte responses and tumor-promoting invasive phenotypes.",
+        "significance_score": 0.9,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "Comprehensive analysis of cytoskeletal gene expression"
+          },
+          {
+            "source_id": "51",
+            "notes": "Temporal dynamics of migration-related genes"
+          },
+          {
+            "source_id": "66",
+            "notes": "Integration of cytoskeleton with signaling pathways"
+          }
+        ],
+        "supporting_genes": [
+          "ACTN1",
+          "VIM",
+          "CNN3",
+          "TPM4",
+          "VCL",
+          "NEDD9",
+          "MAP1B",
+          "CLIP1",
+          "TRIO",
+          "ARHGEF3",
+          "SORBS1",
+          "ITGA3",
+          "ITGAV"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ACTIN-related proteins (ARP2/3 complex)",
+            "WASP",
+            "N-WASP",
+            "LIMK1",
+            "COFILIN1",
+            "RAC1",
+            "CDC42",
+            "RHOA"
+          ],
+          "citations": [
+            {
+              "source_id": "34",
+              "notes": "ARP2/3 complex nucleates actin filaments"
+            },
+            {
+              "source_id": "51",
+              "notes": "Small GTPases coordinate actin dynamics"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Pan-Reactive Astrocyte Marker Expression",
+        "description": "Expression of genes serving as canonical markers of astrocyte reactivity across diverse CNS injury and disease contexts. These genes demonstrate rapid upregulation following astrocyte activation and persist through multiple phases of reactive transformation. Pan-reactive markers indicate astrocyte identity and degree of activation while conveying limited information regarding specific functional phenotypes (pro-inflammatory versus neuroprotective).",
+        "atomic_biological_processes": [
+          {
+            "name": "Astrocyte identity maintenance and activation confirmation",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "GFAP and YKL-40 as early Alzheimer's disease biomarkers"
+              },
+              {
+                "source_id": "19",
+                "notes": "CHI3L1 as pan-reactive astrocyte marker"
+              },
+              {
+                "source_id": "34",
+                "notes": "GFAP, APOE, CD44, SERPINA3, CXCL10 as key pan-reactive markers"
+              },
+              {
+                "source_id": "51",
+                "notes": "Comprehensive characterization of reactive astrocyte markers"
+              }
+            ],
+            "genes": [
+              "GFAP",
+              "CD44",
+              "SERPINA3",
+              "CHI3L1"
+            ]
+          },
+          {
+            "name": "Cell-cell communication and adhesion",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "CD44 upregulation in reactive astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "CD44 promotes astrocyte-derived progenitor emergence"
+              }
+            ],
+            "genes": [
+              "CD44",
+              "NRCAM"
+            ]
+          },
+          {
+            "name": "Immune-regulatory protein expression",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "SERPINA3 dual role as pan-reactive marker and neuroprotective factor"
+              },
+              {
+                "source_id": "51",
+                "notes": "CHI3L1 expression across reactive phases"
+              }
+            ],
+            "genes": [
+              "SERPINA3",
+              "CHI3L1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Reliable indicators of astrocyte activation status across injury/disease contexts",
+          "Markers enabling discrimination of reactive versus quiescent astrocytes",
+          "Indicators of glial scar formation and neuroinflammatory microenvironment",
+          "Biomarkers for disease progression and therapeutic response",
+          "Partial prediction of functional phenotypes (A1-like pro-inflammatory vs. A2-like neuroprotective)"
+        ],
+        "evidence_summary": "The pan-reactive astrocyte marker program comprises GFAP (glial fibrillary acidic protein), CD44 (cell adhesion molecule), SERPINA3 (serine protease inhibitor), and CHI3L1 (chitinase-3-like protein 1). These genes demonstrate robust and consistent upregulation across diverse CNS injury contexts including traumatic brain injury, ischemic stroke, and chronic neurodegenerative diseases. GFAP represents the most widely used marker of both basal astrocyte identity and reactive transformation, with upregulation commencing within hours of CNS injury and persisting through chronic phases. CD44 upregulation accompanies acquisition of invasive and stemness-associated phenotypes in astrocytes. SERPINA3 demonstrates particular prominence as a dual-function marker correlating with both acute inflammation and neuroprotective functions. CHI3L1 (YKL-40) elevation predicts disease progression in multiple neuroinflammatory conditions. While these markers reliably indicate astrocyte reactivity, they demonstrate limited capacity to distinguish between pro-inflammatory and neuroprotective astrocyte phenotypes without additional gene expression context.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "GFAP and related pan-reactive markers in acute TBI"
+          },
+          {
+            "source_id": "9",
+            "notes": "GFAP biomarker relevance to neurodegeneration"
+          },
+          {
+            "source_id": "19",
+            "notes": "CHI3L1 as pan-reactive marker"
+          },
+          {
+            "source_id": "34",
+            "notes": "Comprehensive characterization across reactive phases"
+          },
+          {
+            "source_id": "51",
+            "notes": "Expression patterns persisting one year after TBI"
+          }
+        ],
+        "supporting_genes": [
+          "GFAP",
+          "CD44",
+          "SERPINA3",
+          "CHI3L1",
+          "NRCAM"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "APOE",
+            "CXCL10",
+            "CSF1R"
+          ],
+          "citations": [
+            {
+              "source_id": "34",
+              "notes": "APOE as major pan-reactive marker"
+            },
+            {
+              "source_id": "51",
+              "notes": "CXCL10 expressed in reactive phases"
+            },
+            {
+              "source_id": "7",
+              "notes": "CSF1R involved in microglial recruitment"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Metabolic Reprogramming Toward Glycolysis and Biosynthesis",
+        "description": "Coordinated rewiring of astrocyte metabolism from oxidative phosphorylation-dependent energy production toward enhanced glycolytic flux and biosynthetic pathways. This metabolic shift supports inflammatory mediator production, ECM protein synthesis, and rapid biosynthesis accompanying immune activation. Includes upregulation of glycolytic enzymes, amino acid metabolism, and lipid synthesis pathways.",
+        "atomic_biological_processes": [
+          {
+            "name": "Aerobic glycolysis and lactate metabolism",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "PFKFB3 promotes glycolytic flux in reactive astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "Metabolic shift toward glycolysis in reactive transformation"
+              },
+              {
+                "source_id": "13",
+                "notes": "GAPDH and glycolytic enzyme roles in glial cells"
+              }
+            ],
+            "genes": [
+              "PFKFB3",
+              "GLUL"
+            ]
+          },
+          {
+            "name": "Amino acid metabolism and glutamate homeostasis",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "GLUL upregulation increases glutamate production"
+              },
+              {
+                "source_id": "51",
+                "notes": "Glutaminase role in immune metabolism"
+              }
+            ],
+            "genes": [
+              "GLUL"
+            ]
+          },
+          {
+            "name": "NAD+ biosynthesis and SIRT-dependent signaling",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "NAMPT catalyzes rate-limiting NAD+ biosynthesis"
+              },
+              {
+                "source_id": "51",
+                "notes": "NAD+-dependent SIRT1 activation supports stress adaptation"
+              },
+              {
+                "source_id": "56",
+                "notes": "NAMPT overexpression in activated immune cells"
+              }
+            ],
+            "genes": [
+              "NAMPT"
+            ]
+          },
+          {
+            "name": "Polyamine metabolism",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "SAT1 increases in reactive astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "Polyamine metabolism supports proliferation"
+              }
+            ],
+            "genes": [
+              "SAT1"
+            ]
+          },
+          {
+            "name": "Lipid synthesis and membrane remodeling",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ELOVL5 upregulation supports lipid biosynthesis"
+              },
+              {
+                "source_id": "51",
+                "notes": "Enhanced membrane trafficking in reactive astrocytes"
+              }
+            ],
+            "genes": [
+              "ELOVL5",
+              "PFKFB3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Mitochondrial metabolic compartments",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Mitochondrial dynamics during metabolic shift"
+              },
+              {
+                "source_id": "51",
+                "notes": "Oxidative phosphorylation pathway enrichment"
+              }
+            ],
+            "genes": [
+              "NAMPT",
+              "PFKFB3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced ATP production via glycolysis supporting biosynthetic demands",
+          "Increased NADH and reducing equivalents for biosynthesis",
+          "Enhanced glutamate production supporting immune cell metabolism",
+          "NAD+-dependent SIRT activation promoting stress resistance",
+          "Increased polyamine synthesis supporting rapid proliferation",
+          "Enhanced lipid biosynthesis supporting membrane trafficking and secretion",
+          "Transition from quiescent astrocyte metabolism toward immune-activated metabolism"
+        ],
+        "evidence_summary": "The metabolic reprogramming program comprises glycolytic enzymes (PFKFB3), amino acid metabolic enzymes (GLUL), NAD+ biosynthetic pathways (NAMPT), polyamine metabolism (SAT1), and lipid biosynthetic enzymes (ELOVL5). PFKFB3 upregulation in reactive astrocytes catalyzes synthesis of fructose-2,6-bisphosphate, a potent allosteric activator of phosphofructokinase that promotes glycolytic flux. GLUL upregulation increases glutamate production, simultaneously supporting excitatory neurotransmission and providing glutamate for immune cell metabolism. NAMPT catalyzes the rate-limiting step in NAD+ biosynthesis, supporting NAD+-dependent SIRT1 signaling for stress resistance. The program demonstrates temporal evolution with enhancement of both glycolytic and oxidative phosphorylation pathways in chronic phases. This metabolic shift parallels classical immune cell activation patterns, indicating convergent metabolic rewiring between astrocytes and professional immune cells during inflammatory responses.",
+        "significance_score": 0.84,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "Comprehensive metabolic pathway enrichment analysis"
+          },
+          {
+            "source_id": "51",
+            "notes": "Temporal metabolic dynamics"
+          },
+          {
+            "source_id": "56",
+            "notes": "NAMPT function in metabolism"
+          }
+        ],
+        "supporting_genes": [
+          "PFKFB3",
+          "GLUL",
+          "NAMPT",
+          "SAT1",
+          "ELOVL5"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GAPDH",
+            "LDHA",
+            "LDHB",
+            "PKM",
+            "SLC1A1",
+            "SLC1A3",
+            "GFPT1",
+            "GFPT2"
+          ],
+          "citations": [
+            {
+              "source_id": "13",
+              "notes": "GAPDH role in astrocyte metabolism"
+            },
+            {
+              "source_id": "34",
+              "notes": "LDHA/LDHB and lactate metabolism"
+            },
+            {
+              "source_id": "51",
+              "notes": "Glutamate-aspartate transporters and amino acid metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Synapse-Associated Pruning and Neuronal Interaction",
+        "description": "Expression of genes mediating astrocyte-dependent elimination of synapses and neuronal projections through multiple complementary mechanisms. This program operates predominantly in subacute phases of injury (1-2 weeks post-injury) and establishes astrocyte roles in activity-dependent synaptic remodeling, complement-mediated synapse elimination, and thrombospondin-integrin-mediated pruning.",
+        "atomic_biological_processes": [
+          {
+            "name": "ECM-mediated synapse pruning and elimination",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "SPARC and SPARCL1 upregulation in subacute phase promotes synapse pruning"
+              },
+              {
+                "source_id": "51",
+                "notes": "SPARC promotes synapse elimination in chronic TBI"
+              },
+              {
+                "source_id": "67",
+                "notes": "ECM-integrin interactions in synaptic organization"
+              }
+            ],
+            "genes": [
+              "SPARC",
+              "SPARCL1",
+              "CLU"
+            ]
+          },
+          {
+            "name": "Astrocyte-neuron contact and synaptic stabilization",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "NRCAM downregulation in acute phases correlates with synapse elimination"
+              },
+              {
+                "source_id": "43",
+                "notes": "Dynamic modulation of astrocyte-neuron adhesion"
+              }
+            ],
+            "genes": [
+              "NRCAM",
+              "CLCF1"
+            ]
+          },
+          {
+            "name": "Neuroprotective signaling and cytokine-mediated synaptic support",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "CLCF1 promotes neuroprotective signaling"
+              },
+              {
+                "source_id": "51",
+                "notes": "Cytokine-mediated astrocyte support of neuronal survival"
+              }
+            ],
+            "genes": [
+              "CLCF1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Synaptic ECM zones and perineuronal nets",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "SPARC localization to synaptic ECM"
+              },
+              {
+                "source_id": "51",
+                "notes": "ECM architecture in synaptic regions"
+              }
+            ],
+            "genes": [
+              "SPARC",
+              "SPARCL1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced synaptic pruning and elimination of immature/damaged synapses",
+          "Remodeling of synaptic architecture through SPARC-mediated mechanisms",
+          "Modulation of synaptic strength through astrocyte-neuron contact dynamics",
+          "Support for neuronal survival through neuroprotective cytokine signaling",
+          "Contribution to synaptic refinement and functional reorganization",
+          "Participation in activity-dependent synaptic plasticity"
+        ],
+        "evidence_summary": "The synapse pruning program comprises ECM-associated proteins (SPARC, SPARCL1, CLU), astrocyte-neuron adhesion molecules (NRCAM), and neuroprotective cytokine mediators (CLCF1). SPARC and SPARCL1 promote synapse elimination through interaction with thrombospondin-binding integrins on astrocytes and neuronal surfaces. These genes show selective upregulation in subacute injury phases (2 weeks post-injury) coinciding with active synaptic remodeling and refinement. NRCAM downregulation in acute phases correlates with synapse elimination, while selective re-expression in subacute and chronic phases indicates dynamic modulation of astrocyte-neuron interactions. CLCF1 promotes neuroprotective signaling through CNTFR engagement on neurons. The temporal pattern of synapse pruning program activation follows resolution of acute neuroinflammation, suggesting coordinated transition from acute inflammation toward chronic neurodegeneration. While astrocyte-mediated synaptic pruning supports normal brain development and activity-dependent plasticity, dysregulation of this program may contribute to long-term cognitive and functional deficits in TBI and other CNS disorders.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "Temporal dynamics of synapse pruning genes"
+          },
+          {
+            "source_id": "43",
+            "notes": "Synaptic interaction genes in chronic TBI"
+          },
+          {
+            "source_id": "51",
+            "notes": "SPARC and related ECM proteins"
+          }
+        ],
+        "supporting_genes": [
+          "SPARC",
+          "SPARCL1",
+          "CLU",
+          "NRCAM",
+          "CLCF1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "THBS1",
+            "THBS4",
+            "C1QA",
+            "C1QB",
+            "C1QC",
+            "MERTK",
+            "C3AR1",
+            "C3"
+          ],
+          "citations": [
+            {
+              "source_id": "34",
+              "notes": "Thrombospondin isoforms promote synapse pruning"
+            },
+            {
+              "source_id": "51",
+              "notes": "Complement-mediated synaptic engulfment"
+            },
+            {
+              "source_id": "67",
+              "notes": "Multiple pruning mechanisms coordinate"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Transcriptional Control of Inflammatory and Stress Responses",
+        "description": "Coordinated expression of immediate early transcription factors and stress-response regulators enabling rapid transcriptional reprogramming of astrocytes following injury or inflammatory stimuli. These transcription factors establish temporal dynamics of gene expression through sequential waves of AP-1 family members, stress-inducible factors, and STAT-family transcriptional regulators.",
+        "atomic_biological_processes": [
+          {
+            "name": "AP-1 complex formation and inflammatory gene regulation",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "JUN, JUNB, FOS, FOSL2 form AP-1 complexes regulating inflammatory genes"
+              },
+              {
+                "source_id": "34",
+                "notes": "Temporal dynamics of AP-1 complex members"
+              },
+              {
+                "source_id": "66",
+                "notes": "JUN and JUNB expression in acute phase"
+              }
+            ],
+            "genes": [
+              "JUN",
+              "JUNB",
+              "FOS",
+              "FOSL2"
+            ]
+          },
+          {
+            "name": "Early growth response factors in rapid transcriptional response",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "EGR1 rapid induction in response to injury"
+              },
+              {
+                "source_id": "34",
+                "notes": "EGR1 upregulation and partial decline in subacute phase"
+              },
+              {
+                "source_id": "66",
+                "notes": "EGR family members in stress response"
+              }
+            ],
+            "genes": [
+              "EGR1",
+              "EGR3"
+            ]
+          },
+          {
+            "name": "Integrative stress response through ATF family factors",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ATF3 induction in metabolic stress"
+              },
+              {
+                "source_id": "51",
+                "notes": "ATF3 role in integrated stress response"
+              }
+            ],
+            "genes": [
+              "ATF3"
+            ]
+          },
+          {
+            "name": "STAT-mediated cytokine signaling responses",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "STAT3 phosphorylation and nuclear translocation"
+              },
+              {
+                "source_id": "34",
+                "notes": "STAT3 as master regulator of pro-inflammatory genes"
+              },
+              {
+                "source_id": "66",
+                "notes": "STAT3 downstream signaling"
+              }
+            ],
+            "genes": [
+              "STAT3",
+              "SOCS3"
+            ]
+          },
+          {
+            "name": "Krüppel-like factor-mediated differentiation and inflammation control",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "KLF6 and KLF7 in astrocyte activation"
+              },
+              {
+                "source_id": "51",
+                "notes": "KLF family dynamic expression"
+              }
+            ],
+            "genes": [
+              "KLF6",
+              "KLF7"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Transcription factor binding at cis-regulatory elements",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "AP-1 binding sites in inflammatory gene promoters"
+              },
+              {
+                "source_id": "34",
+                "notes": "Multiple transcription factors coordinate binding"
+              }
+            ],
+            "genes": [
+              "JUN",
+              "JUNB",
+              "FOS",
+              "FOSL2",
+              "EGR1",
+              "STAT3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Rapid transcriptional reprogramming within hours of injury stimuli",
+          "Sequential activation of gene programs through temporal waves of transcription factor expression",
+          "Integration of multiple signal inputs (STAT3, AP-1, ATF3) for coordinated gene expression",
+          "Establishment of temporal dynamics allowing transition from acute inflammation to chronic neurodegeneration",
+          "Stress-responsive transcriptional adaptation supporting metabolic rewiring and biosynthesis",
+          "Negative feedback through SOCS3 preventing excessive inflammatory responses"
+        ],
+        "evidence_summary": "The transcriptional control program comprises AP-1 family members (JUN, JUNB, FOS, FOSL2), immediate early response factors (EGR1, EGR3), stress-responsive transcription factors (ATF3), STAT family members (STAT3), and Krüppel-like factors (KLF6, KLF7). These transcription factors demonstrate rapid upregulation within hours of injury, with AP-1 and EGR family members showing maximal expression at 2 days post-injury followed by partial decline in subacute phases. STAT3 demonstrates persistent upregulation through chronic phases, indicating sustained cytokine signaling. The inclusion of SOCS3 (suppressor of cytokine signaling 3), a negative feedback inhibitor of STAT3 signaling, reflects activation of cytokine responses coupled with induction of negative feedback mechanisms limiting signal intensity. The temporal dynamics of transcription factor expression establish sequential waves enabling transition from acute inflammation toward chronic neurodegeneration. Multiple studies confirm that these transcription factors coordinately regulate inflammatory genes, metabolic enzymes, and cytoskeletal proteins, making them essential nodes controlling astrocyte reactive transformation.",
+        "significance_score": 0.9,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "Comprehensive analysis of transcriptional regulation"
+          },
+          {
+            "source_id": "34",
+            "notes": "Temporal dynamics across reactive phases"
+          },
+          {
+            "source_id": "66",
+            "notes": "Transcription factor expression patterns"
+          }
+        ],
+        "supporting_genes": [
+          "JUN",
+          "JUNB",
+          "FOS",
+          "FOSL2",
+          "EGR1",
+          "EGR3",
+          "ATF3",
+          "STAT3",
+          "SOCS3",
+          "KLF6",
+          "KLF7"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CEBPB",
+            "CEBPD",
+            "NFKB1",
+            "RELA",
+            "RELB",
+            "IRF5",
+            "IRF8",
+            "IRF1"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "C/EBP and NF-κB family members"
+            },
+            {
+              "source_id": "34",
+              "notes": "IRF family in inflammatory response"
+            },
+            {
+              "source_id": "51",
+              "notes": "Multiple transcription factor families coordinate"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Growth Factor Signaling and Cellular Proliferation Control",
+        "description": "Expression of growth factor ligands, receptors, and downstream signaling effectors coordinating astrocyte proliferation and differentiation decisions. This program includes TGF-β, FGF, and IGF signaling pathways that regulate astrocyte survival, proliferation, and acquisition of specific functional phenotypes. Includes both positive growth-promoting and negative cell-cycle inhibitory factors.",
+        "atomic_biological_processes": [
+          {
+            "name": "Transforming growth factor-beta signaling and immune regulation",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "TGFB2 and TGFBR2 upregulation in reactive astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "TGF-β signaling promotes neuroprotective functions"
+              }
+            ],
+            "genes": [
+              "TGFB2",
+              "TGFBR2"
+            ]
+          },
+          {
+            "name": "Insulin-like growth factor pathway modulation",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "IGFBP7 regulation of IGF bioavailability"
+              },
+              {
+                "source_id": "51",
+                "notes": "Growth factor binding proteins in astrocytes"
+              }
+            ],
+            "genes": [
+              "IGFBP7"
+            ]
+          },
+          {
+            "name": "Cell cycle checkpoint control and proliferation limitation",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "GADD45A/B induction in acute phase"
+              },
+              {
+                "source_id": "34",
+                "notes": "Checkpoint control genes in stress response"
+              },
+              {
+                "source_id": "51",
+                "notes": "Temporal dynamics of cell cycle inhibitors"
+              }
+            ],
+            "genes": [
+              "GADD45A",
+              "GADD45B",
+              "NR4A3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Growth factor receptor complexes",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "TGFBR1/TGFBR2 heterodimeric signaling"
+              },
+              {
+                "source_id": "51",
+                "notes": "Growth factor receptor activation"
+              }
+            ],
+            "genes": [
+              "TGFBR2",
+              "IGFBP7"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced proliferation in subacute phases supporting astrocyte expansion",
+          "TGF-β-mediated promotion of neuroprotective and immunosuppressive phenotypes",
+          "Modulation of growth factor bioavailability through binding protein expression",
+          "Checkpoint-mediated growth arrest during acute stress phases",
+          "Release from growth inhibition during transition to chronic phases",
+          "Support for astrocyte-derived progenitor cell expansion and neurogenic capacity"
+        ],
+        "evidence_summary": "The growth factor signaling program comprises TGF-β pathway components (TGFB2, TGFBR2), IGF pathway modulators (IGFBP7), and cell cycle checkpoint regulators (GADD45A, GADD45B, NR4A3). TGFB2 upregulation in astrocytes establishes autocrine TGF-β signaling loops that maintain reactive states. TGFBR2 upregulation enhances astrocyte responsiveness to both autocrine TGFB2 and paracrine TGF-β from other sources. IGFBP7 modulation of IGF bioavailability suggests selective regulation of growth factor signaling intensity. GADD45A and GADD45B demonstrate downregulation in chronic phases as astrocytes release from cell cycle checkpoints. The temporal dynamics of this program correlate with progressive increases in astrocyte proliferation from acute phases through subacute and chronic phases, with checkpoint relaxation enabling sustained expansion of astrocyte populations. The program demonstrates integration with transcriptional control networks, whereby growth factor signaling through SMAD-dependent pathways coordinates with AP-1 and STAT3 signaling to establish specific astrocyte phenotypes.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "Growth factor pathway enrichment analysis"
+          },
+          {
+            "source_id": "51",
+            "notes": "Temporal dynamics of growth signaling"
+          },
+          {
+            "source_id": "3",
+            "notes": "TGF-β in astrocyte activation"
+          }
+        ],
+        "supporting_genes": [
+          "TGFB2",
+          "TGFBR2",
+          "IGFBP7",
+          "GADD45A",
+          "GADD45B",
+          "NR4A3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SMAD2",
+            "SMAD3",
+            "SMAD4",
+            "CDKN1A",
+            "FGF2",
+            "FGFR1",
+            "FGF7"
+          ],
+          "citations": [
+            {
+              "source_id": "34",
+              "notes": "SMAD-dependent TGF-β signaling"
+            },
+            {
+              "source_id": "51",
+              "notes": "FGF signaling in astrocytes"
+            },
+            {
+              "source_id": "70",
+              "notes": "FGF2 in astrocyte responses"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cell Adhesion, Migration, and Extracellular Matrix Interactions",
+        "description": "Expression of cell adhesion molecules (integrins, cadherins, immunoglobulin superfamily members) and their ligands enabling astrocyte interactions with ECM components and neighboring cells. This program supports cell migration, invasive capacity, and mechanotransduction while regulating astrocyte invasion in astrocytoma contexts.",
+        "atomic_biological_processes": [
+          {
+            "name": "Integrin-mediated ECM adhesion and signaling",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "ITGA3, ITGAV upregulation in reactive astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "Integrin engagement with ECM ligands"
+              },
+              {
+                "source_id": "67",
+                "notes": "Integrin-ECM interactions in glioma microenvironment"
+              }
+            ],
+            "genes": [
+              "ITGA3",
+              "ITGAV",
+              "VCL",
+              "NEDD9"
+            ]
+          },
+          {
+            "name": "Cadherin-mediated cell-cell adhesion",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "CDH11 upregulation in reactive astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "Switch from CDH1 to CDH11 in gliomas"
+              },
+              {
+                "source_id": "67",
+                "notes": "Cadherin switches in EMT-like processes"
+              }
+            ],
+            "genes": [
+              "CDH11"
+            ]
+          },
+          {
+            "name": "Hyaluronic acid-mediated adhesion and immune signaling",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "CD44 binding to hyaluronic acid"
+              },
+              {
+                "source_id": "51",
+                "notes": "CD44 upregulation in reactive transformation"
+              },
+              {
+                "source_id": "67",
+                "notes": "CD44-HA interactions in tumor microenvironment"
+              }
+            ],
+            "genes": [
+              "CD44",
+              "HAS2"
+            ]
+          },
+          {
+            "name": "Cell migration and invasion",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Migration-associated genes in activated astrocytes"
+              },
+              {
+                "source_id": "51",
+                "notes": "Enhanced invasive capacity in astrocytoma"
+              }
+            ],
+            "genes": [
+              "TRIO",
+              "ARHGEF3",
+              "SORBS1",
+              "NEDD9"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Integrin-ECM binding interface",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Integrin ligand binding to collagen and fibronectin"
+              },
+              {
+                "source_id": "67",
+                "notes": "ECM-integrin interactions"
+              }
+            ],
+            "genes": [
+              "ITGA3",
+              "ITGAV",
+              "FN1",
+              "COL4A1",
+              "COL4A2"
+            ]
+          },
+          {
+            "name": "Focal adhesion-cytoskeleton linkage",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Vinculin bridges integrin and actin"
+              },
+              {
+                "source_id": "51",
+                "notes": "Mechanotransduction through focal adhesions"
+              }
+            ],
+            "genes": [
+              "VCL",
+              "ACTN1",
+              "NEDD9"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced astrocyte adhesion to collagen and fibronectin in ECM",
+          "Increased cell migration toward injury sites",
+          "Augmented mechanotransduction supporting rapid environmental sensing",
+          "EMT-like phenotypic transitions in astrocytoma contexts",
+          "Support for invasive astrocytoma cell phenotypes",
+          "Modulation of immune cell infiltration through adhesion molecule expression",
+          "Hyperadhesion contributing to glial scar formation"
+        ],
+        "evidence_summary": "The cell adhesion and migration program comprises integrin subunits (ITGA3, ITGAV), cadherin molecules (CDH11), hyaluronic acid-binding adhesion molecules (CD44), and migration regulators (TRIO, ARHGEF3, SORBS1, NEDD9). ITGA3 (integrin α3β1) primarily binds laminin and collagen, mediating astrocyte adhesion to basement membranes. ITGAV (integrin αV) complexes bind fibronectin, vitronectin, and thrombospondin. CDH11 upregulation correlates with EMT-like transitions and enhanced invasive capacity. CD44 upregulation accompanies acquisition of stemness and invasive phenotypes. Vinculin (VCL) links integrins to actin, enabling mechanotransduction and rapid morphological responses. Migration regulators including TRIO, ARHGEF3, and SORBS1 coordinate Rho family GTPase signaling with cytoskeletal dynamics. The program demonstrates dysregulation in astrocytoma contexts, with enhanced integrin and cadherin expression supporting invasive tumor cell phenotypes. Multiple studies confirm dysregulation of this program in astrocytoma specimens relative to normal brain tissue.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "Comprehensive analysis of adhesion molecules"
+          },
+          {
+            "source_id": "51",
+            "notes": "Temporal dynamics of migration-related genes"
+          },
+          {
+            "source_id": "67",
+            "notes": "Spatial transcriptomics of adhesion molecules in glioma"
+          }
+        ],
+        "supporting_genes": [
+          "ITGA3",
+          "ITGAV",
+          "CDH11",
+          "CD44",
+          "HAS2",
+          "VCL",
+          "TRIO",
+          "ARHGEF3",
+          "SORBS1",
+          "NEDD9",
+          "FN1",
+          "COL4A1",
+          "COL4A2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "LAMA2",
+            "LAMB1",
+            "LAMC1",
+            "CDH1",
+            "CTNNB1",
+            "CDH2",
+            "NRCAM"
+          ],
+          "citations": [
+            {
+              "source_id": "34",
+              "notes": "Laminin subunits in basement membrane"
+            },
+            {
+              "source_id": "51",
+              "notes": "Classical cadherins and beta-catenin"
+            },
+            {
+              "source_id": "67",
+              "notes": "Multiple adhesion molecule families"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Tumor Microenvironment Remodeling and Immunosuppression",
+        "description": "Expression of genes creating pro-tumoral, immunosuppressive microenvironments within astrocytoma through ECM remodeling, recruitment of myeloid-derived suppressor cells, expression of immunomodulatory molecules, and vascular co-option. This program integrates multiple mechanisms supporting astrocytoma growth including lymphangiogenesis, immune cell infiltration and polarization, and angiogenesis.",
+        "atomic_biological_processes": [
+          {
+            "name": "Vascular growth and lymphangiogenesis",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "VEGFA in angiogenesis and tumor growth"
+              },
+              {
+                "source_id": "67",
+                "notes": "Vascular endothelial cells express distinctive ECM in glioma"
+              }
+            ],
+            "genes": [
+              "PDPN"
+            ]
+          },
+          {
+            "name": "Immune cell recruitment and infiltration",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "CCL2-mediated microglial recruitment"
+              },
+              {
+                "source_id": "28",
+                "notes": "Immune cell chemotaxis pathways"
+              },
+              {
+                "source_id": "34",
+                "notes": "Leukocyte migration in reactive astrocytes"
+              },
+              {
+                "source_id": "67",
+                "notes": "Immune cell infiltration in glioma"
+              }
+            ],
+            "genes": [
+              "CCL2",
+              "CXCL2",
+              "IL6R",
+              "IL1RAP"
+            ]
+          },
+          {
+            "name": "Immunosuppressive microenvironment establishment",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "IL-6 trans-signaling promotes immunosuppression"
+              },
+              {
+                "source_id": "67",
+                "notes": "Immunosuppressive vascular niche in glioblastoma"
+              },
+              {
+                "source_id": "69",
+                "notes": "Immunosuppressive mechanisms in tumor microenvironment"
+              }
+            ],
+            "genes": [
+              "IL6R",
+              "TGFB2",
+              "TGFBR2"
+            ]
+          },
+          {
+            "name": "Myeloid cell infiltration and polarization",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "BRAF-mediated NFkappaB-dependent CCL2 production recruiting microglia"
+              },
+              {
+                "source_id": "67",
+                "notes": "Microglia and macrophage polarization"
+              }
+            ],
+            "genes": [
+              "CCL2",
+              "IL6R"
+            ]
+          },
+          {
+            "name": "Perivascular niche formation and vascular co-option",
+            "citations": [
+              {
+                "source_id": "67",
+                "notes": "ECM proteins in vascular niches"
+              },
+              {
+                "source_id": "69",
+                "notes": "Peritumoral microenvironment characteristics"
+              }
+            ],
+            "genes": [
+              "FN1",
+              "COL4A1",
+              "COL4A2",
+              "PDPN"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Perivascular space compartments",
+            "citations": [
+              {
+                "source_id": "67",
+                "notes": "ECM composition in perivascular regions"
+              },
+              {
+                "source_id": "69",
+                "notes": "Peritumoral microenvironment structure"
+              }
+            ],
+            "genes": [
+              "FN1",
+              "COL4A1",
+              "COL4A2",
+              "PDPN"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced immune cell infiltration through increased chemokine secretion",
+          "Establishment of immunosuppressive microenvironment limiting anti-tumor immunity",
+          "Promotion of myeloid-derived suppressor cell recruitment and retention",
+          "Facilitation of lymphangiogenesis supporting immune cell trafficking",
+          "Vascular co-option and enhanced angiogenesis",
+          "ECM remodeling supporting astrocytoma cell invasion and growth",
+          "Creation of pro-tumoral niches favoring malignant progression"
+        ],
+        "evidence_summary": "The tumor microenvironment remodeling program comprises chemokines (CCL2, CXCL2), cytokine receptors (IL6R, IL1RAP), growth factors (TGFB2, TGFBR2), ECM proteins (FN1, COL4A1, COL4A2), and lymphangiogenesis mediators (PDPN). CCL2 upregulation recruits infiltrating macrophages and microglia, reshaping the cellular composition of the tumor microenvironment. IL-6 trans-signaling through soluble IL-6R particularly promotes immunosuppressive IL-10 and TGF-β production in immune cells, creating immunosuppressive microenvironments. PDPN upregulation facilitates lymphangiogenesis and immune cell infiltration. ECM remodeling creates invasion-promoting and growth-supporting niches. The program demonstrates enhanced expression in high-grade astrocytomas and glioblastomas relative to low-grade gliomas, indicating particular relevance to malignant progression. Notably, BRAF fusion mutations common in pilocytic astrocytomas drive CCL2 expression through NFkappaB-mediated mechanisms, establishing causative links between driver mutations and microenvironmental remodeling. Multiple spatial transcriptomic studies demonstrate heterogeneous ECM and immune cell distribution within astrocytoma microenvironments, with differential expression patterns in vascular endothelium, microglia, and macrophages.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "4",
+            "notes": "BRAF-driven CCL2 and microglia recruitment"
+          },
+          {
+            "source_id": "34",
+            "notes": "IL-6 trans-signaling immunosuppression"
+          },
+          {
+            "source_id": "67",
+            "notes": "Single-cell spatial mapping of ECM in glioma"
+          },
+          {
+            "source_id": "69",
+            "notes": "Immune cell dynamics in peritumoral cortex"
+          }
+        ],
+        "supporting_genes": [
+          "CCL2",
+          "CXCL2",
+          "IL6R",
+          "IL1RAP",
+          "TGFB2",
+          "TGFBR2",
+          "FN1",
+          "COL4A1",
+          "COL4A2",
+          "PDPN"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CSF1",
+            "VEGFA",
+            "VEGFC",
+            "ANGPT1",
+            "ANGPT2",
+            "IL10",
+            "ICAM1",
+            "VCAM1"
+          ],
+          "citations": [
+            {
+              "source_id": "4",
+              "notes": "CSF1 in microglia recruitment"
+            },
+            {
+              "source_id": "67",
+              "notes": "VEGFA/VEGFC in angiogenesis and lymphangiogenesis"
+            },
+            {
+              "source_id": "69",
+              "notes": "Additional immunosuppressive mediators"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Functional literature analysis based on comprehensive recent transcriptomic studies in astrocyte activation (TBI models, 2025)",
+        "Integration of astrocytoma-specific molecular alterations from pediatric glioma genomic studies",
+        "Pathway database cross-reference (GO terms, Reactome pathways)",
+        "Temporal transcriptomic analysis across reactive phases (acute, subacute, chronic)",
+        "Single-cell spatial transcriptomic mapping of glioma microenvironments"
+      ],
+      "notes": "Gene programs identified through integration of multiple biological contexts and temporal dynamics. Strong emphasis on well-established astrocyte reactivity markers with high confidence in literature support. Programs emphasize interconnectedness and temporal coordination rather than isolated pathways. Relevance to both normal physiological astrocyte activation and disease-promoting astrocytoma phenotypes emphasized throughout."
+    },
+    "version": "1.0"
+  }
+}

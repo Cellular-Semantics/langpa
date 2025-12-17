@@ -1,0 +1,1717 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T23:09:40.739870",
+    "genes": [
+      "DNAH12",
+      "SGK2",
+      "MTHFD2L",
+      "AC025159.1",
+      "LINC00862",
+      "TSPYL2",
+      "BNIP3L",
+      "BET1",
+      "GBE1",
+      "AC098829.1",
+      "AC104248.1",
+      "MGAM",
+      "AC021851.2",
+      "GPC5",
+      "LINC02646",
+      "AC138627.1",
+      "AL390957.1",
+      "AL357153.2",
+      "SMIM12",
+      "LRRC69",
+      "LUCAT1",
+      "AL078604.4",
+      "USP36",
+      "LINC02340",
+      "AL160314.2",
+      "PKD1L1",
+      "AC008467.1",
+      "AC009404.1",
+      "LINC01191",
+      "AC011997.1",
+      "WNT2B",
+      "PIWIL2",
+      "PILRA",
+      "CHRNE",
+      "SLC26A7",
+      "AMPD3",
+      "MFAP3",
+      "GRK7",
+      "AL645465.1",
+      "SNX31",
+      "CORIN",
+      "AL606489.1",
+      "MDM2",
+      "AL591043.2",
+      "HAGH",
+      "CFAP161",
+      "SLC4A5",
+      "NUP210L",
+      "OARD1",
+      "MCEE",
+      "CWC25",
+      "SNHG14",
+      "HAVCR2",
+      "GUCA1B",
+      "FAM200A",
+      "ANKUB1",
+      "MGAM2",
+      "RNF6",
+      "NAF1",
+      "FAM184B",
+      "CBLB",
+      "NFE2L3",
+      "CCDC30",
+      "C3ORF35",
+      "MTHFD1L",
+      "C21ORF62-AS1",
+      "MSH4",
+      "GABRR2",
+      "GAL3ST1",
+      "AL118516.1",
+      "CCDC59",
+      "RRM2B",
+      "PVT1",
+      "ATP6AP1L",
+      "MMP24OS",
+      "SEC24D",
+      "SEM1",
+      "EPHA1-AS1",
+      "NPC1L1",
+      "FAM227B",
+      "SKAP1-AS1",
+      "LINC01823",
+      "LY75",
+      "AC104389.5",
+      "TNFRSF10B",
+      "AC092944.1",
+      "TNNI3K",
+      "AC079447.1",
+      "LINC02245",
+      "LINC00880",
+      "UFL1-AS1",
+      "ULK4",
+      "UMAD1",
+      "AC021851.1",
+      "LINC00881",
+      "AC019117.1",
+      "UTP23",
+      "AC016831.7",
+      "AC015845.2",
+      "LINC01031",
+      "WDR25",
+      "AC010210.1",
+      "LINC02150",
+      "LINC01214",
+      "WDR78",
+      "AC005487.1",
+      "AC005237.1",
+      "AC004949.1",
+      "LINC01482",
+      "LINC01505",
+      "LINC01588",
+      "TMEM269",
+      "AC091946.1",
+      "AL080250.1",
+      "TICAM2",
+      "SUGCT",
+      "KCNJ14",
+      "AF165147.1",
+      "KCNMB2-AS1",
+      "KCNQ1OT1",
+      "LRIF1",
+      "ADAMTS9-AS2",
+      "IL12RB2",
+      "ADAM32",
+      "LINC02680",
+      "LSMEM1",
+      "TINCR",
+      "AC109927.1",
+      "AC104461.1",
+      "LINC00326",
+      "TMEM202-AS1",
+      "LINC02641",
+      "PCBD2",
+      "MAP7D2",
+      "LINC02145",
+      "NUCB2",
+      "LINC02073",
+      "P4HA1",
+      "NOXRED1",
+      "MAT2A",
+      "NQO2",
+      "NPR3",
+      "LURAP1L-AS1",
+      "MAP3K19",
+      "MAP1LC3B",
+      "PAM",
+      "OXNAD1",
+      "MIR2052HG",
+      "LINC02196",
+      "NOL8",
+      "NIFK-AS1",
+      "LINC02615",
+      "MIR4713HG",
+      "LINC02551",
+      "LINC02542",
+      "PDIA5",
+      "LINC02224",
+      "LINC02649",
+      "LINC02763",
+      "LINC02811",
+      "NBR2",
+      "LMNTD1",
+      "NEAT1",
+      "NEU3",
+      "MIR34AHG",
+      "ME1",
+      "MAFG",
+      "ABCA1",
+      "PHKA1",
+      "SYCE2",
+      "THORLNC",
+      "TGM6",
+      "TFB2M",
+      "TBC1D22A",
+      "TAF7",
+      "SYTL2",
+      "SYF2",
+      "SYCP2L",
+      "SUCLA2",
+      "TMEM165",
+      "STYXL1",
+      "STXBP5-AS1",
+      "STX17-AS1",
+      "STEAP1B",
+      "SQSTM1",
+      "SPTY2D1",
+      "SPRY4-AS1",
+      "SPDYA",
+      "TMC3-AS1",
+      "TMEM241",
+      "SNORC",
+      "VEGFA",
+      "ZNF627",
+      "ZNF433-AS1",
+      "ZNF20",
+      "ZMAT3",
+      "Z93930.2",
+      "WDR66",
+      "WDR49",
+      "VLDLR-AS1"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_15/20251216_230515/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_15",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "version": "1.0",
+    "context": {
+      "cell_type": "Astrocytoma cells (grades II-IV gliomas, including glioblastoma multiforme)",
+      "disease": "Astrocytoma (diffuse grade II-IV gliomas including glioblastoma multiforme)",
+      "tissue": "Brain (cerebral cortex, white matter, subventricular zone)"
+    },
+    "input_genes": [
+      "DNAH12",
+      "SGK2",
+      "MTHFD2L",
+      "AC025159.1",
+      "LINC00862",
+      "TSPYL2",
+      "BNIP3L",
+      "BET1",
+      "GBE1",
+      "AC098829.1",
+      "AC104248.1",
+      "MGAM",
+      "AC021851.2",
+      "GPC5",
+      "LINC02646",
+      "AC138627.1",
+      "AL390957.1",
+      "AL357153.2",
+      "SMIM12",
+      "LRRC69",
+      "LUCAT1",
+      "AL078604.4",
+      "USP36",
+      "LINC02340",
+      "AL160314.2",
+      "PKD1L1",
+      "AC008467.1",
+      "AC009404.1",
+      "LINC01191",
+      "AC011997.1",
+      "WNT2B",
+      "PIWIL2",
+      "PILRA",
+      "CHRNE",
+      "SLC26A7",
+      "AMPD3",
+      "MFAP3",
+      "GRK7",
+      "AL645465.1",
+      "SNX31",
+      "CORIN",
+      "AL606489.1",
+      "MDM2",
+      "AL591043.2",
+      "HAGH",
+      "CFAP161",
+      "SLC4A5",
+      "NUP210L",
+      "OARD1",
+      "MCEE",
+      "CWC25",
+      "SNHG14",
+      "HAVCR2",
+      "GUCA1B",
+      "FAM200A",
+      "ANKUB1",
+      "MGAM2",
+      "RNF6",
+      "NAF1",
+      "FAM184B",
+      "CBLB",
+      "NFE2L3",
+      "CCDC30",
+      "C3ORF35",
+      "MTHFD1L",
+      "C21ORF62-AS1",
+      "MSH4",
+      "GABRR2",
+      "GAL3ST1",
+      "AL118516.1",
+      "CCDC59",
+      "RRM2B",
+      "PVT1",
+      "ATP6AP1L",
+      "MMP24OS",
+      "SEC24D",
+      "SEM1",
+      "EPHA1-AS1",
+      "NPC1L1",
+      "FAM227B",
+      "SKAP1-AS1",
+      "LINC01823",
+      "LY75",
+      "AC104389.5",
+      "TNFRSF10B",
+      "AC092944.1",
+      "TNNI3K",
+      "AC079447.1",
+      "LINC02245",
+      "LINC00880",
+      "UFL1-AS1",
+      "ULK4",
+      "UMAD1",
+      "AC021851.1",
+      "LINC00881",
+      "AC019117.1",
+      "UTP23",
+      "AC016831.7",
+      "AC015845.2",
+      "LINC01031",
+      "WDR25",
+      "AC010210.1",
+      "LINC02150",
+      "LINC01214",
+      "WDR78",
+      "AC005487.1",
+      "AC005237.1",
+      "AC004949.1",
+      "LINC01482",
+      "LINC01505",
+      "LINC01588",
+      "TMEM269",
+      "AC091946.1",
+      "AL080250.1",
+      "TICAM2",
+      "SUGCT",
+      "KCNJ14",
+      "AF165147.1",
+      "KCNMB2-AS1",
+      "KCNQ1OT1",
+      "LRIF1",
+      "ADAMTS9-AS2",
+      "IL12RB2",
+      "ADAM32",
+      "LINC02680",
+      "LSMEM1",
+      "TINCR",
+      "AC109927.1",
+      "AC104461.1",
+      "LINC00326",
+      "TMEM202-AS1",
+      "LINC02641",
+      "PCBD2",
+      "MAP7D2",
+      "LINC02145",
+      "NUCB2",
+      "LINC02073",
+      "P4HA1",
+      "NOXRED1",
+      "MAT2A",
+      "NQO2",
+      "NPR3",
+      "LURAP1L-AS1",
+      "MAP3K19",
+      "MAP1LC3B",
+      "PAM",
+      "OXNAD1",
+      "MIR2052HG",
+      "LINC02196",
+      "NOL8",
+      "NIFK-AS1",
+      "LINC02615",
+      "MIR4713HG",
+      "LINC02551",
+      "LINC02542",
+      "PDIA5",
+      "LINC02224",
+      "LINC02649",
+      "LINC02763",
+      "LINC02811",
+      "NBR2",
+      "LMNTD1",
+      "NEAT1",
+      "NEU3",
+      "MIR34AHG",
+      "ME1",
+      "MAFG",
+      "ABCA1",
+      "PHKA1",
+      "SYCE2",
+      "THORLNC",
+      "TGM6",
+      "TFB2M",
+      "TBC1D22A",
+      "TAF7",
+      "SYTL2",
+      "SYF2",
+      "SYCP2L",
+      "SUCLA2",
+      "TMEM165",
+      "STYXL1",
+      "STXBP5-AS1",
+      "STX17-AS1",
+      "STEAP1B",
+      "SQSTM1",
+      "SPTY2D1",
+      "SPRY4-AS1",
+      "SPDYA",
+      "TMC3-AS1",
+      "TMEM241",
+      "SNORC",
+      "VEGFA",
+      "ZNF627",
+      "ZNF433-AS1",
+      "ZNF20",
+      "ZMAT3",
+      "Z93930.2",
+      "WDR66",
+      "WDR49",
+      "VLDLR-AS1"
+    ],
+    "programs": [
+      {
+        "program_name": "Selective Autophagy and Mitochondrial Quality Control",
+        "description": "This program coordinates selective degradation of damaged mitochondria and protein aggregates through selective autophagy, a process essential for managing the high oxidative stress and metabolic dysfunction of the glioblastoma microenvironment. BNIP3L (NIX) acts as a mitochondrial outer membrane receptor that recruits damaged mitochondria to forming autophagosomes. SQSTM1 (p62) functions as a ubiquitin chain recognition protein and autophagosomal cargo adaptor. MAP1LC3B (LC3-II) is the cardinal autophagosomal marker that mediates cargo recruitment and membrane fusion. ULK4 initiates the autophagosomal cascade in response to metabolic stress and nutrient deprivation. Together, these genes enable glioblastoma cells to maintain mitochondrial function and prevent ROS-mediated apoptosis by continuously clearing the most dysfunctional mitochondria from the cytoplasm. This mitochondrial quality control is particularly critical in the hypoxic glioblastoma core, where oxidative phosphorylation dysfunction creates selective pressure for cells with enhanced autophagy capacity.",
+        "atomic_biological_processes": [
+          {
+            "name": "Mitochondrial autophagy (mitophagy)",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "BNIP3 and NIX mediate mitophagy via selective autophagy pathways"
+              },
+              {
+                "source_id": "3",
+                "notes": "KRAS induces mitophagy via BNIP3L/NIX in MAPK-dependent manner"
+              }
+            ],
+            "genes": [
+              "BNIP3L",
+              "MAP1LC3B",
+              "SQSTM1",
+              "ULK4"
+            ]
+          },
+          {
+            "name": "Selective autophagy of ubiquitinated proteins",
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "SQSTM1 oligomerization enhanced by TRIM44 in response to oxidative stress"
+              },
+              {
+                "source_id": "16",
+                "notes": "MAP1LC3B mediates selective cargo recruitment to autophagosomes"
+              }
+            ],
+            "genes": [
+              "SQSTM1",
+              "MAP1LC3B"
+            ]
+          },
+          {
+            "name": "ROS detoxification through damaged organelle clearance",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "Mitophagy prevents ferroptosis by downregulating mitochondrial ROS"
+              },
+              {
+                "source_id": "11",
+                "notes": "NETs promote GBM cell migration and proliferation; DNase 1 degradation reduces GBM progression"
+              }
+            ],
+            "genes": [
+              "BNIP3L",
+              "SQSTM1",
+              "MAP1LC3B"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Autophagosome membrane",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "MAP1LC3B associates with autophagosomal membranes"
+              }
+            ],
+            "genes": [
+              "MAP1LC3B"
+            ]
+          },
+          {
+            "name": "Mitochondrial outer membrane",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "BNIP3L localizes to mitochondrial outer membrane as receptor"
+              }
+            ],
+            "genes": [
+              "BNIP3L"
+            ]
+          },
+          {
+            "name": "Lysosomal membrane",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "ATP6AP1L participates in proton gradient maintenance for lysosomal acidification"
+              }
+            ],
+            "genes": [
+              "ATP6AP1L"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced clearance of damaged mitochondria prevents ROS accumulation and ferroptotic cell death",
+          "Sustained mitochondrial ATP production despite OXPHOS dysfunction enables continued biosynthesis",
+          "Reduced mitochondrial content per cell increases metabolic flexibility and adaptability",
+          "Protection against hypoxia-induced metabolic stress enables survival in the glioblastoma core"
+        ],
+        "evidence_summary": "Selective autophagy is constitutively elevated in glioblastoma cells compared to normal astrocytes, with BNIP3L, SQSTM1, and MAP1LC3B all showing increased expression in tumor samples. Recent studies demonstrate that inhibition of these autophagy genes impairs glioblastoma cell survival and reduces tumor burden in orthotopic models. The mitochondrial quality control enabled by this program appears essential for maintaining the metabolic plasticity required for glioblastoma growth in the restrictive brain microenvironment. BNIP3L-mediated mitophagy specifically prevents ferroptosis by reducing mitochondrial ROS, suggesting that ferroptosis-based therapies may require simultaneous inhibition of BNIP3L to prevent compensatory survival mechanisms.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "BNIP3-mediated mitophagy prevents ferroptosis by downregulating mitochondrial ROS"
+          },
+          {
+            "source_id": "3",
+            "notes": "Oncogenic KRAS induces mitophagy via BNIP3L/NIX in MAPK-dependent manner"
+          },
+          {
+            "source_id": "11",
+            "notes": "NETs and related stressors promote GBM cell proliferation; selective autophagy regulates responses"
+          },
+          {
+            "source_id": "14",
+            "notes": "SQSTM1 oligomerization enhanced by TRIM44 during oxidative stress response"
+          },
+          {
+            "source_id": "16",
+            "notes": "MAP1LC3B mediates selective autophagy in hypoxia via unfolded protein response"
+          }
+        ],
+        "supporting_genes": [
+          "BNIP3L",
+          "SQSTM1",
+          "MAP1LC3B",
+          "ULK4",
+          "ATP6AP1L"
+        ]
+      },
+      {
+        "program_name": "Metabolic Reprogramming and One-Carbon Metabolism",
+        "description": "This program coordinates multiple metabolic pathways to support the biosynthetic demands of rapidly dividing glioblastoma cells. MTHFD2L and MTHFD1L catalyze key reactions of one-carbon metabolism, providing one-carbon units for nucleotide and methionine biosynthesis. SUCLG2 maintains mitochondrial TCA cycle function and supports lactate production, enabling dual reliance on OXPHOS and glycolysis. MAT2A provides S-adenosylmethionine (SAM) for epigenetic methylation reactions essential for DNA methylation and histone modifications. ME1 links carbohydrate metabolism to lipid biosynthesis through NADPH generation. NUCB2 regulates calcium signaling and metabolic homeostasis. P4HA1 consumes α-ketoglutarate and serves as an oxygen sensor in hypoxia. Together, these genes enable glioblastoma cells to simultaneously activate multiple metabolic pathways—oxidative phosphorylation, glycolysis, serine synthesis, lipid biosynthesis, and nucleotide biosynthesis—to support rapid cell division. This metabolic flexibility is reinforced by INSM1-driven expression of intermediate progenitor-like transcriptional networks that maintain high biosynthetic demand characteristic of proliferating neural progenitor cells.",
+        "atomic_biological_processes": [
+          {
+            "name": "One-carbon metabolism and nucleotide biosynthesis",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "MTHFD2L and MTHFD1L catalyze one-carbon reactions essential for nucleotide synthesis"
+              }
+            ],
+            "genes": [
+              "MTHFD2L",
+              "MTHFD1L"
+            ]
+          },
+          {
+            "name": "Mitochondrial TCA cycle and OXPHOS",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "SUCLG2 promotes mitochondrial OXPHOS and lactate metabolism; knockdown inhibits GBM proliferation"
+              }
+            ],
+            "genes": [
+              "SUCLG2"
+            ]
+          },
+          {
+            "name": "SAM-dependent methylation reactions",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "MAT2A provides SAM as universal methyl donor for epigenetic modifications"
+              }
+            ],
+            "genes": [
+              "MAT2A"
+            ]
+          },
+          {
+            "name": "NADPH generation and lipid biosynthesis",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "ME1 generates NADPH for biosynthetic reactions through malate oxidation"
+              }
+            ],
+            "genes": [
+              "ME1"
+            ]
+          },
+          {
+            "name": "Collagen hydroxylation and hypoxia sensing",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "P4HA1 hydroxylates proline in collagen; serves as oxygen sensor in hypoxic GBM"
+              }
+            ],
+            "genes": [
+              "P4HA1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Mitochondrial matrix",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "SUCLG2 and TCA cycle proteins localize to mitochondrial matrix"
+              }
+            ],
+            "genes": [
+              "SUCLG2",
+              "MTHFD2L"
+            ]
+          },
+          {
+            "name": "Cytoplasm",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "MTHFD1L localizes to cytoplasm for one-carbon metabolism"
+              }
+            ],
+            "genes": [
+              "MTHFD1L",
+              "ME1",
+              "MAT2A"
+            ]
+          },
+          {
+            "name": "Rough endoplasmic reticulum",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "P4HA1 localizes to ER for collagen synthesis and modification"
+              }
+            ],
+            "genes": [
+              "P4HA1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Sustained nucleotide biosynthesis enables rapid DNA replication and cell division",
+          "Continuous epigenetic methylation supports dynamic histone modification patterns required for transcriptional plasticity",
+          "Simultaneous activation of OXPHOS and glycolysis provides metabolic redundancy enabling tumor growth despite microenvironmental nutrient limitation",
+          "Enhanced NADPH production supports both biosynthesis and antioxidant defense",
+          "Oxygen sensing through P4HA1 allows metabolic adaptation to hypoxic core regions"
+        ],
+        "evidence_summary": "Metabolic reprogramming is a hallmark of glioblastoma progression and therapeutic resistance. SUCLG2 is significantly upregulated in the glioblastoma core compared to peripheral regions and its knockout impairs proliferation through dual inhibition of OXPHOS and lactate production. One-carbon metabolism genes are consistently elevated in high-grade gliomas and support both nucleotide synthesis and the epigenetic methylation patterns characteristic of glioblastoma's dynamic chromatin landscape. The metabolic flexibility enabled by simultaneous activation of multiple pathways explains why glioblastoma cells are resistant to single-agent metabolic inhibitors and suggests that effective metabolic targeting requires simultaneous disruption of multiple metabolic nodes. The presence of P4HA1 in this program suggests that glioblastoma cells use oxygen sensing to dynamically adjust metabolic flux in response to hypoxia, a mechanism essential for survival in regions with severely restricted oxygen availability.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "INSM1-driven intermediate progenitor state maintains high biosynthetic demand in GBM"
+          },
+          {
+            "source_id": "13",
+            "notes": "PKM2 and MAT2A regulate metabolic-epigenetic coupling in cancer"
+          },
+          {
+            "source_id": "16",
+            "notes": "MAP1LC3B and autophagy genes coordinate metabolic stress responses in hypoxia"
+          },
+          {
+            "source_id": "41",
+            "notes": "SUCLG2 promotes GBM progression through OXPHOS and lactate metabolism"
+          }
+        ],
+        "supporting_genes": [
+          "MTHFD2L",
+          "MTHFD1L",
+          "SUCLG2",
+          "MAT2A",
+          "ME1",
+          "NUCB2",
+          "P4HA1",
+          "AMPD3",
+          "SUGCT"
+        ]
+      },
+      {
+        "program_name": "Long Noncoding RNA-Mediated Gene Silencing and Epigenetic Regulation",
+        "description": "This program coordinates multiple long noncoding RNAs to globally reprogram gene expression through post-transcriptional silencing and epigenetic remodeling. NEAT1 forms the structural backbone of paraspeckles, ribonucleoprotein bodies that sequester and silence specific transcripts, preventing their translation. PVT1 acts as a competing endogenous RNA (ceRNA) that sponges miRNAs, preventing them from suppressing target oncogenic transcripts. Over thirty LINC family members participate in similar ceRNA mechanisms or serve as scaffolds for chromatin-modifying complexes. These lncRNAs collectively buffer the regulatory effects of tumor-suppressive miRNAs on their target transcripts, allowing continued expression of genes that would otherwise be suppressed. This post-transcriptional regulation complements transcriptional control by transcription factors and enables multi-level control of gene expression. The m6A methylation of some lncRNAs by methyltransferases like METTL3 (not in input list) further enhances their ability to interact with RNA-binding proteins and regulate downstream targets.",
+        "atomic_biological_processes": [
+          {
+            "name": "Paraspeckle formation and transcript sequestration",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "NEAT1 nucleates paraspeckles; knockdown impairs GBM proliferation"
+              }
+            ],
+            "genes": [
+              "NEAT1"
+            ]
+          },
+          {
+            "name": "miRNA sponging and competing endogenous RNA regulation",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "PVT1 competes with mRNAs for miR-200a and miR-17 binding"
+              },
+              {
+                "source_id": "23",
+                "notes": "SNHG14 regulates miR-17-5p in inflammatory responses"
+              }
+            ],
+            "genes": [
+              "PVT1",
+              "LINC00862",
+              "LINC02646",
+              "LINC01191",
+              "LINC00880",
+              "LINC00881",
+              "LINC01031",
+              "LINC01482",
+              "LINC01505",
+              "LINC01588",
+              "LINC02073",
+              "LINC02145",
+              "LINC02196",
+              "LINC02215",
+              "LINC02224",
+              "LINC02245",
+              "LINC02340",
+              "LINC02551",
+              "LINC02615",
+              "LINC02649",
+              "LINC02763",
+              "LINC02811"
+            ]
+          },
+          {
+            "name": "m6A-dependent lncRNA-protein interactions",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "METTL3-mediated m6A methylation of lncRNAs enhances FOXG1 binding and gene silencing"
+              }
+            ],
+            "genes": [
+              "NEAT1",
+              "PVT1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Paraspeckle",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "NEAT1 structures paraspeckles for transcript sequestration"
+              }
+            ],
+            "genes": [
+              "NEAT1"
+            ]
+          },
+          {
+            "name": "Cytoplasm and ribonucleoprotein complexes",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "ceRNA networks operate in cytoplasm for miRNA regulation"
+              }
+            ],
+            "genes": [
+              "PVT1",
+              "LINC family members"
+            ]
+          },
+          {
+            "name": "Nuclear speckles and RNA-binding protein granules",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "snaR-A interacts with splicing factors in nuclear speckles"
+              }
+            ],
+            "genes": [
+              "SNHG14"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Suppression of tumor-suppressive transcripts through transcript sequestration in paraspeckles",
+          "Buffering of miRNA-mediated post-transcriptional silencing enables constitutive expression of oncogenes",
+          "Multi-level control of gene expression integrates transcriptional and post-transcriptional regulation",
+          "Enhanced adaptability to rapidly changing microenvironmental signals through multiple regulatory layers",
+          "Epigenetic plasticity through lncRNA-mediated recruitment of chromatin-modifying complexes"
+        ],
+        "evidence_summary": "Long noncoding RNAs are dramatically dysregulated in glioblastoma and participate in critical mechanisms of tumor progression. NEAT1 is highly elevated in glioblastoma and its knockdown impairs proliferation, suggesting functional importance. PVT1 participates in miRNA sponging networks and its expression correlates with poor prognosis. The extensive enrichment of LINC family members in the input list suggests that glioblastoma cells acquire multiple lncRNA-mediated regulatory mechanisms that collectively buffer miRNA suppression of oncogenic transcripts. Recent mechanistic studies reveal that lncRNAs mediate m6A-dependent regulatory interactions with transcription factors that suppress autophagy and immune surveillance genes, suggesting that these noncoding RNAs are not merely byproducts of transformation but rather active contributors to glioblastoma pathogenesis. The convergence of multiple lncRNAs on similar regulatory functions (miRNA sponging, transcript sequestration) suggests redundancy that may explain resistance to strategies targeting individual lncRNAs.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "21",
+            "notes": "PVT1 and miRNA networks in cancer progression"
+          },
+          {
+            "source_id": "23",
+            "notes": "SNHG14 regulates miRNA pathways in inflammatory responses"
+          },
+          {
+            "source_id": "42",
+            "notes": "NEAT1 and lncRNA-mediated autophagy suppression in GBM"
+          },
+          {
+            "source_id": "57",
+            "notes": "snaR-A interacts with splicing machinery in cancer cells"
+          }
+        ],
+        "supporting_genes": [
+          "NEAT1",
+          "PVT1",
+          "LINC00862",
+          "LINC02646",
+          "LINC01191",
+          "LINC00880",
+          "LINC00881",
+          "LINC01031",
+          "LINC01482",
+          "LINC01505",
+          "LINC01588",
+          "LINC02073",
+          "LINC02145",
+          "LINC02196",
+          "LINC02224",
+          "LINC02245",
+          "LINC02340",
+          "LINC02551",
+          "LINC02615",
+          "LINC02649",
+          "LINC02763",
+          "LINC02811",
+          "SNHG14",
+          "C21ORF62-AS1",
+          "EPHA1-AS1",
+          "LINC01823",
+          "SKAP1-AS1",
+          "LINC02680",
+          "LINC00326",
+          "TMEM202-AS1",
+          "LINC02641",
+          "LURAP1L-AS1",
+          "LINC02150",
+          "LINC01214",
+          "LINC01505",
+          "LINC01588",
+          "LINC02073",
+          "UFL1-AS1",
+          "STXBP5-AS1",
+          "STX17-AS1",
+          "SPRY4-AS1",
+          "TMC3-AS1",
+          "VLDLR-AS1",
+          "ADAMTS9-AS2"
+        ]
+      },
+      {
+        "program_name": "Immune Checkpoint Expression and Tumor Immune Escape",
+        "description": "This program coordinates the expression of immune checkpoint molecules that suppress antitumor immune responses and promote immune tolerance. HAVCR2 (TIM-3) is a coinhibitory receptor expressed on exhausted T cells and tumor-infiltrating immune cells that, upon engagement by ligands such as galectin-9 (LGALS9), leads to suppression of T cell effector functions and promotion of immune tolerance. Recent evidence reveals that endothelial-immune crosstalk within the glioblastoma microvasculature is exemplified by LGALS9-HAVCR2 interactions, which contribute to vascular immune suppression and the formation of an immunosuppressive microenvironment. The presence of HAVCR2 in astrocytoma reflects either direct expression by glioblastoma cells themselves—documented in certain subtypes—or more commonly, upregulation in infiltrating immune cells that have been educated by glioblastoma-derived inflammatory signals. This immune checkpoint program is reinforced by glioblastoma-derived IL-10 and other immunosuppressive cytokines that further suppress Th1 differentiation and promote regulatory T cell differentiation.",
+        "atomic_biological_processes": [
+          {
+            "name": "T cell exhaustion and immune tolerance",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "LGALS9-HAVCR2 interactions contribute to vascular immune suppression in neuroblastoma and GBM"
+              },
+              {
+                "source_id": "7",
+                "notes": "HAVCR2 polymorphisms associated with acute myeloid leukemia immune phenotype"
+              }
+            ],
+            "genes": [
+              "HAVCR2"
+            ]
+          },
+          {
+            "name": "Endothelial-immune cell crosstalk",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "Endothelial cells in GBM express LGALS9 ligands for HAVCR2 on immune cells"
+              }
+            ],
+            "genes": [
+              "HAVCR2"
+            ]
+          },
+          {
+            "name": "Immunosuppressive cytokine signaling",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "IL-10 downregulates Th1 cytokine expression and MHC class II"
+              }
+            ],
+            "genes": [
+              "IL12RB2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "T cell membrane",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "HAVCR2 localizes to T cell membrane as coinhibitory receptor"
+              }
+            ],
+            "genes": [
+              "HAVCR2"
+            ]
+          },
+          {
+            "name": "Immune synapse",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "LGALS9-HAVCR2 interactions form at immune synapse"
+              }
+            ],
+            "genes": [
+              "HAVCR2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Suppression of T cell effector functions through coinhibitory signaling",
+          "Promotion of T cell exhaustion and reduced antitumor immunity",
+          "Establishment of an immunosuppressive microenvironment favoring tumor growth",
+          "Resistance to immune checkpoint blockade therapies targeting PD-1/PD-L1",
+          "Potential therapeutic vulnerability to anti-HAVCR2 monoclonal antibodies or combination immunotherapy"
+        ],
+        "evidence_summary": "HAVCR2 is a critical immune checkpoint molecule that mediates T cell exhaustion and immune tolerance in multiple cancers. Recent single-cell transcriptomic studies of glioblastoma and neuroblastoma reveal that endothelial-immune crosstalk is exemplified by LGALS9-HAVCR2 interactions, establishing a critical mechanism of vascular immune suppression within tumors. The presence of HAVCR2 in the input gene list suggests that either glioblastoma cells directly express HAVCR2 or that tumor-infiltrating immune cells have acquired HAVCR2 expression in response to glioblastoma-derived signals. This immune checkpoint program is distinct from the more commonly targeted PD-1/PD-L1 axis and likely contributes to resistance to standard anti-PD-1 immunotherapy. The emergence of anti-HAVCR2 monoclonal antibodies and combination approaches targeting multiple immune checkpoints offers a potential therapeutic avenue for overcoming glioblastoma immune evasion.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "5",
+            "notes": "Endothelial-immune crosstalk via LGALS9-HAVCR2 in neuroblastoma and glioblastoma"
+          },
+          {
+            "source_id": "7",
+            "notes": "HAVCR2 as immune checkpoint molecule in hematologic malignancies"
+          },
+          {
+            "source_id": "35",
+            "notes": "IL-10 and immunosuppressive cytokine signaling"
+          }
+        ],
+        "supporting_genes": [
+          "HAVCR2",
+          "IL12RB2"
+        ]
+      },
+      {
+        "program_name": "Ion Channel Dysregulation and Altered Cellular Excitability",
+        "description": "This program encompasses dysregulation of multiple ion channels in astrocytoma cells, leading to altered potassium homeostasis, calcium signaling, and cellular excitability. KCNJ14 (potassium inwardly rectifying channel subfamily J member 14) encodes an inward rectifier potassium channel that maintains resting membrane potential and cellular potassium homeostasis. KCNMB2-AS1 is a long noncoding RNA antisense to the calcium-activated potassium channel regulator KCNMB2, suggesting regulatory control over calcium-sensitive potassium signaling. GABRR2 encodes a gamma-aminobutyric acid type A receptor rho subunit involved in ionotropic GABA signaling that modulates cellular excitability and calcium dynamics. CHRNE encodes the epsilon subunit of nicotinic acetylcholine receptors, which mediate fast synaptic transmission and calcium influx through ligand-gated ion channels. The dysregulation of these channels in astrocytoma likely reflects both somatic mutations and epigenetic reactivation of developmental programs that alter cellular excitability and calcium signaling.",
+        "atomic_biological_processes": [
+          {
+            "name": "Potassium homeostasis and membrane potential regulation",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "KCNJ14 and KCNMB2 regulate potassium balance and membrane excitability"
+              }
+            ],
+            "genes": [
+              "KCNJ14",
+              "KCNMB2-AS1"
+            ]
+          },
+          {
+            "name": "Calcium signaling and intracellular calcium dynamics",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "Ion channels regulate calcium influx affecting proliferation and migration"
+              }
+            ],
+            "genes": [
+              "CHRNE",
+              "GABRR2",
+              "KCNMB2-AS1"
+            ]
+          },
+          {
+            "name": "GABAergic synaptic signaling",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "GABRR2 mediates GABA receptor signaling in neural tissues"
+              }
+            ],
+            "genes": [
+              "GABRR2"
+            ]
+          },
+          {
+            "name": "Nicotinic cholinergic signaling",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "CHRNE encodes nicotinic acetylcholine receptor subunit"
+              }
+            ],
+            "genes": [
+              "CHRNE"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Plasma membrane ion channels",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "KCNJ14 and related channels localize to plasma membrane"
+              }
+            ],
+            "genes": [
+              "KCNJ14",
+              "CHRNE",
+              "GABRR2"
+            ]
+          },
+          {
+            "name": "Synaptic membrane",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "CHRNE forms part of synaptic acetylcholine receptors"
+              }
+            ],
+            "genes": [
+              "CHRNE"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered resting membrane potential affects cell-cell communication and gap junction formation",
+          "Enhanced calcium signaling supports increased cell motility and invasion",
+          "Dysregulated potassium homeostasis affects cell volume regulation and stress responses",
+          "Altered responsiveness to neurotransmitter signals may promote glioblastoma-immune cell interactions",
+          "Enhanced or suppressed cellular excitability may affect interaction with neurons in the glioblastoma microenvironment"
+        ],
+        "evidence_summary": "Ion channel dysregulation in glioblastoma represents an underappreciated mechanism of tumor progression. While individual ion channels have not been extensively studied in glioblastoma biology, their presence in the input gene list suggests they contribute to tumor cell phenotypes including altered migration, calcium signaling, and interaction with the microenvironment. Calcium signaling through ion channels affects proliferation, migration, and apoptosis in multiple cancer types, and dysregulation of calcium homeostasis is a recognized feature of glioblastoma cells. The presence of both GABA and acetylcholine receptor genes suggests that glioblastoma cells may aberrantly respond to neurotransmitter signals, potentially engaging in crosstalk with neurons in the tumor microenvironment. Recent evidence indicates that ion channels participate in regulating mitochondrial function and autophagy through calcium-dependent mechanisms, suggesting functional integration with the selective autophagy program described above.",
+        "significance_score": 0.68,
+        "citations": [
+          {
+            "source_id": "31",
+            "notes": "CHRNE structure and function in acetylcholine signaling"
+          },
+          {
+            "source_id": "56",
+            "notes": "Calcium-activated potassium channels and glioma cell physiology"
+          }
+        ],
+        "supporting_genes": [
+          "KCNJ14",
+          "KCNMB2-AS1",
+          "GABRR2",
+          "CHRNE",
+          "KCNQ1OT1"
+        ]
+      },
+      {
+        "program_name": "Extracellular Matrix Remodeling and Invasive Phenotype",
+        "description": "This program coordinates the degradation and remodeling of extracellular matrix required for glioblastoma cell invasion and infiltration of brain parenchyma. MFAP3 (microfibril-associated protein 3) participates in extracellular matrix assembly and the organization of microfibrils that serve as scaffolds for elastin and other matrix components. MMP24OS is a long noncoding RNA overlapping the matrix metalloproteinase 24 locus and likely regulates the expression or activity of this ECM-degrading proteinase. Matrix metalloproteinases, including MMP14, participate in the remodeling of perivascular and interstitial matrix, which is required for glioblastoma cell motility and invasion through white matter tracts. The coordinated upregulation of matrix-remodeling genes enables glioblastoma cells to breach blood-brain barrier integrity, invade surrounding brain parenchyma, and establish the diffuse infiltrative networks that characterize WHO grade III and IV gliomas.",
+        "atomic_biological_processes": [
+          {
+            "name": "Extracellular matrix protein degradation",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "VEGFA contributes to GBM properties through MDSC differentiation affecting ECM"
+              },
+              {
+                "source_id": "47",
+                "notes": "MMP14 regulates extracellular matrix remodeling in melanoma and other cancers"
+              }
+            ],
+            "genes": [
+              "MMP24OS",
+              "MFAP3"
+            ]
+          },
+          {
+            "name": "Collagen and elastin organization",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "ECM remodeling proteins participate in tumor invasion"
+              }
+            ],
+            "genes": [
+              "MFAP3"
+            ]
+          },
+          {
+            "name": "Cell migration and invasion",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "GBM cell migration is promoted by NETs and other microenvironmental factors"
+              }
+            ],
+            "genes": [
+              "MMP24OS",
+              "MFAP3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Extracellular matrix",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "VEGFA and related factors promote ECM remodeling"
+              }
+            ],
+            "genes": [
+              "MFAP3"
+            ]
+          },
+          {
+            "name": "Cell surface and focal adhesions",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "MMP14 interactions with integrins at focal adhesions"
+              }
+            ],
+            "genes": [
+              "MMP24OS"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced ECM degradation enables glioblastoma cell invasion through white matter and gray matter",
+          "Remodeled microfibrils create permissive routes for tumor infiltration",
+          "Increased proteolytic activity exposes cryptic sites on matrix proteins that promote cell migration",
+          "Disruption of blood-brain barrier integrity through ECM remodeling allows recruitment of immune cells and circulating factors",
+          "Creation of invasive networks that facilitate long-distance tumor spread and recurrence"
+        ],
+        "evidence_summary": "Extracellular matrix remodeling is essential for glioblastoma invasion, the hallmark feature that distinguishes diffuse gliomas from circumscribed brain tumors. Matrix metalloproteinases are elevated in glioblastoma and their expression correlates with tumor grade and invasive potential. MFAP3 and MMP24OS participate in ECM remodeling processes that enable glioblastoma cells to breach normal brain architecture and establish diffuse infiltrative networks. The coordinated upregulation of multiple ECM-remodeling genes in the input list reflects the critical dependence of glioblastoma cells on continuous ECM degradation for cell motility and invasion. Recent studies reveal that the perivascular niche—containing blood vessels, pericytes, and organized matrix—is a particular target for glioblastoma invasion, and that metalloproteinase-mediated remodeling of perivascular ECM facilitates access to vessel-associated stem cells and growth factors.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "9",
+            "notes": "VEGFA promotes GBM tumor properties through MDSC differentiation"
+          },
+          {
+            "source_id": "11",
+            "notes": "NETs promote GBM cell migration and proliferation"
+          },
+          {
+            "source_id": "47",
+            "notes": "MMP14 regulates ECM remodeling in tumors"
+          }
+        ],
+        "supporting_genes": [
+          "MFAP3",
+          "MMP24OS"
+        ]
+      },
+      {
+        "program_name": "Histone Modification and Chromatin Remodeling",
+        "description": "This program encompasses zinc finger transcription factors and related genes that participate in dynamic chromatin remodeling and epigenetic regulation of gene expression. ZNF627, ZNF433-AS1, and ZNF20 encode zinc finger proteins that bind DNA sequences and recruit chromatin-modifying complexes to regulate transcription of target genes. These transcription factors likely serve as downstream effectors of histone methyltransferase and demethylase activities that open chromatin at oncogenic loci or close chromatin at tumor-suppressive loci. TSPYL2 (testis-specific paraspeckle protein like 2) participates in chromatin organization and histone modification. The dynamic chromatin landscape in glioblastoma is further shaped by recent discoveries that histone methylation patterns are fundamentally altered in drug-resistant persister cells, with elevated H3K27me3 and H3K36me3 deposition alongside histone H3.3 variant deposition that supports continued transcription of biosynthetic and survival genes.",
+        "atomic_biological_processes": [
+          {
+            "name": "Transcriptional control through zinc finger proteins",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "Zinc finger transcription factors regulate oncogenic pathways"
+              }
+            ],
+            "genes": [
+              "ZNF627",
+              "ZNF433-AS1",
+              "ZNF20"
+            ]
+          },
+          {
+            "name": "Histone methylation and chromatin accessibility",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "H3K27me3 and H3K36me3 deposition in drug-resistant GBM persisters"
+              },
+              {
+                "source_id": "54",
+                "notes": "Histone-modifying enzymes drive epigenetic dysregulation in cancer"
+              }
+            ],
+            "genes": [
+              "TSPYL2"
+            ]
+          },
+          {
+            "name": "Chromatin organization and nucleosome positioning",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "H3.3 variant deposition at active gene bodies in persisters"
+              }
+            ],
+            "genes": [
+              "TSPYL2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Chromatin",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "Histone modifications and H3.3 variants affect chromatin structure"
+              }
+            ],
+            "genes": [
+              "TSPYL2",
+              "ZNF627"
+            ]
+          },
+          {
+            "name": "Nucleosome",
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "H3.3 incorporates into nucleosomes at active regions"
+              }
+            ],
+            "genes": [
+              "TSPYL2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dynamic control of oncogene expression through chromatin opening at regulatory regions",
+          "Silencing of tumor-suppressor genes through H3K27me3 deposition",
+          "Sustained expression of biosynthetic and survival genes through H3K4me3 deposition",
+          "Enhanced chromatin plasticity enabling rapid adaptation to changing microenvironmental signals",
+          "Acquisition of epigenetic alterations that persist through cell division and enable drug-resistant persister cell phenotype"
+        ],
+        "evidence_summary": "Chromatin remodeling is a fundamental feature of glioblastoma pathogenesis and represents a critical mechanism enabling tumor cells to reprogram gene expression in response to microenvironmental stressors. Recent evidence reveals that drug-tolerant persister cells develop distinctive histone methylation patterns characterized by elevated H3K27me3 and H3K36me3 alongside H3.3 variant deposition, creating an epigenetic landscape distinct from parental cells. The enrichment of zinc finger transcription factors in the input list suggests that glioblastoma cells acquire altered transcriptional control of metabolic, proliferative, and immune evasion genes through mutations or dysregulation of these transcriptional regulators. Histone-modifying enzymes themselves are frequently mutated in glioblastoma and other cancers, suggesting that epigenetic remodeling is not a passive consequence of transformation but rather an active process selected for during tumor progression. The convergence of zinc finger transcription factors on histone-modifying enzymes suggests functional integration whereby these transcription factors recruit histone-modifying complexes to specific genomic loci, thereby enabling targeted epigenetic remodeling.",
+        "significance_score": 0.77,
+        "citations": [
+          {
+            "source_id": "21",
+            "notes": "Zinc finger transcription factors in cancer regulation"
+          },
+          {
+            "source_id": "51",
+            "notes": "Histone methylation patterns in GBM drug-resistant persisters"
+          },
+          {
+            "source_id": "54",
+            "notes": "Histone-modifying enzyme mutations in cancer"
+          }
+        ],
+        "supporting_genes": [
+          "ZNF627",
+          "ZNF433-AS1",
+          "ZNF20",
+          "TSPYL2",
+          "ZMAT3",
+          "MAFG"
+        ]
+      },
+      {
+        "program_name": "Oxidative Stress Management and Antioxidant Defense",
+        "description": "This program coordinates expression of antioxidant genes and ROS-scavenging proteins that maintain redox balance in glioblastoma cells. NFE2L3 (NFE2-like bZIP transcription factor 3, related to the well-characterized NRF2) participates in antioxidant gene expression and the cellular stress response to oxidative challenges. NRF2 activation is a hallmark of many cancers including glioblastoma, leading to constitutive expression of genes encoding NAD(P)H-producing enzymes, glutathione biosynthetic enzymes, and ROS-detoxifying enzymes that collectively suppress ROS accumulation. HAGH (hydroxyacyl-CoA dehydrogenase) participates in the glyoxalase system and detoxification of reactive aldehydes generated during oxidative stress. NOXRED1 (NADP(H) oxidoreductase type 3, not yet fully characterized) likely participates in antioxidant defense. The selective autophagy program described above (BNIP3L, SQSTM1, MAP1LC3B) also participates in oxidative stress management by facilitating degradation of ROS-generating mitochondria.",
+        "atomic_biological_processes": [
+          {
+            "name": "Antioxidant gene transcription",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "NFE2L2 (NRF2) transcription factor regulates antioxidant gene expression"
+              }
+            ],
+            "genes": [
+              "NFE2L3"
+            ]
+          },
+          {
+            "name": "ROS detoxification and scavenging",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "Redox cycles between oxidation and reduction of ROS-generating compounds"
+              }
+            ],
+            "genes": [
+              "HAGH",
+              "NOXRED1"
+            ]
+          },
+          {
+            "name": "Aldehyde detoxification",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "Glyoxalase system detoxification in cancer cells"
+              }
+            ],
+            "genes": [
+              "HAGH"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Nucleus",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "NRF2 and related transcription factors localize to nucleus"
+              }
+            ],
+            "genes": [
+              "NFE2L3"
+            ]
+          },
+          {
+            "name": "Cytoplasm",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "Detoxification enzymes operate in cytoplasm"
+              }
+            ],
+            "genes": [
+              "HAGH",
+              "NOXRED1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Sustained antioxidant enzyme expression prevents ROS accumulation that would trigger apoptosis",
+          "Maintained redox balance supports continued proliferation despite metabolic stress and OXPHOS-induced ROS",
+          "Protection against ferroptotic and oxidative stress-induced cell death",
+          "Resistance to oxidative stress-inducing chemotherapies",
+          "Potential therapeutic vulnerability to pro-oxidant agents that exceed antioxidant capacity"
+        ],
+        "evidence_summary": "Oxidative stress management is critical for glioblastoma cell survival, particularly in the hypoxic tumor core where OXPHOS dysfunction creates sustained oxidative stress. NRF2 activation is a hallmark of many cancers including glioblastoma and enables constitutive expression of antioxidant genes. The presence of NFE2L3 and related antioxidant regulators in the input list reflects the importance of continuous ROS suppression for maintaining viability in a metabolically stressful microenvironment. Recent evidence reveals that glioblastoma cells maintain a delicate balance of ROS levels: sufficient ROS to support proliferative signaling through oncogenic pathways, but not so much that apoptotic thresholds are exceeded. The selective autophagy program described above participates in this balance by degrading the most ROS-generating mitochondria while maintaining sufficient mitochondrial function for metabolic support. Therapeutic strategies targeting antioxidant pathways may sensitize glioblastoma cells to oxidative stress-inducing therapies or ferroptosis-inducing agents.",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "11",
+            "notes": "Redox cycling and oxidative stress in cancer cells"
+          },
+          {
+            "source_id": "25",
+            "notes": "NFE2L2 (NRF2) as transcription factor for antioxidant genes"
+          },
+          {
+            "source_id": "45",
+            "notes": "Antioxidant defense in glioblastoma stem cells"
+          }
+        ],
+        "supporting_genes": [
+          "NFE2L3",
+          "HAGH",
+          "NOXRED1",
+          "SQSTM1",
+          "BNIP3L",
+          "MAP1LC3B"
+        ]
+      },
+      {
+        "program_name": "Metabolic Stress Sensing and Energy Charge Homeostasis",
+        "description": "This program coordinates genes that sense metabolic stress and maintain cellular energy charge despite nutrient limitation and metabolic dysfunction. AMPD3 (adenosine monophosphate deaminase 3) catalyzes the irreversible deamination of AMP to inosine monophosphate, thereby reducing the AMP/ATP ratio and signaling energy depletion to AMPK and other metabolic sensors. Glioblastoma cells that constitutively express high levels of AMPD3 may suppress AMP accumulation and thereby blunt AMPK-mediated growth suppression, allowing continued proliferation despite ATP limitation. SUGCT (succinyl-CoA:glutarate-CoA transferase) participates in the conversion of succinyl-CoA and glutarate to succinate and glutaryl-CoA, thereby linking amino acid and carbohydrate metabolism and maintaining TCA cycle intermediate pools. MCEE (methylmalonyl-CoA epimerase) participates in propionate and branched-chain amino acid metabolism, contributing to amino acid catabolism and energy production.",
+        "atomic_biological_processes": [
+          {
+            "name": "AMP accumulation and AMPK signaling",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "AMPD3 suppresses AMP accumulation and AMPK-mediated growth suppression"
+              }
+            ],
+            "genes": [
+              "AMPD3"
+            ]
+          },
+          {
+            "name": "TCA cycle metabolism and energy production",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "SUGCT and related enzymes maintain TCA cycle intermediate pools"
+              }
+            ],
+            "genes": [
+              "SUGCT",
+              "MCEE"
+            ]
+          },
+          {
+            "name": "Amino acid catabolism",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "Branched-chain amino acid metabolism links to energy production"
+              }
+            ],
+            "genes": [
+              "MCEE"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Mitochondrial matrix",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "TCA cycle enzymes operate in mitochondrial matrix"
+              }
+            ],
+            "genes": [
+              "SUGCT",
+              "MCEE"
+            ]
+          },
+          {
+            "name": "Cytoplasm",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "AMPD3 participates in cytoplasmic AMP metabolism"
+              }
+            ],
+            "genes": [
+              "AMPD3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Sustained ATP production despite nutrient limitation through continuous TCA cycle function",
+          "Suppression of AMPK-mediated growth inhibition enables proliferation despite energy stress",
+          "Metabolic flexibility through amino acid catabolism when glucose and glutamine are limiting",
+          "Maintenance of anabolic biosynthesis pathways despite energy scarcity",
+          "Continued cell cycle progression and proliferation in nutrient-limited microenvironment"
+        ],
+        "evidence_summary": "Glioblastoma cells experience chronic metabolic stress in the hypoxic, nutrient-limited brain microenvironment, yet maintain remarkable capacity for continued proliferation. This appears to involve suppression of normal metabolic stress sensors such as AMPK that would otherwise restrict growth. AMPD3 may participate in this suppression by reducing AMP accumulation, thereby preventing AMPK activation. SUGCT and related enzymes maintain TCA cycle function and intermediate pools, ensuring that energy production can continue despite nutrient limitation. The presence of multiple amino acid metabolism genes (MCEE) suggests that glioblastoma cells continuously catabolize amino acids for energy, a metabolic strategy that would otherwise be associated with cellular senescence or autophagy but appears to be uncoupled from growth inhibition in glioblastoma.",
+        "significance_score": 0.7,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "AMPD3 and metabolic stress sensing in cancer"
+          },
+          {
+            "source_id": "41",
+            "notes": "SUGCT and TCA cycle metabolism in GBM"
+          }
+        ],
+        "supporting_genes": [
+          "AMPD3",
+          "SUGCT",
+          "MCEE"
+        ]
+      },
+      {
+        "program_name": "RNA Splicing and Transcript Processing Dysregulation",
+        "description": "This program encompasses genes involved in RNA splicing and processing that mediate cancer-associated alternative splicing patterns. RBFOX2 (RNA binding fox-1 homolog 2) encodes an RNA-binding protein that regulates alternative exon splicing, particularly in the nervous system and likely in glioblastoma. RBFOX2-mediated splicing regulation affects the protein isoforms produced from genes encoding cell cycle regulators, apoptosis suppressors, and metabolic enzymes. CWC25 (cell cycle and apoptosis regulator 25) participates in the spliceosome catalytic cycle and may regulate the splicing of genes critical for cell cycle progression. Recent evidence from cancer research reveals that splicing factors are essential mediators of cancer-associated splicing patterns, with dysregulation of factors such as SF3B2 causing systematic rewiring of alternative splicing patterns that shift cells toward oncogenic isoforms.",
+        "atomic_biological_processes": [
+          {
+            "name": "Alternative exon splicing regulation",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "SF3B2 and splicing factors regulate alternative splicing patterns in cancer"
+              },
+              {
+                "source_id": "60",
+                "notes": "RBFOX2 regulates alternative exon splicing in nervous system"
+              }
+            ],
+            "genes": [
+              "RBFOX2",
+              "CWC25"
+            ]
+          },
+          {
+            "name": "Spliceosome catalysis and snRNP assembly",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "Splicing factors including U2 and U6 snRNP proteins regulate splicing"
+              }
+            ],
+            "genes": [
+              "CWC25"
+            ]
+          },
+          {
+            "name": "Intron retention and transcript stability",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "snaR-A disruption causes intron retention in specific mRNA subsets"
+              }
+            ],
+            "genes": [
+              "RBFOX2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Spliceosome",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "CWC25 functions in spliceosomal catalytic core"
+              }
+            ],
+            "genes": [
+              "CWC25"
+            ]
+          },
+          {
+            "name": "Nuclear speckles",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "Splicing factors concentrate in nuclear speckles"
+              }
+            ],
+            "genes": [
+              "RBFOX2",
+              "CWC25"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Systematic production of cancer-associated protein isoforms from cell cycle, apoptosis, and metabolic genes",
+          "Enhanced tumor-promoting splice variants while suppressing growth-inhibitory isoforms",
+          "Altered splicing patterns enable phenotypic plasticity and adaptation to microenvironmental changes",
+          "Production of isoforms with altered subcellular localization, stability, or enzymatic activity",
+          "Potential therapeutic vulnerability to splicing inhibitors that disrupt production of essential cancer isoforms"
+        ],
+        "evidence_summary": "Alternative splicing is an underappreciated mechanism of cancer progression that enables production of functional protein variants promoting transformation. Recent evidence reveals that cancer cells acquire dysregulation of splicing factors, leading to systematic rewiring of alternative splicing patterns in genes encoding proteins critical for cell cycle, apoptosis, and metabolism. RBFOX2 mediates splicing decisions in the nervous system and likely participates in glioblastoma-specific splicing patterns. CWC25 participates directly in spliceosomal catalysis and may be dysregulated in glioblastoma to promote cancer-associated splicing. The presence of splicing-related genes in the input list suggests that glioblastoma cells have acquired somatic mutations or epigenetic changes affecting splicing factors, thereby causing systematic rewiring of alternative splicing patterns that support transformation. This mechanism is particularly important in the nervous system, where RBFOX2-mediated splicing regulation is normally critical for neuronal differentiation and function; aberrant RBFOX2 activity in glioblastoma would prevent differentiation and maintain proliferative capacity.",
+        "significance_score": 0.68,
+        "citations": [
+          {
+            "source_id": "57",
+            "notes": "snaR-A and splicing factor interactions in cancer"
+          },
+          {
+            "source_id": "60",
+            "notes": "RBFOX2 as key regulator of nervous system splicing"
+          }
+        ],
+        "supporting_genes": [
+          "RBFOX2",
+          "CWC25"
+        ]
+      },
+      {
+        "program_name": "Wnt/Beta-Catenin Signaling and Progenitor Cell State Maintenance",
+        "description": "This program coordinates Wnt signaling and related developmental pathways that maintain glioblastoma cells in an undifferentiated, proliferative state resembling intermediate neural progenitors. WNT2B (Wnt family member 2B) participates in canonical Wnt/beta-catenin signaling that maintains progenitor cell identity and suppresses differentiation. During normal cortical development, Wnt signaling maintains the proliferative capacity of neural progenitor cells and delays their differentiation into mature neurons and glia. In glioblastoma, constitutive Wnt signaling achieves similar effects, preventing differentiation and maintaining a proliferative, undifferentiated phenotype. This Wnt signaling program works synergistically with the INSM1-driven intermediate progenitor transcriptional state to block astrocyte maturation and maintain a proliferative, self-renewing cell population. The presence of WNT2B in the input list, combined with evidence that normal astrocytes maintain low Wnt signaling and that glioblastoma cells upregulate this pathway, suggests that Wnt signaling is actively selected for during glioblastoma transformation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Canonical Wnt/beta-catenin signaling",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "Wnt/beta-catenin signaling maintains neural progenitor cell identity and suppresses differentiation"
+              }
+            ],
+            "genes": [
+              "WNT2B"
+            ]
+          },
+          {
+            "name": "Progenitor cell maintenance and self-renewal",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "INSM1-driven intermediate progenitor state maintains high biosynthetic demand and proliferative capacity"
+              },
+              {
+                "source_id": "8",
+                "notes": "Wnt signaling suppresses differentiation in neural progenitors"
+              }
+            ],
+            "genes": [
+              "WNT2B"
+            ]
+          },
+          {
+            "name": "Suppression of astrocyte differentiation",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "Wnt pathway suppresses terminal differentiation programs"
+              }
+            ],
+            "genes": [
+              "WNT2B"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Cell membrane and Wnt receptors",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "WNT2B binds Frizzled receptors on cell surface"
+              }
+            ],
+            "genes": [
+              "WNT2B"
+            ]
+          },
+          {
+            "name": "Nucleus",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "Beta-catenin accumulates in nucleus and activates TCF/LEF transcription factors"
+              }
+            ],
+            "genes": [
+              "WNT2B"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Maintenance of undifferentiated, self-renewing cell phenotype",
+          "Suppression of astrocyte differentiation programs that would restrict proliferation",
+          "Sustained expression of progenitor-associated genes including INSM1 and related factors",
+          "Prevention of cell cycle exit and terminal differentiation",
+          "Synergistic cooperation with INSM1-driven developmental reprogramming"
+        ],
+        "evidence_summary": "Glioblastoma cells acquire and maintain an intermediate neural progenitor-like state that is driven by INSM1 expression, a transcription factor normally expressed in intermediate progenitors during cortical development. The presence of WNT2B in the input list suggests that Wnt signaling participates in maintaining this progenitor state by suppressing differentiation signals. During normal development, Wnt signaling is critical for neural progenitor expansion and the delay of differentiation, and upregulation of this pathway in glioblastoma would achieve similar effects. Recent evidence demonstrates that normal astrocytes repress Wnt signaling to maintain a mature phenotype, suggesting that glioblastoma cells must actively overcome this repression to reactivate Wnt signaling. This reactivation likely occurs through mutations affecting Wnt pathway regulators (such as APC) or through epigenetic reactivation of WNT genes. The functional integration of Wnt signaling with the INSM1-driven progenitor program creates a reinforced developmental reprogramming that locks glioblastoma cells in a proliferative, undifferentiated state.",
+        "significance_score": 0.73,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "INSM1-driven intermediate progenitor state in GBM pathogenesis"
+          },
+          {
+            "source_id": "8",
+            "notes": "Wnt/beta-catenin signaling in neural progenitor maintenance and differentiation"
+          }
+        ],
+        "supporting_genes": [
+          "WNT2B"
+        ]
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Pathway database integration (KEGG, Reactome)",
+        "Literature mining for gene function in glioblastoma and astrocytoma",
+        "Biological process co-annotation and gene ontology clustering",
+        "Mechanistic integration based on protein-protein interactions and regulatory networks",
+        "Co-expression patterns in glioblastoma transcriptomic datasets"
+      ],
+      "notes": "Gene programs identified through systematic integration of functional annotations, literature evidence, and pathway databases. Emphasis placed on genes with strong mechanistic evidence in glioblastoma biology and clustering of genes that act together in coherent biological processes. lncRNA-enriched program identified based on abundance of LINC, PVT1, and NEAT1 genes in input list and recent evidence for their roles in glioblastoma pathogenesis. Metabolic programs identified through integration of genes encoding enzymes in interconnected metabolic pathways that support rapid biosynthesis and metabolic flexibility. Immune checkpoint program based on HAVCR2 presence and recent single-cell transcriptomic evidence for immune suppression in glioblastoma. Ion channel program included despite limited mechanistic evidence to capture comprehensive representation of all input genes and highlight understudied aspects of glioblastoma biology."
+    }
+  }
+}

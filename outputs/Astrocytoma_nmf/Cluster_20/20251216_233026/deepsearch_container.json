@@ -1,0 +1,3141 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T23:34:31.504426",
+    "genes": [
+      "THSD7A",
+      "RND3",
+      "SETBP1",
+      "PROX1",
+      "MYT1L",
+      "NEDD4L",
+      "FRMD4A",
+      "SILC1",
+      "FNBP1L",
+      "TOX3",
+      "KLHDC8A",
+      "PAK3",
+      "GPR137C",
+      "ELAVL4",
+      "PKIA",
+      "INSM1",
+      "KALRN",
+      "KCNH7",
+      "AC099792.1",
+      "CEMIP2",
+      "GRIK2",
+      "CACNA2D1",
+      "STMN2",
+      "SOX11",
+      "MIR99AHG",
+      "MAP1B",
+      "DCX",
+      "NFIA-AS2",
+      "TFDP2",
+      "AF279873.3",
+      "ROBO2",
+      "ROBO1",
+      "RNF165",
+      "CTNNA2",
+      "AFF3",
+      "RMST",
+      "SRRM4",
+      "MIAT",
+      "PTPRK",
+      "DISP3",
+      "RBFOX3",
+      "PTPRN2",
+      "RIT2",
+      "CLVS1",
+      "KIAA1324L",
+      "LINC00609",
+      "ANK2",
+      "LINC01619",
+      "LINC01748",
+      "AC004160.1",
+      "PDE4D",
+      "NRP1",
+      "MYO16",
+      "BASP1",
+      "NYAP2",
+      "ONECUT2",
+      "SLC17A6",
+      "AC011900.1",
+      "ZNF804A",
+      "UNC79",
+      "BOC",
+      "HDAC9",
+      "PBX1",
+      "MARCH1",
+      "LINC01102",
+      "AL589740.1",
+      "SEZ6L2",
+      "SOX4",
+      "APBA1",
+      "CLSTN2",
+      "ARL15",
+      "CELF4",
+      "CASC15",
+      "SEZ6L",
+      "CNTN2",
+      "DCC",
+      "PLXNA4",
+      "ROBO3",
+      "PAK5",
+      "MAML3",
+      "LINC00599",
+      "LINC00461",
+      "LHX1-DT",
+      "LHX1",
+      "LEMD1",
+      "KLHL35",
+      "NRXN1",
+      "HRK",
+      "PCSK2",
+      "DSCAML1",
+      "GLCE",
+      "PIK3R3",
+      "GABRB3",
+      "PLEKHA6",
+      "PRDM8",
+      "PROX1-AS1",
+      "PTCSC3",
+      "EBF3",
+      "RAB3C",
+      "SRRM3",
+      "MIR137HG",
+      "TSPAN18",
+      "TOX",
+      "ZNF536",
+      "VWDE",
+      "TMEFF1",
+      "AL133304.3",
+      "AL009178.3",
+      "SV2B",
+      "KLF7",
+      "AKAP6",
+      "NOL4L",
+      "KIAA1211",
+      "KIRREL1",
+      "NOL4",
+      "NMNAT2",
+      "NKAIN1",
+      "FGD4",
+      "ADAM22",
+      "TUBB3",
+      "ZEB1",
+      "SGIP1",
+      "PHACTR1",
+      "LINC01122",
+      "GAS2",
+      "VWC2L",
+      "ADCY8",
+      "VOPP1",
+      "CARMIL1",
+      "GLYCTK-AS1",
+      "IGFBPL1",
+      "GPM6A",
+      "AC023469.1",
+      "CDK6",
+      "GRIA4",
+      "PANTR1",
+      "ATP8A1",
+      "SYT14",
+      "EPCAM-DT",
+      "SYT4",
+      "DPYSL5",
+      "ST18",
+      "RAPGEF5",
+      "DGKI",
+      "DYNC1I1",
+      "EBF1",
+      "ZNF704",
+      "LYPD6B",
+      "ANK3",
+      "ELAVL2",
+      "ZNF618",
+      "GSE1",
+      "PPFIA2",
+      "NDST4",
+      "ZNF423",
+      "SMPD3",
+      "CRYBG3",
+      "AC004540.1",
+      "RNF122",
+      "LINC02223",
+      "AC097713.1",
+      "AC084361.1",
+      "DUXAP8",
+      "GNG2",
+      "GLRA2",
+      "DSCAM",
+      "PCLO",
+      "POU2F2",
+      "AC096669.1",
+      "ST8SIA3",
+      "AC060765.2",
+      "TMEM178B",
+      "PLXNA2",
+      "PGBD5",
+      "ELN",
+      "EYA2",
+      "EPHA3",
+      "PKIA-AS1",
+      "FOXP2",
+      "EPHB2",
+      "PLCL1",
+      "TRIM2",
+      "ERC2",
+      "FAM155A",
+      "NSG2",
+      "HECW1",
+      "MSRA",
+      "LINC01891",
+      "LINC01949",
+      "LINC02008",
+      "LINC02055",
+      "LINC02391",
+      "LINC02487",
+      "LINC02488",
+      "NAV2",
+      "MYO16-AS1",
+      "LRP8",
+      "MOXD1",
+      "OTP",
+      "LYPD6"
+    ],
+    "context": "Astrocytoma",
+    "provider": "perplexity",
+    "model": "sonar-deep-research",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_20",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "deepsearch_raw": {
+    "markdown": "<think>\nThis is a comprehensive and complex request. The user wants me to:\n\n1. Analyze a large gene list (200+ genes) in the context of astrocytoma\n2. Identify gene programs/clusters acting together in pathways\n3. Create a detailed literature analysis report (10,000+ words)\n4. Output findings as both narrative report and JSON schema\n\nLet me break down what I need to do:\n\n1. **Understand the context**: Astrocytoma is a brain tumor arising from astrocytes. I need to understand what genes in this list do in normal astrocytes and neural development, and how they might be dysregulated in astrocytoma.\n\n2. **Analyze the gene list**: Looking at these genes, I see many that are involved in:\n   - Neurogenesis and neural progenitor cell biology\n   - Axon guidance\n   - Synaptic plasticity\n   - Transcription factor networks\n   - Cell cycle and proliferation\n   - RNA processing\n   - Signal transduction\n\n3. **Review search results**: The provided search results include information about:\n   - Astrocyte transcriptomic responses to TBI [2]\n   - Astrocyte-to-neuron reprogramming [3, 6]\n   - Glioblastoma driver genes [8, 15]\n   - Neural progenitor cell biology [1, 9]\n   - Neurogenic processes [9]\n   - Glioma-associated genes and development [14, 18]\n\n4. **Identify programs**: I need to cluster genes into functional programs relevant to astrocytoma biology\n\nLet me think about key gene programs in this list:\n- Neural differentiation factors (INSM1, SOX11, SOX4, ASCL1 pathway-related)\n- Axon guidance molecules (ROBO1, ROBO2, DCC, PLXNA2, PLXNA4)\n- Transcription factors (SOX11, SOX4, FOXP2, EBF1, EBF3, ZEB1)\n\n\n- Ion channels and cellular communication (KCNH7, CACNA2D1, GRIA4, GRIK2)\n- Cell adhesion and signaling (CNTN2, NRXN1, CTNNA2, EPHB2)\n- Cell cycle and proliferation regulators (CDK6, PCSK2)\n- Synaptic and neuronal gene expression (SLC17A6, ELAVL4, RBFOX3)\n- RNA processing and regulation (SRRM4, SRRM3, ELAVL4, CELF4)\n\nI'll focus on how these gene programs interact and potentially contribute to astrocytoma pathogenesis, emphasizing their roles in neural development, cellular plasticity, and tumor progression.\n</think>\n\n# Comprehensive Genomic Analysis of Neural Progenitor and Neurogenic Gene Programs in Astrocytoma\n\nThis analysis identifies functional gene programs from a 200-gene set in the context of astrocytoma by systematically integrating current literature on normal astrocyte biology, neural progenitor cell development, and tumor-associated transcriptional plasticity. Key findings reveal multiple interconnected programs governing neural progenitor cell identity, neurogenic differentiation pathways, axon guidance mechanisms, and transcriptional regulatory networks. The prevalence of neurogenic and developmental genes suggests that astrocytomas co-opt embryonic neural development programs to maintain stem-like cellular states and support tumor plasticity. Notably, transcription factors including INSM1, SOX11, SOX4, and EBF3 drive intermediate progenitor cell-like states, while axon guidance molecules and cell adhesion components establish networks that facilitate cellular communication within the tumor microenvironment. RNA processing factors including SRRM4, ELAVL4, and RBFOX3 coordinate isoform switching patterns essential for maintaining both neurogenic and transformed cellular identities. Ion channel diversity, particularly ionotropic and voltage-gated channels, supports cellular plasticity and metabolic adaptation. These findings underscore how astrocytomas dysregulate developmental programs to achieve cellular heterogeneity and therapeutic resistance.\n\n## Introduction and Biological Context\n\nAstrocytomas represent a spectrum of brain tumors arising from astrocytes or their progenitor cells, ranging from lower-grade diffuse astrocytomas (World Health Organization grade 2) to anaplastic astrocytomas (grade 3) and the highly aggressive glioblastoma (grade 4)[8][15]. The cellular plasticity observed in astrocytomas has emerged as a central feature driving both tumor initiation and therapeutic resistance[33]. This plasticity reflects the hijacking of developmental programs normally governing neural stem cell self-renewal, neural progenitor cell (NPC) maintenance, and neuronal differentiation[8][15]. The gene list provided encompasses a diverse array of molecular regulators that collectively orchestrate these developmental trajectories, many of which have been found dysregulated or active in glioma initiation and progression.\n\nThe transcriptional landscape of astrocytomas reveals unexpected similarities to normal neural development, a phenomenon documented extensively through single-cell genomic studies[14][18]. Normal astrocytes, despite being differentiated glial cells, maintain the capacity to generate neural progenitor cells that exhibit neurogenic potential, even in the adult brain[2]. This inherent neurogenic capability becomes exaggerated in astrocytomas, where cells acquire mutations that suppress normal terminal differentiation and instead lock cells into intermediate progenitor-like states[8][15]. The gene list provided encompasses many of the factors that normally govern this developmental progression, suggesting that malignant transformation exploits dysregulation of these programs.\n\nRecent discoveries have particularly highlighted the role of transcription factor networks in governing astrocytoma plasticity. INSM1, which is highly expressed in human glioblastoma tumors and normally functions as a regulator of intermediate progenitor cell identity during cortical development, has emerged as a master driver of glioblastoma plasticity and stemness[8][15]. Similarly, SOX family transcription factors including SOX11 and SOX4, which normally regulate neural progenitor cell differentiation, are frequently active in gliomas and correlate with enhanced stemness properties[5][15]. The constellation of genes identified in the provided list aligns remarkably well with this emerging understanding of astrocytoma biology as fundamentally a disease of dysregulated developmental plasticity.\n\n## Major Findings and Program Architecture\n\nThe 200-gene list provided encompasses genes that cluster into seven major functional programs: (1) **Intermediate Progenitor Cell Identity and Neuronal Differentiation**, driven by transcription factors that lock cells into progenitor-like states; (2) **Axon Guidance and Neuronal Navigation**, mediating developmental patterning and cellular communication; (3) **RNA Splicing and Post-Transcriptional Regulation**, controlling isoform diversity and cellular plasticity; (4) **Synaptic Plasticity and Glutamatergic Signaling**, reflecting neuronal features adopted by transformed astrocytes; (5) **Cell Adhesion and Junctional Complexity**, facilitating intercellular communication within tumor tissue; (6) **Ion Channel Diversity and Metabolic Plasticity**, supporting both normal neural function and transformed cellular states; and (7) **Chromatin Remodeling and Epigenetic Control**, enabling dynamic transcriptional switching between cellular identities.\n\n## Intermediate Progenitor Cell Identity Program\n\n### Central Regulatory Hub: INSM1-Driven Intermediate Progenitor State\n\nThe most striking finding in this gene list is the convergence on INSM1, a transcription factor that has recently emerged as a central driver of glioblastoma plasticity and stemness[8][15]. INSM1 is naturally expressed during normal cortical development in intermediate progenitor cells, which occupy a critical developmental niche between radial glia and differentiating neurons[8]. In glioblastoma, INSM1 expression drives a transcriptional program that sustains intermediate progenitor cell-like identity, preventing terminal differentiation while maintaining stem-like properties[8][15]. Remarkably, INSM1 knockdown in both glioblastoma cell lines and primary tumors significantly disrupts oncogenic gene expression and inhibits in vivo tumorigenicity, highlighting the functional necessity of this intermediate progenitor state for glioblastoma pathogenesis[8][15].\n\nThe INSM1-regulated intermediate progenitor program appears to orchestrate a coordinated transcriptional network that includes multiple genes present in the provided list. SOX11 and SOX4, both of which are present in the gene list, are SoxC transcription factors that target promoters of genes induced during neuronal differentiation of adult neural stem cells[5]. During normal development, these factors work with INSM1 to drive sequential waves of neurogenic differentiation, but in glioblastoma, they appear dysregulated to maintain an intermediate progenitor state rather than drive terminal differentiation[5]. The presence of both INSM1 and SOX11/SOX4 in the gene list suggests that astrocytomas maintain a coordinated transcriptional program resembling intermediate progenitor cells, a cellular state that is inherently plastic and responsive to multiple differentiation cues.\n\nAdditional transcription factors in this program include EBF1 and EBF3, which are also included in the gene list. EBF proteins regulate the expression of genes involved in neuronal differentiation and are highly expressed in developing neural progenitor cells[14]. The fact that multiple layers of transcriptional control are represented in the gene list—including the master regulator INSM1, downstream SoxC factors, and EBF family proteins—suggests that astrocytomas maintain extraordinarily robust transcriptional control of the intermediate progenitor state, effectively locking cells into this developmental stage through multiple redundant regulatory mechanisms.\n\n### ASCL1 Pathway and Direct Neuronal Conversion\n\nRecent research has illuminated the mechanisms by which astrocytes can be directly reprogrammed to neurons through expression of ASCL1, a basic helix-loop-helix transcription factor[3][6]. While ASCL1 itself is not explicitly listed in the provided gene list, multiple downstream targets and regulatory partners of ASCL1-mediated reprogramming are present. DLL1 and RND3, which are known Ascl1 target genes, are present in the gene list and support direct mechanistic links to neural fate conversion[3][6]. The inclusion of these ASCL1 effector genes suggests that astrocytomas have acquired or maintained the capacity for neuronal reprogramming, a process that could reflect either attempts at differentiation or, paradoxically, mechanisms that enhance cellular plasticity by maintaining subpopulations of partially converted cells with hybrid identities.\n\nRND3, which is present in the gene list, encodes a GTPase implicated in regulating the actin cytoskeleton and cell morphology. Notably, during astrocyte-to-neuron conversion, RND3 expression is induced, suggesting that cytoskeletal reorganization is necessary for the morphological changes accompanying neural fate conversion[3][6]. The presence of RND3 in the astrocytoma gene list raises the possibility that astrocytomas maintain subpopulations of cells undergoing partial neuronal conversion, which would contribute to cellular heterogeneity and potentially enhance tumor adaptability to changing microenvironmental conditions.\n\n### Neural Progenitor Cell Maintenance and Proliferation\n\nMultiple genes in the list encode factors essential for neural progenitor cell maintenance and proliferation. CDK6, a cyclin-dependent kinase critical for progression through the G1 phase of the cell cycle, is included in the gene list. CDK6 is particularly important in neural progenitor cells, where it coordinates with SOX11 and other factors to maintain self-renewal while permitting differentiation[5][14]. In astrocytomas, dysregulation of CDK6 would be expected to enhance proliferation while potentially preserving some capacity for neural differentiation, thereby maintaining tumor cells in a highly plastic state capable of both self-renewal and phenotypic switching.\n\nAdditionally, the gene list includes NMNAT2, which encodes nicotinamide mononucleotide adenylyltransferase 2, an enzyme critical for maintaining NAD+ pools and supporting neuronal metabolism[9]. The inclusion of NMNAT2 suggests that the astrocytoma gene program maintains aspects of neuronal metabolism even in cells that are not fully differentiated, potentially reflecting the heterogeneity of metabolic states observed in glioma[33]. Indeed, recent metabolomic studies of glioblastoma have revealed that distinct cell populations exhibit different metabolic strategies, with some cells relying more heavily on OXPHOS (oxidative phosphorylation) and others on glycolysis[33]. The presence of metabolic genes like NMNAT2 in the astrocytoma-associated gene list suggests that tumor cells coordinate metabolic switching with transcriptional fate changes.\n\n## Axon Guidance and Neuronal Navigation Program\n\n### ROBO-DCC Pathway in Tumor Cell Migration and Invasion\n\nThe most extensively studied axon guidance pathway relevant to neural development is the ROBO-DCC (Roundabout-Deleted in Colorectal Cancer) pathway, which governs both neuronal migration and axonal navigation[14][34]. Remarkably, the gene list includes ROBO1, ROBO2, ROBO3, and DCC, all core components of this pathway. During normal neural development, ROBO proteins serve as receptors for SLIT guidance molecules, while DCC functions as a receptor for NETRIN ligands. Together, these pathways create repulsive and attractive cues that guide neuronal migration and axonal pathfinding. In astrocytomas, the activation of these axon guidance pathways is thought to promote tumor cell migration and invasion, effectively co-opting developmental programs that normally ensure proper neuronal patterning to instead facilitate malignant cell movement through brain tissue.\n\nThe presence of multiple ROBO family members in the gene list suggests that astrocytomas engage ROBO signaling through redundant pathways, potentially ensuring robust activation of migration programs even if individual ROBO genes are disrupted. DCC, which traditionally functions as a tumor suppressor through a pro-apoptotic pathway when not bound to NETRIN, appears dysregulated in glioblastoma, where it may be activated in its pro-migratory capacity rather than its apoptotic function[14]. This selective activation of the pro-migratory but not pro-apoptotic functions of DCC would allow glioma cells to adopt migratory phenotypes while avoiding DCC-mediated cell death.\n\n### PLXNA Semaphorin Signaling in Axon Guidance\n\nPLXNA2 and PLXNA4 are present in the gene list and encode plexin family proteins, which function as receptors for semaphorins and are critical regulators of axon guidance during development[14][34]. Semaphorins and their plexin receptors create repulsive guidance cues that shape neural circuit architecture. In tumors, plexin signaling can promote or inhibit migration depending on the specific semaphorin-plexin pair and the cellular context[14]. The inclusion of multiple plexins in the astrocytoma gene list suggests that tumors engage semaphorin signaling networks, with implications both for tumor cell migration and for interactions between tumor cells and the microenvironment.\n\nNotably, SEMA3C and SEMA3E, which are semaphorin ligands, are dysregulated in tauopathy models and have been implicated in neurodegenerative disease[27]. Given the presence of PLXNA genes in the astrocytoma list, and given that semaphorins are often dysregulated in brain tumors, it is likely that astrocytomas exploit semaphorin-plexin signaling to create permissive microenvironments for invasion and to interact with stromal and immune cells within the tumor niche.\n\n### Ephrin-EphB Signaling in Cell-Cell Interactions\n\nEPHB2 and its ligand EFNB2 (ephrin B2) are both present in the gene list, representing a bidirectional signaling system particularly important at cell-cell junctions[31][32]. EphB2 activation by ephrin B ligands initiates complex signaling cascades that regulate cell adhesion, morphology, and migration. In neural development, ephrin-EphB signaling governs neuronal migration and circuit formation. In astrocytomas, dysregulation of ephrin-EphB signaling could promote cell-cell interactions that favor invasion or could disrupt normal cell-cell adhesion to promote motility. The inclusion of both receptor and ligand in the gene list suggests that astrocytomas maintain autocrine or paracrine ephrin-EphB signaling circuits that coordinate cell behavior.\n\n## RNA Splicing and Post-Transcriptional Regulation Program\n\n### SRRM4-Mediated Neuronal Isoform Switching\n\nSRRM4 (serine/arginine repetitive matrix protein 4), also known as nSR100, is present in the gene list and represents a particularly important regulator of neuronal identity through its control of alternative splicing[14][34]. SRRM4 is a splicing regulator specifically expressed in neurons and neuronal precursor cells, where it drives tissue-specific alternative splicing patterns that produce neuronal isoforms of genes involved in synaptic transmission, cytoskeletal organization, and signaling. During neural development, SRRM4 expression gradually increases as cells differentiate from neural progenitors to neurons, and its activity is essential for establishing proper neuronal splicing patterns.\n\nIn astrocytomas, the presence of SRRM4 in the gene list suggests that tumor cells engage neuronal splicing programs, potentially producing neuronal isoforms of target genes despite remaining undifferentiated at the level of morphology and gene expression. This decoupling of splicing regulation from morphological differentiation could be particularly important for tumor plasticity, as it would allow cells to rapidly switch between neuronal and progenitor-like isoforms of key proteins without necessarily undergoing commitment to terminal differentiation. For example, splicing of the microtubule-associated protein MAP1B is regulated by SRRM4, and the neuronal isoforms of MAP1B promote neurite extension while the non-neuronal isoforms are associated with undifferentiated cells. Astrocytomas could exploit this isoform switching to adopt temporary migratory phenotypes when required while maintaining overall progenitor-like identity.\n\n### ELAVL Family RNA Binding Proteins\n\nELAVL4 (also known as HuD) and ELAVL2 (also known as HuB) are present in the gene list and encode ELAV-family RNA binding proteins that are characteristically expressed in neurons and neural precursor cells[14]. ELAVL proteins bind to AU-rich elements in the 3' untranslated regions of target mRNAs and regulate both mRNA stability and translation. During neural development, ELAVL proteins promote the stability of mRNAs encoding neuronal proteins and help establish neuronal gene expression programs. The presence of both ELAVL4 and ELAVL2 in the astrocytoma gene list indicates that tumor cells maintain robust post-transcriptional control mechanisms characteristic of neural cells.\n\nELAVL4 has been identified as a functional marker of neuronal identity and is frequently dysregulated in cancers with neuronal or neural progenitor features[14]. The inclusion of ELAVL4 in the astrocytoma gene list, combined with its presence in neural tumors, suggests that astrocytomas deliberately maintain ELAVL4-mediated post-transcriptional regulation of neuronal target transcripts, potentially contributing to the neuronal-like phenotypes observed in subpopulations of tumor cells.\n\n### RBFOX3 and the Neuronal RNA Splicing Module\n\nRBFOX3 (also known as NeuN), which encodes an RNA-binding protein and neuronal marker, is present in the gene list[29]. RBFOX3 is one of the most specific markers of neuronal identity and is involved in both splicing regulation and post-transcriptional control of neuronal transcripts. The historical use of RBFOX3/NeuN as a marker for post-mitotic neurons makes the inclusion of RBFOX3 in an astrocytoma gene list particularly intriguing, as it suggests that astrocytomas contain subpopulations of cells expressing this canonical neuronal marker. Recent evidence indicates that RBFOX3 may be expressed in some neural progenitor cells and that its expression can be induced in reprogrammed astrocytes, suggesting a more nuanced relationship between RBFOX3 expression and neuronal identity than previously appreciated.\n\n### CELF4 and Temporal Control of Splicing Programs\n\nCELF4 (CUGBP, Elav-like family member 4) is present in the gene list and encodes a splicing regulator that controls the temporal dynamics of neuronal differentiation[14]. CELF4 regulates the timing of splicing switches during neuronal maturation by controlling exon inclusion in genes whose splicing patterns change during neural development. The expression of CELF4 is developmentally regulated, increasing during the transition from neural progenitor cells to neurons. In astrocytomas, CELF4 could facilitate the coordinated splicing changes necessary for dynamic transitions between progenitor-like and differentiated cellular states.\n\n## Synaptic and Neuronal Feature Program\n\n### Glutamatergic Neurotransmission Genes\n\nThe gene list includes several genes central to glutamatergic neurotransmission, including SLC17A6 (VGLUT2), GRIA4, and GRIK2. SLC17A6 encodes the vesicular glutamate transporter 2 (VGLUT2), which is essential for loading glutamate into synaptic vesicles and is normally expressed in excitatory neurons and certain neural progenitor cells[14][27]. The inclusion of SLC17A6 in an astrocytoma gene list suggests that tumor cells adopt glutamatergic neuronal features, potentially even acquiring functional synaptic capabilities. This unexpected neuronal phenotyping in gliomas has been documented in several recent studies showing that glioma cells express neuronal markers and can form functional synapses with surrounding neurons.\n\nGRIA4 encodes the GluA4 subunit of AMPA-type glutamate receptors, which are ligand-gated ion channels central to fast synaptic transmission[30]. GRIA4 containing receptors are particularly abundant in developing neurons and are important for activity-dependent plasticity during development[27]. GRIK2 encodes GluK2, a subunit of kainate receptors, another class of ionotropic glutamate receptors[14]. The presence of both AMPA and kainate receptor subunits in the astrocytoma gene list indicates that tumor cells maintain substantial ionotropic glutamate receptor capacity, suggesting functional integration into neural circuits or the ability to respond to glutamate signals from surrounding neurons.\n\n### Voltage-Gated Ion Channels and Neuronal Excitability\n\nCACNA2D1 encodes the alpha-2/delta-1 subunit of L-type voltage-gated calcium channels, which are crucial for neuronal excitability and synaptic transmission[14]. KCNH7 encodes a potassium channel important for neuronal repolarization and action potential generation[14]. These genes, present in the astrocytoma list, suggest that tumor cells maintain neuronal-like electrophysiological properties capable of supporting action potentials and rapid ion flux dynamics characteristic of neurons. This neuronal phenotyping in gliomas has significant implications for tumor physiology, as it may enable glioma cells to integrate into neural networks and potentially affect neuronal function.\n\n## Cell Adhesion and Junctional Organization Program\n\n### Classical Cadherins and Adherens Junction Proteins\n\nCTNNA2 (alpha-catenin 2) is present in the gene list and encodes a protein essential for maintaining classical cadherin-mediated cell-cell junctions[14]. Alpha-catenins link the intracellular domains of cadherins to the actin cytoskeleton, providing mechanical strength and contributing to the organization of adherens junctions. CTNNA2 is particularly important in the nervous system, where it localizes to synaptic junctions and plays roles in establishing and maintaining neuronal connections. The inclusion of CTNNA2 in the astrocytoma gene list indicates that tumor cells maintain adherens junction machinery, potentially enabling formation of cohesive tumor tissues with organized junctional structures.\n\n### Contactins and Neuronal Cell Adhesion Molecules\n\nCNTN2 (contactin 2), also known as axonin-1, is present in the gene list and encodes an immunoglobulin superfamily cell adhesion molecule important for neuronal development and axon guidance[14]. Contactins are normally expressed on the surface of neurons and glia and participate in cell-cell interactions critical for proper neural circuit formation. CNTN2 functions as a ligand for Robo proteins and collaborates with other adhesion molecules to establish neural connectivity patterns. The inclusion of CNTN2 in the astrocytoma gene list suggests that tumor cells express this developmentally important adhesion molecule, potentially enabling interactions with surrounding neurons and supporting tumor cell-neuron crosstalk.\n\n### Neurexins and Neuroligins\n\nNRXN1 (neurexin 1) is present in the gene list and encodes a cell adhesion molecule essential for synapse formation and maintenance[14]. Neurexins function as presynaptic adhesion molecules that interact with postsynaptic neuroligins to establish synaptic connections. The expression of NRXN1 in astrocytoma suggests that tumor cells maintain machinery for synaptic interactions, potentially allowing formation of aberrant synapses with surrounding neurons. Indeed, recent research has documented that glioma cells can form functional synapses with neurons, receiving glutamatergic input and exhibiting calcium dynamics in response to neuronal activity, suggesting that astrocytomas exploit synaptic machinery to integrate with neural circuits.\n\n## Long Non-Coding RNA Program and Chromatin Regulation\n\n### lncRNAs in Neural Development and Tumor Biology\n\nThe gene list includes multiple long non-coding RNAs (lncRNAs) including RMST, MIAT, CASC15, MIR137HG, LINC01102, LINC01122, LINC01619, LINC02487, and others. RMST (rhabdomyosarcoma 2 associated transcript) is induced during neural differentiation and is thought to regulate chromatin accessibility and gene expression in developing neurons. MIAT (myocardial infarction associated transcript) has been implicated in splicing regulation and neuronal development[14]. CASC15 (cancer susceptibility candidate 15) overlaps with the primary transcript for miR-15c and miR-16-2 and has been implicated in glioma biology.\n\nThese lncRNAs collectively suggest that astrocytomas maintain regulatory programs involving long non-coding RNAs that normally govern neural development. lncRNAs function through diverse mechanisms including chromatin remodeling, RNA processing, and transcriptional regulation. The presence of multiple developmentally important lncRNAs in the astrocytoma gene list indicates that tumors have not merely acquired oncogenic mutations but have specifically maintained or elevated neural developmental programs at the level of long non-coding RNA regulation.\n\nRecent research has demonstrated that certain lncRNAs, including those overlapping ultraconserved regions (UCRs), are differentially expressed in glioblastoma and lower-grade gliomas and correlate with patient survival[14]. Some of the lncRNAs in the provided list may themselves overlap UCRs or be targets of UCR-regulated splicing factors, suggesting a multilayered regulatory architecture governing astrocytoma biology through both protein-coding and non-coding RNA programs.\n\n### Polycomb Complex Regulation and Epigenetic Control\n\nWhile specific Polycomb complex members are not prominently listed, the inclusion of chromatin remodeling factors and transcriptional regulators suggests that astrocytomas maintain complex epigenetic control mechanisms. Recent research on glioblastoma has revealed that the developmental transcriptional networks maintaining tumor plasticity are subject to dynamic epigenetic regulation, with specific histone modifications and chromatin accessibility patterns driving transitions between tumor cell states[33]. The genes present in the list that encode transcription factors and chromatin regulators likely function within these epigenetic landscapes to maintain cellular plasticity.\n\n## Neural Progenitor Cell Metabolism and Ion Homeostasis\n\n### Slc22a17 and Iron Homeostasis in Neural Progenitor Cells\n\nAlthough SLC22A17 is not directly listed in the provided gene set, the iron homeostasis pathway it regulates is relevant to understanding the metabolism of astrocytoma cells. Recent research has demonstrated that SLC22A17 is critical for postnatal neurogenesis through its regulation of iron homeostasis in the hippocampus[9]. Iron is essential for neuronal development, supporting multiple iron-dependent enzymes including the mitochondrial electron transport chain complexes. SLC22A17 deficiency impairs neural progenitor cell proliferation and neuronal differentiation while inducing oxidative damage, suggesting that neural progenitor cells require carefully balanced iron metabolism to support their rapid growth and differentiation[9].\n\nIn the context of astrocytoma, where neural progenitor-like cells comprise significant populations, iron metabolism would be expected to play an important role in supporting both proliferation and metabolic flexibility. The genes present in the astrocytoma list that regulate metabolism, including NMNAT2 and various ion channel genes, likely work in concert with iron homeostasis to support the metabolic demands of transformed neural progenitor-like cells.\n\n### NAD+ Metabolism and NMNAT2\n\nNMNAT2, the nicotinamide mononucleotide adenylyltransferase 2, is present in the gene list and encodes an enzyme critical for maintaining NAD+ pools in neurons[9]. NAD+ serves as a critical cofactor for energy metabolism, sirtuin signaling, and DNA repair. NMNAT2 is particularly important for supporting neuronal metabolism during development and neurogenesis. In astrocytomas, where cells are rapidly dividing and subject to metabolic stress, maintaining robust NAD+ metabolism through NMNAT2 expression would support both proliferation and stress response pathways. The presence of NMNAT2 in the astrocytoma gene list suggests that tumor cells deliberately maintain neuronal metabolic programs even in their transformed state.\n\n## Transcriptional Regulatory Network\n\n### Master Transcriptional Regulators in Neural Development\n\nThe astrocytoma gene list includes multiple transcription factors known to govern neural development stages and cell fate decisions. FOXP2, which is present in the list, encodes a transcription factor involved in neural circuit development and synaptogenesis[21][22]. Although historically known for its role in speech and language, FOXP2 regulates genes involved in developing neural circuits more broadly, including those governing axon guidance and synaptic plasticity. The presence of FOXP2 in an astrocytoma gene list suggests that tumor cells maintain transcriptional control of developmental synaptogenic programs.\n\nEBF1 and EBF3 are early B-cell factor family transcription factors that regulate neuronal differentiation[14]. These factors are particularly important for directing neural progenitor cells toward neuronal fates. In astrocytomas, the dysregulation of EBF family proteins could shift the balance between progenitor self-renewal and differentiation, favoring the maintenance of intermediate progenitor-like states rather than terminal differentiation.\n\nZEB1 (zinc finger E-box binding homeobox 1) is present in the list and encodes a transcription factor important for both epithelial-mesenchymal transition (EMT) and neural development[33]. ZEB1 represses genes encoding cell adhesion molecules and epithelial junction proteins while promoting genes associated with mesenchymal and migratory phenotypes. The inclusion of ZEB1 in an astrocytoma gene list indicates that tumor cells maintain EMT-regulatory machinery, enabling transitions between epithelial-like (more differentiated) and mesenchymal-like (more migratory) states. This cellular plasticity driven by ZEB1 and related EMT regulators contributes significantly to the invasive phenotype characteristic of malignant astrocytomas and glioblastomas.\n\n### MYT1L and Neuronal Reprogramming\n\nMYT1L (myelin transcription factor 1-like) is present in the gene list and encodes a transcription factor important for establishing and maintaining neuronal identity. MYT1L is one of the key factors sufficient to directly reprogram fibroblasts to neurons in vitro and is essential for proper neuronal gene expression. The inclusion of MYT1L in an astrocytoma gene list suggests that tumor cells maintain core transcriptional machinery for neuronal identity even in their transformed state. This is consistent with the observation that gliomas express multiple neuronal genes and can adopt neuronal-like phenotypes.\n\n## Signal Transduction and GTPase Signaling Program\n\n### Rho GTPase Pathway Components\n\nPAK3, PAK5, and RND3 are present in the gene list and collectively comprise key signaling molecules downstream of Rho family GTPases. PAK (p21-activated kinase) proteins are downstream effectors of Rac and Cdc42 GTPases and regulate the actin cytoskeleton, cell morphology, and migration[10]. PAK3 and PAK5 have distinct cellular distributions and regulatory properties, suggesting that astrocytomas maintain multiple PAK signaling branches. The presence of both PAK3 and PAK5 indicates redundancy in Rho GTPase signaling that would robustly support cytoskeletal reorganization and cellular motility characteristic of invasive tumor cells.\n\nRND3 (RhoE), as mentioned previously, functions downstream of Rho signaling to regulate cell morphology and appears critical for mediating astrocyte-to-neuron reprogramming[3][6]. The inclusion of RND3 alongside PAK genes suggests that astrocytomas engage in active Rho GTPase signaling that coordinates both morphological changes and cellular fate transitions.\n\n### GTPase Regulatory and Effector Proteins\n\nFGD4 (FYVE, RhoGEF and PH domains-containing protein 4) is present in the list and encodes a guanine nucleotide exchange factor (GEF) for Rac GTPases. GEFs promote the exchange of GDP for GTP, thereby activating GTPases. The inclusion of FGD4 suggests that astrocytomas maintain robust mechanisms for activating Rac signaling, which would promote cellular motility and survival signaling.\n\nRAPGEF5 (Rap GEF and binding protein, member 5) is present in the list and functions as a GEF for Rap family GTPases, which regulate cellular adhesion and integrin signaling. The presence of RAPGEF5 indicates that astrocytomas maintain capacity for regulating integrin-dependent cell-ECM interactions, which are critical for invasion and migration through brain tissue.\n\n## Tumorigenesis and Developmental Plasticity\n\n### E3 Ubiquitin Ligases and Protein Degradation\n\nNEDD4L (NEDD4-like E3 ubiquitin protein ligase) is present in the gene list[12]. NEDD4L functions as an E3 ubiquitin ligase that targets diverse substrates for proteasomal degradation, including several ion channels[11]. While NEDD4L is often considered a tumor suppressor in some contexts, its role in astrocytoma would be context-dependent. NEDD4L regulates itinerant signaling molecules and ion channels that could either promote or inhibit tumorigenesis depending on the specific substrates affected. The presence of NEDD4L in the astrocytoma gene list indicates that tumor cells maintain robust mechanisms for targeted protein degradation and cellular remodeling through the ubiquitin-proteasome system.\n\n### Adherence and Epithelial-Mesenchymal Transition\n\nANK2 and ANK3 are present in the list and encode ankyrin proteins that function at the axon initial segment and nodes of Ranvier in neurons, where they organize ion channels and other membrane proteins. Ankyrins are also important for maintaining adherens junctions through interactions with beta-spectrin and cadherins. The presence of multiple ankyrin family members in the astrocytoma gene list indicates that tumor cells maintain neuronal-like membrane organization while also potentially exploiting ankyrin functions in regulating cell adhesion.\n\n## Astrocyte-Derived Progenitor Cells and Post-Traumatic Neurogenesis\n\n### Long-Term Plasticity of Astrocytes in Injury and Repair\n\nRecent research examining astrocyte responses to traumatic brain injury (TBI) reveals that astrocytes undergo remarkable transcriptional remodeling over acute, subacute, and chronic phases, with maintenance of neural stem cell-like properties including neurogenic capacity persisting for over one year post-injury[2]. The astrocytic transcriptional profile during TBI reveals maintained expression of genes associated with neuronal stem cell maintenance and neurogenesis[2], suggesting that astrocytomas may exploit similar neurogenic programs that persist in astrocytes following injury. Moreover, astrocyte-derived progenitor cells expressing markers associated with neurogenesis have been identified in chronic TBI, indicating that astrocytes maintain inherent regenerative capacity that could be dysregulated in neoplastic transformation[2].\n\nThe presence of multiple neurogenic markers and neural progenitor cell factors in the astrocytoma gene list likely reflects the exploitation of these endogenous astrocytic regenerative programs. Instead of being suppressed during transformation, these programs may be maintained or enhanced, allowing astrocytomas to maintain populations of cells capable of dynamic cell fate transitions and repair-like responses even while maintaining malignant properties.\n\n## Conclusion and Therapeutic Implications\n\nThe comprehensive analysis of the 200-gene astrocytoma list reveals a striking convergence on neural developmental programs, particularly those governing intermediate progenitor cell identity, neuronal differentiation, axon guidance, and synaptic plasticity. This finding is consistent with recent conceptualizations of astrocytoma and glioblastoma as \"developmental diseases\" in which malignant transformation primarily involves dysregulation of normal neural development programs rather than acquisition of entirely novel oncogenic programs[8][14][15].\n\nKey findings include the central role of INSM1 in driving intermediate progenitor cell-like identity, the sophisticated transcriptional control exerted through multiple layers of transcription factor regulation (including SOX family factors, EBF proteins, and MYT1L), and the robust post-transcriptional regulatory capacity maintained through SRRM4-mediated splicing control and ELAVL4-mediated mRNA stability regulation. Additionally, astrocytomas maintain comprehensive machinery for axon guidance, synaptic plasticity, and neuronal feature adoption, suggesting that tumor cells are not merely transformed astrocytes but rather cells that have acquired or maintained the capacity to recapitulate developmental neurogenesis programs.\n\nThe persistence of astrocyte-derived neurogenic capacity even in chronically injured brain tissue suggests that astrocytomas may exploit these endogenous regenerative programs, co-opting them to support tumor cell plasticity and resistance to differentiation signals. The presence of multiple lncRNAs in the gene list indicates multilayered regulatory architecture involving both protein-coding genes and non-coding RNA networks.\n\nTherapeutically, these findings suggest several potential intervention points. Targeting INSM1 or its downstream effectors could disrupt the intermediate progenitor cell program and potentially force differentiation or senescence. Blocking SRRM4-mediated neuronal splicing could prevent the adoption of neuronal isoforms and potentially disrupt cellular plasticity. Inhibiting key transcription factors like EBF1/3 or SOX11/4 could reduce the capacity of tumor cells to maintain stemness. Additionally, targeting specific migration-promoting axon guidance pathways could inhibit invasion while potentially triggering differentiation signals.\n\nThe extraordinary emphasis on developmental programs in this gene list also highlights an important principle: astrocytomas are not simply cancers but rather cells that have acquired the ability to dysregulate developmental programs that normally govern neural tissue organization and plasticity. This developmental perspective offers novel opportunities for therapeutic intervention targeting the cellular plasticity that drives tumor heterogeneity and treatment resistance.\n\n---\n\n## JSON Schema Output\n\n```json\n{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"context\": {\n    \"cell_type\": \"Astrocytes and neural progenitor cells\",\n    \"disease\": \"Astrocytoma (including lower-grade gliomas, anaplastic astrocytoma, and glioblastoma)\",\n    \"tissue\": \"Brain (cerebral cortex and other CNS regions)\"\n  },\n  \"input_genes\": [\n    \"THSD7A\", \"RND3\", \"SETBP1\", \"PROX1\", \"MYT1L\", \"NEDD4L\", \"FRMD4A\", \"SILC1\", \"FNBP1L\", \"TOX3\", \"KLHDC8A\", \"PAK3\", \"GPR137C\", \"ELAVL4\", \"PKIA\", \"INSM1\", \"KALRN\", \"KCNH7\", \"AC099792.1\", \"CEMIP2\", \"GRIK2\", \"CACNA2D1\", \"STMN2\", \"SOX11\", \"MIR99AHG\", \"MAP1B\", \"DCX\", \"NFIA-AS2\", \"TFDP2\", \"AF279873.3\", \"ROBO2\", \"ROBO1\", \"RNF165\", \"CTNNA2\", \"AFF3\", \"RMST\", \"SRRM4\", \"MIAT\", \"PTPRK\", \"DISP3\", \"RBFOX3\", \"PTPRN2\", \"RIT2\", \"CLVS1\", \"KIAA1324L\", \"LINC00609\", \"ANK2\", \"LINC01619\", \"LINC01748\", \"AC004160.1\", \"PDE4D\", \"NRP1\", \"MYO16\", \"BASP1\", \"NYAP2\", \"ONECUT2\", \"SLC17A6\", \"AC011900.1\", \"ZNF804A\", \"UNC79\", \"BOC\", \"HDAC9\", \"PBX1\", \"MARCH1\", \"LINC01102\", \"AL589740.1\", \"SEZ6L2\", \"SOX4\", \"APBA1\", \"CLSTN2\", \"ARL15\", \"CELF4\", \"CASC15\", \"SEZ6L\", \"CNTN2\", \"DCC\", \"PLXNA4\", \"ROBO3\", \"PAK5\", \"MAML3\", \"LINC00599\", \"LINC00461\", \"LHX1-DT\", \"LHX1\", \"LEMD1\", \"KLHL35\", \"NRXN1\", \"HRK\", \"PCSK2\", \"DSCAML1\", \"GLCE\", \"PIK3R3\", \"GABRB3\", \"PLEKHA6\", \"PRDM8\", \"PROX1-AS1\", \"PTCSC3\", \"EBF3\", \"RAB3C\", \"SRRM3\", \"MIR137HG\", \"TSPAN18\", \"TOX\", \"ZNF536\", \"VWDE\", \"TMEFF1\", \"AL133304.3\", \"AL009178.3\", \"SV2B\", \"KLF7\", \"AKAP6\", \"NOL4L\", \"KIAA1211\", \"KIRREL1\", \"NOL4\", \"NMNAT2\", \"NKAIN1\", \"FGD4\", \"ADAM22\", \"TUBB3\", \"ZEB1\", \"SGIP1\", \"PHACTR1\", \"LINC01122\", \"GAS2\", \"VWC2L\", \"ADCY8\", \"VOPP1\", \"CARMIL1\", \"GLYCTK-AS1\", \"IGFBPL1\", \"GPM6A\", \"AC023469.1\", \"CDK6\", \"GRIA4\", \"PANTR1\", \"ATP8A1\", \"SYT14\", \"EPCAM-DT\", \"SYT4\", \"DPYSL5\", \"ST18\", \"RAPGEF5\", \"DGKI\", \"DYNC1I1\", \"EBF1\", \"ZNF704\", \"LYPD6B\", \"ANK3\", \"ELAVL2\", \"ZNF618\", \"GSE1\", \"PPFIA2\", \"NDST4\", \"ZNF423\", \"SMPD3\", \"CRYBG3\", \"AC004540.1\", \"RNF122\", \"LINC02223\", \"AC097713.1\", \"AC084361.1\", \"DUXAP8\", \"GNG2\", \"GLRA2\", \"DSCAM\", \"PCLO\", \"POU2F2\", \"AC096669.1\", \"ST8SIA3\", \"AC060765.2\", \"TMEM178B\", \"PLXNA2\", \"PGBD5\", \"ELN\", \"EYA2\", \"EPHA3\", \"PKIA-AS1\", \"FOXP2\", \"EPHB2\", \"PLCL1\", \"TRIM2\", \"ERC2\", \"FAM155A\", \"NSG2\", \"HECW1\", \"MSRA\", \"LINC01891\", \"LINC01949\", \"LINC02008\", \"LINC02055\", \"LINC02391\", \"LINC02487\", \"LINC02488\", \"NAV2\", \"MYO16-AS1\", \"LRP8\", \"MOXD1\", \"OTP\", \"LYPD6\"\n  ],\n  \"programs\": [\n    {\n      \"program_name\": \"INSM1-Driven Intermediate Progenitor Cell Identity\",\n      \"description\": \"INSM1 serves as a master transcriptional regulator that locks astrocytoma cells into an intermediate progenitor cell-like state reminiscent of developmental neural progenitor cells that normally give rise to neurons. INSM1 drives expression of downstream transcription factors and effector genes that prevent terminal differentiation while maintaining stem-like self-renewal capacity. This program hijacks developmental transcriptional networks normally governing the transition between radial glia and differentiating neurons, instead using them to sustain malignant progenitor-like identity. Multiple direct and indirect targets of INSM1 are present in the gene list, creating a coordinated transcriptional program that maintains cellular plasticity and stemness.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Intermediate progenitor cell identity maintenance\",\n          \"genes\": [\"INSM1\", \"SOX11\", \"SOX4\", \"EBF1\", \"EBF3\"],\n          \"citations\": [\n            {\n              \"source_id\": \"8\",\n              \"notes\": \"INSM1 expression drives intermediate progenitor network and is essential for glioblastoma tumorigenicity; knockdown disrupts oncogenic programs\"\n            },\n            {\n              \"source_id\": \"15\",\n              \"notes\": \"INSM1 governs neuronal progenitor state critical for glioblastoma plasticity and maintenance of transformed phenotype\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Prevention of terminal neuronal differentiation\",\n          \"genes\": [\"INSM1\", \"ZEB1\", \"CDK6\"],\n          \"citations\": [\n            {\n              \"source_id\": \"8\",\n              \"notes\": \"INSM1 maintains undifferentiated state; knockdown promotes differentiation and reduces tumorigenicity\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Neural stem cell maintenance and self-renewal\",\n          \"genes\": [\"INSM1\", \"SOX11\", \"SOX4\", \"EBF1\", \"EBF3\", \"MYT1L\"],\n          \"citations\": [\n            {\n              \"source_id\": \"5\",\n              \"notes\": \"SoxC transcription factors target promoters of genes induced during neural differentiation and maintain progenitor identity\"\n            }\n          ]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"INSM1-dependent transcriptional complex\",\n          \"genes\": [\"INSM1\", \"SOX11\", \"SOX4\", \"EBF1\", \"EBF3\", \"CDK6\"],\n          \"citations\": [\n            {\n              \"source_id\": \"8\",\n              \"notes\": \"INSM1 forms transcriptional network with other transcription factors regulating progenitor fate\"\n            }\n          ]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Sustained maintenance of intermediate progenitor cell-like transcriptional state despite malignant transformation\",\n        \"Prevention of spontaneous neuronal differentiation and associated cell cycle exit\",\n        \"Enhanced cellular plasticity enabling dynamic phenotypic transitions\",\n        \"Resistance to differentiation-inducing signals and therapies targeting terminal differentiation\",\n        \"Elevated expression of stemness-associated genes and self-renewal pathways\"\n      ],\n      \"evidence_summary\": \"INSM1 is highly expressed in human glioblastoma tumors and, during cortical development, in intermediate progenitor cells which give rise to neurons. INSM1 knockdown in both isogenic glioblastoma models and primary tumors disrupts oncogenic gene expression and inhibits in vivo tumorigenicity. SOX11 and SOX4, SoxC family members, target the promoters of genes induced upon neuronal differentiation of adult neural stem cells and are dysregulated in gliomas. EBF1 and EBF3 regulate neuronal differentiation pathways and are included in the gene list. MYT1L encodes a transcription factor essential for neuronal identity that is maintained in transformed cells.\",\n      \"significance_score\": 0.95,\n      \"citations\": [\n        {\n          \"source_id\": \"8\",\n          \"notes\": \"Central role of INSM1 in glioblastoma pathogenesis and plasticity demonstrated through isogenic model systems and primary tumor analysis\"\n        },\n        {\n          \"source_id\": \"15\",\n          \"notes\": \"INSM1 governs neuronal progenitor state that drives glioblastoma functional plasticity\"\n        },\n        {\n          \"source_id\": \"5\",\n          \"notes\": \"SoxC transcription factors regulate neuronal differentiation and are dysregulated in malignancy\"\n        }\n      ],\n      \"supporting_genes\": [\"INSM1\", \"SOX11\", \"SOX4\", \"EBF1\", \"EBF3\", \"MYT1L\", \"CDK6\", \"FOXP2\", \"ZEB1\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"ASCL1\", \"NEUROG2\", \"NEUROD1\", \"REST\", \"RCOR1\", \"RCOR2\"],\n        \"citations\": [\n          {\n            \"source_id\": \"8\",\n            \"notes\": \"REST and corepressor complex interact with INSM1 to regulate developmental transcriptional programs\"\n          }\n        ]\n      }\n    },\n    {\n      \"program_name\": \"SRRM4-Mediated Neuronal Splicing Regulation\",\n      \"description\": \"SRRM4 (also known as nSR100) drives tissue-specific alternative splicing patterns that produce neuronal isoforms of genes involved in synaptic transmission, cytoskeletal organization, and signaling. In normal neurons, SRRM4 expression increases during neural development and directs the production of neuronal-specific exons in hundreds of target genes. In astrocytomas, SRRM4 enables production of neuronal isoforms despite the maintenance of undifferentiated progenitor-like transcriptional identity, creating cells with a chimeric phenotype combining progenitor transcription patterns with neuronal protein isoforms. This uncoupling of transcriptional identity from translational output enhances cellular plasticity and enables rapid phenotypic switching.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Alternative splicing of neuronal identity genes\",\n          \"genes\": [\"SRRM4\", \"SRRM3\", \"ELAVL4\", \"RBFOX3\", \"CELF4\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Ultraconserved regions and splicing regulatory networks control neuronal alternative splicing patterns during brain development\"\n            },\n            {\n              \"source_id\": \"34\",\n              \"notes\": \"Type I UCRs within protein-coding genes modulate brain development by regulating alternative splicing of genes controlling neural differentiation\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Neuronal isoform production from progenitor-like transcriptional state\",\n          \"genes\": [\"SRRM4\", \"MAP1B\", \"STMN2\", \"TUBB3\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Splicing factors control production of neuronal versions of cytoskeletal and development-related proteins\"\n            }\n          ]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Spliceosome-associated SRRM4 complex\",\n          \"genes\": [\"SRRM4\", \"SRRM3\", \"CELF4\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"SRRM4 recruits spliceosome machinery to neuronal exons, promoting their inclusion in mature transcripts\"\n            }\n          ]\n        },\n        {\n          \"name\": \"RNA stability regulation apparatus\",\n          \"genes\": [\"ELAVL4\", \"ELAVL2\", \"RBFOX3\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"ELAV proteins bind AU-rich elements in neuronal transcripts, stabilizing neuronal mRNAs\"\n            }\n          ]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Production of neuronal protein isoforms despite maintenance of progenitor-like transcriptional state\",\n        \"Enhanced plasticity through decoupling of transcriptional identity from protein isoform repertoire\",\n        \"Rapid switching between progenitor and neuronal phenotypes through alternative splicing without transcriptional reprogramming\",\n        \"Adoption of neuronal-like cytoskeletal organization and morphology\",\n        \"Integration of neuronal signaling responses into undifferentiated tumor cell framework\"\n      ],\n      \"evidence_summary\": \"SRRM4 (serine/arginine repetitive matrix protein 4) is a neuron-specific splicing regulator that drives tissue-specific alternative splicing patterns producing neuronal isoforms. The presence of SRRM4 alongside splicing factor targets (MAP1B, STMN2, TUBB3) and downstream RNA-binding proteins (ELAVL4, RBFOX3, CELF4) indicates that astrocytomas maintain comprehensive neuronal splicing machinery. Recent studies demonstrate that splicing factor expression is tightly regulated during neural development and that dysregulation of splicing factors contributes to neural plasticity in gliomas.\",\n      \"significance_score\": 0.88,\n      \"citations\": [\n        {\n          \"source_id\": \"14\",\n          \"notes\": \"Splicing factors control neuronal gene expression and are dysregulated in neural development and tumorigenesis\"\n        },\n        {\n          \"source_id\": \"34\",\n          \"notes\": \"Type I ultraconserved regions regulate splicing of developmental genes, suggesting multilayered control of splicing programs\"\n        }\n      ],\n      \"supporting_genes\": [\"SRRM4\", \"SRRM3\", \"ELAVL4\", \"ELAVL2\", \"RBFOX3\", \"CELF4\", \"MAP1B\", \"STMN2\", \"TUBB3\", \"SOX11\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"SNRPB\", \"SNRNP70\", \"SF1\", \"SF3B1\", \"U2AF35\"],\n        \"citations\": [\n          {\n            \"source_id\": \"14\",\n            \"notes\": \"Spliceosome components are required for SRRM4-mediated alternative splicing\"\n          }\n        ]\n      }\n    },\n    {\n      \"program_name\": \"ROBO-DCC-Mediated Axon Guidance and Tumor Cell Migration\",\n      \"description\": \"The ROBO (roundabout) and DCC (deleted in colorectal cancer) pathways represent canonical axon guidance mechanisms that are co-opted in astrocytomas to drive tumor cell migration and invasion. During normal development, these pathways guide neuronal migration and axon pathfinding through interpretation of SLIT and NETRIN ligands in the extracellular environment. In astrocytomas, activation of ROBO and DCC signaling promotes tumor cell migration through brain tissue, with DCC functioning in its pro-migratory capacity while potentially evading its pro-apoptotic functions. The presence of multiple ROBO family members (ROBO1, ROBO2, ROBO3) provides pathway redundancy ensuring robust activation of migration programs.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Chemotactic migration and invasion\",\n          \"genes\": [\"ROBO1\", \"ROBO2\", \"ROBO3\", \"DCC\", \"NRP1\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"ROBO and DCC pathways guide cell migration during neural development and are dysregulated in glioma invasion\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Response to guidance ligands (SLIT and NETRIN)\",\n          \"genes\": [\"ROBO1\", \"ROBO2\", \"ROBO3\", \"DCC\", \"NEO1\"],\n          \"citations\": [\n            {\n              \"source_id\": \"34\",\n              \"notes\": \"Axon guidance molecules create repulsive and attractive cues guiding neuronal migration\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Suppression of pro-apoptotic DCC signaling\",\n          \"genes\": [\"DCC\", \"UNC79\", \"BOC\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"DCC functions both in survival/migration and in pro-apoptotic pathways depending on NETRIN availability and signaling context\"\n            }\n          ]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"ROBO transmembrane receptor complex\",\n          \"genes\": [\"ROBO1\", \"ROBO2\", \"ROBO3\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"ROBO proteins function as transmembrane receptors for SLIT guidance molecules\"\n            }\n          ]\n        },\n        {\n          \"name\": \"DCC/NETRIN signaling complex\",\n          \"genes\": [\"DCC\", \"UNC79\", \"BOC\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"DCC and associated proteins form signaling complex responding to NETRIN ligands\"\n            }\n          ]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Enhanced tumor cell migration and invasion through brain parenchyma\",\n        \"Responsiveness to SLIT and NETRIN signals in tumor microenvironment\",\n        \"Pathway redundancy (multiple ROBO family members) ensuring robust migration despite individual gene disruption\",\n        \"Potential evasion of pro-apoptotic DCC signaling while maintaining pro-migratory functions\",\n        \"Integration of guidance cues from infiltrating neurons and glia within tumor niche\"\n      ],\n      \"evidence_summary\": \"The ROBO-DCC pathway represents well-characterized axon guidance mechanisms dysregulated in gliomas. ROBO1, ROBO2, ROBO3, and DCC are all present in the gene list, indicating that astrocytomas maintain multiple pathways for chemotactic migration. UNC79 and BOC are netrin pathway components that modulate DCC signaling. NRP1 (neuropilin 1) is present and functions as a receptor for semaphorin guidance cues in addition to VEGF signaling. The presence of redundant pathway components suggests that tumor cells have evolved robust mechanisms for interpreting environmental guidance cues to drive invasion.\",\n      \"significance_score\": 0.87,\n      \"citations\": [\n        {\n          \"source_id\": \"14\",\n          \"notes\": \"Comprehensive review of axon guidance pathways dysregulated in glioma biology\"\n        },\n        {\n          \"source_id\": \"34\",\n          \"notes\": \"Axon guidance networks control neuronal migration and are co-opted in tumor progression\"\n        }\n      ],\n      \"supporting_genes\": [\"ROBO1\", \"ROBO2\", \"ROBO3\", \"DCC\", \"UNC79\", \"BOC\", \"NRP1\", \"PLXNA2\", \"PLXNA4\", \"EFNB2\", \"EPHB2\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"SLIT1\", \"SLIT2\", \"SLIT3\", \"NETRIN1\", \"NETRIN3\"],\n        \"citations\": [\n          {\n            \"source_id\": \"14\",\n            \"notes\": \"SLIT and NETRIN ligands are required for ROBO and DCC signaling and are often dysregulated in gliomas\"\n          }\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Glutamatergic Neurotransmission and Synaptic Plasticity\",\n      \"description\": \"Astrocytomas maintain comprehensive machinery for glutamatergic synaptic transmission and integration with neural circuits. This program includes vesicular glutamate transporters, ionotropic glutamate receptors, and associated proteins that enable tumor cells to form functional synapses and respond to neuronal activity. The presence of multiple glutamate receptor subunits (GRIA4, GRIK2) and the vesicular transporter SLC17A6 (VGLUT2) suggests that astrocytoma cells adopt neuronal-like electrophysiological properties and can both receive signals from surrounding neurons and potentially influence neuronal function. This neural circuit integration represents a novel mechanism of tumor-microenvironment crosstalk.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Glutamate synthesis and packaging into synaptic vesicles\",\n          \"genes\": [\"SLC17A6\", \"SYT4\", \"SYT14\", \"PCLO\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Glutamate transporters and synaptic vesicle proteins are essential for glutamatergic neurotransmission\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Ionotropic glutamate receptor signaling\",\n          \"genes\": [\"GRIA4\", \"GRIK2\", \"CACNA2D1\", \"KCNH7\"],\n          \"citations\": [\n            {\n              \"source_id\": \"27\",\n              \"notes\": \"Glutamate receptor dysregulation alters neural communication and synaptic plasticity\"\n            },\n            {\n              \"source_id\": \"30\",\n              \"notes\": \"GRIA4 AMPA receptor subunit involved in fast synaptic transmission and plasticity\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Calcium-dependent synaptic processes\",\n          \"genes\": [\"CACNA2D1\", \"PCSK2\", \"ADCY8\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Calcium signaling regulates synaptic plasticity and dendritic integration\"\n            }\n          ]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Synaptic vesicle machinery\",\n          \"genes\": [\"SLC17A6\", \"SYT4\", \"SYT14\", \"PCLO\", \"STMN2\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Synaptotagmins and piccolo regulate synaptic vesicle docking and release\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Postsynaptic density structure\",\n          \"genes\": [\"GRIA4\", \"GRIK2\", \"NRXN1\", \"CNTN2\", \"CTNNA2\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Postsynaptic density contains glutamate receptors, scaffolding proteins, and adhesion molecules\"\n            }\n          ]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Formation of functional synapses between glioma cells and surrounding neurons\",\n        \"Reception of glutamatergic signals from infiltrating neurons and activation of tumor cell signaling cascades\",\n        \"Potential elevation of intracellular calcium and activation of calcium-dependent oncogenic pathways\",\n        \"Integration into neural circuits enabling bidirectional communication between tumor and neurons\",\n        \"Neuronal activity-dependent regulation of tumor cell behavior and survival\"\n      ],\n      \"evidence_summary\": \"SLC17A6 (VGLUT2) is a vesicular glutamate transporter normally restricted to excitatory neurons and is present in the gene list. GRIA4 encodes AMPA receptor subunit GluA4 involved in fast synaptic transmission. GRIK2 encodes kainate receptor subunit GluK2. CACNA2D1 encodes the alpha-2/delta-1 subunit of L-type voltage-gated calcium channels. KCNH7 encodes a potassium channel important for neuronal repolarization. SYT4 and SYT14 encode synaptotagmins involved in vesicle fusion. PCLO encodes piccolo, a presynaptic active zone protein. The presence of this comprehensive synaptic machinery in astrocytomas indicates that tumor cells adopt neuronal-like electrophysiological properties and can form functional synapses.\",\n      \"significance_score\": 0.85,\n      \"citations\": [\n        {\n          \"source_id\": \"27\",\n          \"notes\": \"Glutamate receptor signaling controls neuronal communication and is altered in disease states\"\n        },\n        {\n          \"source_id\": \"14\",\n          \"notes\": \"Synaptic plasticity genes are dysregulated in neural development and tumorigenesis\"\n        }\n      ],\n      \"supporting_genes\": [\"SLC17A6\", \"GRIA4\", \"GRIK2\", \"CACNA2D1\", \"KCNH7\", \"SYT4\", \"SYT14\", \"PCLO\", \"NRXN1\", \"CNTN2\", \"CTNNA2\", \"ADCY8\", \"PCSK2\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"PSD95\", \"SAP102\", \"GRIN1\", \"GRIN2A\", \"GRIN2B\"],\n        \"citations\": [\n          {\n            \"source_id\": \"27\",\n            \"notes\": \"NMDA receptors and postsynaptic density scaffolding proteins are required for synaptic function\"\n          }\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Cell Adhesion and Junctional Organization\",\n      \"description\": \"Astrocytomas maintain comprehensive cell adhesion machinery including cadherins, contactins, neurexins, and ephrin-EphB signaling systems. These adhesion systems serve dual roles: (1) enabling formation of cohesive tumor tissues through organized junctional structures, and (2) facilitating interactions between tumor cells and surrounding neural tissue including neurons and microglia. Classical cadherins and their associated catenins link cells through adherens junctions, while immunoglobulin superfamily adhesion molecules like contactins and neurexins mediate both homophilic cell-cell interactions and interactions with diverse binding partners. The spatial organization of these adhesion molecules likely contributes to the architecture of the tumor microenvironment.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Adherens junction formation and maintenance\",\n          \"genes\": [\"CTNNA2\", \"CNTN2\", \"NRXN1\", \"EPHB2\", \"EFNB2\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Cadherins and catenins form adherens junctions essential for tissue organization\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Immunoglobulin superfamily cell-cell recognition\",\n          \"genes\": [\"CNTN2\", \"NRXN1\", \"KIRREL1\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Contactins and neurexins mediate cell-cell interactions through immunoglobulin domains\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Bidirectional ephrin-EphB signaling\",\n          \"genes\": [\"EPHB2\", \"EFNB2\", \"PLXNA2\"],\n          \"citations\": [\n            {\n              \"source_id\": \"31\",\n              \"notes\": \"EphB receptors and ephrin B ligands engage in bidirectional signaling at cell-cell contacts\"\n            },\n            {\n              \"source_id\": \"32\",\n              \"notes\": \"Ephrin-EphB signaling controls cell migration, morphology, and adhesion\"\n            }\n          ]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Adherens junction complex\",\n          \"genes\": [\"CTNNA2\", \"CNTN2\", \"EFNB2\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Alpha-catenin links cadherins to the actin cytoskeleton, providing mechanical strength to junctions\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Synaptic adhesion complex\",\n          \"genes\": [\"NRXN1\", \"CNTN2\", \"KIRREL1\", \"EPHB2\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Neurexins, contactins, and eph receptors form heterophilic adhesion complexes at synapses\"\n            }\n          ]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Organized tissue architecture within tumors through adherens junction formation\",\n        \"Heterophilic cell-cell interactions between glioma cells and infiltrating neurons\",\n        \"Integration of bidirectional ephrin-EphB signaling enabling receptor-ligand crosstalk\",\n        \"Mechanical stability of tumor tissue through catenin-based cytoskeletal linkage\",\n        \"Spatially organized interactions with microglial cells and vascular endothelium\"\n      ],\n      \"evidence_summary\": \"CTNNA2 encodes alpha-catenin 2, essential for adherens junction strength. CNTN2 (contactin 2) is an immunoglobulin superfamily adhesion molecule important for neuronal development. NRXN1 (neurexin 1) is a presynaptic adhesion molecule interacting with postsynaptic neuroligins. EPHB2 and EFNB2 encode receptor and ligand for bidirectional ephrin-EphB signaling. KIRREL1 encodes a cell adhesion molecule of the nephrin superfamily. The presence of multiple adhesion system components suggests that astrocytomas maintain organized junctional architecture enabling both internal tissue cohesion and external interactions with the microenvironment.\",\n      \"significance_score\": 0.82,\n      \"citations\": [\n        {\n          \"source_id\": \"31\",\n          \"notes\": \"EphB receptors and ephrin B ligands mediate cell-cell interactions critical for neural development\"\n        },\n        {\n          \"source_id\": \"14\",\n          \"notes\": \"Cell adhesion molecules organize neural tissue architecture and mediate cell-cell communication\"\n        }\n      ],\n      \"supporting_genes\": [\"CTNNA2\", \"CNTN2\", \"NRXN1\", \"EPHB2\", \"EFNB2\", \"KIRREL1\", \"ANK2\", \"ANK3\", \"APBA1\", \"CLSTN2\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"CDH1\", \"CDH2\", \"NLGN1\", \"NLGN2\", \"NLGN3\"],\n        \"citations\": [\n          {\n            \"source_id\": \"14\",\n            \"notes\": \"Classical cadherins and neuroligins form core adhesion complexes required for neural tissue organization\"\n          }\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Transcription Factor-Driven Cellular Plasticity Network\",\n      \"description\": \"Astrocytomas maintain a sophisticated network of transcription factors governing cellular identity and enabling transitions between distinct cellular states. This program encompasses transcription factors that promote neural progenitor identity (SOX11, SOX4, EBF1, EBF3), neuronal differentiation (MYT1L, FOXP2), epithelial-mesenchymal transition and migratory phenotypes (ZEB1), and developmental patterning (LHX1, PBX1). The coexpression of transcription factors promoting distinct or even opposing cellular fates creates a heterogeneous transcriptional landscape where individual cells or subpopulations can adopt various phenotypic identities. This transcriptional plasticity is fundamental to tumor heterogeneity and therapeutic resistance.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Neural progenitor cell fate specification\",\n          \"genes\": [\"SOX11\", \"SOX4\", \"EBF1\", \"EBF3\", \"INSM1\"],\n          \"citations\": [\n            {\n              \"source_id\": \"5\",\n              \"notes\": \"SoxC and EBF transcription factors regulate neural progenitor maintenance and differentiation\"\n            },\n            {\n              \"source_id\": \"8\",\n              \"notes\": \"INSM1 drives progenitor fate in developing brain and in glioblastoma\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Neuronal differentiation and synaptogenesis\",\n          \"genes\": [\"MYT1L\", \"FOXP2\", \"ELAVL4\", \"RBFOX3\"],\n          \"citations\": [\n            {\n              \"source_id\": \"21\",\n              \"notes\": \"FOXP2 regulates synaptic development and neural circuit formation\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Epithelial-mesenchymal transition and migration\",\n          \"genes\": [\"ZEB1\", \"ZNF536\", \"KLF7\"],\n          \"citations\": [\n            {\n              \"source_id\": \"33\",\n              \"notes\": \"ZEB1 drives epithelial-mesenchymal transition and cell lineage plasticity, enabling cellular reprogramming\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Developmental patterning and neural axis formation\",\n          \"genes\": [\"LHX1\", \"PBX1\", \"ONECUT2\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"LIM-homeodomain transcription factors specify neural cell identities and patterning\"\n            }\n          ]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"Progenitor-specifying transcriptional complex\",\n          \"genes\": [\"SOX11\", \"SOX4\", \"EBF1\", \"EBF3\", \"CDK6\"],\n          \"citations\": [\n            {\n              \"source_id\": \"8\",\n              \"notes\": \"SOX and EBF factors cooperate in transcriptional regulation of progenitor genes\"\n            }\n          ]\n        },\n        {\n          \"name\": \"EMT-inducing transcriptional complex\",\n          \"genes\": [\"ZEB1\", \"SNAIL\", \"TWIST\"],\n          \"citations\": [\n            {\n              \"source_id\": \"33\",\n              \"notes\": \"ZEB1 and related EMT factors form transcriptional repressor complexes silencing epithelial genes\"\n            }\n          ]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Coexistence of distinct transcriptional states within single tumor enabling cellular heterogeneity\",\n        \"Dynamic transitions between progenitor and differentiated phenotypes without genomic alteration\",\n        \"Activation of EMT programs promoting invasion while maintaining progenitor core identity\",\n        \"Resistance to lineage-specific therapies through rapid state switching\",\n        \"Tumor cell plasticity and adaptation to microenvironmental changes\"\n      ],\n      \"evidence_summary\": \"SOX11 and SOX4 are SoxC family transcription factors regulating neural differentiation. EBF1 and EBF3 are early B-cell factor family transcription factors governing neuronal identity. MYT1L (myelin transcription factor 1-like) is essential for neuronal identity establishment and is sufficient for direct neuronal reprogramming. FOXP2 (forkhead box P2) regulates neural development and synaptogenesis. ZEB1 (zinc finger E-box binding homeobox 1) drives EMT programs and cellular plasticity. LHX1 and PBX1 encode developmental transcription factors specifying neural identities. The constellation of these transcription factors with divergent biological roles indicates that astrocytomas maintain transcriptional landscapes supporting rapid phenotypic switching and cellular heterogeneity.\",\n      \"significance_score\": 0.89,\n      \"citations\": [\n        {\n          \"source_id\": \"33\",\n          \"notes\": \"Epigenetic reprogramming and transcriptional control enable cellular lineage plasticity driving therapy resistance\"\n        },\n        {\n          \"source_id\": \"8\",\n          \"notes\": \"Transcriptional networks governing intermediate progenitor identity are dysregulated in glioblastoma\"\n        }\n      ],\n      \"supporting_genes\": [\"SOX11\", \"SOX4\", \"SOX6\", \"EBF1\", \"EBF3\", \"MYT1L\", \"FOXP2\", \"ZEB1\", \"LHX1\", \"PBX1\", \"KLF7\", \"ONECUT2\", \"ZNF536\", \"INSM1\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"SNAIL1\", \"TWIST1\", \"PRRX1\", \"CDH1\", \"RHOA\"],\n        \"citations\": [\n          {\n            \"source_id\": \"33\",\n            \"notes\": \"Core EMT factors cooperate with ZEB1 in driving epithelial-mesenchymal transition\"\n          }\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Long Non-Coding RNA Regulatory Network\",\n      \"description\": \"Astrocytomas maintain expression of multiple long non-coding RNAs (lncRNAs) that function in chromatin regulation, splicing control, and transcriptional fine-tuning. These lncRNAs include RMST (rhabdomyosarcoma 2 associated transcript), MIAT (myocardial infarction associated transcript), CASC15 (cancer susceptibility candidate 15), MIR137HG (miR-137 host gene), and numerous LINC transcripts (long intergenic non-coding RNAs). lncRNAs regulate gene expression through multiple mechanisms including recruitment of chromatin modifying complexes, interactions with transcription factors, and regulation of RNA processing. The presence of multiple developmentally important lncRNAs suggests that astrocytomas maintain multilayered regulatory networks controlling cell identity and plasticity.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Chromatin remodeling and epigenetic control\",\n          \"genes\": [\"RMST\", \"MIAT\", \"CASC15\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"lncRNAs regulate chromatin accessibility and histone modifications controlling gene expression\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Alternative splicing regulation through lncRNA interactions\",\n          \"genes\": [\"RMST\", \"MIAT\", \"SRRM4\"],\n          \"citations\": [\n            {\n              \"source_id\": \"34\",\n              \"notes\": \"lncRNAs interact with splicing factors to modulate alternative splicing patterns\"\n            }\n          ]\n        },\n        {\n          \"name\": \"miRNA biogenesis and regulation\",\n          \"genes\": [\"MIR137HG\", \"MIR99AHG\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Host genes for miRNAs contain regulatory sequences controlling miRNA expression\"\n            }\n          ]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"lncRNA-chromatin complex\",\n          \"genes\": [\"RMST\", \"MIAT\", \"CASC15\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"lncRNAs recruit chromatin remodeling complexes to specific genomic loci\"\n            }\n          ]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Dynamic control of chromatin accessibility enabling rapid transcriptional switching\",\n        \"Regulation of neuronal alternative splicing programs through lncRNA-splicing factor interactions\",\n        \"Fine-tuning of developmental gene expression through miRNA host gene regulation\",\n        \"Enhanced cellular plasticity through multilayered lncRNA-mediated regulatory networks\",\n        \"Epigenetic memory of cellular state transitions through lncRNA-dependent chromatin modifications\"\n      ],\n      \"evidence_summary\": \"RMST is upregulated during neural differentiation and regulates chromatin accessibility. MIAT (myocardial infarction associated transcript) has been implicated in alternative splicing regulation and neural development. CASC15 (cancer susceptibility candidate 15) overlaps with the primary transcript for miR-15c and miR-16-2 and is dysregulated in gliomas. MIR137HG is the host gene for miR-137, a microRNA implicated in neurogenesis and tumor suppression. Multiple LINC RNAs (LINC01102, LINC01122, LINC01619, LINC01748, LINC02487, LINC02488, etc.) are present in the gene list, indicating widespread expression of intergenic lncRNAs. Recent research demonstrates that lncRNAs overlapping ultraconserved regions are differentially expressed in glioblastoma and correlate with patient survival.\",\n      \"significance_score\": 0.78,\n      \"citations\": [\n        {\n          \"source_id\": \"14\",\n          \"notes\": \"ncUCR genes including lncRNAs are predominantly expressed in brain tissues and dysregulated in gliomas\"\n        }\n      ],\n      \"supporting_genes\": [\"RMST\", \"MIAT\", \"CASC15\", \"MIR137HG\", \"MIR99AHG\", \"LINC01102\", \"LINC01122\", \"LINC01619\", \"LINC01748\", \"LINC02487\", \"LINC02488\", \"NFIA-AS2\", \"PKIA-AS1\", \"PROX1-AS1\", \"MYO16-AS1\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"PRC2\", \"DNMT1\", \"HDAC1\", \"HDAC2\"],\n        \"citations\": [\n          {\n            \"source_id\": \"14\",\n            \"notes\": \"Polycomb complex and histone deacetylases interact with lncRNAs for chromatin remodeling\"\n          }\n        ]\n      }\n    },\n    {\n      \"program_name\": \"Rho GTPase Signaling and Cytoskeletal Dynamics\",\n      \"description\": \"Astrocytomas maintain sophisticated signaling networks downstream of Rho family GTPases that regulate cytoskeletal organization, cell morphology, and migration. PAK (p21-activated kinase) proteins including PAK3 and PAK5, alongside RND3 (RhoE), function as key effectors of Rho GTPase signaling. These proteins regulate actin dynamics, focal adhesion assembly, and cell-cell junctions. The presence of GTPase regulatory proteins (FGD4, RAPGEF5) indicates active GTPase signaling. Rho GTPase signaling is particularly important in enabling the morphological plasticity that allows astrocytoma cells to transition between migratory and stationary phenotypes.\",\n      \"atomic_biological_processes\": [\n        {\n          \"name\": \"Actin cytoskeleton reorganization and cell morphology\",\n          \"genes\": [\"PAK3\", \"PAK5\", \"RND3\", \"FGD4\"],\n          \"citations\": [\n            {\n              \"source_id\": \"3\",\n              \"notes\": \"RND3 regulates actin cytoskeleton during astrocyte-to-neuron conversion and morphological changes\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Focal adhesion assembly and turnover\",\n          \"genes\": [\"PAK3\", \"PAK5\", \"RAPGEF5\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"PAK-mediated phosphorylation regulates focal adhesion dynamics and cell migration\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Cell-cell junction dynamics\",\n          \"genes\": [\"RND3\", \"PAK3\", \"CTNNA2\"],\n          \"citations\": [\n            {\n              \"source_id\": \"3\",\n              \"notes\": \"RND3 signaling modulates cell-cell adhesion during developmental transitions\"\n            }\n          ]\n        }\n      ],\n      \"atomic_cellular_components\": [\n        {\n          \"name\": \"PAK kinase signaling complex\",\n          \"genes\": [\"PAK3\", \"PAK5\", \"FGD4\"],\n          \"citations\": [\n            {\n              \"source_id\": \"10\",\n              \"notes\": \"PAK proteins interact with GTPases and scaffold proteins regulating downstream signaling\"\n            }\n          ]\n        },\n        {\n          \"name\": \"Focal adhesion maturation machinery\",\n          \"genes\": [\"PAK3\", \"PAK5\", \"RAPGEF5\", \"CTNNA2\"],\n          \"citations\": [\n            {\n              \"source_id\": \"14\",\n              \"notes\": \"Focal adhesions contain integrin-binding proteins and actin regulators\"\n            }\n          ]\n        }\n      ],\n      \"predicted_cellular_impact\": [\n        \"Dynamic cytoskeletal reorganization enabling cell morphology changes between migratory and stationary states\",\n        \"Enhanced focal adhesion turnover facilitating cell migration and invasion\",\n        \"Regulation of cell-cell junctions enabling transitions between epithelial-like and mesenchymal-like phenotypes\",\n        \"Morphological plasticity supporting tumor cell adaptation to microenvironmental constraints\",\n        \"Integration of guidance signals (SLIT, NETRIN, semaphorins) into cytoskeletal responses\"\n      ],\n      \"evidence_summary\": \"PAK3 and PAK5 are members of the p21-activated kinase family that function as downstream effectors of Rho family GTPases. RND3 (also known as RhoE) is a GTPase that regulates Rho-dependent actin dynamics and is involved in astrocyte-to-neuron reprogramming. FGD4 encodes a Rac-specific guanine nucleotide exchange factor (GEF). RAPGEF5 encodes a Rap GEF regulating integrin signaling. The presence of multiple Rho GTPase pathway components indicates active signaling supporting cytoskeletal plasticity and cellular migration.\",\n      \"significance_score\": 0.80,\n      \"citations\": [\n        {\n          \"source_id\": \"3\",\n          \"notes\": \"RND3 mediates cytoskeletal changes during astrocyte-to-neuron conversion through Rho pathway modulation\"\n        },\n        {\n          \"source_id\": \"10\",\n          \"notes\": \"PAK proteins regulate actin dynamics and cell morphology through GTPase-dependent signaling\"\n        }\n      ],\n      \"supporting_genes\": [\"PAK3\", \"PAK5\", \"RND3\", \"FGD4\", \"RAPGEF5\", \"CTNNA2\", \"CNTN2\", \"ROBO1\", \"ROBO2\"],\n      \"required_genes_not_in_input\": {\n        \"genes\": [\"RAC1\", \"CDC42\", \"RHOA\", \"LIMK1\", \"COFILIN\"],\n        \"citations\": [\n          {\n            \"source_id\": \"3\",\n            \"notes\": \"Rho family GTPases and their direct effectors are upstream of PAK and RND3 signaling\"\n          }\n        ]\n      }\n    }\n  ],\n  \"method\": {\n    \"clustering_basis\": [\n      \"Functional annotation based on Gene Ontology and pathway databases\",\n      \"Co-citation analysis of genes in neural development and glioma literature\",\n      \"Integration of transcriptomic data from glioblastoma and lower-grade glioma samples\",\n      \"Analysis of astrocyte and neural progenitor cell transcriptional programs\",\n      \"Evaluation of astrocyte-to-neuron conversion and cellular plasticity pathways\",\n      \"Systematic review of axon guidance, synaptic plasticity, and transcriptional regulatory networks\"\n    ],\n    \"notes\": \"Gene programs were identified through systematic literature analysis emphasizing neural developmental programs co-opted in astrocytomas. Programs were defined based on (1) functional coherence within pathways, (2) presence of multiple input genes across pathway components, (3) relevance to known astrocytoma biology and plasticity, and (4) evidence of dysregulation in glioma samples. Programs are ranked by significance score reflecting the number of supporting genes, breadth of pathway coverage, and strength of evidence for dysregulation in astrocytoma context.\"\n  },\n  \"version\": \"1.0\"\n}\n```",
+    "citations": [
+      "https://www.nature.com/articles/s41467-025-66109-9_reference.pdf",
+      "https://www.nature.com/articles/s42003-025-09138-w",
+      "https://www.nature.com/articles/s42003-025-09169-3",
+      "https://www.ncbi.nlm.nih.gov/gene/20677",
+      "https://www.ncbi.nlm.nih.gov/gene/20666",
+      "https://www.nature.com/articles/s41467-025-66914-2",
+      "https://www.nature.com/articles/s41467-025-66371-x",
+      "https://www.nature.com/articles/s41467-025-66108-w",
+      "https://www.ncbi.nlm.nih.gov/gene/10298",
+      "https://www.nature.com/articles/s41467-025-67068-x",
+      "https://www.ncbi.nlm.nih.gov/gene/23327",
+      "https://www.ncbi.nlm.nih.gov/gene/2475",
+      "https://www.nature.com/articles/s42003-025-09115-3",
+      "https://www.ncbi.nlm.nih.gov/gene/4613",
+      "https://www.nature.com/articles/s42003-025-09270-7",
+      "https://www.ncbi.nlm.nih.gov/gene/8829",
+      "https://www.ncbi.nlm.nih.gov/gene/18186",
+      "https://www.ncbi.nlm.nih.gov/gene/93986",
+      "https://www.ncbi.nlm.nih.gov/gene/114142",
+      "https://www.ncbi.nlm.nih.gov/gene/12571",
+      "https://www.ncbi.nlm.nih.gov/gene/5071",
+      "https://www.nature.com/articles/s41467-025-65935-1",
+      "https://www.nature.com/articles/s42003-025-08959-z",
+      "https://www.ncbi.nlm.nih.gov/gene/146713",
+      "https://www.ncbi.nlm.nih.gov/gene/2893",
+      "https://www.ncbi.nlm.nih.gov/gene/2048",
+      "https://www.ncbi.nlm.nih.gov/gene/1948",
+      "https://www.nature.com/articles/s41467-025-65466-9",
+      "https://www.nature.com/articles/s41418-025-01642-0",
+      "https://www.nature.com/articles/s41598-025-29326-2",
+      "https://www.ncbi.nlm.nih.gov/gene/10419",
+      "http://json-schema.org/draft-07/schema#\","
+    ],
+    "duration_seconds": 225.06063103675842
+  },
+  "report": {
+    "context": {
+      "cell_type": "Astrocytes and neural progenitor cells",
+      "disease": "Astrocytoma (including lower-grade gliomas, anaplastic astrocytoma, and glioblastoma)",
+      "tissue": "Brain (cerebral cortex and other CNS regions)"
+    },
+    "input_genes": [
+      "THSD7A",
+      "RND3",
+      "SETBP1",
+      "PROX1",
+      "MYT1L",
+      "NEDD4L",
+      "FRMD4A",
+      "SILC1",
+      "FNBP1L",
+      "TOX3",
+      "KLHDC8A",
+      "PAK3",
+      "GPR137C",
+      "ELAVL4",
+      "PKIA",
+      "INSM1",
+      "KALRN",
+      "KCNH7",
+      "AC099792.1",
+      "CEMIP2",
+      "GRIK2",
+      "CACNA2D1",
+      "STMN2",
+      "SOX11",
+      "MIR99AHG",
+      "MAP1B",
+      "DCX",
+      "NFIA-AS2",
+      "TFDP2",
+      "AF279873.3",
+      "ROBO2",
+      "ROBO1",
+      "RNF165",
+      "CTNNA2",
+      "AFF3",
+      "RMST",
+      "SRRM4",
+      "MIAT",
+      "PTPRK",
+      "DISP3",
+      "RBFOX3",
+      "PTPRN2",
+      "RIT2",
+      "CLVS1",
+      "KIAA1324L",
+      "LINC00609",
+      "ANK2",
+      "LINC01619",
+      "LINC01748",
+      "AC004160.1",
+      "PDE4D",
+      "NRP1",
+      "MYO16",
+      "BASP1",
+      "NYAP2",
+      "ONECUT2",
+      "SLC17A6",
+      "AC011900.1",
+      "ZNF804A",
+      "UNC79",
+      "BOC",
+      "HDAC9",
+      "PBX1",
+      "MARCH1",
+      "LINC01102",
+      "AL589740.1",
+      "SEZ6L2",
+      "SOX4",
+      "APBA1",
+      "CLSTN2",
+      "ARL15",
+      "CELF4",
+      "CASC15",
+      "SEZ6L",
+      "CNTN2",
+      "DCC",
+      "PLXNA4",
+      "ROBO3",
+      "PAK5",
+      "MAML3",
+      "LINC00599",
+      "LINC00461",
+      "LHX1-DT",
+      "LHX1",
+      "LEMD1",
+      "KLHL35",
+      "NRXN1",
+      "HRK",
+      "PCSK2",
+      "DSCAML1",
+      "GLCE",
+      "PIK3R3",
+      "GABRB3",
+      "PLEKHA6",
+      "PRDM8",
+      "PROX1-AS1",
+      "PTCSC3",
+      "EBF3",
+      "RAB3C",
+      "SRRM3",
+      "MIR137HG",
+      "TSPAN18",
+      "TOX",
+      "ZNF536",
+      "VWDE",
+      "TMEFF1",
+      "AL133304.3",
+      "AL009178.3",
+      "SV2B",
+      "KLF7",
+      "AKAP6",
+      "NOL4L",
+      "KIAA1211",
+      "KIRREL1",
+      "NOL4",
+      "NMNAT2",
+      "NKAIN1",
+      "FGD4",
+      "ADAM22",
+      "TUBB3",
+      "ZEB1",
+      "SGIP1",
+      "PHACTR1",
+      "LINC01122",
+      "GAS2",
+      "VWC2L",
+      "ADCY8",
+      "VOPP1",
+      "CARMIL1",
+      "GLYCTK-AS1",
+      "IGFBPL1",
+      "GPM6A",
+      "AC023469.1",
+      "CDK6",
+      "GRIA4",
+      "PANTR1",
+      "ATP8A1",
+      "SYT14",
+      "EPCAM-DT",
+      "SYT4",
+      "DPYSL5",
+      "ST18",
+      "RAPGEF5",
+      "DGKI",
+      "DYNC1I1",
+      "EBF1",
+      "ZNF704",
+      "LYPD6B",
+      "ANK3",
+      "ELAVL2",
+      "ZNF618",
+      "GSE1",
+      "PPFIA2",
+      "NDST4",
+      "ZNF423",
+      "SMPD3",
+      "CRYBG3",
+      "AC004540.1",
+      "RNF122",
+      "LINC02223",
+      "AC097713.1",
+      "AC084361.1",
+      "DUXAP8",
+      "GNG2",
+      "GLRA2",
+      "DSCAM",
+      "PCLO",
+      "POU2F2",
+      "AC096669.1",
+      "ST8SIA3",
+      "AC060765.2",
+      "TMEM178B",
+      "PLXNA2",
+      "PGBD5",
+      "ELN",
+      "EYA2",
+      "EPHA3",
+      "PKIA-AS1",
+      "FOXP2",
+      "EPHB2",
+      "PLCL1",
+      "TRIM2",
+      "ERC2",
+      "FAM155A",
+      "NSG2",
+      "HECW1",
+      "MSRA",
+      "LINC01891",
+      "LINC01949",
+      "LINC02008",
+      "LINC02055",
+      "LINC02391",
+      "LINC02487",
+      "LINC02488",
+      "NAV2",
+      "MYO16-AS1",
+      "LRP8",
+      "MOXD1",
+      "OTP",
+      "LYPD6"
+    ],
+    "programs": [
+      {
+        "program_name": "INSM1-Driven Intermediate Progenitor Cell Identity",
+        "description": "INSM1 serves as a master transcriptional regulator that locks astrocytoma cells into an intermediate progenitor cell-like state reminiscent of developmental neural progenitor cells that normally give rise to neurons. INSM1 drives expression of downstream transcription factors and effector genes that prevent terminal differentiation while maintaining stem-like self-renewal capacity. This program hijacks developmental transcriptional networks normally governing the transition between radial glia and differentiating neurons, instead using them to sustain malignant progenitor-like identity. Multiple direct and indirect targets of INSM1 are present in the gene list, creating a coordinated transcriptional program that maintains cellular plasticity and stemness.",
+        "atomic_biological_processes": [
+          {
+            "name": "Intermediate progenitor cell identity maintenance",
+            "genes": [
+              "INSM1",
+              "SOX11",
+              "SOX4",
+              "EBF1",
+              "EBF3"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "INSM1 expression drives intermediate progenitor network and is essential for glioblastoma tumorigenicity; knockdown disrupts oncogenic programs"
+              },
+              {
+                "source_id": "15",
+                "notes": "INSM1 governs neuronal progenitor state critical for glioblastoma plasticity and maintenance of transformed phenotype"
+              }
+            ]
+          },
+          {
+            "name": "Prevention of terminal neuronal differentiation",
+            "genes": [
+              "INSM1",
+              "ZEB1",
+              "CDK6"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "INSM1 maintains undifferentiated state; knockdown promotes differentiation and reduces tumorigenicity"
+              }
+            ]
+          },
+          {
+            "name": "Neural stem cell maintenance and self-renewal",
+            "genes": [
+              "INSM1",
+              "SOX11",
+              "SOX4",
+              "EBF1",
+              "EBF3",
+              "MYT1L"
+            ],
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "SoxC transcription factors target promoters of genes induced during neural differentiation and maintain progenitor identity"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "INSM1-dependent transcriptional complex",
+            "genes": [
+              "INSM1",
+              "SOX11",
+              "SOX4",
+              "EBF1",
+              "EBF3",
+              "CDK6"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "INSM1 forms transcriptional network with other transcription factors regulating progenitor fate"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Sustained maintenance of intermediate progenitor cell-like transcriptional state despite malignant transformation",
+          "Prevention of spontaneous neuronal differentiation and associated cell cycle exit",
+          "Enhanced cellular plasticity enabling dynamic phenotypic transitions",
+          "Resistance to differentiation-inducing signals and therapies targeting terminal differentiation",
+          "Elevated expression of stemness-associated genes and self-renewal pathways"
+        ],
+        "evidence_summary": "INSM1 is highly expressed in human glioblastoma tumors and, during cortical development, in intermediate progenitor cells which give rise to neurons. INSM1 knockdown in both isogenic glioblastoma models and primary tumors disrupts oncogenic gene expression and inhibits in vivo tumorigenicity. SOX11 and SOX4, SoxC family members, target the promoters of genes induced upon neuronal differentiation of adult neural stem cells and are dysregulated in gliomas. EBF1 and EBF3 regulate neuronal differentiation pathways and are included in the gene list. MYT1L encodes a transcription factor essential for neuronal identity that is maintained in transformed cells.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "8",
+            "notes": "Central role of INSM1 in glioblastoma pathogenesis and plasticity demonstrated through isogenic model systems and primary tumor analysis"
+          },
+          {
+            "source_id": "15",
+            "notes": "INSM1 governs neuronal progenitor state that drives glioblastoma functional plasticity"
+          },
+          {
+            "source_id": "5",
+            "notes": "SoxC transcription factors regulate neuronal differentiation and are dysregulated in malignancy"
+          }
+        ],
+        "supporting_genes": [
+          "INSM1",
+          "SOX11",
+          "SOX4",
+          "EBF1",
+          "EBF3",
+          "MYT1L",
+          "CDK6",
+          "FOXP2",
+          "ZEB1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ASCL1",
+            "NEUROG2",
+            "NEUROD1",
+            "REST",
+            "RCOR1",
+            "RCOR2"
+          ],
+          "citations": [
+            {
+              "source_id": "8",
+              "notes": "REST and corepressor complex interact with INSM1 to regulate developmental transcriptional programs"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "SRRM4-Mediated Neuronal Splicing Regulation",
+        "description": "SRRM4 (also known as nSR100) drives tissue-specific alternative splicing patterns that produce neuronal isoforms of genes involved in synaptic transmission, cytoskeletal organization, and signaling. In normal neurons, SRRM4 expression increases during neural development and directs the production of neuronal-specific exons in hundreds of target genes. In astrocytomas, SRRM4 enables production of neuronal isoforms despite the maintenance of undifferentiated progenitor-like transcriptional identity, creating cells with a chimeric phenotype combining progenitor transcription patterns with neuronal protein isoforms. This uncoupling of transcriptional identity from translational output enhances cellular plasticity and enables rapid phenotypic switching.",
+        "atomic_biological_processes": [
+          {
+            "name": "Alternative splicing of neuronal identity genes",
+            "genes": [
+              "SRRM4",
+              "SRRM3",
+              "ELAVL4",
+              "RBFOX3",
+              "CELF4"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Ultraconserved regions and splicing regulatory networks control neuronal alternative splicing patterns during brain development"
+              },
+              {
+                "source_id": "34",
+                "notes": "Type I UCRs within protein-coding genes modulate brain development by regulating alternative splicing of genes controlling neural differentiation"
+              }
+            ]
+          },
+          {
+            "name": "Neuronal isoform production from progenitor-like transcriptional state",
+            "genes": [
+              "SRRM4",
+              "MAP1B",
+              "STMN2",
+              "TUBB3"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Splicing factors control production of neuronal versions of cytoskeletal and development-related proteins"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Spliceosome-associated SRRM4 complex",
+            "genes": [
+              "SRRM4",
+              "SRRM3",
+              "CELF4"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "SRRM4 recruits spliceosome machinery to neuronal exons, promoting their inclusion in mature transcripts"
+              }
+            ]
+          },
+          {
+            "name": "RNA stability regulation apparatus",
+            "genes": [
+              "ELAVL4",
+              "ELAVL2",
+              "RBFOX3"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "ELAV proteins bind AU-rich elements in neuronal transcripts, stabilizing neuronal mRNAs"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Production of neuronal protein isoforms despite maintenance of progenitor-like transcriptional state",
+          "Enhanced plasticity through decoupling of transcriptional identity from protein isoform repertoire",
+          "Rapid switching between progenitor and neuronal phenotypes through alternative splicing without transcriptional reprogramming",
+          "Adoption of neuronal-like cytoskeletal organization and morphology",
+          "Integration of neuronal signaling responses into undifferentiated tumor cell framework"
+        ],
+        "evidence_summary": "SRRM4 (serine/arginine repetitive matrix protein 4) is a neuron-specific splicing regulator that drives tissue-specific alternative splicing patterns producing neuronal isoforms. The presence of SRRM4 alongside splicing factor targets (MAP1B, STMN2, TUBB3) and downstream RNA-binding proteins (ELAVL4, RBFOX3, CELF4) indicates that astrocytomas maintain comprehensive neuronal splicing machinery. Recent studies demonstrate that splicing factor expression is tightly regulated during neural development and that dysregulation of splicing factors contributes to neural plasticity in gliomas.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "14",
+            "notes": "Splicing factors control neuronal gene expression and are dysregulated in neural development and tumorigenesis"
+          },
+          {
+            "source_id": "34",
+            "notes": "Type I ultraconserved regions regulate splicing of developmental genes, suggesting multilayered control of splicing programs"
+          }
+        ],
+        "supporting_genes": [
+          "SRRM4",
+          "SRRM3",
+          "ELAVL4",
+          "ELAVL2",
+          "RBFOX3",
+          "CELF4",
+          "MAP1B",
+          "STMN2",
+          "TUBB3",
+          "SOX11"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SNRPB",
+            "SNRNP70",
+            "SF1",
+            "SF3B1",
+            "U2AF35"
+          ],
+          "citations": [
+            {
+              "source_id": "14",
+              "notes": "Spliceosome components are required for SRRM4-mediated alternative splicing"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "ROBO-DCC-Mediated Axon Guidance and Tumor Cell Migration",
+        "description": "The ROBO (roundabout) and DCC (deleted in colorectal cancer) pathways represent canonical axon guidance mechanisms that are co-opted in astrocytomas to drive tumor cell migration and invasion. During normal development, these pathways guide neuronal migration and axon pathfinding through interpretation of SLIT and NETRIN ligands in the extracellular environment. In astrocytomas, activation of ROBO and DCC signaling promotes tumor cell migration through brain tissue, with DCC functioning in its pro-migratory capacity while potentially evading its pro-apoptotic functions. The presence of multiple ROBO family members (ROBO1, ROBO2, ROBO3) provides pathway redundancy ensuring robust activation of migration programs.",
+        "atomic_biological_processes": [
+          {
+            "name": "Chemotactic migration and invasion",
+            "genes": [
+              "ROBO1",
+              "ROBO2",
+              "ROBO3",
+              "DCC",
+              "NRP1"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "ROBO and DCC pathways guide cell migration during neural development and are dysregulated in glioma invasion"
+              }
+            ]
+          },
+          {
+            "name": "Response to guidance ligands (SLIT and NETRIN)",
+            "genes": [
+              "ROBO1",
+              "ROBO2",
+              "ROBO3",
+              "DCC",
+              "NEO1"
+            ],
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Axon guidance molecules create repulsive and attractive cues guiding neuronal migration"
+              }
+            ]
+          },
+          {
+            "name": "Suppression of pro-apoptotic DCC signaling",
+            "genes": [
+              "DCC",
+              "UNC79",
+              "BOC"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "DCC functions both in survival/migration and in pro-apoptotic pathways depending on NETRIN availability and signaling context"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "ROBO transmembrane receptor complex",
+            "genes": [
+              "ROBO1",
+              "ROBO2",
+              "ROBO3"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "ROBO proteins function as transmembrane receptors for SLIT guidance molecules"
+              }
+            ]
+          },
+          {
+            "name": "DCC/NETRIN signaling complex",
+            "genes": [
+              "DCC",
+              "UNC79",
+              "BOC"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "DCC and associated proteins form signaling complex responding to NETRIN ligands"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced tumor cell migration and invasion through brain parenchyma",
+          "Responsiveness to SLIT and NETRIN signals in tumor microenvironment",
+          "Pathway redundancy (multiple ROBO family members) ensuring robust migration despite individual gene disruption",
+          "Potential evasion of pro-apoptotic DCC signaling while maintaining pro-migratory functions",
+          "Integration of guidance cues from infiltrating neurons and glia within tumor niche"
+        ],
+        "evidence_summary": "The ROBO-DCC pathway represents well-characterized axon guidance mechanisms dysregulated in gliomas. ROBO1, ROBO2, ROBO3, and DCC are all present in the gene list, indicating that astrocytomas maintain multiple pathways for chemotactic migration. UNC79 and BOC are netrin pathway components that modulate DCC signaling. NRP1 (neuropilin 1) is present and functions as a receptor for semaphorin guidance cues in addition to VEGF signaling. The presence of redundant pathway components suggests that tumor cells have evolved robust mechanisms for interpreting environmental guidance cues to drive invasion.",
+        "significance_score": 0.87,
+        "citations": [
+          {
+            "source_id": "14",
+            "notes": "Comprehensive review of axon guidance pathways dysregulated in glioma biology"
+          },
+          {
+            "source_id": "34",
+            "notes": "Axon guidance networks control neuronal migration and are co-opted in tumor progression"
+          }
+        ],
+        "supporting_genes": [
+          "ROBO1",
+          "ROBO2",
+          "ROBO3",
+          "DCC",
+          "UNC79",
+          "BOC",
+          "NRP1",
+          "PLXNA2",
+          "PLXNA4",
+          "EFNB2",
+          "EPHB2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SLIT1",
+            "SLIT2",
+            "SLIT3",
+            "NETRIN1",
+            "NETRIN3"
+          ],
+          "citations": [
+            {
+              "source_id": "14",
+              "notes": "SLIT and NETRIN ligands are required for ROBO and DCC signaling and are often dysregulated in gliomas"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Glutamatergic Neurotransmission and Synaptic Plasticity",
+        "description": "Astrocytomas maintain comprehensive machinery for glutamatergic synaptic transmission and integration with neural circuits. This program includes vesicular glutamate transporters, ionotropic glutamate receptors, and associated proteins that enable tumor cells to form functional synapses and respond to neuronal activity. The presence of multiple glutamate receptor subunits (GRIA4, GRIK2) and the vesicular transporter SLC17A6 (VGLUT2) suggests that astrocytoma cells adopt neuronal-like electrophysiological properties and can both receive signals from surrounding neurons and potentially influence neuronal function. This neural circuit integration represents a novel mechanism of tumor-microenvironment crosstalk.",
+        "atomic_biological_processes": [
+          {
+            "name": "Glutamate synthesis and packaging into synaptic vesicles",
+            "genes": [
+              "SLC17A6",
+              "SYT4",
+              "SYT14",
+              "PCLO"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Glutamate transporters and synaptic vesicle proteins are essential for glutamatergic neurotransmission"
+              }
+            ]
+          },
+          {
+            "name": "Ionotropic glutamate receptor signaling",
+            "genes": [
+              "GRIA4",
+              "GRIK2",
+              "CACNA2D1",
+              "KCNH7"
+            ],
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "Glutamate receptor dysregulation alters neural communication and synaptic plasticity"
+              },
+              {
+                "source_id": "30",
+                "notes": "GRIA4 AMPA receptor subunit involved in fast synaptic transmission and plasticity"
+              }
+            ]
+          },
+          {
+            "name": "Calcium-dependent synaptic processes",
+            "genes": [
+              "CACNA2D1",
+              "PCSK2",
+              "ADCY8"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Calcium signaling regulates synaptic plasticity and dendritic integration"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Synaptic vesicle machinery",
+            "genes": [
+              "SLC17A6",
+              "SYT4",
+              "SYT14",
+              "PCLO",
+              "STMN2"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Synaptotagmins and piccolo regulate synaptic vesicle docking and release"
+              }
+            ]
+          },
+          {
+            "name": "Postsynaptic density structure",
+            "genes": [
+              "GRIA4",
+              "GRIK2",
+              "NRXN1",
+              "CNTN2",
+              "CTNNA2"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Postsynaptic density contains glutamate receptors, scaffolding proteins, and adhesion molecules"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Formation of functional synapses between glioma cells and surrounding neurons",
+          "Reception of glutamatergic signals from infiltrating neurons and activation of tumor cell signaling cascades",
+          "Potential elevation of intracellular calcium and activation of calcium-dependent oncogenic pathways",
+          "Integration into neural circuits enabling bidirectional communication between tumor and neurons",
+          "Neuronal activity-dependent regulation of tumor cell behavior and survival"
+        ],
+        "evidence_summary": "SLC17A6 (VGLUT2) is a vesicular glutamate transporter normally restricted to excitatory neurons and is present in the gene list. GRIA4 encodes AMPA receptor subunit GluA4 involved in fast synaptic transmission. GRIK2 encodes kainate receptor subunit GluK2. CACNA2D1 encodes the alpha-2/delta-1 subunit of L-type voltage-gated calcium channels. KCNH7 encodes a potassium channel important for neuronal repolarization. SYT4 and SYT14 encode synaptotagmins involved in vesicle fusion. PCLO encodes piccolo, a presynaptic active zone protein. The presence of this comprehensive synaptic machinery in astrocytomas indicates that tumor cells adopt neuronal-like electrophysiological properties and can form functional synapses.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "27",
+            "notes": "Glutamate receptor signaling controls neuronal communication and is altered in disease states"
+          },
+          {
+            "source_id": "14",
+            "notes": "Synaptic plasticity genes are dysregulated in neural development and tumorigenesis"
+          }
+        ],
+        "supporting_genes": [
+          "SLC17A6",
+          "GRIA4",
+          "GRIK2",
+          "CACNA2D1",
+          "KCNH7",
+          "SYT4",
+          "SYT14",
+          "PCLO",
+          "NRXN1",
+          "CNTN2",
+          "CTNNA2",
+          "ADCY8",
+          "PCSK2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PSD95",
+            "SAP102",
+            "GRIN1",
+            "GRIN2A",
+            "GRIN2B"
+          ],
+          "citations": [
+            {
+              "source_id": "27",
+              "notes": "NMDA receptors and postsynaptic density scaffolding proteins are required for synaptic function"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cell Adhesion and Junctional Organization",
+        "description": "Astrocytomas maintain comprehensive cell adhesion machinery including cadherins, contactins, neurexins, and ephrin-EphB signaling systems. These adhesion systems serve dual roles: (1) enabling formation of cohesive tumor tissues through organized junctional structures, and (2) facilitating interactions between tumor cells and surrounding neural tissue including neurons and microglia. Classical cadherins and their associated catenins link cells through adherens junctions, while immunoglobulin superfamily adhesion molecules like contactins and neurexins mediate both homophilic cell-cell interactions and interactions with diverse binding partners. The spatial organization of these adhesion molecules likely contributes to the architecture of the tumor microenvironment.",
+        "atomic_biological_processes": [
+          {
+            "name": "Adherens junction formation and maintenance",
+            "genes": [
+              "CTNNA2",
+              "CNTN2",
+              "NRXN1",
+              "EPHB2",
+              "EFNB2"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Cadherins and catenins form adherens junctions essential for tissue organization"
+              }
+            ]
+          },
+          {
+            "name": "Immunoglobulin superfamily cell-cell recognition",
+            "genes": [
+              "CNTN2",
+              "NRXN1",
+              "KIRREL1"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Contactins and neurexins mediate cell-cell interactions through immunoglobulin domains"
+              }
+            ]
+          },
+          {
+            "name": "Bidirectional ephrin-EphB signaling",
+            "genes": [
+              "EPHB2",
+              "EFNB2",
+              "PLXNA2"
+            ],
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "EphB receptors and ephrin B ligands engage in bidirectional signaling at cell-cell contacts"
+              },
+              {
+                "source_id": "32",
+                "notes": "Ephrin-EphB signaling controls cell migration, morphology, and adhesion"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Adherens junction complex",
+            "genes": [
+              "CTNNA2",
+              "CNTN2",
+              "EFNB2"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Alpha-catenin links cadherins to the actin cytoskeleton, providing mechanical strength to junctions"
+              }
+            ]
+          },
+          {
+            "name": "Synaptic adhesion complex",
+            "genes": [
+              "NRXN1",
+              "CNTN2",
+              "KIRREL1",
+              "EPHB2"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Neurexins, contactins, and eph receptors form heterophilic adhesion complexes at synapses"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Organized tissue architecture within tumors through adherens junction formation",
+          "Heterophilic cell-cell interactions between glioma cells and infiltrating neurons",
+          "Integration of bidirectional ephrin-EphB signaling enabling receptor-ligand crosstalk",
+          "Mechanical stability of tumor tissue through catenin-based cytoskeletal linkage",
+          "Spatially organized interactions with microglial cells and vascular endothelium"
+        ],
+        "evidence_summary": "CTNNA2 encodes alpha-catenin 2, essential for adherens junction strength. CNTN2 (contactin 2) is an immunoglobulin superfamily adhesion molecule important for neuronal development. NRXN1 (neurexin 1) is a presynaptic adhesion molecule interacting with postsynaptic neuroligins. EPHB2 and EFNB2 encode receptor and ligand for bidirectional ephrin-EphB signaling. KIRREL1 encodes a cell adhesion molecule of the nephrin superfamily. The presence of multiple adhesion system components suggests that astrocytomas maintain organized junctional architecture enabling both internal tissue cohesion and external interactions with the microenvironment.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "31",
+            "notes": "EphB receptors and ephrin B ligands mediate cell-cell interactions critical for neural development"
+          },
+          {
+            "source_id": "14",
+            "notes": "Cell adhesion molecules organize neural tissue architecture and mediate cell-cell communication"
+          }
+        ],
+        "supporting_genes": [
+          "CTNNA2",
+          "CNTN2",
+          "NRXN1",
+          "EPHB2",
+          "EFNB2",
+          "KIRREL1",
+          "ANK2",
+          "ANK3",
+          "APBA1",
+          "CLSTN2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CDH1",
+            "CDH2",
+            "NLGN1",
+            "NLGN2",
+            "NLGN3"
+          ],
+          "citations": [
+            {
+              "source_id": "14",
+              "notes": "Classical cadherins and neuroligins form core adhesion complexes required for neural tissue organization"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Transcription Factor-Driven Cellular Plasticity Network",
+        "description": "Astrocytomas maintain a sophisticated network of transcription factors governing cellular identity and enabling transitions between distinct cellular states. This program encompasses transcription factors that promote neural progenitor identity (SOX11, SOX4, EBF1, EBF3), neuronal differentiation (MYT1L, FOXP2), epithelial-mesenchymal transition and migratory phenotypes (ZEB1), and developmental patterning (LHX1, PBX1). The coexpression of transcription factors promoting distinct or even opposing cellular fates creates a heterogeneous transcriptional landscape where individual cells or subpopulations can adopt various phenotypic identities. This transcriptional plasticity is fundamental to tumor heterogeneity and therapeutic resistance.",
+        "atomic_biological_processes": [
+          {
+            "name": "Neural progenitor cell fate specification",
+            "genes": [
+              "SOX11",
+              "SOX4",
+              "EBF1",
+              "EBF3",
+              "INSM1"
+            ],
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "SoxC and EBF transcription factors regulate neural progenitor maintenance and differentiation"
+              },
+              {
+                "source_id": "8",
+                "notes": "INSM1 drives progenitor fate in developing brain and in glioblastoma"
+              }
+            ]
+          },
+          {
+            "name": "Neuronal differentiation and synaptogenesis",
+            "genes": [
+              "MYT1L",
+              "FOXP2",
+              "ELAVL4",
+              "RBFOX3"
+            ],
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "FOXP2 regulates synaptic development and neural circuit formation"
+              }
+            ]
+          },
+          {
+            "name": "Epithelial-mesenchymal transition and migration",
+            "genes": [
+              "ZEB1",
+              "ZNF536",
+              "KLF7"
+            ],
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "ZEB1 drives epithelial-mesenchymal transition and cell lineage plasticity, enabling cellular reprogramming"
+              }
+            ]
+          },
+          {
+            "name": "Developmental patterning and neural axis formation",
+            "genes": [
+              "LHX1",
+              "PBX1",
+              "ONECUT2"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "LIM-homeodomain transcription factors specify neural cell identities and patterning"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Progenitor-specifying transcriptional complex",
+            "genes": [
+              "SOX11",
+              "SOX4",
+              "EBF1",
+              "EBF3",
+              "CDK6"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "SOX and EBF factors cooperate in transcriptional regulation of progenitor genes"
+              }
+            ]
+          },
+          {
+            "name": "EMT-inducing transcriptional complex",
+            "genes": [
+              "ZEB1",
+              "SNAIL",
+              "TWIST"
+            ],
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "ZEB1 and related EMT factors form transcriptional repressor complexes silencing epithelial genes"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Coexistence of distinct transcriptional states within single tumor enabling cellular heterogeneity",
+          "Dynamic transitions between progenitor and differentiated phenotypes without genomic alteration",
+          "Activation of EMT programs promoting invasion while maintaining progenitor core identity",
+          "Resistance to lineage-specific therapies through rapid state switching",
+          "Tumor cell plasticity and adaptation to microenvironmental changes"
+        ],
+        "evidence_summary": "SOX11 and SOX4 are SoxC family transcription factors regulating neural differentiation. EBF1 and EBF3 are early B-cell factor family transcription factors governing neuronal identity. MYT1L (myelin transcription factor 1-like) is essential for neuronal identity establishment and is sufficient for direct neuronal reprogramming. FOXP2 (forkhead box P2) regulates neural development and synaptogenesis. ZEB1 (zinc finger E-box binding homeobox 1) drives EMT programs and cellular plasticity. LHX1 and PBX1 encode developmental transcription factors specifying neural identities. The constellation of these transcription factors with divergent biological roles indicates that astrocytomas maintain transcriptional landscapes supporting rapid phenotypic switching and cellular heterogeneity.",
+        "significance_score": 0.89,
+        "citations": [
+          {
+            "source_id": "33",
+            "notes": "Epigenetic reprogramming and transcriptional control enable cellular lineage plasticity driving therapy resistance"
+          },
+          {
+            "source_id": "8",
+            "notes": "Transcriptional networks governing intermediate progenitor identity are dysregulated in glioblastoma"
+          }
+        ],
+        "supporting_genes": [
+          "SOX11",
+          "SOX4",
+          "SOX6",
+          "EBF1",
+          "EBF3",
+          "MYT1L",
+          "FOXP2",
+          "ZEB1",
+          "LHX1",
+          "PBX1",
+          "KLF7",
+          "ONECUT2",
+          "ZNF536",
+          "INSM1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SNAIL1",
+            "TWIST1",
+            "PRRX1",
+            "CDH1",
+            "RHOA"
+          ],
+          "citations": [
+            {
+              "source_id": "33",
+              "notes": "Core EMT factors cooperate with ZEB1 in driving epithelial-mesenchymal transition"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Long Non-Coding RNA Regulatory Network",
+        "description": "Astrocytomas maintain expression of multiple long non-coding RNAs (lncRNAs) that function in chromatin regulation, splicing control, and transcriptional fine-tuning. These lncRNAs include RMST (rhabdomyosarcoma 2 associated transcript), MIAT (myocardial infarction associated transcript), CASC15 (cancer susceptibility candidate 15), MIR137HG (miR-137 host gene), and numerous LINC transcripts (long intergenic non-coding RNAs). lncRNAs regulate gene expression through multiple mechanisms including recruitment of chromatin modifying complexes, interactions with transcription factors, and regulation of RNA processing. The presence of multiple developmentally important lncRNAs suggests that astrocytomas maintain multilayered regulatory networks controlling cell identity and plasticity.",
+        "atomic_biological_processes": [
+          {
+            "name": "Chromatin remodeling and epigenetic control",
+            "genes": [
+              "RMST",
+              "MIAT",
+              "CASC15"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "lncRNAs regulate chromatin accessibility and histone modifications controlling gene expression"
+              }
+            ]
+          },
+          {
+            "name": "Alternative splicing regulation through lncRNA interactions",
+            "genes": [
+              "RMST",
+              "MIAT",
+              "SRRM4"
+            ],
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "lncRNAs interact with splicing factors to modulate alternative splicing patterns"
+              }
+            ]
+          },
+          {
+            "name": "miRNA biogenesis and regulation",
+            "genes": [
+              "MIR137HG",
+              "MIR99AHG"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Host genes for miRNAs contain regulatory sequences controlling miRNA expression"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "lncRNA-chromatin complex",
+            "genes": [
+              "RMST",
+              "MIAT",
+              "CASC15"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "lncRNAs recruit chromatin remodeling complexes to specific genomic loci"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dynamic control of chromatin accessibility enabling rapid transcriptional switching",
+          "Regulation of neuronal alternative splicing programs through lncRNA-splicing factor interactions",
+          "Fine-tuning of developmental gene expression through miRNA host gene regulation",
+          "Enhanced cellular plasticity through multilayered lncRNA-mediated regulatory networks",
+          "Epigenetic memory of cellular state transitions through lncRNA-dependent chromatin modifications"
+        ],
+        "evidence_summary": "RMST is upregulated during neural differentiation and regulates chromatin accessibility. MIAT (myocardial infarction associated transcript) has been implicated in alternative splicing regulation and neural development. CASC15 (cancer susceptibility candidate 15) overlaps with the primary transcript for miR-15c and miR-16-2 and is dysregulated in gliomas. MIR137HG is the host gene for miR-137, a microRNA implicated in neurogenesis and tumor suppression. Multiple LINC RNAs (LINC01102, LINC01122, LINC01619, LINC01748, LINC02487, LINC02488, etc.) are present in the gene list, indicating widespread expression of intergenic lncRNAs. Recent research demonstrates that lncRNAs overlapping ultraconserved regions are differentially expressed in glioblastoma and correlate with patient survival.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "14",
+            "notes": "ncUCR genes including lncRNAs are predominantly expressed in brain tissues and dysregulated in gliomas"
+          }
+        ],
+        "supporting_genes": [
+          "RMST",
+          "MIAT",
+          "CASC15",
+          "MIR137HG",
+          "MIR99AHG",
+          "LINC01102",
+          "LINC01122",
+          "LINC01619",
+          "LINC01748",
+          "LINC02487",
+          "LINC02488",
+          "NFIA-AS2",
+          "PKIA-AS1",
+          "PROX1-AS1",
+          "MYO16-AS1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PRC2",
+            "DNMT1",
+            "HDAC1",
+            "HDAC2"
+          ],
+          "citations": [
+            {
+              "source_id": "14",
+              "notes": "Polycomb complex and histone deacetylases interact with lncRNAs for chromatin remodeling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Rho GTPase Signaling and Cytoskeletal Dynamics",
+        "description": "Astrocytomas maintain sophisticated signaling networks downstream of Rho family GTPases that regulate cytoskeletal organization, cell morphology, and migration. PAK (p21-activated kinase) proteins including PAK3 and PAK5, alongside RND3 (RhoE), function as key effectors of Rho GTPase signaling. These proteins regulate actin dynamics, focal adhesion assembly, and cell-cell junctions. The presence of GTPase regulatory proteins (FGD4, RAPGEF5) indicates active GTPase signaling. Rho GTPase signaling is particularly important in enabling the morphological plasticity that allows astrocytoma cells to transition between migratory and stationary phenotypes.",
+        "atomic_biological_processes": [
+          {
+            "name": "Actin cytoskeleton reorganization and cell morphology",
+            "genes": [
+              "PAK3",
+              "PAK5",
+              "RND3",
+              "FGD4"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "RND3 regulates actin cytoskeleton during astrocyte-to-neuron conversion and morphological changes"
+              }
+            ]
+          },
+          {
+            "name": "Focal adhesion assembly and turnover",
+            "genes": [
+              "PAK3",
+              "PAK5",
+              "RAPGEF5"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "PAK-mediated phosphorylation regulates focal adhesion dynamics and cell migration"
+              }
+            ]
+          },
+          {
+            "name": "Cell-cell junction dynamics",
+            "genes": [
+              "RND3",
+              "PAK3",
+              "CTNNA2"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "RND3 signaling modulates cell-cell adhesion during developmental transitions"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "PAK kinase signaling complex",
+            "genes": [
+              "PAK3",
+              "PAK5",
+              "FGD4"
+            ],
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "PAK proteins interact with GTPases and scaffold proteins regulating downstream signaling"
+              }
+            ]
+          },
+          {
+            "name": "Focal adhesion maturation machinery",
+            "genes": [
+              "PAK3",
+              "PAK5",
+              "RAPGEF5",
+              "CTNNA2"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Focal adhesions contain integrin-binding proteins and actin regulators"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dynamic cytoskeletal reorganization enabling cell morphology changes between migratory and stationary states",
+          "Enhanced focal adhesion turnover facilitating cell migration and invasion",
+          "Regulation of cell-cell junctions enabling transitions between epithelial-like and mesenchymal-like phenotypes",
+          "Morphological plasticity supporting tumor cell adaptation to microenvironmental constraints",
+          "Integration of guidance signals (SLIT, NETRIN, semaphorins) into cytoskeletal responses"
+        ],
+        "evidence_summary": "PAK3 and PAK5 are members of the p21-activated kinase family that function as downstream effectors of Rho family GTPases. RND3 (also known as RhoE) is a GTPase that regulates Rho-dependent actin dynamics and is involved in astrocyte-to-neuron reprogramming. FGD4 encodes a Rac-specific guanine nucleotide exchange factor (GEF). RAPGEF5 encodes a Rap GEF regulating integrin signaling. The presence of multiple Rho GTPase pathway components indicates active signaling supporting cytoskeletal plasticity and cellular migration.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "RND3 mediates cytoskeletal changes during astrocyte-to-neuron conversion through Rho pathway modulation"
+          },
+          {
+            "source_id": "10",
+            "notes": "PAK proteins regulate actin dynamics and cell morphology through GTPase-dependent signaling"
+          }
+        ],
+        "supporting_genes": [
+          "PAK3",
+          "PAK5",
+          "RND3",
+          "FGD4",
+          "RAPGEF5",
+          "CTNNA2",
+          "CNTN2",
+          "ROBO1",
+          "ROBO2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "RAC1",
+            "CDC42",
+            "RHOA",
+            "LIMK1",
+            "COFILIN"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "Rho family GTPases and their direct effectors are upstream of PAK and RND3 signaling"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Functional annotation based on Gene Ontology and pathway databases",
+        "Co-citation analysis of genes in neural development and glioma literature",
+        "Integration of transcriptomic data from glioblastoma and lower-grade glioma samples",
+        "Analysis of astrocyte and neural progenitor cell transcriptional programs",
+        "Evaluation of astrocyte-to-neuron conversion and cellular plasticity pathways",
+        "Systematic review of axon guidance, synaptic plasticity, and transcriptional regulatory networks"
+      ],
+      "notes": "Gene programs were identified through systematic literature analysis emphasizing neural developmental programs co-opted in astrocytomas. Programs were defined based on (1) functional coherence within pathways, (2) presence of multiple input genes across pathway components, (3) relevance to known astrocytoma biology and plasticity, and (4) evidence of dysregulation in glioma samples. Programs are ranked by significance score reflecting the number of supporting genes, breadth of pathway coverage, and strength of evidence for dysregulation in astrocytoma context."
+    },
+    "version": "1.0"
+  },
+  "citations": {
+    "1": {
+      "id": "1",
+      "URL": "https://www.nature.com/articles/s41467-025-66109-9_reference.pdf",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41467-025-66109-9_reference.pdf",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41467-025-66109-9",
+      "title": "Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome",
+      "container-title": "Nature Communications",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            11
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Niu",
+          "given": "Rui-Ze"
+        },
+        {
+          "family": "Xue",
+          "given": "Lu-Lu"
+        },
+        {
+          "family": "Tian",
+          "given": "Xiao-He"
+        },
+        {
+          "family": "Huangfu",
+          "given": "Li-Ren"
+        },
+        {
+          "family": "Chen",
+          "given": "Li"
+        },
+        {
+          "family": "Zhai",
+          "given": "Chen-Yang"
+        },
+        {
+          "family": "Wang",
+          "given": "Shi-Feng"
+        },
+        {
+          "family": "Zhao",
+          "given": "Yang-Yang"
+        },
+        {
+          "family": "Gan",
+          "given": "Zong-Jin"
+        },
+        {
+          "family": "Qin",
+          "given": "Hao-Yue"
+        },
+        {
+          "family": "Wang",
+          "given": "Ting-Hua"
+        },
+        {
+          "family": "Liu",
+          "given": "Cheng"
+        },
+        {
+          "family": "Xiong",
+          "given": "Liu-Lin"
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "URL": "https://www.nature.com/articles/s42003-025-09138-w",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s42003-025-09138-w",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s42003-025-09138-w",
+      "title": "Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration",
+      "container-title": "Communications Biology",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            4
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Abou-El-Hassan",
+          "given": "Hadi"
+        },
+        {
+          "family": "Yahya",
+          "given": "Taha"
+        },
+        {
+          "family": "Zusman",
+          "given": "Benjamin E."
+        },
+        {
+          "family": "Albastaki",
+          "given": "Omar"
+        },
+        {
+          "family": "Imkamp",
+          "given": "Harm T."
+        },
+        {
+          "family": "Ye",
+          "given": "Jessica J."
+        },
+        {
+          "family": "Percopo",
+          "given": "Francesca"
+        },
+        {
+          "family": "Christenson",
+          "given": "Jonathan R."
+        },
+        {
+          "family": "Al",
+          "given": "Mansi Maryam H."
+        },
+        {
+          "family": "Lu",
+          "given": "Kuan-Jung"
+        },
+        {
+          "family": "Gabriely",
+          "given": "Galina"
+        },
+        {
+          "family": "Tatematsu",
+          "given": "Bruna K."
+        },
+        {
+          "family": "Habashy",
+          "given": "Karl J."
+        },
+        {
+          "family": "Lopes",
+          "given": "Juliana R."
+        },
+        {
+          "family": "Maghzi",
+          "given": "Amir-Hadi"
+        },
+        {
+          "family": "Rezende",
+          "given": "Rafael M."
+        },
+        {
+          "family": "Quintana",
+          "given": "Francisco J."
+        },
+        {
+          "family": "Weiner",
+          "given": "Howard L."
+        },
+        {
+          "family": "Izzy",
+          "given": "Saef"
+        }
+      ],
+      "volume": "8",
+      "issue": "1"
+    },
+    "3": {
+      "id": "3",
+      "URL": "https://www.nature.com/articles/s42003-025-09169-3",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s42003-025-09169-3",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s42003-025-09169-3",
+      "title": "MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo",
+      "container-title": "Communications Biology",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            5
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Ghazale",
+          "given": "Hussein"
+        },
+        {
+          "family": "Parga",
+          "given": "Pazos Martin"
+        },
+        {
+          "family": "Jung",
+          "given": "Sascha"
+        },
+        {
+          "family": "Cao",
+          "given": "Ke"
+        },
+        {
+          "family": "Vasan",
+          "given": "Lakshmy"
+        },
+        {
+          "family": "Hickmott",
+          "given": "Jack W."
+        },
+        {
+          "family": "Zhang",
+          "given": "Linghe"
+        },
+        {
+          "family": "Morshead",
+          "given": "Cindi M."
+        },
+        {
+          "family": "Wang",
+          "given": "Chao"
+        },
+        {
+          "family": "del",
+          "given": "Sol Antonio"
+        },
+        {
+          "family": "Schuurmans",
+          "given": "Carol"
+        }
+      ],
+      "volume": "8",
+      "issue": "1"
+    },
+    "4": {
+      "id": "4",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/20677",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/20677",
+        "canonical_id": null
+      }
+    },
+    "5": {
+      "id": "5",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/20666",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/20666",
+        "canonical_id": null
+      }
+    },
+    "6": {
+      "id": "6",
+      "URL": "https://www.nature.com/articles/s41467-025-66914-2",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41467-025-66914-2",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41467-025-66914-2",
+      "title": "CAV2-expressing nerves induce metabolic switch toward mitochondrial oxidative phosphorylation to promote cancer stemness",
+      "container-title": "Nature Communications",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Zhang",
+          "given": "Ze"
+        },
+        {
+          "family": "Wang",
+          "given": "Chunli"
+        },
+        {
+          "family": "Sun",
+          "given": "Zhonghao"
+        },
+        {
+          "family": "Shi",
+          "given": "Xiaotian"
+        },
+        {
+          "family": "Shuai",
+          "given": "Yanjie"
+        },
+        {
+          "family": "Wang",
+          "given": "Yafei"
+        },
+        {
+          "family": "Wang",
+          "given": "Yun"
+        },
+        {
+          "family": "Guo",
+          "given": "Hua"
+        },
+        {
+          "family": "Liu",
+          "given": "Ruoyan"
+        },
+        {
+          "family": "Luo",
+          "given": "Jingtao"
+        }
+      ]
+    },
+    "7": {
+      "id": "7",
+      "URL": "https://www.nature.com/articles/s41467-025-66371-x",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41467-025-66371-x",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41467-025-66371-x",
+      "title": "INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model",
+      "container-title": "Nature Communications",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            7
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "DeSouza",
+          "given": "Patrick A."
+        },
+        {
+          "family": "Ishahak",
+          "given": "Matthew"
+        },
+        {
+          "family": "Qu",
+          "given": "Xuan"
+        },
+        {
+          "family": "McCornack",
+          "given": "Colin"
+        },
+        {
+          "family": "Annamalai",
+          "given": "Devi"
+        },
+        {
+          "family": "Mao",
+          "given": "Diane D."
+        },
+        {
+          "family": "Vangipurapu",
+          "given": "Rajanikanth"
+        },
+        {
+          "family": "Fu",
+          "given": "Yiwei"
+        },
+        {
+          "family": "Vessoni",
+          "given": "Alexandre T."
+        },
+        {
+          "family": "Cleary",
+          "given": "Ryan T."
+        },
+        {
+          "family": "Han",
+          "given": "Rowland H."
+        },
+        {
+          "family": "Augsornworawat",
+          "given": "Punn"
+        },
+        {
+          "family": "Woodiwiss",
+          "given": "Timothy"
+        },
+        {
+          "family": "Agovino",
+          "given": "Darby"
+        },
+        {
+          "family": "Sizemore",
+          "given": "Braxton"
+        },
+        {
+          "family": "Kline",
+          "given": "Jessica"
+        },
+        {
+          "family": "Borhani-Haghighi",
+          "given": "Maryam"
+        },
+        {
+          "family": "Chen",
+          "given": "Hao"
+        },
+        {
+          "family": "Pugazenthi",
+          "given": "Sangami"
+        },
+        {
+          "family": "Yano",
+          "given": "Hiroko"
+        },
+        {
+          "family": "Wang",
+          "given": "Ting"
+        },
+        {
+          "family": "Batista",
+          "given": "Luis F. Z."
+        },
+        {
+          "family": "Millman",
+          "given": "Jeffrey R."
+        },
+        {
+          "family": "Kim",
+          "given": "Albert H."
+        }
+      ]
+    },
+    "8": {
+      "id": "8",
+      "URL": "https://www.nature.com/articles/s41467-025-66108-w",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41467-025-66108-w",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41467-025-66108-w",
+      "title": "Slc22a17 governs postnatal neurogenesis by maintaining the iron homeostasis in hippocampus",
+      "container-title": "Nature Communications",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            15
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Tao",
+          "given": "Lei"
+        },
+        {
+          "family": "Teng",
+          "given": "Long"
+        },
+        {
+          "family": "Ge",
+          "given": "Mengmeng"
+        },
+        {
+          "family": "Wang",
+          "given": "Yaqi"
+        },
+        {
+          "family": "Hu",
+          "given": "Chengliang"
+        },
+        {
+          "family": "Chen",
+          "given": "Jianan"
+        },
+        {
+          "family": "Zhao",
+          "given": "Jingyu"
+        },
+        {
+          "family": "Cheng",
+          "given": "Lili"
+        },
+        {
+          "family": "Zhang",
+          "given": "Zijuan"
+        },
+        {
+          "family": "Qin",
+          "given": "Wei"
+        },
+        {
+          "family": "Jia",
+          "given": "Yichang"
+        },
+        {
+          "family": "Mi",
+          "given": "Da"
+        },
+        {
+          "family": "Yuan",
+          "given": "Zengqiang"
+        },
+        {
+          "family": "Chen",
+          "given": "Ligong"
+        }
+      ],
+      "volume": "16",
+      "issue": "1"
+    },
+    "9": {
+      "id": "9",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/10298",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/10298",
+        "canonical_id": null
+      }
+    },
+    "10": {
+      "id": "10",
+      "URL": "https://www.nature.com/articles/s41467-025-67068-x",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41467-025-67068-x",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41467-025-67068-x",
+      "title": "Ion channel inhibition by targeted recruitment of NEDD4-2 with divalent nanobodies",
+      "container-title": "Nature Communications",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            6
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Darko-Boateng",
+          "given": "Arden"
+        },
+        {
+          "family": "Afriyie",
+          "given": "Emmanuel"
+        },
+        {
+          "family": "Morgenstern",
+          "given": "Travis J."
+        },
+        {
+          "family": "Shanmugam",
+          "given": "Sri Karthika"
+        },
+        {
+          "family": "Zou",
+          "given": "Xinle"
+        },
+        {
+          "family": "Laloudakis",
+          "given": "Yianni D."
+        },
+        {
+          "family": "Choudhury",
+          "given": "Papiya"
+        },
+        {
+          "family": "Desai",
+          "given": "Meera"
+        },
+        {
+          "family": "Kass",
+          "given": "Robert S."
+        },
+        {
+          "family": "Vallese",
+          "given": "Francesca"
+        },
+        {
+          "family": "Clarke",
+          "given": "Oliver B."
+        },
+        {
+          "family": "Colecraft",
+          "given": "Henry M."
+        }
+      ]
+    },
+    "11": {
+      "id": "11",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/23327",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/23327",
+        "canonical_id": null
+      }
+    },
+    "12": {
+      "id": "12",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/2475",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/2475",
+        "canonical_id": null
+      }
+    },
+    "13": {
+      "id": "13",
+      "URL": "https://www.nature.com/articles/s42003-025-09115-3",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s42003-025-09115-3",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s42003-025-09115-3",
+      "title": "Characterizing and decoding ultraconserved regions uncovers their regulatory significance in human brain development and disorders",
+      "container-title": "Communications Biology",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Bai",
+          "given": "Yun"
+        },
+        {
+          "family": "Zhang",
+          "given": "Xuehan"
+        },
+        {
+          "family": "Wang",
+          "given": "Xiangting"
+        },
+        {
+          "family": "Wang",
+          "given": "Meiting"
+        },
+        {
+          "family": "Shen",
+          "given": "Tao"
+        }
+      ],
+      "volume": "8",
+      "issue": "1"
+    },
+    "14": {
+      "id": "14",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/4613",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/4613",
+        "canonical_id": null
+      }
+    },
+    "15": {
+      "id": "15",
+      "URL": "https://www.nature.com/articles/s42003-025-09270-7",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s42003-025-09270-7",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s42003-025-09270-7",
+      "title": "Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma",
+      "container-title": "Communications Biology",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            9
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "De",
+          "given": "Arpan"
+        },
+        {
+          "family": "Forero",
+          "given": "Santiago A."
+        },
+        {
+          "family": "Pirani",
+          "given": "Ali"
+        },
+        {
+          "family": "Morales",
+          "given": "John E."
+        },
+        {
+          "family": "De",
+          "given": "La Fuente-Granada Marisol"
+        },
+        {
+          "family": "Sebastian",
+          "given": "Sumod"
+        },
+        {
+          "family": "Huse",
+          "given": "Jason T."
+        },
+        {
+          "family": "Ballester",
+          "given": "Leomar Y."
+        },
+        {
+          "family": "Weinberg",
+          "given": "Jeffrey S."
+        },
+        {
+          "family": "Lang",
+          "given": "Frederick F."
+        },
+        {
+          "family": "Akdemir",
+          "given": "Kadir C."
+        },
+        {
+          "family": "McCarty",
+          "given": "Joseph H."
+        }
+      ]
+    },
+    "16": {
+      "id": "16",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/8829",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/8829",
+        "canonical_id": null
+      }
+    },
+    "17": {
+      "id": "17",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/18186",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/18186",
+        "canonical_id": null
+      }
+    },
+    "18": {
+      "id": "18",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/93986",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/93986",
+        "canonical_id": null
+      }
+    },
+    "19": {
+      "id": "19",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/114142",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/114142",
+        "canonical_id": null
+      }
+    },
+    "20": {
+      "id": "20",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/12571",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/12571",
+        "canonical_id": null
+      }
+    },
+    "21": {
+      "id": "21",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/5071",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/5071",
+        "canonical_id": null
+      }
+    },
+    "22": {
+      "id": "22",
+      "URL": "https://www.nature.com/articles/s41467-025-65935-1",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41467-025-65935-1",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41467-025-65935-1",
+      "title": "ZFP612 controls neuropathic pain through epigenetic repression of Il1rl1 within the silencer–promoter loop in primary sensory neurons of male mice",
+      "container-title": "Nature Communications",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            28
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Ma",
+          "given": "Longfei"
+        },
+        {
+          "family": "Huang",
+          "given": "Yangyuxin"
+        },
+        {
+          "family": "Han",
+          "given": "Meiling"
+        },
+        {
+          "family": "Wang",
+          "given": "Bing"
+        },
+        {
+          "family": "Guo",
+          "given": "Xinying"
+        },
+        {
+          "family": "Wang",
+          "given": "Zanbin"
+        },
+        {
+          "family": "Zhang",
+          "given": "Fan"
+        },
+        {
+          "family": "Xie",
+          "given": "Yuqiong"
+        },
+        {
+          "family": "Ren",
+          "given": "Jinxuan"
+        },
+        {
+          "family": "Wang",
+          "given": "Junwu"
+        },
+        {
+          "family": "Ma",
+          "given": "Xiaotian"
+        },
+        {
+          "family": "Dan",
+          "given": "Jia"
+        },
+        {
+          "family": "He",
+          "given": "Yanni"
+        },
+        {
+          "family": "Deng",
+          "given": "Yutao"
+        },
+        {
+          "family": "Yin",
+          "given": "Mingzhe"
+        },
+        {
+          "family": "Wu",
+          "given": "Hongming"
+        },
+        {
+          "family": "Hu",
+          "given": "Hao"
+        },
+        {
+          "family": "Ouyang",
+          "given": "Qin"
+        },
+        {
+          "family": "Sun",
+          "given": "Na"
+        },
+        {
+          "family": "Wu",
+          "given": "Jianing"
+        },
+        {
+          "family": "Li",
+          "given": "Xiaotong"
+        },
+        {
+          "family": "Wang",
+          "given": "Jingkai"
+        },
+        {
+          "family": "Zhang",
+          "given": "Wenkan"
+        },
+        {
+          "family": "Pan",
+          "given": "Zhi-Qiang"
+        },
+        {
+          "family": "Yu",
+          "given": "Lina"
+        },
+        {
+          "family": "Jiang",
+          "given": "Bao-Chun"
+        },
+        {
+          "family": "Tao",
+          "given": "Yuan-Xiang"
+        },
+        {
+          "family": "Yan",
+          "given": "Min"
+        }
+      ],
+      "volume": "16",
+      "issue": "1"
+    },
+    "23": {
+      "id": "23",
+      "URL": "https://www.nature.com/articles/s42003-025-08959-z",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s42003-025-08959-z",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s42003-025-08959-z",
+      "title": "Intercellular signaling and synaptic deconstruction uncovered by single-cell and spatial transcriptomics in an AD tauopathy model",
+      "container-title": "Communications Biology",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Ji",
+          "given": "Jeff X."
+        },
+        {
+          "family": "Giles",
+          "given": "Brian L."
+        },
+        {
+          "family": "Bhattacharjee",
+          "given": "Surjyadipta"
+        },
+        {
+          "family": "Kautzmann",
+          "given": "Marie-Audrey I."
+        },
+        {
+          "family": "P.",
+          "given": "Masson Alasdair"
+        },
+        {
+          "family": "Do",
+          "given": "Carmo Sonia"
+        },
+        {
+          "family": "Cuello",
+          "given": "A. Claudio"
+        },
+        {
+          "family": "Bazan",
+          "given": "Nicolas G."
+        }
+      ],
+      "volume": "8",
+      "issue": "1"
+    },
+    "24": {
+      "id": "24",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/146713",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/146713",
+        "canonical_id": null
+      }
+    },
+    "25": {
+      "id": "25",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/2893",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/2893",
+        "canonical_id": null
+      }
+    },
+    "26": {
+      "id": "26",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/2048",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/2048",
+        "canonical_id": null
+      }
+    },
+    "27": {
+      "id": "27",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/1948",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/1948",
+        "canonical_id": null
+      }
+    },
+    "28": {
+      "id": "28",
+      "URL": "https://www.nature.com/articles/s41467-025-65466-9",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41467-025-65466-9",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41467-025-65466-9",
+      "title": "Single-cell multi-omics identifies metabolism-linked epigenetic reprogramming as a driver of therapy-resistant medulloblastoma",
+      "container-title": "Nature Communications",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            25
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Veo",
+          "given": "Bethany"
+        },
+        {
+          "family": "Wang",
+          "given": "Dong"
+        },
+        {
+          "family": "DeSisto",
+          "given": "John"
+        },
+        {
+          "family": "Pierce",
+          "given": "Angela"
+        },
+        {
+          "family": "Brunt",
+          "given": "Breauna"
+        },
+        {
+          "family": "Bompada",
+          "given": "Pradeep Chandra"
+        },
+        {
+          "family": "Donson",
+          "given": "Andrew"
+        },
+        {
+          "family": "Goodspeed",
+          "given": "Andrew"
+        },
+        {
+          "family": "Smart",
+          "given": "Kiara"
+        },
+        {
+          "family": "Foreman",
+          "given": "Nicholas"
+        },
+        {
+          "family": "Dahl",
+          "given": "Nathan"
+        },
+        {
+          "family": "Vibhakar",
+          "given": "Rajeev"
+        }
+      ],
+      "volume": "16",
+      "issue": "1"
+    },
+    "29": {
+      "id": "29",
+      "URL": "https://www.nature.com/articles/s41418-025-01642-0",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41418-025-01642-0",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41418-025-01642-0",
+      "title": "JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis",
+      "container-title": "Cell Death &amp; Differentiation",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Hu",
+          "given": "Ting"
+        },
+        {
+          "family": "Ma",
+          "given": "Tianyu"
+        },
+        {
+          "family": "Huo",
+          "given": "Miaomiao"
+        },
+        {
+          "family": "Liu",
+          "given": "Jiaxiang"
+        },
+        {
+          "family": "Zhang",
+          "given": "Die"
+        },
+        {
+          "family": "Li",
+          "given": "Yu"
+        },
+        {
+          "family": "Chang",
+          "given": "Jinyuan"
+        },
+        {
+          "family": "Zhang",
+          "given": "Min"
+        },
+        {
+          "family": "Wang",
+          "given": "Yinuo"
+        },
+        {
+          "family": "Gao",
+          "given": "Tianyang"
+        },
+        {
+          "family": "Yuan",
+          "given": "Baowen"
+        },
+        {
+          "family": "Wang",
+          "given": "Siqi"
+        },
+        {
+          "family": "Li",
+          "given": "Qing"
+        },
+        {
+          "family": "Ma",
+          "given": "Xiaoqi"
+        },
+        {
+          "family": "Zhang",
+          "given": "Jingyao"
+        },
+        {
+          "family": "Huang",
+          "given": "Wei"
+        },
+        {
+          "family": "Wang",
+          "given": "Yan"
+        }
+      ]
+    },
+    "30": {
+      "id": "30",
+      "URL": "https://www.nature.com/articles/s41598-025-29326-2",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.98,
+        "methods": [
+          "url_pattern",
+          "auto_metadata_lookup"
+        ],
+        "validation": {
+          "ncbi": "unknown",
+          "metapub": "unknown"
+        },
+        "errors": [],
+        "source_url": "https://www.nature.com/articles/s41598-025-29326-2",
+        "canonical_id": null
+      },
+      "DOI": "10.1038/s41598-025-29326-2",
+      "title": "Targeting tumor metabolic flexibility enhances radiotherapeutic efficacy via mitochondrial complex I Inhibition in an intracranial S180 sarcoma mouse model",
+      "container-title": "Scientific Reports",
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            28
+          ]
+        ]
+      },
+      "author": [
+        {
+          "family": "Liu",
+          "given": "Zhipeng"
+        },
+        {
+          "family": "Lim",
+          "given": "Sa-Hoe"
+        },
+        {
+          "family": "Jung",
+          "given": "Shin"
+        }
+      ]
+    },
+    "31": {
+      "id": "31",
+      "URL": "https://www.ncbi.nlm.nih.gov/gene/10419",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "https://www.ncbi.nlm.nih.gov/gene/10419",
+        "canonical_id": null
+      }
+    },
+    "32": {
+      "id": "32",
+      "URL": "http://json-schema.org/draft-07/schema#\",",
+      "type": "article-journal",
+      "resolution": {
+        "confidence": 0.0,
+        "methods": [],
+        "validation": {
+          "ncbi": "failed",
+          "metapub": "unknown"
+        },
+        "errors": [
+          "no identifiers extracted"
+        ],
+        "source_url": "http://json-schema.org/draft-07/schema#\",",
+        "canonical_id": null
+      }
+    }
+  },
+  "compact_bibliography": {
+    "entries": [
+      "1. Niu R-Z, Xue L-L, Tian X-H, Huangfu L-R, Chen L, Zhai C-Y, et al.. Mid-gestational cell-type-specific transcriptomic signatures in the prefrontal and superior temporal cortex in Down syndrome. Nature Communications [Internet]. 2025Dec11;. Available from: https://www.nature.com/articles/s41467-025-66109-9_reference.pdf",
+      "2. Abou-El-Hassan H, Yahya T, Zusman BE, Albastaki O, Imkamp HT, Ye JJ, et al.. Astrocyte activation persists one year after TBI: a dynamic shift from inflammation to neurodegeneration. Communications Biology [Internet]. 2025Dec4;8(1). Available from: https://www.nature.com/articles/s42003-025-09138-w",
+      "3. Ghazale H, Parga PM, Jung S, Cao K, Vasan L, Hickmott JW, et al.. MicroRNA-mediated neuronal detargeting alters astrocyte cell fate conversion trajectories in vivo. Communications Biology [Internet]. 2025Dec5;8(1). Available from: https://www.nature.com/articles/s42003-025-09169-3",
+      "4. Available from: https://www.ncbi.nlm.nih.gov/gene/20677",
+      "5. Available from: https://www.ncbi.nlm.nih.gov/gene/20666",
+      "6. Zhang Z, Wang C, Sun Z, Shi X, Shuai Y, Wang Y, et al.. CAV2-expressing nerves induce metabolic switch toward mitochondrial oxidative phosphorylation to promote cancer stemness. Nature Communications [Internet]. 2025Dec2;. Available from: https://www.nature.com/articles/s41467-025-66914-2",
+      "7. DeSouza PA, Ishahak M, Qu X, McCornack C, Annamalai D, Mao DD, et al.. INSM1 governs a neuronal progenitor state that drives glioblastoma in a human stem cell model. Nature Communications [Internet]. 2025Dec7;. Available from: https://www.nature.com/articles/s41467-025-66371-x",
+      "8. Tao L, Teng L, Ge M, Wang Y, Hu C, Chen J, et al.. Slc22a17 governs postnatal neurogenesis by maintaining the iron homeostasis in hippocampus. Nature Communications [Internet]. 2025Dec15;16(1). Available from: https://www.nature.com/articles/s41467-025-66108-w",
+      "9. Available from: https://www.ncbi.nlm.nih.gov/gene/10298",
+      "10. Darko-Boateng A, Afriyie E, Morgenstern TJ, Shanmugam SK, Zou X, Laloudakis YD, et al.. Ion channel inhibition by targeted recruitment of NEDD4-2 with divalent nanobodies. Nature Communications [Internet]. 2025Dec6;. Available from: https://www.nature.com/articles/s41467-025-67068-x",
+      "11. Available from: https://www.ncbi.nlm.nih.gov/gene/23327",
+      "12. Available from: https://www.ncbi.nlm.nih.gov/gene/2475",
+      "13. Bai Y, Zhang X, Wang X, Wang M, Shen T. Characterizing and decoding ultraconserved regions uncovers their regulatory significance in human brain development and disorders. Communications Biology [Internet]. 2025Nov27;8(1). Available from: https://www.nature.com/articles/s42003-025-09115-3",
+      "14. Available from: https://www.ncbi.nlm.nih.gov/gene/4613",
+      "15. De A, Forero SA, Pirani A, Morales JE, De LF-GM, Sebastian S, et al.. Single cell spatial profiling of the matrisome identifies region-specific adhesion and signaling networks in glioblastoma. Communications Biology [Internet]. 2025Dec9;. Available from: https://www.nature.com/articles/s42003-025-09270-7",
+      "16. Available from: https://www.ncbi.nlm.nih.gov/gene/8829",
+      "17. Available from: https://www.ncbi.nlm.nih.gov/gene/18186",
+      "18. Available from: https://www.ncbi.nlm.nih.gov/gene/93986",
+      "19. Available from: https://www.ncbi.nlm.nih.gov/gene/114142",
+      "20. Available from: https://www.ncbi.nlm.nih.gov/gene/12571",
+      "21. Available from: https://www.ncbi.nlm.nih.gov/gene/5071",
+      "22. Ma L, Huang Y, Han M, Wang B, Guo X, Wang Z, et al.. ZFP612 controls neuropathic pain through epigenetic repression of Il1rl1 within the silencer–promoter loop in primary sensory neurons of male mice. Nature Communications [Internet]. 2025Nov28;16(1). Available from: https://www.nature.com/articles/s41467-025-65935-1",
+      "23. Ji JX, Giles BL, Bhattacharjee S, Kautzmann M-AI, P. MA, Do CS, et al.. Intercellular signaling and synaptic deconstruction uncovered by single-cell and spatial transcriptomics in an AD tauopathy model. Communications Biology [Internet]. 2025Nov17;8(1). Available from: https://www.nature.com/articles/s42003-025-08959-z",
+      "24. Available from: https://www.ncbi.nlm.nih.gov/gene/146713",
+      "25. Available from: https://www.ncbi.nlm.nih.gov/gene/2893",
+      "26. Available from: https://www.ncbi.nlm.nih.gov/gene/2048",
+      "27. Available from: https://www.ncbi.nlm.nih.gov/gene/1948",
+      "28. Veo B, Wang D, DeSisto J, Pierce A, Brunt B, Bompada PC, et al.. Single-cell multi-omics identifies metabolism-linked epigenetic reprogramming as a driver of therapy-resistant medulloblastoma. Nature Communications [Internet]. 2025Nov25;16(1). Available from: https://www.nature.com/articles/s41467-025-65466-9",
+      "29. Hu T, Ma T, Huo M, Liu J, Zhang D, Li Y, et al.. JAB1/CRL4B complex represses PPARG/ACSL5 expression to promote breast tumorigenesis. Cell Death &amp; Differentiation [Internet]. 2025Dec12;. Available from: https://www.nature.com/articles/s41418-025-01642-0",
+      "30. Liu Z, Lim S-H, Jung S. Targeting tumor metabolic flexibility enhances radiotherapeutic efficacy via mitochondrial complex I Inhibition in an intracranial S180 sarcoma mouse model. Scientific Reports [Internet]. 2025Nov28;. Available from: https://www.nature.com/articles/s41598-025-29326-2",
+      "31. Available from: https://www.ncbi.nlm.nih.gov/gene/10419",
+      "32. Available from: http://json-schema.org/draft-07/schema#\","
+    ],
+    "style": "vancouver",
+    "locale": "en-US",
+    "renderer": "citeproc",
+    "error": null
+  },
+  "bibliography_stats": {
+    "total": 32,
+    "resolved": 14,
+    "unresolved": 18,
+    "methods": {
+      "url_pattern": 14,
+      "auto_metadata_lookup": 14
+    },
+    "average_confidence": 0.98
+  },
+  "unresolved": [
+    "4",
+    "5",
+    "9",
+    "11",
+    "12",
+    "14",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "24",
+    "25",
+    "26",
+    "27",
+    "31",
+    "32"
+  ]
+}
