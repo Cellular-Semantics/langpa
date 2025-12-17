@@ -1,0 +1,1760 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-17T22:02:49.182789",
+    "genes": [
+      "AC004448.2",
+      "PIM3",
+      "MYL12A",
+      "NANS",
+      "NCBP2AS2",
+      "NLRC3",
+      "NR1D1",
+      "NUPR1",
+      "ODF3B",
+      "OSER1",
+      "OSGIN1",
+      "PELO",
+      "PLA2G4C",
+      "AC006449.6",
+      "PLCD1",
+      "PLIN2",
+      "PLIN3",
+      "PLXNB2",
+      "PMP22",
+      "PNRC1",
+      "POLR2K",
+      "PPP1R15A",
+      "PRKG1",
+      "PRSS3",
+      "MRPL50",
+      "MRPL36",
+      "MKNK2",
+      "MGST1",
+      "ITGA5",
+      "ITGBL1",
+      "JAGN1",
+      "KDR",
+      "KIF22",
+      "KLHDC8B",
+      "KRT10",
+      "LAMTOR5",
+      "LGALS3",
+      "LINC00910",
+      "LINC00944",
+      "LINC01257",
+      "LINC01579",
+      "LINC02296",
+      "LINC02680",
+      "LITAF",
+      "MAF",
+      "MAFF",
+      "MAP1LC3B",
+      "MAP2K3",
+      "MATN4",
+      "RCAN3",
+      "RCAN3AS",
+      "RHOC",
+      "SPHK1",
+      "SRP14",
+      "SS18L2",
+      "SULT1A1",
+      "TCEAL7",
+      "TCEAL9",
+      "TM4SF1",
+      "TMBIM1",
+      "TMC1",
+      "TMSB4X",
+      "TNFAIP6",
+      "TNFRSF12A",
+      "TOB1",
+      "TRA2B",
+      "TRIM25",
+      "TTTY14",
+      "UPP1",
+      "VASN",
+      "XIRP1",
+      "ZC3H12A",
+      "ZFAND2A",
+      "ZNF114-AS1",
+      "SQSTM1",
+      "SOCS1",
+      "RNF7",
+      "SNRNP25",
+      "ROR1-AS1",
+      "RPL15",
+      "RPL22L1",
+      "RPL36AL",
+      "RPS27L",
+      "RRAD",
+      "S100A13",
+      "S1PR1",
+      "SDC4",
+      "SEC61G",
+      "SEPHS2",
+      "SERTAD3",
+      "SLC25A5",
+      "SLC30A8",
+      "SMIM26",
+      "SNHG12",
+      "SNHG19",
+      "SNHG21",
+      "SNHG3",
+      "SNHG8",
+      "SNHG9",
+      "IRF4",
+      "IL32",
+      "IER5L",
+      "AC117465.1",
+      "ADRA2C",
+      "AJ003147.2",
+      "AL118516.1",
+      "AL138828.1",
+      "AL161734.2",
+      "AL163636.1",
+      "AL357833.1",
+      "ANXA1",
+      "ANXA2",
+      "AP000317.1",
+      "AP003472.1",
+      "AP003900.1",
+      "ARHGAP8",
+      "ATF4",
+      "ATP5MC3",
+      "ATP6V0D2",
+      "B2M",
+      "BEX2",
+      "C3ORF52",
+      "CDKN1A",
+      "CEBPB",
+      "AC131944.1",
+      "AC116407.2",
+      "CES1",
+      "AC115282.1",
+      "AC007728.2",
+      "AC010789.2",
+      "AC010997.5",
+      "AC011445.2",
+      "AC012447.1",
+      "AC015912.3",
+      "AC016575.1",
+      "AC020765.2",
+      "AC022784.1",
+      "AC023194.3",
+      "AC040169.1",
+      "AC044849.1",
+      "AC073578.2",
+      "AC087286.2",
+      "AC091849.2",
+      "AC092171.4",
+      "AC092353.2",
+      "AC104383.2",
+      "AC108134.2",
+      "AC108734.4",
+      "AC110023.1",
+      "CEBPD",
+      "CIB1",
+      "ID3",
+      "H1F0",
+      "H3F3B",
+      "HAL",
+      "HERPUD1",
+      "HIST1H2AE",
+      "HIST1H2BD",
+      "HIST1H2BF",
+      "HIST1H2BG",
+      "HIST1H2BJ",
+      "HIST1H3J",
+      "HIST1H4H",
+      "HIST2H2BE",
+      "HIST3H2A",
+      "HLA-E",
+      "HMOX1",
+      "HOMER3-AS1",
+      "HRK",
+      "HS3ST2",
+      "HSPA1B",
+      "HSPA2",
+      "HSPB8",
+      "HSPE1",
+      "H2AFJ",
+      "GRN",
+      "CLIC6",
+      "GPX3",
+      "CNGB1",
+      "COL1A1",
+      "COL8A1",
+      "CPB1",
+      "CRYM",
+      "CSTB",
+      "CTSL",
+      "DANCR",
+      "DDIT3",
+      "DDIT4",
+      "DEPP1",
+      "DNAJA1",
+      "EIF1",
+      "FABP5",
+      "FAM43A",
+      "FTL",
+      "GABRE",
+      "GADD45B",
+      "GCNT4",
+      "GDF15",
+      "GEM",
+      "ZNF622"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_26/20251216_235834/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": null,
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "offline",
+    "effective_model": "offline",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_26",
+    "source_tag": "deepsearch",
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "context": {
+      "cell_type": "Astrocytes, astrocytoma cells",
+      "disease": "Astrocytoma",
+      "tissue": "Brain"
+    },
+    "input_genes": [
+      "AC004448.2",
+      "PIM3",
+      "MYL12A",
+      "NANS",
+      "NCBP2AS2",
+      "NLRC3",
+      "NR1D1",
+      "NUPR1",
+      "ODF3B",
+      "OSER1",
+      "OSGIN1",
+      "PELO",
+      "PLA2G4C",
+      "AC006449.6",
+      "PLCD1",
+      "PLIN2",
+      "PLIN3",
+      "PLXNB2",
+      "PMP22",
+      "PNRC1",
+      "POLR2K",
+      "PPP1R15A",
+      "PRKG1",
+      "PRSS3",
+      "MRPL50",
+      "MRPL36",
+      "MKNK2",
+      "MGST1",
+      "ITGA5",
+      "ITGBL1",
+      "JAGN1",
+      "KDR",
+      "KIF22",
+      "KLHDC8B",
+      "KRT10",
+      "LAMTOR5",
+      "LGALS3",
+      "LINC00910",
+      "LINC00944",
+      "LINC01257",
+      "LINC01579",
+      "LINC02296",
+      "LINC02680",
+      "LITAF",
+      "MAF",
+      "MAFF",
+      "MAP1LC3B",
+      "MAP2K3",
+      "MATN4",
+      "RCAN3",
+      "RCAN3AS",
+      "RHOC",
+      "SPHK1",
+      "SRP14",
+      "SS18L2",
+      "SULT1A1",
+      "TCEAL7",
+      "TCEAL9",
+      "TM4SF1",
+      "TMBIM1",
+      "TMC1",
+      "TMSB4X",
+      "TNFAIP6",
+      "TNFRSF12A",
+      "TOB1",
+      "TRA2B",
+      "TRIM25",
+      "TTTY14",
+      "UPP1",
+      "VASN",
+      "XIRP1",
+      "ZC3H12A",
+      "ZFAND2A",
+      "ZNF114-AS1",
+      "SQSTM1",
+      "SOCS1",
+      "RNF7",
+      "SNRNP25",
+      "ROR1-AS1",
+      "RPL15",
+      "RPL22L1",
+      "RPL36AL",
+      "RPS27L",
+      "RRAD",
+      "S100A13",
+      "S1PR1",
+      "SDC4",
+      "SEC61G",
+      "SEPHS2",
+      "SERTAD3",
+      "SLC25A5",
+      "SLC30A8",
+      "SMIM26",
+      "SNHG12",
+      "SNHG19",
+      "SNHG21",
+      "SNHG3",
+      "SNHG8",
+      "SNHG9",
+      "IRF4",
+      "IL32",
+      "IER5L",
+      "AC117465.1",
+      "ADRA2C",
+      "AJ003147.2",
+      "AL118516.1",
+      "AL138828.1",
+      "AL161734.2",
+      "AL163636.1",
+      "AL357833.1",
+      "ANXA1",
+      "ANXA2",
+      "AP000317.1",
+      "AP003472.1",
+      "AP003900.1",
+      "ARHGAP8",
+      "ATF4",
+      "ATP5MC3",
+      "ATP6V0D2",
+      "B2M",
+      "BEX2",
+      "C3ORF52",
+      "CDKN1A",
+      "CEBPB",
+      "AC131944.1",
+      "AC116407.2",
+      "CES1",
+      "AC115282.1",
+      "AC007728.2",
+      "AC010789.2",
+      "AC010997.5",
+      "AC011445.2",
+      "AC012447.1",
+      "AC015912.3",
+      "AC016575.1",
+      "AC020765.2",
+      "AC022784.1",
+      "AC023194.3",
+      "AC040169.1",
+      "AC044849.1",
+      "AC073578.2",
+      "AC087286.2",
+      "AC091849.2",
+      "AC092171.4",
+      "AC092353.2",
+      "AC104383.2",
+      "AC108134.2",
+      "AC108734.4",
+      "AC110023.1",
+      "CEBPD",
+      "CIB1",
+      "ID3",
+      "H1F0",
+      "H3F3B",
+      "HAL",
+      "HERPUD1",
+      "HIST1H2AE",
+      "HIST1H2BD",
+      "HIST1H2BF",
+      "HIST1H2BG",
+      "HIST1H2BJ",
+      "HIST1H3J",
+      "HIST1H4H",
+      "HIST2H2BE",
+      "HIST3H2A",
+      "HLA-E",
+      "HMOX1",
+      "HOMER3-AS1",
+      "HRK",
+      "HS3ST2",
+      "HSPA1B",
+      "HSPA2",
+      "HSPB8",
+      "HSPE1",
+      "H2AFJ",
+      "GRN",
+      "CLIC6",
+      "GPX3",
+      "CNGB1",
+      "COL1A1",
+      "COL8A1",
+      "CPB1",
+      "CRYM",
+      "CSTB",
+      "CTSL",
+      "DANCR",
+      "DDIT3",
+      "DDIT4",
+      "DEPP1",
+      "DNAJA1",
+      "EIF1",
+      "FABP5",
+      "FAM43A",
+      "FTL",
+      "GABRE",
+      "GADD45B",
+      "GCNT4",
+      "GDF15",
+      "GEM",
+      "ZNF622"
+    ],
+    "programs": [
+      {
+        "program_name": "Endoplasmic Reticulum Stress Response and Unfolded Protein Response",
+        "description": "This program encompasses the cellular adaptive response to endoplasmic reticulum (ER) stress triggered by misfolded protein accumulation. The pathway includes DDIT3 (CHOP), ATF4, HERPUD1, heat shock proteins (HSPA1B, HSPA2, HSPE1), and PPP1R15A (GADD34). These genes coordinate the unfolded protein response through IRE1α-XBP1s, PERK-ATF4, and ATF6 branches. DDIT3 encodes CHOP, a transcription factor that controls both pro-survival and pro-death signaling during ER stress. HERPUD1 recruits ubiquitin ligases for ER-associated degradation of misfolded proteins. Heat shock proteins function as molecular chaperones facilitating protein refolding. PPP1R15A/GADD34 dephosphorylates eIF2α to allow translation reinitiation after stress-induced translational shutdown. This program is activated in response to hypoxia, nutrient deprivation, and oxidative stress characteristic of the astrocytoma microenvironment.",
+        "atomic_biological_processes": [
+          {
+            "name": "Unfolded protein response (UPR) initiation and signaling",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "Documents IRE1α-XBP1s pathway activation in response to hypoxia and ER stress inducers in tumor cells"
+              },
+              {
+                "source_id": "12",
+                "notes": "Describes GRP78/IRE1/XBP1 pathway in ER stress response"
+              }
+            ],
+            "genes": [
+              "ATF4",
+              "DDIT3",
+              "HSPA1B",
+              "HSPA2",
+              "HSPE1"
+            ]
+          },
+          {
+            "name": "ER-associated protein degradation (ERAD)",
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "HERPUD1 localizes to ER-derived quality control compartments and recruits ubiquitin ligases for ERAD"
+              }
+            ],
+            "genes": [
+              "HERPUD1"
+            ]
+          },
+          {
+            "name": "Translational control during ER stress",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "PPP1R15A/GADD34 dephosphorylates eIF2α to restore translation after ER stress"
+              }
+            ],
+            "genes": [
+              "PPP1R15A"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Endoplasmic reticulum lumen and ER-derived quality control compartments",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "Describes localization of GRP78 and other ER-resident chaperones"
+              }
+            ],
+            "genes": [
+              "HSPA1B",
+              "HSPA2",
+              "HERPUD1"
+            ]
+          },
+          {
+            "name": "Ribosome and translation machinery",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "eIF2α phosphorylation blocks translation initiation during ER stress"
+              }
+            ],
+            "genes": [
+              "PPP1R15A"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Adaptive survival response enabling cell persistence during hypoxic and nutrient-deprived conditions",
+          "Activation of IL-6 secretion through IRE1α-XBP1s pathway, contributing to immune suppression",
+          "Prevention of protein aggregation and maintenance of proteostasis",
+          "Potential shift toward pro-death signaling (apoptosis) if ER stress is prolonged or unresolved"
+        ],
+        "evidence_summary": "Recent studies demonstrate that tumor cells activate the IRE1α-XBP1s pathway in response to hypoxia and ER stress inducers. DDIT3/CHOP functions as a critical transcription factor controlling both pro-survival and pro-death genes. The search results indicate that ER stress inhibitors can suppress IL-6 secretion in tumor cells under hypoxic conditions, and that UPR-related marker genes are generally upregulated in non-small cell lung cancer, suggesting conserved ER stress activation across solid tumors including astrocytomas. The presence of multiple UPR components in the input gene list indicates active ER stress signaling in the astrocytoma context.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "9",
+            "notes": "Mechanistic insights into IL-6-mediated NK cell dysfunction demonstrate IRE1α-XBP1s pathway activation in tumor cells"
+          },
+          {
+            "source_id": "12",
+            "notes": "Heat shock proteins and ER stress pathways in cellular stress responses"
+          },
+          {
+            "source_id": "32",
+            "notes": "HERPUD1 and ER-associated protein degradation mechanisms"
+          }
+        ],
+        "supporting_genes": [
+          "ATF4",
+          "DDIT3",
+          "HERPUD1",
+          "HSPA1B",
+          "HSPA2",
+          "HSPE1",
+          "PPP1R15A"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ERN1",
+            "XBP1",
+            "ATF6",
+            "PERK",
+            "HSPA5",
+            "GRP78"
+          ],
+          "citations": [
+            {
+              "source_id": "9",
+              "notes": "ERN1, XBP1, ATF6, and PERK are core UPR pathway components not present in input list but required for pathway function"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Inflammatory Cytokine and Immune Modulation",
+        "description": "This program encompasses production and sensing of inflammatory cytokines and immune regulatory molecules within the tumor microenvironment. Key genes include TNFAIP6 (TNF-α-induced protein 6/TSG-6), TNFRSF12A (TNF receptor superfamily member 12A), IL32, S100A13, ANXA1 (annexin A1), ANXA2 (annexin A2), LGALS3 (galectin-3), and SOCS1 (suppressor of cytokine signaling 1). TNFAIP6/TSG-6 is induced by TNF-α and IL-1β and functions as an extracellular immunomodulator. S100A13 is a pan-reactive astrocyte marker upregulated following brain injury. Annexins function both as receptors for extracellular ATP and as anti-inflammatory lipid-binding proteins. LGALS3/galectin-3 functions in cell-cell interactions and pattern recognition. SOCS1 provides negative feedback on cytokine signaling. This program integrates with the ER stress program, as IRE1α-XBP1s pathway activity drives IL-6 secretion which suppresses NK cell function.",
+        "atomic_biological_processes": [
+          {
+            "name": "TNF-α and IL-1β induced inflammatory signaling",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "Recent studies show upregulation of pan-reactive astrocyte markers and TNF-related genes in acute brain injury astrocytes"
+              },
+              {
+                "source_id": "33",
+                "notes": "TNF encodes a multifunctional proinflammatory cytokine central to immune and inflammatory responses"
+              }
+            ],
+            "genes": [
+              "TNFAIP6",
+              "TNFRSF12A",
+              "S100A13"
+            ]
+          },
+          {
+            "name": "Anti-inflammatory and immunomodulatory signaling",
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "ANXA1 encodes a membrane protein that inhibits phospholipase A2 and exhibits anti-inflammatory activity"
+              }
+            ],
+            "genes": [
+              "ANXA1",
+              "ANXA2"
+            ]
+          },
+          {
+            "name": "IL-6 mediated immune suppression and NK cell dysfunction",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "Tumor-derived IL-6 suppresses NKp30 expression on tumor-infiltrating NK cells, impairing anti-tumor immunity"
+              }
+            ],
+            "genes": [
+              "IL32"
+            ]
+          },
+          {
+            "name": "Negative feedback on cytokine signaling",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "SOCS1 downregulates NF-κB stability and activity under inflammatory signaling"
+              }
+            ],
+            "genes": [
+              "SOCS1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Cell surface TNF receptors and cytokine receptors",
+            "citations": [
+              {
+                "source_id": "23",
+                "notes": "TNFRSF1A encodes a TNF receptor superfamily member found in membrane-bound and soluble forms"
+              }
+            ],
+            "genes": [
+              "TNFRSF12A"
+            ]
+          },
+          {
+            "name": "Extracellular space and secreted factors",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "TNFAIP6 and S100A13 are secreted factors functioning in the extracellular microenvironment"
+              }
+            ],
+            "genes": [
+              "TNFAIP6",
+              "S100A13",
+              "IL32"
+            ]
+          },
+          {
+            "name": "Cell membrane and plasma membrane associated proteins",
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "ANXA1 and ANXA2 are membrane-localized proteins binding phospholipids"
+              }
+            ],
+            "genes": [
+              "ANXA1",
+              "ANXA2",
+              "LGALS3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Recruitment of infiltrating immune cells to tumor microenvironment",
+          "Suppression of anti-tumor NK cell functionality through IL-6-mediated NKp30 downregulation",
+          "Altered neuronal excitability in peritumoral regions through inflammatory mediators",
+          "Production of soluble factors contributing to blood-brain barrier disruption and cerebral edema",
+          "Negative feedback regulation limiting excessive inflammation while maintaining baseline immune activation"
+        ],
+        "evidence_summary": "Recent characterization of astrocyte transcriptomes following brain injury revealed prominent upregulation of pan-reactive astrocyte markers including S100A13, TNF-related genes, and inflammatory pathway components. In glioblastoma models, complement-activated cells show strong enrichment of inflammation-related genes and NF-κB signaling pathways. Mechanistically, tumor-cell-derived IL-6 suppresses NKp30 expression on tumor-infiltrating NK cells through ER stress-dependent IRE1α-XBP1s pathway activation, creating a link between the ER stress program and immune suppression. The presence of multiple inflammatory genes in the input list indicates sustained inflammatory signaling within the astrocytoma microenvironment.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "Astrocyte activation and inflammatory gene expression post-injury"
+          },
+          {
+            "source_id": "9",
+            "notes": "IL-6-mediated NK cell dysfunction and ER stress linkage"
+          },
+          {
+            "source_id": "19",
+            "notes": "Inflammatory transcriptomic signatures in glioblastoma"
+          },
+          {
+            "source_id": "14",
+            "notes": "ANXA1 anti-inflammatory functions"
+          }
+        ],
+        "supporting_genes": [
+          "TNFAIP6",
+          "TNFRSF12A",
+          "IL32",
+          "S100A13",
+          "ANXA1",
+          "ANXA2",
+          "LGALS3",
+          "SOCS1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "IL-6",
+            "TNF-α",
+            "IL-1β",
+            "NF-κB",
+            "IL-17",
+            "STAT3",
+            "IRF-family transcription factors"
+          ],
+          "citations": [
+            {
+              "source_id": "2",
+              "notes": "IL-6, TNF-α, and IL-1β are core inflammatory cytokines driving the inflammatory program, though some effects are mediated through genes in the input list"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Metabolic Remodeling and Bioenergetic Adaptation",
+        "description": "This program encompasses metabolic reprogramming essential for supporting the biosynthetic and bioenergetic demands of astrocytoma progression. Key genes include GDF15 (growth differentiation factor 15), HMOX1 (heme oxygenase 1), SULT1A1 (sulfotransferase family 1A member 1), PLIN2 and PLIN3 (perilipin proteins), ATP6V0D2 (vacuolar ATPase component), MGST1 (microsomal glutathione S-transferase 1), and metabolic support genes. GDF15 is a stress-responsive cytokine upregulated during metabolic perturbation and oxidative stress. HMOX1 catalyzes heme degradation to biliverdin and subsequently to bilirubin, an antioxidant, while participating in regulation of cellular energetics. PLIN2 and PLIN3 coat lipid droplet surfaces and regulate lipid mobilization, reflecting increased dependence on fatty acid metabolism for energy and biosynthetic precursors. ATP6V0D2 supports lysosomal acidification essential for autophagy-mediated nutrient recycling. This program interconnects with ER stress responses through provision of amino acids and energy during metabolic limitation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Fatty acid synthesis and oxidation",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Enhanced fatty acid synthesis and oxidation are vital to tumorigenesis, progression, and drug resistance. Fatty acid oxidation provides energy particularly under hypoxic or glucose-deprived conditions"
+              }
+            ],
+            "genes": [
+              "PLIN2",
+              "PLIN3"
+            ]
+          },
+          {
+            "name": "Oxidative stress management and antioxidant defense",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "HMOX1 cleaves heme to form biliverdin and bilirubin, providing antioxidant defense while managing heme toxicity"
+              }
+            ],
+            "genes": [
+              "HMOX1",
+              "GDF15"
+            ]
+          },
+          {
+            "name": "Lysosomal acidification and autophagy-mediated nutrient recycling",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "Vacuolar ATPase mediates vesicular proton transport supporting lysosomal functions during metabolic stress"
+              }
+            ],
+            "genes": [
+              "ATP6V0D2"
+            ]
+          },
+          {
+            "name": "Drug and hormone metabolism",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "SULT1A1 catalyzes sulfate conjugation of hormones, neurotransmitters, drugs, and xenobiotics in cytosolic metabolism"
+              }
+            ],
+            "genes": [
+              "SULT1A1"
+            ]
+          },
+          {
+            "name": "Metabolic stress signaling",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "GDF15 is acute exercise-inducible and increases in response to metabolic stress and unfolded protein response"
+              }
+            ],
+            "genes": [
+              "GDF15"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Lipid droplets",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "PLIN2 and PLIN3 coat lipid droplet surfaces regulating lipid storage and mobilization"
+              }
+            ],
+            "genes": [
+              "PLIN2",
+              "PLIN3"
+            ]
+          },
+          {
+            "name": "Endoplasmic reticulum membrane and associated systems",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "MGST1 functions as a microsomal enzyme involved in detoxification processes on ER membranes"
+              }
+            ],
+            "genes": [
+              "MGST1"
+            ]
+          },
+          {
+            "name": "Lysosomes and vacuolar compartments",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "ATP6V0D2 is a core component of the vacuolar H+-ATPase essential for lysosomal acidification"
+              }
+            ],
+            "genes": [
+              "ATP6V0D2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced energy production through fatty acid oxidation during glucose limitation",
+          "Support of membrane biogenesis and organellar expansion during rapid proliferation through fatty acid synthesis",
+          "Management of oxidative stress generated by high metabolic activity",
+          "Efficient recycling of cellular components and nutrients through autophagy-mediated lysosomal degradation",
+          "Enhanced clearance and metabolism of drugs and hormones potentially affecting chemotherapy efficacy and endocrine signaling"
+        ],
+        "evidence_summary": "Astrocytomas exhibit profound metabolic reprogramming compared to normal brain tissue. The search results document that enhanced fatty acid synthesis and oxidation are vital to tumorigenesis and drug resistance, with fatty acid oxidation serving as a critical energy pathway particularly under hypoxic conditions. HMOX1 upregulation is observed in pathological conditions including tumors and contributes to chemotherapy resistance. The presence of perilipin genes (PLIN2, PLIN3) suggests astrocytoma-derived cells utilize lipid droplet-mediated lipid storage as a metabolic strategy. GDF15 functions as a stress-responsive signal upregulated during metabolic perturbation. This program intersects with the ER stress program through production of amino acids during autophagy and with the inflammatory program through metabolic support of cytokine production.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "JAB1/CRL4B complex regulates PPARG/ACSL5 and fatty acid metabolism in cancer progression"
+          },
+          {
+            "source_id": "10",
+            "notes": "GDF15 increases in response to metabolic stress and ER stress"
+          },
+          {
+            "source_id": "26",
+            "notes": "SULT1A1 role in drug and hormone metabolism"
+          },
+          {
+            "source_id": "27",
+            "notes": "HMOX1 in heme metabolism and antioxidant defense"
+          }
+        ],
+        "supporting_genes": [
+          "GDF15",
+          "HMOX1",
+          "SULT1A1",
+          "PLIN2",
+          "PLIN3",
+          "ATP6V0D2",
+          "MGST1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "FASN",
+            "ACC",
+            "CPT1",
+            "ACSL",
+            "PGC1α",
+            "PPARA",
+            "PPARG"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "Fatty acid synthase (FASN), ACC, and other core metabolic enzymes are not in input list but regulate fatty acid synthesis and oxidation"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Autophagy-Lysosomal Pathway and Proteostasis",
+        "description": "This program encompasses autophagy-lysosomal pathway (ALP) components essential for lysosomal protein degradation, selective autophagy, and cellular proteostasis. Key genes include MAP1LC3B (microtubule-associated protein 1 light chain 3 beta), SQSTM1 (sequestosome 1/p62), and related autophagy-associated factors. MAP1LC3B, specifically its processed LC3-II form, localizes to autophagosomal membranes and participates in autophagosome formation and maturation. SQSTM1/p62 functions as an autophagic adapter protein recognizing ubiquitinated substrates and directing them to autophagosomes for selective degradation (aggrephagy, xenophagy). CTSL (cathepsin L) participates in lysosomal protein degradation. This program provides alternative energy sources during nutrient limitation, removes damaged organelles and misfolded proteins, and supports cell survival during metabolic stress. Autophagy flux is progressively induced in various pathological brain conditions.",
+        "atomic_biological_processes": [
+          {
+            "name": "Autophagosome formation and maturation",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "MAP1LC3B/LC3 directly participates in autophagosome formation and maturation as a core component of autophagosomal membranes"
+              }
+            ],
+            "genes": [
+              "MAP1LC3B"
+            ]
+          },
+          {
+            "name": "Selective autophagy and cargo recognition",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "SQSTM1/p62 acts as a selective autophagy receptor recognizing ubiquitinated substrates for degradation"
+              }
+            ],
+            "genes": [
+              "SQSTM1"
+            ]
+          },
+          {
+            "name": "Lysosomal protein degradation",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "Cathepsins S, Z, and L are prominently upregulated in pathological conditions and participate in lysosomal protein degradation"
+              }
+            ],
+            "genes": [
+              "CTSL"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Autophagosomal membranes",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "MAP1LC3B localizes specifically to autophagosomal membranes and serves as a marker for autophagy flux"
+              }
+            ],
+            "genes": [
+              "MAP1LC3B"
+            ]
+          },
+          {
+            "name": "Lysosomes and lysosomal compartments",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "Cathepsins localize to lysosomes and participate in proteolysis of autophagy substrates"
+              }
+            ],
+            "genes": [
+              "CTSL"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Increased survival during nutrient limitation through macroautophagy-mediated provision of amino acids and energy",
+          "Removal of damaged mitochondria (mitophagy) reducing oxidative stress and ROS production",
+          "Clearance of protein aggregates and misfolded proteins (aggrephagy) supporting proteostasis",
+          "Selective destruction of intracellular pathogens and organelles (xenophagy) supporting immune responses",
+          "Potential suppression or promotion of tumorigenesis depending on tumor stage and genetic context"
+        ],
+        "evidence_summary": "The autophagy-lysosomal pathway is progressively induced in various pathological brain conditions as cells experience proteostasis stress from multiple sources including ER stress, oxidative stress, and rapid proliferation. Recent multiomics studies identify autophagy-lysosomal pathway dysregulation as a prominent feature in polyglutamine expansion diseases. MAP1LC3B serves as the most widely used marker for monitoring autophagy flux, and SQSTM1/p62 functions as a critical cargo adapter in selective autophagy. The presence of both components in the input gene list indicates active autophagy signaling in astrocytoma cells. This program intersects with the ER stress program, as the UPR can trigger macroautophagy to provide amino acids during ER stress-induced metabolic limitation.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "24",
+            "notes": "Autophagy-lysosomal pathway factors and lysosomal cathepsins are progressively induced in pathological conditions"
+          }
+        ],
+        "supporting_genes": [
+          "MAP1LC3B",
+          "SQSTM1",
+          "CTSL"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ATG proteins",
+            "WIPI proteins",
+            "Class III PI3K complex",
+            "Rab GTPases",
+            "SNARE proteins"
+          ],
+          "citations": [
+            {
+              "source_id": "24",
+              "notes": "Core autophagy machinery including ATG genes and PI3K complex components are required but not present in input list"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Signal Transduction and Cell Proliferation Control",
+        "description": "This program encompasses signal transduction pathways controlling cell proliferation, survival, and differentiation. Key genes include PRKG1 (protein kinase G), MKNK2 (MAP kinase interacting serine/threonine kinase 2), PIM3 (Pim-3 proto-oncogene), PLCD1 and PLCD3 (phospholipase C delta isoforms), SPHK1 (sphingosine kinase 1), and S1PR1 (sphingosine 1-phosphate receptor 1). PRKG1 encodes a serine/threonine kinase activated by cyclic GMP signaling. MKNK2 phosphorylates eIF4E and regulates translation initiation in response to MAPK signaling. PIM3 functions as a proto-oncogene in hematopoietic malignancies. PLCD1 and PLCD3 hydrolyze PIP2 to generate IP3 and DAG, activating calcium signaling and protein kinase C. SPHK1 catalyzes phosphorylation of sphingosine to S1P, a lipid signaling molecule. S1PR1 is a G protein-coupled receptor through which S1P signals to regulate cell proliferation, survival, and cell junction stability.",
+        "atomic_biological_processes": [
+          {
+            "name": "Cyclic GMP-mediated signaling",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "CREB1 mediates cAMP-responsive signaling, related to cyclic nucleotide-dependent pathways"
+              }
+            ],
+            "genes": [
+              "PRKG1"
+            ]
+          },
+          {
+            "name": "MAPK signaling and translation regulation",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "MKNK2 and related kinases regulate MAPK pathway output through eIF4E phosphorylation affecting translation"
+              }
+            ],
+            "genes": [
+              "MKNK2"
+            ]
+          },
+          {
+            "name": "Phosphoinositide signaling and calcium mobilization",
+            "citations": [
+              {
+                "source_id": "40",
+                "notes": "PLCD1 encodes phospholipase C delta that generates IP3 and DAG from PIP2"
+              },
+              {
+                "source_id": "42",
+                "notes": "PLCD3 promotes cell behaviors through PI3K/AKT/P21 signaling in cancer"
+              }
+            ],
+            "genes": [
+              "PLCD1",
+              "PLCD3"
+            ]
+          },
+          {
+            "name": "Sphingosine 1-phosphate signaling and immune regulation",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "S1PR1 signaling plays roles in cell proliferation and drug resistance in multiple myeloma, with therapeutic targeting potential"
+              }
+            ],
+            "genes": [
+              "SPHK1",
+              "S1PR1"
+            ]
+          },
+          {
+            "name": "Proto-oncogene signaling in malignancy",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "PIM3 is overexpressed in hematopoietic malignancies and promotes proliferation, invasion, and stemness"
+              }
+            ],
+            "genes": [
+              "PIM3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Plasma membrane and G protein-coupled receptors",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "S1PR1 is a G protein-coupled receptor localized to the plasma membrane"
+              }
+            ],
+            "genes": [
+              "S1PR1"
+            ]
+          },
+          {
+            "name": "Cytoplasmic signaling complexes and kinase cascades",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "MKNK2 functions in MAPK signaling cascades"
+              }
+            ],
+            "genes": [
+              "PRKG1",
+              "MKNK2",
+              "PIM3"
+            ]
+          },
+          {
+            "name": "Phosphoinositide pools in plasma membrane and intracellular membranes",
+            "citations": [
+              {
+                "source_id": "40",
+                "notes": "PLCD1 substrate PIP2 localizes to various cellular membranes"
+              }
+            ],
+            "genes": [
+              "PLCD1",
+              "PLCD3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced translation of critical proliferation factors through MKNK2-mediated eIF4E phosphorylation",
+          "Increased intracellular calcium signaling supporting cell proliferation and differentiation",
+          "Enhanced cell survival signaling through multiple kinase pathways",
+          "Altered cell junction stability and immune cell trafficking through S1PR1-mediated signaling",
+          "Support of rapid cell cycle progression and proliferation despite stressful microenvironmental conditions"
+        ],
+        "evidence_summary": "Multiple signal transduction pathways are represented in the input list, collectively supporting sustained cell proliferation despite the stressful astrocytoma microenvironment. MKNK2 phosphorylates eIF4E in response to MAPK pathway activation, enhancing translation of proliferation-promoting factors. Phospholipase C isoforms generate IP3 and DAG, mobilizing intracellular calcium and activating protein kinase C. S1PR1 signaling has been implicated in cell proliferation and drug resistance in multiple myeloma, suggesting similar mechanisms in other malignancies including astrocytoma. The proto-oncogene PIM3 is known to promote proliferation and stemness in malignant cells. These pathways collectively drive sustained proliferation signaling.",
+        "significance_score": 0.76,
+        "citations": [
+          {
+            "source_id": "11",
+            "notes": "MKNK2 and MAPK pathway signaling in translation control"
+          },
+          {
+            "source_id": "17",
+            "notes": "S1PR1 in cell proliferation and drug resistance"
+          },
+          {
+            "source_id": "40",
+            "notes": "PLCD1 phospholipase C signaling"
+          },
+          {
+            "source_id": "42",
+            "notes": "PLCD3 in PI3K/AKT pathway and cancer progression"
+          },
+          {
+            "source_id": "45",
+            "notes": "PIM3 proto-oncogene in malignancy"
+          }
+        ],
+        "supporting_genes": [
+          "PRKG1",
+          "MKNK2",
+          "PIM3",
+          "PLCD1",
+          "PLCD3",
+          "SPHK1",
+          "S1PR1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "RAF",
+            "MEK",
+            "ERK1/2",
+            "mTORC1",
+            "AKT",
+            "GSK3β"
+          ],
+          "citations": [
+            {
+              "source_id": "11",
+              "notes": "Core MAPK pathway components are not in input list but are required for pathway function"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Circadian Rhythm Regulation and Time-Dependent Drug Sensitivity",
+        "description": "This program encompasses circadian clock regulation with direct implications for chemotherapy sensitivity and DNA repair. The primary gene is NR1D1 (nuclear receptor subfamily 1 group D member 1), which encodes REV-ERBα, a nuclear receptor fundamental to circadian rhythm generation and metabolic regulation. NR1D1 also interacts with core tumor suppressor and DNA repair pathways. Recent evidence demonstrates that circadian clock genes including NR1D1, BMAL1, and PER2 function as diagnostic and prognostic biomarkers of glioma and directly regulate temozolomide (TMZ) sensitivity. NR1D1 recruitment to DNA damage sites inhibits PARP1 activity and is associated with chemosensitivity, indicating that circadian regulation of DNA repair mechanisms directly affects treatment efficacy. Pharmacological activation of REV-ERBs is lethal in cancer cells.",
+        "atomic_biological_processes": [
+          {
+            "name": "Circadian rhythm generation and clock gene regulation",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "Circadian clock genes including NR1D1 regulate time-of-day dependent TMZ sensitivity in glioblastoma"
+              },
+              {
+                "source_id": "39",
+                "notes": "NR1D1 encodes REV-ERBα with fundamental roles in circadian rhythm generation"
+              }
+            ],
+            "genes": [
+              "NR1D1"
+            ]
+          },
+          {
+            "name": "DNA repair and chemotherapy sensitivity",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "Clock gene disruption reduces TMZ efficacy through altered DNA repair regulation and changes in MGMT expression"
+              },
+              {
+                "source_id": "39",
+                "notes": "NR1D1 recruitment to DNA damage sites inhibits PARP1 activity and affects chemosensitivity"
+              }
+            ],
+            "genes": [
+              "NR1D1"
+            ]
+          },
+          {
+            "name": "Metabolic regulation by circadian factors",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "NR1D1 couples circadian clock to metabolic pathways including steroidogenesis"
+              }
+            ],
+            "genes": [
+              "NR1D1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Cell nucleus and transcriptional machinery",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "NR1D1 functions as a nuclear receptor localizing to the nucleus"
+              }
+            ],
+            "genes": [
+              "NR1D1"
+            ]
+          },
+          {
+            "name": "DNA damage response sites",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "NR1D1 recruits to sites of DNA damage to regulate PARP1 activity"
+              }
+            ],
+            "genes": [
+              "NR1D1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Time-of-day dependent temozolomide sensitivity with implications for optimal treatment timing",
+          "Altered DNA repair capacity through circadian regulation of PARP1 and other DNA repair enzymes",
+          "Potential reversal of chemotherapy resistance through pharmacological REV-ERB activation",
+          "Integration of circadian time-keeping with metabolic state, creating interdependence of circadian and metabolic programs",
+          "Opportunities for personalized chronotherapy approaches based on individual circadian clock characteristics"
+        ],
+        "evidence_summary": "Recent evidence demonstrates that circadian clock genes, particularly NR1D1, directly regulate temozolomide sensitivity in glioblastoma through time-dependent changes in DNA repair mechanisms. Clock gene disruption reduces TMZ efficacy, while pharmacological activation of REV-ERBs is lethal in cancer cells, suggesting therapeutic potential. The circadian factor Period 2 modulates p53 stability and transcriptional activity, indicating intersection with core tumor suppressor pathways. NR1D1 recruitment to DNA damage sites inhibits PARP1 activity and is associated with altered chemosensitivity. These findings establish circadian clock regulation as a therapeutic target in gliomas.",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "38",
+            "notes": "Personalized chronotherapy in glioblastoma based on circadian clock gene expression"
+          },
+          {
+            "source_id": "39",
+            "notes": "NR1D1 and circadian regulation of DNA repair and metabolic processes"
+          }
+        ],
+        "supporting_genes": [
+          "NR1D1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "BMAL1",
+            "CLOCK",
+            "PER1",
+            "PER2",
+            "CRY1",
+            "CRY2",
+            "PARP1",
+            "MGMT"
+          ],
+          "citations": [
+            {
+              "source_id": "38",
+              "notes": "Core circadian clock components BMAL1, CLOCK, PER, and CRY proteins are required for circadian rhythm generation but not present in input list"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Extracellular Matrix Interactions and Cell Motility",
+        "description": "This program encompasses cell-matrix adhesion and cytoskeletal organization controlling cell migration, invasion, and mechanotransduction. Key genes include ITGA5 (integrin alpha 5), ITGBL1 (integrin beta-like 1), SDC4 (syndecan 4), KRT10 (keratin 10), RHOC (Rho family small GTPase C), and LAMTOR5 (late endosomal/lysosomal adaptor MAPK and mTOR activator 5). ITGA5 heterodimerizes with integrin β1 to form the fibronectin receptor, activating focal adhesion kinase (FAK) and ERK pathways. SDC4 is a transmembrane heparan sulfate proteoglycan participating in cell adhesion and signaling. KRT10 encodes keratin 10, a cytoplasmic intermediate filament protein. RHOC is a master regulator of cytoskeletal organization controlling actin polymerization and stress fiber formation. LAMTOR5 localizes to lysosomal compartments and regulates mTORC1 signaling in response to amino acid availability, linking adhesion signals to metabolic sensing.",
+        "atomic_biological_processes": [
+          {
+            "name": "Integrin-mediated cell-matrix adhesion and signaling",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Integrin signaling through α5β1 activates focal adhesion kinase (FAK) and downstream signaling, transmitting extracellular matrix signals into cells"
+              }
+            ],
+            "genes": [
+              "ITGA5",
+              "ITGBL1"
+            ]
+          },
+          {
+            "name": "Syndecane-mediated cell adhesion and growth factor signaling",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Syndecans bind extracellular ligands including growth factors and matrix components, transducing signals through cytoplasmic tails"
+              }
+            ],
+            "genes": [
+              "SDC4"
+            ]
+          },
+          {
+            "name": "Rho GTPase-mediated cytoskeletal reorganization",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Rho GTPases cycle between inactive GDP-bound and active GTP-bound states, controlling actin polymerization and stress fiber formation"
+              }
+            ],
+            "genes": [
+              "RHOC"
+            ]
+          },
+          {
+            "name": "Mechanical substrate stiffness sensing",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Substrate stiffness exerts biphasic effects on cell phenotypic regulation through mechanotransduction, with compliant matrices inducing dedifferentiation and rigid substrates promoting redifferentiation"
+              }
+            ],
+            "genes": [
+              "RHOC",
+              "LAMTOR5"
+            ]
+          },
+          {
+            "name": "mTORC1 signaling in response to amino acid availability and growth signals",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "LAMTOR5 component of GATOR1 complex regulates mTORC1 signaling at lysosomes in response to amino acid levels"
+              }
+            ],
+            "genes": [
+              "LAMTOR5"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Focal adhesion complexes",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Integrin-mediated signaling establishes focal adhesion complexes containing FAK and related proteins"
+              }
+            ],
+            "genes": [
+              "ITGA5",
+              "ITGBL1"
+            ]
+          },
+          {
+            "name": "Cell membrane and transmembrane proteins",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "ITGA5, ITGBL1, and SDC4 are transmembrane proteins mediating cell-matrix interactions"
+              }
+            ],
+            "genes": [
+              "ITGA5",
+              "ITGBL1",
+              "SDC4"
+            ]
+          },
+          {
+            "name": "Cytoskeletal actin filaments and stress fibers",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "RHOC regulates actin polymerization to control stress fiber formation and cell morphology"
+              }
+            ],
+            "genes": [
+              "RHOC",
+              "KRT10"
+            ]
+          },
+          {
+            "name": "Lysosomal surface and late endosomal membranes",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "LAMTOR5 localizes to late endosomal and lysosomal membranes as a component of GATOR1 complex"
+              }
+            ],
+            "genes": [
+              "LAMTOR5"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced cell motility and invasion through integrin-FAK-ERK signaling in response to fibronectin matrix",
+          "Increased mechanotransduction sensitivity allowing adaptation to changing microenvironmental stiffness",
+          "Remodeling of cell-matrix contacts in response to tumor-associated extracellular matrix alterations",
+          "Integration of adhesion signals with metabolic and proliferation pathways through mTORC1 signaling",
+          "Support of tumor cell infiltration and peritumoral invasion essential for tumor progression",
+          "Dynamic cytoskeletal rearrangement supporting migration and invasion phenotypes"
+        ],
+        "evidence_summary": "Cell-matrix adhesion and cytoskeletal organization programs are critical for astrocytoma cell invasion and migration. Recent characterization of nerve regeneration demonstrates that mechanical substrate stiffness exerts biphasic effects on cell phenotype: compliant matrices induce a repair phenotype (dedifferentiation), while rigid substrates promote specialized functions (redifferentiation). Tumor microenvironments are typically fibrotic and stiffened, suggesting that astrocytoma cells encounter rigid matrix promoting specialized functions. Integrin signaling through α5β1 activates FAK and downstream kinases controlling proliferation and survival. Syndecans participate in growth factor signaling and cell junction formation. Rho GTPases control actin dynamics essential for cell morphology and migration. LAMTOR5-mediated mTORC1 regulation links amino acid sensing to proliferation signals.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Comprehensive review of Schwann cell behavior, ECM interactions, and mechanotransduction relevant to cell-matrix interactions in various cell types"
+          }
+        ],
+        "supporting_genes": [
+          "ITGA5",
+          "ITGBL1",
+          "SDC4",
+          "KRT10",
+          "RHOC",
+          "LAMTOR5"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ITGB1",
+            "FAK",
+            "SRC",
+            "PAK",
+            "CDC42",
+            "RAC1",
+            "ROCK"
+          ],
+          "citations": [
+            {
+              "source_id": "25",
+              "notes": "Core focal adhesion kinase, Rho GTPase effectors, and downstream signaling molecules are not present in input list but are required for pathway function"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Reactive Astrocyte Activation and Pro-Inflammatory Phenotype",
+        "description": "This program encompasses genes encoding markers of reactive astrocyte activation and glial differentiation states. Key genes include reactive astrocyte markers (TNFAIP6, S100A13, ANXA1, ANXA2), cell identity factors (ID3), histone variants, and heat shock proteins reflecting glial activation. Recent studies of astrocytes following traumatic brain injury reveal that both acute and chronic phases of injury involve distinct transcriptomic programs characterized by upregulation of pan-reactive astrocyte markers. ID3 (inhibitor of differentiation 3) is a helix-loop-helix transcription factor regulating cell differentiation and identity decisions, controlling the balance between stem-like and differentiated glial states. Multiple histone variants (H1F0, H3F3B, and core histones) reflect altered chromatin structure during glial activation. Heat shock proteins (HSPA1B, HSPA2, HSPB8, HSPE1) indicate elevated proteostasis stress and active protein quality control. This program represents a distinct glial activation state characterized by production of soluble mediators and sustained surveillance of the microenvironment.",
+        "atomic_biological_processes": [
+          {
+            "name": "Pan-reactive astrocyte marker expression",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "Recent studies reveal prominent upregulation of pan-reactive astrocyte markers (e.g., GFAP, CD44, S100 proteins) in acute brain injury astrocytes with conserved injury responses across different pathologies"
+              }
+            ],
+            "genes": [
+              "S100A13",
+              "TNFAIP6",
+              "ANXA1",
+              "ANXA2"
+            ]
+          },
+          {
+            "name": "Cell identity and differentiation control",
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "ID3 regulates cell differentiation and identity decisions in various cell types including glial cells"
+              }
+            ],
+            "genes": [
+              "ID3"
+            ]
+          },
+          {
+            "name": "Chromatin remodeling and histone variant expression",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "Astrocyte activation involves altered chromatin structure reflecting dynamic epigenetic reprogramming"
+              }
+            ],
+            "genes": [
+              "H1F0",
+              "H3F3B",
+              "HIST1H2AE",
+              "HIST1H2BD",
+              "HIST1H2BF",
+              "HIST1H2BG",
+              "HIST1H2BJ",
+              "HIST1H3J",
+              "HIST1H4H",
+              "HIST2H2BE",
+              "HIST3H2A"
+            ]
+          },
+          {
+            "name": "Heat shock response and proteostasis",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "Upregulation of heat shock proteins in astrocytes reflects protein quality control response to stress"
+              }
+            ],
+            "genes": [
+              "HSPA1B",
+              "HSPA2",
+              "HSPB8",
+              "HSPE1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Cell membrane and extracellular space",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "Reactive astrocyte markers include cell surface proteins and secreted factors in extracellular space"
+              }
+            ],
+            "genes": [
+              "S100A13",
+              "ANXA1",
+              "ANXA2"
+            ]
+          },
+          {
+            "name": "Chromatin and nucleus",
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "Histone variants and ID3 transcription factor localize to chromatin and nuclear compartments"
+              }
+            ],
+            "genes": [
+              "ID3",
+              "H1F0",
+              "H3F3B",
+              "HIST1H2AE",
+              "HIST1H2BD",
+              "HIST1H2BF",
+              "HIST1H2BG",
+              "HIST1H2BJ",
+              "HIST1H3J",
+              "HIST1H4H",
+              "HIST2H2BE",
+              "HIST3H2A"
+            ]
+          },
+          {
+            "name": "Cytoplasm and protein quality control compartments",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "Heat shock proteins function in cytoplasm and associated compartments for proteostasis"
+              }
+            ],
+            "genes": [
+              "HSPA1B",
+              "HSPA2",
+              "HSPB8",
+              "HSPE1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Sustained state of glial activation characterized by production of inflammatory mediators",
+          "Recruitment and retention of infiltrating immune cells in tumor microenvironment",
+          "Production of soluble factors modulating tumor cell behavior and peritumoral neuronal physiology",
+          "Altered glial differentiation state with reduced capacity for normal homeostatic functions",
+          "Active chromatin remodeling enabling rapid transcriptional responses to microenvironmental cues",
+          "Enhanced protein quality control managing stress from activated state"
+        ],
+        "evidence_summary": "Recent characterization of astrocyte transcriptomes reveals distinct glial activation states characterized by prominent expression of pan-reactive astrocyte markers. Following traumatic brain injury, acute phase astrocytes express elevated levels of GFAP, CD44, SERPINA3N, CXCL10, and S100 family proteins, establishing a conserved injury response. These markers are associated with enhanced inflammatory and stress-related pathway signaling. The presence of ID3 and multiple histone genes suggests active cell identity remodeling during glial activation. Heat shock protein upregulation indicates heightened proteostasis stress during the activated state. This program overlaps significantly with the inflammatory program, indicating that reactive astrocyte activation and inflammatory signaling are intimately connected mechanisms driving neuroinflammation in the astrocytoma microenvironment.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "Astrocyte activation persists one year after traumatic brain injury with distinct transcriptomic signatures of reactive phenotypes"
+          },
+          {
+            "source_id": "46",
+            "notes": "Type 2 DORCs associated with immune processes and transcriptional regulation of glial responses"
+          }
+        ],
+        "supporting_genes": [
+          "S100A13",
+          "TNFAIP6",
+          "ANXA1",
+          "ANXA2",
+          "ID3",
+          "H1F0",
+          "H3F3B",
+          "HIST1H2AE",
+          "HIST1H2BD",
+          "HIST1H2BF",
+          "HIST1H2BG",
+          "HIST1H2BJ",
+          "HIST1H3J",
+          "HIST1H4H",
+          "HIST2H2BE",
+          "HIST3H2A",
+          "HSPA1B",
+          "HSPA2",
+          "HSPB8",
+          "HSPE1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GFAP",
+            "CD44",
+            "APOE",
+            "SERPINA3N",
+            "CXCL10",
+            "TIMP3"
+          ],
+          "citations": [
+            {
+              "source_id": "2",
+              "notes": "Core pan-reactive astrocyte markers including GFAP and CD44 are not present in input list but are characteristic of reactive glial phenotypes"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Histone Modification and Epigenetic Regulation",
+        "description": "This program encompasses histone-modifying enzymes and chromatin regulatory factors controlling epigenetic gene regulation and transcriptional responses. Key genes include HDAC2 (histone deacetylase 2), multiple histone variants, and histone acetyltransferase-related factors. HDAC2 belongs to the family of histone deacetylases that remove acetyl groups from histone and non-histone proteins, thereby regulating transcription through chromatin compaction and accessibility changes. HDAC2 acts through the formation of large multiprotein complexes that repress transcription of target genes. Histone deacetylase inhibitors have emerged as potential therapeutic agents in glioblastoma, suggesting that HDAC2-mediated epigenetic repression contributes to tumor maintenance. Circadian regulation may intersect with histone modification, as HDAC2 has been linked to circadian rhythm regulation. The collective histone gene expression in the input list (multiple histone variants) suggests active chromatin remodeling and altered nucleosome organization in the astrocytoma context.",
+        "atomic_biological_processes": [
+          {
+            "name": "Histone deacetylation and chromatin compaction",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "HDAC2 removes acetyl groups from histones, promoting chromatin compaction and transcriptional repression"
+              }
+            ],
+            "genes": [
+              "HDAC2"
+            ]
+          },
+          {
+            "name": "Circadian-epigenetic coupling",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "HDAC2 has been linked to circadian rhythm regulation, suggesting integration of circadian and epigenetic programs"
+              }
+            ],
+            "genes": [
+              "HDAC2"
+            ]
+          },
+          {
+            "name": "Chromatin remodeling and nucleosome organization",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "Histone variants and chromatin-remodeling complexes alter nucleosome organization and chromatin accessibility"
+              }
+            ],
+            "genes": [
+              "H1F0",
+              "H3F3B",
+              "HIST1H2AE",
+              "HIST1H2BD",
+              "HIST1H2BF",
+              "HIST1H2BG",
+              "HIST1H2BJ",
+              "HIST1H3J",
+              "HIST1H4H",
+              "HIST2H2BE",
+              "HIST3H2A"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Chromatin and nucleosomes",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "HDAC2 and histone variants localize to chromatin and regulate nucleosome structure"
+              }
+            ],
+            "genes": [
+              "HDAC2",
+              "H1F0",
+              "H3F3B",
+              "HIST1H2AE",
+              "HIST1H2BD",
+              "HIST1H2BF",
+              "HIST1H2BG",
+              "HIST1H2BJ",
+              "HIST1H3J",
+              "HIST1H4H",
+              "HIST2H2BE",
+              "HIST3H2A"
+            ]
+          },
+          {
+            "name": "Histone deacetylase complexes",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "HDAC2 functions as part of large multiprotein complexes regulating transcription"
+              }
+            ],
+            "genes": [
+              "HDAC2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dynamic epigenetic regulation permitting rapid transcriptional responses to microenvironmental cues",
+          "Stable silencing of genes opposing tumor progression through histone deacetylation and chromatin compaction",
+          "Altered histone isoform usage changing chromatin properties and accessibility",
+          "Circadian-dependent epigenetic regulation of DNA repair and chemotherapy sensitivity genes",
+          "Potential therapeutic vulnerability through histone deacetylase inhibitor treatment",
+          "Maintenance of altered transcriptional programs during rapid cell division through histone synthesis and variant incorporation"
+        ],
+        "evidence_summary": "Histone deacetylase inhibitors have emerged as potential therapeutic agents in glioblastoma, suggesting that histone deacetylation contributes to tumor maintenance through epigenetic silencing of tumor suppressors or other growth-inhibitory genes. HDAC2 specifically has been linked to circadian rhythm regulation, establishing a connection between epigenetic and circadian programs. The presence of multiple histone variant genes in the input list suggests active histone synthesis and variant isoform incorporation during rapid proliferation. Epigenetic regulation through histone modification represents a mechanism for maintaining stable expression of tumor-promoting genes while retaining plasticity to respond to acute microenvironmental changes.",
+        "significance_score": 0.68,
+        "citations": [
+          {
+            "source_id": "37",
+            "notes": "HDAC2 histone deacetylase family member in chromatin regulation and epigenetic control"
+          }
+        ],
+        "supporting_genes": [
+          "HDAC2",
+          "H1F0",
+          "H3F3B",
+          "HIST1H2AE",
+          "HIST1H2BD",
+          "HIST1H2BF",
+          "HIST1H2BG",
+          "HIST1H2BJ",
+          "HIST1H3J",
+          "HIST1H4H",
+          "HIST2H2BE",
+          "HIST3H2A"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "HAT proteins",
+            "Chromatin remodeling complexes",
+            "Corepressor proteins"
+          ],
+          "citations": [
+            {
+              "source_id": "37",
+              "notes": "Histone acetyltransferases and chromatin-remodeling complexes are not present in input list but are required for full epigenetic regulation"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Pathway databases (KEGG, Reactome)",
+        "Literature co-citation analysis of gene function in stress responses and glial biology",
+        "Protein-protein interaction networks in canonical pathways",
+        "Shared molecular processes and cellular localization",
+        "Disease context: astrocytoma-specific transcriptomic alterations and microenvironment characteristics"
+      ],
+      "notes": "Gene programs were systematically derived through literature analysis focusing on functional roles in both normal astrocyte physiology and astrocytoma pathology. Programs represent coherent clusters of genes participating in specific biological processes or cellular states, with emphasis on interconnections between programs. Gene assignments prioritize direct experimental evidence from cited sources while acknowledging that many individual gene functions remain incompletely characterized in astrocytoma specifically. Missing pathway components are noted to guide future investigations."
+    },
+    "version": "1.0"
+  }
+}

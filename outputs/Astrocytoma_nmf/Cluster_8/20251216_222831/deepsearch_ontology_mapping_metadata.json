@@ -1,0 +1,20 @@
+{
+  "total_processes": 24,
+  "total_components": 22,
+  "mapped_processes": 23,
+  "mapped_components": 20,
+  "failed_mappings": [
+    {
+      "term": "Secreted signaling molecule complexes",
+      "type": "component"
+    },
+    {
+      "term": "Growth factor receptor complexes",
+      "type": "component"
+    },
+    {
+      "term": "Synthesis of 2-hydroxy fatty acids for myelin",
+      "type": "process"
+    }
+  ]
+}

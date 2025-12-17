@@ -1,0 +1,48 @@
+{
+  "total_processes": 41,
+  "total_components": 16,
+  "mapped_processes": 32,
+  "mapped_components": 15,
+  "failed_mappings": [
+    {
+      "term": "EMT-associated transcriptional repression",
+      "type": "process"
+    },
+    {
+      "term": "Transcription-activating chromatin mark deposition",
+      "type": "process"
+    },
+    {
+      "term": "Epigenetic plasticity in drug-tolerant states",
+      "type": "process"
+    },
+    {
+      "term": "Rac-mediated junction disruption and cytoskeletal remodeling",
+      "type": "process"
+    },
+    {
+      "term": "Crumbs polarity complex at tight junctions",
+      "type": "component"
+    },
+    {
+      "term": "Growth factor sequestration and bioavailability",
+      "type": "process"
+    },
+    {
+      "term": "NF-κB pathway activation through NO signaling",
+      "type": "process"
+    },
+    {
+      "term": "cAMP-responsive element (CRE) transcriptional activation",
+      "type": "process"
+    },
+    {
+      "term": "Rac-mediated cytoskeletal remodeling and migration",
+      "type": "process"
+    },
+    {
+      "term": "Neural cell identity maintenance",
+      "type": "process"
+    }
+  ]
+}

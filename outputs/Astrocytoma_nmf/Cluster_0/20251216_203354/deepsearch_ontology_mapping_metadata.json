@@ -1,0 +1,28 @@
+{
+  "total_processes": 40,
+  "total_components": 17,
+  "mapped_processes": 37,
+  "mapped_components": 15,
+  "failed_mappings": [
+    {
+      "term": "Perivascular interface organization",
+      "type": "process"
+    },
+    {
+      "term": "Receptor tyrosine kinase complexes",
+      "type": "component"
+    },
+    {
+      "term": "Membrane composition remodeling",
+      "type": "process"
+    },
+    {
+      "term": "Astrocyte and neuron metabolic coupling interface",
+      "type": "component"
+    },
+    {
+      "term": "Tumor-associated seizure susceptibility",
+      "type": "process"
+    }
+  ]
+}

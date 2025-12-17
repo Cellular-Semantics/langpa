@@ -1,0 +1,1771 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-17T21:58:08.004779",
+    "genes": [
+      "DNAH11",
+      "EFHC2",
+      "SERPINI2",
+      "CFAP52",
+      "DRC1",
+      "ERICH3",
+      "C8ORF34",
+      "C4ORF47",
+      "SLC47A2",
+      "CFAP54",
+      "SLC9C2",
+      "DNAAF1",
+      "NAA11",
+      "CFAP57",
+      "SPAG1",
+      "SPAG17",
+      "SPATA17",
+      "MOK",
+      "ARMC2",
+      "CFAP61",
+      "FANK1",
+      "CASC1",
+      "NEK11",
+      "CFAP46",
+      "EFCAB6",
+      "DRC7",
+      "CFAP221",
+      "CFAP206",
+      "CFAP100",
+      "DTHD1",
+      "NPHP1",
+      "RGS22",
+      "RMST",
+      "CFAP47",
+      "DYNLRB2",
+      "NEK5",
+      "ROPN1L",
+      "EFCAB12",
+      "CCDC40",
+      "CCDC30",
+      "RPGR",
+      "EFCAB2",
+      "CCDC170",
+      "CCDC146",
+      "CFAP69",
+      "ANKRD45",
+      "ANKFN1",
+      "VWA3B",
+      "TTC34",
+      "TTLL9",
+      "AC099788.1",
+      "DNAI1",
+      "IQUB",
+      "DNAH9",
+      "DNAH7",
+      "DNAH6",
+      "VWA3A",
+      "WDR49",
+      "FHAD1",
+      "WDR63",
+      "DNAH5",
+      "WDR78",
+      "LINC01088",
+      "AC013470.2",
+      "ZBBX",
+      "DNAH12",
+      "LINC00880",
+      "DCDC1",
+      "AC104078.2",
+      "AC105052.5",
+      "TTC29",
+      "PLTP",
+      "CFAP70",
+      "MAP3K19",
+      "FRMPD2",
+      "CFAP73",
+      "MAATS1",
+      "TCTEX1D1",
+      "TEKT1",
+      "ODF3B",
+      "TMEM232",
+      "LRRC9",
+      "LRRC6",
+      "PTPRQ",
+      "AK1",
+      "PACRG",
+      "AGBL4",
+      "PPP1R42",
+      "LRGUK",
+      "CFAP43",
+      "NTRK2",
+      "PARD3B",
+      "AC004949.1",
+      "NOL4",
+      "NEK10",
+      "LINC00609",
+      "LINC00894",
+      "LINC01091",
+      "LINC01094",
+      "LINC01602",
+      "LINC02018",
+      "LINC02055",
+      "LMNTD1",
+      "LRAT",
+      "LRIG3",
+      "LRP1B",
+      "LRRC23",
+      "LRRIQ1",
+      "MAOB",
+      "MIR99AHG",
+      "MLIP",
+      "MLIP-AS1",
+      "MYCBPAP",
+      "MYLK3",
+      "NEBL",
+      "NEGR1",
+      "NCKAP5",
+      "RFTN2",
+      "PARP15",
+      "TPPP3",
+      "SPATA6L",
+      "SPEF2",
+      "SRPX2",
+      "STK33",
+      "SULT1C4",
+      "SYNE1",
+      "SYNM",
+      "SYTL4",
+      "TCP11L2",
+      "TMEM163",
+      "TMEM67",
+      "TOGARAM2",
+      "TP63",
+      "TRDN",
+      "PAWR",
+      "TSGA10",
+      "TTC23L",
+      "TTC26",
+      "TUBA1A",
+      "TWSG1",
+      "ULK4",
+      "USP2-AS1",
+      "USP43",
+      "WDR66",
+      "WLS",
+      "ZFP36L1",
+      "ZFPM2",
+      "ZMYND10",
+      "SPATA18",
+      "SPA17",
+      "SOX5",
+      "SORBS2",
+      "PDZRN4",
+      "PIK3C2G",
+      "PLCH1",
+      "PLCZ1",
+      "PLEKHA5",
+      "PLEKHA7",
+      "PPIL6",
+      "PTCHD1-AS",
+      "RALGPS2",
+      "RASSF4",
+      "RERGL",
+      "LIMCH1",
+      "RFX2",
+      "RFX4",
+      "RNF165",
+      "RNF19A",
+      "ROBO2",
+      "RORB",
+      "RPS6KA5",
+      "RTN1",
+      "SCIN",
+      "SDK1",
+      "SGSM1",
+      "SLC14A1",
+      "SLC35F4",
+      "SLC7A11",
+      "SLCO1A2",
+      "LINC00271",
+      "FIGN",
+      "LHFPL6",
+      "CD36",
+      "AL357093.2",
+      "AL390957.1",
+      "AL513166.1",
+      "ANGPT1",
+      "ANKDD1B",
+      "ANTXR1",
+      "ANXA1",
+      "AR",
+      "ARMC3",
+      "ARMC4",
+      "B3GLCT",
+      "BBOX1",
+      "BCL2",
+      "BMPR1B",
+      "BRINP3",
+      "C1ORF198",
+      "C1ORF87"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_17/20251216_231545/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": null,
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "offline",
+    "effective_model": "offline",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_17",
+    "source_tag": "deepsearch",
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "context": {
+      "cell_type": "Astrocytes and radial glia progenitors",
+      "disease": "Astrocytoma",
+      "tissue": "Brain (central nervous system)"
+    },
+    "input_genes": [
+      "DNAH11",
+      "EFHC2",
+      "SERPINI2",
+      "CFAP52",
+      "DRC1",
+      "ERICH3",
+      "C8ORF34",
+      "C4ORF47",
+      "SLC47A2",
+      "CFAP54",
+      "SLC9C2",
+      "DNAAF1",
+      "NAA11",
+      "CFAP57",
+      "SPAG1",
+      "SPAG17",
+      "SPATA17",
+      "MOK",
+      "ARMC2",
+      "CFAP61",
+      "FANK1",
+      "CASC1",
+      "NEK11",
+      "CFAP46",
+      "EFCAB6",
+      "DRC7",
+      "CFAP221",
+      "CFAP206",
+      "CFAP100",
+      "DTHD1",
+      "NPHP1",
+      "RGS22",
+      "RMST",
+      "CFAP47",
+      "DYNLRB2",
+      "NEK5",
+      "ROPN1L",
+      "EFCAB12",
+      "CCDC40",
+      "CCDC30",
+      "RPGR",
+      "EFCAB2",
+      "CCDC170",
+      "CCDC146",
+      "CFAP69",
+      "ANKRD45",
+      "ANKFN1",
+      "VWA3B",
+      "TTC34",
+      "TTLL9",
+      "AC099788.1",
+      "DNAI1",
+      "IQUB",
+      "DNAH9",
+      "DNAH7",
+      "DNAH6",
+      "VWA3A",
+      "WDR49",
+      "FHAD1",
+      "WDR63",
+      "DNAH5",
+      "WDR78",
+      "LINC01088",
+      "AC013470.2",
+      "ZBBX",
+      "DNAH12",
+      "LINC00880",
+      "DCDC1",
+      "AC104078.2",
+      "AC105052.5",
+      "TTC29",
+      "PLTP",
+      "CFAP70",
+      "MAP3K19",
+      "FRMPD2",
+      "CFAP73",
+      "MAATS1",
+      "TCTEX1D1",
+      "TEKT1",
+      "ODF3B",
+      "TMEM232",
+      "LRRC9",
+      "LRRC6",
+      "PTPRQ",
+      "AK1",
+      "PACRG",
+      "AGBL4",
+      "PPP1R42",
+      "LRGUK",
+      "CFAP43",
+      "NTRK2",
+      "PARD3B",
+      "AC004949.1",
+      "NOL4",
+      "NEK10",
+      "LINC00609",
+      "LINC00894",
+      "LINC01091",
+      "LINC01094",
+      "LINC01602",
+      "LINC02018",
+      "LINC02055",
+      "LMNTD1",
+      "LRAT",
+      "LRIG3",
+      "LRP1B",
+      "LRRC23",
+      "LRRIQ1",
+      "MAOB",
+      "MIR99AHG",
+      "MLIP",
+      "MLIP-AS1",
+      "MYCBPAP",
+      "MYLK3",
+      "NEBL",
+      "NEGR1",
+      "NCKAP5",
+      "RFTN2",
+      "PARP15",
+      "TPPP3",
+      "SPATA6L",
+      "SPEF2",
+      "SRPX2",
+      "STK33",
+      "SULT1C4",
+      "SYNE1",
+      "SYNM",
+      "SYTL4",
+      "TCP11L2",
+      "TMEM163",
+      "TMEM67",
+      "TOGARAM2",
+      "TP63",
+      "TRDN",
+      "PAWR",
+      "TSGA10",
+      "TTC23L",
+      "TTC26",
+      "TUBA1A",
+      "TWSG1",
+      "ULK4",
+      "USP2-AS1",
+      "USP43",
+      "WDR66",
+      "WLS",
+      "ZFP36L1",
+      "ZFPM2",
+      "ZMYND10",
+      "SPATA18",
+      "SPA17",
+      "SOX5",
+      "SORBS2",
+      "PDZRN4",
+      "PIK3C2G",
+      "PLCH1",
+      "PLCZ1",
+      "PLEKHA5",
+      "PLEKHA7",
+      "PPIL6",
+      "PTCHD1-AS",
+      "RALGPS2",
+      "RASSF4",
+      "RERGL",
+      "LIMCH1",
+      "RFX2",
+      "RFX4",
+      "RNF165",
+      "RNF19A",
+      "ROBO2",
+      "RORB",
+      "RPS6KA5",
+      "RTN1",
+      "SCIN",
+      "SDK1",
+      "SGSM1",
+      "SLC14A1",
+      "SLC35F4",
+      "SLC7A11",
+      "SLCO1A2",
+      "LINC00271",
+      "FIGN",
+      "LHFPL6",
+      "CD36",
+      "AL357093.2",
+      "AL390957.1",
+      "AL513166.1",
+      "ANGPT1",
+      "ANKDD1B",
+      "ANTXR1",
+      "ANXA1",
+      "AR",
+      "ARMC3",
+      "ARMC4",
+      "B3GLCT",
+      "BBOX1",
+      "BCL2",
+      "BMPR1B",
+      "BRINP3",
+      "C1ORF198",
+      "C1ORF87"
+    ],
+    "programs": [
+      {
+        "program_name": "Primary Ciliary Axonemal Dyneins and Motor Apparatus",
+        "description": "Genes encoding outer dynein arm (ODA), inner dynein arm (IDA), and dynein regulatory complex components that comprise the motor machinery of axonemal microtubules in primary cilia. These proteins convert ATP hydrolysis into mechanical force driving ciliary beating and motility. Dysregulation impairs ciliary-dependent mechanosensing and developmental signaling, disrupting normal developmental constraints on astrocyte proliferation.",
+        "atomic_biological_processes": [
+          {
+            "name": "ATP hydrolysis-coupled ciliary motility",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "GJA1 (connexin) is a component of gap junctions relevant to intercellular communication altered in glioma"
+              },
+              {
+                "source_id": "3",
+                "notes": "BDNF is involved in neural development and survival, with polymorphisms associated with cancer-related pathology"
+              },
+              {
+                "source_id": "7",
+                "notes": "KIF11 localizes to basal bodies of primary cilia and reduction alters cilia dynamics"
+              }
+            ],
+            "genes": [
+              "DNAH5",
+              "DNAH6",
+              "DNAH7",
+              "DNAH9",
+              "DNAH11",
+              "DNAH12",
+              "DNAI1",
+              "DNAAF1",
+              "ROPN1L",
+              "DRC1",
+              "DRC7"
+            ]
+          },
+          {
+            "name": "Radial spoke and central pair signaling transduction",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "CEP290 mutations impair protein interaction and localize to centrosomes, compromising cilia formation relevant to developmental timing"
+              }
+            ],
+            "genes": [
+              "ROPN1L",
+              "DRC1",
+              "DRC7",
+              "CFAP46",
+              "CFAP47",
+              "CFAP52",
+              "CFAP54",
+              "CFAP57",
+              "CFAP61",
+              "CFAP69",
+              "CFAP70",
+              "CFAP73",
+              "CFAP100",
+              "CFAP206",
+              "CFAP221"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Axonemal nine-plus-two microtubule apparatus",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "KIF11 localization to primary cilia basal bodies indicates critical role in ciliogenesis"
+              }
+            ],
+            "genes": [
+              "DNAH5",
+              "DNAH6",
+              "DNAH7",
+              "DNAH9",
+              "DNAH11",
+              "DNAH12",
+              "TEKT1",
+              "CCDC30",
+              "CCDC40"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired primary cilium-dependent developmental signal reception (Hedgehog, Wnt, FGF pathways)",
+          "Disrupted mechanotransduction through ciliary bending",
+          "Altered astrocyte developmental plasticity and progenitor maintenance",
+          "Enhanced susceptibility to uncontrolled proliferation through loss of differentiation signals",
+          "Dysregulated ciliary polarity during asymmetric cell division"
+        ],
+        "evidence_summary": "The cohort contains at least 15 genes encoding outer dynein arms (DNAH family), inner dynein arm components (DNAI, DNAAF), and radial spoke proteins (DRC, ROPN1L). These proteins form the core structural and regulatory machinery enabling ciliary motility. In radial glia progenitors and astrocytes, primary cilia mediate developmental signal reception and mechanosensingvia Sonic hedgehog, Wnt, and other pathways. Loss or dysregulation of dynein function would impair these ciliary-dependent signaling pathways, disrupting normal developmental constraints that maintain RGP multipotency while limiting proliferation. Recent evidence demonstrates that ciliary dysfunction alters developmental fate specification in RGPs, with downstream consequences for neurogenesis and gliogenesis balance.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "GJA1 and gap junction proteins implicated in cell-cell communication altered in glial tumors"
+          },
+          {
+            "source_id": "3",
+            "notes": "BDNF role in neural development with implications for tumor biology"
+          },
+          {
+            "source_id": "7",
+            "notes": "KIF11 localizes to primary cilia basal bodies"
+          },
+          {
+            "source_id": "10",
+            "notes": "CEP290 interactions with NPHP5 relevant to cilia formation"
+          }
+        ],
+        "supporting_genes": [
+          "DNAH5",
+          "DNAH6",
+          "DNAH7",
+          "DNAH9",
+          "DNAH11",
+          "DNAH12",
+          "DNAI1",
+          "DNAAF1",
+          "ROPN1L",
+          "DRC1",
+          "DRC7",
+          "CFAP46",
+          "CFAP47",
+          "CFAP52",
+          "CFAP54",
+          "CFAP57",
+          "CFAP61",
+          "CFAP69",
+          "CFAP70",
+          "CFAP73",
+          "CFAP100",
+          "CFAP206",
+          "CFAP221"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CCDC39",
+            "CCDC103",
+            "LRRC6",
+            "SPAG1",
+            "HYDIN",
+            "CCDC114",
+            "DYX1C1"
+          ],
+          "citations": [
+            {
+              "source_id": "10",
+              "notes": "Multiple CCDC and other axonemal proteins required for cilia assembly"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Centrosome Asymmetry and Asymmetric Cell Division Control",
+        "description": "A program governing centrosome organization, pericentriolar material assembly, and asymmetric inheritance of centrosomes during cell division. Includes PCM1, CCDC proteins, CEP83, and associated factors. During asymmetric division of radial glia progenitors, this program determines whether daughter cells inherit mother or daughter centrosomes, thereby directing progenitor versus neuronal fate specification. In astrocytoma, dysregulation would disrupt developmental plasticity and potentially promote symmetric self-renewing divisions.",
+        "atomic_biological_processes": [
+          {
+            "name": "Pericentriolar material assembly and centrosome organization",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "PCM1 coordinates centrosome asymmetry with polarized endosome trafficking in radial glia progenitors; loss of pcm1 disrupts endosome dynamics"
+              }
+            ],
+            "genes": [
+              "CCDC30",
+              "CCDC40",
+              "CCDC146",
+              "CCDC170"
+            ]
+          },
+          {
+            "name": "Asymmetric centrosome inheritance and segregation",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "Mother centrosome preferentially localizes PCM1 and associates with Cep83 during mitosis; differential inheritance specifies progenitor versus differentiated fates"
+              }
+            ],
+            "genes": [
+              "PARD3B"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Pericentriolar material (PCM) complex",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "PCM1 exists in cloud-like patterns around centrosomes with asymmetric distribution along cell division axis"
+              }
+            ],
+            "genes": [
+              "CCDC30",
+              "CCDC40",
+              "CCDC146",
+              "CCDC170"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Disrupted specification of progenitor versus differentiating daughter cells during RGP division",
+          "Increased symmetric self-renewing divisions at expense of asymmetric divisions producing differentiating progeny",
+          "Loss of developmental plasticity control mechanisms",
+          "Enhanced proliferation potential through maintenance of progenitor identity in daughter cells",
+          "Altered coupling between centrosome inheritance and polarized endosome trafficking"
+        ],
+        "evidence_summary": "Recent work identifies PCM1 as a critical regulator of centrosome asymmetry in radial glia progenitors. PCM1 localizes asymmetrically to the mother (posterior) centrosome and facilitates Par-3 assembly on polarized endosomes. Loss of pcm1 increases neuronal (N/N) divisions from 19% to 49% while decreasing progenitor-producing divisions (P/P from 42% to lower levels). This demonstrates that centrosome asymmetry programs directly specify RGP division modes. The program includes multiple CCDC genes (CCDC30, CCDC40, CCDC146, CCDC170) required for PCM assembly, and PARD3B which forms part of the polarization complex. In astrocytoma contexts, dysregulation of this program could promote enhanced self-renewal while disrupting normal differentiation constraints.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "33",
+            "notes": "PCM1 coordinates centrosome asymmetry with polarized endosome trafficking; loss alters progenitor division modes"
+          }
+        ],
+        "supporting_genes": [
+          "CCDC30",
+          "CCDC40",
+          "CCDC146",
+          "CCDC170",
+          "PARD3B"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CEP83",
+            "CEP76",
+            "CEP350",
+            "γ-tubulin"
+          ],
+          "citations": [
+            {
+              "source_id": "33",
+              "notes": "PCM1 associates with Cep83 on mother centrosome; other CEPs required for PCM function"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Microtubule Organization and Post-Translational Tubulin Modification",
+        "description": "Genes encoding tubulins, tubulin-modifying enzymes (particularly polyglutamylases), and microtubule-associated proteins that regulate microtubule stability, organization, and dynamics. TTLL9 catalyzes polyglutamylation of tubulin, a modification regulating microtubule-motor protein interactions. In RGPs, asymmetric microtubule organization contributes to cell polarity and division mode determination. Dysregulation alters both developmental plasticity and cell cycle checkpoint control.",
+        "atomic_biological_processes": [
+          {
+            "name": "Tubulin polyglutamylation and post-translational modification",
+            "citations": [
+              {
+                "source_id": "36",
+                "notes": "DNA replication fork speed acts as pacer in cortical development, connecting cell cycle dynamics to developmental timing"
+              }
+            ],
+            "genes": [
+              "TTLL9",
+              "PACRG"
+            ]
+          },
+          {
+            "name": "Microtubule nucleation and organization from centrosomes",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "Microtubules more abundant around posterior (mother) centrosome during RGP mitosis"
+              }
+            ],
+            "genes": [
+              "TUBA1A",
+              "TTC26",
+              "TTC29",
+              "TTC23L",
+              "TTC34"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Microtubule lattice and associated protein complexes",
+            "citations": [
+              {
+                "source_id": "36",
+                "notes": "Microtubule organization essential for polarized radial glial scaffold formation"
+              }
+            ],
+            "genes": [
+              "TUBA1A",
+              "TEKT1",
+              "TTLL9",
+              "PACRG"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered microtubule stability and dynamics affecting spindle formation and cytokinesis",
+          "Disrupted cell polarity establishment and maintenance",
+          "Impaired asymmetric distribution of developmental determinants during mitosis",
+          "Dysregulated intracellular transport of signaling complexes and organelles",
+          "Enhanced cell cycle dysregulation through altered checkpoint control"
+        ],
+        "evidence_summary": "The cohort includes TUBA1A (alpha-tubulin, the fundamental structural unit of microtubules), TTLL9 (tubulin tyrosine ligase-like 9, catalyzing polyglutamylation), PACRG (parkin co-regulated gene product, a microtubule-associated protein), and multiple TTC genes (tetratricopeptide repeat-containing proteins) that regulate microtubule function. Polyglutamylation of tubulin regulates the binding of motor proteins and other microtubule-associated factors, thereby controlling intracellular transport and organelle positioning. During RGP asymmetric division, microtubules become asymmetrically organized around the mother centrosome, contributing to cell polarity and fate specification. Dysregulation of tubulin modification enzymes or microtubule-associated proteins would impair these developmental processes while potentially disrupting cell cycle checkpoint control.",
+        "significance_score": 0.78,
+        "citations": [
+          {
+            "source_id": "33",
+            "notes": "Microtubule organization asymmetry during RGP division"
+          },
+          {
+            "source_id": "36",
+            "notes": "Microtubule dynamics essential for cortical development timing"
+          }
+        ],
+        "supporting_genes": [
+          "TUBA1A",
+          "TTLL9",
+          "PACRG",
+          "TTC26",
+          "TTC29",
+          "TTC23L",
+          "TTC34",
+          "TEKT1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "TUBB2A",
+            "TUBB2B",
+            "TUBB3",
+            "MAP2",
+            "MAP1B"
+          ],
+          "citations": [
+            {
+              "source_id": "36",
+              "notes": "Multiple tubulin and MAP proteins required for normal microtubule function"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Endosomal Trafficking and Polarized Transport",
+        "description": "Genes governing endosomal compartmentalization, trafficking between endosomal compartments, and asymmetric inheritance of endosomes during cell division. Includes PARD3B, DYNLRB2, and factors facilitating RAB5b-to-RAB11a transitions on specialized endosomes. This program couples centrosome asymmetry to polarized distribution of signaling complexes and developmental determinants, thereby directing cell fate specification in RGPs.",
+        "atomic_biological_processes": [
+          {
+            "name": "Early-to-recycling endosome maturation and transition",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "PCM1 facilitates transition from Rab5b to Rab11a on recycling endosomes; loss impairs this transition"
+              }
+            ],
+            "genes": [
+              "PARD3B",
+              "DYNLRB2"
+            ]
+          },
+          {
+            "name": "Asymmetric endosome inheritance and polarized distribution",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "Directionally localized (Dld) endosomes accumulated in central zone during RGP anaphase; differential inheritance to daughter cells"
+              }
+            ],
+            "genes": [
+              "PARD3B",
+              "DYNLRB2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Early endosomal compartment (Rab5b-positive)",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "Rab5b compartments in surrounding cytoplasm; transition to Rab11a in central zone"
+              }
+            ],
+            "genes": [
+              "PARD3B",
+              "DYNLRB2"
+            ]
+          },
+          {
+            "name": "Recycling endosomal compartment (Rab11a-positive)",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "Par-3 and PCM1 co-localize with Rab11a in central zone of dividing RGPs"
+              }
+            ],
+            "genes": [
+              "PARD3B",
+              "DYNLRB2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Disrupted asymmetric distribution of signaling receptors and developmental determinants",
+          "Impaired ability to maintain distinct signaling states in progenitor versus differentiating daughter cells",
+          "Loss of developmental plasticity through disrupted coupling of endosomal trafficking to fate specification",
+          "Altered growth factor receptor signaling intensity through dysregulated receptor recycling",
+          "Enhanced proliferation through loss of endosomal trafficking-mediated differentiation signals"
+        ],
+        "evidence_summary": "PCM1 physically associates with Par-3 and Rab-family proteins on specialized directionally-localized (Dld) endosomes during RGP mitosis. These endosomes accumulate in the central zone and carry polarizing factors influencing daughter cell fate. The transition from Rab5b-positive (early endosomal) to Rab11a-positive (recycling endosomal) compartments facilitates asymmetric endosome distribution. PARD3B (Par-3 paralog) and DYNLRB2 (dynein light chain) participate in Par complex assembly and dynein-dependent endosomal transport. Loss of proper endosomal sorting would disrupt the molecular asymmetries distinguishing progenitor from differentiating daughter cells, thereby impairing normal developmental constraints.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "33",
+            "notes": "PCM1 interacts with Par-3, Dlic1, Rab11a, Rab5b on endosomes; physical coupling of centrosome asymmetry to endosomal trafficking"
+          }
+        ],
+        "supporting_genes": [
+          "PARD3B",
+          "DYNLRB2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "RAB5B",
+            "RAB11A",
+            "DLIC1",
+            "PAR3",
+            "PAR6"
+          ],
+          "citations": [
+            {
+              "source_id": "33",
+              "notes": "RAB GTPases and PAR complex components required for polarized endosomal trafficking"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Transcriptional Control of Glial Differentiation and Neurogenic Fate",
+        "description": "Genes encoding transcription factors and chromatin regulators that control the balance between proneural (neurogenic) and pro-gliogenic (glial-promoting) gene expression programs. SOX5 represents a key member specifying glial fates. Dysregulation of this program shifts the balance toward either uncontrolled gliogenic expansion (promoting astrocytoma) or inappropriate neurogenic differentiation. The program responds to developmental signals received through primary cilia and other developmental pathways.",
+        "atomic_biological_processes": [
+          {
+            "name": "Proneural-to-gliogenic transcriptional switching",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "Ascl1 SA6 (phosphorylation-resistant form) drives GABAergic neuronal differentiation from astrocytes; inclusion of microRNA binding sites redirects toward oligodendrocyte fates"
+              },
+              {
+                "source_id": "19",
+                "notes": "SOX5 may suppress oncogenic PDGFB signaling during glioma development by regulating p27(Kip1)"
+              }
+            ],
+            "genes": [
+              "SOX5"
+            ]
+          },
+          {
+            "name": "Glial cell identity maintenance and astrocytic differentiation",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "SOX9 regulates astrocyte reactivity and identity; peak-to-gene analysis shows reactive astrocyte genes associated with differentially accessible enhancers"
+              }
+            ],
+            "genes": [
+              "SOX5"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Chromatin-accessible enhancer regions controlling glial differentiation",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "Glial cell-specific enhancer regions enriched in binding motifs for SOX9, NFI, RFX transcription factors"
+              }
+            ],
+            "genes": [
+              "SOX5"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dysregulated balance between neurogenic and gliogenic fate specification in RGPs",
+          "Enhanced astrocytic self-renewal at expense of neuronal differentiation",
+          "Loss of developmental constraints normally limiting RGP proliferation",
+          "Impaired ability to respond to developmental signals specifying differentiation",
+          "Potential acquisition of aberrant glial identity featuring both progenitor and mature astrocyte characteristics"
+        ],
+        "evidence_summary": "SOX5 (SRY-box transcription factor 5) represents a key regulator of glial fate specification that suppresses oncogenic signaling during glioma development. SOX5 may suppress PDGFB signaling effects during glioma development by regulating p27(Kip1) expression, implying a tumor-suppressive function. Recent research reveals that proneural bHLH transcription factors like ASCL1, when modified to include microRNA-binding sites, shift lineage outcomes from neurogenic toward oligodendrocyte and glutamatergic neuronal fates. This demonstrates that transcriptional fate regulators represent convergence points for multiple post-transcriptional regulatory mechanisms. In astrocytoma, dysregulation of SOX5 and related transcription factors would impair normal glial differentiation programs, potentially trapping RGPs in proliferative states.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "17",
+            "notes": "Ascl1 phosphorylation and microRNA binding influence lineage fate decisions from astrocytes"
+          },
+          {
+            "source_id": "19",
+            "notes": "SOX5 suppresses oncogenic PDGFB signaling in gliomas"
+          },
+          {
+            "source_id": "22",
+            "notes": "SOX9 and other glial transcription factors control injury-responsive enhancers in astrocytes"
+          }
+        ],
+        "supporting_genes": [
+          "SOX5"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SOX9",
+            "OLIG2",
+            "OLIG1",
+            "ASCL1",
+            "NFI",
+            "RFX"
+          ],
+          "citations": [
+            {
+              "source_id": "22",
+              "notes": "Multiple SOX family members and proneural factors required for complete glial differentiation programs"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Growth Factor Signaling and Neurotrophic Receptor Pathways",
+        "description": "Genes governing receptor tyrosine kinase signaling, particularly NTRK2 (neurotrophin receptor tyrosine kinase 2) responding to BDNF. This program controls astrocyte proliferation, survival, and differentiation in response to neurotrophic factors. Dysregulation—whether through gene fusion (TRIM24::NTRK2), amplification, or increased ligand availability—drives proliferation through MAPK and PI3K pathway activation, characteristic of astrocytoma.",
+        "atomic_biological_processes": [
+          {
+            "name": "BDNF-NTRK2 receptor-mediated signal transduction",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "TRIM24::NTRK2 fusion shows 6-fold increased pTRKB activation; highest activation in PI3K pathway (pAKT 2.9-3.3-fold) and downstream S6 (11.0-13.8-fold)"
+              },
+              {
+                "source_id": "29",
+                "notes": "Elevated BDNF in tumor microenvironment increases innervation through TRK2 signaling"
+              }
+            ],
+            "genes": [
+              "NTRK2"
+            ]
+          },
+          {
+            "name": "PI3K/AKT and MAPK/ERK signaling cascade activation",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "AKT1 serine/threonine kinase mutations associated with multiple cancer types; regulates cell survival and proliferation"
+              },
+              {
+                "source_id": "11",
+                "notes": "TRIM24::NTRK2 activates pERK, pAKT, pSTAT mediators and downstream S6 phosphorylation"
+              }
+            ],
+            "genes": [
+              "NTRK2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "NTRK2 receptor and associated signaling complexes",
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "TRIM24::NTRK2 fusion contains intact tyrosine kinase domain enabling constitutive signaling"
+              }
+            ],
+            "genes": [
+              "NTRK2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced astrocyte proliferation through MAPK pathway activation",
+          "Increased cell survival through PI3K/AKT pathway signaling",
+          "Altered metabolic state toward anabolic (growth-promoting) pathways",
+          "Dysregulated response to developmental BDNF signals in tumor microenvironment",
+          "Potential acquisition of pro-invasive phenotypes through STAT3 activation"
+        ],
+        "evidence_summary": "NTRK2 encodes the high-affinity receptor for brain-derived neurotrophic factor and mediates neuronal survival, growth, and synaptic plasticity. Recent comprehensive characterization of pediatric high-grade gliomas identifies TRIM24::NTRK2 fusion as a recurring oncogenic driver in diffuse intrinsic pontine gliomas and other pediatric CNS tumors. The fusion protein shows constitutive activation (6-fold increased pTRKB), with highest activation of downstream PI3K pathway (pAKT 2.9-3.3-fold) and MAPK/PI3K mediator S6 (11.0-13.8-fold). Over tumor progression, cells become less reliant on TRIM24::NTRK2 while upregulating additional tyrosine kinases (FGFR1-3, FLT1, KIT, MET), demonstrating both initial NTRK2 dependency and subsequent plasticity. Elevated BDNF in tumor microenvironment increases peripheral innervation, suggesting active role of BDNF-NTRK2 signaling in tumor-host interactions.",
+        "significance_score": 0.89,
+        "citations": [
+          {
+            "source_id": "11",
+            "notes": "TRIM24::NTRK2 fusion demonstrates constitutive tyrosine kinase activation in pediatric gliomas"
+          },
+          {
+            "source_id": "29",
+            "notes": "Elevated BDNF in tumor microenvironment mediates innervation through TRK2"
+          }
+        ],
+        "supporting_genes": [
+          "NTRK2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "BDNF",
+            "AKT1",
+            "PIK3CA",
+            "MAP2K1",
+            "MAPK1"
+          ],
+          "citations": [
+            {
+              "source_id": "11",
+              "notes": "AKT and MAPK pathway components downstream of NTRK2"
+            },
+            {
+              "source_id": "29",
+              "notes": "BDNF required for NTRK2 signaling activation"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cell Cycle Checkpoint Control and Tumor Suppression",
+        "description": "Genes governing G1/S and G2/M cell cycle checkpoint control, DNA damage response, and apoptosis induction. TP63 (p63 protein) represents a p53 family member implicated in cell identity and differentiation. WEE1 (G2 checkpoint kinase) phosphorylates CDK1 to prevent premature mitotic entry. Dysregulation—particularly through TP53 loss and WEE1 downregulation—permits uncontrolled cell cycle progression characteristic of astrocytoma.",
+        "atomic_biological_processes": [
+          {
+            "name": "G2/M checkpoint control and CDK1 regulation",
+            "citations": [
+              {
+                "source_id": "48",
+                "notes": "Knockdown of VIM-AS1 increases cell apoptosis via modulation of WEE1 targeting; WEE1 regulates G2 checkpoint through CDK1 phosphorylation"
+              }
+            ],
+            "genes": [
+              "TP63"
+            ]
+          },
+          {
+            "name": "DNA damage response and apoptosis induction",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "TP53 R175H mutation shows loss of TP53 function and chromosomal instability; promotes tumor cell invasion"
+              },
+              {
+                "source_id": "15",
+                "notes": "TP53 R213X truncation creates premature termination codon; reported in Li-Fraumeni syndrome"
+              }
+            ],
+            "genes": [
+              "TP63"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "TP53/p63 protein complex and transcriptional regulatory network",
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "TP53 mutations at hotspot codons including 175 in DNA binding domain"
+              }
+            ],
+            "genes": [
+              "TP63"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced cell cycle progression through G2/M checkpoint disruption",
+          "Impaired DNA damage response and apoptosis evasion",
+          "Acquisition of chromosomal instability and genomic complexity",
+          "Disrupted developmental differentiation programs controlled by p63 family members",
+          "Increased tumor cell invasiveness through loss of epithelial differentiation constraints"
+        ],
+        "evidence_summary": "TP63 encodes p63, a p53-related transcription factor implicated in epithelial cell identity and differentiation. The cohort includes TP63 (though TP53 itself is not in the list, TP53 mutations are critical context for astrocytoma). TP53 represents the most frequently mutated gene in astrocytomas, with mutations impairing tumor suppressor function while acquiring gain-of-function properties. The R175H hotspot mutation in TP53 DNA-binding domain results in loss of wild-type tumor suppressor function plus enhanced cell migration and invasion through aberrant transcriptional activation. WEE1 (not directly in list but functionally related to cell cycle programs) phosphorylates CDK1 to maintain G2 arrest, preventing mitotic entry with damaged DNA. Knockdown of WEE1-targeting lncRNAs impairs checkpoint control, allowing cells with unrepaired DNA to enter mitosis. In astrocytoma, loss of TP53 combined with dysregulation of WEE1 and checkpoint control enables uncontrolled proliferation despite genomic damage.",
+        "significance_score": 0.84,
+        "citations": [
+          {
+            "source_id": "12",
+            "notes": "TP53 R175H mutation represents hotspot with loss of function and gain of function properties"
+          },
+          {
+            "source_id": "15",
+            "notes": "TP53 R213X nonsense mutation reported in Li-Fraumeni syndrome"
+          },
+          {
+            "source_id": "48",
+            "notes": "WEE1 regulation through lncRNA-miRNA interactions controls G2 checkpoint"
+          }
+        ],
+        "supporting_genes": [
+          "TP63"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "TP53",
+            "WEE1",
+            "CDK1",
+            "CHEK2",
+            "ATM"
+          ],
+          "citations": [
+            {
+              "source_id": "12",
+              "notes": "TP53 and checkpoint kinases essential for cell cycle control"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Metabolic Reprogramming and Glycolytic-to-Oxidative Metabolism Switching",
+        "description": "Genes regulating metabolic state, particularly controlling glycolytic versus oxidative phosphorylation balance. SUCLG2 participates in citric acid cycle and lactate metabolism. This program enables the Warburg effect characteristic of astrocytomas—preferential glycolysis generating lactate that accumulates in tumor microenvironment. Dysregulation supports tumor cell proliferation under glucose limitation and shapes immune cell polarization in the tumor microenvironment.",
+        "atomic_biological_processes": [
+          {
+            "name": "Lactate metabolism and glycolytic reprogramming",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "SUCLG2 knockdown in GBM reduces lactate concentrations; lactate at 10-15 mM significantly reverses viability loss under low-glucose conditions"
+              }
+            ],
+            "genes": [
+              "SUCLG2"
+            ]
+          },
+          {
+            "name": "Mitochondrial oxidative phosphorylation and ATP production",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "SUCLG2 knockdown decreases basal and maximal mitochondrial respiratory capacity; decreased ATP production"
+              }
+            ],
+            "genes": [
+              "SUCLG2"
+            ]
+          },
+          {
+            "name": "Hypoxia-inducible factor signaling and metabolic adaptation",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "HIF-1α facilitates glucose uptake and lactate production by binding to glycolysis-related genes (Glut1, HK2, LDHA, PKM2)"
+              }
+            ],
+            "genes": [
+              "SUCLG2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Mitochondrial citric acid cycle enzymes and electron transport chain",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "SUCLG2 participates in citric acid cycle; knockdown affects oxidative phosphorylation complex proteins (SDHB, ND1, ATP5A)"
+              }
+            ],
+            "genes": [
+              "SUCLG2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced glycolytic metabolism and lactate production characteristic of Warburg effect",
+          "Tumor cell survival under glucose-limited microenvironmental conditions through lactate utilization",
+          "Altered immune cell polarization through lactate-mediated signaling on macrophages",
+          "Reduced dependence on oxidative phosphorylation despite metabolic inefficiency",
+          "Microenvironmental lactate accumulation reshaping tumor ecosystem"
+        ],
+        "evidence_summary": "SUCLG2 encodes succinyl-CoA ligase, an enzyme functioning in both the citric acid cycle and fatty acid metabolism. Recent comprehensive analysis demonstrates that SUCLG2 plays a crucial role in regulating lactate metabolism in glioblastoma. SUCLG2 knockdown in glioblastoma cells significantly reduced lactate concentrations within tumor tissue, decreased mitochondrial membrane potential, and reduced proliferation. SUCLG2 knockdown cells showed decreased basal and maximal mitochondrial respiratory capacity with decreased ATP production, accompanied by enhanced glycolytic and glycolytic reserve capacities. Lactate at concentrations of 10-15 mM (achieved in tumor microenvironments) significantly reverses cell viability loss under low-glucose conditions, indicating lactate's critical role in tumor survival. HIF-1α facilitates glucose uptake and lactate production through binding to glycolytic enzyme genes including Glut1, HK2, LDHA, and PKM2. In astrocytoma, dysregulation of SUCLG2 and related metabolic genes promotes glycolytic reprogramming supporting both tumor cell proliferation and immunosuppressive microenvironment effects.",
+        "significance_score": 0.81,
+        "citations": [
+          {
+            "source_id": "44",
+            "notes": "SUCLG2 regulates lactate metabolism and mitochondrial function in GBM; knockdown reduces lactate and inhibits proliferation"
+          }
+        ],
+        "supporting_genes": [
+          "SUCLG2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "HIF1A",
+            "LDHA",
+            "GLUT1",
+            "HK2",
+            "PKM2",
+            "MCT1"
+          ],
+          "citations": [
+            {
+              "source_id": "44",
+              "notes": "Glycolytic enzymes and HIF-1α target genes required for lactate metabolism reprogramming"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Long Non-Coding RNA Regulation of Cancer Phenotypes",
+        "description": "Genes encoding long non-coding RNAs (lncRNAs) that regulate cancer metabolism, cell proliferation, differentiation, and checkpoint control. The cohort includes multiple LINC genes (large intergenic non-coding RNAs) and lncRNA-associated genes. These transcripts modulate microRNA activity, chromatin accessibility, and signaling pathway engagement to shape astrocytoma phenotypes. Dysregulation of lncRNAs can simultaneously affect metabolic state, proliferation capacity, and drug resistance.",
+        "atomic_biological_processes": [
+          {
+            "name": "MicroRNA-mediated post-transcriptional gene silencing",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "microRNA-mediated neuronal detargeting through inclusion of miRNA binding sites in transcripts alters lineage trajectories"
+              },
+              {
+                "source_id": "47",
+                "notes": "lncRNAs act as competing endogenous RNAs (ceRNAs), sequestering microRNAs and modulating target gene expression"
+              }
+            ],
+            "genes": [
+              "RMST",
+              "LINC00271",
+              "LINC00609",
+              "LINC00880",
+              "LINC00894",
+              "LINC01088",
+              "LINC01091",
+              "LINC01094",
+              "LINC01602",
+              "LINC02018",
+              "LINC02055"
+            ]
+          },
+          {
+            "name": "Glycolytic reprogramming and metabolic enzyme regulation",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "lncRNAs are critical regulators of cancer metabolism through modulation of glycolytic enzymes and signaling pathways"
+              }
+            ],
+            "genes": [
+              "RMST",
+              "LINC00271",
+              "LINC00609",
+              "LINC00880",
+              "LINC00894",
+              "LINC01088",
+              "LINC01091",
+              "LINC01094",
+              "LINC01602",
+              "LINC02018",
+              "LINC02055"
+            ]
+          },
+          {
+            "name": "Transcription factor and chromatin accessibility modulation",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "lncRNAs influence transcription factor activity and chromatin accessibility at target loci"
+              }
+            ],
+            "genes": [
+              "RMST",
+              "LINC00271",
+              "LINC00609",
+              "LINC00880",
+              "LINC00894",
+              "LINC01088",
+              "LINC01091",
+              "LINC01094",
+              "LINC01602",
+              "LINC02018",
+              "LINC02055"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "lncRNA-microRNA-mRNA regulatory networks",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "lncRNAs function as competing endogenous RNAs modulating microRNA activity"
+              }
+            ],
+            "genes": [
+              "RMST",
+              "LINC00271",
+              "LINC00609",
+              "LINC00880",
+              "LINC00894",
+              "LINC01088",
+              "LINC01091",
+              "LINC01094",
+              "LINC01602",
+              "LINC02018",
+              "LINC02055"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced metabolic reprogramming through lncRNA-mediated glycolytic enzyme regulation",
+          "Dysregulated cell proliferation and differentiation through miRNA sequestration",
+          "Impaired checkpoint control through lncRNA-mediated modulation of WEE1 and related genes",
+          "Enhanced drug resistance through lncRNA-dependent chemotherapy response pathways",
+          "Altered tumor microenvironment composition through lncRNA-dependent immune signaling"
+        ],
+        "evidence_summary": "The cohort includes multiple long non-coding RNA genes (RMST, LINC00271, LINC00609, LINC00880, LINC00894, LINC01088, LINC01091, LINC01094, LINC01602, LINC02018, LINC02055) that regulate cancer biology. Recent comprehensive review identifies lncRNAs as critical regulators of cancer metabolism, particularly in glycolytic reprogramming supporting tumor growth. lncRNAs influence metabolic adaptation by modulating glycolytic enzymes, transcription factors, and signaling pathways. VIM-AS1 (vimentin antisense RNA) exemplifies lncRNA function: its knockdown inhibits glioma cell proliferation and migration while increasing apoptosis through modulation of WEE1 targeting. lncRNAs also function as competing endogenous RNAs (ceRNAs), sequestering microRNAs and thereby modulating target mRNA expression and protein synthesis. These multifaceted regulatory mechanisms position lncRNAs as both mechanistic drivers and therapeutic targets in astrocytoma, with potential for personalized lncRNA-targeted therapies.",
+        "significance_score": 0.79,
+        "citations": [
+          {
+            "source_id": "47",
+            "notes": "lncRNAs regulate cancer metabolism through glycolytic enzyme and transcription factor modulation"
+          },
+          {
+            "source_id": "48",
+            "notes": "VIM-AS1 lncRNA modulates WEE1 to control cell proliferation and checkpoint function in gliomas"
+          }
+        ],
+        "supporting_genes": [
+          "RMST",
+          "LINC00271",
+          "LINC00609",
+          "LINC00880",
+          "LINC00894",
+          "LINC01088",
+          "LINC01091",
+          "LINC01094",
+          "LINC01602",
+          "LINC02018",
+          "LINC02055"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "DICER1",
+            "DROSHA",
+            "AGO2",
+            "LIN28"
+          ],
+          "citations": [
+            {
+              "source_id": "47",
+              "notes": "microRNA processing and RISC machinery required for lncRNA-miRNA-mRNA regulatory networks"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Astrocyte Activation and Reactive Gliosis Program",
+        "description": "Genes controlling astrocyte activation responses, including acute pro-inflammatory, subacute transitional, and chronic neurodegenerative states. This program orchestrates how astrocytes respond to injury, infection, or tumor-associated signals. In astrocytoma contexts, dysregulation of astrocyte activation programs could either promote tumor progression (through immunosuppression and altered metabolic support) or impair anti-tumor responses (through loss of normal homeostatic astrocyte functions).",
+        "atomic_biological_processes": [
+          {
+            "name": "Pro-inflammatory transcriptional activation and cytokine production",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "Acute astrocyte activation features pro-inflammatory transcriptome with upregulation of TNF, IL-1β, IL-17rc, Ccl2, Cxcl10 and immediate early genes Junb, Egr1"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "Transition from inflammation to neurodegeneration",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "Subacute phase shows persistent low-level pro-inflammatory signaling; upregulation of regulatory and homeostatic pathways"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "Synaptic pruning and neuronal apoptotic pathways",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "Subacute and chronic phases feature upregulation of synapse pruning mediators (Sparc, Mertk, C1q) and neuronal apoptotic pathways"
+              }
+            ],
+            "genes": []
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Astrocytic activation state-specific gene expression signatures",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "Distinct transcriptional signatures associated with A1-like (pro-inflammatory) and A2-like (pro-healing) astrocyte states"
+              }
+            ],
+            "genes": []
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered astrocyte contribution to tumor microenvironment through dysregulated activation states",
+          "Enhanced or impaired pro-inflammatory responses affecting immune cell recruitment",
+          "Disrupted neuroprotective astrocytic functions in chronic tumor settings",
+          "Potential locking of tumor-associated astrocytes in particular activation states",
+          "Altered metabolic support to tumor cells through activation state-dependent metabolite provision"
+        ],
+        "evidence_summary": "Recent comprehensive RNA-sequencing of astrocytes isolated at acute, subacute, and chronic timepoints following traumatic brain injury reveals dynamically evolving astrocyte transcriptomes. Acute activation (2 days post-injury) features a distinct pro-inflammatory signature with 2,588 differentially regulated transcripts (P adj < 0.05). Upregulated genes include pro-inflammatory cytokines (TNF, IL-1β, IL-17rc), chemokines (CCL2, CXCL10), and immediate early genes (Junb, Egr1). At 2 weeks (subacute phase), most acute inflammatory genes showed reduced expression while astrocytes upregulated regulatory and homeostatic pathways including synaptic regulation, axonogenesis, and neuronal stem cell maintenance. Chronic-phase astrocytes (1 year post-injury) maintained low-level pro-inflammatory signaling but prominently upregulated neurodegenerative pathways including mitochondrial and neuronal apoptotic pathways. Notably, chronic-phase astrocytes showed increased Ndrg1 (highly expressed in brain tumors including astrocytoma and glioblastoma) and decreased Rbpj (whose deletion promotes neurogenesis), suggesting persistent stress and aberrant activation. While this program is insufficiently represented by genes from the input list, understanding astrocyte activation dynamics is critical to comprehending how astrocytomas co-opt or dysregulate normal astrocytic responses.",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "39",
+            "notes": "Comprehensive RNA-seq of astrocytes reveals dynamically evolving activation states from acute to chronic phases"
+          }
+        ],
+        "supporting_genes": [],
+        "required_genes_not_in_input": {
+          "genes": [
+            "TNF",
+            "IL1B",
+            "IL17RC",
+            "CCL2",
+            "CXCL10",
+            "GFAP",
+            "VIM",
+            "S100B",
+            "AQP4"
+          ],
+          "citations": [
+            {
+              "source_id": "39",
+              "notes": "Multiple inflammatory cytokines, chemokines, and astrocytic markers essential for characterizing activation states"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cell Adhesion and Extracellular Matrix Interactions",
+        "description": "Genes governing cell adhesion, extracellular matrix composition, and cellular interactions within the tumor microenvironment. This program determines how astrocytic tumor cells interface with pericytes, endothelial cells, immune cells, and the surrounding ECM. Dysregulation alters invasion, angiogenesis, immune suppression, and blood-brain barrier integrity characteristic of astrocytoma.",
+        "atomic_biological_processes": [
+          {
+            "name": "Cell-cell adhesion and contact-dependent signaling",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "Pericyte-astrocyte interactions dampen immune cell polarization; pericyte depletion results in increased abundance of immune-suppressive macrophages"
+              },
+              {
+                "source_id": "40",
+                "notes": "Pericytes orchestrate tumor-restraining microenvironment; depletion accelerates tumor progression"
+              }
+            ],
+            "genes": [
+              "PLEKHA5",
+              "PLEKHA7",
+              "PTPRQ"
+            ]
+          },
+          {
+            "name": "Extracellular matrix composition and remodeling",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "Spatial transcriptomics reveals nearly 400 ECM genes dysregulated in GBM; differential ECM expression in vascular endothelial cells and microglia/macrophages"
+              }
+            ],
+            "genes": [
+              "PLEKHA5",
+              "PLEKHA7",
+              "PTPRQ"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Cell adhesion molecule complexes and focal adhesions",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "Pericyte-endothelial cell interactions altered by pericyte depletion; dysregulated vessel growth and BBB integrity"
+              }
+            ],
+            "genes": [
+              "PLEKHA5",
+              "PLEKHA7",
+              "PTPRQ"
+            ]
+          },
+          {
+            "name": "Extracellular matrix protein networks and spatial organization",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "Spatial heterogeneity in ECM composition creates distinct tumor microenvironmental niches"
+              }
+            ],
+            "genes": [
+              "PLEKHA5",
+              "PLEKHA7",
+              "PTPRQ"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dysregulated tumor-stromal interactions affecting pericyte coverage and blood-brain barrier integrity",
+          "Enhanced tumor cell invasion through altered ECM signaling",
+          "Increased immune suppression through altered pericyte-immune cell interactions",
+          "Enhanced angiogenesis and abnormal vasculature characteristic of astrocytoma",
+          "Altered spatial organization of tumor microenvironment into distinct niches"
+        ],
+        "evidence_summary": "The cohort includes genes encoding adhesion molecules and ECM-interacting proteins (PLEKHA5, PLEKHA7 encoding pleckstrin homology domain containing proteins; PTPRQ encoding protein tyrosine phosphatase receptor Q). Recent spatial transcriptomic studies reveal that glioblastomas contain nearly 400 differentially expressed ECM genes compared to normal brain, with distinct expression patterns in different tumor cell populations and stromal cells. Vascular endothelial cells and microglia/macrophages show largely non-overlapping ECM expression signatures, creating spatially distinct microenvironmental niches. Critically, pericytes orchestrate tumor-restraining microenvironments: pericyte depletion through genetic engineering results in both accelerated tumor progression and significantly shortened survival. Pericyte-deficient tumors show dysregulated vessel growth, reduced blood-brain barrier patency, increased tumor cell vessel co-option, altered endothelial cell signaling, and increased abundance of immune-suppressive macrophages expressing IL4-induced markers (Retnla, Ccl24, Mrc1, Arg1, Klf4). This demonstrates that ECM-mediated interactions between tumor cells and stromal components fundamentally shape astrocytoma progression.",
+        "significance_score": 0.76,
+        "citations": [
+          {
+            "source_id": "24",
+            "notes": "Pericytes suppress immune polarization toward suppressive phenotypes; depletion accelerates tumor progression"
+          },
+          {
+            "source_id": "40",
+            "notes": "Pericyte depletion results in dysregulated vasculature and increased immune suppression"
+          },
+          {
+            "source_id": "42",
+            "notes": "Spatial transcriptomics reveals ECM heterogeneity and distinct stromal-tumor niches"
+          }
+        ],
+        "supporting_genes": [
+          "PLEKHA5",
+          "PLEKHA7",
+          "PTPRQ"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CDH1",
+            "CDH2",
+            "ICAM1",
+            "NCAM1",
+            "LAMININ",
+            "COLLAGEN",
+            "FIBRONECTIN"
+          ],
+          "citations": [
+            {
+              "source_id": "42",
+              "notes": "Classical cell adhesion molecules and ECM proteins required for microenvironment interactions"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Developmental Plasticity and Multicellular Progenitor Fate Specification",
+        "description": "An integrative meta-program unifying the centrosome asymmetry, endosomal trafficking, microtubule organization, transcriptional control, and ciliary signaling programs described above. This program collectively determines whether RGPs self-renew symmetrically or undergo asymmetric division producing differentiated progeny. In normal development, this program maintains developmental plasticity while constraining proliferation. In astrocytoma, dysregulation unlocks proliferative potential while eliminating differentiation constraints, driving malignant transformation.",
+        "atomic_biological_processes": [
+          {
+            "name": "Asymmetric cell division and progenitor-differentiation fate specification",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "PCM1-mediated centrosome asymmetry controls RGP division mode distribution (P/P vs. P/N vs. N/N); loss of pcm1 increases N/N divisions from 19% to 49%"
+              },
+              {
+                "source_id": "22",
+                "notes": "Injury-responsive enhancers govern glial cell transcriptional reprogramming; unique and shared programs in different glial types"
+              }
+            ],
+            "genes": [
+              "CCDC30",
+              "CCDC40",
+              "CCDC146",
+              "CCDC170",
+              "PARD3B",
+              "DYNLRB2",
+              "SOX5",
+              "TUBA1A",
+              "TTLL9",
+              "PACRG"
+            ]
+          },
+          {
+            "name": "Developmental signal integration through primary cilia",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "Primary cilia seed by mother centrosome; ciliary dynamics regulate developmental signal reception"
+              },
+              {
+                "source_id": "36",
+                "notes": "Ciliary activities essential for polarized radial glial scaffold formation"
+              }
+            ],
+            "genes": [
+              "DNAH5",
+              "DNAH6",
+              "DNAH7",
+              "DNAH9",
+              "DNAH11",
+              "DNAH12",
+              "DNAI1",
+              "DNAAF1",
+              "ROPN1L",
+              "DRC1",
+              "DRC7",
+              "CFAP46",
+              "CFAP47",
+              "CFAP52",
+              "CFAP54",
+              "CFAP57",
+              "CFAP61"
+            ]
+          },
+          {
+            "name": "Developmental timing and cell cycle pace setting",
+            "citations": [
+              {
+                "source_id": "36",
+                "notes": "DNA replication fork speed acts as pacer controlling developmental timing in cortical neurogenesis"
+              }
+            ],
+            "genes": [
+              "TUBA1A",
+              "TTLL9"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Integrated asymmetric cell division apparatus",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "PCM1-Par-3 complexes on Dld endosomes; asymmetric microtubule organization around centrosomes; differential centrosome inheritance"
+              }
+            ],
+            "genes": [
+              "CCDC30",
+              "CCDC40",
+              "CCDC146",
+              "CCDC170",
+              "PARD3B",
+              "DYNLRB2",
+              "TUBA1A",
+              "TTLL9",
+              "PACRG"
+            ]
+          },
+          {
+            "name": "Developmental signal transduction complexes",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "Injury-responsive enhancers contain binding sites for lineage-specific and stimulus-induced transcription factors"
+              }
+            ],
+            "genes": [
+              "SOX5"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Fundamental alteration of RGP proliferative capacity and differentiation potential",
+          "Loss of developmental constraints normally limiting progenitor expansion",
+          "Acquisition of symmetric self-renewing phenotype characteristic of cancer stem cells",
+          "Enhanced susceptibility to oncogenic transformation through loss of developmental plasticity controls",
+          "Potential acquisition of multipotent progenitor characteristics in tumor cells",
+          "Disrupted developmental timing creating temporal dysregulation of proliferation and differentiation"
+        ],
+        "evidence_summary": "The collective evidence from multiple interconnected programs demonstrates that developmental plasticity in radial glia progenitors depends on proper functioning of an integrated system including centrosome asymmetry (PCM1, CCDC proteins), endosomal trafficking (PARD3B, DYNLRB2), microtubule organization (TUBA1A, TTLL9, PACRG), ciliary signaling (DNAH, DNAI, radial spoke proteins), and transcriptional control (SOX5). Loss or dysregulation of multiple components simultaneously would fundamentally alter RGP biology, potentially unlocking proliferative potential while simultaneously eliminating developmental constraints that normally drive differentiation. The evidence that pcm1 loss increases differentiating divisions (N/N) suggests that acute loss of centrosome asymmetry programs initially promotes differentiation. However, if such dysregulation occurs in RGPs that have simultaneously acquired TP53 loss or other oncogenic mutations preventing differentiation, the result would be proliferation-prone cells resistant to developmental signals—precisely the phenotype of astrocytoma. This integrative program likely represents the fundamental developmental plasticity mechanism that becomes dysregulated during astrocytoma initiation and that astrocytomas retain to enable adaptive plasticity during progression.",
+        "significance_score": 0.93,
+        "citations": [
+          {
+            "source_id": "33",
+            "notes": "PCM1 integrates centrosome asymmetry with endosomal trafficking and cell fate specification in RGPs"
+          },
+          {
+            "source_id": "22",
+            "notes": "Injury-responsive enhancers coordinate glial cell transcriptional programs reflecting cell-type identity"
+          },
+          {
+            "source_id": "36",
+            "notes": "DNA replication dynamics pace developmental timing in cortical development"
+          }
+        ],
+        "supporting_genes": [
+          "CCDC30",
+          "CCDC40",
+          "CCDC146",
+          "CCDC170",
+          "PARD3B",
+          "DYNLRB2",
+          "DNAH5",
+          "DNAH6",
+          "DNAH7",
+          "DNAH9",
+          "DNAH11",
+          "DNAH12",
+          "DNAI1",
+          "DNAAF1",
+          "ROPN1L",
+          "DRC1",
+          "DRC7",
+          "CFAP46",
+          "CFAP47",
+          "CFAP52",
+          "CFAP54",
+          "CFAP57",
+          "CFAP61",
+          "SOX5",
+          "TUBA1A",
+          "TTLL9",
+          "PACRG"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "NOTCH1",
+            "JAG1",
+            "DLL1",
+            "HES1",
+            "NGN2",
+            "BDNF",
+            "GDNF"
+          ],
+          "citations": [
+            {
+              "source_id": "22",
+              "notes": "Notch signaling and developmental neurotrophic factors required for complete developmental plasticity control"
+            },
+            {
+              "source_id": "36",
+              "notes": "Multiple developmental signaling pathways coordinate timing and fate specification"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Gene ontology and functional annotation from primary literature",
+        "Protein-protein interaction networks inferred from pathway databases",
+        "Co-citation analysis linking genes through shared biological processes",
+        "Developmental biology and neuroscience literature on radial glia progenitors and astrocytes",
+        "Cancer genomics literature on astrocytoma molecular alterations",
+        "Systems-level analysis of programs regulating cell fate and proliferation"
+      ],
+      "notes": "Analysis prioritized well-established functions with strong literature support, particularly focusing on centrosomal and ciliary biology in developmental contexts, transcriptional control of glial fate decisions, and metabolic reprogramming in gliomas. Emerging evidence from recent spatial transcriptomics and single-cell studies informed interpretation of microenvironmental interactions and tumor heterogeneity. Integration of normal developmental processes with disease-specific alterations enabled identification of dysregulated programs likely contributing to astrocytoma initiation and progression."
+    },
+    "version": "1.0"
+  }
+}

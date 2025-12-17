@@ -1,0 +1,20 @@
+{
+  "total_processes": 32,
+  "total_components": 6,
+  "mapped_processes": 29,
+  "mapped_components": 6,
+  "failed_mappings": [
+    {
+      "term": "ECM-derived growth factor modulation",
+      "type": "process"
+    },
+    {
+      "term": "Neural progenitor self-renewal and stemness maintenance",
+      "type": "process"
+    },
+    {
+      "term": "Progenitor cell migration and developmental motility",
+      "type": "process"
+    }
+  ]
+}

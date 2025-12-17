@@ -1,0 +1,20 @@
+{
+  "total_processes": 35,
+  "total_components": 24,
+  "mapped_processes": 33,
+  "mapped_components": 23,
+  "failed_mappings": [
+    {
+      "term": "Anti-inflammatory and immunomodulatory signaling",
+      "type": "process"
+    },
+    {
+      "term": "Lysosomes and vacuolar compartments",
+      "type": "component"
+    },
+    {
+      "term": "Syndecane-mediated cell adhesion and growth factor signaling",
+      "type": "process"
+    }
+  ]
+}

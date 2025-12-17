@@ -1,0 +1,2246 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T23:48:03.402405",
+    "genes": [
+      "GBP1",
+      "ETV6",
+      "HLA-E",
+      "RSAD2",
+      "RUFY4",
+      "HERC6",
+      "HELZ2",
+      "SAMD9",
+      "SAMD9L",
+      "SAMHD1",
+      "GPR39",
+      "GCH1",
+      "GBP5",
+      "GBP3",
+      "PARP12",
+      "SFMBT2",
+      "ERAP2",
+      "RNF213",
+      "EPSTI1",
+      "SP100",
+      "DTX3L",
+      "SP110",
+      "SP140L",
+      "DDX60L",
+      "DDX60",
+      "DDX58",
+      "CXCL10",
+      "STAT1",
+      "TAP1",
+      "TAP2",
+      "TAPBP",
+      "CMPK2",
+      "HLA-F",
+      "IDO1",
+      "CFH",
+      "LYPD1",
+      "PARP14",
+      "OASL",
+      "OAS3",
+      "OAS2",
+      "OAS1",
+      "PARP9",
+      "NRIR",
+      "NMI",
+      "NLRC5",
+      "MX2",
+      "MX1",
+      "PLEKHA4",
+      "PLSCR1",
+      "PML",
+      "PSMB9",
+      "IFI16",
+      "LINC02328",
+      "LINC02100",
+      "PTK2B",
+      "LAP3",
+      "AC002074.1",
+      "JAK2",
+      "ISG15",
+      "IRF1",
+      "IL15",
+      "IFIH1",
+      "IFI6",
+      "IFI44L",
+      "IFI44",
+      "IFI35",
+      "CIITA",
+      "PARP10",
+      "BTN3A1",
+      "ATP10A",
+      "AL157871.4",
+      "TRIM22",
+      "WARS",
+      "XAF1",
+      "TNFSF10",
+      "ZBP1",
+      "AC083837.1",
+      "ZC3HAV1",
+      "CD274",
+      "ALPK1",
+      "USP18",
+      "AP001610.2",
+      "APOL1",
+      "APOL6",
+      "TRIM5",
+      "AC006160.1",
+      "AC005909.2",
+      "TRIM56",
+      "AC004551.1",
+      "APOL2",
+      "RTP4",
+      "KCND3",
+      "KALRN",
+      "IRF7",
+      "IL1R1",
+      "RIPOR2",
+      "IFIT3",
+      "AL353807.5",
+      "IFITM3",
+      "ICAM1",
+      "IFIT2",
+      "UTRN",
+      "AL356010.2",
+      "APOBEC3G",
+      "IFI30",
+      "IFIT1",
+      "CFLAR",
+      "LDB2",
+      "VAMP5",
+      "PARD3",
+      "PARP8",
+      "OSMR",
+      "ODF3B",
+      "AC007991.3",
+      "AC012363.1",
+      "NRP1",
+      "AC022034.1",
+      "NPAS3",
+      "NOD1",
+      "NNMT",
+      "PHF11",
+      "NCAM2",
+      "PLAAT4",
+      "MLKL",
+      "PLPP3",
+      "MIR155HG",
+      "MET",
+      "VOPP1",
+      "HLA-C",
+      "LINC02300",
+      "LHFPL6",
+      "PTGS2",
+      "APOL3",
+      "AL596087.2",
+      "HLA-B",
+      "GBP2",
+      "TRIM25",
+      "SHFL",
+      "FBXL7",
+      "FAM182B",
+      "SOCS1",
+      "SOCS2-AS1",
+      "TRANK1",
+      "DPYD",
+      "SPDYA",
+      "SPTLC3",
+      "CASP4",
+      "DCC",
+      "DAAM1",
+      "SQOR",
+      "CD44",
+      "TGM2",
+      "TBC1D1",
+      "BOC",
+      "LAMB1",
+      "TRIM38",
+      "GBP4",
+      "ART3",
+      "BACH1",
+      "SERPING1",
+      "B2M",
+      "HERC5",
+      "ARHGAP29",
+      "SBNO2",
+      "SAT1",
+      "PIK3R3",
+      "PKN2-AS1",
+      "PLA2G4A",
+      "SPOCD1",
+      "TNFAIP2",
+      "SCN1A",
+      "ZCCHC2",
+      "TRPM3",
+      "PLEKHG1",
+      "PLPP1",
+      "TSHZ2",
+      "PDGFRL",
+      "TNC",
+      "ZDHHC13",
+      "TNFSF14",
+      "ROS1",
+      "PDCD1LG2",
+      "SSTR2",
+      "SYBU",
+      "ZNF536",
+      "TLR3",
+      "TLR2",
+      "SAMD4A",
+      "TCTEX1D1",
+      "TDRD7",
+      "TESK2",
+      "TENT5A",
+      "TNFSF13B",
+      "PLVAP",
+      "SEPTIN14",
+      "SLC12A7",
+      "SLFN12L",
+      "PTX3",
+      "RAB20",
+      "RALYL"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_23/20251216_234333/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_23",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "title": "Gene Program Functional Analysis",
+    "context": {
+      "cell_type": "astrocytes, astrocytoma cells",
+      "disease": "astrocytoma, glioblastoma multiforme",
+      "tissue": "brain, central nervous system"
+    },
+    "input_genes": [
+      "GBP1",
+      "ETV6",
+      "HLA-E",
+      "RSAD2",
+      "RUFY4",
+      "HERC6",
+      "HELZ2",
+      "SAMD9",
+      "SAMD9L",
+      "SAMHD1",
+      "GPR39",
+      "GCH1",
+      "GBP5",
+      "GBP3",
+      "PARP12",
+      "SFMBT2",
+      "ERAP2",
+      "RNF213",
+      "EPSTI1",
+      "SP100",
+      "DTX3L",
+      "SP110",
+      "SP140L",
+      "DDX60L",
+      "DDX60",
+      "DDX58",
+      "CXCL10",
+      "STAT1",
+      "TAP1",
+      "TAP2",
+      "TAPBP",
+      "CMPK2",
+      "HLA-F",
+      "IDO1",
+      "CFH",
+      "LYPD1",
+      "PARP14",
+      "OASL",
+      "OAS3",
+      "OAS2",
+      "OAS1",
+      "PARP9",
+      "NRIR",
+      "NMI",
+      "NLRC5",
+      "MX2",
+      "MX1",
+      "PLEKHA4",
+      "PLSCR1",
+      "PML",
+      "PSMB9",
+      "IFI16",
+      "LINC02328",
+      "LINC02100",
+      "PTK2B",
+      "LAP3",
+      "AC002074.1",
+      "JAK2",
+      "ISG15",
+      "IRF1",
+      "IL15",
+      "IFIH1",
+      "IFI6",
+      "IFI44L",
+      "IFI44",
+      "IFI35",
+      "CIITA",
+      "PARP10",
+      "BTN3A1",
+      "ATP10A",
+      "AL157871.4",
+      "TRIM22",
+      "WARS",
+      "XAF1",
+      "TNFSF10",
+      "ZBP1",
+      "AC083837.1",
+      "ZC3HAV1",
+      "CD274",
+      "ALPK1",
+      "USP18",
+      "AP001610.2",
+      "APOL1",
+      "APOL6",
+      "TRIM5",
+      "AC006160.1",
+      "AC005909.2",
+      "TRIM56",
+      "AC004551.1",
+      "APOL2",
+      "RTP4",
+      "KCND3",
+      "KALRN",
+      "IRF7",
+      "IL1R1",
+      "RIPOR2",
+      "IFIT3",
+      "AL353807.5",
+      "IFITM3",
+      "ICAM1",
+      "IFIT2",
+      "UTRN",
+      "AL356010.2",
+      "APOBEC3G",
+      "IFI30",
+      "IFIT1",
+      "CFLAR",
+      "LDB2",
+      "VAMP5",
+      "PARD3",
+      "PARP8",
+      "OSMR",
+      "ODF3B",
+      "AC007991.3",
+      "AC012363.1",
+      "NRP1",
+      "AC022034.1",
+      "NPAS3",
+      "NOD1",
+      "NNMT",
+      "PHF11",
+      "NCAM2",
+      "PLAAT4",
+      "MLKL",
+      "PLPP3",
+      "MIR155HG",
+      "MET",
+      "VOPP1",
+      "HLA-C",
+      "LINC02300",
+      "LHFPL6",
+      "PTGS2",
+      "APOL3",
+      "AL596087.2",
+      "HLA-B",
+      "GBP2",
+      "TRIM25",
+      "SHFL",
+      "FBXL7",
+      "FAM182B",
+      "SOCS1",
+      "SOCS2-AS1",
+      "TRANK1",
+      "DPYD",
+      "SPDYA",
+      "SPTLC3",
+      "CASP4",
+      "DCC",
+      "DAAM1",
+      "SQOR",
+      "CD44",
+      "TGM2",
+      "TBC1D1",
+      "BOC",
+      "LAMB1",
+      "TRIM38",
+      "GBP4",
+      "ART3",
+      "BACH1",
+      "SERPING1",
+      "B2M",
+      "HERC5",
+      "ARHGAP29",
+      "SBNO2",
+      "SAT1",
+      "PIK3R3",
+      "PKN2-AS1",
+      "PLA2G4A",
+      "SPOCD1",
+      "TNFAIP2",
+      "SCN1A",
+      "ZCCHC2",
+      "TRPM3",
+      "PLEKHG1",
+      "PLPP1",
+      "TSHZ2",
+      "PDGFRL",
+      "TNC",
+      "ZDHHC13",
+      "TNFSF14",
+      "ROS1",
+      "PDCD1LG2",
+      "SSTR2",
+      "SYBU",
+      "ZNF536",
+      "TLR3",
+      "TLR2",
+      "SAMD4A",
+      "TCTEX1D1",
+      "TDRD7",
+      "TESK2",
+      "TENT5A",
+      "TNFSF13B",
+      "PLVAP",
+      "SEPTIN14",
+      "SLC12A7",
+      "SLFN12L",
+      "PTX3",
+      "RAB20",
+      "RALYL"
+    ],
+    "programs": [
+      {
+        "program_name": "Type I Interferon Production and Signaling",
+        "description": "The type I interferon program controls production of interferon-beta (IFNB1) and initiates JAK2-STAT1-dependent signaling that serves as the master regulator of innate immune responses to viral infection and cellular stress. This program engages pattern recognition receptors and activates a cascade of interferon-stimulated gene expression that creates the antiviral state. Negative regulators (SOCS1, SOCS3) provide feedback inhibition to terminate interferon signaling, preventing pathological inflammation.",
+        "atomic_biological_processes": [
+          {
+            "name": "type I interferon production",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "IFNB1 encodes interferon-beta which is released as part of innate immune response to pathogens"
+              }
+            ],
+            "genes": [
+              "IFNB1"
+            ]
+          },
+          {
+            "name": "JAK-STAT signaling",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "JAK2 participates in signaling cascade from interferon receptors to STAT activation"
+              }
+            ],
+            "genes": [
+              "JAK2",
+              "STAT1"
+            ]
+          },
+          {
+            "name": "interferon signaling feedback inhibition",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "SOCS3 encodes STAT-induced STAT inhibitor that negatively regulates cytokine signaling"
+              },
+              {
+                "source_id": "37",
+                "notes": "SOCS1 acts as suppressor of cytokine signaling with multiple immune regulatory functions"
+              }
+            ],
+            "genes": [
+              "SOCS1",
+              "SOCS3"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "interferon-beta cytokine",
+            "citations": [
+              {
+                "source_id": "1"
+              }
+            ],
+            "genes": [
+              "IFNB1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Activation of downstream STAT1-dependent immune gene expression",
+          "Establishment of antiviral state with multi-layered pathogen restriction",
+          "Induction of MHC expression and antigen presentation machinery",
+          "Suppression of viral replication and tumor cell proliferation",
+          "Recruitment of adaptive immune responses"
+        ],
+        "evidence_summary": "Type I interferon signaling represents the foundational innate immune response program. IFNB1 production triggers JAK2-STAT1-dependent activation of hundreds of interferon-stimulated genes. The presence of negative regulators (SOCS1, SOCS3) alongside positive regulators indicates dynamic control of signaling amplitude. In astrocytoma context, type I interferon signaling is frequently suppressed through epigenetic and transcriptional mechanisms, but reactivation of this program shows therapeutic promise.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "Foundational definition of IFNB1 function"
+          },
+          {
+            "source_id": "2",
+            "notes": "SOCS3 negative regulation of cytokine signaling"
+          },
+          {
+            "source_id": "7",
+            "notes": "JAK2-STAT signaling involvement in interferon responses"
+          }
+        ],
+        "supporting_genes": [
+          "IFNB1",
+          "JAK2",
+          "STAT1",
+          "SOCS1",
+          "SOCS3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "IFNAR1",
+            "IFNAR2",
+            "TYK2",
+            "STAT2",
+            "IRF9"
+          ],
+          "citations": [
+            {
+              "source_id": "28",
+              "notes": "IFNAR1 knockout mice demonstrate critical role of type I interferon receptor in innate immunity"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Type II Interferon Signaling and Th1 Immunity",
+        "description": "Type II interferon (interferon-gamma, IFNG) represents the primary effector cytokine of CD8+ cytotoxic T lymphocytes and Th1 cells, establishing the critical link between adaptive and innate immunity. IFNG signaling through IFNGR triggers JAK1/JAK2-STAT1 phosphorylation distinct from type I IFN signaling, inducing complementary but distinct immune programs. This axis drives expression of CXCL10 chemokine for T cell recruitment and HLA expression for antigen presentation.",
+        "atomic_biological_processes": [
+          {
+            "name": "type II interferon signaling",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "IFNG encodes interferon-gamma produced by T lymphocytes and NK cells"
+              },
+              {
+                "source_id": "19",
+                "notes": "IFNG signaling drives CXCL10 expression and promotes immune infiltration"
+              }
+            ],
+            "genes": [
+              "IFNG",
+              "STAT1",
+              "JAK2"
+            ]
+          },
+          {
+            "name": "T cell chemotaxis and infiltration",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "CXCL10 functions as potent chemoattractant for T lymphocytes"
+              },
+              {
+                "source_id": "19",
+                "notes": "IFNG-CXCL10 axis promotes infiltration of T cells into tumor tissue"
+              }
+            ],
+            "genes": [
+              "CXCL10"
+            ]
+          },
+          {
+            "name": "MHC class I upregulation",
+            "citations": [
+              {
+                "source_id": "19",
+                "notes": "IFNG drives STAT1-mediated transactivation of HLA genes"
+              }
+            ],
+            "genes": [
+              "STAT1",
+              "HLA-A",
+              "HLA-B",
+              "HLA-C"
+            ]
+          },
+          {
+            "name": "interferon regulatory factor expression",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "IRF proteins control interferon-responsive gene expression"
+              }
+            ],
+            "genes": [
+              "IRF1",
+              "IRF7"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Enhanced expression of MHC class I and antigen presentation machinery",
+          "Increased CXCL10-mediated recruitment of effector T lymphocytes",
+          "Amplification of interferon signaling through positive feedback loops",
+          "Suppression of tumor cell proliferation and induction of apoptosis",
+          "Conversion of tumor microenvironment from immunosuppressive to immune-permissive state"
+        ],
+        "evidence_summary": "Type II interferon signaling integrates adaptive immune activation with innate immune responses. IFNG produced by CD8+ T cells and Th1 cells binds to IFNGR, triggering JAK1/JAK2-STAT1 signaling that is both overlapping with and distinct from type I IFN signaling. The induction of CXCL10 creates a positive feedback loop that recruits additional T cells. In glioblastoma, this program faces particular challenges including development of interferon-gamma resistance through Notch-mediated mechanisms and epigenetic silencing of STAT1 and CXCL10.",
+        "significance_score": 0.93,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "IFNG gene description and function"
+          },
+          {
+            "source_id": "16",
+            "notes": "CXCL10 as chemokine ligand"
+          },
+          {
+            "source_id": "19",
+            "notes": "Interferon-gamma resistance in glioma development"
+          }
+        ],
+        "supporting_genes": [
+          "IFNG",
+          "STAT1",
+          "JAK2",
+          "CXCL10",
+          "IRF1",
+          "IRF7",
+          "HLA-A",
+          "HLA-B",
+          "HLA-C"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "IFNGR1",
+            "IFNGR2",
+            "TYK2",
+            "MAPK1",
+            "JAK1"
+          ],
+          "citations": [
+            {
+              "source_id": "19",
+              "notes": "IFNG resistance mechanisms in glioma involve alterations in MAPK1 and other signaling molecules"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Intracellular Pattern Recognition and Viral RNA Sensing",
+        "description": "Cells detect viral infection through intracellular pattern recognition receptors (PRRs) including RIG-I-like receptors (RLRs: RIG-I/DDX58, MDA5/IFIH1), toll-like receptors (TLR2, TLR3), and NOD-like receptors (NOD1). These receptors specifically recognize conserved viral molecular patterns including 5'-triphosphate RNA, long double-stranded RNA, and other pathogen-associated molecular patterns. Recognition triggers mitochondrial antiviral signaling (MAVS) and downstream activation of TBK1 and IKK, leading to IRF3/IRF7 activation and type I interferon production. RNA editing by ADAR1 prevents pathological activation of MDA5 by self-derived dsRNA.",
+        "atomic_biological_processes": [
+          {
+            "name": "5-triphosphate RNA recognition",
+            "citations": [
+              {
+                "source_id": "30",
+                "notes": "IFIH1 encodes MDA5 which senses viral RNA through pattern recognition"
+              }
+            ],
+            "genes": [
+              "DDX58"
+            ]
+          },
+          {
+            "name": "long dsRNA recognition",
+            "citations": [
+              {
+                "source_id": "30",
+                "notes": "MDA5 recognizes long double-stranded RNA with filament formation"
+              },
+              {
+                "source_id": "28",
+                "notes": "ADAR1 editing of dsRNA prevents MDA5-mediated recognition of self RNA"
+              }
+            ],
+            "genes": [
+              "IFIH1"
+            ]
+          },
+          {
+            "name": "Toll-like receptor signaling",
+            "citations": [
+              {
+                "source_id": "29",
+                "notes": "TLR2 participates in pathogen recognition and apoptosis regulation"
+              },
+              {
+                "source_id": "31",
+                "notes": "TLR3 enables pattern recognition receptor activity"
+              }
+            ],
+            "genes": [
+              "TLR2",
+              "TLR3"
+            ]
+          },
+          {
+            "name": "NOD-like receptor signaling",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "NOD1 participates in cytokine response and antiviral immunity"
+              }
+            ],
+            "genes": [
+              "NOD1"
+            ]
+          },
+          {
+            "name": "RNA editing and dsRNA sensing suppression",
+            "citations": [
+              {
+                "source_id": "28",
+                "notes": "ADAR1 editing suppresses MDA5-dependent interferon signaling by editing dsRNA"
+              }
+            ],
+            "genes": []
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "RIG-I-like receptor",
+            "citations": [
+              {
+                "source_id": "30",
+                "notes": "IFIH1 encodes MDA5 pattern recognition receptor"
+              }
+            ],
+            "genes": [
+              "DDX58",
+              "IFIH1"
+            ]
+          },
+          {
+            "name": "Toll-like receptor",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "TLR3 enables pattern recognition receptor activity"
+              }
+            ],
+            "genes": [
+              "TLR2",
+              "TLR3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Detection of viral infection or endogenous dsRNA triggers",
+          "Activation of MAVS-dependent signaling cascade",
+          "TBK1-mediated phosphorylation of IRF3 and IRF7",
+          "Type I interferon production and ISG induction",
+          "Establishment of antiviral state and programmed cell death"
+        ],
+        "evidence_summary": "Intracellular pattern recognition receptors constitute the sensory apparatus for detecting viral infection. RIG-I and MDA5 are activated by distinct forms of viral RNA, triggering mitochondrial signaling through MAVS. TLR2 and TLR3 recognize additional viral patterns. The presence of IFIH1 (MDA5), TLR2, TLR3, and NOD1 in the input list indicates robust capacity for viral sensing. Notably, RNA editing by ADAR1 prevents pathological activation of these sensors by self-derived dsRNA, suggesting that dysregulation of RNA editing could either trigger or suppress antiviral responses in astrocytomas.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "28",
+            "notes": "ADAR1 RNA editing suppresses MDA5-dependent interferon responses"
+          },
+          {
+            "source_id": "30",
+            "notes": "IFIH1 encodes MDA5 intracellular RNA sensor"
+          },
+          {
+            "source_id": "31",
+            "notes": "TLR3 pattern recognition receptor function"
+          }
+        ],
+        "supporting_genes": [
+          "IFIH1",
+          "DDX58",
+          "TLR2",
+          "TLR3",
+          "NOD1",
+          "DDX60",
+          "DDX60L",
+          "HELZ2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MAVS",
+            "TBK1",
+            "IKBKE",
+            "IRF3",
+            "NEMO",
+            "IKK-beta"
+          ],
+          "citations": [
+            {
+              "source_id": "28",
+              "notes": "MAVS and TBK1 are essential adapters downstream of RIG-I and MDA5"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Interferon-Stimulated Gene Expression and Antiviral State",
+        "description": "Type I and type II interferon signaling activates expression of approximately 300 interferon-stimulated genes (ISGs) that collectively create the antiviral state. This program includes multiple families of proteins: GTPases (GBP1-5) that oligomerize on pathogen compartments, interferon-induced proteins with tetratricopeptide repeats (IFIT1-3), ubiquitin ligases (TRIM family, HERC family), RNA-binding proteins (ZAP/PARP13, PARP9), nucleotide metabolism enzymes, and protein modifiers (ISG15). These genes functionally restrict viral replication through multiple mechanisms including direct viral recognition, interference with viral gene expression, and activation of cell death pathways.",
+        "atomic_biological_processes": [
+          {
+            "name": "GTP-mediated viral restriction",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "GBP1 protects against mitochondrial dysfunction and preserves immune function"
+              }
+            ],
+            "genes": [
+              "GBP1",
+              "GBP2",
+              "GBP3",
+              "GBP4",
+              "GBP5",
+              "MX1",
+              "MX2"
+            ]
+          },
+          {
+            "name": "ubiquitin-mediated viral protein degradation",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "TRIM proteins catalyze K63-linked ubiquitination of RIG-I and other substrates"
+              }
+            ],
+            "genes": [
+              "TRIM5",
+              "TRIM22",
+              "TRIM25",
+              "TRIM38",
+              "TRIM56",
+              "HERC5",
+              "HERC6"
+            ]
+          },
+          {
+            "name": "viral RNA-specific degradation",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "PARP13 (ZAP) binds viral RNA and promotes degradation through zinc finger domain"
+              }
+            ],
+            "genes": [
+              "ZC3HAV1"
+            ]
+          },
+          {
+            "name": "ISGylation-mediated protein modification",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "ISG15 ubiquitin-like modifier boosts CTL response through innate NK cell-dependent route"
+              },
+              {
+                "source_id": "18",
+                "notes": "ISG15 modulates cancer stem cell-like characteristics in anaplastic thyroid carcinoma"
+              }
+            ],
+            "genes": [
+              "ISG15"
+            ]
+          },
+          {
+            "name": "translational repression and viral replication inhibition",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "ISG15 modification blocks coxsackievirus protein synthesis"
+              }
+            ],
+            "genes": [
+              "IFIT1",
+              "IFIT2",
+              "IFIT3"
+            ]
+          },
+          {
+            "name": "PARP-family viral restriction",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "PARP9 enhances interferon signaling through DTX3L ubiquitin ligase complex"
+              },
+              {
+                "source_id": "13",
+                "notes": "PARP12 inhibits viral replication through NS1 and NS3 degradation"
+              }
+            ],
+            "genes": [
+              "PARP9",
+              "PARP10",
+              "PARP12",
+              "PARP13",
+              "DTX3L"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "GTPase protein complex",
+            "citations": [
+              {
+                "source_id": "6"
+              }
+            ],
+            "genes": [
+              "GBP1",
+              "GBP2",
+              "GBP3",
+              "GBP4",
+              "GBP5"
+            ]
+          },
+          {
+            "name": "ISG15 ubiquitin-like modifier",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "ISG15 is an ubiquitin-like protein that undergoes conjugation to target proteins"
+              }
+            ],
+            "genes": [
+              "ISG15"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Multi-layered viral restriction through redundant and complementary mechanisms",
+          "Prevention of viral gene expression and replication",
+          "Innate immune activation and type I interferon amplification",
+          "Enhanced adaptive immune cell recruitment and activation",
+          "Potential tumor cell growth restriction if expressed in tumor cells"
+        ],
+        "evidence_summary": "The interferon-stimulated gene program represents the executed arm of interferon signaling, converting transcription factor activation (STAT1) into effector functions that restrict viral replication. The presence of multiple protein families with overlapping antiviral functions (GBPs, TRIMs, HERCs, PARPs, IFITs) indicates redundancy and robustness of this defense system. In astrocytoma context, expression of this program would restrict tumor growth through multiple mechanisms. The presence of ISG15 as both a modifier and a molecule that boosts adaptive immunity suggests coordinated innate-adaptive immune activation.",
+        "significance_score": 0.96,
+        "citations": [
+          {
+            "source_id": "6",
+            "notes": "GBP1 antiviral functions"
+          },
+          {
+            "source_id": "13",
+            "notes": "TRIM and PARP family antiviral functions"
+          },
+          {
+            "source_id": "15",
+            "notes": "ISG15 functions in immunity"
+          },
+          {
+            "source_id": "18",
+            "notes": "ISG15 in cancer stem cells"
+          }
+        ],
+        "supporting_genes": [
+          "GBP1",
+          "GBP2",
+          "GBP3",
+          "GBP4",
+          "GBP5",
+          "MX1",
+          "MX2",
+          "ISG15",
+          "IFIT1",
+          "IFIT2",
+          "IFIT3",
+          "IFI6",
+          "IFI35",
+          "IFI44",
+          "IFI44L",
+          "TRIM5",
+          "TRIM22",
+          "TRIM25",
+          "TRIM38",
+          "TRIM56",
+          "HERC5",
+          "HERC6",
+          "PARP9",
+          "PARP10",
+          "PARP12",
+          "PARP13",
+          "ZC3HAV1",
+          "DTX3L",
+          "USP18",
+          "IFI16",
+          "IFITM3",
+          "PLSCR1",
+          "RTP4",
+          "OAS1",
+          "OAS2",
+          "OAS3",
+          "OASL"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "STAT1",
+            "STAT2",
+            "IRF9",
+            "RNase L"
+          ],
+          "citations": [
+            {
+              "source_id": "15",
+              "notes": "STAT signaling required for ISG induction"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Immune Checkpoint Regulation and T Cell Suppression",
+        "description": "Immune checkpoint molecules represent a critical mechanism through which tumors evade anti-tumor immunity by delivering inhibitory signals to effector T cells. This program encompasses the PD-1/PD-L1 axis (CD274 encoding PD-L1 and PDCD1LG2 encoding PD-L2), related checkpoint molecules (BTN3A1), and TNF superfamily checkpoint ligands (TNFSF14 encoding LIGHT). PD-L1 engagement with PD-1 on T cell surface transmits inhibitory signaling that suppresses TCR signaling, cytokine production, proliferation, and cytotoxic functions. Checkpoint inhibitor therapy blocking this axis has demonstrated clinical efficacy in multiple cancer types.",
+        "atomic_biological_processes": [
+          {
+            "name": "PD-L1/PD-1 inhibitory signaling",
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "CD274 encodes immune inhibitory receptor ligand expressed on T cells and B cells"
+              },
+              {
+                "source_id": "10",
+                "notes": "PD-L1 regulates ciliogenesis and Hedgehog signaling in addition to immune checkpoint functions"
+              },
+              {
+                "source_id": "38",
+                "notes": "PD-1/PD-L1 axis involved in microglial polarization and glioma interactions"
+              }
+            ],
+            "genes": [
+              "CD274",
+              "PDCD1LG2"
+            ]
+          },
+          {
+            "name": "PD-L1 transcriptional induction",
+            "citations": [
+              {
+                "source_id": "36",
+                "notes": "CTNNB1-mediated Wnt/beta-catenin signaling induces PD-L1 transcription in glioblastoma"
+              },
+              {
+                "source_id": "12",
+                "notes": "NF-kappaB/STAT3 signaling regulates PD-L1 expression"
+              }
+            ],
+            "genes": [
+              "CD274",
+              "CTNNB1"
+            ]
+          },
+          {
+            "name": "butyrophilin checkpoint signaling",
+            "citations": [
+              {
+                "source_id": "4"
+              }
+            ],
+            "genes": [
+              "BTN3A1"
+            ]
+          },
+          {
+            "name": "TNF superfamily checkpoint ligand signaling",
+            "citations": [
+              {
+                "source_id": "4"
+              }
+            ],
+            "genes": [
+              "TNFSF14"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "PD-L1 immune checkpoint ligand",
+            "citations": [
+              {
+                "source_id": "4"
+              }
+            ],
+            "genes": [
+              "CD274"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Suppression of T cell receptor signaling",
+          "Reduced T cell proliferation and cytokine production",
+          "Decreased cytotoxic granule release and tumor cell killing",
+          "Promotion of T regulatory cell differentiation",
+          "Immune evasion and tumor progression"
+        ],
+        "evidence_summary": "PD-L1 (CD274) represents one of the most important immune evasion mechanisms in glioblastoma and other tumors. Expression of PD-L1 on tumor cells creates an immunosuppressive microenvironment that blunts anti-tumor CD8+ T cell responses. The presence of both PD-L1 and PD-L2 in the input list indicates multiple checkpoint ligands available for immune evasion. PD-L1 expression is induced through Wnt/β-catenin, NF-κB, and STAT3 pathways, all of which are often activated in glioblastoma. Checkpoint inhibitor therapies targeting this axis have demonstrated efficacy in other cancers and are under investigation in glioblastoma.",
+        "significance_score": 0.94,
+        "citations": [
+          {
+            "source_id": "4",
+            "notes": "CD274 immune checkpoint molecule definition"
+          },
+          {
+            "source_id": "10",
+            "notes": "PD-L1 regulation and Hedgehog signaling"
+          },
+          {
+            "source_id": "36",
+            "notes": "PD-L1 induction through Wnt signaling in glioblastoma"
+          },
+          {
+            "source_id": "12",
+            "notes": "NF-kappaB/STAT3 control of PD-L1"
+          }
+        ],
+        "supporting_genes": [
+          "CD274",
+          "PDCD1LG2",
+          "BTN3A1",
+          "TNFSF14",
+          "CTNNB1",
+          "NFKB1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PDCD1",
+            "HAVCR2",
+            "LAG3",
+            "CTLA4"
+          ],
+          "citations": [
+            {
+              "source_id": "4",
+              "notes": "PD-1 and other checkpoint receptors on T cells receive inhibitory signals from checkpoint ligands"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Antigen Processing and Presentation",
+        "description": "Adaptive immune responses require that astrocytoma-associated antigens be processed and presented on major histocompatibility complex (MHC) molecules to activate CD8+ and CD4+ T cells. This program encompasses MHC class I-restricted presentation (involving HLA-A, HLA-B, HLA-C, HLA-E, HLA-F) and MHC class II-restricted presentation (involving CIITA as master regulator and NLRC5 as major MHC class I regulator). The program includes proteasomal degradation (PSMB9 immunoproteasome subunit), peptide transport into ER (TAP1, TAP2), and peptide-MHC complex assembly (TAPBP/tapasin).",
+        "atomic_biological_processes": [
+          {
+            "name": "proteasomal antigen processing",
+            "citations": [
+              {
+                "source_id": "26"
+              }
+            ],
+            "genes": [
+              "PSMB9"
+            ]
+          },
+          {
+            "name": "TAP-mediated peptide transport",
+            "citations": [
+              {
+                "source_id": "26"
+              }
+            ],
+            "genes": [
+              "TAP1",
+              "TAP2"
+            ]
+          },
+          {
+            "name": "peptide loading onto MHC class I",
+            "citations": [
+              {
+                "source_id": "26"
+              }
+            ],
+            "genes": [
+              "TAPBP"
+            ]
+          },
+          {
+            "name": "MHC class I expression",
+            "citations": [
+              {
+                "source_id": "26"
+              }
+            ],
+            "genes": [
+              "HLA-A",
+              "HLA-B",
+              "HLA-C",
+              "HLA-E",
+              "HLA-F"
+            ]
+          },
+          {
+            "name": "MHC class II master transcriptional regulation",
+            "citations": [
+              {
+                "source_id": "23",
+                "notes": "CIITA functions as master controller of adaptive and intrinsic immunity"
+              }
+            ],
+            "genes": [
+              "CIITA"
+            ]
+          },
+          {
+            "name": "MHC class I transcriptional regulation",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "NLRC5 plays role in cytokine response and antiviral immunity"
+              }
+            ],
+            "genes": [
+              "NLRC5"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "MHC class I molecule",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "HLA-E belongs to HLA class I heavy chain paralogues"
+              }
+            ],
+            "genes": [
+              "HLA-A",
+              "HLA-B",
+              "HLA-C",
+              "HLA-E",
+              "HLA-F"
+            ]
+          },
+          {
+            "name": "proteasome",
+            "citations": [
+              {
+                "source_id": "26"
+              }
+            ],
+            "genes": [
+              "PSMB9"
+            ]
+          },
+          {
+            "name": "TAP complex",
+            "citations": [
+              {
+                "source_id": "26"
+              }
+            ],
+            "genes": [
+              "TAP1",
+              "TAP2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Processing of tumor-associated antigens (TAAs) into immunogenic peptides",
+          "Presentation of TAA-derived peptides on MHC class I to CD8+ T cells",
+          "Presentation of TAA-derived peptides on MHC class II to CD4+ helper T cells",
+          "Priming of anti-tumor CD8+ and CD4+ T cell responses",
+          "Activation of both cytotoxic and helper immune functions"
+        ],
+        "evidence_summary": "Antigen presentation represents the essential step linking tumor antigen recognition to adaptive immune activation. The complete antigen processing machinery is present in the input list: proteasomal degradation (PSMB9), peptide transport (TAP1/TAP2), complex assembly (TAPBP), and MHC molecules (HLA-A/B/C/E/F). CIITA and NLRC5 control expression of this entire program at the transcriptional level. In glioblastoma, downregulation of MHC class I expression represents a canonical immune evasion mechanism, indicating that restoration of MHC expression through CIITA or NLRC5 activation could enhance immunogenicity.",
+        "significance_score": 0.93,
+        "citations": [
+          {
+            "source_id": "21",
+            "notes": "NLRC5 role in antiviral immunity and MHC expression"
+          },
+          {
+            "source_id": "23",
+            "notes": "CIITA master controller of immune gene expression"
+          },
+          {
+            "source_id": "26",
+            "notes": "HLA and MHC molecule biology"
+          }
+        ],
+        "supporting_genes": [
+          "HLA-A",
+          "HLA-B",
+          "HLA-C",
+          "HLA-E",
+          "HLA-F",
+          "TAP1",
+          "TAP2",
+          "TAPBP",
+          "PSMB9",
+          "CIITA",
+          "NLRC5",
+          "B2M"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CTSB",
+            "CTSL",
+            "CTSS",
+            "PSMA1",
+            "PSMA2",
+            "PSMB1",
+            "PSMB8",
+            "PSMB10"
+          ],
+          "citations": [
+            {
+              "source_id": "26"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Death Receptor Signaling and Regulated Cell Death",
+        "description": "Regulated cell death programs including apoptosis, pyroptosis, and necroptosis represent critical mechanisms through which cytotoxic lymphocytes eliminate tumor cells. This program encompasses TNF superfamily death ligands (TNFSF10 encoding TRAIL), death receptor-associated proteins (CASP4, MLKL), and regulators of these pathways (CFLAR encoding c-FLIP, ZBP1). TRAIL engages death receptors DR4/DR5 on target cells, recruiting FADD and caspase-8 to initiate caspase-dependent apoptosis. c-FLIP inhibits both death receptor-induced apoptosis and caspase-1-mediated pyroptosis. Necroptosis can be triggered by ZBP1-RIPK3 signaling when caspase-8 is inhibited.",
+        "atomic_biological_processes": [
+          {
+            "name": "TRAIL-mediated apoptosis induction",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "Death ligands including TRAIL trigger apoptosis by promoting caspase-8 dimerization and activation"
+              }
+            ],
+            "genes": [
+              "TNFSF10"
+            ]
+          },
+          {
+            "name": "caspase-8-mediated apoptotic signaling",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "CFLAR regulates caspase-8 activation downstream of death receptors"
+              }
+            ],
+            "genes": [
+              "CFLAR"
+            ]
+          },
+          {
+            "name": "caspase-4-mediated pyroptosis",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "caspase-4 activation induces pyroptosis, though NLRP3 inflammasome activation required for IL-1beta maturation"
+              }
+            ],
+            "genes": [
+              "CASP4"
+            ]
+          },
+          {
+            "name": "gasdermin-mediated regulated cell death",
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "Pyroptosis is gasdermin-mediated regulated cell death that recruits immune cells"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "necroptosis execution",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "MLKL functions as executor of necroptosis downstream of RIPK3"
+              }
+            ],
+            "genes": [
+              "MLKL"
+            ]
+          },
+          {
+            "name": "ZBP1-RIPK3 necroptosis trigger",
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "ZBP1 senses viral infection and triggers RIPK3-mediated necroptosis"
+              }
+            ],
+            "genes": [
+              "ZBP1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "death receptor",
+            "citations": [
+              {
+                "source_id": "47"
+              }
+            ],
+            "genes": [
+              "TNFSF10"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Tumor cell death in response to cytotoxic lymphocyte contact",
+          "Activation of apoptotic, pyroptotic, or necroptotic cell death",
+          "Potential immune activation through pyroptosis-induced cytokine release",
+          "Tumor growth suppression and elimination of immune-resistant cells"
+        ],
+        "evidence_summary": "Death receptor signaling represents the primary mechanism through which CD8+ cytotoxic T lymphocytes kill tumor cells. TRAIL (TNFSF10) engagement of death receptors activates caspase-8-dependent apoptosis. c-FLIP (CFLAR) provides a critical brake on this pathway, explaining why tumors expressing high c-FLIP show resistance to death receptor signaling. The presence of both TNFSF10 and CFLAR in the input list indicates tension between death-promoting and death-inhibiting signals. Pyroptosis represents an alternative cell death pathway that generates additional immune activation through cytokine release. The presence of ZBP1 and MLKL indicates capacity for necroptotic cell death.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "25",
+            "notes": "Pyroptosis definition and immune recruitment"
+          },
+          {
+            "source_id": "27",
+            "notes": "Caspase-4 in pyroptosis"
+          },
+          {
+            "source_id": "47",
+            "notes": "Death receptor signaling and c-FLIP regulation"
+          }
+        ],
+        "supporting_genes": [
+          "TNFSF10",
+          "TNFSF14",
+          "CFLAR",
+          "CASP4",
+          "MLKL",
+          "ZBP1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "FADD",
+            "CASP8",
+            "RIPK3",
+            "RIPK1",
+            "GSDMD",
+            "NLRP3",
+            "CASPASE1"
+          ],
+          "citations": [
+            {
+              "source_id": "47",
+              "notes": "FADD, CASP8, RIPK3 are essential adapters in death receptor signaling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Metabolic Reprogramming and Tryptophan Metabolism",
+        "description": "Immune cell function depends critically on metabolic states, with tryptophan metabolism representing a critical immune regulatory node. IDO1 (indoleamine 2,3-dioxygenase 1) catalyzes conversion of tryptophan to kynurenine, depleting tryptophan and generating immunosuppressive metabolites. IDO1 expression is directly induced by STAT1 downstream of interferon signaling, creating a negative feedback loop. Kynurenine pathway metabolites promote T regulatory cell (Treg) differentiation and suppress effector T cell functions. GCH1 catalyzes BH4 synthesis critical for NO production and immune function. SAMHD1 regulates intracellular dNTP levels critical for cell proliferation and genome stability, with depletion in tumors increasing chemotherapy sensitivity and immune activation.",
+        "atomic_biological_processes": [
+          {
+            "name": "tryptophan catabolism",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "Tryptophan metabolism represents metabolic node in glioblastoma"
+              },
+              {
+                "source_id": "11",
+                "notes": "IDO1 promotes tryptophan metabolism and immune suppression in colorectal cancer"
+              }
+            ],
+            "genes": [
+              "IDO1"
+            ]
+          },
+          {
+            "name": "kynurenine pathway activation",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "IDO1 inhibition enhances RT response in glioblastoma"
+              }
+            ],
+            "genes": [
+              "IDO1"
+            ]
+          },
+          {
+            "name": "tetrahydrofolate synthesis",
+            "citations": [
+              {
+                "source_id": "30"
+              }
+            ],
+            "genes": [
+              "GCH1"
+            ]
+          },
+          {
+            "name": "dNTP level regulation",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "SAMHD1 dNTPase regulates intracellular dNTP levels for cell proliferation control"
+              },
+              {
+                "source_id": "35",
+                "notes": "SAMHD1 suppresses innate immune responses through dNTP regulation in differentiated monocytes"
+              }
+            ],
+            "genes": [
+              "SAMHD1"
+            ]
+          },
+          {
+            "name": "nucleotide kinase activity",
+            "citations": [
+              {
+                "source_id": "30"
+              }
+            ],
+            "genes": [
+              "CMPK2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Suppression of effector T cell functions through tryptophan depletion",
+          "Promotion of T regulatory cell differentiation via kynurenine metabolites",
+          "Immune evasion through metabolic reprogramming",
+          "Potential sensitization to chemotherapy through SAMHD1 targeting",
+          "Enhanced tumor immunity through IDO1 inhibition"
+        ],
+        "evidence_summary": "Tryptophan metabolism has emerged as a critical immune regulatory checkpoint in cancer. IDO1-mediated tryptophan depletion represents a classic tumor immune evasion mechanism present in glioblastoma. The therapeutic potential of combining IDO1 inhibition with radiotherapy has been demonstrated experimentally, suggesting clinical translation potential. SAMHD1 represents an additional metabolic checkpoint regulating dNTP pools; depletion of SAMHD1 increases sensitivity to nucleoside-based chemotherapy and activates innate immunity through enhanced viral-like sensing. The presence of both IDO1 and SAMHD1 in the input list highlights metabolic checkpoints as key vulnerabilities of astrocytomas.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "9",
+            "notes": "IDO1 in glioblastoma metabolism and RT response"
+          },
+          {
+            "source_id": "11",
+            "notes": "IDO1 immune suppression in cancer"
+          },
+          {
+            "source_id": "33",
+            "notes": "SAMHD1 in tumor cell chemotherapy resistance"
+          },
+          {
+            "source_id": "35",
+            "notes": "SAMHD1 innate immune suppression"
+          }
+        ],
+        "supporting_genes": [
+          "IDO1",
+          "GCH1",
+          "SAMHD1",
+          "CMPK2",
+          "DPYD",
+          "SPTLC3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "STAT1",
+            "KYNU",
+            "AADC",
+            "ALDH1A1",
+            "AHR",
+            "IL6",
+            "IFNG"
+          ],
+          "citations": [
+            {
+              "source_id": "9",
+              "notes": "Interferon-STAT1 axis induces IDO1 expression"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Epigenetic Regulation of Immune Responses",
+        "description": "Gene expression is controlled not only at the transcriptional level but also through epigenetic mechanisms including histone post-translational modifications, DNA methylation, and chromatin accessibility. EZH2 catalyzes H3K27 trimethylation, a repressive histone mark, and high EZH2 expression is associated with poor prognosis in glioblastoma. EZH2 inhibition promotes tumor immunogenicity through reactivation of silenced immune programs. SP100, SP110, and SP140 encode nuclear body proteins (PML nuclear bodies) that regulate immune-related transcription and serve as predictive biomarkers of immunotherapy response. These proteins represent epigenetic regulators controlling the balance between immune activation and tolerance.",
+        "atomic_biological_processes": [
+          {
+            "name": "PRC2-mediated immune gene silencing",
+            "citations": [
+              {
+                "source_id": "50",
+                "notes": "EZH2 inhibition promotes tumor immunogenicity"
+              }
+            ],
+            "genes": [
+              "EZH2"
+            ]
+          },
+          {
+            "name": "H3K27 trimethylation",
+            "citations": [
+              {
+                "source_id": "50",
+                "notes": "EZH2 catalyzes H3K27 trimethylation repressive histone mark"
+              }
+            ],
+            "genes": [
+              "EZH2"
+            ]
+          },
+          {
+            "name": "nuclear body immune regulation",
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "SP110 is leukocyte-specific nuclear body component"
+              },
+              {
+                "source_id": "57",
+                "notes": "SP140 inhibits STAT1 signaling and induces IFN-gamma in tumor-associated macrophages"
+              }
+            ],
+            "genes": [
+              "SP100",
+              "SP110",
+              "SP140L",
+              "PML"
+            ]
+          },
+          {
+            "name": "immune checkpoint biomarker prediction",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "SP140 is predictive biomarker of immunotherapy response"
+              }
+            ],
+            "genes": [
+              "SP140L"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "PRC2 complex",
+            "citations": [
+              {
+                "source_id": "50"
+              }
+            ],
+            "genes": [
+              "EZH2"
+            ]
+          },
+          {
+            "name": "PML nuclear body",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "PML participates in type I interferon-induced ISG expression"
+              },
+              {
+                "source_id": "56",
+                "notes": "SP100 and SP110 are nuclear body scaffold proteins"
+              }
+            ],
+            "genes": [
+              "SP100",
+              "SP110",
+              "PML"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Reactivation of silenced immune genes through EZH2 inhibition",
+          "Enhanced immune checkpoint expression and function",
+          "Increased interferon responsiveness through SP proteins",
+          "Synergy with checkpoint inhibitor therapy",
+          "Improved tumor immunogenicity and immune cell infiltration"
+        ],
+        "evidence_summary": "Epigenetic mechanisms represent a critical layer of immune gene regulation in astrocytoma. High EZH2 expression and H3K27me3 deposition at immune loci represent mechanisms of immune evasion. EZH2 inhibitors are under investigation for glioblastoma based on preclinical evidence that they enhance immunogenicity. PML nuclear bodies serve as regulatory hubs integrating interferon signaling with transcriptional control. SP proteins modulate STAT1 signaling and represent novel immune regulatory factors. The presence of these epigenetic regulators in the input list reflects the multi-layered epigenetic control of immune responses.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "5",
+            "notes": "PML nuclear body and interferon-induced ISG expression"
+          },
+          {
+            "source_id": "50",
+            "notes": "EZH2 and tumor immunogenicity"
+          },
+          {
+            "source_id": "56",
+            "notes": "SP100 nuclear body protein"
+          },
+          {
+            "source_id": "57",
+            "notes": "SP140 and immunotherapy response prediction"
+          }
+        ],
+        "supporting_genes": [
+          "EZH2",
+          "SP100",
+          "SP110",
+          "SP140L",
+          "PML"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SUZ12",
+            "EED",
+            "DNMT1",
+            "DNMT3A",
+            "DNMT3B",
+            "HDAC1",
+            "HDAC2"
+          ],
+          "citations": [
+            {
+              "source_id": "50",
+              "notes": "PRC2 complex members control epigenetic repression"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cell Adhesion and Immune Cell Trafficking",
+        "description": "Tumor cell invasion and immune cell trafficking depend critically on cell adhesion molecules and signaling proteins controlling cell-cell and cell-matrix interactions. ICAM1 encodes intercellular adhesion molecule 1, which mediates T cell adhesion to endothelial cells and infiltration into tumor tissue. ICAM1 expression is induced by interferons and TNF, indicating inflammatory microenvironment. Focal adhesion kinases (PTK2/FAK, PTK2B/Pyk2) regulate cell adhesion, migration, and invasion through integrin-mediated signaling. PARD3 controls epithelial cell polarity and epithelial-mesenchymal transition. EPCAM and LAMB1 participate in cell-cell adhesion and extracellular matrix interactions. CD44 functions as a cell adhesion molecule and hyaluronic acid receptor implicated in metastasis.",
+        "atomic_biological_processes": [
+          {
+            "name": "T cell extravasation and infiltration",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "ICAM1 encodes cell surface glycoprotein mediating T cell adhesion on endothelial cells"
+              }
+            ],
+            "genes": [
+              "ICAM1"
+            ]
+          },
+          {
+            "name": "focal adhesion signaling",
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "PTK2B regulates cell adhesion and inside-out signaling"
+              },
+              {
+                "source_id": "44",
+                "notes": "FAK-paxillin interactions indispensable for cell adhesion and migration"
+              }
+            ],
+            "genes": [
+              "PTK2B"
+            ]
+          },
+          {
+            "name": "epithelial-mesenchymal transition",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "EPCAM promotes metastasis through CD44 signaling"
+              },
+              {
+                "source_id": "47",
+                "notes": "PARD3 participates in EMT regulation"
+              }
+            ],
+            "genes": [
+              "PARD3",
+              "EPCAM",
+              "CD44"
+            ]
+          },
+          {
+            "name": "extracellular matrix interaction",
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "EPCAM and related molecules regulate cell-matrix interactions"
+              }
+            ],
+            "genes": [
+              "LAMB1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "ICAM1 adhesion molecule",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "ICAM1 is intercellular adhesion molecule"
+              }
+            ],
+            "genes": [
+              "ICAM1"
+            ]
+          },
+          {
+            "name": "focal adhesion complex",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "FAK-paxillin interactions in focal adhesion assembly"
+              }
+            ],
+            "genes": [
+              "PTK2B"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced immune cell trafficking into tumor microenvironment",
+          "Promotion of tumor cell invasion and metastasis",
+          "EMT-mediated acquisition of stem cell-like properties",
+          "Increased T cell-tumor cell interactions",
+          "Potential enhancement or suppression of anti-tumor immunity depending on cell type"
+        ],
+        "evidence_summary": "Cell adhesion molecules and associated signaling proteins control the physical and chemical interactions between tumor cells and immune cells. ICAM1 promotes immune cell trafficking into tumors, potentially enhancing anti-tumor immunity. However, the presence of EMT-promoting factors (PARD3, EPCAM, CD44) suggests tumor cells may acquire invasive properties and potentially EMT-driven immune evasion. Focal adhesion kinases regulate both tumor cell and immune cell migration. The balance between these factors likely determines whether the adhesion program promotes or suppresses anti-tumor immunity.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "41",
+            "notes": "PTK2B in cell adhesion"
+          },
+          {
+            "source_id": "42",
+            "notes": "ICAM1 cell adhesion molecule"
+          },
+          {
+            "source_id": "44",
+            "notes": "FAK and focal adhesion signaling"
+          },
+          {
+            "source_id": "45",
+            "notes": "EPCAM and CD44 in metastasis"
+          }
+        ],
+        "supporting_genes": [
+          "ICAM1",
+          "PTK2B",
+          "PARD3",
+          "EPCAM",
+          "CD44",
+          "LAMB1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ITGA1",
+            "ITGA2",
+            "ITGB1",
+            "ITGB3",
+            "PECAM1",
+            "JAMS",
+            "SELECTINS"
+          ],
+          "citations": [
+            {
+              "source_id": "42",
+              "notes": "Integrins and other adhesion molecules in immune trafficking"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Complement Regulation and Inflammatory Control",
+        "description": "The complement system represents a critical component of innate immunity that can target tumor cells for destruction or alternatively suppress immune responses depending on context. CFH encodes complement factor H, which regulates the alternative complement pathway by preventing uncontrolled C3 activation and protecting host cells from complement-mediated damage. CFHR1 participates in atypical hemolytic uremic syndrome (aHUS) through dysregulation of complement. SERPING1 encodes C1 esterase inhibitor, which inhibits multiple serine proteases in complement cascade. The balance between complement activation and inhibition influences inflammatory responses and anti-tumor immunity.",
+        "atomic_biological_processes": [
+          {
+            "name": "alternative complement pathway regulation",
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "CFH regulates complement alternative pathway and NF-kappaB signaling"
+              }
+            ],
+            "genes": [
+              "CFH",
+              "CFHR1"
+            ]
+          },
+          {
+            "name": "complement cascade inhibition",
+            "citations": [
+              {
+                "source_id": "46"
+              }
+            ],
+            "genes": [
+              "SERPING1"
+            ]
+          },
+          {
+            "name": "complement-mediated inflammation",
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "Complement dysregulation contributes to inflammation"
+              },
+              {
+                "source_id": "48",
+                "notes": "Complement alternative pathway dysregulation in aHUS"
+              }
+            ],
+            "genes": [
+              "CFH",
+              "CFHR1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Regulation of complement-mediated tumor cell destruction",
+          "Suppression of excessive complement-driven inflammation",
+          "Modulation of complement-C5a-mediated immune cell recruitment",
+          "Prevention of complement-induced bystander damage",
+          "Balance between complement-dependent cell-mediated cytotoxicity and immune tolerance"
+        ],
+        "evidence_summary": "Complement represents a double-edged sword in anti-tumor immunity: complement activation can promote direct tumor cell destruction through membrane attack complex formation, but excessive complement activation can also suppress adaptive immunity through C5a-mediated recruitment of immunosuppressive myeloid cells. The presence of complement inhibitors (CFH, SERPING1) alongside potential complement activators suggests dynamic regulation of complement in the astrocytoma microenvironment. CFH loss in retinal pigment epithelium leads to inflammation and NF-kappaB dysregulation, suggesting that complement regulation is intimately linked to inflammatory signaling.",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "46",
+            "notes": "CFH regulation of complement and NF-kappaB"
+          },
+          {
+            "source_id": "48",
+            "notes": "CFHR1 and complement dysregulation"
+          }
+        ],
+        "supporting_genes": [
+          "CFH",
+          "CFHR1",
+          "SERPING1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "C3",
+            "C5",
+            "C5AR1",
+            "C5AR2",
+            "C1Q",
+            "C1R",
+            "C1S",
+            "C2",
+            "C4A",
+            "C4B",
+            "FB",
+            "FD"
+          ],
+          "citations": [
+            {
+              "source_id": "46",
+              "notes": "Core complement pathway components"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "RNA Processing and Stability Control",
+        "description": "Multiple genes in the input list participate in RNA processing, stability, and modifications that control expression of immune genes and viral restriction factors. DDX60 and DDX60L encode helicases with roles in RNA sensing and innate immune activation. HELZ2 participates in helicase-dependent processes. ZC3HAV1 encodes a zinc finger CCCH-type containing viral-associated protein involved in viral restriction and antiviral immunity. WARS encodes tryptophanyl-tRNA synthetase loading tryptophan onto tRNA during protein synthesis. ZCCHC2 participates in zinc finger motif-dependent RNA binding. PLSCR1 (phospholipid scramblase 1) participates in antiviral responses and apoptosis. These genes collectively regulate the synthesis, modification, and degradation of RNA molecules critical to immune responses.",
+        "atomic_biological_processes": [
+          {
+            "name": "dsRNA-dependent helicase activity",
+            "citations": [
+              {
+                "source_id": "28",
+                "notes": "DDX helicase proteins participate in MDA5-dependent RNA sensing"
+              }
+            ],
+            "genes": [
+              "DDX60",
+              "DDX60L",
+              "DDX58"
+            ]
+          },
+          {
+            "name": "viral RNA restriction",
+            "citations": [
+              {
+                "source_id": "28"
+              }
+            ],
+            "genes": [
+              "ZC3HAV1"
+            ]
+          },
+          {
+            "name": "tRNA charging and protein synthesis",
+            "citations": [
+              {
+                "source_id": "30"
+              }
+            ],
+            "genes": [
+              "WARS"
+            ]
+          },
+          {
+            "name": "RNA binding and processing",
+            "citations": [
+              {
+                "source_id": "28"
+              }
+            ],
+            "genes": [
+              "ZCCHC2"
+            ]
+          },
+          {
+            "name": "antiviral and apoptotic signaling",
+            "citations": [
+              {
+                "source_id": "30"
+              }
+            ],
+            "genes": [
+              "PLSCR1"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Enhanced recognition of viral and self-derived dsRNA through helicase activity",
+          "Restriction of viral replication through direct RNA binding and degradation",
+          "Regulation of immune gene expression through RNA stability control",
+          "Modulation of cell death pathways through RNA-mediated mechanisms",
+          "Fine-tuning of interferon responses through RNA processing"
+        ],
+        "evidence_summary": "RNA processing represents an underappreciated layer of immune gene regulation. DDX helicases participate in MDA5-dependent viral RNA sensing, while ZAP/PARP13 directly binds viral RNA for restriction. The presence of these RNA-processing factors indicates sophisticated control of viral and potentially tumor-associated RNA recognition. WARS controls tryptophan availability for protein synthesis, linking to tryptophan metabolism. PLSCR1 participates in antiviral responses and apoptosis. The RNA processing program reflects the critical importance of RNA-level mechanisms in innate immunity.",
+        "significance_score": 0.7,
+        "citations": [
+          {
+            "source_id": "28",
+            "notes": "DDX60 and RNA helicase activity in antiviral immunity"
+          },
+          {
+            "source_id": "30",
+            "notes": "RNA binding and antiviral functions"
+          }
+        ],
+        "supporting_genes": [
+          "DDX60",
+          "DDX60L",
+          "DDX58",
+          "HELZ2",
+          "ZC3HAV1",
+          "WARS",
+          "ZCCHC2",
+          "PLSCR1",
+          "APOBEC3G",
+          "IFI16"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ADAR1",
+            "RNase L",
+            "PKR",
+            "OAS enzymes",
+            "MAVS"
+          ],
+          "citations": [
+            {
+              "source_id": "28",
+              "notes": "ADAR1 RNA editing suppresses MDA5-dependent responses"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Astrocyte Activation and Neuroinflammation",
+        "description": "Astrocytes represent the primary glial cell type in the central nervous system and serve critical roles in both neural support and immune regulation. Recent evidence from traumatic brain injury demonstrates that astrocytes undergo robust activation characterized by pro-inflammatory gene expression programs in the acute phase, followed by gradual shift toward mixed phenotype with neurodegenerative and regenerative elements in chronic phases. Key acute-phase genes include pro-inflammatory cytokines (IL-1, IL-6, TNF, IFNG), interferon-responsive genes (IFN-α/γ responses), complement activation (C4b), and apoptosis-related genes. This program integrates innate immune sensor activation (TLR2, TLR3, MYD88) with downstream inflammatory signaling to coordinate astrocyte-mediated neuroinflammation.",
+        "atomic_biological_processes": [
+          {
+            "name": "pro-inflammatory cytokine expression",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "TBI astrocytes display upregulation of pro-inflammatory cytokines IL-1, IL-6, TNF, IFN-γ"
+              }
+            ],
+            "genes": [
+              "IL1R1",
+              "IL15"
+            ]
+          },
+          {
+            "name": "Toll-like receptor signaling",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "Acute TBI astrocytes show enrichment in Toll-like receptor signaling genes Tlr2, Myd88"
+              }
+            ],
+            "genes": [
+              "TLR2"
+            ]
+          },
+          {
+            "name": "interferon-alpha response",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "GSEA reveals significant enrichment in interferon-α responses in acute TBI astrocytes"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "interferon-gamma response",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "GSEA reveals significant enrichment in interferon-γ responses in acute TBI astrocytes"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "complement activation",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "Genes involved in complement activation (C4b) enriched in acute TBI astrocytes"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "apoptosis program",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "Apoptosis-related genes including Tradd enriched in acute TBI astrocytes"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "chronic neurodegeneration and cellular dysfunction",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "Chronic TBI phase shows upregulation of genes involved in neurodegeneration including App and S1pr1"
+              }
+            ],
+            "genes": []
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "astrocyte activation state",
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "Pan-reactive astrocyte markers including Gfap, Apoe, Cd44, Serpina3n, Cxcl10 prominently expressed"
+              }
+            ],
+            "genes": [
+              "GFAP",
+              "APOE",
+              "CD44",
+              "CXCL10"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Robust astrocyte activation with pro-inflammatory gene expression",
+          "Enhanced interferon responsiveness and ISG induction",
+          "Increased cytokine and chemokine production promoting immune cell infiltration",
+          "Activation of complement cascade and apoptosis programs",
+          "Transition from acute inflammatory to chronic degenerative phenotype",
+          "Potential neural tissue damage and inflammation-mediated pathology in astrocytoma context"
+        ],
+        "evidence_summary": "Astrocytes represent the cellular origin of astrocytomas, and understanding astrocyte biology is critical for comprehending tumor-immune interactions in these malignancies. Recent evidence shows that astrocytes mount robust interferon responses characterized by upregulation of TLR signaling, pro-inflammatory cytokines, and interferon-responsive genes. The acute inflammatory phase gradually transitions toward a mixed phenotype incorporating neurodegenerative genes. In astrocytoma context, malignant transformation likely involves either constitutive suppression of these acute inflammatory programs (promoting immune evasion) or dysregulated maintenance of chronic inflammatory programs (promoting tumor growth and resistance). The presence of TLR genes, interferon-responsive genes, and IL1R1 in the input list reflects the capacity of astrocytes to mount innate immune responses.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "52",
+            "notes": "Comprehensive RNA-seq analysis of astrocyte activation following traumatic brain injury"
+          }
+        ],
+        "supporting_genes": [
+          "TLR2",
+          "TLR3",
+          "IL1R1",
+          "IL15",
+          "CXCL10",
+          "CD44",
+          "PTGS2",
+          "TNFAIP2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GFAP",
+            "APOE",
+            "IL1B",
+            "IL6",
+            "TNF",
+            "IFNG",
+            "MYD88",
+            "TREM2",
+            "TYROBP",
+            "INPP5D"
+          ],
+          "citations": [
+            {
+              "source_id": "52",
+              "notes": "Key astrocyte activation genes and markers identified in comprehensive astrocyte transcriptomic analysis"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Type I interferon signaling cascade",
+        "Type II interferon signaling cascade",
+        "Pattern recognition receptor pathways",
+        "Interferon-stimulated gene families",
+        "Immune checkpoint molecules",
+        "Antigen presentation machinery",
+        "Death receptor signaling pathways",
+        "Metabolic checkpoints in immunity",
+        "Epigenetic regulators of immune genes",
+        "Cell adhesion molecules and signaling",
+        "Complement regulation",
+        "RNA processing and stability",
+        "Astrocyte-specific immune programs"
+      ],
+      "notes": "Analysis identified 12 major gene programs through systematic organization of 180 input genes according to their functional roles in interferon signaling, innate immunity, adaptive immunity, and immune evasion. Programs were defined by: (1) participation in a common cellular process, (2) membership in established pathway databases, (3) known physical interactions between gene products, (4) coordination by common transcription factors (especially STAT1), and (5) contextual relevance to astrocytoma biology. Each program includes well-established genes with strong experimental support alongside emerging genes with more limited literature. Classification prioritizes coherence of function within programs, avoiding programs that group disparate or loosely related processes. Programs are organized hierarchically (sensory/signaling, effector, regulatory) to reflect control architecture of immune responses."
+    },
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "total_processes": 41,
+  "total_components": 24,
+  "mapped_processes": 38,
+  "mapped_components": 23,
+  "failed_mappings": [
+    {
+      "term": "Astrocytic endfeet",
+      "type": "component"
+    },
+    {
+      "term": "Myosin-mediated contractility and force generation",
+      "type": "process"
+    },
+    {
+      "term": "Synthesis of fibrous ECM components",
+      "type": "process"
+    },
+    {
+      "term": "ECM proteoglycan modification and growth factor bioavailability regulation",
+      "type": "process"
+    }
+  ]
+}

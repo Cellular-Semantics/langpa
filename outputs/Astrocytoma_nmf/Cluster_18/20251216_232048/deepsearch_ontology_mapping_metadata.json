@@ -1,0 +1,28 @@
+{
+  "total_processes": 38,
+  "total_components": 12,
+  "mapped_processes": 35,
+  "mapped_components": 10,
+  "failed_mappings": [
+    {
+      "term": "Matricellular proteins regulating cell-ECM interactions",
+      "type": "component"
+    },
+    {
+      "term": "Tetraspanin-mediated ECM interactions",
+      "type": "component"
+    },
+    {
+      "term": "lncRNA-mediated tumor microenvironment shaping",
+      "type": "process"
+    },
+    {
+      "term": "Competing endogenous RNA mechanisms",
+      "type": "process"
+    },
+    {
+      "term": "Glycine receptor-mediated inhibitory signaling",
+      "type": "process"
+    }
+  ]
+}

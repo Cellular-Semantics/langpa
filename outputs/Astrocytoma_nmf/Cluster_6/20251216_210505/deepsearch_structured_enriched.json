@@ -1,0 +1,2731 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-17T21:38:17.203689",
+    "genes": [
+      "SOX6",
+      "FGF12",
+      "CADM2",
+      "SMOC1",
+      "PDE4B",
+      "KIF13A",
+      "MAML2",
+      "FGF14",
+      "COL11A1",
+      "VCAN",
+      "PLAAT1",
+      "ALCAM",
+      "MEGF11",
+      "UST",
+      "GRID2",
+      "FYN",
+      "VCAN-AS1",
+      "DNM3",
+      "OPCML",
+      "DSCAM",
+      "OPHN1",
+      "MAP2",
+      "TNR",
+      "ZNF804A",
+      "AL512308.1",
+      "GALNT13",
+      "MDGA2",
+      "GRIA2",
+      "ADGRL3",
+      "DGKB",
+      "SCD5",
+      "DLGAP1",
+      "LSAMP",
+      "TNS3",
+      "PKP4",
+      "SLC44A1",
+      "PHYHIPL",
+      "SGK1",
+      "SERINC5",
+      "LINC00511",
+      "FERMT1",
+      "CCDC26",
+      "P2RX7",
+      "DLGAP1-AS5",
+      "DLGAP1-AS4",
+      "DISC1",
+      "SAMHD1",
+      "SH3D19",
+      "COL20A1",
+      "PCDH15",
+      "CA10",
+      "AFAP1L2",
+      "GRIA4",
+      "MARCH1",
+      "ZEB2",
+      "LINC02283",
+      "SLC2A13",
+      "AC009041.2",
+      "ANO3",
+      "PDGFC",
+      "DSCAML1",
+      "RBPJ",
+      "NOVA1",
+      "SOX10",
+      "KCNIP4",
+      "BRINP2",
+      "BCAS1",
+      "PRKCE",
+      "AL136114.1",
+      "ARPP21",
+      "NRCAM",
+      "LRP1B",
+      "SCN3A",
+      "LHFPL3",
+      "DGKG",
+      "SLC1A1",
+      "AC004852.2",
+      "GLCCI1",
+      "FAM110B",
+      "DOCK10",
+      "LINC00609",
+      "CELF2",
+      "MACROD2",
+      "RNF150",
+      "PHACTR3",
+      "RAPGEF4",
+      "LUZP2",
+      "SIRT2",
+      "C2ORF27A",
+      "SEMA5B",
+      "AC006058.1",
+      "IL1RAPL1",
+      "ARHGAP22",
+      "PTCH1",
+      "AL359091.1",
+      "JAZF1",
+      "KAZN",
+      "RBMS3",
+      "TMEFF2",
+      "AL353784.1",
+      "SOX8",
+      "SSH2",
+      "LIMD1",
+      "PODN",
+      "FXYD6",
+      "UNC80",
+      "ERBB4",
+      "RTKN",
+      "PTPRZ1",
+      "DMD",
+      "LINC00689",
+      "SHROOM4",
+      "ETV1",
+      "AC110285.1",
+      "ERBB3",
+      "EYS",
+      "AC009227.1",
+      "GRIK2",
+      "ZBTB16",
+      "FAM13C",
+      "AC020584.1",
+      "CRB1",
+      "GPR17",
+      "PLPP4",
+      "DLL3",
+      "POLR2F",
+      "PID1",
+      "SCN1A",
+      "REPS2",
+      "EPHB1",
+      "KAT2B",
+      "DCC",
+      "PKP4-AS1",
+      "ARHGAP24",
+      "SLIT1",
+      "ASIC4",
+      "ANKRD28",
+      "MMP16",
+      "RFTN2",
+      "IGSF9B",
+      "CSMD3",
+      "RIN2",
+      "SGCD",
+      "SOX5",
+      "FAM242A",
+      "FHIT",
+      "RGR",
+      "SEMA6D",
+      "TMEM132B",
+      "TMEM163",
+      "TNK2",
+      "ZFPM2",
+      "LINC01170",
+      "LHFPL3-AS1",
+      "AL136171.2",
+      "VIPR2",
+      "TRIM9",
+      "PDGFRA",
+      "PCDH11X",
+      "UGT8",
+      "AL139231.1",
+      "NTN4",
+      "NXPH1",
+      "CLEC2D",
+      "GRIA3",
+      "KHDRBS2",
+      "PRICKLE1",
+      "SLC35F1",
+      "AC068587.4",
+      "PTCSC3",
+      "TOX",
+      "STK32A",
+      "DPYSL3",
+      "OLIG1",
+      "C1QL1",
+      "AJAP1",
+      "AC068308.1",
+      "PTPRJ",
+      "LRRTM4",
+      "BRINP3",
+      "XKR4",
+      "NCAM2",
+      "CTNNA3",
+      "KHDRBS3",
+      "OR4N2",
+      "ADAMTS20",
+      "GPR158",
+      "GLRA3",
+      "AC096555.1",
+      "CDH13",
+      "ADAMTS6",
+      "CNTN3",
+      "AC092821.3",
+      "COBL",
+      "MB21D2",
+      "SCN1A-AS1",
+      "RALYL",
+      "SOX2-OT",
+      "CALCRL",
+      "BMPER"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid_enriched",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_6/20251216_210505/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": null,
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "offline",
+    "effective_model": "offline",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_6",
+    "source_tag": "deepsearch",
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "version": "1.0",
+    "context": {
+      "cell_type": "Astrocytes, astrocyte progenitors, and malignant astrocytic tumor cells",
+      "disease": "Astrocytoma (including IDH-mutant and IDH-wildtype forms, with focus on high-grade glioma/glioblastoma)",
+      "tissue": "Central nervous system, particularly cerebral cortex and subcortical white matter"
+    },
+    "input_genes": [
+      "SOX6",
+      "FGF12",
+      "CADM2",
+      "SMOC1",
+      "PDE4B",
+      "KIF13A",
+      "MAML2",
+      "FGF14",
+      "COL11A1",
+      "VCAN",
+      "PLAAT1",
+      "ALCAM",
+      "MEGF11",
+      "UST",
+      "GRID2",
+      "FYN",
+      "VCAN-AS1",
+      "DNM3",
+      "OPCML",
+      "DSCAM",
+      "OPHN1",
+      "MAP2",
+      "TNR",
+      "ZNF804A",
+      "AL512308.1",
+      "GALNT13",
+      "MDGA2",
+      "GRIA2",
+      "ADGRL3",
+      "DGKB",
+      "SCD5",
+      "DLGAP1",
+      "LSAMP",
+      "TNS3",
+      "PKP4",
+      "SLC44A1",
+      "PHYHIPL",
+      "SGK1",
+      "SERINC5",
+      "LINC00511",
+      "FERMT1",
+      "CCDC26",
+      "P2RX7",
+      "DLGAP1-AS5",
+      "DLGAP1-AS4",
+      "DISC1",
+      "SAMHD1",
+      "SH3D19",
+      "COL20A1",
+      "PCDH15",
+      "CA10",
+      "AFAP1L2",
+      "GRIA4",
+      "MARCH1",
+      "ZEB2",
+      "LINC02283",
+      "SLC2A13",
+      "AC009041.2",
+      "ANO3",
+      "PDGFC",
+      "DSCAML1",
+      "RBPJ",
+      "NOVA1",
+      "SOX10",
+      "KCNIP4",
+      "BRINP2",
+      "BCAS1",
+      "PRKCE",
+      "AL136114.1",
+      "ARPP21",
+      "NRCAM",
+      "LRP1B",
+      "SCN3A",
+      "LHFPL3",
+      "DGKG",
+      "SLC1A1",
+      "AC004852.2",
+      "GLCCI1",
+      "FAM110B",
+      "DOCK10",
+      "LINC00609",
+      "CELF2",
+      "MACROD2",
+      "RNF150",
+      "PHACTR3",
+      "RAPGEF4",
+      "LUZP2",
+      "SIRT2",
+      "C2ORF27A",
+      "SEMA5B",
+      "AC006058.1",
+      "IL1RAPL1",
+      "ARHGAP22",
+      "PTCH1",
+      "AL359091.1",
+      "JAZF1",
+      "KAZN",
+      "RBMS3",
+      "TMEFF2",
+      "AL353784.1",
+      "SOX8",
+      "SSH2",
+      "LIMD1",
+      "PODN",
+      "FXYD6",
+      "UNC80",
+      "ERBB4",
+      "RTKN",
+      "PTPRZ1",
+      "DMD",
+      "LINC00689",
+      "SHROOM4",
+      "ETV1",
+      "AC110285.1",
+      "ERBB3",
+      "EYS",
+      "AC009227.1",
+      "GRIK2",
+      "ZBTB16",
+      "FAM13C",
+      "AC020584.1",
+      "CRB1",
+      "GPR17",
+      "PLPP4",
+      "DLL3",
+      "POLR2F",
+      "PID1",
+      "SCN1A",
+      "REPS2",
+      "EPHB1",
+      "KAT2B",
+      "DCC",
+      "PKP4-AS1",
+      "ARHGAP24",
+      "SLIT1",
+      "ASIC4",
+      "ANKRD28",
+      "MMP16",
+      "RFTN2",
+      "IGSF9B",
+      "CSMD3",
+      "RIN2",
+      "SGCD",
+      "SOX5",
+      "FAM242A",
+      "FHIT",
+      "RGR",
+      "SEMA6D",
+      "TMEM132B",
+      "TMEM163",
+      "TNK2",
+      "ZFPM2",
+      "LINC01170",
+      "LHFPL3-AS1",
+      "AL136171.2",
+      "VIPR2",
+      "TRIM9",
+      "PDGFRA",
+      "PCDH11X",
+      "UGT8",
+      "AL139231.1",
+      "NTN4",
+      "NXPH1",
+      "CLEC2D",
+      "GRIA3",
+      "KHDRBS2",
+      "PRICKLE1",
+      "SLC35F1",
+      "AC068587.4",
+      "PTCSC3",
+      "TOX",
+      "STK32A",
+      "DPYSL3",
+      "OLIG1",
+      "C1QL1",
+      "AJAP1",
+      "AC068308.1",
+      "PTPRJ",
+      "LRRTM4",
+      "BRINP3",
+      "XKR4",
+      "NCAM2",
+      "CTNNA3",
+      "KHDRBS3",
+      "OR4N2",
+      "ADAMTS20",
+      "GPR158",
+      "GLRA3",
+      "AC096555.1",
+      "CDH13",
+      "ADAMTS6",
+      "CNTN3",
+      "AC092821.3",
+      "COBL",
+      "MB21D2",
+      "SCN1A-AS1",
+      "RALYL",
+      "SOX2-OT",
+      "CALCRL",
+      "BMPER"
+    ],
+    "programs": [
+      {
+        "program_name": "Synaptic Adhesion and Plasticity",
+        "description": "Gene program controlling synaptic structure, neuronal-glial communication, and activity-dependent plasticity through cell adhesion molecules, synaptic scaffolding proteins, and extracellular matrix components. This program includes both pre- and postsynaptic organization and maintenance mechanisms.",
+        "atomic_biological_processes": [
+          {
+            "name": "Synapse formation and maturation",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "CADM2 (SynCAM2) induces presynaptic terminal formation and mediates homophilic cell adhesion"
+              }
+            ],
+            "genes": [
+              "CADM2",
+              "LRRTM4",
+              "AJAP1"
+            ],
+            "ontology_id": "GO:0060074",
+            "ontology_label": "synapse maturation",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Synaptic plasticity and activity-dependent remodeling",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "TNR (tenascin R) modulates synaptic plasticity and information storage in neural circuits"
+              }
+            ],
+            "genes": [
+              "TNR",
+              "CADM2",
+              "PCDH15"
+            ],
+            "ontology_id": "GO:0048167",
+            "ontology_label": "regulation of synaptic plasticity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Neuron-glia communication",
+            "citations": [
+              {
+                "source_id": "23",
+                "notes": "Downregulation of genes encoding NRCAM and other adhesion molecules occurs in reactive astrocytes following injury"
+              }
+            ],
+            "genes": [
+              "NRCAM",
+              "ALCAM",
+              "CNTN3"
+            ],
+            "ontology_id": "GO:0150099",
+            "ontology_label": "neuron-glial cell signaling",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Adherens junction and cell-cell adhesion",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "CADM2-mediated adhesion promotes synaptic organization through cell-cell contact"
+              }
+            ],
+            "genes": [
+              "CADM2",
+              "CTNNA3",
+              "PCDH15",
+              "CDH13",
+              "NCAM2"
+            ],
+            "ontology_id": "GO:0098609",
+            "ontology_label": "cell-cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Extracellular matrix in neural tissue",
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "TNR functions as an extracellular matrix component regulating synaptic plasticity"
+              }
+            ],
+            "genes": [
+              "TNR",
+              "CNTN3",
+              "LRRTM4"
+            ],
+            "ontology_id": "GO:0031012",
+            "ontology_label": "extracellular matrix",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered synaptic connectivity through disrupted adhesion molecule expression",
+          "Enhanced peritumoral neuronal hyperexcitability through compromised synaptic stabilization",
+          "Dysregulated neuron-glia communication affecting trophic support and metabolic coupling",
+          "Impaired activity-dependent synaptic plasticity in peritumoral circuits",
+          "Reduced structural support for dendritic spines and synaptic terminals"
+        ],
+        "evidence_summary": "Synaptic adhesion molecules and extracellular matrix components undergo coordinated dysregulation in reactive astrocytes and peritumoral neural tissue. Studies of traumatic brain injury reveal marked downregulation of synaptic communication genes in reactive astrocytes[23][29]. In glioma, peritumoral neurons exhibit significant transcriptional alterations in genes controlling synaptic transmission and plasticity[32]. The presence of multiple cadherins, cell adhesion molecules, and extracellular matrix proteins in the gene list indicates widespread disruption of synaptic organization in astrocytoma.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "9",
+            "notes": "CADM2 functions in synaptic organization"
+          },
+          {
+            "source_id": "23",
+            "notes": "Reactive astrocyte gene expression changes in chronic TBI"
+          },
+          {
+            "source_id": "29",
+            "notes": "Comprehensive analysis of astrocytic transcriptional programs in injury"
+          },
+          {
+            "source_id": "32",
+            "notes": "Peritumoral neuronal transcriptional alterations in glioma-associated seizures"
+          },
+          {
+            "source_id": "44",
+            "notes": "TNR modulates synaptic plasticity"
+          }
+        ],
+        "supporting_genes": [
+          "MAP2",
+          "CADM2",
+          "TNR",
+          "LRRTM4",
+          "NRCAM",
+          "ALCAM",
+          "CNTN3",
+          "NCAM2",
+          "CTNNA3",
+          "AJAP1",
+          "PCDH15",
+          "CDH13"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "NMDAR subunits (GRIN1, GRIN2A-D)",
+            "N-cadherin (CDH2)",
+            "Neuroligin family members (NLGN1-3)",
+            "PSD-95 family (DLG4, SAP102)"
+          ],
+          "citations": [
+            {
+              "source_id": "44",
+              "notes": "Classical synaptic adhesion components necessary for complete synapse assembly"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Glutamatergic Excitatory Signaling",
+        "description": "Gene program controlling excitatory glutamatergic synaptic transmission through ionotropic glutamate receptors, glutamate transporters, and associated regulatory proteins. This program represents the molecular basis of glutamate synapses.",
+        "atomic_biological_processes": [
+          {
+            "name": "Postsynaptic glutamate receptor function",
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "AMPA receptor dysregulation occurs in peritumoral neurons in glioma-associated seizure models"
+              }
+            ],
+            "genes": [
+              "GRIA2",
+              "GRIA3",
+              "GRIA4",
+              "GRID2"
+            ],
+            "ontology_id": "GO:0098960",
+            "ontology_label": "postsynaptic neurotransmitter receptor activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Glutamate clearance and homeostasis",
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "Impaired glutamate reuptake contributes to neuronal hyperexcitability in peritumoral regions"
+              }
+            ],
+            "genes": [
+              "SLC1A1"
+            ],
+            "ontology_id": "GO:0090461",
+            "ontology_label": "intracellular glutamate homeostasis",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Glutamate-dependent excitotoxicity",
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "Excess glutamate elevation through xCT transporter dysfunction drives peritumoral neuronal hyperexcitability"
+              }
+            ],
+            "genes": [
+              "GRIA2",
+              "GRIA3",
+              "GRIA4",
+              "SLC1A1"
+            ],
+            "ontology_id": "GO:0008219",
+            "ontology_label": "cell death",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "AMPA receptor complex",
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "AMPA receptor subunit composition changes in peritumoral neurons correlate with altered excitatory postsynaptic currents"
+              }
+            ],
+            "genes": [
+              "GRIA2",
+              "GRIA3",
+              "GRIA4"
+            ],
+            "ontology_id": "GO:0032281",
+            "ontology_label": "AMPA glutamate receptor complex",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "synonym_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced peritumoral neuronal excitability through altered glutamate receptor expression and composition",
+          "Impaired glutamate homeostasis leading to synaptic glutamate accumulation and excitotoxicity",
+          "Altered calcium permeability of AMPA receptors through GluA2 subunit dysregulation",
+          "Increased susceptibility to seizures through enhanced glutamatergic excitation",
+          "Dysregulated long-term potentiation and synaptic plasticity"
+        ],
+        "evidence_summary": "Glutamatergic dysregulation represents a well-established mechanism in glioma-associated seizures and peritumoral neuronal dysfunction. Glioma cells elevate extracellular glutamate through both direct release and impairment of astrocytic glutamate reuptake[32]. Peritumoral neurons exhibit altered AMPA receptor subunit expression with increased GluA2-lacking, calcium-permeable AMPA receptors, promoting calcium-dependent neuronal damage and hyperexcitability[32]. The convergence of AMPA receptor subunits (GRIA2-4) with glutamate transporter genes indicates coordinated dysregulation of glutamate synapses in astrocytoma.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "32",
+            "notes": "Comprehensive analysis of peritumoral neuronal dysfunction in glioma-associated seizures with altered glutamate receptor and transporter expression"
+          }
+        ],
+        "supporting_genes": [
+          "GRIA2",
+          "GRIA3",
+          "GRIA4",
+          "SLC1A1",
+          "GRID2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GRIN1, GRIN2A-D (NMDAR subunits)",
+            "SLC1A2 (astrocytic glutamate transporter EAAT2)",
+            "GRM1-8 (metabotropic glutamate receptors)",
+            "Homer proteins (mGluR scaffolding)"
+          ],
+          "citations": [
+            {
+              "source_id": "32",
+              "notes": "Complete glutamate synapse requires additional receptor and transporter components"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Voltage-Gated Ion Channels and Intrinsic Excitability",
+        "description": "Gene program controlling neuronal intrinsic excitability through voltage-gated sodium and potassium channels, ATP-gated cation channels, and acid-sensing ion channels. These genes determine the threshold and rate of action potential generation in neurons.",
+        "atomic_biological_processes": [
+          {
+            "name": "Action potential generation and propagation",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "SCN1A mutations in genetic epilepsy with febrile seizures directly impair action potential generation"
+              }
+            ],
+            "genes": [
+              "SCN1A",
+              "SCN3A"
+            ],
+            "ontology_id": "GO:0098870",
+            "ontology_label": "action potential propagation",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Neuronal repolarization and afterhyperpolarization",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "Potassium channel function controlled by KCNIP interacting proteins regulates repolarization"
+              }
+            ],
+            "genes": [
+              "KCNIP4"
+            ],
+            "ontology_id": "GO:0086009",
+            "ontology_label": "membrane repolarization",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "ATP-dependent ion channel signaling",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "P2RX7 activation by extracellular ATP mediates neuronal and immune cell responses"
+              }
+            ],
+            "genes": [
+              "P2RX7",
+              "ASIC4"
+            ],
+            "ontology_id": "GO:0035381",
+            "ontology_label": "ATP-gated ion channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "pH-sensitive ion channel function",
+            "citations": [
+              {
+                "source_id": "54",
+                "notes": "Tumor microenvironment acidification due to lactate accumulation can activate acid-sensing channels"
+              }
+            ],
+            "genes": [
+              "ASIC4"
+            ],
+            "ontology_id": "GO:0160128",
+            "ontology_label": "pH-gated monoatomic ion channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Voltage-gated sodium channel complex",
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "SCN1A and SCN3A encode core components of neuronal sodium channels"
+              }
+            ],
+            "genes": [
+              "SCN1A",
+              "SCN3A"
+            ],
+            "ontology_id": "GO:0001518",
+            "ontology_label": "voltage-gated sodium channel complex",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
+          },
+          {
+            "name": "Ligand-gated ion channels",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "P2RX7 represents ATP-gated cation channel expressed in neurons and immune cells"
+              }
+            ],
+            "genes": [
+              "P2RX7",
+              "ASIC4"
+            ],
+            "ontology_id": "GO:0022834",
+            "ontology_label": "ligand-gated channel activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced neuronal excitability through altered sodium channel expression or altered intrinsic properties",
+          "Increased seizure susceptibility in peritumoral tissue through dysregulated action potential generation",
+          "Altered response to extracellular ATP and acidification through ion channel dysregulation",
+          "Enhanced calcium influx through P2RX7 activation contributing to excitotoxicity",
+          "Dysregulated neuronal firing patterns and loss of normal activity regulation"
+        ],
+        "evidence_summary": "Intrinsic neuronal excitability represents a key determinant of seizure susceptibility in glioma. Peritumoral neurons in glioma models exhibit increased intrinsic excitability with enhanced spontaneous firing rates[32]. SCN1A and SCN3A mutations cause genetic epilepsy syndromes through impaired sodium channel function[34][37]. P2RX7 activation by extracellular ATP contributes to both neuronal excitation and immune cell-mediated inflammation in the tumor microenvironment[38]. The inclusion of multiple ion channel genes indicates coordinated dysregulation of neuronal excitability in astrocytoma.",
+        "significance_score": 0.87,
+        "citations": [
+          {
+            "source_id": "32",
+            "notes": "Peritumoral neurons exhibit altered intrinsic excitability in glioma models"
+          },
+          {
+            "source_id": "34",
+            "notes": "SCN1A mutations in genetic epilepsy"
+          },
+          {
+            "source_id": "37",
+            "notes": "SCN3A mutations associated with epilepsy"
+          },
+          {
+            "source_id": "38",
+            "notes": "P2RX7 channel function in neurons and immune cells"
+          },
+          {
+            "source_id": "54",
+            "notes": "Tumor microenvironment acidification from lactate accumulation"
+          }
+        ],
+        "supporting_genes": [
+          "SCN1A",
+          "SCN3A",
+          "P2RX7",
+          "ASIC4",
+          "KCNIP4"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "KCNQ family (M-channel genes)",
+            "HCN genes (hyperpolarization-activated cyclic nucleotide channels)",
+            "CACNA genes (voltage-gated calcium channels)"
+          ],
+          "citations": [
+            {
+              "source_id": "32",
+              "notes": "Additional ion channels contribute to neuronal excitability control"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Oligodendrocyte Lineage Development and Myelination",
+        "description": "Gene program controlling specification, differentiation, and functional maturation of oligodendrocytes through lineage-restricted transcription factors, adhesion molecules, and myelin protein genes. This program encompasses the developmental transition from OPC to mature myelin-forming oligodendrocyte.",
+        "atomic_biological_processes": [
+          {
+            "name": "Oligodendrocyte specification and differentiation",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "SOX10 functions as a master regulator of oligodendrocyte specification during CNS development"
+              },
+              {
+                "source_id": "22",
+                "notes": "OLIG1 and SOX10 act synergistically to promote oligodendrocyte differentiation"
+              }
+            ],
+            "genes": [
+              "SOX10",
+              "SOX8",
+              "SOX5",
+              "SOX6",
+              "OLIG1",
+              "RBPJ"
+            ],
+            "ontology_id": "GO:0048709",
+            "ontology_label": "oligodendrocyte differentiation",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "OPC progenitor maintenance through Notch signaling",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "RBPJ-mediated Notch signaling maintains OPC progenitor status and prevents premature differentiation"
+              }
+            ],
+            "genes": [
+              "RBPJ"
+            ],
+            "ontology_id": "GO:0007219",
+            "ontology_label": "Notch signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Myelin membrane biogenesis and lipid synthesis",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "UGT8 catalyzes synthesis of galactocerebroside, major myelin lipid component"
+              }
+            ],
+            "genes": [
+              "UGT8",
+              "BCAS1"
+            ],
+            "ontology_id": "GO:0044091",
+            "ontology_label": "membrane biogenesis",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Oligodendrocyte-astrocyte interactions",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "ALCAM mediates cell-cell adhesion between oligodendrocytes and other glial cells"
+              }
+            ],
+            "genes": [
+              "ALCAM"
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Oligodendrocyte transcriptional regulatory network",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "OLIG1 and OLIG2 transcription factors control oligodendrocyte-specific gene expression"
+              }
+            ],
+            "genes": [
+              "OLIG1",
+              "SOX10",
+              "SOX8",
+              "SOX5",
+              "SOX6"
+            ],
+            "ontology_id": "GO:0014003",
+            "ontology_label": "oligodendrocyte development",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Myelin sheath structure",
+            "citations": [
+              {
+                "source_id": "10",
+                "notes": "BCAS1 and UGT8 produce components of myelin membrane"
+              }
+            ],
+            "genes": [
+              "UGT8",
+              "BCAS1"
+            ],
+            "ontology_id": "GO:0043209",
+            "ontology_label": "myelin sheath",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Disrupted OPC differentiation leading to arrest in progenitor state or alternative fate transitions",
+          "Enhanced Notch-mediated OPC maintenance potentially blocking myelination in peritumoral regions",
+          "Impaired myelin formation and lipid synthesis affecting axonal conduction velocity and neuronal function",
+          "Altered glial-glial adhesion potentially affecting oligodendrocyte network organization",
+          "Potential transdifferentiation or plasticity of OPCs under tumor-derived signals"
+        ],
+        "evidence_summary": "Oligodendrocyte development undergoes significant dysregulation in glioma microenvironment. Injury-induced glial responses demonstrate that OPCs undergo transcriptional reprogramming with altered expression of developmental transcription factors[10]. Adult high-grade gliomas arise in a cellular environment containing mature oligodendrocytes and OPCs, both of which can interact with tumor cells through paracrine signaling. Recent studies of diffuse midline gliomas and glioblastomas reveal subsets of tumors with multilineage gene expression patterns including oligodendrocyte-associated genes[2][5]. The convergence of SOX family transcription factors, OLIG1, RBPJ, and myelin genes indicates coordinated dysregulation of oligodendrocyte lineage in astrocytoma.",
+        "significance_score": 0.79,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "WHO classification of gliomas discusses molecular subtypes with varying glial composition"
+          },
+          {
+            "source_id": "5",
+            "notes": "High-grade gliomas exhibit biological heterogeneity"
+          },
+          {
+            "source_id": "8",
+            "notes": "ALCAM in glial cell interactions"
+          },
+          {
+            "source_id": "10",
+            "notes": "SOX10 in oligodendrocyte development and injury responses"
+          },
+          {
+            "source_id": "20",
+            "notes": "OLIG2 and oligodendrocyte development"
+          },
+          {
+            "source_id": "22",
+            "notes": "OLIG1 in oligodendrocyte differentiation"
+          }
+        ],
+        "supporting_genes": [
+          "SOX10",
+          "SOX8",
+          "SOX5",
+          "SOX6",
+          "OLIG1",
+          "RBPJ",
+          "ALCAM",
+          "UGT8",
+          "BCAS1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "OLIG2",
+            "MBP (myelin basic protein)",
+            "MOG (myelin oligodendrocyte glycoprotein)",
+            "MAG (myelin-associated glycoprotein)",
+            "CNP (cyclic nucleotide phosphodiesterase)"
+          ],
+          "citations": [
+            {
+              "source_id": "10",
+              "notes": "Complete oligodendrocyte differentiation program requires additional transcription factors and myelin proteins"
+            },
+            {
+              "source_id": "22",
+              "notes": "OLIG2 is core component of oligodendrocyte specification"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Fibroblast Growth Factor and Morphogenic Signaling",
+        "description": "Gene program controlling developmental patterning and morphogenic signaling through FGF ligands, intracellular FGF modulators, Sonic Hedgehog pathway components, and related developmental signaling networks. This program regulates neural progenitor proliferation, migration, and fate specification.",
+        "atomic_biological_processes": [
+          {
+            "name": "FGF-mediated signaling and ion channel modulation",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "FGF12 and FGF14 function as intracellular modulators of FGF receptor signaling"
+              }
+            ],
+            "genes": [
+              "FGF12",
+              "FGF14"
+            ],
+            "ontology_id": "GO:0008543",
+            "ontology_label": "fibroblast growth factor receptor signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Sonic Hedgehog pathway signaling",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "PTCH1 receptor mediates Sonic Hedgehog signal transduction"
+              }
+            ],
+            "genes": [
+              "PTCH1"
+            ],
+            "ontology_id": "GO:0007224",
+            "ontology_label": "smoothened signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "synonym_match"
+          },
+          {
+            "name": "Neural progenitor proliferation and differentiation",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "Developmental patterning genes control neural progenitor fate decisions"
+              }
+            ],
+            "genes": [
+              "FGF12",
+              "FGF14",
+              "PTCH1"
+            ],
+            "ontology_id": "GO:2000177",
+            "ontology_label": "regulation of neural precursor cell proliferation",
+            "ontology_source": "GO",
+            "confidence": 0.75,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "FGF intracellular signaling complex",
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "FGF12 and FGF14 interact with FGF receptors and ion channels"
+              }
+            ],
+            "genes": [
+              "FGF12",
+              "FGF14"
+            ],
+            "ontology_id": "GO:0140535",
+            "ontology_label": "intracellular protein-containing complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Hedgehog signaling pathway components",
+            "citations": [
+              {
+                "source_id": "42",
+                "notes": "PTCH1 acts as membrane receptor for Hedgehog ligands"
+              }
+            ],
+            "genes": [
+              "PTCH1"
+            ],
+            "ontology_id": "GO:0035301",
+            "ontology_label": "Hedgehog signaling complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dysregulated neural progenitor proliferation through altered FGF signaling",
+          "Enhanced cellular plasticity through morphogenic pathway activation",
+          "Impaired differentiation signals from Hedgehog pathway dysfunction",
+          "Altered ion channel modulation affecting neuronal excitability",
+          "Reactivation of developmental patterning programs in adult tumor context"
+        ],
+        "evidence_summary": "Developmental morphogenic pathways become dysregulated in glioblastoma and contribute to tumor plasticity. FGF signaling represents a fundamental pathway controlling neural progenitor behavior during development. FGF12 and FGF14 function as intracellular modulators of FGF receptor signaling, positioning them at the intersection of growth factor and ion channel regulation. While canonical Hedgehog pathway genes (SHH, GLI) are not universally mutated in astrocytoma, PTCH1 appears in the gene list, suggesting pathway dysregulation in at least some samples. Notably, glioblastoma progression involves upregulation of developmental progenitor programs characterized by expression of proneural transcription factors and developmental morphogens[24].",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "1",
+            "notes": "FGF12 and FGF14 functions in CNS"
+          },
+          {
+            "source_id": "24",
+            "notes": "Glioblastoma acquisition of developmental plasticity programs"
+          },
+          {
+            "source_id": "42",
+            "notes": "PTCH1 in Hedgehog signaling"
+          }
+        ],
+        "supporting_genes": [
+          "FGF12",
+          "FGF14",
+          "PTCH1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "FGFR1-4 (fibroblast growth factor receptors)",
+            "SHH (Sonic Hedgehog ligand)",
+            "SMO (Smoothened, Hedgehog signal transducer)",
+            "GLI1-3 (Hedgehog effector transcription factors)"
+          ],
+          "citations": [
+            {
+              "source_id": "42",
+              "notes": "Complete Hedgehog pathway requires multiple components"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Growth Factor Receptors and Receptor Tyrosine Kinase Signaling",
+        "description": "Gene program encompassing receptor tyrosine kinases and their immediate effectors that control cell proliferation, survival, and migration. This program includes canonical oncogenic receptors in glioma and their downstream signaling components.",
+        "atomic_biological_processes": [
+          {
+            "name": "PDGFRA-mediated signal transduction",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "PDGFRA mutations and amplifications occur in 40-50% of glioblastomas and drive aggressive progression"
+              },
+              {
+                "source_id": "27",
+                "notes": "Sequential addition of TERT, TP53, and PDGFRA mutations in neural stem cells produces lethal glioblastomas"
+              }
+            ],
+            "genes": [
+              "PDGFRA"
+            ],
+            "ontology_id": "GO:0007165",
+            "ontology_label": "signal transduction",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Neuregulin-ERBB3/4 pathway",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "ERBB3 and ERBB4 mediate neuregulin signaling in glial development and myelination"
+              }
+            ],
+            "genes": [
+              "ERBB3",
+              "ERBB4"
+            ],
+            "ontology_id": "GO:0038136",
+            "ontology_label": "ERBB3-ERBB4 signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
+          },
+          {
+            "name": "SRC family tyrosine kinase signaling",
+            "citations": [
+              {
+                "source_id": "43",
+                "notes": "FYN tyrosine kinase functions as downstream effector of multiple receptor tyrosine kinases"
+              }
+            ],
+            "genes": [
+              "FYN"
+            ],
+            "ontology_id": "GO:0007169",
+            "ontology_label": "cell surface receptor protein tyrosine kinase signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Growth factor-mediated cytoskeletal reorganization",
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "Growth factor receptors control cell migration and invasiveness in glioblastoma"
+              }
+            ],
+            "genes": [
+              "PDGFRA",
+              "FYN",
+              "ERBB3",
+              "ERBB4"
+            ],
+            "ontology_id": "GO:0141032",
+            "ontology_label": "symbiont-mediated perturbation of host actin cytoskeleton via actin filament reorganization",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Receptor tyrosine kinase complex",
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "PDGFRA functions as membrane receptor for PDGF ligands"
+              }
+            ],
+            "genes": [
+              "PDGFRA",
+              "ERBB3",
+              "ERBB4"
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_direct_match"
+          },
+          {
+            "name": "SRC family kinase signaling complex",
+            "citations": [
+              {
+                "source_id": "43",
+                "notes": "FYN associates with receptor complexes and adaptor proteins"
+              }
+            ],
+            "genes": [
+              "FYN"
+            ],
+            "ontology_id": "GO:0070771",
+            "ontology_label": "alphaIIb-beta3 integrin-CD47-Src complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced cell proliferation through PDGFRA-mediated PI3K-AKT and MAPK pathway activation",
+          "Increased cell survival through growth factor-dependent anti-apoptotic signaling",
+          "Enhanced cell migration and invasiveness through FYN-mediated cytoskeletal remodeling",
+          "Altered glial-neuronal communication through ERBB-mediated neuregulin signaling",
+          "Activation of malignant phenotype through constitutive or elevated growth factor receptor signaling"
+        ],
+        "evidence_summary": "Growth factor receptor signaling represents a central oncogenic mechanism in astrocytoma. PDGFRA mutations and amplifications define a specific subset of glioblastomas with particularly aggressive biology[2][27]. The sequential combination of TERT promoter mutation, TP53 loss-of-function, and PDGFRA activation reliably produces lethal glioblastomas in isogenic neural stem cell models, establishing PDGFRA as a key driver mutation[27]. ERBB3 and ERBB4 mediate neuregulin signaling in glial development and continue to function in adult glial cells, where they regulate responses to growth factors and cytokines[13]. FYN functions as a ubiquitous downstream effector of multiple receptor tyrosine kinases and controls cytoskeletal dynamics, adhesion, and gene expression. The convergence of multiple growth factor receptors in the input gene list indicates dysregulation of proliferative signaling in astrocytoma.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "PDGFRA in glioblastoma molecular classification"
+          },
+          {
+            "source_id": "13",
+            "notes": "ERBB3 in glial development and myelination"
+          },
+          {
+            "source_id": "27",
+            "notes": "Triple mutant glioblastoma model with PDGFRA"
+          },
+          {
+            "source_id": "43",
+            "notes": "FYN in synaptic plasticity and signal transduction"
+          }
+        ],
+        "supporting_genes": [
+          "PDGFRA",
+          "ERBB3",
+          "ERBB4",
+          "FYN"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PDGF ligands (PDGFA, PDGFB)",
+            "NRG1 (neuregulin-1 ligand)",
+            "PI3K catalytic and regulatory subunits",
+            "AKT kinase",
+            "MAPK/ERK pathway kinases",
+            "GAP proteins (GTPase-activating proteins)"
+          ],
+          "citations": [
+            {
+              "source_id": "2",
+              "notes": "Complete growth factor signaling pathway requires additional components"
+            },
+            {
+              "source_id": "27",
+              "notes": "PDGFRA signal transduction requires downstream effectors"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Developmental Plasticity and Progenitor Identity",
+        "description": "Gene program encompassing transcriptional regulators and signaling components controlling cell fate decisions, maintenance of progenitor-like states, and cellular plasticity. This program enables adoption of alternative cell states and suppression of differentiation signals.",
+        "atomic_biological_processes": [
+          {
+            "name": "Epithelial-mesenchymal transition (EMT) and plasticity",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "ZEB2 controls epithelial-mesenchymal transition and promotes stemness in cancer cells"
+              },
+              {
+                "source_id": "47",
+                "notes": "ZEB2 promotes therapy resistance through EMT activation"
+              }
+            ],
+            "genes": [
+              "ZEB2"
+            ],
+            "ontology_id": "GO:0001837",
+            "ontology_label": "epithelial to mesenchymal transition",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
+          },
+          {
+            "name": "Notch-mediated progenitor maintenance",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "RBPJ-mediated Notch signaling maintains progenitor identity through suppression of differentiation"
+              }
+            ],
+            "genes": [
+              "RBPJ"
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
+          },
+          {
+            "name": "Transcriptional control of developmental programs",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "Intermediate progenitor transcription factors like INSM1 drive developmental plasticity in glioblastoma"
+              }
+            ],
+            "genes": [
+              "TOX",
+              "ZBTB16"
+            ],
+            "ontology_id": "GO:0050793",
+            "ontology_label": "regulation of developmental process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Post-transcriptional control of differentiation",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "RNA-binding protein NOVA1 regulates alternative splicing of neuronal differentiation genes"
+              }
+            ],
+            "genes": [
+              "NOVA1"
+            ],
+            "ontology_id": "GO:0010608",
+            "ontology_label": "post-transcriptional regulation of gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "exact_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "EMT transcriptional regulatory complex",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "ZEB2 functions as core EMT transcription factor"
+              }
+            ],
+            "genes": [
+              "ZEB2"
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match_found"
+          },
+          {
+            "name": "Notch signaling effector complexes",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "RBPJ serves as central effector of Notch-mediated transcriptional programs"
+              }
+            ],
+            "genes": [
+              "RBPJ"
+            ],
+            "ontology_id": "GO:1990433",
+            "ontology_label": "CSL-Notch-Mastermind transcription factor complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Neuronal RNA-binding protein complex",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "NOVA1 assembles into ribonucleoprotein complexes controlling splicing"
+              }
+            ],
+            "genes": [
+              "NOVA1"
+            ],
+            "ontology_id": "GO:0003723",
+            "ontology_label": "RNA binding",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced cellular plasticity allowing adoption of alternative cell states",
+          "Suppressed differentiation and terminal specialization",
+          "Maintained or enhanced proliferative capacity in malignant cells",
+          "Increased stemness and self-renewal capacity",
+          "Altered neuronal vs. glial differentiation balance",
+          "Enhanced tumor heterogeneity through multiple stable cell states"
+        ],
+        "evidence_summary": "Developmental plasticity drives aggressive glioblastoma progression and tumor heterogeneity. Remarkably, glioblastoma tumors exhibit plasticity through activation of developmental progenitor programs, with evidence that intermediate progenitor-like states promote tumorigenicity[24]. INSM1, a transcription factor normally expressed in intermediate progenitors during cortical development, becomes upregulated in glioblastoma tumors and drives oncogenic gene expression with knockdown of INSM1 suppressing tumorigenicity[24]. While INSM1 itself does not appear in the input list, ZEB2, RBPJ, TOX, and NOVA1 represent related developmental regulators controlling cell fate and plasticity. ZEB2 promotes cancer stem cell maintenance and therapy resistance through EMT activation[31][47]. RBPJ-mediated Notch signaling maintains progenitor identity in neural contexts and likely contributes to tumor cell plasticity[20]. The convergence of these developmental plasticity genes indicates coordinated dysregulation enabling tumor cells to exist in multiple states.",
+        "significance_score": 0.9,
+        "citations": [
+          {
+            "source_id": "20",
+            "notes": "RBPJ in progenitor maintenance"
+          },
+          {
+            "source_id": "24",
+            "notes": "Developmental plasticity in glioblastoma pathogenesis, INSM1 function in intermediate progenitors"
+          },
+          {
+            "source_id": "31",
+            "notes": "ZEB2 in EMT and cancer stem cells"
+          },
+          {
+            "source_id": "47",
+            "notes": "ZEB2 promotes therapy resistance"
+          }
+        ],
+        "supporting_genes": [
+          "ZEB2",
+          "RBPJ",
+          "TOX",
+          "ZBTB16",
+          "NOVA1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "INSM1 (intermediate progenitor marker)",
+            "SOX2 (neural progenitor maintenance)",
+            "TCF/LEF family (Wnt effectors)",
+            "REST (transcriptional repressor)",
+            "SNAIL family (EMT regulators)"
+          ],
+          "citations": [
+            {
+              "source_id": "24",
+              "notes": "INSM1 represents key intermediate progenitor transcription factor in glioblastoma"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Extracellular Matrix Organization and Developmental Signaling",
+        "description": "Gene program controlling extracellular matrix composition, matrix-receptor signaling, and ECM-dependent developmental processes. This program influences cell migration, differentiation, and tissue mechanics.",
+        "atomic_biological_processes": [
+          {
+            "name": "Proteoglycan synthesis and ECM composition",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "Smoc2 ECM proteins regulate Wnt pathway activity and stem cell quiescence through ECM composition"
+              }
+            ],
+            "genes": [
+              "VCAN"
+            ],
+            "ontology_id": "GO:0030166",
+            "ontology_label": "proteoglycan biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Collagen deposition and ECM mechanics",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "ECM composition influences glioma cell migration and invasiveness"
+              }
+            ],
+            "genes": [
+              "COL11A1",
+              "COL20A1"
+            ],
+            "ontology_id": "GO:0070278",
+            "ontology_label": "extracellular matrix constituent secretion",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Semaphorin-mediated signaling and guidance",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "Semaphorins guide neuronal migration and axonal outgrowth during development"
+              }
+            ],
+            "genes": [
+              "SEMA5B",
+              "SEMA6D"
+            ],
+            "ontology_id": "GO:1902285",
+            "ontology_label": "semaphorin-plexin signaling pathway involved in neuron projection guidance",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
+          },
+          {
+            "name": "ECM-dependent progenitor fate control",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "ECM proteins (Smoc1/2) establish mesenchymal stem cell quiescence through Wnt inhibition"
+              }
+            ],
+            "genes": [
+              "VCAN",
+              "TNR"
+            ],
+            "ontology_id": "GO:0001708",
+            "ontology_label": "cell fate specification",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Chondroitin sulfate proteoglycan matrix",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "Proteoglycans like versican form major ECM components"
+              }
+            ],
+            "genes": [
+              "VCAN"
+            ],
+            "ontology_id": "GO:0035373",
+            "ontology_label": "chondroitin sulfate proteoglycan binding",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Fibrillar collagen network",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "Collagen composition contributes to ECM stiffness and mechanics"
+              }
+            ],
+            "genes": [
+              "COL11A1",
+              "COL20A1"
+            ],
+            "ontology_id": "GO:0098646",
+            "ontology_label": "interstitial hexagonal collagen network",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Semaphorin-Plexin signaling complex",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "Semaphorins signal through Plexin and Neuropilin receptors"
+              }
+            ],
+            "genes": [
+              "SEMA5B",
+              "SEMA6D"
+            ],
+            "ontology_id": "GO:0071526",
+            "ontology_label": "semaphorin-plexin signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "exact_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered ECM stiffness affecting glioma cell migration and tumor cell invasiveness",
+          "Enhanced tumor cell infiltration into surrounding brain parenchyma through ECM remodeling",
+          "Dysregulated glial progenitor differentiation through altered ECM-dependent signaling",
+          "Impaired synaptic organization and neural circuit formation through altered ECM composition",
+          "Changed permeability of peritumoral tissue affecting immune cell infiltration",
+          "Altered guidance cues affecting neuronal migration and axonal outgrowth"
+        ],
+        "evidence_summary": "ECM composition dynamically influences glioma biology and affects both tumor cells and the peritumoral microenvironment. Tumors exhibit extensive ECM remodeling through altered deposition and degradation of matrix proteins, facilitating tumor cell infiltration into surrounding brain parenchyma[5]. Recent studies demonstrate that ECM composition controls glial progenitor behavior, with specific ECM proteins (Smoc1/2) establishing mesenchymal stem cell quiescence through Wnt pathway inhibition[15]. In the glioma context, altered ECM composition through dysregulated expression of versican, collagen, and semaphorins could influence both tumor cell invasion and surrounding neural progenitor behavior. The convergence of multiple ECM component genes (VCAN, COL11A1, COL20A1) and ECM-binding signaling molecules (SEMA5B, SEMA6D) indicates coordinated dysregulation of the extracellular matrix in astrocytoma.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "5",
+            "notes": "High-grade gliomas and ECM remodeling"
+          },
+          {
+            "source_id": "15",
+            "notes": "ECM proteins control stem cell quiescence through Wnt pathway"
+          }
+        ],
+        "supporting_genes": [
+          "VCAN",
+          "VCAN-AS1",
+          "COL11A1",
+          "COL20A1",
+          "TNR",
+          "SEMA5B",
+          "SEMA6D"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "ADAMTS proteases",
+            "MMP (matrix metalloproteinase) family",
+            "Integrin family (cell-ECM adhesion)",
+            "PLXN (Plexin receptors)",
+            "NRP (Neuropilin receptors)"
+          ],
+          "citations": [
+            {
+              "source_id": "5",
+              "notes": "Complete ECM remodeling pathway requires additional proteases and receptors"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Metabolic Reprogramming and Lactate Metabolism",
+        "description": "Gene program controlling metabolic substrate utilization, lipid metabolism, and lactate-dependent signaling. This program enables metabolic flexibility in tumor cells and influences immune microenvironment composition.",
+        "atomic_biological_processes": [
+          {
+            "name": "Fatty acid desaturation and lipid synthesis",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "Cancer cells exhibit altered lipid metabolism supporting rapid growth and membrane synthesis"
+              }
+            ],
+            "genes": [
+              "SCD5"
+            ],
+            "ontology_id": "GO:0006636",
+            "ontology_label": "unsaturated fatty acid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Serine/threonine kinase signaling and metabolism",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "SGK1 regulates cellular metabolism and survival signaling"
+              }
+            ],
+            "genes": [
+              "SGK1"
+            ],
+            "ontology_id": "GO:0007178",
+            "ontology_label": "cell surface receptor protein serine/threonine kinase signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Lipid signaling through diacylglycerol metabolism",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "Diacylglycerol kinase activity regulates MAPK and other lipid signaling pathways"
+              }
+            ],
+            "genes": [
+              "DGKB"
+            ],
+            "ontology_id": "GO:0046339",
+            "ontology_label": "diacylglycerol metabolic process",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Lactate-mediated tumor progression",
+            "citations": [
+              {
+                "source_id": "54",
+                "notes": "Lactate from anaerobic glycolysis promotes GBM malignant progression through metabolic reprogramming"
+              }
+            ],
+            "genes": [
+              "SCD5",
+              "SGK1",
+              "DGKB"
+            ],
+            "ontology_id": "GO:0033209",
+            "ontology_label": "tumor necrosis factor-mediated signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Fatty acid desaturase complex",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "SCD enzymes catalyze saturated to unsaturated fatty acid conversion"
+              }
+            ],
+            "genes": [
+              "SCD5"
+            ],
+            "ontology_id": "GO:0005835",
+            "ontology_label": "fatty acid synthase complex",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Protein kinase signaling complex",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "SGK1 functions downstream of PI3K in multiple signaling contexts"
+              }
+            ],
+            "genes": [
+              "SGK1"
+            ],
+            "ontology_id": "GO:0016027",
+            "ontology_label": "inaD signaling complex",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Lipid signaling molecule synthesis",
+            "citations": [
+              {
+                "source_id": "57",
+                "notes": "Diacylglycerol kinase enzymes control conversion of DAG to phosphatidic acid"
+              }
+            ],
+            "genes": [
+              "DGKB"
+            ],
+            "ontology_id": "GO:0008610",
+            "ontology_label": "lipid biosynthetic process",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced metabolic flexibility enabling survival under varying oxygen and nutrient conditions",
+          "Increased lactate production and signaling through lactate receptor pathways",
+          "Altered lipid composition affecting membrane properties and signaling",
+          "Impaired immune cell effector function through lactate-mediated immunosuppression",
+          "Dysregulated tumor cell proliferation through altered metabolic signaling",
+          "Regional metabolic heterogeneity between tumor core and periphery"
+        ],
+        "evidence_summary": "Metabolic reprogramming represents a fundamental feature of glioblastoma biology, enabling tumor cells to rapidly proliferate under conditions of hypoxia and nutrient limitation[54][57]. Lactate accumulates to levels of 10-15 mM in glioblastoma cores, significantly exceeding normal brain tissue, and actively promotes tumor progression through both metabolic effects (fueling oxidative phosphorylation) and signaling effects (activating lactate receptor GPR81/HCAR1)[54]. The tumor core exhibits enhanced glycolytic activity and lactate production due to hypoxia, whereas peripheral tumor regions may more extensively utilize oxidative phosphorylation[54]. This metabolic heterogeneity influences immune cell recruitment and activation, with lactate-enriched microenvironments exhibiting enhanced immunosuppression. The convergence of lipid metabolism genes (SCD5), metabolic signaling kinases (SGK1), and lipid signaling regulators (DGKB) indicates coordinated dysregulation of metabolic flexibility in astrocytoma.",
+        "significance_score": 0.83,
+        "citations": [
+          {
+            "source_id": "54",
+            "notes": "Comprehensive analysis of lactate metabolism in glioblastoma and SUCLG2 role"
+          },
+          {
+            "source_id": "57",
+            "notes": "Cancer cell metabolic reprogramming and dietary interventions"
+          }
+        ],
+        "supporting_genes": [
+          "SCD5",
+          "SGK1",
+          "DGKB"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GPR81/HCAR1 (lactate receptors)",
+            "LDHA (lactate dehydrogenase A)",
+            "HIF-1α (hypoxia-inducible factor)",
+            "GLUT1 (glucose transporter)",
+            "PKFM/PFKL (glycolytic enzymes)"
+          ],
+          "citations": [
+            {
+              "source_id": "54",
+              "notes": "Lactate metabolism pathway requires additional glycolytic and signaling components"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Immune-Glial Crosstalk and Microglial Function",
+        "description": "Gene program controlling immune cell function, microglial activation states, and immune-glial interactions. This program regulates innate immunity in the CNS and shapes the immunosuppressive tumor microenvironment.",
+        "atomic_biological_processes": [
+          {
+            "name": "ATP-mediated immune cell activation",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "P2RX7 activation by extracellular ATP triggers inflammatory responses and cell lysis in immune cells"
+              },
+              {
+                "source_id": "38",
+                "notes": "P2RX7 receptor functions as ligand-gated ion channel mediating ATP-dependent immune responses"
+              }
+            ],
+            "genes": [
+              "P2RX7"
+            ],
+            "ontology_id": "GO:0002253",
+            "ontology_label": "activation of immune response",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Microglial identity and maintenance",
+            "citations": [
+              {
+                "source_id": "58",
+                "notes": "Microglia represent distinct CNS-resident myeloid lineage with conserved transcriptional signature and developmental origins"
+              }
+            ],
+            "genes": [
+              "P2RX7"
+            ],
+            "ontology_id": "GO:0002282",
+            "ontology_label": "microglial cell activation involved in immune response",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "synonym_match"
+          },
+          {
+            "name": "Immunosuppressive myeloid cell function",
+            "citations": [
+              {
+                "source_id": "55",
+                "notes": "TREM2-expressing myeloid cells exhibit immunosuppressive phenotype through IL-10 and TGF-β production"
+              }
+            ],
+            "genes": [
+              "P2RX7"
+            ],
+            "ontology_id": "GO:0001773",
+            "ontology_label": "myeloid dendritic cell activation",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "P2X7 purinergic receptor complex",
+            "citations": [
+              {
+                "source_id": "38",
+                "notes": "P2RX7 functions as ATP-gated cation channel in microglial and immune cell membranes"
+              }
+            ],
+            "genes": [
+              "P2RX7"
+            ],
+            "ontology_id": "GO:0043235",
+            "ontology_label": "receptor complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced ATP-mediated inflammatory responses through P2RX7 activation",
+          "Dysregulated microglial activation and transition toward immunosuppressive phenotypes",
+          "Impaired anti-tumor immune responses through altered myeloid cell function",
+          "Enhanced tumor cell survival through trophic support from immunosuppressive myeloid cells",
+          "Altered cytokine production affecting tumor microenvironment composition",
+          "Metabolic-immune crosstalk through lactate-mediated immunosuppression"
+        ],
+        "evidence_summary": "The tumor microenvironment becomes progressively immunosuppressive as glioblastoma develops, with microglia and infiltrating myeloid cells adopting phenotypes that support tumor growth[55][58]. Microglia originate from primitive yolk sac-derived macrophages during embryogenesis and persist throughout life through self-renewal independent of peripheral hematopoietic input[58]. TREM2-expressing myeloid cells exhibit robust immunosuppressive function through IL-10 and TGF-β production, with enhanced TREM2 expression correlating with advanced disease and reduced CD8+ T-cell infiltration[55]. P2RX7, an ATP-gated cation channel expressed in microglia and immune cells, mediates inflammatory responses and cell death; dysregulation of P2RX7 signaling would alter immune responses to tumor cells[35][38]. The relatively limited representation of immune genes in the input list suggests analysis of primarily tumor and glial cell populations rather than immune cells, though immune-glial interactions remain important in interpreting program function.",
+        "significance_score": 0.75,
+        "citations": [
+          {
+            "source_id": "35",
+            "notes": "P2RX7 in immune cell responses"
+          },
+          {
+            "source_id": "38",
+            "notes": "P2RX7 purinergic receptor function"
+          },
+          {
+            "source_id": "55",
+            "notes": "TREM2-mediated regulation of myeloid cells in tumor microenvironment"
+          },
+          {
+            "source_id": "58",
+            "notes": "Microglia evolution and conserved identity across species"
+          }
+        ],
+        "supporting_genes": [
+          "P2RX7"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "TREM2 (triggering receptor expressed on myeloid cells 2)",
+            "IFN-related genes (IFN-α, IFN-γ)",
+            "IL-10, IL-12, TNF-α (cytokines)",
+            "CD86, CD80 (immune costimulation)",
+            "CSF1R (colony-stimulating factor 1 receptor)"
+          ],
+          "citations": [
+            {
+              "source_id": "55",
+              "notes": "Complete immune regulation requires multiple myeloid markers and cytokines"
+            },
+            {
+              "source_id": "58",
+              "notes": "CSF1R signaling essential for microglia maintenance"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cell Migration and Neuronal Process Outgrowth",
+        "description": "Gene program controlling cell migration, axonal and dendritic growth, and cytoskeletal dynamics through dynamins, actin regulatory proteins, and related genes. This program regulates both tumor cell invasion and peritumoral neuronal morphology.",
+        "atomic_biological_processes": [
+          {
+            "name": "Membrane scission during endocytosis and migration",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "Dynamin proteins catalyze membrane scission during endocytosis and contribute to cell morphology"
+              }
+            ],
+            "genes": [
+              "DNM3"
+            ],
+            "ontology_id": "GO:0099050",
+            "ontology_label": "vesicle scission",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Actin polymerization and cell shape control",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "Actin regulatory proteins like SHROOM control cell shape and migration in development and cancer"
+              }
+            ],
+            "genes": [
+              "SHROOM4"
+            ],
+            "ontology_id": "GO:0030041",
+            "ontology_label": "actin filament polymerization",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Ubiquitin-dependent cytoskeletal remodeling",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "TRIM family ubiquitin ligases regulate cytoskeletal dynamics and dendritic development"
+              }
+            ],
+            "genes": [
+              "TRIM9"
+            ],
+            "ontology_id": "GO:0070086",
+            "ontology_label": "ubiquitin-dependent endocytosis",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Peritumoral neuronal morphological changes",
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "Peritumoral neurons undergo significant morphological alterations including dendritic retraction"
+              }
+            ],
+            "genes": [
+              "DNM3",
+              "SHROOM4",
+              "TRIM9"
+            ],
+            "ontology_id": "GO:0016322",
+            "ontology_label": "neuron remodeling",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Dynamin GTPase complex",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "Dynamins form oligomeric rings catalyzing membrane scission"
+              }
+            ],
+            "genes": [
+              "DNM3"
+            ],
+            "ontology_id": "GO:1905360",
+            "ontology_label": "GTPase complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Actin nucleation and polymerization complex",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "SHROOM proteins scaffold actin polymerization machinery"
+              }
+            ],
+            "genes": [
+              "SHROOM4"
+            ],
+            "ontology_id": "GO:0045010",
+            "ontology_label": "actin nucleation",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Ubiquitin-proteasome cytoskeletal regulation",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "TRIM proteins ubiquitinate actin regulatory proteins"
+              }
+            ],
+            "genes": [
+              "TRIM9"
+            ],
+            "ontology_id": "GO:0090364",
+            "ontology_label": "regulation of proteasome assembly",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced glioma cell migration and invasion through improved endocytic and exocytic dynamics",
+          "Altered tumor cell shape and invasive morphology through actin polymerization control",
+          "Peritumoral neuronal morphological alterations including dendritic spine loss and retraction",
+          "Compromised structural integrity of peritumoral neural circuits",
+          "Enhanced seizure susceptibility through reduced synaptic density in peritumoral regions",
+          "Altered neuronal-glial adhesion affecting tissue organization"
+        ],
+        "evidence_summary": "Glioblastoma cells exhibit highly invasive phenotype requiring dynamic cytoskeletal reorganization and cell-cell adhesion remodeling[5]. Recent mechanistic studies reveal that peritumoral neurons undergo significant morphological changes in glioma models, with altered dendritic spine density and dendritic morphology[32]. These neuronal morphological alterations correlate with transcriptional changes in genes controlling neuronal structure and cytoskeletal dynamics, indicating active remodeling of peritumoral neural architecture in response to tumor growth[32]. DNM3 functions in membrane dynamics during both endocytosis and cell migration. SHROOM4 controls actin-driven cell shape changes critical for cell migration. TRIM9 regulates actin regulatory proteins controlling dendritic spine development and synaptic organization. The convergence of genes controlling both tumor cell migration (DNM3, SHROOM4) and neuronal process outgrowth (TRIM9) indicates coordinated morphological reorganization affecting both malignant cells and peritumoral neurons.",
+        "significance_score": 0.81,
+        "citations": [
+          {
+            "source_id": "5",
+            "notes": "High-grade gliomas and cellular invasion mechanisms"
+          },
+          {
+            "source_id": "32",
+            "notes": "Peritumoral neuronal morphological changes in glioma models"
+          },
+          {
+            "source_id": "39",
+            "notes": "Dynamin function in cell migration and endocytosis"
+          }
+        ],
+        "supporting_genes": [
+          "DNM3",
+          "SHROOM4",
+          "TRIM9"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "Arp2/3 complex components",
+            "Formin family proteins",
+            "Rho family GTPases (RAC1, CDC42, RHOA)",
+            "Myosin II",
+            "Cofilin"
+          ],
+          "citations": [
+            {
+              "source_id": "5",
+              "notes": "Complete cytoskeletal dynamics requires additional actin regulatory proteins"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "RNA-Binding Protein-Mediated Post-transcriptional Control",
+        "description": "Gene program controlling alternative splicing, mRNA localization, translation, and stability through RNA-binding proteins. This program represents a critical level of gene expression regulation particularly important in neurons and neural development.",
+        "atomic_biological_processes": [
+          {
+            "name": "Alternative splicing of synaptic transcripts",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "NOVA1 regulates alternative splicing of glutamate and GABA receptors controlling neuronal excitability"
+              }
+            ],
+            "genes": [
+              "NOVA1"
+            ],
+            "ontology_id": "GO:0000380",
+            "ontology_label": "alternative mRNA splicing, via spliceosome",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "mRNA stability and translation control",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "CELF2 and related CUGBP proteins regulate mRNA stability and translation of specific targets"
+              }
+            ],
+            "genes": [
+              "CELF2",
+              "KHDRBS2",
+              "KHDRBS3",
+              "RBMS3"
+            ],
+            "ontology_id": "GO:0043488",
+            "ontology_label": "regulation of mRNA stability",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Post-transcriptional splicing regulation of developmental genes",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "NOVA1 regulation of alternative splicing drives developmental transcriptional programs"
+              }
+            ],
+            "genes": [
+              "NOVA1",
+              "CELF2"
+            ],
+            "ontology_id": "GO:0010608",
+            "ontology_label": "post-transcriptional regulation of gene expression",
+            "ontology_source": "GO",
+            "confidence": 0.85,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "mRNA localization and local translation",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "RNA-binding proteins control mRNA localization to dendrites for local protein synthesis"
+              }
+            ],
+            "genes": [
+              "NOVA1",
+              "KHDRBS2",
+              "KHDRBS3"
+            ],
+            "ontology_id": "GO:0008298",
+            "ontology_label": "intracellular mRNA localization",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Neuronal RNA-binding protein complex",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "NOVA1 assembles into ribonucleoprotein complexes"
+              }
+            ],
+            "genes": [
+              "NOVA1"
+            ],
+            "ontology_id": "GO:0034518",
+            "ontology_label": "RNA cap binding complex",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "mRNA regulatory element-binding protein complex",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "CELF, KHDRBS, and RBMS proteins bind specific mRNA regulatory elements"
+              }
+            ],
+            "genes": [
+              "CELF2",
+              "KHDRBS2",
+              "KHDRBS3",
+              "RBMS3"
+            ],
+            "ontology_id": "GO:0000900",
+            "ontology_label": "mRNA regulatory element binding translation repressor activity",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered splicing of synaptic genes promoting neuronal hyperexcitability",
+          "Enhanced expression of development-promoting transcripts through altered mRNA stability",
+          "Dysregulated localization and translation of mRNAs controlling cellular differentiation",
+          "Altered expression of calcium-permeable AMPA receptor isoforms through splicing control",
+          "Impaired dendritic local protein synthesis affecting synaptic plasticity",
+          "Enhanced tumor cell plasticity through post-transcriptional control of developmental genes"
+        ],
+        "evidence_summary": "Post-transcriptional regulation through alternative splicing, mRNA stability, and translational control represents an important level of gene expression control, particularly in neurons where local translation in dendrites controls synaptic strength and plasticity[24]. NOVA1 regulates alternative splicing of transcripts encoding glutamate receptors, GABA receptors, and other synaptic proteins, with altered NOVA1 activity promoting expression of calcium-permeable AMPA receptor isoforms and enhanced neuronal excitability[24]. Dysregulation of RNA-binding protein expression and function has been documented in glioblastoma and other cancers, with altered splicing programs promoting expression of cancer-promoting isoforms. CELF2 regulates mRNA stability and translation of specific transcripts including those encoding developmental transcription factors. KHDRBS and RBMS proteins represent additional RNA-binding proteins controlling post-transcriptional regulation. The convergence of multiple RNA-binding proteins indicates systematic dysregulation of post-transcriptional gene control in astrocytoma.",
+        "significance_score": 0.8,
+        "citations": [
+          {
+            "source_id": "24",
+            "notes": "NOVA1 in neuronal differentiation and splicing control"
+          }
+        ],
+        "supporting_genes": [
+          "NOVA1",
+          "CELF2",
+          "KHDRBS2",
+          "KHDRBS3",
+          "RBMS3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "RBM5, RBM10 (RNA-binding motif proteins)",
+            "SRSF family (SR proteins)",
+            "U2AF (U2 auxiliary factor)",
+            "snRNPs (small nuclear ribonucleoproteins)"
+          ],
+          "citations": [
+            {
+              "source_id": "24",
+              "notes": "Complete splicing machinery requires additional RNA-binding and catalytic components"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cell Adhesion and Focal Adhesion Signaling",
+        "description": "Gene program controlling cell-cell and cell-matrix adhesion through desmosomes, adherens junctions, and focal adhesions. This program regulates cellular attachment, mechanotransduction, and coordinated adhesion remodeling.",
+        "atomic_biological_processes": [
+          {
+            "name": "Desmosomal cell-cell adhesion",
+            "citations": [
+              {
+                "source_id": "23",
+                "notes": "Desmosomal proteins maintain cell junctions required for tissue integrity"
+              }
+            ],
+            "genes": [
+              "PKP4"
+            ],
+            "ontology_id": "GO:0007155",
+            "ontology_label": "cell adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.7,
+            "mapping_method": "synonym_match"
+          },
+          {
+            "name": "Focal adhesion assembly and turnover",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "Focal adhesion proteins including fermitin regulate integrin signaling and actin polymerization"
+              }
+            ],
+            "genes": [
+              "FERMT1",
+              "TNS3"
+            ],
+            "ontology_id": "GO:0048041",
+            "ontology_label": "focal adhesion assembly",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Integrin-cytoskeleton coupling",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "Focal adhesion proteins connect integrin tails to actin cytoskeleton"
+              }
+            ],
+            "genes": [
+              "FERMT1",
+              "TNS3",
+              "CTNNA3"
+            ],
+            "ontology_id": "GO:0005856",
+            "ontology_label": "cytoskeleton",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Cell-cell and cell-matrix adhesion remodeling during migration",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "Dynamic adhesion remodeling enables glioma cell invasion"
+              }
+            ],
+            "genes": [
+              "PKP4",
+              "FERMT1",
+              "TNS3",
+              "CTNNA3"
+            ],
+            "ontology_id": "GO:0007160",
+            "ontology_label": "cell-matrix adhesion",
+            "ontology_source": "GO",
+            "confidence": 0.6,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Desmosomal junction complex",
+            "citations": [
+              {
+                "source_id": "23",
+                "notes": "Plakophilins like PKP4 contribute to desmosomal stability"
+              }
+            ],
+            "genes": [
+              "PKP4"
+            ],
+            "ontology_id": "GO:0043296",
+            "ontology_label": "apical junction complex",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Focal adhesion complex",
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "Focal adhesion proteins assemble at sites of integrin-ECM interaction"
+              }
+            ],
+            "genes": [
+              "FERMT1",
+              "TNS3",
+              "CTNNA3"
+            ],
+            "ontology_id": "GO:0005925",
+            "ontology_label": "focal adhesion",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced glioma cell migration through dynamic focal adhesion turnover",
+          "Reduced cell-cell adhesion enabling invasion and single-cell dissemination",
+          "Altered mechanotransduction affecting growth signaling",
+          "Impaired neuronal-neuronal and neuronal-glial adhesion in peritumoral regions",
+          "Compromised tissue integrity in peritumoral tissue",
+          "Enhanced tumor cell-ECM interactions supporting invasion"
+        ],
+        "evidence_summary": "Cell-cell and cell-matrix adhesion undergoes extensive remodeling in both glioma cells and peritumoral tissue. Glioma cells exhibit enhanced invasion through dynamic remodeling of focal adhesions and reduced expression of stable junctional proteins[5]. Reactive astrocytes undergo significant reorganization of adhesive structures, with documented downregulation of genes involved in cell junctional assembly and adhesion[23]. PKP4 encodes a plakophilin associated with desmosomes; altered desmosomal function affects both cell-cell adhesion and signal transduction. FERMT1 connects integrin signaling to actin cytoskeleton, enabling mechanotransduction and cell migration. TNS3 functions at focal adhesions to regulate integrin signaling and actin polymerization. CTNNA3 (α-catenin) couples cadherin-mediated adhesion to actin cytoskeleton. The convergence of desmosmal and focal adhesion genes indicates coordinated adhesion remodeling at multiple levels.",
+        "significance_score": 0.79,
+        "citations": [
+          {
+            "source_id": "5",
+            "notes": "Adhesion dynamics in high-grade glioma"
+          },
+          {
+            "source_id": "15",
+            "notes": "Focal adhesion protein function"
+          },
+          {
+            "source_id": "23",
+            "notes": "Cell junction changes in reactive astrocytes"
+          }
+        ],
+        "supporting_genes": [
+          "PKP4",
+          "FERMT1",
+          "TNS3",
+          "CTNNA3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "Integrin family members",
+            "Talin proteins",
+            "Paxillin",
+            "FAK (focal adhesion kinase)",
+            "Vinculin"
+          ],
+          "citations": [
+            {
+              "source_id": "15",
+              "notes": "Complete focal adhesion requires additional scaffold and signaling proteins"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Transcriptional and Epigenetic Regulation",
+        "description": "Gene program controlling transcription, chromatin remodeling, and epigenetic modifications through transcription factors, histone modifiers, and chromatin remodeling enzymes. This program regulates gene expression at the chromatin level and enables adaptive transcriptional responses.",
+        "atomic_biological_processes": [
+          {
+            "name": "Notch-mediated transcriptional regulation",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "RBPJ serves as central effector of Notch signaling controlling developmental transcription"
+              }
+            ],
+            "genes": [
+              "RBPJ"
+            ],
+            "ontology_id": "GO:0008593",
+            "ontology_label": "regulation of Notch signaling pathway",
+            "ontology_source": "GO",
+            "confidence": 0.8,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "ETS family transcription factor signaling",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "ETV1 encodes ETS transcription factor regulating proliferation and differentiation"
+              }
+            ],
+            "genes": [
+              "ETV1"
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": "no_match"
+          },
+          {
+            "name": "Histone acetyltransferase activity and chromatin opening",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "KAT2B acetyltransferase promotes transcriptional activation through histone acetylation"
+              }
+            ],
+            "genes": [
+              "KAT2B"
+            ],
+            "ontology_id": "GO:0004402",
+            "ontology_label": "histone acetyltransferase activity",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Transcriptional reprogramming during tumor progression",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "Glioblastoma progression involves transcriptional transition toward developmental progenitor programs"
+              }
+            ],
+            "genes": [
+              "RBPJ",
+              "ETV1",
+              "KAT2B"
+            ],
+            "ontology_id": "GO:0031555",
+            "ontology_label": "transcriptional attenuation",
+            "ontology_source": "GO",
+            "confidence": 0.5,
+            "mapping_method": "partial_match"
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Notch transcriptional regulatory complex",
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "RBPJ assembles CSL complex mediating Notch-dependent transcription"
+              }
+            ],
+            "genes": [
+              "RBPJ"
+            ],
+            "ontology_id": "GO:1990433",
+            "ontology_label": "CSL-Notch-Mastermind transcription factor complex",
+            "ontology_source": "GO",
+            "confidence": 0.9,
+            "mapping_method": "partial_match"
+          },
+          {
+            "name": "Histone acetyltransferase complex",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "KAT proteins assemble with coactivator complexes controlling chromatin state"
+              }
+            ],
+            "genes": [
+              "KAT2B"
+            ],
+            "ontology_id": "GO:0000123",
+            "ontology_label": "histone acetyltransferase complex",
+            "ontology_source": "GO",
+            "confidence": 1.0,
+            "mapping_method": "exact_match"
+          },
+          {
+            "name": "ETS transcription factor protein family",
+            "citations": [
+              {
+                "source_id": "5",
+                "notes": "ETV1 functions as ETS family transcription factor binding ETS DNA sequences"
+              }
+            ],
+            "genes": [
+              "ETV1"
+            ],
+            "ontology_id": null,
+            "ontology_label": null,
+            "ontology_source": null,
+            "confidence": 0.0,
+            "mapping_method": null
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered transcriptional programming of both tumor and peritumoral neural cells",
+          "Dysregulated chromatin structure affecting expression of developmental genes",
+          "Enhanced or suppressed expression of differentiation-associated genes",
+          "Altered epigenetic control of cell fate decisions",
+          "Malignant transcriptional programs promoting proliferation and survival",
+          "Aberrant developmental gene reactivation in adult tumor context"
+        ],
+        "evidence_summary": "Gliomas exhibit distinct epigenetic landscapes compared to normal neural tissue, with widespread alterations in histone modifications and chromatin accessibility[52]. Epigenetic dysregulation through altered activity of chromatin remodelers and histone modifiers represents a common feature of glioblastoma. Notably, diffuse midline gliomas frequently harbor mutations in genes encoding histone H3 variants with K27M mutations causing global alterations in H3K27 trimethylation patterns[52]. While histone H3 mutations are less common in supratentorial astrocytomas, epigenetic dysregulation remains important. RBPJ functions as a central effector of developmental gene regulation through Notch signaling, with disrupted RBPJ function affecting differentiation vs. progenitor balance. ETV1 functions as a transcription factor controlling expression of proliferation and differentiation genes. KAT2B encodes a histone acetyltransferase promoting chromatin opening and transcriptional activation. The convergence of transcriptional and epigenetic regulators indicates systematic dysregulation of chromatin-level gene expression control.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "5",
+            "notes": "Transcriptional control in high-grade gliomas"
+          },
+          {
+            "source_id": "20",
+            "notes": "RBPJ in transcriptional regulation"
+          },
+          {
+            "source_id": "24",
+            "notes": "Transcriptional reprogramming in glioblastoma"
+          },
+          {
+            "source_id": "52",
+            "notes": "Epigenetic dysregulation and H3K27M mutations in diffuse midline glioma"
+          }
+        ],
+        "supporting_genes": [
+          "RBPJ",
+          "ETV1",
+          "KAT2B"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "Histone deacetylases (HDAC family)",
+            "Polycomb repressive complexes (EZH2, EED, SUZ12)",
+            "Chromatin remodeling ATPases (BAF complexes)",
+            "Mediator complex components",
+            "BRD4"
+          ],
+          "citations": [
+            {
+              "source_id": "52",
+              "notes": "Complete epigenetic regulation requires balanced activation and repression machinery"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Functional annotation from literature search",
+        "Pathway database associations (KEGG, Reactome, Gene Ontology)",
+        "Known roles in neural development and cell biology",
+        "Co-expression patterns in glioma and neural tissue",
+        "Mechanistic studies of glioma pathogenesis",
+        "Disease-specific gene dysregulation patterns"
+      ],
+      "notes": "Gene programs were identified through systematic literature analysis of the 170 input genes in the context of astrocytoma, with particular emphasis on recent studies of glioblastoma molecular pathogenesis, peritumoral neural dysfunction, and mechanisms of tumor-induced seizures. Programs represent clusters of genes acting together in biological processes and cellular pathways, with interpretation anchored in both normal CNS physiology and disease-specific alterations. Particular emphasis was placed on integrating findings from recent transcriptomic studies of gliomas (sources 1, 2, 24, 27, 32, 52) with mechanistic studies of neural development and glial function (sources 10, 15, 20, 22, 23, 29, 58). The presence of long non-coding RNAs (lncRNAs) and locus-specific non-coding RNA variants in the input list suggests that analysis integrated regulatory RNA genes alongside protein-coding genes, reflecting comprehensive transcriptomics analysis."
+    }
+  }
+}

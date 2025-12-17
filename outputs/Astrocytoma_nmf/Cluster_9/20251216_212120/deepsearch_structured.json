@@ -1,0 +1,1492 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-17T21:52:07.084800",
+    "genes": [
+      "UNC5D",
+      "DAB1",
+      "RGS7",
+      "ANK3",
+      "GRM7",
+      "MEG8",
+      "LRRC7",
+      "SNHG14",
+      "GRM5",
+      "MEG3",
+      "KCNQ3",
+      "NRG3",
+      "RBFOX1",
+      "PPFIA2",
+      "GRIN2B",
+      "CACNA1C",
+      "ATP8A2",
+      "PLPPR4",
+      "GABRB1",
+      "ANKS1B",
+      "KCNC2",
+      "TENM2",
+      "AL024495.1",
+      "KIRREL3",
+      "CACNA1E",
+      "GABBR2",
+      "CAMK2B",
+      "LINC01122",
+      "SH3GL3",
+      "DLG2",
+      "DPP10",
+      "EDIL3",
+      "CNTNAP2",
+      "SLC4A10",
+      "CNR1",
+      "CLSTN2",
+      "FAM155A",
+      "CELF4",
+      "RIMS1",
+      "RIMBP2",
+      "FRAS1",
+      "FRMPD4",
+      "CCDC85A",
+      "PCLO",
+      "KLHL29",
+      "MIR137HG",
+      "LINGO2",
+      "NELL1",
+      "NAV3",
+      "NTM",
+      "SRRM4",
+      "MARCH4",
+      "MAGI3",
+      "NEGR1",
+      "CALB2",
+      "RAPGEF5",
+      "SPTBN4",
+      "GABRG2",
+      "CACNA1D",
+      "WSCD2",
+      "PTPRN2",
+      "PRLR",
+      "BRINP1",
+      "GRIA1",
+      "BASP1-AS1",
+      "GRIP1",
+      "VAV3",
+      "PPP2R2C",
+      "LRRTM4",
+      "VAT1L",
+      "SORBS2",
+      "LYPD6B",
+      "RIMS2",
+      "HECW1",
+      "DGKI",
+      "DCC",
+      "SHISA9",
+      "MYO16",
+      "ABLIM2",
+      "ZNF536",
+      "SGIP1",
+      "CSMD3",
+      "SEZ6L2",
+      "SEZ6L",
+      "DYNC1I1",
+      "ZNF385D",
+      "SCN2A",
+      "ZMAT4",
+      "CNTN5",
+      "ESRRG",
+      "CLEC2L",
+      "ROBO1",
+      "CHL1",
+      "CHD5",
+      "RIT2",
+      "HDAC9",
+      "SHANK2",
+      "TMEM130",
+      "TAFA2",
+      "KCNJ3",
+      "SYT1",
+      "ADGRL4",
+      "PLPPR1",
+      "KSR2",
+      "UNC79",
+      "NRG1",
+      "SYNPR",
+      "ANKRD55",
+      "NMNAT2",
+      "SYT14",
+      "AC117461.1",
+      "OLFM3",
+      "PLXNA4",
+      "KCTD16",
+      "PDE4D",
+      "HS3ST5",
+      "PLXNA2",
+      "PAK5",
+      "SYN3",
+      "FAM135B",
+      "NALCN",
+      "PDE1A",
+      "RUNX1T1",
+      "MYT1L",
+      "RUNDC3B",
+      "ERBB4",
+      "KIAA1549L",
+      "ERC2",
+      "ERICH3",
+      "NSG2",
+      "KIF16B",
+      "ROBO2",
+      "KIF26B",
+      "EYS",
+      "HECW2",
+      "SAMD12",
+      "SCG2",
+      "LINC00882",
+      "NYAP2",
+      "LINC00355",
+      "LIMCH1",
+      "DLX5",
+      "DLX6",
+      "DLX6-AS1",
+      "DOCK9",
+      "LARGE1",
+      "MYRIP",
+      "PATJ",
+      "DPYD",
+      "DSCAML1",
+      "PBX1",
+      "SEMA3C",
+      "PDE1C",
+      "SCN3B",
+      "NWD2",
+      "SCML4",
+      "NCAM2",
+      "MGAT4C",
+      "LINC02263",
+      "RMST",
+      "GAD1",
+      "IGSF3",
+      "GALNT18",
+      "LINC01344",
+      "LY6H",
+      "RAB3C",
+      "PTPRO",
+      "PTPRD",
+      "GNAL",
+      "PRMT8",
+      "GRIK4",
+      "GRIN1",
+      "GRIN2A",
+      "PLPPR3",
+      "LRFN2",
+      "GRIP2",
+      "HUNK",
+      "DCX",
+      "HMGCLL1",
+      "RALYL",
+      "IL1RAPL2",
+      "PLEKHA5",
+      "KCNMA1",
+      "FGF13",
+      "FGF14",
+      "MIAT",
+      "HIVEP3",
+      "FNBP1L",
+      "KCNMB2",
+      "NDST3",
+      "NDST4",
+      "NEDD4L",
+      "KCNB2",
+      "FRRS1L",
+      "RCAN2",
+      "RBMS3",
+      "MAP3K20-AS1",
+      "GABRA2",
+      "RASGEF1B",
+      "MACROD2"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_9/20251216_212120/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": null,
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "offline",
+    "effective_model": "offline",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_9",
+    "source_tag": "deepsearch",
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "title": "Gene Program Functional Analysis for Astrocytoma",
+    "context": {
+      "cell_type": "astrocytes, neural stem cells, neurons (peritumoral)",
+      "disease": "astrocytoma (WHO grade II-IV)",
+      "tissue": "brain, cerebral cortex, white matter tracts"
+    },
+    "input_genes": [
+      "UNC5D",
+      "DAB1",
+      "RGS7",
+      "ANK3",
+      "GRM7",
+      "MEG8",
+      "LRRC7",
+      "SNHG14",
+      "GRM5",
+      "MEG3",
+      "KCNQ3",
+      "NRG3",
+      "RBFOX1",
+      "PPFIA2",
+      "GRIN2B",
+      "CACNA1C",
+      "ATP8A2",
+      "PLPPR4",
+      "GABRB1",
+      "ANKS1B",
+      "KCNC2",
+      "TENM2",
+      "AL024495.1",
+      "KIRREL3",
+      "CACNA1E",
+      "GABBR2",
+      "CAMK2B",
+      "LINC01122",
+      "SH3GL3",
+      "DLG2",
+      "DPP10",
+      "EDIL3",
+      "CNTNAP2",
+      "SLC4A10",
+      "CNR1",
+      "CLSTN2",
+      "FAM155A",
+      "CELF4",
+      "RIMS1",
+      "RIMBP2",
+      "FRAS1",
+      "FRMPD4",
+      "CCDC85A",
+      "PCLO",
+      "KLHL29",
+      "MIR137HG",
+      "LINGO2",
+      "NELL1",
+      "NAV3",
+      "NTM",
+      "SRRM4",
+      "MARCH4",
+      "MAGI3",
+      "NEGR1",
+      "CALB2",
+      "RAPGEF5",
+      "SPTBN4",
+      "GABRG2",
+      "CACNA1D",
+      "WSCD2",
+      "PTPRN2",
+      "PRLR",
+      "BRINP1",
+      "GRIA1",
+      "BASP1-AS1",
+      "GRIP1",
+      "VAV3",
+      "PPP2R2C",
+      "LRRTM4",
+      "VAT1L",
+      "SORBS2",
+      "LYPD6B",
+      "RIMS2",
+      "HECW1",
+      "DGKI",
+      "DCC",
+      "SHISA9",
+      "MYO16",
+      "ABLIM2",
+      "ZNF536",
+      "SGIP1",
+      "CSMD3",
+      "SEZ6L2",
+      "SEZ6L",
+      "DYNC1I1",
+      "ZNF385D",
+      "SCN2A",
+      "ZMAT4",
+      "CNTN5",
+      "ESRRG",
+      "CLEC2L",
+      "ROBO1",
+      "CHL1",
+      "CHD5",
+      "RIT2",
+      "HDAC9",
+      "SHANK2",
+      "TMEM130",
+      "TAFA2",
+      "KCNJ3",
+      "SYT1",
+      "ADGRL4",
+      "PLPPR1",
+      "KSR2",
+      "UNC79",
+      "NRG1",
+      "SYNPR",
+      "ANKRD55",
+      "NMNAT2",
+      "SYT14",
+      "AC117461.1",
+      "OLFM3",
+      "PLXNA4",
+      "KCTD16",
+      "PDE4D",
+      "HS3ST5",
+      "PLXNA2",
+      "PAK5",
+      "SYN3",
+      "FAM135B",
+      "NALCN",
+      "PDE1A",
+      "RUNX1T1",
+      "MYT1L",
+      "RUNDC3B",
+      "ERBB4",
+      "KIAA1549L",
+      "ERC2",
+      "ERICH3",
+      "NSG2",
+      "KIF16B",
+      "ROBO2",
+      "KIF26B",
+      "EYS",
+      "HECW2",
+      "SAMD12",
+      "SCG2",
+      "LINC00882",
+      "NYAP2",
+      "LINC00355",
+      "LIMCH1",
+      "DLX5",
+      "DLX6",
+      "DLX6-AS1",
+      "DOCK9",
+      "LARGE1",
+      "MYRIP",
+      "PATJ",
+      "DPYD",
+      "DSCAML1",
+      "PBX1",
+      "SEMA3C",
+      "PDE1C",
+      "SCN3B",
+      "NWD2",
+      "SCML4",
+      "NCAM2",
+      "MGAT4C",
+      "LINC02263",
+      "RMST",
+      "GAD1",
+      "IGSF3",
+      "GALNT18",
+      "LINC01344",
+      "LY6H",
+      "RAB3C",
+      "PTPRO",
+      "PTPRD",
+      "GNAL",
+      "PRMT8",
+      "GRIK4",
+      "GRIN1",
+      "GRIN2A",
+      "PLPPR3",
+      "LRFN2",
+      "GRIP2",
+      "HUNK",
+      "DCX",
+      "HMGCLL1",
+      "RALYL",
+      "IL1RAPL2",
+      "PLEKHA5",
+      "KCNMA1",
+      "FGF13",
+      "FGF14",
+      "MIAT",
+      "HIVEP3",
+      "FNBP1L",
+      "KCNMB2",
+      "NDST3",
+      "NDST4",
+      "NEDD4L",
+      "KCNB2",
+      "FRRS1L",
+      "RCAN2",
+      "RBMS3",
+      "MAP3K20-AS1",
+      "GABRA2",
+      "RASGEF1B",
+      "MACROD2"
+    ],
+    "programs": [
+      {
+        "program_name": "Glutamatergic Synaptic Transmission and Plasticity",
+        "description": "Ionotropic and metabotropic glutamate receptor-mediated excitatory synaptic transmission and long-term potentiation/depression. Comprises NMDA receptor subunits (GRIN1, GRIN2A, GRIN2B), AMPA receptor subunits (GRIA1), metabotropic glutamate receptors (GRM5, GRM7), and associated scaffolding and signaling machinery including calcium-calmodulin-dependent protein kinases (CAMK2A, CAMK2B), presynaptic vesicle machinery (SYT1, SYT14, RIMS1, RIMS2), and postsynaptic density proteins (DLG2, GRIP1, GRIP2). In glioblastoma and astrocytoma, peritumoral neurons exhibit enhanced glutamatergic signaling with increased dendritic spine density and elevated synaptic inputs, leading to increased neuronal excitability and seizure susceptibility.",
+        "atomic_biological_processes": [
+          {
+            "name": "NMDA receptor-mediated calcium influx and signaling",
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "GRIN1 and GRIN2A encode critical NMDA receptor subunits mediating calcium-dependent synaptic plasticity"
+              },
+              {
+                "source_id": "41",
+                "notes": "GRIN1 encodes NMDA receptor subunit 1, a critical component of glutamate receptor channels"
+              },
+              {
+                "source_id": "26",
+                "notes": "NMDA receptor dysfunction contributes to altered dendritic structure in tumor-adjacent neurons"
+              }
+            ],
+            "genes": [
+              "GRIN1",
+              "GRIN2A",
+              "GRIN2B"
+            ]
+          },
+          {
+            "name": "Activity-dependent synaptic strengthening through AMPA receptor trafficking",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "GRIA1-containing AMPA receptors show activity-dependent trafficking in peritumoral neurons"
+              }
+            ],
+            "genes": [
+              "GRIA1"
+            ]
+          },
+          {
+            "name": "Metabotropic glutamate receptor signaling",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "GRM5 and GRM7 couple to G-protein signaling modulating synaptic strength and plasticity"
+              }
+            ],
+            "genes": [
+              "GRM5",
+              "GRM7"
+            ]
+          },
+          {
+            "name": "Calcium-dependent kinase signaling",
+            "citations": [
+              {
+                "source_id": "40",
+                "notes": "CAMK2B (calcium/calmodulin-dependent protein kinase II) regulates neuron migration and synaptic plasticity"
+              },
+              {
+                "source_id": "42",
+                "notes": "CAMK2A autophosphorylation regulates synaptic plasticity and memory formation"
+              }
+            ],
+            "genes": [
+              "CAMK2A",
+              "CAMK2B"
+            ]
+          },
+          {
+            "name": "Presynaptic vesicle release and active zone organization",
+            "citations": [
+              {
+                "source_id": "7",
+                "notes": "SYT1 and associated proteins regulate synaptic vesicle fusion and neurotransmitter release"
+              },
+              {
+                "source_id": "16",
+                "notes": "RIMS proteins organize the presynaptic active zone and control readily releasable pool"
+              }
+            ],
+            "genes": [
+              "SYT1",
+              "SYT14",
+              "RIMS1",
+              "RIMS2"
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Postsynaptic density organization at glutamatergic synapses",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "DLG2 and GRIP proteins organize postsynaptic glutamate receptors and signaling complexes"
+              }
+            ],
+            "genes": [
+              "DLG2",
+              "GRIP1",
+              "GRIP2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced glutamatergic signaling and synaptic transmission",
+          "Increased dendritic spine density in peritumoral neurons",
+          "Elevated neuronal excitability and reduced seizure threshold",
+          "Dysregulated calcium homeostasis in glioma-adjacent neurons",
+          "Enhanced long-term potentiation in circuits containing glioma"
+        ],
+        "evidence_summary": "Multiple genes in this program show altered expression in peritumoral cortex adjacent to glioblastoma, with computational models demonstrating that modest increases in glutamatergic synaptic inputs double spike output rates and substantially increase seizure susceptibility. Paroxysmal depolarizing shifts characteristic of pre-ictal activity are detected prior to clinical seizure onset in a subset of glioma patients, correlating with upregulated glutamatergic signaling markers. This program represents a core mechanism through which glioma growth induces circuit hyperexcitability and seizure pathogenesis.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "26",
+            "notes": "Comprehensive characterization of aberrant neural activity in peritumoral cortex with computational modeling"
+          },
+          {
+            "source_id": "33",
+            "notes": "Glioma-induced glutamate elevation and altered neuronal excitability"
+          },
+          {
+            "source_id": "39",
+            "notes": "NMDA receptor disease-associated variants and functional roles"
+          },
+          {
+            "source_id": "41",
+            "notes": "GRIN1 as critical NMDA receptor component"
+          },
+          {
+            "source_id": "7",
+            "notes": "Glutamate receptor signaling and synaptic plasticity mechanisms"
+          }
+        ],
+        "supporting_genes": [
+          "GRIN1",
+          "GRIN2A",
+          "GRIN2B",
+          "GRIA1",
+          "GRM5",
+          "GRM7",
+          "CAMK2A",
+          "CAMK2B",
+          "SYT1",
+          "SYT14",
+          "RIMS1",
+          "RIMS2",
+          "DLG2",
+          "GRIP1",
+          "GRIP2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PSD95",
+            "SHANK3",
+            "Homer proteins",
+            "mGluR signaling effectors"
+          ],
+          "citations": [
+            {
+              "source_id": "16",
+              "notes": "PSD-95 family proteins and Homer organize postsynaptic density"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "GABAergic Inhibitory Synaptic Transmission",
+        "description": "Fast inhibitory GABAergic synaptic transmission mediated by ionotropic GABA-A receptors and slower inhibition through metabotropic GABA-B receptors. GABA-A receptor subunits (GABRA2, GABRB1, GABRG2) form chloride channels mediating fast inhibition, while GABBR2 (metabotropic GABA-B receptor) couples to G-protein pathways. This program maintains excitatory-inhibitory balance in neural circuits. In astrocytoma, dysfunction of GABAergic inhibition contributes to hyperexcitability and seizure susceptibility through reduced inhibitory tone and altered interneuron function.",
+        "atomic_biological_processes": [
+          {
+            "name": "Ionotropic GABA-A receptor-mediated fast inhibition",
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "Reduced GABAergic inhibition contributes to peritumoral neuronal hyperexcitability"
+              }
+            ],
+            "genes": [
+              "GABRA2",
+              "GABRB1",
+              "GABRG2"
+            ]
+          },
+          {
+            "name": "Metabotropic GABA-B receptor signaling and presynaptic inhibition",
+            "citations": [
+              {
+                "source_id": "49",
+                "notes": "GABBR2 metabotropic signaling provides presynaptic inhibition and homeostatic regulation"
+              }
+            ],
+            "genes": [
+              "GABBR2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Reduced inhibitory synaptic transmission in peritumoral cortex",
+          "Impaired excitatory-inhibitory balance leading to circuit hyperexcitability",
+          "Increased seizure susceptibility through loss of inhibitory tone",
+          "Dysfunction of interneuron-mediated circuit regulation",
+          "Enhanced vulnerability to glutamate-induced excitotoxicity"
+        ],
+        "evidence_summary": "GABAergic inhibition is compromised in the peritumoral region of glioblastomas, with reduced GABA reuptake by astrocytes and impaired interneuron function contributing to the shift toward hyperexcitability. Inflammatory mediators in the tumor microenvironment preferentially affect GABAergic neurons, further disrupting the balance. The presence of spike-wave discharges and high gamma-band activity in glioma-bearing animals indicates synchronous firing consistent with reduced inhibition.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "33",
+            "notes": "GABAergic dysfunction in peritumoral cortex"
+          },
+          {
+            "source_id": "26",
+            "notes": "Excitatory-inhibitory imbalance in tumor-associated seizures"
+          },
+          {
+            "source_id": "49",
+            "notes": "GABBR2 and GABAergic signaling in neurological function"
+          }
+        ],
+        "supporting_genes": [
+          "GABRA2",
+          "GABRB1",
+          "GABRG2",
+          "GABBR2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GAD65",
+            "GAD67",
+            "VGAT",
+            "GABA transporter 1"
+          ],
+          "citations": [
+            {
+              "source_id": "33",
+              "notes": "GABAergic machinery essential for inhibitory transmission"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Voltage-Gated Ion Channels and Neuronal Excitability Control",
+        "description": "L-type and non-L-type voltage-gated calcium channels (CACNA1C, CACNA1D, CACNA1E) and potassium channels (KCNQ3, KCNC2, KCNJ3, KCNMA1, KCNMB2) that determine neuronal resting potential, action potential generation, and intrinsic excitability. CACNA1C is a pleiotropic psychiatric disease gene affecting neural circuit development. Potassium channels provide repolarizing conductances that regulate frequency-dependent firing and suppress neuronal hyperexcitability. In glioma-adjacent neurons, dysregulation of this program shifts excitability toward pathological states, particularly through altered M-channel (KCNQ) and BK-channel (KCNMA1/KCNMB2) function.",
+        "atomic_biological_processes": [
+          {
+            "name": "L-type calcium channel-mediated calcium signaling",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "CACNA1C genetic variation associated with brainstem volume and circuit development"
+              },
+              {
+                "source_id": "12",
+                "notes": "Cacna1c deletion impairs hippocampal neurogenesis and behavioral outcomes"
+              }
+            ],
+            "genes": [
+              "CACNA1C"
+            ]
+          },
+          {
+            "name": "M-channel (KCNQ) suppression of neuronal excitability",
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "KCNQ3 mutations associated with neonatal epilepsy and hyperexcitability"
+              }
+            ],
+            "genes": [
+              "KCNQ3"
+            ]
+          },
+          {
+            "name": "Fast-spiking interneuron potassium conductance",
+            "citations": [
+              {
+                "source_id": "49",
+                "notes": "KCNC2 encodes Kv3-family potassium channel in fast-spiking neurons"
+              }
+            ],
+            "genes": [
+              "KCNC2"
+            ]
+          },
+          {
+            "name": "BK calcium-activated potassium channel feedback inhibition",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Calcium-activated potassium channels provide rapid feedback to stabilize firing frequency"
+              }
+            ],
+            "genes": [
+              "KCNMA1",
+              "KCNMB2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Increased intrinsic neuronal excitability in peritumoral neurons",
+          "Enhanced voltage deflections in soma in response to dendritic inputs",
+          "Reduced threshold for action potential generation",
+          "Impaired frequency-dependent regulation of firing",
+          "Greater susceptibility to paroxysmal depolarizing shifts and seizures"
+        ],
+        "evidence_summary": "Peritumoral neurons show increased firing frequency slopes and enhanced intrinsic excitability during tumor progression. Computational modeling demonstrates that even modest changes in dendritic spine density, as observed in tumor-adjacent tissue, substantially increase the voltage deflection at the soma through enhanced synaptic conductance, effectively lowering the action potential threshold. Early tumor growth (14 days post-injection) shows transient elevation of intrinsic excitability preceding clinical seizure manifestation, suggesting dysregulation of voltage-gated channel function as an early biomarker.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "26",
+            "notes": "Computational modeling of intrinsic excitability changes in tumor-adjacent neurons"
+          },
+          {
+            "source_id": "9",
+            "notes": "CACNA1C as pleiotropic psychiatric disease gene"
+          },
+          {
+            "source_id": "12",
+            "notes": "Cacna1c effects on hippocampal neurogenesis and behavior"
+          }
+        ],
+        "supporting_genes": [
+          "CACNA1C",
+          "CACNA1D",
+          "CACNA1E",
+          "KCNQ3",
+          "KCNC2",
+          "KCNJ3",
+          "KCNMA1",
+          "KCNMB2",
+          "SCN2A",
+          "SCN3B"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "KCNE auxiliary subunits",
+            "Kv7-associated regulatory proteins"
+          ],
+          "citations": [
+            {
+              "source_id": "9",
+              "notes": "Ion channel auxiliary subunits regulate voltage-gated channel function"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Axon Guidance and Neuronal Migration Control",
+        "description": "Secreted and membrane-bound guidance cues (SEMA3C, netrin ligands), their receptors (ROBO1, ROBO2, DCC, UNC5D), and cell adhesion molecules (CHL1, CNTNAP2, CNTN5, SEZ6L, SEZ6L2) that direct axonal projections and neuronal migration during development. SEMA3C binds plexin receptors to repel axons, while ROBO1/2 bind Slit ligands for repulsive guidance. DCC and UNC5D function as netrin receptors for attractive or repulsive guidance depending on co-receptor context. In astrocytoma, glioma cells exploit this guidance landscape to migrate along white matter tracts and infiltrate surrounding tissue directionally. Patient-derived glioblastoma cell lines migrate along axons toward neural spheroids in vitro.",
+        "atomic_biological_processes": [
+          {
+            "name": "Semaphorin-plexin-mediated repulsive axon guidance",
+            "citations": [
+              {
+                "source_id": "22",
+                "notes": "SEMA3F semaphorin family members mediate repulsive axon guidance during neuronal development"
+              }
+            ],
+            "genes": [
+              "SEMA3C",
+              "PLXNA2",
+              "PLXNA4"
+            ]
+          },
+          {
+            "name": "Slit-roundabout repulsive guidance signaling",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "ROBO1 roundabout receptor mediates Slit-dependent repulsive axon guidance"
+              },
+              {
+                "source_id": "29",
+                "notes": "ROBO2 encodes roundabout guidance receptor for axon guidance and migration"
+              }
+            ],
+            "genes": [
+              "ROBO1",
+              "ROBO2"
+            ]
+          },
+          {
+            "name": "Netrin-attractive and repulsive guidance signaling",
+            "citations": [
+              {
+                "source_id": "31",
+                "notes": "DCC and UNC5 function as netrin receptors with context-dependent guidance effects"
+              }
+            ],
+            "genes": [
+              "DCC",
+              "UNC5D"
+            ]
+          },
+          {
+            "name": "Cell adhesion molecule-mediated axon-axon fasciculation and stabilization",
+            "citations": [
+              {
+                "source_id": "37",
+                "notes": "L1CAM plays role in nervous system development including neuronal migration and differentiation"
+              },
+              {
+                "source_id": "14",
+                "notes": "CNTNAP2 contactin-associated protein plays essential role in neural development"
+              }
+            ],
+            "genes": [
+              "CNTNAP2",
+              "CNTN5",
+              "SEZ6L",
+              "SEZ6L2",
+              "CHL1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered guidance of glioma cell migration along white matter tracts",
+          "Enhanced infiltrative behavior through co-option of axon guidance landscape",
+          "Directional migration of tumor cells toward neural target tissue",
+          "Disruption of normal axon-axon contacts and circuit organization",
+          "Altered peritumoral axonal integrity and network connectivity"
+        ],
+        "evidence_summary": "Patient-derived glioblastoma cell lines migrate directionally along axons toward neural spheroids in live imaging assays, demonstrating that tumor cells actively exploit axon guidance mechanisms during infiltration. The expression of axon guidance receptors in glioma cells and the altered expression of guidance ligands in the tumor microenvironment suggest active remodeling of this program during tumorigenesis. Genetic studies in other cancers show that loss of repulsive guidance through SLIT-ROBO pathway disruption promotes migration, implicating this pathway in astrocytoma infiltration.",
+        "significance_score": 0.89,
+        "citations": [
+          {
+            "source_id": "27",
+            "notes": "Glioblastoma cell migration directionally along axons toward neural spheroids"
+          },
+          {
+            "source_id": "31",
+            "notes": "Slit-Robo signaling inhibition promotes cancer cell migration"
+          },
+          {
+            "source_id": "29",
+            "notes": "ROBO2 function in axon guidance and cell migration"
+          },
+          {
+            "source_id": "37",
+            "notes": "L1CAM role in nervous system development and potential in glioma"
+          }
+        ],
+        "supporting_genes": [
+          "SEMA3C",
+          "ROBO1",
+          "ROBO2",
+          "DCC",
+          "UNC5D",
+          "CNTNAP2",
+          "CNTN5",
+          "SEZ6L",
+          "SEZ6L2",
+          "CHL1",
+          "PLXNA2",
+          "PLXNA4",
+          "NTM"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "Netrin-1",
+            "Slit ligands",
+            "Plexin-B receptors",
+            "Neuropilin co-receptors"
+          ],
+          "citations": [
+            {
+              "source_id": "31",
+              "notes": "Netrin and Slit ligands required for receptor-mediated guidance"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Postsynaptic Scaffolding and Synaptic Organization",
+        "description": "Postsynaptic density (PSD) scaffolding proteins including membrane-associated guanylate kinases (DLG2), ankyrin repeat proteins (ANKS1B), MAGUK family members (MAGI3), and synapse-organizing proteins (LRRTM4, SHANK2) that organize the dense proteinaceous matrix underlying the postsynaptic membrane. These proteins coordinate positioning and stabilization of neurotransmitter receptors, signaling enzymes, and trans-synaptic adhesion molecules. DLG2 anchors NMDA receptors and scaffolds signaling complexes. LRRTM4 functions as postsynaptic cell adhesion molecule interacting with presynaptic neurexins. In glioma-adjacent neurons, increased dendritic spine density requires coordinated assembly of new postsynaptic densities.",
+        "atomic_biological_processes": [
+          {
+            "name": "PSD-93-mediated NMDA receptor anchoring and signaling complex organization",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "DLG2 (PSD-93) anchors NMDA receptors and organizes postsynaptic signaling complexes"
+              }
+            ],
+            "genes": [
+              "DLG2"
+            ]
+          },
+          {
+            "name": "Ankyrin repeat protein-based postsynaptic organization",
+            "citations": [
+              {
+                "source_id": "16",
+                "notes": "ANKS1B localizes to dendritic spines and interacts with postsynaptic proteins"
+              }
+            ],
+            "genes": [
+              "ANKS1B"
+            ]
+          },
+          {
+            "name": "Trans-synaptic adhesion through neurexin-ligand interactions",
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "CNTNAP2 member of neurexin superfamily plays essential role in neural development"
+              }
+            ],
+            "genes": [
+              "LRRTM4",
+              "SHANK2"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced postsynaptic density assembly at new dendritic spines",
+          "Increased synaptic strength through receptor organization and clustering",
+          "Altered dendritic spine stability and morphology",
+          "Dysregulated synaptic plasticity signaling",
+          "Potential links between synaptic organization and tumor cell proliferation"
+        ],
+        "evidence_summary": "Glioma-adjacent neurons exhibit increased dendritic spine density, which requires corresponding assembly of new postsynaptic densities. Recent studies using advanced imaging reveal altered postsynaptic nanostructure in models of neurodevelopmental disorders featuring synaptic dysfunction. The scaffolding proteins DLG2 and related MAGUKs regulate both synaptic function and cell proliferation, suggesting functional links between aberrant synaptic organization and tumor-cell proliferation signals in low-grade gliomas.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "16",
+            "notes": "Postsynaptic scaffolding proteins in synaptic organization and nanostructure"
+          },
+          {
+            "source_id": "26",
+            "notes": "Increased dendritic spine density in tumor-adjacent neurons"
+          },
+          {
+            "source_id": "14",
+            "notes": "CNTNAP2 in neural development and organization"
+          }
+        ],
+        "supporting_genes": [
+          "DLG2",
+          "ANKS1B",
+          "MAGI3",
+          "LRRTM4",
+          "SHANK2",
+          "GRIP1",
+          "GRIP2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "PSD-95",
+            "SAP102",
+            "Homer proteins",
+            "GKAP/SAPAP"
+          ],
+          "citations": [
+            {
+              "source_id": "16",
+              "notes": "PSD-95 family and Homer proteins organize postsynaptic density"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "RNA Splicing Regulation and Neuronal Differentiation",
+        "description": "Splicing regulators (SRRM4, RBFOX1, CELF4) controlling alternative splicing patterns critical for neuronal development and plasticity. SRRM4 promotes inclusion of neuron-specific exons and drives differentiation toward neuronal fate. RBFOX1 regulates alternative splicing of neuronal genes including those involved in stress response and BDNF/TRKB signaling, with loss of function leading to disrupted stress response mechanisms. CELF4 regulates alternative splicing particularly during neuronal development. Coordinated developmental changes in splicing factor expression drive transitions from embryonic to adult isoforms. In astrocytoma, dysregulation of splicing programs may alter balance between pro-survival and pro-death isoforms.",
+        "atomic_biological_processes": [
+          {
+            "name": "SRRM4-mediated neuronal differentiation through neuron-specific splicing",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "SRRM4 neuronal-specific splicing regulator promotes neuron-specific exon inclusion during differentiation"
+              }
+            ],
+            "genes": [
+              "SRRM4"
+            ]
+          },
+          {
+            "name": "RBFOX1-controlled stress response splicing",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "RBFOX1 loss of function disrupts BDNF/TRKB and CRH signaling leading to altered stress response"
+              },
+              {
+                "source_id": "11",
+                "notes": "RBFOX1 regulates RNA splicing and transcriptional networks in human neuronal development"
+              }
+            ],
+            "genes": [
+              "RBFOX1"
+            ]
+          },
+          {
+            "name": "CELF4-mediated splicing during neuronal development",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "CELF4 CUGBP family splicing factor regulates alternative splicing during brain development"
+              }
+            ],
+            "genes": [
+              "CELF4"
+            ]
+          },
+          {
+            "name": "Developmental regulation of splicing factors through poison exon inclusion",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "UCR-associated poison exons trigger nonsense-mediated decay of splicing factor transcripts"
+              }
+            ],
+            "genes": [
+              "SRRM4",
+              "RBFOX1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Aberrant production of embryonic isoforms in tumor cells and peritumoral neurons",
+          "Disrupted balance between pro-survival and pro-death protein isoforms",
+          "Altered stress response through dysregulated BDNF/TRKB signaling",
+          "Enhanced tumor cell plasticity through retention of developmental isoforms",
+          "Dysregulated ion channel and receptor isoform composition"
+        ],
+        "evidence_summary": "Low-grade astrocytomas maintain expression of neural stem cell-associated genes and exhibit incomplete differentiation, suggesting disrupted developmental splicing programs. Developmental changes in splicing factor expression are essential for progression from embryonic to adult neural states. INSM1 drives intermediate progenitor identity in glioblastoma cells and is essential for tumorigenicity, suggesting reactivation of developmental transcriptional networks including those controlling splicing. Dysregulation of RBFOX1-controlled splicing of stress response genes could influence both tumor cell and peritumoral neuron responses to microenvironmental stress.",
+        "significance_score": 0.87,
+        "citations": [
+          {
+            "source_id": "35",
+            "notes": "Ultraconserved regions regulate splicing factor expression and developmental alternative splicing programs"
+          },
+          {
+            "source_id": "8",
+            "notes": "RBFOX1 regulates stress response mechanisms through BDNF/TRKB signaling"
+          },
+          {
+            "source_id": "3",
+            "notes": "INSM1 drives intermediate progenitor state essential for glioblastoma tumorigenicity"
+          }
+        ],
+        "supporting_genes": [
+          "SRRM4",
+          "RBFOX1",
+          "CELF4"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SRSF1",
+            "SRSF6",
+            "hnRNP family members",
+            "Spliceosome components"
+          ],
+          "citations": [
+            {
+              "source_id": "35",
+              "notes": "SR and hnRNP splicing factor families regulate developmental alternative splicing"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cytoskeletal Dynamics and Dendritic Morphology",
+        "description": "Cytoskeletal regulators (ANK3, ABLIM2, VAV3, DYNC1I1, SPTBN4, PAK5) controlling actin polymerization, microtubule dynamics, and cell morphology. ANK3 links membrane proteins to spectrin-actin cytoskeleton. ABLIM2 modulates actin organization influencing dendritic morphology. VAV3 is Rho GTPase exchange factor regulating Rac1 activity and actin polymerization. DYNC1I1 transports vesicles along microtubules. SPTBN4 provides structural support for neuronal cytoskeleton. PAK5 functions downstream of Rho GTPases to regulate dendritic spine morphology through phosphorylation of LIMK and cofilin. In astrocytoma, enhanced dendritic spine density requires active cytoskeletal remodeling, and glioma cell migration requires extensive cytoskeletal remodeling.",
+        "atomic_biological_processes": [
+          {
+            "name": "Ankyrin-spectrin-actin linkage and cell morphology",
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "ANK3 ankyrin-3 links integral membrane proteins to spectrin-actin cytoskeleton"
+              }
+            ],
+            "genes": [
+              "ANK3",
+              "SPTBN4"
+            ]
+          },
+          {
+            "name": "Actin polymerization and dendritic spine morphogenesis",
+            "citations": [
+              {
+                "source_id": "21",
+                "notes": "CDC42 and Rho GTPases regulate actin polymerization and dendritic spine dynamics"
+              }
+            ],
+            "genes": [
+              "ABLIM2",
+              "VAV3",
+              "PAK5"
+            ]
+          },
+          {
+            "name": "Microtubule-based intracellular transport",
+            "citations": [
+              {
+                "source_id": "26",
+                "notes": "Dynein heavy chain involved in intracellular vesicle transport"
+              }
+            ],
+            "genes": [
+              "DYNC1I1"
+            ]
+          },
+          {
+            "name": "Rho GTPase-effector signaling in migration and morphology",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Loss of pericytes promotes mesenchymal transformation involving altered cytoskeletal organization"
+              },
+              {
+                "source_id": "52",
+                "notes": "Mesenchymal glioma cell state characterized by Wnt and PAK signaling pathway activation"
+              }
+            ],
+            "genes": [
+              "VAV3",
+              "PAK5"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced dendritic spine formation and remodeling in tumor-adjacent neurons",
+          "Increased glioma cell motility and infiltration through cytoskeletal remodeling",
+          "Mesenchymal transformation of tumor cells promoting migration",
+          "Altered dendritic and axonal morphology in peritumoral tissue",
+          "Dysregulated intracellular trafficking and organelle positioning"
+        ],
+        "evidence_summary": "Glioma-adjacent neurons exhibit dramatically increased dendritic spine density, fundamentally dependent on coordinated actin polymerization and microtubule dynamics. Loss of pericytes in the glioma microenvironment leads to mesenchymal transformation of tumor cells involving upregulation of PAK and Rho GTPase signaling. Aberrant activation of these pathways promotes a motile phenotype compatible with enhanced infiltration. The intersection of cytoskeletal dynamics with oncogenic signaling pathways suggests links between structural remodeling and tumor cell proliferation.",
+        "significance_score": 0.84,
+        "citations": [
+          {
+            "source_id": "26",
+            "notes": "Dendritic spine morphology alterations in tumor-adjacent neurons"
+          },
+          {
+            "source_id": "6",
+            "notes": "Pericyte loss drives mesenchymal transformation in glioblastoma"
+          },
+          {
+            "source_id": "52",
+            "notes": "Mesenchymal tumor cells interact with immune cells to drive invasive phenotype"
+          }
+        ],
+        "supporting_genes": [
+          "ANK3",
+          "ABLIM2",
+          "VAV3",
+          "DYNC1I1",
+          "SPTBN4",
+          "PAK5"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "Cofilin",
+            "LIMK",
+            "Profilin",
+            "Arp2/3 complex"
+          ],
+          "citations": [
+            {
+              "source_id": "21",
+              "notes": "Actin regulatory proteins downstream of PAK and Rho GTPases"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Extracellular Matrix Interactions and Cell Adhesion",
+        "description": "Extracellular matrix (ECM) proteins (FRAS1, EDIL3, NELL1) and cell adhesion molecules (TENM2, FAM155A, NTM, CHL1) mediating cell-ECM and cell-cell interactions. FRAS1 encodes ECM component important for tissue adhesion and structural organization. EDIL3 encodes EGF-like and discoidin domains involved in cell-cell interactions and vascular development. NELL1 upregulated during bone cell differentiation with emerging roles in neuronal development. TENM2 functions as trans-synaptic adhesion molecule and circuit regulator. FAM155A involved in developmental cell-cell interactions. NTM (neurotrimin) involved in cell-cell interactions regulating neuronal migration. These molecules establish cellular scaffold organizing tissue architecture and specifying cell-cell contacts.",
+        "atomic_biological_processes": [
+          {
+            "name": "ECM structural organization and tissue adhesion",
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "ECM components dysregulated in glioblastoma compared to normal brain"
+              },
+              {
+                "source_id": "55",
+                "notes": "Single-cell spatial profiling maps expression of nearly 400 ECM genes in GBM"
+              }
+            ],
+            "genes": [
+              "FRAS1",
+              "EDIL3",
+              "NELL1"
+            ]
+          },
+          {
+            "name": "Cell-cell recognition and trans-synaptic adhesion",
+            "citations": [
+              {
+                "source_id": "55",
+                "notes": "Novel ECM ligand-receptor networks between GBM and stromal cells"
+              }
+            ],
+            "genes": [
+              "TENM2",
+              "FAM155A",
+              "NTM",
+              "CHL1"
+            ]
+          },
+          {
+            "name": "Perivascular niche ECM organization",
+            "citations": [
+              {
+                "source_id": "6",
+                "notes": "Perivascular niche characterized by specific ECM signatures and cellular organization"
+              }
+            ],
+            "genes": [
+              "FRAS1",
+              "EDIL3"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Spatial organization of ECM in distinct tumor microenvironmental niches",
+          "Altered peritumoral neuron-ECM interactions affecting synaptic stability",
+          "Enhanced glioma cell-stromal cell interactions through dysregulated ECM",
+          "Disruption of normal tissue architecture in peritumoral zone",
+          "Remodeling of extracellular space promoting tumor infiltration"
+        ],
+        "evidence_summary": "Spatial transcriptomic profiling reveals that ECM signaling pathways are extensively dysregulated in glioblastoma, with different GBM cell populations and stromal cell types showing largely non-overlapping ECM expression patterns. Vascular endothelial cells and immune cells in the perivascular niche express distinct ECM signatures supporting their specialized functions. The spatial organization of ECM components reflects the complex microarchitecture of glioblastomas where distinct cellular niches express different ECM components. Altered ECM composition disrupts perisynaptic matrix structure, contributing to synaptic reorganization in tumor-adjacent neurons.",
+        "significance_score": 0.79,
+        "citations": [
+          {
+            "source_id": "24",
+            "notes": "ECM ligand-receptor networks in glioblastoma perivascular niche"
+          },
+          {
+            "source_id": "55",
+            "notes": "Spatial profiling of matrisome identifies cell-specific ECM expression in GBM"
+          },
+          {
+            "source_id": "6",
+            "notes": "Perivascular niche organization in glioblastoma"
+          }
+        ],
+        "supporting_genes": [
+          "FRAS1",
+          "EDIL3",
+          "NELL1",
+          "TENM2",
+          "FAM155A",
+          "NTM",
+          "CHL1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "Fibronectin",
+            "Laminin",
+            "Perlecan",
+            "Versican"
+          ],
+          "citations": [
+            {
+              "source_id": "55",
+              "notes": "Major ECM components dysregulated in glioblastoma"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Neurotrophic Signaling and Growth Factor Cascades",
+        "description": "Receptor tyrosine kinases and growth factor signaling mediating survival, plasticity, and circuit development. ERBB4 encodes ErbB-4 receptor tyrosine kinase binding neuregulin ligands, particularly in parvalbumin-positive GABAergic interneurons. NRG1 and NRG3 encode neuregulin growth factors important for myelination, axon-glia interactions, and synaptic plasticity. RBFOX1-regulated BDNF/TRKB signaling controls stress response mechanisms. These pathways activate PI3K and MAPK cascades. In astrocytoma, dysregulated neurotrophic signaling promotes survival of tumor-supporting immune cells, drives tumor cell proliferation, and alters neurotrophic factor availability for peritumoral neurons.",
+        "atomic_biological_processes": [
+          {
+            "name": "ERBB4 receptor tyrosine kinase signaling in interneuron development",
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "ERBB4 expressed in parvalbumin-positive interneurons, regulates conversion between microglial activation states"
+              }
+            ],
+            "genes": [
+              "ERBB4"
+            ]
+          },
+          {
+            "name": "Neuregulin ligand signaling through ErbB receptors",
+            "citations": [
+              {
+                "source_id": "19",
+                "notes": "NRG1 neuregulin family member enables ErbB-2 class receptor binding"
+              },
+              {
+                "source_id": "17",
+                "notes": "Neuregulin-1 regulates microglial phenotype via ErbB4"
+              }
+            ],
+            "genes": [
+              "NRG1",
+              "NRG3",
+              "ERBB4"
+            ]
+          },
+          {
+            "name": "BDNF/TRKB signaling in stress response and neuroprotection",
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "RBFOX1 regulates BDNF/TRKB signaling affecting stress response and psychiatric health"
+              }
+            ],
+            "genes": [
+              "RBFOX1"
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Altered interneuron survival and functional integration in peritumoral tissue",
+          "Enhanced alternatively activated macrophage polarization in tumor microenvironment",
+          "Disrupted neurotrophic support for peritumoral neurons",
+          "Tumor cell proliferation through aberrant neurotrophic receptor activation",
+          "Enhanced immune cell recruitment and polarization toward tumor-supportive states"
+        ],
+        "evidence_summary": "NRG1-ERBB4 signaling regulates conversion between microglial activation states, promoting anti-inflammatory M2 phenotype through inhibition of NF-kappaB pathway. In the tumor microenvironment, dysregulation of neurotrophic signaling contributes to skewing of immune cells toward tumor-supporting phenotypes. Pediatric high-grade gliomas show NTRK fusion events with constitutively active neurotrophic receptor signaling driving oncogenic transformation. Altered neurotrophic factor signaling in peritumoral zones affects local neuronal survival and plasticity.",
+        "significance_score": 0.81,
+        "citations": [
+          {
+            "source_id": "17",
+            "notes": "ERBB4-NRG1 signaling in microglial phenotype regulation"
+          },
+          {
+            "source_id": "8",
+            "notes": "RBFOX1 and BDNF/TRKB signaling in stress response mechanisms"
+          },
+          {
+            "source_id": "43",
+            "notes": "NTRK fusion events in pediatric high-grade gliomas"
+          }
+        ],
+        "supporting_genes": [
+          "ERBB4",
+          "NRG1",
+          "NRG3",
+          "RBFOX1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "BDNF",
+            "TRKB",
+            "ErbB2/HER2",
+            "ErbB3"
+          ],
+          "citations": [
+            {
+              "source_id": "8",
+              "notes": "BDNF and TRKB as key components of neurotrophic signaling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Developmental Transcriptional Regulation and Neural Identity",
+        "description": "Transcriptional control of neuronal and glial identity specification and differentiation state maintenance. While input gene list contains few direct transcription factors, splicing regulators (RBFOX1, SRRM4) and their targets provide indirect transcriptional effects. Recent research reveals that INSM1 transcription factor drives intermediate progenitor cell-like state in glioblastoma, governs plasticity and tumorigenicity. This program reflects reactivation of developmental transcriptional networks in malignant gliomas. Low-grade astrocytomas maintain higher expression of neural stem cell markers, suggesting incomplete execution of differentiation programs. High-grade astrocytomas show mixed glial-neuronal marker expression indicating profound dysregulation of transcriptional identity programs.",
+        "atomic_biological_processes": [
+          {
+            "name": "INSM1-driven intermediate progenitor cell identity in glioblastoma",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "INSM1 governs intermediate progenitor state that drives glioblastoma tumorigenicity and plasticity"
+              }
+            ],
+            "genes": []
+          },
+          {
+            "name": "Splicing factor control of developmental transcriptional programs",
+            "citations": [
+              {
+                "source_id": "35",
+                "notes": "Developmental splicing program changes coordinate with brain maturation"
+              }
+            ],
+            "genes": [
+              "SRRM4",
+              "RBFOX1"
+            ]
+          },
+          {
+            "name": "Dysregulated neuronal vs glial lineage specification",
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Triple mutant neural stem cells express intermediate progenitor markers and tumorigenicity"
+              }
+            ],
+            "genes": []
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Reactivation of developmental neuronal differentiation programs in glial tumors",
+          "Maintenance of neural stem cell-like state preventing terminal differentiation",
+          "Mixed or failed glial-neuronal lineage specification",
+          "Enhanced cellular plasticity and adaptability to therapeutic pressure",
+          "Expression of developmental isoforms of ion channels and receptors"
+        ],
+        "evidence_summary": "Glioblastomas exhibit reactivation of developmental transcriptional networks, particularly those governing intermediate progenitor cell identity through INSM1. INSM1 is highly expressed in human glioblastoma tumors and, during normal cortical development, specifically in intermediate progenitor cells that give rise to neurons. INSM1 knockdown disrupts oncogenic gene expression and reduces tumorigenicity, highlighting functional importance of this developmental state. Low-grade astrocytomas maintain higher expression of neural stem cell markers and show incomplete oligodendroglial differentiation, suggesting that developmental programs remain partially active or terminal differentiation is blocked.",
+        "significance_score": 0.86,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "INSM1 governs intermediate progenitor state essential for glioblastoma pathogenesis"
+          },
+          {
+            "source_id": "35",
+            "notes": "Developmental regulation of splicing programs controlling neuronal differentiation"
+          }
+        ],
+        "supporting_genes": [
+          "RBFOX1",
+          "SRRM4",
+          "CELF4"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "INSM1",
+            "SOX2",
+            "Tbr2",
+            "NeuroD family",
+            "REST"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "Core transcriptional regulators of neural differentiation programs"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Gene ontology biological processes",
+        "Pathway database integration",
+        "Co-expression and functional clustering",
+        "Literature-based functional annotation",
+        "Cell type and tissue-specific expression patterns"
+      ],
+      "notes": "Gene programs identified through systematic analysis of functional literature, PubMed searches, and pathway databases. Programs clustered based on shared biological processes, regulatory networks, and functional interdependencies. Each program represents a coherent biological function relevant to both normal neural physiology and dysregulation in astrocytoma contexts. Prioritized well-established functions with strong literature support while highlighting emerging evidence where contextually relevant."
+    },
+    "version": "1.0"
+  }
+}

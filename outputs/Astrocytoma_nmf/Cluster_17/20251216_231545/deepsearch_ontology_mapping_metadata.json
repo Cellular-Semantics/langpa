@@ -1,0 +1,20 @@
+{
+  "total_processes": 28,
+  "total_components": 15,
+  "mapped_processes": 26,
+  "mapped_components": 14,
+  "failed_mappings": [
+    {
+      "term": "Proneural-to-gliogenic transcriptional switching",
+      "type": "process"
+    },
+    {
+      "term": "TP53/p63 protein complex and transcriptional regulatory network",
+      "type": "component"
+    },
+    {
+      "term": "Synaptic pruning and neuronal apoptotic pathways",
+      "type": "process"
+    }
+  ]
+}

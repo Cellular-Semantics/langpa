@@ -7,12 +7,18 @@ __pycache__/
 .mypy_cache/
 .pytest_cache/
 docs/_build/
-outputs/
+# Allowing output commits on data branch
+# outputs/
 # Test outputs (keep README for documentation)
+# Blocking all except OB relevant
+outputs/Astrocytoma_cnmf
+outputs/default
+outputs/glioblastoma_langpa_test
+outputs/proj
 test_outputs/
 !test_outputs/README.md
 # Timestamp-based output directories (e.g., 20251212_121027/)
-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_*/
+#[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_*/
 .idea/
 tmp/
 # Distribution / packaging
