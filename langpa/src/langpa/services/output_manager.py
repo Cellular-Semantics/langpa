@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import re
 from datetime import datetime
 from pathlib import Path
@@ -13,6 +14,8 @@ from jsonschema import ValidationError, validate
 from langpa.schemas import load_schema
 from langpa.services.citation_normalizer import normalize_citations
 from langpa.services.citation_resolver import CitationResolver
+
+logger = logging.getLogger(__name__)
 
 
 class OutputManager:
@@ -374,10 +377,79 @@ class OutputManager:
 
                 processing_result["structured_file"] = str(structured_filepath)
 
+                # Ontology enrichment
+                logger.info("Enriching output with ontology mappings...")
+                try:
+                    from langpa.services.ontology_enrichment import OntologyEnricher
+
+                    enricher = OntologyEnricher()
+                    enriched_json, mapping_metadata = enricher.enrich_deepsearch_output(
+                        extracted_json
+                    )
+
+                    # Log mapping statistics
+                    logger.info(
+                        f"Ontology mapping complete: "
+                        f"{mapping_metadata['mapped_processes']}/{mapping_metadata['total_processes']} processes, "
+                        f"{mapping_metadata['mapped_components']}/{mapping_metadata['total_components']} components mapped"
+                    )
+
+                    if mapping_metadata["failed_mappings"]:
+                        logger.warning(
+                            f"{len(mapping_metadata['failed_mappings'])} terms failed to map"
+                        )
+
+                    # Save enriched output
+                    enriched_filename = (
+                        f"{filename_prefix}_structured_enriched.json"
+                        if filename_prefix
+                        else self._generate_filename(genes, context, suffix="_structured_enriched")
+                    )
+                    enriched_filepath = self.output_dir / enriched_filename
+
+                    enriched_output = {
+                        "metadata": {
+                            "timestamp": datetime.now().isoformat(),
+                            "genes": genes,
+                            "context": context,
+                            "validation_status": "valid_enriched",
+                            "raw_file_reference": str(raw_filepath) if raw_filepath else None,
+                            **(metadata or {}),
+                        },
+                        "structured_data": enriched_json,
+                    }
+
+                    with open(enriched_filepath, "w", encoding="utf-8") as f:
+                        json.dump(enriched_output, f, indent=2, ensure_ascii=False)
+
+                    processing_result["enriched_file"] = str(enriched_filepath)
+
+                    # Save mapping metadata
+                    mapping_metadata_filename = (
+                        f"{filename_prefix}_ontology_mapping_metadata.json"
+                        if filename_prefix
+                        else self._generate_filename(genes, context, suffix="_ontology_mapping_metadata")
+                    )
+                    mapping_metadata_filepath = self.output_dir / mapping_metadata_filename
+
+                    with open(mapping_metadata_filepath, "w", encoding="utf-8") as f:
+                        json.dump(mapping_metadata, f, indent=2, ensure_ascii=False)
+
+                    processing_result["mapping_metadata_file"] = str(mapping_metadata_filepath)
+
+                    # Use enriched JSON for citation resolution
+                    json_for_citations = enriched_json
+
+                except Exception as e:
+                    logger.error(f"Ontology enrichment failed: {e}")
+                    # Fall back to non-enriched JSON
+                    json_for_citations = extracted_json
+                    processing_result["errors"].append(f"Ontology enrichment failed: {str(e)}")
+
                 if resolve_citations:
                     citation_data = self._resolve_and_package_citations(
                         result=result,
-                        structured_json=extracted_json,
+                        structured_json=json_for_citations,  # Use enriched JSON if available
                         genes=genes,
                         context=context,
                         resolver=resolver,
