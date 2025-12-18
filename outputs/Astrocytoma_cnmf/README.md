@@ -4,31 +4,6 @@
 
 ## Results
 
-### 0_Cluster_0
-
-**Context**: Astrocytoma
-
-**Genes**: 200 total, 66 covered by programs (33%)
-
-#### Details
-
-<details>
-<summary>Gene Programs</summary>
-
-| Program Name | Genes | % of Total | Citations |
-|---|---|---|---|
-| Ion Transport and Astrocyte Homeostasis | 20 | 10% | 1 |
-| Cytoskeletal Dynamics and Cell Adhesion | 23 | 12% | 1 |
-| Neurotrophic Signaling and Cell Survival | 8 | 4% | 1 |
-| Lipid Metabolism and Membrane Biogenesis | 8 | 4% | 2 |
-| Transcriptional Regulation and Cell Fate | 8 | 4% | 2 |
-
-</details>
-
-#### Runs
-
-- **20251216_202721**: [deepsearch_container.md](0_Cluster_0/20251216_202721/deepsearch_container.md) | [deepsearch_structured.json](0_Cluster_0/20251216_202721/deepsearch_structured.json)
-
 ### Cluster_0
 
 **Context**: Astrocytoma
