@@ -1,0 +1,24 @@
+{
+  "total_processes": 25,
+  "total_components": 10,
+  "mapped_processes": 21,
+  "mapped_components": 10,
+  "failed_mappings": [
+    {
+      "term": "ATF/CEBP-mediated stress transcription",
+      "type": "process"
+    },
+    {
+      "term": "Early growth response gene activation",
+      "type": "process"
+    },
+    {
+      "term": "Mitochondrial dysfunction and senescence linkage",
+      "type": "process"
+    },
+    {
+      "term": "Tumor suppressor function and differentiation inhibition",
+      "type": "process"
+    }
+  ]
+}

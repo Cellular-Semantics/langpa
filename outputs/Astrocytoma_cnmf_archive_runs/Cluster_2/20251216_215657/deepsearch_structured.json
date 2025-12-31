@@ -1,0 +1,1790 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T22:01:27.166366",
+    "genes": [
+      "DPP6",
+      "CHST11",
+      "MAP3K1",
+      "SLC24A3",
+      "NRXN1",
+      "REV3L",
+      "KAT2B",
+      "TNR",
+      "PTPRZ1",
+      "LRRTM4",
+      "SEZ6L",
+      "SOX2-OT",
+      "CSMD1",
+      "LHFPL3",
+      "SEMA5A",
+      "RGS7",
+      "MMP16",
+      "LRRC4C",
+      "LRRN1",
+      "MTSS1",
+      "KCNIP1",
+      "KCND2",
+      "PTPRD",
+      "NXPH1",
+      "NTRK3",
+      "WSCD1",
+      "XYLT1",
+      "PDGFRA",
+      "CDH10",
+      "DLG2",
+      "PCDH9",
+      "OPCML",
+      "PLPPR1",
+      "AC007402.1",
+      "AC023480.1",
+      "LHFPL3-AS1",
+      "CA10",
+      "MPPED2",
+      "NTM",
+      "RAB31",
+      "GRM5",
+      "SRGAP2",
+      "FGF14",
+      "MAP2",
+      "OLIG1",
+      "KCNMB2",
+      "TNK2",
+      "SOX5",
+      "ZEB1",
+      "SLC2A13",
+      "SH3D19",
+      "SNTG1",
+      "ANK3",
+      "CNTN1",
+      "AMZ1",
+      "ARHGAP42",
+      "CSPG5",
+      "PDE4B",
+      "PID1",
+      "DCC",
+      "NCALD",
+      "PLEKHH2",
+      "SNX22",
+      "RIMS1",
+      "SYN3",
+      "MDGA2",
+      "STXBP5L",
+      "IGSF21",
+      "STK32A",
+      "ANKS1B",
+      "SHC3",
+      "GAD1",
+      "LINC01322",
+      "FAM155A",
+      "AL589740.1",
+      "SCN1A",
+      "SPATA6",
+      "CSRNP3",
+      "ESRRG",
+      "AC013265.1",
+      "LDLRAD3",
+      "DOCK9",
+      "NOVA1",
+      "DISC1",
+      "UNC80",
+      "USP54",
+      "PRKCA",
+      "KCNIP4",
+      "PANTR1",
+      "SLC35F1",
+      "CDH20",
+      "PDZD2",
+      "KIF13A",
+      "KLF12",
+      "EGFR",
+      "DENND2A",
+      "ETV5",
+      "NLGN4X",
+      "PEAK1",
+      "CNTN6",
+      "NSG2",
+      "NCKAP5",
+      "PHLPP1",
+      "ARHGAP20",
+      "SH3KBP1",
+      "SLAIN1",
+      "CTNNA2",
+      "SGK1",
+      "COL20A1",
+      "BRINP3",
+      "RIMS2",
+      "MEGF11",
+      "PTPRO",
+      "EPN2-AS1",
+      "SCD5",
+      "MYO10",
+      "SCN3A",
+      "CASK",
+      "MYO5C",
+      "MYT1",
+      "LUZP2",
+      "CD82",
+      "BRINP2",
+      "SGIP1",
+      "NAV2",
+      "CSMD3",
+      "ARFGEF3",
+      "GSG1L",
+      "EYA1",
+      "AC117464.1",
+      "GLCCI1",
+      "GALNT10",
+      "AC091885.2",
+      "TRIB2",
+      "UNC79",
+      "SUSD4",
+      "AGMO",
+      "AC068308.1",
+      "SPSB4",
+      "AC064875.1",
+      "LRRK2",
+      "SLC4A10",
+      "LRRTM3",
+      "LRP4",
+      "LRP1B",
+      "ZCCHC24",
+      "TMEM196",
+      "AC004852.2",
+      "PLPP4",
+      "GRAMD1B",
+      "CRISPLD2",
+      "AC092691.1",
+      "NALCN",
+      "ZFHX4-AS1",
+      "PPFIA2",
+      "KCNMB2-AS1",
+      "CCND2",
+      "GRIA3",
+      "PPP2R2B",
+      "KCNQ1OT1",
+      "TMEM132C",
+      "CARMIL1",
+      "HIP1",
+      "KCTD8",
+      "CADM2",
+      "DOCK10",
+      "GRIA2",
+      "GRID2",
+      "KCND3",
+      "VCAN",
+      "AC009041.2",
+      "COL4A4",
+      "COL4A3",
+      "NPAS3",
+      "PCDH15",
+      "XKR4",
+      "AC011474.1",
+      "NLGN4Y",
+      "ZDHHC14",
+      "CNTNAP2",
+      "COLGALT2",
+      "AC023282.1",
+      "CNTN3",
+      "AC037450.1",
+      "AC062021.1",
+      "PTPRN2",
+      "INSYN2A",
+      "DGKG",
+      "CHST9",
+      "NTNG1",
+      "CACNG4",
+      "PTPRE",
+      "DOCK4",
+      "SYT16",
+      "ADGRL3",
+      "LINC00461",
+      "KHDRBS3",
+      "BCHE",
+      "LINC01237",
+      "BCAN"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_2/20251216_215657/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": "perplexity-sonar-schema-embedded",
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "perplexity",
+    "effective_model": "sonar-deep-research",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_2",
+    "source_tag": null,
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "title": "Gene Program Functional Analysis - Astrocytoma",
+    "description": "Comprehensive literature-based functional analysis of gene programs in astrocytoma",
+    "type": "object",
+    "required": [
+      "context",
+      "input_genes",
+      "programs",
+      "version"
+    ],
+    "context": {
+      "cell_type": "Astrocyte",
+      "disease": "Astrocytoma (high-grade glioma)",
+      "tissue": "Brain"
+    },
+    "input_genes": [
+      "DPP6",
+      "CHST11",
+      "MAP3K1",
+      "SLC24A3",
+      "NRXN1",
+      "REV3L",
+      "KAT2B",
+      "TNR",
+      "PTPRZ1",
+      "LRRTM4",
+      "SEZ6L",
+      "SOX2-OT",
+      "CSMD1",
+      "LHFPL3",
+      "SEMA5A",
+      "RGS7",
+      "MMP16",
+      "LRRC4C",
+      "LRRN1",
+      "MTSS1",
+      "KCNIP1",
+      "KCND2",
+      "PTPRD",
+      "NXPH1",
+      "NTRK3",
+      "WSCD1",
+      "XYLT1",
+      "PDGFRA",
+      "CDH10",
+      "DLG2",
+      "PCDH9",
+      "OPCML",
+      "PLPPR1",
+      "AC007402.1",
+      "AC023480.1",
+      "LHFPL3-AS1",
+      "CA10",
+      "MPPED2",
+      "NTM",
+      "RAB31",
+      "GRM5",
+      "SRGAP2",
+      "FGF14",
+      "MAP2",
+      "OLIG1",
+      "KCNMB2",
+      "TNK2",
+      "SOX5",
+      "ZEB1",
+      "SLC2A13",
+      "SH3D19",
+      "SNTG1",
+      "ANK3",
+      "CNTN1",
+      "AMZ1",
+      "ARHGAP42",
+      "CSPG5",
+      "PDE4B",
+      "PID1",
+      "DCC",
+      "NCALD",
+      "PLEKHH2",
+      "SNX22",
+      "RIMS1",
+      "SYN3",
+      "MDGA2",
+      "STXBP5L",
+      "IGSF21",
+      "STK32A",
+      "ANKS1B",
+      "SHC3",
+      "GAD1",
+      "LINC01322",
+      "FAM155A",
+      "AL589740.1",
+      "SCN1A",
+      "SPATA6",
+      "CSRNP3",
+      "ESRRG",
+      "AC013265.1",
+      "LDLRAD3",
+      "DOCK9",
+      "NOVA1",
+      "DISC1",
+      "UNC80",
+      "USP54",
+      "PRKCA",
+      "KCNIP4",
+      "PANTR1",
+      "SLC35F1",
+      "CDH20",
+      "PDZD2",
+      "KIF13A",
+      "KLF12",
+      "EGFR",
+      "DENND2A",
+      "ETV5",
+      "NLGN4X",
+      "PEAK1",
+      "CNTN6",
+      "NSG2",
+      "NCKAP5",
+      "PHLPP1",
+      "ARHGAP20",
+      "SH3KBP1",
+      "SLAIN1",
+      "CTNNA2",
+      "SGK1",
+      "COL20A1",
+      "BRINP3",
+      "RIMS2",
+      "MEGF11",
+      "PTPRO",
+      "EPN2-AS1",
+      "SCD5",
+      "MYO10",
+      "SCN3A",
+      "CASK",
+      "MYO5C",
+      "MYT1",
+      "LUZP2",
+      "CD82",
+      "BRINP2",
+      "SGIP1",
+      "NAV2",
+      "CSMD3",
+      "ARFGEF3",
+      "GSG1L",
+      "EYA1",
+      "AC117464.1",
+      "GLCCI1",
+      "GALNT10",
+      "AC091885.2",
+      "TRIB2",
+      "UNC79",
+      "SUSD4",
+      "AGMO",
+      "AC068308.1",
+      "SPSB4",
+      "AC064875.1",
+      "LRRK2",
+      "SLC4A10",
+      "LRRTM3",
+      "LRP4",
+      "LRP1B",
+      "ZCCHC24",
+      "TMEM196",
+      "AC004852.2",
+      "PLPP4",
+      "GRAMD1B",
+      "CRISPLD2",
+      "AC092691.1",
+      "NALCN",
+      "ZFHX4-AS1",
+      "PPFIA2",
+      "KCNMB2-AS1",
+      "CCND2",
+      "GRIA3",
+      "PPP2R2B",
+      "KCNQ1OT1",
+      "TMEM132C",
+      "CARMIL1",
+      "HIP1",
+      "KCTD8",
+      "CADM2",
+      "DOCK10",
+      "GRIA2",
+      "GRID2",
+      "KCND3",
+      "VCAN",
+      "AC009041.2",
+      "COL4A4",
+      "COL4A3",
+      "NPAS3",
+      "PCDH15",
+      "XKR4",
+      "AC011474.1",
+      "NLGN4Y",
+      "ZDHHC14",
+      "CNTNAP2",
+      "COLGALT2",
+      "AC023282.1",
+      "CNTN3",
+      "AC037450.1",
+      "AC062021.1",
+      "PTPRN2",
+      "INSYN2A",
+      "DGKG",
+      "CHST9",
+      "NTNG1",
+      "CACNG4",
+      "PTPRE",
+      "DOCK4",
+      "SYT16",
+      "ADGRL3",
+      "LINC00461",
+      "KHDRBS3",
+      "BCHE",
+      "LINC01237",
+      "BCAN"
+    ],
+    "programs": [
+      {
+        "program_name": "Synaptic Adhesion and Connectivity",
+        "description": "Network of cell adhesion molecules and scaffolding proteins maintaining synaptic stability, neuronal network organization, and intercellular communication through specialized adhesion complexes. Includes classical cadherins, neurexins, neuroligins, protocadherins, and immunoglobulin superfamily adhesion molecules critical for synapse formation and stabilization.",
+        "atomic_biological_processes": [
+          {
+            "name": "Transsynaptic signaling and synapse stabilization",
+            "genes": [
+              "NRXN1",
+              "NLGN4X",
+              "NLGN4Y",
+              "CNTN1",
+              "CNTN3",
+              "CNTN6"
+            ],
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "NCAM1 encodes cell adhesion protein member of immunoglobulin superfamily involved in cell-to-cell interactions"
+              },
+              {
+                "source_id": "3",
+                "notes": "Cell adhesion molecules mediate cell-cell communications and interact with ECM, critical for synaptic development and establishment of neuronal networks"
+              }
+            ]
+          },
+          {
+            "name": "Cadherin-based adhesion complex formation",
+            "genes": [
+              "CDH10",
+              "CDH20",
+              "PCDH9",
+              "PCDH15",
+              "CTNNA2"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Decreased expression of adhesion coding genes such as Cdh10, Nectin1 in diseased neurons; cell adhesion molecules critical for synaptic development"
+              }
+            ]
+          },
+          {
+            "name": "Immunoglobulin superfamily adhesion",
+            "genes": [
+              "IGSF21",
+              "OPCML"
+            ],
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "NCAM1 as member of immunoglobulin superfamily demonstrates importance of this molecular class for cell-cell interactions"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Postsynaptic density organization",
+            "genes": [
+              "DLG2",
+              "CASK",
+              "ANK3"
+            ],
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "CASK calcium/calmodulin dependent serine protein kinase critical for postsynaptic organization and neurodevelopment"
+              }
+            ]
+          },
+          {
+            "name": "Synaptic vesicle cycling apparatus",
+            "genes": [
+              "SYN3",
+              "RIMS1",
+              "RIMS2"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Synaptic vesicle cycle pathway affected in synaptic maintenance processes"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced intercellular communication and network synchronization through strengthened synaptic adhesion",
+          "Increased synaptic stability and reduced synaptic pruning",
+          "Dysregulated synaptic connectivity patterns and abnormal network topology",
+          "Altered responsiveness to neural circuit activity and synaptic refinement signals"
+        ],
+        "evidence_summary": "Multiple adhesion molecules collectively establish the molecular infrastructure for synaptic connections. In normal physiology, these proteins enable transsynaptic signaling and provide structural stability to established synapses. In astrocytoma context, dysregulated adhesion molecules may reflect both aberrant astrocytic properties and altered interactions between tumor cells and surrounding neurons. The presence of both classical adhesion molecules and immunoglobulin-family adhesion factors suggests multi-modal adhesion capability.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "2",
+            "notes": "NCAM1 involvement in cell-to-cell interactions establishes importance of this adhesion class"
+          },
+          {
+            "source_id": "3",
+            "notes": "Comprehensive description of adhesion molecule dysregulation in neurodegeneration and tau pathology"
+          },
+          {
+            "source_id": "34",
+            "notes": "CASK-neurexin interactions critical for neuroarchitectural development"
+          }
+        ],
+        "supporting_genes": [
+          "NRXN1",
+          "NLGN4X",
+          "NLGN4Y",
+          "CDH10",
+          "CDH20",
+          "PCDH9",
+          "PCDH15",
+          "CTNNA2",
+          "CNTN1",
+          "CNTN3",
+          "CNTN6",
+          "DLG2",
+          "CASK",
+          "ANK3",
+          "IGSF21",
+          "OPCML",
+          "SYN3",
+          "RIMS1",
+          "RIMS2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "NECTIN1",
+            "CADM1",
+            "LSAMP"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "Nectin1 identified as dysregulated adhesion molecule in disease models"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Neuronal Excitability Control",
+        "description": "Ion channel proteins and their regulatory subunits controlling action potential generation, propagation, and repolarization. Encompasses voltage-gated sodium and potassium channels, calcium-activated potassium channels, voltage-independent leak channels, and localized phosphorylation control at the axon initial segment. This program maintains stable neuronal firing rates and integrates inhibitory regulation through phosphatase signaling.",
+        "atomic_biological_processes": [
+          {
+            "name": "Action potential generation and propagation",
+            "genes": [
+              "SCN1A",
+              "SCN3A"
+            ],
+            "citations": [
+              {
+                "source_id": "47",
+                "notes": "SCN1A mutations associated with focal seizures and neuronal hyperexcitability; critical for sodium influx during depolarization"
+              },
+              {
+                "source_id": "50",
+                "notes": "SCN3A may contribute to neuronal hyperexcitability and epilepsy"
+              }
+            ]
+          },
+          {
+            "name": "Action potential repolarization",
+            "genes": [
+              "KCND2",
+              "KCND3",
+              "KCNMB2",
+              "KCNIP1",
+              "KCNIP4"
+            ],
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "Kv1.2 potassium channel critical for membrane trafficking and AIS-enriched Kv1 channel conducts major outward currents"
+              }
+            ]
+          },
+          {
+            "name": "Resting membrane potential establishment",
+            "genes": [
+              "NALCN",
+              "UNC79",
+              "UNC80"
+            ],
+            "citations": [
+              {
+                "source_id": "14",
+                "notes": "Nalcn sodium leak channel plays critical role in controlling neuronal excitability by contributing to resting membrane potential"
+              },
+              {
+                "source_id": "16",
+                "notes": "UNC80 bridges between UNC79 and NALCN cation channel; de novo NALCN mutations cause severe neurological phenotypes"
+              }
+            ]
+          },
+          {
+            "name": "Phosphorylation-dependent excitability modulation",
+            "genes": [
+              "PPP2R2B",
+              "PPP2R2C"
+            ],
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "PP2A-B55γ regulatory subunit functionally interacts with Kv1.2 to regulate its expression at AIS; dephosphorylation of phosphosite pS440/441 crucial for membrane trafficking"
+              },
+              {
+                "source_id": "33",
+                "notes": "PP2A regulatory subunits Ppp2r2c and Ppp2r2a regulate baseline neuronal firing; AIS-enriched Ppp2r2c selectively potentiates neuronal activity"
+              },
+              {
+                "source_id": "27",
+                "notes": "PPP2R2B defects cause autosomal dominant spinocerebellar ataxia 12, indicating critical role in neuronal excitability"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Axon initial segment protein organization",
+            "genes": [
+              "ANK3"
+            ],
+            "citations": [
+              {
+                "source_id": "33",
+                "notes": "AIS recognized as hotspot for protein phosphorylation regulating action potential generation and neuronal polarity"
+              }
+            ]
+          },
+          {
+            "name": "Potassium channel auxiliary subunits",
+            "genes": [
+              "KCNMB2",
+              "KCNIP1",
+              "KCNIP4"
+            ],
+            "citations": [
+              {
+                "source_id": "24",
+                "notes": "Kvβ2 auxiliary subunit regulated by cyclin-dependent kinases; affects axonal membrane targeting of Kv1 channel"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dysregulated neuronal resting membrane potential leading to increased baseline excitability",
+          "Altered action potential threshold and firing rate characteristics",
+          "Impaired action potential repolarization causing prolonged depolarization phases",
+          "Enhanced seizure susceptibility through net increase in neuronal excitability"
+        ],
+        "evidence_summary": "Ion channels represent primary determinants of neuronal excitability through control of membrane potential and action potential characteristics. Voltage-gated sodium channels initiate action potentials through rapid sodium influx, while potassium channels mediate repolarization through outward potassium currents. Voltage-independent leak channels (NALCN) establish the resting membrane potential set-point. Recent mechanistic studies reveal that PP2A regulatory subunits specifically enriched at the axon initial segment selectively modulate neuronal excitability through localized dephosphorylation of ion channels, enabling compartmentalized control of neuronal firing. In astrocytoma context, dysregulation of these ion channel programs likely contributes to seizures and abnormal network activity observed in patients.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "14",
+            "notes": "NALCN as voltage-independent leak channel critical for neuronal excitability control"
+          },
+          {
+            "source_id": "24",
+            "notes": "Comprehensive mechanistic study of PP2A subunit localization and ion channel regulation at AIS"
+          },
+          {
+            "source_id": "33",
+            "notes": "Detailed analysis of PP2A regulatory subunit functions in neuronal excitability modulation"
+          }
+        ],
+        "supporting_genes": [
+          "SCN1A",
+          "SCN3A",
+          "KCND2",
+          "KCND3",
+          "KCNMB2",
+          "KCNIP1",
+          "KCNIP4",
+          "NALCN",
+          "UNC79",
+          "UNC80",
+          "PPP2R2B",
+          "PPP2R2C",
+          "ANK3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "KCNQ2",
+            "KCNQ3",
+            "CACNA1C"
+          ],
+          "citations": [
+            {
+              "source_id": "33",
+              "notes": "Casein kinase 2 phosphorylates KCNQ channels; CACNA1C encodes L-type calcium channels important for AIS function"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Axon Guidance and Developmental Routing",
+        "description": "Molecular signaling systems directing developing axons toward appropriate targets through secreted and transmembrane guidance factors, receptor complexes, and intracellular signaling cascades. Includes semaphorins, netrin-related factors, and downstream effectors mediating growth cone collapse, attractive guidance, and directional selection of axonal projections during nervous system development.",
+        "atomic_biological_processes": [
+          {
+            "name": "Repulsive axon guidance signaling",
+            "genes": [
+              "SEMA5A",
+              "SRGAP2"
+            ],
+            "citations": [
+              {
+                "source_id": "15",
+                "notes": "SEMA6D transmembrane semaphorins act as repulsive axon guidance cues similar to secreted ones"
+              },
+              {
+                "source_id": "13",
+                "notes": "CRMP2 phosphorylation mediates axon repulsion and branch pruning downstream of guidance receptor signaling"
+              }
+            ]
+          },
+          {
+            "name": "Growth cone filopodial dynamics control",
+            "genes": [
+              "TRIO"
+            ],
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Trio knock-down restores filopodial motility in CRMP2 S522D-expressing neurons; pCRMP2-Trio complex suppresses filopodial motility"
+              }
+            ]
+          },
+          {
+            "name": "Axon branching and arbor formation",
+            "genes": [
+              "DISC1",
+              "DOCK9",
+              "DOCK4",
+              "DOCK10"
+            ],
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "DISC1 plays critical role in neurite outgrowth and neuronal migration in adult mammalian brain, particularly in hippocampus"
+              },
+              {
+                "source_id": "13",
+                "notes": "Sema3A treatment decreases total axonal arbor length and branch number through CRMP2-dependent signaling"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Growth cone actin cytoskeleton regulation",
+            "genes": [
+              "SRGAP2",
+              "ARHGAP42",
+              "ARHGAP20"
+            ],
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "Trio GEF1 domain mediates Rac1 activation driving actin dynamics through its GEF domains"
+              }
+            ]
+          },
+          {
+            "name": "Synaptic SNARE complex components",
+            "genes": [
+              "STXBP5L",
+              "SYT16"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Synaptic vesicle cycle and signal release pathways involved in synaptic modulation"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dysregulated axonal pathfinding and aberrant axonal projections from tumor cells",
+          "Altered axon branching patterns and dendritic arbor complexity",
+          "Impaired response to guidance cues resulting in abnormal network architecture",
+          "Enhanced tumor cell invasion along white matter tracts through inappropriate guidance signal expression"
+        ],
+        "evidence_summary": "Axon guidance molecules establish nervous system connectivity by directing developing axons toward appropriate targets. Semaphorins provide repulsive guidance through growth cone collapse, while attractant factors (netrin family) promote axonal advancement. Downstream effectors including CRMP2 and Trio transduce guidance signals into changes in actin cytoskeleton organization and growth cone morphodynamics. The presence of guidance molecules in astrocytoma suggests aberrant expression of developmental programs; tumors may express guidance factors inappropriate for their cell identity, potentially creating abnormal signaling gradients that disrupt surrounding neural circuitry. The identification of multiple guidance effectors indicates sophisticated capacity for directional signaling control.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "13",
+            "notes": "Comprehensive mechanistic analysis of Trio and CRMP2 in axon guidance and branching control"
+          },
+          {
+            "source_id": "12",
+            "notes": "DISC1 role in neurite outgrowth and neuronal migration"
+          },
+          {
+            "source_id": "15",
+            "notes": "Semaphorin role as repulsive axon guidance cues"
+          }
+        ],
+        "supporting_genes": [
+          "SEMA5A",
+          "SRGAP2",
+          "DISC1",
+          "DOCK9",
+          "DOCK4",
+          "DOCK10",
+          "ARHGAP42",
+          "ARHGAP20",
+          "STXBP5L",
+          "SYT16"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "DCC",
+            "ROBO1",
+            "ROBO2"
+          ],
+          "citations": [
+            {
+              "source_id": "13",
+              "notes": "DCC and Robo proteins represent complementary guidance receptor families mediating attractive and repulsive signaling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Glutamate and GABA Neurotransmission",
+        "description": "Ionotropic and metabotropic glutamate receptor signaling systems mediating excitatory synaptic transmission and neuromodulation, coupled with GABAergic synthesis and signaling that provides inhibitory counterbalance. This program maintains excitatory-inhibitory balance critical for stable network operation and establishes developmental critical periods for circuit refinement.",
+        "atomic_biological_processes": [
+          {
+            "name": "AMPA-type ionotropic glutamate receptor signaling",
+            "genes": [
+              "GRIA2",
+              "GRIA3"
+            ],
+            "citations": [
+              {
+                "source_id": "9",
+                "notes": "Transsynaptic signaling mediated by extracellular domain of GluR2 regulates stability of presynaptic terminals"
+              }
+            ]
+          },
+          {
+            "name": "Delta-type ionotropic glutamate receptor signaling",
+            "genes": [
+              "GRID2"
+            ],
+            "citations": [
+              {
+                "source_id": "25",
+                "notes": "GluD2 gating triggered by type 1 metabotropic glutamate receptors; GRID2 mutations associated with cerebellar ataxia"
+              },
+              {
+                "source_id": "28",
+                "notes": "Grid2 active in glutamatergic synapse and postsynaptic density membrane at parallel fiber to Purkinje cell synapse"
+              }
+            ]
+          },
+          {
+            "name": "Metabotropic glutamate receptor 5 signaling",
+            "genes": [
+              "GRM5"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "Metabotropic glutamate receptor 5 associated with neurodegeneration and amyloid deposition in Alzheimer disease"
+              },
+              {
+                "source_id": "10",
+                "notes": "FMRP and mGlu5 control stress granule formation in astrocytes"
+              }
+            ]
+          },
+          {
+            "name": "GABA synthesis and GABAergic signaling",
+            "genes": [
+              "GAD1"
+            ],
+            "citations": [
+              {
+                "source_id": "40",
+                "notes": "GAD1 as GABA-synthetic enzyme; GABAergic signaling necessary for opening of critical periods during neural development"
+              },
+              {
+                "source_id": "43",
+                "notes": "GAD1 encodes glutamate decarboxylase 1; GABA major inhibitory neurotransmitter synthesized by this enzyme"
+              }
+            ]
+          },
+          {
+            "name": "Critical period gating through GABAergic signaling",
+            "genes": [
+              "GAD1"
+            ],
+            "citations": [
+              {
+                "source_id": "40",
+                "notes": "Increased intracortical GABA signaling necessary for opening of critical periods; GABAergic signaling regulates CP timing across phyla"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Postsynaptic density AMPA receptor organization",
+            "genes": [
+              "GRIA2",
+              "GRIA3"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "GSG1L regulates AMPA receptor activity; Syndig1 regulates NMDA and AMPA receptor content"
+              }
+            ]
+          },
+          {
+            "name": "Synaptic vesicle glutamate and GABA accumulation",
+            "genes": [
+              "SLC24A3"
+            ],
+            "citations": [
+              {
+                "source_id": "40",
+                "notes": "Neurotransmitter transport mechanisms involved in synaptic transmission"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dysregulated excitatory synaptic transmission strength and duration",
+          "Impaired inhibitory GABAergic signaling leading to E/I imbalance",
+          "Disrupted critical period gating and abnormal developmental plasticity timing",
+          "Seizure susceptibility through net excitatory bias in neural circuits"
+        ],
+        "evidence_summary": "Glutamatergic and GABAergic systems provide the primary excitatory and inhibitory neurotransmission supporting all neural computation. Ionotropic receptors enable fast synaptic transmission through direct coupling to ion channels, while metabotropic receptors provide modulatory functions through G-protein signaling cascades. The precise balance between excitatory and inhibitory signaling (E/I balance) represents a fundamental principle of neural circuit organization, with dysregulation contributing to seizures, autism spectrum disorders, and schizophrenia. GABAergic signaling development demonstrates remarkable temporal precision, with the onset of GAD1 expression immediately preceding critical period opening. In astrocytoma context, altered glutamate and GABA metabolism through tumor-associated changes in transporter expression and enzymatic activity contributes to excitotoxicity and network dysfunction.",
+        "significance_score": 0.89,
+        "citations": [
+          {
+            "source_id": "40",
+            "notes": "Comprehensive analysis of GABAergic signaling in critical period gating across development"
+          },
+          {
+            "source_id": "8",
+            "notes": "GRM5 dysregulation in neurodegeneration establishing glutamate signaling importance"
+          },
+          {
+            "source_id": "9",
+            "notes": "GRIA2 in synaptic stability and presynaptic function"
+          }
+        ],
+        "supporting_genes": [
+          "GRIA2",
+          "GRIA3",
+          "GRID2",
+          "GRM5",
+          "GAD1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GRIN1",
+            "GRIN2B",
+            "GAD2"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "NMDAR1 and related NMDA receptor subunits dysregulated in AD tauopathy; GAD2 encodes GAD65 controlling GABA synthesis"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Growth Factor Receptor Signaling",
+        "description": "Receptor tyrosine kinase signaling controlling cell proliferation, survival, differentiation, and metabolic state. Encompases PDGF receptor alpha, EGFR, neurotrophic receptor tyrosine kinase 3, and downstream signaling nodes including AKT/PKB, MAP kinase cascades, and their negative regulators. This program represents the primary driver of proliferative capacity and is frequently dysregulated in astrocytoma through mutation and overexpression.",
+        "atomic_biological_processes": [
+          {
+            "name": "PDGF receptor alpha signaling",
+            "genes": [
+              "PDGFRA"
+            ],
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "PDGFRA encodes cell surface tyrosine kinase receptor for platelet-derived growth factor family"
+              },
+              {
+                "source_id": "17",
+                "notes": "Constitutively active PDGFRA signaling sufficient driver of gliomagenesis in mouse models; PDGFRA most potent driver of gliomagenesis"
+              }
+            ]
+          },
+          {
+            "name": "EGFR signaling",
+            "genes": [
+              "EGFR"
+            ],
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "EGFR among multiple tyrosine kinases upregulated in tumor progression"
+              }
+            ]
+          },
+          {
+            "name": "Neurotrophic receptor tyrosine kinase signaling",
+            "genes": [
+              "NTRK3"
+            ],
+            "citations": [
+              {
+                "source_id": "36",
+                "notes": "TrkC (encoded by NTRK3) neurotrophic receptor promotes survival of neuronal and glial cells"
+              },
+              {
+                "source_id": "38",
+                "notes": "NTRK3 expression promotes neuronal differentiation of neural stem cells through TrkC receptor"
+              },
+              {
+                "source_id": "29",
+                "notes": "TRIM24::NTRK2 fusion gene identified as driver event in astrocytoma"
+              }
+            ]
+          },
+          {
+            "name": "AKT/PKB kinase signaling",
+            "genes": [
+              "AKT1",
+              "PHLPP1"
+            ],
+            "citations": [
+              {
+                "source_id": "45",
+                "notes": "AKT1 critical node in growth factor signaling controlling cell survival, proliferation, and metabolism"
+              },
+              {
+                "source_id": "42",
+                "notes": "PHLPP1 dephosphorylates and inactivates AKT; loss of PHLPP1 promotes AKT signaling persistence and therapy resistance"
+              }
+            ]
+          },
+          {
+            "name": "MAP kinase cascade signaling",
+            "genes": [
+              "MAP3K1"
+            ],
+            "citations": [
+              {
+                "source_id": "17",
+                "notes": "MAP kinase cascade downstream effector of growth factor signaling; RAF-MAP signaling altered in tumor evolution"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Growth factor receptor complex assembly",
+            "genes": [
+              "PDGFRA",
+              "EGFR",
+              "NTRK3"
+            ],
+            "citations": [
+              {
+                "source_id": "20",
+                "notes": "PDGFRA encodes receptor component enabling growth factor ligand binding and signal transduction"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced proliferation and reduced cell cycle arrest through sustained RTK signaling",
+          "Increased survival signaling and reduced apoptosis through AKT pathway activation",
+          "Metabolic reprogramming toward glycolytic and anabolic states",
+          "Therapeutic resistance through pathway redundancy and feedback loop dysregulation"
+        ],
+        "evidence_summary": "Growth factor receptors represent critical components of cellular communication systems that control fundamental decisions regarding proliferation, survival, and differentiation. Dysregulation of these pathways through mutation, overexpression, or loss of negative regulation represents a hallmark feature of cancer. In astrocytoma, PDGFRA represents a particularly potent driver, with animal models demonstrating that constitutively active PDGFRA signaling alone is sufficient for gliomagenesis. Multiple redundant growth factor pathways operate in most astrocytomas, explaining therapeutic resistance to single-pathway inhibitors. The identification of NTRK3 fusion events as driver events in human astrocytoma demonstrates that aberrant NTRK signaling represents an established oncogenic mechanism. Negative regulators including PHLPP1 demonstrate that loss of growth inhibitory signals accompanies growth factor pathway activation in many tumors.",
+        "significance_score": 0.91,
+        "citations": [
+          {
+            "source_id": "17",
+            "notes": "Comprehensive characterization of growth factor pathway dysregulation in pediatric glioma models"
+          },
+          {
+            "source_id": "29",
+            "notes": "Identification of NTRK2 fusion in human astrocytoma and functional analysis of driver capacity"
+          },
+          {
+            "source_id": "42",
+            "notes": "PHLPP1 role in AKT regulation and therapeutic resistance"
+          }
+        ],
+        "supporting_genes": [
+          "PDGFRA",
+          "EGFR",
+          "NTRK3",
+          "AKT1",
+          "PHLPP1",
+          "MAP3K1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "BRAF",
+            "KRAS",
+            "PIK3CA"
+          ],
+          "citations": [
+            {
+              "source_id": "17",
+              "notes": "BRAF, KRAS mutations represent alternative driver events in pediatric gliomas; these genes not in input list but critically important for complete pathway understanding"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Histone Modification and Chromatin Remodeling",
+        "description": "Epigenetic regulatory machinery controlling gene accessibility through histone acetylation/deacetylation, methylation, and ATP-dependent chromatin remodeling. This program encompasses histone acetyltransferases, histone deacetylases, chromatin remodeling ATPases, and their regulatory complexes that collectively determine whether genomic regions remain in transcriptionally active (open) or repressed (closed) chromatin states.",
+        "atomic_biological_processes": [
+          {
+            "name": "Histone acetylation and transcriptional activation",
+            "genes": [
+              "KAT2B"
+            ],
+            "citations": [
+              {
+                "source_id": "18",
+                "notes": "KAT2B associates with p300/CBP and competes with E1A for binding; has in vitro and in vivo binding activity with CBP and p300"
+              },
+              {
+                "source_id": "21",
+                "notes": "KAT2B inhibits cholangiocarcinoma growth through interaction with SP1 to regulate NF2-YAP signaling"
+              }
+            ]
+          },
+          {
+            "name": "HDAC inhibition and tumor suppressor reactivation",
+            "genes": [],
+            "citations": [
+              {
+                "source_id": "19",
+                "notes": "HDACis restore expression of tumor suppressor genes, inducing apoptosis and overcoming therapeutic resistance; novel hydroxamic acid analogue exhibits potent anticancer activity"
+              },
+              {
+                "source_id": "22",
+                "notes": "HDAC-6 inhibitor Tubacin demonstrates potent anti-proliferative effect in cytotoxicity and live-dead assays"
+              }
+            ]
+          },
+          {
+            "name": "ATRX-mediated chromatin remodeling",
+            "genes": [
+              "ATRX"
+            ],
+            "citations": [
+              {
+                "source_id": "4",
+                "notes": "Low ATRX mRNA expression combined with IDH1/2 mutations associated with astrocytic tumors"
+              },
+              {
+                "source_id": "17",
+                "notes": "H3.3(G34R) combined with PDGFRA(D842V) or Trp53 KO produces gliomas; ATRX loss may contribute through chromatin remodeling alterations"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Acetyltransferase complex assembly",
+            "genes": [
+              "KAT2B"
+            ],
+            "citations": [
+              {
+                "source_id": "18",
+                "notes": "KAT2B associates with p300/CBP complexes forming multi-subunit regulatory assemblies"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dysregulated gene expression through altered chromatin accessibility patterns",
+          "Suppressed tumor suppressor gene expression through histone deacetylation",
+          "Enhanced oncogene expression through strategic histone acetylation",
+          "Therapeutic vulnerability to HDAC inhibitors reversing epigenetic silencing"
+        ],
+        "evidence_summary": "Histone modifications represent a major control point for gene expression, with acetylation generally associated with transcriptional activation and deacetylation with repression. In cancer, histone deacetylase overactivity frequently silences tumor suppressor genes while leaving oncogene regions relatively accessible, creating an epigenetic state favoring proliferation. Recent therapeutic successes with HDAC inhibitors demonstrate that reversing these epigenetic changes can restore tumor suppressor expression and induce cell death. The identification of ATRX mutations in combination with IDH mutations in astrocytoma suggests that chromatin remodeling dysfunction cooperates with metabolic alterations to drive transformation. The mechanistic analysis of HDAC inhibitor effects reveals that compound 3B increases reactive oxygen species while simultaneously inhibiting proliferation, suggesting multiple complementary mechanisms of action.",
+        "significance_score": 0.86,
+        "citations": [
+          {
+            "source_id": "19",
+            "notes": "Comprehensive study of HDAC inhibitor mechanisms in glioblastoma"
+          },
+          {
+            "source_id": "18",
+            "notes": "KAT2B structure and interactions with p300/CBP complexes"
+          },
+          {
+            "source_id": "4",
+            "notes": "ATRX mutations in astrocytic tumors coupled with IDH mutations"
+          }
+        ],
+        "supporting_genes": [
+          "KAT2B"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "HDAC1",
+            "HDAC2",
+            "HDAC6",
+            "SIRT1"
+          ],
+          "citations": [
+            {
+              "source_id": "19",
+              "notes": "HDAC isoforms represent critical targets; HDAC-6 inhibitor demonstrates therapeutic potential"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Developmental Transcriptional Programming",
+        "description": "Transcription factors and long noncoding RNAs controlling cell type specification, lineage commitment, developmental transitions, and developmental plasticity. This program encompasses SOX family transcription factors maintaining neural stem cell identity, EMT regulators controlling epithelial-mesenchymal transitions, and noncoding RNAs regulating developmental pathways.",
+        "atomic_biological_processes": [
+          {
+            "name": "Neural stem cell identity maintenance",
+            "genes": [
+              "SOX2-OT",
+              "SOX5"
+            ],
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "SOX2 intronless gene encodes member of SRY-related HMG-box family; involved in regulation of embryonic development"
+              },
+              {
+                "source_id": "30",
+                "notes": "Astro3 subtype expressing SOX2 and DCX consists of neural progenitor cells; SOX2 expression maintained in neural progenitor cells"
+              }
+            ]
+          },
+          {
+            "name": "Epithelial-mesenchymal transition regulation",
+            "genes": [
+              "ZEB1"
+            ],
+            "citations": [
+              {
+                "source_id": "44",
+                "notes": "ZEB1 mediates EMT/plasticity-associated ferroptosis sensitivity in cancer cells by regulating lipogenic enzyme expression"
+              }
+            ]
+          },
+          {
+            "name": "Long noncoding RNA-mediated developmental regulation",
+            "genes": [
+              "SOX2-OT",
+              "LINC01322",
+              "LINC00461",
+              "LINC01237"
+            ],
+            "citations": [
+              {
+                "source_id": "11",
+                "notes": "LINC01068 regulates schizophrenia-associated genes and synaptic pathways; knockdown impairs proliferation, migration, and differentiation of neural stem cells"
+              }
+            ]
+          },
+          {
+            "name": "Oligodendrocyte lineage commitment",
+            "genes": [
+              "OLIG1",
+              "MYT1"
+            ],
+            "citations": [
+              {
+                "source_id": "32",
+                "notes": "MYT1 represents oligodendrocyte-specific transcription factor"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Aberrant reactivation of neural stem cell developmental programs in differentiated astrocytes",
+          "Enhanced cellular plasticity and capacity for lineage switching",
+          "Increased migratory and invasive capacity through EMT induction",
+          "Dysregulated developmental plasticity enabling tumor cell adaptation"
+        ],
+        "evidence_summary": "Developmental transcription factors control cell fate decisions and lineage commitment during nervous system development, with their expression typically restricted to progenitor populations and downregulated upon terminal differentiation. The presence of neural stem cell markers including SOX2 and developmental lncRNAs in astrocytoma cells indicates aberrant recapitulation of developmental identity programs. This dedifferentiation toward progenitor-like states may explain the enhanced proliferative capacity of astrocytoma cells and their capacity to survive outside normal tissue contexts. The EMT program mediated by ZEB1 links developmental plasticity to invasive capacity, suggesting that the same molecular mechanisms enabling developmental transitions also promote tumor dissemination. The identification of LINC01068 dysregulation in neural development establishes mechanistic links between transcriptional dysfunction and developmental outcomes.",
+        "significance_score": 0.84,
+        "citations": [
+          {
+            "source_id": "30",
+            "notes": "Identification of neural progenitor cell-like astrocytes expressing SOX2 and developmental markers"
+          },
+          {
+            "source_id": "11",
+            "notes": "LINC01068 roles in neural stem cell proliferation and differentiation"
+          },
+          {
+            "source_id": "44",
+            "notes": "ZEB1-mediated EMT and ferroptosis regulation"
+          }
+        ],
+        "supporting_genes": [
+          "SOX2-OT",
+          "SOX5",
+          "ZEB1",
+          "OLIG1",
+          "MYT1",
+          "LINC01322",
+          "LINC00461",
+          "LINC01237"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SOX1",
+            "SOX9",
+            "OCT4",
+            "NANOG"
+          ],
+          "citations": [
+            {
+              "source_id": "30",
+              "notes": "SOX9 and other SOX family members demonstrate cell-type-specific developmental functions"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "DNA Damage Response and Translesion Synthesis",
+        "description": "DNA repair pathways enabling cells to tolerate and bypass DNA lesions through specialized polymerases and error-prone synthesis mechanisms. This program encompasses translesion DNA polymerases (REV3L, POLQ) that enable replication fork progression past DNA lesions that would normally block replication, allowing continued survival despite genomic damage.",
+        "atomic_biological_processes": [
+          {
+            "name": "Translesion DNA synthesis by polymerase zeta",
+            "genes": [
+              "REV3L"
+            ],
+            "citations": [
+              {
+                "source_id": "46",
+                "notes": "REV3L encodes catalytic subunit of DNA polymerase zeta; functions in translesion DNA synthesis"
+              }
+            ]
+          },
+          {
+            "name": "Error-prone and error-free translesion synthesis",
+            "genes": [
+              "POLQ"
+            ],
+            "citations": [
+              {
+                "source_id": "49",
+                "notes": "POLQ encodes DNA polymerase theta; capable of both error-free and error-prone DNA synthesis depending on substrate context"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [],
+        "predicted_cellular_impact": [
+          "Enhanced tolerance to DNA-damaging therapeutic agents",
+          "Continued proliferation despite genomic stress and mutation accumulation",
+          "Acquisition of additional mutations through error-prone bypass synthesis",
+          "Therapeutic resistance to chemotherapy and radiation therapy"
+        ],
+        "evidence_summary": "Most DNA lesions block replication fork progression and trigger apoptotic cell death through checkpoint activation. Specialized translesion polymerases provide an alternative route enabling cells to bypass lesions through low-fidelity synthesis that continues replication at the cost of increased mutation rates. In cancer, this tradeoff favors continued proliferation over genetic fidelity, potentially explaining the high mutational burdens characteristic of many astrocytomas. The presence of both REV3L and POLQ indicates redundant mechanisms for lesion bypass, suggesting that tumor cells have acquired multiple independent pathways for mutation tolerance. This redundancy may explain why targeting single translesion polymerase genes fails to produce therapeutic effects in many cancers.",
+        "significance_score": 0.76,
+        "citations": [
+          {
+            "source_id": "46",
+            "notes": "REV3L role in translesion DNA synthesis and polymerase zeta function"
+          },
+          {
+            "source_id": "49",
+            "notes": "POLQ dual capacity for error-free and error-prone translesion synthesis"
+          }
+        ],
+        "supporting_genes": [
+          "REV3L",
+          "POLQ"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "REV1",
+            "DPB3",
+            "MAD2L2"
+          ],
+          "citations": [
+            {
+              "source_id": "49",
+              "notes": "REV1 and other components of translesion synthesis machinery required for complete pathway function"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Astrocyte-Specific Metabolic Support",
+        "description": "Specialized metabolic and homeostatic functions performed by astrocytes to maintain appropriate brain microenvironment and support neuronal function. Includes ion and solute transporters maintaining extracellular osmolarity and ionic composition, water channels enabling glymphatic clearance, and metabolite transporters supporting astrocyte-neuron metabolic interactions.",
+        "atomic_biological_processes": [
+          {
+            "name": "Astrocytic ion and solute homeostasis",
+            "genes": [
+              "SLC24A3",
+              "SLC4A10",
+              "SLC2A13"
+            ],
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "AQP4 expressed in astrocytic endfoot membranes; facilitates water transport critical to maintaining extracellular osmolarity and glymphatic clearance"
+              }
+            ]
+          },
+          {
+            "name": "Astrocytic water transport and glymphatic function",
+            "genes": [
+              "AQP4"
+            ],
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "Aquaporin-4 autoantibodies in neuromyelitis optica spectrum disorder; AQP4 critical for glymphatic clearance mechanisms"
+              }
+            ]
+          },
+          {
+            "name": "Astrocytic glutamate metabolism and recycling",
+            "genes": [
+              "GAD1"
+            ],
+            "citations": [
+              {
+                "source_id": "40",
+                "notes": "GABA synthesis and astrocytic neurotransmitter metabolism supporting inhibitory neurotransmission"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Astrocytic endfoot specialization",
+            "genes": [
+              "AQP4"
+            ],
+            "citations": [
+              {
+                "source_id": "39",
+                "notes": "AQP4 concentrated in astrocytic endfeet adjacent to blood vessels enabling specialized water transport"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dysregulated extracellular ion and osmolarity homeostasis",
+          "Impaired glymphatic clearance of brain metabolites",
+          "Altered astrocyte-neuron metabolic coupling",
+          "Reduced neuroprotective effects of astrocytes on surrounding neurons"
+        ],
+        "evidence_summary": "Astrocytes perform specialized homeostatic functions critical to maintaining appropriate brain microenvironment. The astrocytic endfeet processes in direct contact with blood vessels express high concentrations of aquaporin-4, enabling rapid water transport that maintains osmotic balance and facilitates glymphatic clearance of brain metabolites. Loss of these astrocytic support functions in astrocytoma may contribute to local edema, impaired metabolite clearance, and neuronal dysfunction. The presence of ion and solute transporters indicates that astrocytomas retain some capacity for metabolic support, though dysregulation of these functions likely contributes to pathology.",
+        "significance_score": 0.72,
+        "citations": [
+          {
+            "source_id": "39",
+            "notes": "AQP4 role in astrocytic water transport and glymphatic clearance"
+          },
+          {
+            "source_id": "40",
+            "notes": "GABAergic signaling and astrocytic neurotransmitter metabolism"
+          }
+        ],
+        "supporting_genes": [
+          "SLC24A3",
+          "SLC4A10",
+          "SLC2A13",
+          "GAD1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "GLAST",
+            "GLT-1",
+            "GAT1"
+          ],
+          "citations": [
+            {
+              "source_id": "39",
+              "notes": "Glutamate transporters GLAST and GLT-1 represent critical astrocytic components enabling glutamate uptake for metabolism and recycling"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Tumor Microenvironment Remodeling and Immunomodulation",
+        "description": "Pathological remodeling of tissue microenvironment surrounding astrocytoma cells through inflammatory signaling, complement activation, extracellular matrix breakdown, and recruitment of immunosuppressive cell populations. This program transforms the normal brain microenvironment into a tumor-supportive niche that promotes proliferation and invasion while suppressing anti-tumor immunity.",
+        "atomic_biological_processes": [
+          {
+            "name": "Inflammatory cytokine signaling",
+            "genes": [
+              "TNF"
+            ],
+            "citations": [
+              {
+                "source_id": "48",
+                "notes": "TNF encodes multifunctional proinflammatory cytokine mainly secreted by immune cells"
+              }
+            ]
+          },
+          {
+            "name": "Complement system activation",
+            "genes": [],
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "Tumor mesenchymal stem-like cells secrete C5a, altering tumor microenvironment and promoting tumor progression through complement activation"
+              }
+            ]
+          },
+          {
+            "name": "Extracellular matrix remodeling",
+            "genes": [
+              "MMP16",
+              "COL4A3",
+              "COL4A4",
+              "COL20A1",
+              "VCAN"
+            ],
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "Extracellular matrix breakdown facilitates tumor cell invasion through tissue barriers"
+              }
+            ]
+          },
+          {
+            "name": "Cell adhesion molecule dysregulation in tumor stroma",
+            "genes": [
+              "CNTN1",
+              "CNTN3"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Cell adhesion molecules mediate ECM interactions and are dysregulated in disease states"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Extracellular matrix proteoglycan organization",
+            "genes": [
+              "VCAN",
+              "CSPG5"
+            ],
+            "citations": [
+              {
+                "source_id": "41",
+                "notes": "Proteoglycans including versican contribute to extracellular matrix organization and tumor microenvironment structure"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced tumor cell invasion through matrix degradation",
+          "Immunosuppressive microenvironment limiting anti-tumor immunity",
+          "Recruitment of pro-tumor immune cell populations",
+          "Altered blood-brain barrier function enabling vascular permeability"
+        ],
+        "evidence_summary": "The tumor microenvironment represents a critical determinant of tumor behavior and therapeutic response, with malignant tumors actively remodeling their surrounding tissue to create a supportive niche. Complement system activation through C5a secretion recruits immunosuppressive myeloid populations that promote tumor growth and therapy resistance. Matrix metalloprotease expression enables invasion through basement membranes and white matter tracts, facilitating tumor infiltration. The inflammatory cytokine milieu simultaneously promotes tumor cell proliferation while suppressing adaptive immune responses through recruitment of regulatory T cells and myeloid-derived suppressor cells. In astrocytoma specifically, the microenvironment remodeling program contributes to seizure susceptibility through altered neuronal microenvironment and to therapy resistance through recruitment of immunosuppressive populations.",
+        "significance_score": 0.81,
+        "citations": [
+          {
+            "source_id": "41",
+            "notes": "Comprehensive study of complement-mediated microenvironment remodeling in glioblastoma"
+          },
+          {
+            "source_id": "48",
+            "notes": "TNF role in inflammatory microenvironment establishment"
+          }
+        ],
+        "supporting_genes": [
+          "TNF",
+          "MMP16",
+          "COL4A3",
+          "COL4A4",
+          "COL20A1",
+          "VCAN",
+          "CSPG5",
+          "CNTN1",
+          "CNTN3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "IL-6",
+            "IL-8",
+            "CCL2"
+          ],
+          "citations": [
+            {
+              "source_id": "41",
+              "notes": "Multiple inflammatory cytokines and chemokines constitute complete microenvironment remodeling program beyond those in input list"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Synaptic Plasticity and Calcium-Dependent Signaling",
+        "description": "Molecular mechanisms underlying activity-dependent modification of synaptic strength and connectivity through calcium-dependent signaling cascades. This program encompasses calcium sensor proteins, calcium-responsive kinases, synaptic vesicle proteins, and presynaptic active zone organization enabling translation of calcium signals into changes in neurotransmitter release probability.",
+        "atomic_biological_processes": [
+          {
+            "name": "Calcium-dependent synaptic transmission",
+            "genes": [
+              "RIMS1",
+              "RIMS2",
+              "CASK",
+              "SYT16"
+            ],
+            "citations": [
+              {
+                "source_id": "34",
+                "notes": "CASK calcium/calmodulin-dependent serine protein kinase regulates synaptic function"
+              },
+              {
+                "source_id": "3",
+                "notes": "Synaptic vesicle cycle and signal release pathways involved in synaptic plasticity and homeostasis"
+              }
+            ]
+          },
+          {
+            "name": "Synaptic vesicle organization and release",
+            "genes": [
+              "SYN3",
+              "STXBP5L",
+              "RIMS1",
+              "RIMS2"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "RIMS proteins couple calcium to neurotransmitter release through organization of active zone complexes"
+              }
+            ]
+          },
+          {
+            "name": "Activity-dependent gene expression downstream of calcium",
+            "genes": [
+              "NCALD"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Calcium-dependent signaling regulates modification of post-synaptic structure and dendrite development"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Presynaptic active zone organization",
+            "genes": [
+              "RIMS1",
+              "RIMS2"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Active zone proteins organize synaptic vesicles and coordinate calcium channels with exocytotic machinery"
+              }
+            ]
+          },
+          {
+            "name": "Synaptic vesicle cycle machinery",
+            "genes": [
+              "SYN3",
+              "STXBP5L"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "Synaptic vesicle recycling and availability control through synapsin and STXBP family proteins"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Dysregulated synaptic strength modification through altered calcium sensitivity",
+          "Impaired synaptic plasticity and learning capacity",
+          "Altered neurotransmitter release characteristics and probability",
+          "Dysfunction of activity-dependent developmental refinement processes"
+        ],
+        "evidence_summary": "Synaptic plasticity represents the molecular basis of learning and memory, arising from activity-dependent modification of synaptic strength through calcium-dependent signaling cascades. Calcium influx through voltage-gated channels during neuronal activity triggers multiple signaling pathways controlling both presynaptic release probability and postsynaptic receptor density. RIMS family proteins specifically couple presynaptic calcium influx to neurotransmitter release through organization of active zone architecture bringing synaptic vesicles into proximity with voltage-gated calcium channels. Dysregulation of this calcium signaling program contributes to multiple neurological disorders and likely contributes to astrocytoma-associated seizures through aberrant network plasticity.",
+        "significance_score": 0.79,
+        "citations": [
+          {
+            "source_id": "34",
+            "notes": "CASK-mediated calcium-dependent signaling in synaptic organization"
+          },
+          {
+            "source_id": "3",
+            "notes": "Comprehensive pathway analysis of synaptic plasticity gene dysregulation"
+          }
+        ],
+        "supporting_genes": [
+          "RIMS1",
+          "RIMS2",
+          "CASK",
+          "SYT16",
+          "SYN3",
+          "STXBP5L",
+          "NCALD"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "CAMK2A",
+            "CAMK2B",
+            "CALMODULIN"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "CAMK2B dysregulation in tauopathy; calmodulin-dependent kinases critical for calcium-dependent synaptic plasticity"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Pathway database integration (KEGG, Reactome, Gene Ontology)",
+        "Concurrent appearance in disease-relevant literature",
+        "Protein-protein interaction networks",
+        "Co-expression patterns in brain development and astrocytoma",
+        "Shared biological process participation"
+      ],
+      "notes": "Gene programs derived through systematic analysis of input gene list against published literature on astrocytoma biology, neural development, and astrocyte physiology. Programs identified represent coordinated functional modules where multiple input genes participate in the same biological process or cellular compartment. Programs ranked by significance score reflecting number of supporting genes, citation evidence density, and context-relevance to astrocytoma disease mechanisms. Programs emphasize both normal physiological roles and pathological dysregulation characteristic of astrocytoma."
+    },
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,1437 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-17T21:42:28.386473",
+    "genes": [
+      "TNC",
+      "CD44",
+      "VCL",
+      "SAMD4A",
+      "IGFBP7",
+      "DEC1",
+      "ELL2",
+      "CADPS",
+      "ACTN1",
+      "GBP2",
+      "BCL6",
+      "GLIS3",
+      "EMP1",
+      "SERPINA3",
+      "NAMPT",
+      "TPST1",
+      "GAP43",
+      "NEAT1",
+      "SPOCD1",
+      "GFAP",
+      "MAP3K14",
+      "FN1",
+      "CLIC4",
+      "PDE8B",
+      "MAP1B",
+      "TENM4",
+      "SOD2",
+      "SORBS1",
+      "ANXA2",
+      "VMP1",
+      "PGM2L1",
+      "SERPINE1",
+      "FOSL2",
+      "ZFP36",
+      "WWTR1",
+      "GADD45A",
+      "CCN1",
+      "CNN3",
+      "HAS2",
+      "F3",
+      "RASD1",
+      "PRRX1",
+      "BAALC",
+      "TCIM",
+      "LYST",
+      "RFTN1",
+      "FRMD5",
+      "GBP1",
+      "MAN1C1",
+      "NRP2",
+      "TIMP3",
+      "HRH1",
+      "ZFP36L2",
+      "YBX3",
+      "CCL2",
+      "GLUL",
+      "PFKFB3",
+      "JUNB",
+      "MAPK4",
+      "CDH11",
+      "DCLK1",
+      "SPRED1",
+      "NEDD9",
+      "SAT1",
+      "LPAR1",
+      "LMO2",
+      "ARID5B",
+      "ARHGEF3",
+      "STAT3",
+      "ETV6",
+      "LMCD1",
+      "DTNA",
+      "BTBD11",
+      "ARHGAP29",
+      "GEM",
+      "FOS",
+      "TGFB2",
+      "CLU",
+      "KLF6",
+      "COL4A1",
+      "PALLD",
+      "CAMK2D",
+      "TPM4",
+      "TIPARP",
+      "GADD45B",
+      "UBASH3B",
+      "TRIO",
+      "NAV2",
+      "ITPKB",
+      "PRUNE2",
+      "EGR1",
+      "CLCF1",
+      "IFI16",
+      "MYOF",
+      "DPYD",
+      "ABCC3",
+      "CHI3L1",
+      "NRCAM",
+      "SOCS3",
+      "NIBAN1",
+      "RNF19A",
+      "LINC02821",
+      "COL8A1",
+      "A2M",
+      "NFATC2",
+      "MIR4435-2HG",
+      "ARID5A",
+      "PITPNC1",
+      "NR4A3",
+      "CLIP1",
+      "NOS1AP",
+      "CEBPD",
+      "PLSCR1",
+      "PMP2",
+      "ATF3",
+      "NUDT4",
+      "OSMR",
+      "CNR1",
+      "C1R",
+      "RDH10",
+      "PROS1",
+      "RETREG1",
+      "RPE65",
+      "SLC39A14",
+      "FNDC3B",
+      "ANO6",
+      "TANC1",
+      "IQGAP2",
+      "IL6R",
+      "FOSB",
+      "IL1RAP",
+      "ITPR2",
+      "ADAMTS9",
+      "FBXO32",
+      "ITGAV",
+      "IL1R1",
+      "VIM",
+      "SPARCL1",
+      "SLC44A3",
+      "KLF7",
+      "TGFBR2",
+      "ZNF385D",
+      "ELMOD1",
+      "JUN",
+      "GPR158",
+      "MARCH3",
+      "AC092131.1",
+      "EFEMP1",
+      "EDNRA",
+      "AC092691.1",
+      "P3H2",
+      "CITED1",
+      "C11ORF96",
+      "GALNT2",
+      "RCAN1",
+      "ITPKC",
+      "COL4A2",
+      "GPC6",
+      "C3",
+      "CNTNAP3B",
+      "RDH10-AS1",
+      "ADAM12",
+      "CHL1",
+      "BTG2",
+      "GALNT15",
+      "NFIL3",
+      "MYO1E",
+      "DUSP1",
+      "IFFO2",
+      "PHLDB2",
+      "SCARA3",
+      "CYTOR",
+      "AL596087.2",
+      "BAALC-AS1",
+      "FAM20C",
+      "NNMT",
+      "STK40",
+      "LINC01138",
+      "SULF1",
+      "FMN2",
+      "CFI",
+      "PDPN",
+      "IRS2",
+      "HIF1A",
+      "ID1",
+      "HLA-E",
+      "ITGA3",
+      "DOK5",
+      "PDLIM5",
+      "CXCL2",
+      "MRTFB",
+      "DPYD-AS1",
+      "MFHAS1",
+      "MCL1",
+      "EGR3",
+      "ELOVL5",
+      "LTF",
+      "CRISPLD1",
+      "GFPT2",
+      "LINC00698"
+    ],
+    "context": "Astrocytoma",
+    "validation_status": "valid",
+    "raw_file_reference": "outputs/Astrocytoma_nmf/Cluster_1/20251216_215242/deepsearch.json",
+    "source": "scripts/run_deepsearch.py",
+    "preset": null,
+    "template": null,
+    "custom_prompt_used": false,
+    "provider_override": null,
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "search_recency_override": null,
+    "timeout_seconds": 180,
+    "effective_provider": "offline",
+    "effective_model": "offline",
+    "project": "Astrocytoma_nmf",
+    "query": "Cluster_1",
+    "source_tag": "deepsearch",
+    "resolve_citations": true,
+    "citation_flags": {
+      "validate": true,
+      "scrape": false,
+      "pdf": true,
+      "topic_validation": false
+    }
+  },
+  "structured_data": {
+    "title": "Gene Program Functional Analysis",
+    "description": "Comprehensive literature-based functional analysis of gene lists in specific biological contexts",
+    "type": "object",
+    "version": "1.0",
+    "context": {
+      "cell_type": "Astrocytes and astrocytoma cells",
+      "disease": "Astrocytoma (including IDH-wild-type and IDH-mutant subtypes)",
+      "tissue": "Brain, central nervous system"
+    },
+    "input_genes": [
+      "TNC",
+      "CD44",
+      "VCL",
+      "SAMD4A",
+      "IGFBP7",
+      "DEC1",
+      "ELL2",
+      "CADPS",
+      "ACTN1",
+      "GBP2",
+      "BCL6",
+      "GLIS3",
+      "EMP1",
+      "SERPINA3",
+      "NAMPT",
+      "TPST1",
+      "GAP43",
+      "NEAT1",
+      "SPOCD1",
+      "GFAP",
+      "MAP3K14",
+      "FN1",
+      "CLIC4",
+      "PDE8B",
+      "MAP1B",
+      "TENM4",
+      "SOD2",
+      "SORBS1",
+      "ANXA2",
+      "VMP1",
+      "PGM2L1",
+      "SERPINE1",
+      "FOSL2",
+      "ZFP36",
+      "WWTR1",
+      "GADD45A",
+      "CCN1",
+      "CNN3",
+      "HAS2",
+      "F3",
+      "RASD1",
+      "PRRX1",
+      "BAALC",
+      "TCIM",
+      "LYST",
+      "RFTN1",
+      "FRMD5",
+      "GBP1",
+      "MAN1C1",
+      "NRP2",
+      "TIMP3",
+      "HRH1",
+      "ZFP36L2",
+      "YBX3",
+      "CCL2",
+      "GLUL",
+      "PFKFB3",
+      "JUNB",
+      "MAPK4",
+      "CDH11",
+      "DCLK1",
+      "SPRED1",
+      "NEDD9",
+      "SAT1",
+      "LPAR1",
+      "LMO2",
+      "ARID5B",
+      "ARHGEF3",
+      "STAT3",
+      "ETV6",
+      "LMCD1",
+      "DTNA",
+      "BTBD11",
+      "ARHGAP29",
+      "GEM",
+      "FOS",
+      "TGFB2",
+      "CLU",
+      "KLF6",
+      "COL4A1",
+      "PALLD",
+      "CAMK2D",
+      "TPM4",
+      "TIPARP",
+      "GADD45B",
+      "UBASH3B",
+      "TRIO",
+      "NAV2",
+      "ITPKB",
+      "PRUNE2",
+      "EGR1",
+      "CLCF1",
+      "IFI16",
+      "MYOF",
+      "DPYD",
+      "ABCC3",
+      "CHI3L1",
+      "NRCAM",
+      "SOCS3",
+      "NIBAN1",
+      "RNF19A",
+      "LINC02821",
+      "COL8A1",
+      "A2M",
+      "NFATC2",
+      "MIR4435-2HG",
+      "ARID5A",
+      "PITPNC1",
+      "NR4A3",
+      "CLIP1",
+      "NOS1AP",
+      "CEBPD",
+      "PLSCR1",
+      "PMP2",
+      "ATF3",
+      "NUDT4",
+      "OSMR",
+      "CNR1",
+      "C1R",
+      "RDH10",
+      "PROS1",
+      "RETREG1",
+      "RPE65",
+      "SLC39A14",
+      "FNDC3B",
+      "ANO6",
+      "TANC1",
+      "IQGAP2",
+      "IL6R",
+      "FOSB",
+      "IL1RAP",
+      "ITPR2",
+      "ADAMTS9",
+      "FBXO32",
+      "ITGAV",
+      "IL1R1",
+      "VIM",
+      "SPARCL1",
+      "SLC44A3",
+      "KLF7",
+      "TGFBR2",
+      "ZNF385D",
+      "ELMOD1",
+      "JUN",
+      "GPR158",
+      "MARCH3",
+      "AC092131.1",
+      "EFEMP1",
+      "EDNRA",
+      "AC092691.1",
+      "P3H2",
+      "CITED1",
+      "C11ORF96",
+      "GALNT2",
+      "RCAN1",
+      "ITPKC",
+      "COL4A2",
+      "GPC6",
+      "C3",
+      "CNTNAP3B",
+      "RDH10-AS1",
+      "ADAM12",
+      "CHL1",
+      "BTG2",
+      "GALNT15",
+      "NFIL3",
+      "MYO1E",
+      "DUSP1",
+      "IFFO2",
+      "PHLDB2",
+      "SCARA3",
+      "CYTOR",
+      "AL596087.2",
+      "BAALC-AS1",
+      "FAM20C",
+      "NNMT",
+      "STK40",
+      "LINC01138",
+      "SULF1",
+      "FMN2",
+      "CFI",
+      "PDPN",
+      "IRS2",
+      "HIF1A",
+      "ID1",
+      "HLA-E",
+      "ITGA3",
+      "DOK5",
+      "PDLIM5",
+      "CXCL2",
+      "MRTFB",
+      "DPYD-AS1",
+      "MFHAS1",
+      "MCL1",
+      "EGR3",
+      "ELOVL5",
+      "LTF",
+      "CRISPLD1",
+      "GFPT2",
+      "LINC00698"
+    ],
+    "programs": [
+      {
+        "program_name": "Reactive Astrocyte Phenotype and Identity",
+        "description": "The core molecular program establishing reactive astrocyte identity in astrocytoma through upregulation of intermediate filament proteins, cell surface adhesion molecules, and associated structural proteins. This program marks the transition from quiescent to activated astrocytic state and maintains the fundamental glial lineage commitment while enabling altered cellular interactions and enhanced plasticity toward progenitor-like states.",
+        "atomic_biological_processes": [
+          {
+            "name": "Intermediate filament polymerization and cytoskeletal remodeling",
+            "genes": [
+              "GFAP",
+              "VIM"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "GFAP and VIM are core reactive astrocyte markers, with coordinated upregulation driving cytoskeletal reorganization in reactive astrocytes at 1 year post-TBI"
+              },
+              {
+                "source_id": "8",
+                "notes": "GFAP and VIM upregulation in astrocytes following injury correlates with AP-1 transcription factor activity and early reactive response"
+              },
+              {
+                "source_id": "55",
+                "notes": "Pan-reactive astrocyte subsets express high levels of both GFAP and VIM, indicating coordinated intermediate filament network reorganization"
+              }
+            ]
+          },
+          {
+            "name": "Cell-surface adhesion and hyaluronic acid binding",
+            "genes": [
+              "CD44"
+            ],
+            "citations": [
+              {
+                "source_id": "13",
+                "notes": "CD44 expression correlates with cancer stem cell traits including self-renewal, EMT capacity, and chemotherapy resistance in tumor cells"
+              },
+              {
+                "source_id": "16",
+                "notes": "CD44 is highly expressed in reactive astrocytes and serves as a marker of neural progenitor phenotype"
+              },
+              {
+                "source_id": "55",
+                "notes": "CD44 is a key pan-reactive astrocyte marker, prominently expressed in chronic reactive states"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Intermediate filament network",
+            "genes": [
+              "GFAP",
+              "VIM"
+            ],
+            "citations": [
+              {
+                "source_id": "1",
+                "notes": "GFAP protein expression is altered in astrocytomas with grade-dependent changes"
+              },
+              {
+                "source_id": "6",
+                "notes": "Vimentin intermediate filaments interact with GFAP in reactive astrocytes during neurotrauma"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced cytoskeletal plasticity and mechanical flexibility enabling cell migration and morphological changes",
+          "Altered cell-cell and cell-ECM interactions through CD44-mediated adhesion",
+          "Maintained astrocytic lineage commitment with enhanced progenitor-like plasticity",
+          "Enhanced responsiveness to mechanical and inflammatory signals through remodeled cytoskeleton"
+        ],
+        "evidence_summary": "The reactive astrocyte phenotype program represents the fundamental transcriptomic and proteome reorganization that defines the astrocytoma cell state. GFAP and VIM coordinate cytoskeletal remodeling that enables the cellular flexibility required for tumor cell migration and invasion, while CD44 serves as a multi-functional cell surface molecule supporting both adhesion and growth factor receptor signaling. The coordinated upregulation of these three markers, extensively documented across multiple astrocytoma studies and reactive astrocyte models, collectively define the core identity of tumor-associated astrocytes. This program is particularly significant in the perivascular and infiltrative regions where tumor-astrocyte interactions are most pronounced.",
+        "significance_score": 0.95,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "Comprehensive RNA-seq analysis of astrocyte transcriptome at 1 year after TBI demonstrates sustained upregulation of GFAP, VIM, and CD44 in reactive astrocytes"
+          },
+          {
+            "source_id": "8",
+            "notes": "Single-cell analysis of injury-responsive enhancers reveals coordinated AP-1-driven activation of GFAP, VIM, and related genes in astrocytes"
+          },
+          {
+            "source_id": "55",
+            "notes": "Astrocyte activation persists one year after TBI with key pan-reactive markers including GFAP, CD44, and VIM prominently expressed"
+          }
+        ],
+        "supporting_genes": [
+          "GFAP",
+          "VIM",
+          "CD44"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "SOX9",
+            "SOX2",
+            "NES"
+          ],
+          "citations": [
+            {
+              "source_id": "8",
+              "notes": "SOX9 recruits AP-1 transcription factors to drive reactive astrocyte programs; SOX2 marks neural progenitor states in astrocytes"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "STAT3-IL6 Inflammatory Signaling Axis",
+        "description": "The central hub of astrocytoma inflammatory signaling integrating response to multiple pro-inflammatory cytokines through the STAT3-IL6 signaling pathway. This program drives autocrine survival signaling in tumor cells while simultaneously mediating paracrine immune recruitment and the establishment of an immunosuppressive tumor microenvironment. The STAT3-IL6 axis represents one of the most therapeutically relevant programs due to its roles in both cell-autonomous tumor progression and immune evasion.",
+        "atomic_biological_processes": [
+          {
+            "name": "STAT3 phosphorylation and transcriptional activation",
+            "genes": [
+              "STAT3",
+              "IL6",
+              "IL6R",
+              "IL1B",
+              "IL1R1",
+              "TNF"
+            ],
+            "citations": [
+              {
+                "source_id": "2",
+                "notes": "PIAS3 modulates STAT3 signaling in response to parvovirus B19 NS1 protein, suggesting STAT3 regulation in viral and inflammatory contexts"
+              },
+              {
+                "source_id": "4",
+                "notes": "STAT3 activation in astrocytomas correlates with tumor progression; SOCS1 regulates STAT3 pathway"
+              },
+              {
+                "source_id": "10",
+                "notes": "Astrocytic DLL4-NOTCH1 signaling promotes neuroinflammation via IL-6-STAT3 axis"
+              },
+              {
+                "source_id": "22",
+                "notes": "IL6 activates JAK-STAT3 signaling in mesenchymal stem cells promoting invasion and metastasis"
+              },
+              {
+                "source_id": "36",
+                "notes": "IGFBP7 interacts with STAT3 promoting its acetylation/dimerization in kidney disease models"
+              }
+            ]
+          },
+          {
+            "name": "Chemokine-mediated immune cell recruitment",
+            "genes": [
+              "CCL2",
+              "CXCL2",
+              "CCL2"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "CCL2 and immune interaction genes upregulated in reactive astrocytes; correlates with AP-1 and STAT3 motif activity"
+              },
+              {
+                "source_id": "3",
+                "notes": "CCL2 and CXCL10 upregulated in astrocytes following injury, driving immune cell recruitment and neuroinflammation"
+              },
+              {
+                "source_id": "32",
+                "notes": "Resident stroma-secreted chemokine CCL2 governs myeloid-derived suppressor cell recruitment"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "IL6-STAT3 signaling complex",
+            "genes": [
+              "STAT3",
+              "IL6",
+              "IL6R",
+              "IL1R1"
+            ],
+            "citations": [
+              {
+                "source_id": "51",
+                "notes": "STAT5B expression correlates with astrocytoma tumor grade, indicating importance of STAT family signaling"
+              },
+              {
+                "source_id": "22",
+                "notes": "IL-6 and IL-1β regulate STAT3 signaling through JAK activation"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced tumor cell survival through STAT3-mediated upregulation of anti-apoptotic proteins",
+          "Increased proliferation through IL6R-mediated MAPK and PI3K activation",
+          "Recruitment of pro-tumor immune populations including macrophages and MDSCs",
+          "Establishment of immunosuppressive microenvironment limiting anti-tumor immunity",
+          "Suppression of astrocyte differentiation programs through STAT3-mediated blockade of differentiation factors"
+        ],
+        "evidence_summary": "The STAT3-IL6 axis represents a central node in astrocytoma pathogenesis, driving both cell-autonomous survival signals and paracrine immune suppression. IL6 signals through membrane-bound IL6R and soluble IL6R to activate STAT3, which translocates to the nucleus and drives transcription of survival genes. Multiple pro-inflammatory cytokines including IL1B and TNF converge on STAT3 activation through JAK kinases. The coordinated expression of chemokines CCL2 and CXCL2 recruitment immune populations that further amplify inflammatory signaling through paracrine IL6 production. This program represents a major therapeutic target, as STAT3 inhibitors show promise in preclinical astrocytoma models.",
+        "significance_score": 0.98,
+        "citations": [
+          {
+            "source_id": "8",
+            "notes": "Reactive astrocyte markers including STAT3 remain elevated in later phases post-injury, indicating chronic STAT3 activation"
+          },
+          {
+            "source_id": "3",
+            "notes": "STAT3 significantly upregulated alongside inflammatory mediators in chronic TBI-induced astrocyte activation"
+          },
+          {
+            "source_id": "55",
+            "notes": "Genes associated with neuroinflammation including STAT3 and TNF prominently upregulated in reactive astrocytes"
+          }
+        ],
+        "supporting_genes": [
+          "STAT3",
+          "IL6",
+          "IL6R",
+          "IL1B",
+          "IL1R1",
+          "TNF",
+          "CCL2",
+          "CXCL2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "JAK2",
+            "JAK3",
+            "PIAS1",
+            "SOCS3"
+          ],
+          "citations": [
+            {
+              "source_id": "2",
+              "notes": "PIAS3 protein inhibitor of STAT3 regulates STAT3 signaling"
+            },
+            {
+              "source_id": "4",
+              "notes": "SOCS1 suppressor of cytokine signaling regulates STAT3 pathway"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Extracellular Matrix Remodeling and Integrin-Mediated Signaling",
+        "description": "Coordinated program driving extracellular matrix deposition, remodeling, and degradation while establishing mechanotransduction signaling through integrin-mediated pathways. This program enables both tumor cell infiltration into surrounding brain tissue and the establishment of a mechanically supportive microenvironment that reinforces tumor cell survival, proliferation, and stemness through integrin-ECM interactions.",
+        "atomic_biological_processes": [
+          {
+            "name": "Fibronectin-mediated ECM deposition and integrin signaling",
+            "genes": [
+              "FN1",
+              "ITGAV",
+              "ITGA3",
+              "ACTN1",
+              "VCL"
+            ],
+            "citations": [
+              {
+                "source_id": "36",
+                "notes": "Fibronectin activates integrin signaling; IGFBP7 interaction with STAT3 demonstrates cross-talk between ECM and inflammatory signaling"
+              },
+              {
+                "source_id": "52",
+                "notes": "VEGFA and ITGAV regulate tumor cell proliferation in glioblastoma"
+              },
+              {
+                "source_id": "62",
+                "notes": "Fibronectin activates integrin signaling with ITGAV functioning as key receptor in injury and repair contexts"
+              },
+              {
+                "source_id": "49",
+                "notes": "Pericyte-expressed GAS6 reinforces pro-tumor macrophage polarization in glioma microenvironment; pericyte loss alters ECM composition"
+              }
+            ]
+          },
+          {
+            "name": "Collagen-mediated basement membrane function",
+            "genes": [
+              "COL4A1",
+              "COL4A2",
+              "COL8A1"
+            ],
+            "citations": [
+              {
+                "source_id": "49",
+                "notes": "Type IV collagen maintains tumor vasculature integrity and provides integrin signaling cues in glioma microenvironment"
+              }
+            ]
+          },
+          {
+            "name": "Focal adhesion assembly and mechanotransduction",
+            "genes": [
+              "ACTN1",
+              "VCL",
+              "NEDD9",
+              "SORBS1"
+            ],
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "ACTN1 mutations affect cytoskeletal association and F-actin colocalization in focal adhesions"
+              },
+              {
+                "source_id": "15",
+                "notes": "ACTN4 and ZYX regulate focal adhesion formation and maturation"
+              }
+            ]
+          },
+          {
+            "name": "Matrix metalloproteinase regulation and ECM proteolysis",
+            "genes": [
+              "TIMP3",
+              "SERPINE1"
+            ],
+            "citations": [
+              {
+                "source_id": "64",
+                "notes": "SERPINE1 (PAI-1) regulates plasminogen activation and ECM remodeling"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Focal adhesion complexes",
+            "genes": [
+              "ACTN1",
+              "VCL",
+              "NEDD9"
+            ],
+            "citations": [
+              {
+                "source_id": "12",
+                "notes": "Focal adhesion proteins including actinin mediate integrin-actin coupling"
+              }
+            ]
+          },
+          {
+            "name": "Integrin-ligand complexes",
+            "genes": [
+              "ITGAV",
+              "ITGA3",
+              "FN1",
+              "COL4A1"
+            ],
+            "citations": [
+              {
+                "source_id": "36",
+                "notes": "Integrins bind ECM ligands including fibronectin and collagen to transduce mechanical signals"
+              },
+              {
+                "source_id": "62",
+                "notes": "ITGAV integrin engagement with fibronectin activates downstream signaling in macrophages and other cell types"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced integrin-FAK signaling promoting survival and proliferation through PI3K/AKT and MAPK pathways",
+          "Increased tumor cell migration through focal adhesion remodeling and increased ECM proteolysis",
+          "Maintenance of cancer stem cell phenotypes through mechanotransduction",
+          "Support for tumor vascularization and immune cell infiltration through ECM remodeling",
+          "Establishment of diffuse infiltrative growth pattern through coordinated ECM deposition along perivascular routes"
+        ],
+        "evidence_summary": "The ECM remodeling program establishes the structural scaffold within which astrocytomas grow and infiltrate surrounding brain tissue. Fibronectin serves as both a structural component and a signaling molecule that activates integrins (particularly ITGAV and ITGA3), which in turn engage focal adhesion proteins including ACTN1 and VCL. This integrin-ECM axis activates survival signaling through FAK and src family kinases that converge on PI3K/AKT and MAPK pathways. Type IV collagens maintain basement membrane integrity while providing additional integrin signaling cues. The balance between ECM deposition (driven by FN1 and COL genes) and ECM proteolysis (mediated by MMPs and regulated by TIMP3 and SERPINE1) determines the rate and degree of tumor infiltration. Multiple genes in this program are coordinately upregulated in astrocytomas with higher invasive potential.",
+        "significance_score": 0.92,
+        "citations": [
+          {
+            "source_id": "49",
+            "notes": "Comprehensive characterization of pericyte-vascular interactions in glioma demonstrates role of ECM in tumor progression and immune recruitment"
+          },
+          {
+            "source_id": "36",
+            "notes": "ECM and integrin signaling regulate multiple aspects of tumor biology including differentiation and immune evasion"
+          },
+          {
+            "source_id": "62",
+            "notes": "Fibronectin-integrin signaling in macrophages demonstrates broader role of ECM signaling in tumor microenvironment"
+          }
+        ],
+        "supporting_genes": [
+          "FN1",
+          "COL4A1",
+          "COL4A2",
+          "COL8A1",
+          "ITGAV",
+          "ITGA3",
+          "ACTN1",
+          "VCL",
+          "NEDD9",
+          "SORBS1",
+          "TIMP3",
+          "SERPINE1"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "FAK",
+            "SRC",
+            "PIK3CA",
+            "AKT1"
+          ],
+          "citations": [
+            {
+              "source_id": "36",
+              "notes": "Integrin signaling activates FAK and PI3K/AKT pathways downstream"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "AP-1 Transcription Factor-Driven Stress Response",
+        "description": "The immediate early transcriptional response program orchestrated by AP-1 family members (JUN, JUNB, FOSL2, FOS, FOSB) and stress-responsive factors (ATF3, CEBPD, NR4A3) that rapidly reprogram gene expression following cellular stress, inflammatory stimuli, or growth factor signaling. This program enables astrocytoma cells to rapidly adapt to environmental changes and coordinates both cytoprotective responses and pro-proliferative signals.",
+        "atomic_biological_processes": [
+          {
+            "name": "AP-1 complex assembly and DNA binding",
+            "genes": [
+              "JUN",
+              "JUNB",
+              "FOS",
+              "FOSB",
+              "FOSL2"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "Early response genes JUNB, FOSL2, and ATF3 are particularly prominent in astrocytes post-injury; AP-1 motif usage increases early after injury in astrocytes"
+              },
+              {
+                "source_id": "18",
+                "notes": "EGR1 regulates inflammatory responses including ATF3 and JUN in myocardial injury models"
+              },
+              {
+                "source_id": "21",
+                "notes": "ATF3 expression marks cellular injury/stress response in sensory neurons"
+              }
+            ]
+          },
+          {
+            "name": "ATF/CEBP-mediated stress transcription",
+            "genes": [
+              "ATF3",
+              "CEBPD"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "CEBPD motif enrichment in astrocyte injury-responsive enhancers; ATF3 shows early and sustained induction post-injury"
+              }
+            ]
+          },
+          {
+            "name": "Early growth response gene activation",
+            "genes": [
+              "EGR1",
+              "EGR3",
+              "NR4A3"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "EGR1 and KLF6 linked to reactive astrocyte response; multiple early growth response genes upregulated in injury"
+              },
+              {
+                "source_id": "3",
+                "notes": "EGR1 significantly upregulated as early response gene in reactive astrocytes at 2 days post-TBI"
+              },
+              {
+                "source_id": "55",
+                "notes": "EGR1 prominently expressed in acute astrocyte reactivity phase"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "AP-1 transcription factor complex",
+            "genes": [
+              "JUN",
+              "JUNB",
+              "FOS",
+              "FOSB",
+              "FOSL2"
+            ],
+            "citations": [
+              {
+                "source_id": "8",
+                "notes": "AP-1 transcription factors recruit lineage-specific factors including SOX9 to regulate astrocyte-specific target genes"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Rapid upregulation of inflammatory cytokines and chemokines through AP-1 driven transcription",
+          "Enhanced metabolic gene expression supporting increased biosynthesis and ATP production",
+          "Upregulation of heat shock proteins and autophagy factors enabling stress adaptation",
+          "Increased expression of growth factor receptors and signaling proteins supporting proliferation",
+          "Transcriptional coordination of both pro-survival and pro-apoptotic programs enabling contextual survival decisions"
+        ],
+        "evidence_summary": "The AP-1-driven transcriptional response program represents the immediate early transcriptional reorganization that occurs following cellular stress, inflammatory stimuli, or growth factor signaling. JUN, JUNB, FOS, FOSB, and FOSL2 heterodimerize to form AP-1 complexes that bind to TPA response elements (TREs) within target gene promoters to drive transcriptional activation. ATF3 and CEBPD function as additional stress-responsive transcription factors that either enhance or antagonize AP-1-mediated transcription depending on their dimerization partner. The coordinated induction of these transcription factors within minutes to hours of cellular stress enables rapid metabolic and transcriptional reorganization. In astrocytoma, constitutive or readily inducible AP-1 activity drives the sustained expression of inflammatory cytokines, chemokines, and pro-survival proteins that collectively maintain the tumor-promoting inflammatory microenvironment. Recent evidence demonstrates that AP-1 factors cooperate with lineage-specific transcription factors such as SOX9 to regulate astrocyte-specific target genes, suggesting tight coupling between cell-type identity and stress response programs.",
+        "significance_score": 0.96,
+        "citations": [
+          {
+            "source_id": "8",
+            "notes": "Comprehensive analysis of injury-responsive enhancers reveals AP-1 dominance in commissioning astrocyte-specific transcriptional responses"
+          },
+          {
+            "source_id": "3",
+            "notes": "JUNB, FOSL2, ATF3, and EGR1 are prominently upregulated in reactive astrocytes correlating with AP-1 pathway activation"
+          },
+          {
+            "source_id": "55",
+            "notes": "AP-1 family members and EGR1 show coordinated upregulation in acute astrocyte reactivity response"
+          }
+        ],
+        "supporting_genes": [
+          "JUN",
+          "JUNB",
+          "FOS",
+          "FOSB",
+          "FOSL2",
+          "ATF3",
+          "CEBPD",
+          "EGR1",
+          "EGR3",
+          "NR4A3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MAPK1",
+            "MAPK3",
+            "MAPK14",
+            "SOX9"
+          ],
+          "citations": [
+            {
+              "source_id": "8",
+              "notes": "MAPK pathway drives AP-1 activation; SOX9 cooperates with AP-1 to regulate astrocyte-specific targets"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Metabolic Reprogramming and Glycolytic Enhancement",
+        "description": "Coordinated program driving metabolic shift toward enhanced glycolysis, altered mitochondrial function, and dysregulated energy homeostasis that collectively optimize astrocytoma cells for rapid proliferation under both normoxic and hypoxic conditions. This program includes HIF1A-driven glycolytic gene expression, NAD biosynthesis enhancement through NAMPT, and mitochondrial ROS buffering through SOD2.",
+        "atomic_biological_processes": [
+          {
+            "name": "HIF1A-driven glycolytic gene expression",
+            "genes": [
+              "HIF1A",
+              "PFKFB3"
+            ],
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "VEGFA and HIF1A regulate metabolic reprogramming in glioblastoma supporting differentiation of myeloid-derived suppressor cells"
+              }
+            ]
+          },
+          {
+            "name": "NAD biosynthesis and salvage pathway activation",
+            "genes": [
+              "NAMPT"
+            ],
+            "citations": [
+              {
+                "source_id": "28",
+                "notes": "NAMPT, the rate-limiting enzyme of NAD biosynthesis, increases tumorigenic properties and induces colon cancer stem cell-like characteristics"
+              }
+            ]
+          },
+          {
+            "name": "Mitochondrial reactive oxygen species buffering",
+            "genes": [
+              "SOD2"
+            ],
+            "citations": [
+              {
+                "source_id": "27",
+                "notes": "SOD2 and Sirt3 regulate mitochondrial ROS, playing important role in cellular differentiation programs"
+              },
+              {
+                "source_id": "56",
+                "notes": "SOD2 expression regulation by IGFBP7 and related factors influences mitochondrial function and senescence"
+              }
+            ]
+          },
+          {
+            "name": "Mitochondrial dysfunction and senescence linkage",
+            "genes": [
+              "SOD2",
+              "ITPR2",
+              "CAMK2D"
+            ],
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "Mitochondrial dysfunction characterized by decreased membrane potential, elevated ROS, and impaired ATP generation contributes to senescence and aging"
+              },
+              {
+                "source_id": "71",
+                "notes": "ITPR2 and calcium-mediated mitochondrial dysfunction promote cellular senescence"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Glycolytic enzyme complexes",
+            "genes": [
+              "PFKFB3"
+            ],
+            "citations": [
+              {
+                "source_id": "52",
+                "notes": "PFKFB3 regulates glycolytic flux in tumor cells"
+              }
+            ]
+          },
+          {
+            "name": "Mitochondrial matrix and ROS handling",
+            "genes": [
+              "SOD2",
+              "ITPR2"
+            ],
+            "citations": [
+              {
+                "source_id": "71",
+                "notes": "Mitochondrial calcium accumulation through ITPR2 reduces membrane potential and increases ROS production"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Enhanced glycolytic ATP production supporting rapid proliferation and biosynthesis",
+          "Reduced mitochondrial oxidative phosphorylation and ROS production through HIF1A-mediated metabolic shift",
+          "Elevated NAD availability supporting NAD+-dependent metabolism and stress responses",
+          "Maintained mitochondrial ROS buffering through SOD2 preventing excessive oxidative stress while preserving ROS signaling",
+          "Lactate accumulation and extracellular acidification creating immunosuppressive microenvironment"
+        ],
+        "evidence_summary": "The metabolic reprogramming program represents a fundamental reorganization of astrocytoma cell energy metabolism optimized for rapid proliferation and survival under nutrient-limited and hypoxic conditions. HIF1A, the master regulator of hypoxic responses, drives glycolytic gene expression including PFKFB3, which catalyzes the production of fructose-2,6-bisphosphate, a potent glycolytic activator. Elevated PFKFB3 activity directly increases glycolytic flux and lactate production, both supporting tumor growth and creating an acidic microenvironment that suppresses anti-tumor immunity. NAMPT expression is elevated in astrocytomas, suggesting enhanced NAD biosynthesis that supports NAD+-dependent processes including sirtuin-mediated deacetylation and poly-ADP-ribose polymerase (PARP)-mediated stress responses. SOD2-mediated mitochondrial ROS buffering protects tumor cells from oxidative stress while maintaining ROS signaling through hydrogen peroxide that activates multiple protein tyrosine kinases. The coordinated expression of these metabolic genes creates a metabolic state optimized for both the high biosynthetic demands of rapid proliferation and the acquisition of stress resistance phenotypes characteristic of therapeutic-resistant tumors.",
+        "significance_score": 0.88,
+        "citations": [
+          {
+            "source_id": "52",
+            "notes": "VEGFA and metabolic regulators control glioblastoma tumor properties and immune cell recruitment"
+          },
+          {
+            "source_id": "28",
+            "notes": "NAMPT promotes tumorigenic properties and stem cell-like characteristics in cancer cells"
+          },
+          {
+            "source_id": "56",
+            "notes": "Metabolic changes including mitochondrial dysfunction drive cellular senescence and link to aging"
+          }
+        ],
+        "supporting_genes": [
+          "HIF1A",
+          "PFKFB3",
+          "NAMPT",
+          "SOD2",
+          "ITPR2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "LDHA",
+            "PDK1",
+            "CA9"
+          ],
+          "citations": [
+            {
+              "source_id": "52",
+              "notes": "HIF1A drives expression of multiple glycolytic and lactate metabolism genes supporting Warburg effect"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Neurodegeneration-Associated Pathways and Chronic Astrocyte Dysfunction",
+        "description": "Program encompassing genes shared between chronic astrocytoma and age-related neurodegenerative diseases including Alzheimer disease and Parkinson disease, characterized by impaired autophagy, protein aggregation, mitochondrial dysfunction, and disrupted ion homeostasis. This program reveals unexpected convergence between tumor biology and neurodegeneration, suggesting shared cellular dysfunction mechanisms.",
+        "atomic_biological_processes": [
+          {
+            "name": "Potassium channel dysfunction and ion homeostasis impairment",
+            "genes": [
+              "KCNJ10"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "KCNJ10 downregulation shared between chronic TBI and astrocytoma; impairs spatial buffering of extracellular potassium"
+              },
+              {
+                "source_id": "55",
+                "notes": "KCNJ10 is among commonly dysregulated genes in chronic astrocyte dysfunction shared with neurodegenerative diseases"
+              }
+            ]
+          },
+          {
+            "name": "Lipid metabolism and apolipoprotein signaling",
+            "genes": [
+              "APOE"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "APOE upregulated alongside other pan-reactive astrocyte markers in chronic TBI and potentially in astrocytoma"
+              },
+              {
+                "source_id": "55",
+                "notes": "APOE prominently expressed in chronic reactive astrocytes; APOE ε4 allele confers enhanced risk for Alzheimer disease"
+              }
+            ]
+          },
+          {
+            "name": "Microtubule dynamics and tau pathology association",
+            "genes": [
+              "MAP1B"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "MAP1B altered expression in chronic astrocytoma mirrors changes in Alzheimer disease and Parkinson disease"
+              },
+              {
+                "source_id": "55",
+                "notes": "MAP1B shares regulatory elements with genes upregulated in chronic neurodegeneration"
+              }
+            ]
+          },
+          {
+            "name": "BDNF signaling and neuroprotection",
+            "genes": [
+              "NTRK2"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "NTRK2 is among shared genes between chronic TBI astrocytes and neurodegenerative disease states"
+              },
+              {
+                "source_id": "48",
+                "notes": "NTRK2 alterations in astrocytoma including TRIM24-NTRK2 fusion gene demonstrate functional importance"
+              },
+              {
+                "source_id": "55",
+                "notes": "NTRK2 expression in chronic astrocytes supports neurons but may be dysregulated in tumor context"
+              }
+            ]
+          },
+          {
+            "name": "Proteostasis and chaperone dysfunction",
+            "genes": [
+              "SERPINA3"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "SERPINA3 upregulated in both chronic TBI and astrocytoma; regulates protease activity and neuroinflammation"
+              },
+              {
+                "source_id": "55",
+                "notes": "SERPINA3 is key pan-reactive astrocyte marker elevated in chronic states, suggesting proteostasis dysfunction"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Potassium channel complex",
+            "genes": [
+              "KCNJ10"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "KCNJ10 channel dysfunction impairs astrocyte ion buffering capacity"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Impaired extracellular potassium buffering leading to elevated extracellular K+ and neuronal hyperexcitability",
+          "Enhanced neuroinflammation through APOE dysregulation and lipid metabolism alterations",
+          "Disrupted neuronal-glial interactions through reduced NTRK2-mediated BDNF signaling",
+          "Accumulated protein aggregates and impaired proteostasis through SERPINA3 dysregulation",
+          "Potential contribution to neuronal dysfunction within tumor microenvironment despite tumor cell survival"
+        ],
+        "evidence_summary": "The neurodegeneration-associated program reveals an unexpected convergence between chronic astrocytoma and age-related neurodegenerative diseases, with substantial overlap in dysregulated genes including KCNJ10, APOE, MAP1B, NTRK2, and SERPINA3. This convergence suggests that chronic inflammation and cellular stress in astrocytoma create a brain microenvironment that simultaneously supports tumor cell survival while generating neuronal dysfunction phenotypes characteristic of neurodegeneration. KCNJ10 downregulation impairs the astrocytic buffering of extracellular potassium, leading to elevated extracellular K+ that increases neuronal excitability and may contribute to seizures or progressive neurological decline in astrocytoma patients. APOE dysregulation alters lipid metabolism and neuroinflammatory signaling, effects particularly important in the context of the APOE ε4 allele, which confers enhanced risk for both Alzheimer disease and potentially altered astrocytoma biology. MAP1B alterations suggest disrupted microtubule dynamics that may contribute to both astrocyte morphological changes and neuronal dysfunction. NTRK2 dysregulation reduces BDNF signaling, impairing the normal neuroprotective functions of astrocytes. SERPINA3 elevation suggests proteostasis dysfunction and potentially impaired clearance of protein aggregates. This program represents a critical aspect of astrocytoma pathogenesis often overlooked in traditional tumor biology approaches but highly relevant to understanding the long-term neurological consequences of astrocytoma in survivors.",
+        "significance_score": 0.82,
+        "citations": [
+          {
+            "source_id": "3",
+            "notes": "Substantial overlap in molecular signature of chronic TBI astrocytes with Alzheimer disease and Parkinson disease"
+          },
+          {
+            "source_id": "55",
+            "notes": "Key pan-reactive astrocyte markers including APOE, KCNJ10, and SERPINA3 overlap with neurodegenerative disease signatures"
+          },
+          {
+            "source_id": "59",
+            "notes": "Senescence markers in CNS including astrocyte senescence contribute to neurodegeneration in aging and Alzheimer disease"
+          }
+        ],
+        "supporting_genes": [
+          "KCNJ10",
+          "APOE",
+          "MAP1B",
+          "NTRK2",
+          "SERPINA3"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "MAPT",
+            "SNCA",
+            "APP"
+          ],
+          "citations": [
+            {
+              "source_id": "3",
+              "notes": "MAPT and other Alzheimer/Parkinson disease genes show regulatory overlap with chronic astrocyte dysfunction genes"
+            }
+          ]
+        }
+      },
+      {
+        "program_name": "Cellular Senescence and Senescence-Associated Secretory Phenotype",
+        "description": "Program encompassing genes regulating cell cycle arrest, senescence-associated secretory phenotype (SASP) production, and mitochondrial dysfunction-driven senescence. This program reflects the paradoxical presence of senescent cells within astrocytomas that both limit tumor progression through growth arrest and paracrine inhibition while simultaneously driving pro-tumor inflammation through SASP cytokine production.",
+        "atomic_biological_processes": [
+          {
+            "name": "p53-mediated DNA damage response and cell cycle arrest",
+            "genes": [
+              "GADD45A",
+              "GADD45B",
+              "ATF3"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "GADD45A and ATF3 upregulated indicating ongoing DNA damage responses in chronic astrocytes"
+              },
+              {
+                "source_id": "55",
+                "notes": "GADD45A prominently expressed in astrocyte reactivity suggesting DNA damage checkpoints"
+              }
+            ]
+          },
+          {
+            "name": "Mitochondrial calcium handling and senescence",
+            "genes": [
+              "ITPR2",
+              "CAMK2D"
+            ],
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "ITPR2-mediated calcium release and mitochondrial calcium accumulation reduce membrane potential and promote senescence"
+              },
+              {
+                "source_id": "71",
+                "notes": "ITPR2 calcium channel regulates mitochondria-ER contacts that drive senescence induction"
+              },
+              {
+                "source_id": "72",
+                "notes": "CAMK2D activates NF-κB-mediated inflammatory responses including SASP production in senescent cells"
+              }
+            ]
+          },
+          {
+            "name": "SASP cytokine and chemokine production",
+            "genes": [
+              "TNF",
+              "IL1B",
+              "CCL2",
+              "IL6"
+            ],
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "TNF, IL-1β, and IL-6 are SASP factors produced by senescent cells that drive paracrine tumor-promoting inflammation"
+              }
+            ]
+          },
+          {
+            "name": "Chromatin remodeling and transcriptional dysregulation",
+            "genes": [
+              "ARID5A",
+              "ARID5B"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "ARID5 family proteins involved in chromatin accessibility changes associated with senescence and inflammation"
+              }
+            ]
+          },
+          {
+            "name": "Tumor suppressor function and differentiation inhibition",
+            "genes": [
+              "BTG2"
+            ],
+            "citations": [
+              {
+                "source_id": "3",
+                "notes": "BTG2 upregulation indicates differentiation-driving signals or stress responses"
+              }
+            ]
+          }
+        ],
+        "atomic_cellular_components": [
+          {
+            "name": "Mitochondrial permeability transition pore",
+            "genes": [
+              "ITPR2"
+            ],
+            "citations": [
+              {
+                "source_id": "56",
+                "notes": "mPTP opening through calcium accumulation represents key mechanism of senescence-associated mitochondrial dysfunction"
+              }
+            ]
+          },
+          {
+            "name": "ER-mitochondria contact sites (MERCS)",
+            "genes": [
+              "ITPR2"
+            ],
+            "citations": [
+              {
+                "source_id": "71",
+                "notes": "MERCS mediate calcium handling and calcium accumulation driving senescence"
+              }
+            ]
+          }
+        ],
+        "predicted_cellular_impact": [
+          "Cell cycle arrest through p53/p21 or Rb/p16 checkpoints limiting proliferation",
+          "Elevated ROS production through mitochondrial calcium accumulation and membrane potential loss",
+          "Production of pro-inflammatory SASP factors including TNF, IL-1β, IL-6, and chemokines",
+          "Paracrine tumor promotion through SASP-mediated immune recruitment and vascular remodeling",
+          "Impaired differentiation responses through coordinated action of tumor suppressors and stress-responsive transcription factors"
+        ],
+        "evidence_summary": "The cellular senescence program represents an important and often overlooked aspect of astrocytoma biology, wherein senescent cells accumulate within tumors and simultaneously limit and promote tumor progression through paradoxical effects. Cell cycle arrest through GADD45A/B-mediated p53 activation or through tumor suppressor pathways limits the proliferation of individual senescent cells, potentially providing a growth-restricting influence on tumors. However, senescent cells produce a potent SASP composed of TNF, IL-1β, IL-6, CCL2, and other pro-inflammatory mediators that collectively promote tumor progression through paracrine effects on neighboring tumor cells and immune populations. The initiation of senescence in astrocytoma involves both canonical DNA damage checkpoints (through GADD45 induction) and non-canonical triggers including mitochondrial dysfunction, with ITPR2-mediated calcium handling playing a central role in senescence induction. ITPR2 function at mitochondria-ER contact sites (MERCS) regulates calcium movement into mitochondria through the mitochondrial calcium uniporter (MCU), and excessive calcium accumulation reduces mitochondrial membrane potential and increases ROS production, thereby triggering senescence. CAMK2D-mediated phosphorylation of signaling proteins downstream of calcium signaling further activates NF-κB and promotes SASP factor production. The presence of senescent cells within astrocytomas likely reflects the balance between growth-restricting differentiation signals and growth-promoting inflammatory signals, with the net effect on tumor progression determined by the specific SASP cytokine profile and the responsiveness of tumor cells to SASP factors.",
+        "significance_score": 0.85,
+        "citations": [
+          {
+            "source_id": "56",
+            "notes": "Comprehensive review of mitochondrial dysfunction in cellular senescence demonstrating role of calcium, ROS, and SASP in senescence induction and maintenance"
+          },
+          {
+            "source_id": "59",
+            "notes": "Cellular senescence in CNS contributes to aging and Alzheimer disease through SASP production and impaired proteostasis"
+          },
+          {
+            "source_id": "71",
+            "notes": "ITPR2 and MERCS regulate senescence through calcium-mediated mitochondrial dysfunction"
+          }
+        ],
+        "supporting_genes": [
+          "GADD45A",
+          "GADD45B",
+          "ATF3",
+          "ITPR2",
+          "CAMK2D",
+          "TNF",
+          "IL1B",
+          "CCL2",
+          "IL6",
+          "ARID5A",
+          "ARID5B",
+          "BTG2"
+        ],
+        "required_genes_not_in_input": {
+          "genes": [
+            "TP53",
+            "RB1",
+            "p16",
+            "p21"
+          ],
+          "citations": [
+            {
+              "source_id": "56",
+              "notes": "p53-p21 and p16-Rb pathways coordinate cell cycle arrest in senescence"
+            }
+          ]
+        }
+      }
+    ],
+    "method": {
+      "clustering_basis": [
+        "Pathway database analysis (KEGG, Reactome, Biocarta)",
+        "Co-citation analysis from astrocytoma and reactive astrocyte literature",
+        "Functional clustering based on Gene Ontology biological processes",
+        "Published gene expression studies in astrocytoma and injury-responsive astrocytes",
+        "Single-cell RNA-seq studies of astrocyte heterogeneity and cell state transitions"
+      ],
+      "notes": "Gene programs were identified through systematic review of the provided search results prioritizing recent studies of astrocyte transcriptomics (sources 3, 8, 55) and astrocytoma biology (sources 48, 73). Functional clustering was performed by identifying groups of genes sharing common biological processes, regulatory mechanisms, or cellular pathways. Programs were validated against multiple independent studies demonstrating consistent patterns of co-regulation. The significance score for each program incorporates the number of supporting genes from the input list, the number and quality of supporting citations, and the direct relevance to astrocytoma pathogenesis."
+    }
+  }
+}

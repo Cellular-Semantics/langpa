@@ -1,0 +1,56 @@
+{
+  "total_processes": 37,
+  "total_components": 25,
+  "mapped_processes": 29,
+  "mapped_components": 21,
+  "failed_mappings": [
+    {
+      "term": "Mechanotransduction and YAP signaling",
+      "type": "process"
+    },
+    {
+      "term": "RTK signaling antagonism",
+      "type": "process"
+    },
+    {
+      "term": "HMGA2-mediated stemness",
+      "type": "process"
+    },
+    {
+      "term": "ECM component synthesis and deposition",
+      "type": "process"
+    },
+    {
+      "term": "Matricellular protein signaling",
+      "type": "process"
+    },
+    {
+      "term": "Membrane-anchored proteases",
+      "type": "component"
+    },
+    {
+      "term": "Secreted matrix proteases",
+      "type": "component"
+    },
+    {
+      "term": "Lipogenic enzyme complexes",
+      "type": "component"
+    },
+    {
+      "term": "ETS transcription factor signaling",
+      "type": "process"
+    },
+    {
+      "term": "Migration-associated kinase signaling",
+      "type": "process"
+    },
+    {
+      "term": "Secreted guidance molecules",
+      "type": "component"
+    },
+    {
+      "term": "miRNA sponging and ceRNA networks",
+      "type": "process"
+    }
+  ]
+}
