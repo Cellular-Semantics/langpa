@@ -22,18 +22,22 @@ SOX10, NKX6-2, and MYRF represent the core transcriptional cascade controlling o
 
 **Atomic biological processes**
 - Transcriptional regulation of oligodendrocyte differentiation. Genes: SOX10, NKX6-2, MYRF
+  - GO: GO:0048713 (regulation of oligodendrocyte differentiation) | confidence: 0.80 | method: partial_match
   - [4]: SOX10, OLIG2, and NKX6.2 drive astrocyte-to-oligodendrocyte conversion through transcriptional reprogramming
   - [8]: NKX6-2 functions in oligodendrocyte reprogramming from fibroblasts
   - [10]: OLIG2 and NKX6-2 roles in oligodendrocyte differentiation
 - Chromatin remodeling and DNA accessibility. Genes: SOX10, VRK2, TRIM59
+  - GO: GO:0006338 (chromatin remodeling) | confidence: 0.90 | method: exact_match
   - [4]: Ascl1 SA6 enables astrocyte-to-neuron conversion through transcriptional modification, related to lineage fate control
   - [46]: Distinct transcriptomic and epigenomic responses of oligodendrocytes reflect developmental stage
 
 **Atomic cellular components**
 - Transcription factor complexes. Genes: SOX10, NKX6-2, MYRF, VRK2
+  - GO: GO:0005667 (transcription regulator complex) | confidence: 0.85 | method: partial_match
   - [4]: Ascl1 SA6 demonstrates transcriptional regulation mechanisms applicable to oligodendrocyte fate determination
   - [8]: SOX10, OLIG2, NKX6-2 form core reprogramming complex
 - Chromatin modifying enzyme complexes. Genes: TRIM2, TRIM59, VRK2
+  - GO: GO:0005677 (chromatin silencing complex) | confidence: 0.70 | method: partial_match
   - [46]: Epigenomic changes accompany oligodendrocyte differentiation
 
 **Required genes (not in input)**
@@ -63,20 +67,25 @@ MBP, PLP1, and MOG represent the three most abundant myelin proteins, collective
 
 **Atomic biological processes**
 - Myelin protein gene expression. Genes: MBP, PLP1, MOG, MOBP
+  - GO: GO:0010467 (gene expression) | confidence: 0.70 | method: partial_match
   - [2]: MBP is a major constituent of the myelin sheath and critical for myelin function
   - [9]: MBP presence in CSF indicates brain tumor development
   - [40]: PLP1 is the most abundant proteolipid in CNS myelin; mutations cause Pelizaeus-Merzbacher disease
 - Myelin protein trafficking and assembly. Genes: OPALIN, MAG, ENPP2, CNP
+  - GO: GO:0032288 (myelin assembly) | confidence: 0.80 | method: partial_match
   - [1]: Patient-derived tumoroids preserve expression of key protein markers used in tumor diagnosis
   - [4]: Myelin proteins accumulate in membrane structures during oligodendrocyte maturation
 - Myelin sheath compaction and stability. Genes: PLLP, CLDN11, MAL
+  - GO: GO:0043217 (myelin maintenance) | confidence: 0.70 | method: partial_match
   - [26]: Myelin sheath provides metabolic support and enables rapid action potential propagation
 
 **Atomic cellular components**
 - Myelin protein complexes. Genes: MBP, PLP1, MOG, MOBP, MAG, OPALIN, CNP
+  - GO: GO:0043209 (myelin sheath) | confidence: 0.80 | method: partial_match
   - [2]: MBP and related proteins form the structural foundation of myelin
   - [40]: PLP1 represents the most abundant proteolipid in CNS myelin
 - Myelin membrane domains. Genes: CLDN11, CNTNAP4, PLLP, OPALIN
+  - GO: GO:0043209 (myelin sheath) | confidence: 0.80 | method: partial_match
   - [26]: Specialized myelin domains exist including paranodal regions and compact myelin
   - [41]: OPALIN localizes to myelin paranodal and inner loop regions
 
@@ -107,23 +116,29 @@ CLDN11 and CLDND1 encode claudins that form tight junction strands critical for 
 
 **Atomic biological processes**
 - Tight junction formation and maintenance. Genes: CLDN11, CLDND1
+  - GO: GO:0120193 (tight junction organization) | confidence: 0.80 | method: partial_match
   - [11]: CLDN11 is a claudin family member and component of tight junction strands
   - [18]: Beta-catenin condensation nucleates formation of cadherin/catenin clusters forming stable adhesion sites
 - Adherens junction stabilization. Genes: CDH19, CTNNA3
+  - GO: GO:0034334 (adherens junction maintenance) | confidence: 0.90 | method: partial_match
   - [18]: Beta-catenin condensation facilitates clustering of cadherin complexes into stable adhesion sites
   - [20]: CDH1 mutations affect cell-cell adhesion through cadherin complex dysfunction
 - Cell adhesion molecule-mediated intercellular communication. Genes: CNTN2, CNTNAP4, CERCAM
+  - GO: GO:0044331 (cell-cell adhesion mediated by cadherin) | confidence: 0.70 | method: partial_match
   - [1]: Contactins contribute to cell adhesion and synaptic organization
   - [17]: CNTNAP4 functions as a cell adhesion molecule in nervous system development
 
 **Atomic cellular components**
 - Tight junction protein complexes. Genes: CLDN11, CLDND1
+  - GO: GO:0070160 (tight junction) | confidence: 0.90 | method: partial_match
   - [11]: Claudins are integral membrane proteins forming tight junction strands
   - [53]: TJP1 and CLDN5 form tight junctions in blood-brain barrier
 - Adherens junction complexes. Genes: CDH19, CTNNA3
+  - GO: GO:0005912 (adherens junction) | confidence: 0.90 | method: partial_match
   - [18]: Beta-catenin forms lateral clusters with cadherins at adherens junctions
   - [53]: CDH5 and catenins form adherens junctions in vascular endothelium
 - Extracellular matrix components supporting adhesion. Genes: EDIL3, SPOCK3, COL4A5
+  - GO: GO:0007160 (cell-matrix adhesion) | confidence: 0.70 | method: partial_match
   - [1]: EDIL3 participates in integrin-binding and cell adhesion
   - [1]: SPOCK3 proteoglycan family member contributes to cell adhesion
 
@@ -154,21 +169,27 @@ ATP1B1 represents the beta subunit of the Na+/K+ ATPase, the most energy-demandi
 
 **Atomic biological processes**
 - Sodium-potassium active transport. Genes: ATP1B1
+  - GO: GO:0006814 (sodium ion transport) | confidence: 0.70 | method: partial_match
   - [12]: ATP1B1 is the beta subunit of Na+/K+ ATPase involved in ion gradient maintenance and volume regulation in astrocytes
   - [16]: Na+/K+ ATPases consume 25% of total ATP production in the brain
 - Potassium channel-mediated conductance. Genes: KCNK1, KCNMB4
+  - GO: GO:0005267 (potassium channel activity) | confidence: 0.80 | method: partial_match
   - [1]: KCNK1 encodes a two-pore domain potassium channel contributing to background K+ conductance
   - [1]: KCNMB4 functions as accessory subunit of large-conductance calcium-activated potassium channels
 - Phospholipid metabolism supporting channel regulation. Genes: PIP4K2A, PLD1, PLAAT3
+  - GO: GO:1903725 (regulation of phospholipid metabolic process) | confidence: 0.70 | method: partial_match
   - [1]: PIP4K2A catalyzes synthesis of PIP2, a critical lipid that regulates ion channels
 
 **Atomic cellular components**
 - Na+/K+-ATPase pumps. Genes: ATP1B1, ATP8A1
+  - GO: GO:0005391 (P-type sodium:potassium-exchanging transporter activity) | confidence: 0.90 | method: partial_match
   - [12]: ATP1B1 beta subunit couples with ATP1A1 alpha subunit in Na+/K+ ATPase
   - [16]: ATP1B1 interacts with MLC1 to regulate astrocyte volume and osmotic balance
 - Voltage-gated ion channels. Genes: KCNK1, KCNMB4, PIEZO2
+  - GO: GO:0022832 (voltage-gated channel activity) | confidence: 0.90 | method: partial_match
   - [1]: KCNK1 and KCNMB4 represent functional ion channel components
 - Membrane phospholipid regulation complexes. Genes: PIP4K2A, PLD1, PLAAT3
+  - GO: GO:0061091 (regulation of phospholipid translocation) | confidence: 0.80 | method: partial_match
   - [1]: PIP4K2A and related enzymes regulate phospholipid composition
 
 **Required genes (not in input)**
@@ -197,19 +218,25 @@ SEMA4D operates as a signaling molecule influencing both axon guidance and glial
 
 **Atomic biological processes**
 - Semaphorin-mediated axon guidance and glia interactions. Genes: SEMA4D, UNC5C
+  - GO: GO:1902287 (semaphorin-plexin signaling pathway involved in axon guidance) | confidence: 0.90 | method: partial_match
   - [25]: SEMA4D functions in signaling that influences cancer cell and nerve interactions including metabolic reprogramming
 - Growth factor receptor signaling. Genes: ERBB3, FGFR2, LPAR1
+  - GO: GO:0007173 (epidermal growth factor receptor signaling pathway) | confidence: 0.80 | method: partial_match
   - [1]: ERBB3 and FGFR2 function in glial growth factor signaling
   - [50]: VEGF signaling from neurons to endothelial cells enables brain vascular development
 - RNA-binding protein-mediated translational control. Genes: LARP6, DNAJC6
+  - GO: GO:0140764 (small RNA binding translational repressor activity) | confidence: 0.70 | method: partial_match
   - [25]: LARP6 controls collagen and extracellular matrix protein expression through RNA processing
 
 **Atomic cellular components**
 - Secreted signaling molecule complexes. Genes: SEMA4D, MEGF10
+  - GO: unmapped
   - [25]: Semaphorins function as secreted or membrane-bound signaling molecules
 - Growth factor receptor complexes. Genes: ERBB3, FGFR2, LPAR1
+  - GO: unmapped
   - [1]: Receptor tyrosine kinases transduce growth factor signals
 - Chloride channel signaling complexes. Genes: BEST1
+  - GO: GO:0034707 (chloride channel complex) | confidence: 0.70 | method: partial_match
   - [1]: BEST1 encodes a chloride channel participating in cellular signaling
 
 **Required genes (not in input)**
@@ -237,20 +264,27 @@ FA2H synthesizes 2-hydroxy fatty acids essential for myelin galactocerebroside a
 
 **Atomic biological processes**
 - Synthesis of 2-hydroxy fatty acids for myelin. Genes: FA2H
+  - GO: unmapped
   - [41]: FA2H synthesizes 2-hydroxy fatty acids incorporated into myelin galactocerebroside and sulfatide
 - Cerebroside (galactosylceramide) synthesis. Genes: UGT8
+  - GO: GO:0006682 (galactosylceramide biosynthetic process) | confidence: 0.90 | method: synonym_match
   - [1]: UGT8 catalyzes cerebroside synthesis, the most abundant myelin-specific lipid
 - Very long-chain fatty acid elongation. Genes: ELOVL7, SCD
+  - GO: GO:0030497 (fatty acid elongation) | confidence: 0.80 | method: partial_match
   - [1]: ELOVL7 catalyzes elongation of very long-chain fatty acids for myelin lipid incorporation
 - Cholesterol and oxysterol trafficking. Genes: OSBPL1A
+  - GO: GO:0030301 (cholesterol transport) | confidence: 0.70 | method: partial_match
   - [1]: OSBPL1A binds cholesterol and oxysterols influencing their trafficking and metabolism
 
 **Atomic cellular components**
 - Fatty acid synthesis and modification enzymes. Genes: FA2H, SCD, ELOVL7
+  - GO: GO:0006633 (fatty acid biosynthetic process) | confidence: 0.80 | method: partial_match
   - [41]: Multiple enzymes coordinate myelin lipid synthesis
 - Glycosphingolipid synthesis complexes. Genes: UGT8, ST6GALNAC3
+  - GO: GO:0006688 (glycosphingolipid biosynthetic process) | confidence: 0.90 | method: partial_match
   - [1]: UGT8 catalyzes cerebroside synthesis in Golgi apparatus
 - Lipid trafficking and binding proteins. Genes: OSBPL1A, ABCA2, ABCA6, ABCA8
+  - GO: GO:0008289 (lipid binding) | confidence: 0.70 | method: partial_match
   - [1]: OSBPL1A and related lipid binding proteins regulate cholesterol and oxysterol transport
   - [45]: Astrocyte sphingolipid metabolism changes in neurodegenerative diseases
 
@@ -279,21 +313,27 @@ Activated astrocytes engage in diverse metabolic processes beyond glycolysis inc
 
 **Atomic biological processes**
 - Aerobic and anaerobic energy metabolism. Genes: ATP1B1, ENO4
+  - GO: GO:0006112 (energy reserve metabolic process) | confidence: 0.70 | method: partial_match
   - [16]: Activated astrocytes engage in TCA cycle activity, glycogenolysis, and pyruvate carboxylation in addition to glycolysis
   - [15]: Targeting oxidative phosphorylation and glycolysis represents resistance mechanism to anti-CSF-1R therapy in glioblastoma
 - Glycogen metabolism and glucose utilization. Genes: ATP1B1, TPPP
+  - GO: GO:0005977 (glycogen metabolic process) | confidence: 0.80 | method: partial_match
   - [16]: Activated astrocytes engage in glycogenolysis to provide substrates for energy and metabolic processes
 - Inflammatory signaling and metabolic adaptation. Genes: IL1RAPL1, TNF
+  - GO: GO:0006954 (inflammatory response) | confidence: 0.60 | method: partial_match
   - [22]: Acute astrocytic response includes upregulation of pro-inflammatory pathways and metabolic stress responses
   - [34]: Reactive astrocytes show sustained activation with transcriptional signatures reflecting pro-inflammatory and metabolic stress
 
 **Atomic cellular components**
 - ATP synthesis and energy coupling complexes. Genes: ATP1B1, ATP8A1, ENO4
+  - GO: GO:0042773 (ATP synthesis coupled electron transport) | confidence: 0.90 | method: partial_match
   - [15]: Oxidative phosphorylation complexes represent therapeutic target in glioblastoma
   - [16]: Na+/K+ ATPase couples active ion transport with ATP consumption
 - Metabolic regulatory enzyme complexes. Genes: ENO4, CBR1
+  - GO: GO:0150005 (enzyme activator complex) | confidence: 0.70 | method: partial_match
   - [27]: Protein synthesis regulation through eEF2K controls energy expenditure during translation
 - Stress response and inflammatory signaling complexes. Genes: IL1RAPL1, HSPA2
+  - GO: GO:0140467 (integrated stress response signaling) | confidence: 0.80 | method: partial_match
   - [22]: Inflammatory pathway activation accompanies metabolic stress in reactive astrocytes
 
 **Required genes (not in input)**
@@ -322,20 +362,26 @@ SOX10, NKX6-2, and MYRF represent the core transcriptional cascade regulating ol
 
 **Atomic biological processes**
 - Pioneer transcription factor-mediated chromatin opening. Genes: SOX10, NKX6-2
+  - GO: GO:0140673 (transcription elongation-coupled chromatin remodeling) | confidence: 0.70 | method: partial_match
   - [4]: Ascl1 SA6 demonstrates transcriptional mechanisms in glial lineage specification through chromatin remodeling
   - [46]: SOX10 functions as pioneer transcription factor opening chromatin at oligodendrocyte-specific loci
 - Transcriptional control of myelin protein synthesis. Genes: MYRF, SOX10, NKX6-2
+  - GO: GO:0043217 (myelin maintenance) | confidence: 0.50 | method: partial_match
   - [4]: Transcriptional regulators coordinately activate myelin protein genes
   - [41]: Ascl1 SA6 demonstrates transcriptional conversion of astrocytes
 - Ubiquitin-mediated protein degradation affecting transcriptional regulation. Genes: TRIM2, TRIM59
+  - GO: GO:0043161 (proteasome-mediated ubiquitin-dependent protein catabolic process) | confidence: 0.70 | method: partial_match
   - [1]: E3 ubiquitin ligases regulate transcription factor stability and activity
 
 **Atomic cellular components**
 - Transcription factor complexes. Genes: SOX10, NKX6-2, MYRF, VRK2
+  - GO: GO:0005667 (transcription regulator complex) | confidence: 0.90 | method: partial_match
   - [46]: SOX and homeodomain factors form cooperating transcription factor networks
 - Chromatin modifying enzyme complexes. Genes: TRIM2, TRIM59, VRK2
+  - GO: GO:0140993 (histone modifying activity) | confidence: 0.80 | method: partial_match
   - [46]: Epigenomic changes accompany oligodendrocyte specification
 - Protein kinase signaling complexes. Genes: VRK2
+  - GO: GO:0070528 (protein kinase C signaling) | confidence: 0.70 | method: partial_match
   - [1]: VRK2 phosphorylates transcription factors modifying their activity
 
 **Required genes (not in input)**
