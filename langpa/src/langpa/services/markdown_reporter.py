@@ -159,6 +159,21 @@ class MarkdownReportGenerator:
                 genes = term.get("genes") or []
                 genes_part = f" Genes: {', '.join(genes)}" if genes else ""
                 lines.append(f"- {name}.{genes_part}")
+
+                # Render GO term mapping if available
+                ontology_id = term.get("ontology_id")
+                if ontology_id:
+                    ontology_label = term.get("ontology_label", "N/A")
+                    ontology_source = term.get("ontology_source", "GO")
+                    confidence = term.get("confidence", 0.0)
+                    method = term.get("mapping_method", "unknown")
+                    lines.append(
+                        f"  - GO: {ontology_id} ({ontology_label}) | "
+                        f"confidence: {confidence:.2f} | method: {method}"
+                    )
+                else:
+                    lines.append("  - GO: unmapped")
+
                 citations = term.get("citations") or []
                 for citation in citations:
                     sid = citation.get("source_id")

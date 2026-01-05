@@ -57,6 +57,10 @@ class QueryData:
         num_genes_covered: Number of genes covered by programs
         programs: List of program summaries
         runs: List of run data
+        go_processes_total: Total number of biological processes
+        go_processes_mapped: Number of processes mapped to GO terms
+        go_components_total: Total number of cellular components
+        go_components_mapped: Number of components mapped to GO terms
     """
 
     query_name: str
@@ -65,6 +69,10 @@ class QueryData:
     num_genes_covered: int
     programs: list[ProgramSummary] = field(default_factory=list)
     runs: list[RunData] = field(default_factory=list)
+    go_processes_total: int = 0
+    go_processes_mapped: int = 0
+    go_components_total: int = 0
+    go_components_mapped: int = 0
 
 
 @dataclass
@@ -143,16 +151,20 @@ def collect_project_data(project_dir: Path) -> ProjectData:
             if not run_dir.is_dir():
                 continue
 
-            # Look for deepsearch_structured.json
+            # Look for deepsearch_structured_enriched.json first, fallback to deepsearch_structured.json
+            enriched_path = run_dir / "deepsearch_structured_enriched.json"
             structured_path = run_dir / "deepsearch_structured.json"
             container_path = run_dir / "deepsearch_container.md"
 
-            if not structured_path.exists():
+            # Prefer enriched if it exists
+            data_path = enriched_path if enriched_path.exists() else structured_path
+
+            if not data_path.exists():
                 continue
 
             try:
                 # Parse structured JSON
-                with open(structured_path) as f:
+                with open(data_path) as f:
                     data = json.load(f)
 
                 # Extract timestamp
@@ -239,6 +251,44 @@ def collect_project_data(project_dir: Path) -> ProjectData:
             covered_genes.update(prog_data["genes"])
         num_genes_covered = len(covered_genes & all_input_genes)
 
+        # Calculate GO term coverage from most recent run
+        go_processes_total = 0
+        go_processes_mapped = 0
+        go_components_total = 0
+        go_components_mapped = 0
+
+        if runs:
+            # Get most recent run's data
+            most_recent_run = runs[-1]
+            try:
+                # Try enriched first, fallback to structured
+                enriched_path = most_recent_run.run_dir / "deepsearch_structured_enriched.json"
+                structured_path = most_recent_run.run_dir / "deepsearch_structured.json"
+                data_path = enriched_path if enriched_path.exists() else structured_path
+
+                with open(data_path) as f:
+                    data = json.load(f)
+
+                # Extract structured_data (could be at top level or nested)
+                structured_data = data.get("structured_data", data)
+
+                # Aggregate atomic terms from all programs
+                programs_for_go = structured_data.get("programs", [])
+                for program in programs_for_go:
+                    # Count biological processes
+                    processes = program.get("atomic_biological_processes", [])
+                    go_processes_total += len(processes)
+                    go_processes_mapped += sum(1 for p in processes if p.get("ontology_id"))
+
+                    # Count cellular components
+                    components = program.get("atomic_cellular_components", [])
+                    go_components_total += len(components)
+                    go_components_mapped += sum(1 for c in components if c.get("ontology_id"))
+
+            except (json.JSONDecodeError, KeyError, FileNotFoundError):
+                # If we can't read the file, leave counts at 0
+                pass
+
         # Create query data
         query_data = QueryData(
             query_name=query_name,
@@ -247,6 +297,10 @@ def collect_project_data(project_dir: Path) -> ProjectData:
             num_genes_covered=num_genes_covered,
             programs=programs,
             runs=runs,
+            go_processes_total=go_processes_total,
+            go_processes_mapped=go_processes_mapped,
+            go_components_total=go_components_total,
+            go_components_mapped=go_components_mapped,
         )
         queries.append(query_data)
 
@@ -319,6 +373,21 @@ def format_readme_markdown(project_data: ProjectData) -> str:
             f"{query.num_genes_covered} covered by programs ({coverage_pct}%)"
         )
         lines.append("")
+
+        # GO term coverage
+        if query.go_processes_total > 0 or query.go_components_total > 0:
+            lines.append("**GO Term Coverage**")
+            if query.go_processes_total > 0:
+                proc_pct = round(100 * query.go_processes_mapped / query.go_processes_total)
+                lines.append(
+                    f"- Biological processes: {query.go_processes_mapped}/{query.go_processes_total} ({proc_pct}%)"
+                )
+            if query.go_components_total > 0:
+                comp_pct = round(100 * query.go_components_mapped / query.go_components_total)
+                lines.append(
+                    f"- Cellular components: {query.go_components_mapped}/{query.go_components_total} ({comp_pct}%)"
+                )
+            lines.append("")
 
         # Programs section in details fold
         if query.programs:
